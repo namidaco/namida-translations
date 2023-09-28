@@ -256,6 +256,7 @@
   "MATCH_ALL_TRACKS": "Match All Tracks",
   "MATCH_ALL_TRACKS_NOTE": "this can have an impact on the matching speed, as it will check all tracks in your library",
   "MAXIMUM": "Maximum",
+  "MAX_VIDEO_CACHE_SIZE": "Max video cache size",
   "METADATA_CACHE": "Metadata Cache",
   "METADATA_EDIT_FAILED": "Failed to edit metadata",
   "METADATA_EDIT_FAILED_SUBTITLE": "Consider resetting SAF permission in the settings",
