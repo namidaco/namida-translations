@@ -580,7 +580,7 @@
   "VIDEO_PLAYBACK_SOURCE_AUTO_SUBTITLE": "Приоритет будет отдан видео на устройстве, если оно не найдено, то будет получено с YouTube",
   "VIDEO_PLAYBACK_SOURCE_LOCAL": "Видео на устройстве",
   "VIDEO_PLAYBACK_SOURCE_LOCAL_EXAMPLE": "Пример",
-  "VIDEO_PLAYBACK_SOURCE_LOCAL_EXAMPLE_SUBTITLE": "Alan Walker - Faded.m4a\nVideo Alan Walker - Faded (480p).mp4",
+  "VIDEO_PLAYBACK_SOURCE_LOCAL_EXAMPLE_SUBTITLE": "SHAMAN - Я РУССКИЙ.m4a\nВидео SHAMAN - Я РУССКИЙ (480p).mp4",
   "VIDEO_PLAYBACK_SOURCE_LOCAL_SUBTITLE": "Проверяет, не имеет ли какой-либо видеофайл (найденный в списке выбранных папок) имя файла, содержащее название трека",
   "VIDEO_PLAYBACK_SOURCE_YOUTUBE": "С YouTube",
   "VIDEO_PLAYBACK_SOURCE_YOUTUBE_SUBTITLE": "Проверяет имя файла и комментарий к треку на наличие подходящей ссылки на YouTube, видео кэшируется для последующего использования.",
