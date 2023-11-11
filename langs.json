@@ -9,4 +9,9 @@
     "name": "Russian",
     "country": "Russia"
   }
+  {
+    "code": "it_IT",
+    "name": "Italian",
+    "country": "Italy"
+  }
 ]
