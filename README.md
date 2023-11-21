@@ -29,7 +29,8 @@
 By translating, you are implying that you are a nice, great and specialito person, this will be helping the project a lot, thank you so much !
 
 ## kawaii translators:
-| Language | Country | Contributers | Translation |
-|----------|---------|--------------|-------------|
-| English  | United States | [@MSOB7YY](https://github.com/MSOB7YY) | [`en_US.json`](.translations/en_US.json)
-| Russian  | Russia | [@sodiel](https://github.com/sodiel), [@Lowara1243](https://github.com/Lowara1243) | [`ru_RU.json`](.translations/ru_RU.json)
+| Language | Country       | Contributers                                                                       | Translation                              |
+|----------|---------------|------------------------------------------------------------------------------------|------------------------------------------|
+| English  | United States | [@MSOB7YY](https://github.com/MSOB7YY)                                             | [`en_US.json`](.translations/en_US.json) |
+| Russian  | Russia        | [@sodiel](https://github.com/sodiel), [@Lowara1243](https://github.com/Lowara1243) | [`ru_RU.json`](.translations/ru_RU.json) |
+| German   | Germany       | [@DasIschBims](https://github.com/DasIschBims)                                     | [`ru_RU.json`](.translations/de_DE.json) |
