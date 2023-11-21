@@ -33,4 +33,4 @@ By translating, you are implying that you are a nice, great and specialito perso
 |----------|---------------|------------------------------------------------------------------------------------|------------------------------------------|
 | English  | United States | [@MSOB7YY](https://github.com/MSOB7YY)                                             | [`en_US.json`](.translations/en_US.json) |
 | Russian  | Russia        | [@sodiel](https://github.com/sodiel), [@Lowara1243](https://github.com/Lowara1243) | [`ru_RU.json`](.translations/ru_RU.json) |
-| German   | Germany       | [@DasIschBims](https://github.com/DasIschBims)                                     | [`ru_RU.json`](.translations/de_DE.json) |
+| German   | Germany       | [@DasIschBims](https://github.com/DasIschBims)                                     | [`de_DE.json`](.translations/de_DE.json) |
