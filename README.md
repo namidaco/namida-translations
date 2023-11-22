@@ -21,7 +21,7 @@
   ```
 5. create a new file inside `translations` with the same code name 
    - for example: `ja_JP.json`
-   - to know your local code, please refer to [language codes](https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=overview-locales-code-pages-supported)
+   - to know your local code, please refer to [language codes](https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=overview-locales-code-pages-supported) or [languade codes list](https://saimana.com/list-of-country-locale-code/)
 6. Copy the keys from `en_US.json` & start translating
 7. 🎉 good job ! now commit and push and open a pull request
 
