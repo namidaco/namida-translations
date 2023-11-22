@@ -8,5 +8,10 @@
     "code": "ru_RU",
     "name": "Russian",
     "country": "Russia"
+  },
+  {
+    "code": "de_DE",
+    "name": "German",
+    "country": "Germany"
   }
 ]
