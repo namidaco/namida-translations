@@ -8,10 +8,15 @@
     "code": "ru_RU",
     "name": "Russian",
     "country": "Russia"
-  }
+  },
   {
     "code": "it_IT",
     "name": "Italian",
     "country": "Italy"
+  },
+  {
+    "code": "hi_IN",
+    "name": "Hindi",
+    "country": "India"
   }
 ]
