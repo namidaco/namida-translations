@@ -8,5 +8,10 @@
     "code": "ru_RU",
     "name": "Russian",
     "country": "Russia"
+  },
+  {
+    "code": "hi_IN",
+    "name": "Hindi",
+    "country": "India"
   }
 ]
