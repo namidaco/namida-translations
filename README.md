@@ -21,7 +21,7 @@
   ```
 5. create a new file inside `translations` with the same code name 
    - for example: `ja_JP.json`
-   - to know your local code, please refer to [language codes](https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=overview-locales-code-pages-supported)
+   - to know your local code, please refer to [language codes](https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=overview-locales-code-pages-supported) or [languade codes list](https://saimana.com/list-of-country-locale-code/)
 6. Copy the keys from `en_US.json` & start translating
 7. 🎉 good job ! now commit and push and open a pull request
 
@@ -33,3 +33,5 @@ By translating, you are implying that you are a nice, great and specialito perso
 |----------|---------|--------------|-------------|
 | English  | United States | [@MSOB7YY](https://github.com/MSOB7YY) | [`en_US.json`](.translations/en_US.json)
 | Russian  | Russia | [@sodiel](https://github.com/sodiel), [@Lowara1243](https://github.com/Lowara1243) | [`ru_RU.json`](.translations/ru_RU.json)
+| Italian  | Italy | [@LegendaryITA](https://github.com/LegendaryITA) | [`it_IT.json`](.translations/it_IT.json)
+| Hindi  | India | [@Debu72](https://github.com/Debu72) | [`hi_IN.json`](.translations/hi_IN.json)
