@@ -18,5 +18,20 @@
     "code": "hi_IN",
     "name": "Hindi",
     "country": "India"
-  }
+  },
+  {
+    "code": "es_CO",
+    "name": "Español",
+    "country": "Colombia"
+  },
+  {
+    "code": "he",
+    "name": "עברית",
+    "country": "ישראל"
+  },
+  {
+    "code": "zh_Hant",
+    "name": "中文",
+    "country": "中國"
+  }  
 ]
