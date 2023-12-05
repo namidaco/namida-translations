@@ -18,5 +18,10 @@
     "code": "hi_IN",
     "name": "Hindi",
     "country": "India"
-  }
+  },
+  {
+    "code": "vi_VN",
+    "name": "Vietnamese",
+    "country": "Vietnam"
+  },
 ]
