@@ -312,7 +312,7 @@
   "MATCH_ALL_TRACKS_NOTE": "Điều này có thể ảnh hưởng đến tốc độ trùng khớp vì nó sẽ kiểm tra tất cả các bản nhạc trong thư viện của bạn",
   "MAXIMUM": "Tối đa",
   "MAX_IMAGE_CACHE_SIZE": "Kích thước bộ nhớ đệm hình ảnh tối đa",
-  "MAX_VIDEO_CACHE_SIZE": "Kích thước bộ nhớ đêm Video tối đa",
+  "MAX_VIDEO_CACHE_SIZE": "Kích thước bộ nhớ đệm Video tối đa",
   "METADATA_CACHE": "Bộ nhớ đệm Siêu dữ liệu",
   "METADATA_EDIT_FAILED": "Không thể chỉnh sửa siêu dữ liệu",
   "METADATA_READ_FAILED": "Không đọc được siêu dữ liệu",
