@@ -231,7 +231,7 @@
   "FORCE_MINIPLAYER_FOLLOW_TRACK_COLORS": "Buộc trình phát thu nhỏ tuân theo màu sắc của bản nhạc",
   "FORCE_SQUARED_ALBUM_THUMBNAIL": "Force Squared Album Thumbnail",
   "FORCE_SQUARED_THUMBNAIL_NOTE": "Kích thước hình thu nhỏ & Chiều cao ô KHÔNG bằng nhau, Giao diện hình vuông sẽ không như mong đợi, Bạn có muốn làm cho chúng bằng nhau không?",
-  "FORCE_SQUARED_TRACK_THUMBNAIL": "Force Squared Track Thumbnail",
+  "FORCE_SQUARED_TRACK_THUMBNAIL": "Buộc hình thủ nhỏ của bài hát phải vuông góc",
   "FORCE_STOP_COLOR_PALETTE_GENERATION": "Buộc ngừng trích xuất bảng màu ? bạn vẫn có thể tiếp tục nó sau",
   "FORMAT": "Định dạng",
   "GENERATE": "Generate",
