@@ -8,5 +8,10 @@
     "code": "ru_RU",
     "name": "Russian",
     "country": "Russia"
+  },
+  {
+    "code": "esp_ESP",
+    "name": "Spanish",
+    "country": "Latin America"
   }
 ]
