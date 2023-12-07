@@ -425,7 +425,7 @@
   "PRIORITIZE_EMBEDDED_LYRICS": "Ưu tiên lời bài hát được nhúng",
   "PROGRESS": "Tiến độ",
   "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ new files has been found & _DELETED_FILES_ was deleted or filtered, wanna do a refresh?",
-  "PROMPT_TO_CHANGE_TRACK_PATH": Thông thường điều này xảy ra khi bạn xóa/di chuyển/đổi tên tệp bên ngoài Namida. Bạn có muốn cập nhật đường dẫn hiện tại không?",
+  "PROMPT_TO_CHANGE_TRACK_PATH": "Thông thường điều này xảy ra khi bạn xóa/di chuyển/đổi tên tệp bên ngoài Namida. Bạn có muốn cập nhật đường dẫn hiện tại không?",
   "QUEUE": "Hàng đợi",
   "QUEUES": "Hàng đợi",
   "RANDOM": "Ngẫu nhiên",
