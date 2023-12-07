@@ -266,7 +266,7 @@
   "IMPORT_LAST_FM_HISTORY_GUIDE": "1. Đi tới _LASTFM_CSV_LINK_\n\n2. Nhập tên tài khoản, tìm nạp và tải xuống tệp csv.\n\n3. Chọn tệp tin từ màn hình tiếp theo.",
   "IMPORT_TIME_RANGE": "Nhập phạm vi thời gian",
   "IMPORT_YOUTUBE_HISTORY": "Nhập lịch sử Youtube",
-  "IMPORT_YOUTUBE_HISTORY_GUIDE": "1. Đi tới _TAKEOUT_LINK_\n\n2. Nhấn \"Multiple Formats\" và bên cạnh \"History\" chọn \"JSON\".\n\n3. nhấn \"All Youtube data included\", Bỏ chọn Tất cả và chỉ chọn lịch sử.\n\n4. Tạo bản xuất, Tải xuống và giải nén.\n\n5. Chọn \"watch-history.json\" từ màn hình tiếp theo.",
+  "IMPORT_YOUTUBE_HISTORY_GUIDE": "1. Đi tới _TAKEOUT_LINK_\n\n2. Nhấn \"Nhiều định dạng\" và bên cạnh \"Lịch sử\" chọn \"JSON\".\n\n3. nhấn \"Bao gồm tất cả dữ liệu trên Youtube\", Bỏ chọn Tất cả và chỉ chọn lịch sử.\n\n4. Tạo bản xuất, Tải xuống và giải nén.\n\n5. Chọn \"watch-history.json\" từ màn hình tiếp theo.",
   "INDEXER": "Lập chỉ mục",
   "INDEXER_NOTE": "Lưu ý: Số lượng bìa không đầy đủ đề cập đến bìa trùng lặp và không tìm thấy",
   "INDEXER_SUBTITLE": "Quản lý thư viện Âm Nhạc",
