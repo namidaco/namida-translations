@@ -262,6 +262,8 @@
   "IGNORE_BATTERY_OPTIMIZATIONS_SUBTITLE": "Downloads can be throttled when the app is battery restricted",
   "IMMERSIVE_MODE": "Immersive Mode",
   "IMMERSIVE_MODE_SUBTITLE": "Hide Status & Navigation bars while Miniplayer is expanded",
+  "IMPORT": "Import",
+  "IMPORTED_N_CHANNELS_SUCCESSFULLY": "Imported _NUM_ channels successfully",
   "IMPORT_ALL": "Import all",
   "IMPORT_LAST_FM_HISTORY": "Import LastFm History",
   "IMPORT_LAST_FM_HISTORY_GUIDE": "1. Go to _LASTFM_CSV_LINK_\n\n2. Type your username, fetch and download csv file.\n\n3. Choose the file from the next screen.",

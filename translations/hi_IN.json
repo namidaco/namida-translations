@@ -262,6 +262,8 @@
   "IGNORE_BATTERY_OPTIMIZATIONS_SUBTITLE": "जब ऐप बैटरी प्रतिबंधित होती है तो डाउनलोड को कम किया जा सकता है",
   "IMMERSIVE_MODE": "इमर्सिव मोड",
   "IMMERSIVE_MODE_SUBTITLE": "Miniplayer के विस्तारित होने पर स्टेटस और नेविगेशन बार छुपाएं",
+  "IMPORT": "Import",
+  "IMPORTED_N_CHANNELS_SUCCESSFULLY": "Imported _NUM_ channels successfully",
   "IMPORT_ALL": "सभी आयात करें",
   "IMPORT_LAST_FM_HISTORY": "लस्ट एफएम इतिहास आयात करें",
   "IMPORT_LAST_FM_HISTORY_GUIDE": "1. LASTFM_CSV_LINK पर जाएं\n\n2. अपना उपयोगकर्ता नाम टाइप करें, फ़ेच करें और csv फ़ाइल डाउनलोड करें।\n\n3. अगली स्क्रीन से फ़ाइल चुनें।",
