@@ -264,6 +264,7 @@
   "IMMERSIVE_MODE_SUBTITLE": "Скрывает статусную и навигационную панели при развернутом миниплеере",
   "IMPORT": "Import",
   "IMPORTED_N_CHANNELS_SUCCESSFULLY": "Imported _NUM_ channels successfully",
+  "IMPORTED_N_PLAYLISTS_SUCCESSFULLY": "Imported _NUM_ playlists successfully",
   "IMPORT_ALL": "Импортировать всё",
   "IMPORT_LAST_FM_HISTORY": "Импорт истории LastFm",
   "IMPORT_LAST_FM_HISTORY_GUIDE": "1. Перейдите на страницу _LASTFM_CSV_LINK_\n\n2. Введите своё имя пользователя, получите и загрузите csv-файл.\n\n3. Выберите файл на следующем экране.",
