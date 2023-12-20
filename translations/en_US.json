@@ -426,7 +426,7 @@
   "PREVIEW": "Preview",
   "PRIORITIZE_EMBEDDED_LYRICS": "Prioritize embedded lyrics",
   "PROGRESS": "Progress",
-  "PLAY_AFTER_NEXT_PREVPROMPT_INDEXING_REFRESH": "_NEW_FILES_ new files has been found & _DELETED_FILES_ was deleted or filtered, wanna do a refresh?",
+  "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ new files has been found & _DELETED_FILES_ was deleted or filtered, wanna do a refresh?",
   "PROMPT_TO_CHANGE_TRACK_PATH": "Usually this happens when u delete/move/rename the file outside namida, Would you like to update current path?",
   "QUEUE": "Queue",
   "QUEUES": "Queues",
