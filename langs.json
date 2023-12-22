@@ -18,5 +18,11 @@
     "code": "hi_IN",
     "name": "Hindi",
     "country": "India"
+  },
+  {
+    "code": "tr_TR",
+    "name": "Turkish",
+    "country": "Türkiye"
   }
 ]
+
