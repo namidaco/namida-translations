@@ -18,5 +18,10 @@
     "code": "hi_IN",
     "name": "Hindi",
     "country": "India"
+  },
+  {
+    "code": "pl_PL",
+    "name": "Polish",
+    "country": "Poland"
   }
 ]
