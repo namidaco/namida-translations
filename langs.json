@@ -20,6 +20,11 @@
     "country": "India"
   },
   {
+    "code": "tr_TR",
+    "name": "Turkish",
+    "country": "Türkiye"
+  },
+  {
     "code": "es_CO",
     "name": "Español",
     "country": "Colombia"
