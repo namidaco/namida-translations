@@ -25,11 +25,6 @@
     "country": "Colombia"
   },
   {
-    "code": "he-IL",
-    "name": "עברית",
-    "country": "ישראל"
-  },
-  {
     "code": "zh_Hant",
     "name": "繁體中文",
     "country": "台灣"
@@ -39,7 +34,7 @@
     "name": "简体中文",
     "country": "中国"
   },
-
+  {
     "code": "fa_IR",
     "name": "Persian",
     "country": "Iran"
