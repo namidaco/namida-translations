@@ -18,10 +18,15 @@
     "code": "hi_IN",
     "name": "Hindi",
     "country": "India"
-    },
+  },
   {
     "code": "fa_IR",
     "name": "Persian",
     "country": "Iran"
+  },
+  {
+    "code": "vi_VN",
+    "name": "Vietnamese",
+    "country": "Vietnam"
   }
 ]
