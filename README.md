@@ -28,6 +28,8 @@
 ### Specialito:
 By translating, you are implying that you are a nice, great and specialito person, this will be helping the project a lot, thank you so much !
 
+
+=======
 ## kawaii translators:
 | Language | Country | Contributers | Translation |
 |----------|---------|--------------|-------------|
@@ -35,3 +37,4 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Hindi  | India | [@Debu72](https://github.com/Debu72) | [`hi_IN.json`](translations/hi_IN.json)
 | Italian  | Italy | [@LegendaryITA](https://github.com/LegendaryITA) | [`it_IT.json`](translations/it_IT.json)
 | Russian  | Russia | [@sodiel](https://github.com/sodiel), [@Lowara1243](https://github.com/Lowara1243), [@VerySweetBread](https://github.com/VerySweetBread) | [`ru_RU.json`](translations/ru_RU.json)
+
