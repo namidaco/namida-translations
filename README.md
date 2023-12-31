@@ -34,7 +34,7 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Language | Country | Contributers | Translation |
 |----------|---------|--------------|-------------|
 | English  | United States | [@MSOB7YY](https://github.com/MSOB7YY) | [`en_US.json`](translations/en_US.json)
-| Español  | Spain | [@xqsart](https://github.com/xqsart) | [`es_CO.json`](translations/es_CO.json)
+| Español  | Colombia | [@xqsart](https://github.com/xqsart) | [`es_CO.json`](translations/es_CO.json)
 | Hindi  | India | [@Debu72](https://github.com/Debu72) | [`hi_IN.json`](translations/hi_IN.json)
 | Italian  | Italy | [@LegendaryITA](https://github.com/LegendaryITA) | [`it_IT.json`](translations/it_IT.json)
 | Persian  | Iran | [@Stamili](https://github.com/Stamili) | [`fa_IR.json`](translations/fa_IR.json)
