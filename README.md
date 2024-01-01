@@ -29,7 +29,6 @@
 By translating, you are implying that you are a nice, great and specialito person, this will be helping the project a lot, thank you so much !
 
 
-=======
 ## kawaii translators:
 | Language | Country | Contributers | Translation |
 |----------|---------|--------------|-------------|
@@ -38,6 +37,7 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Hindi  | India | [@Debu72](https://github.com/Debu72) | [`hi_IN.json`](translations/hi_IN.json)
 | Italian  | Italy | [@LegendaryITA](https://github.com/LegendaryITA) | [`it_IT.json`](translations/it_IT.json)
 | Persian  | Iran | [@Stamili](https://github.com/Stamili) | [`fa_IR.json`](translations/fa_IR.json)
+| Português  | Brasil | [@mbdpym](https://github.com/mbdpym) | [`pt_BR.json`](translations/pt_BR.json)
 | Russian  | Russia | [@sodiel](https://github.com/sodiel), [@Lowara1243](https://github.com/Lowara1243), [@VerySweetBread](https://github.com/VerySweetBread) | [`ru_RU.json`](translations/ru_RU.json)
 | Turkish  | Turkey | [@jericho909](https://github.com/jericho909) | [`tr_TR.json`](translations/tr_TR.json)
 | Vietnamese  | Vietnam | [@KaieTaniya 🌺](https://github.com/KaieTaniya) | [`vi_VN.json`](translations/vi_VN.json)
