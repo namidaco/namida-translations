@@ -49,4 +49,9 @@
     "name": "简体中文",
     "country": "中国"
   }
+  {
+    "code": "pt_BR",
+    "name": "Português (Brasil)",
+    "country": "Brasil"
+  }
 ]
