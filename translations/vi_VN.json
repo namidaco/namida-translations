@@ -596,7 +596,7 @@
   "USE_COLLAPSED_SETTING_TILES": "Sử dụng ô cài đặt thu gọn",
   "USE_MEDIA_STORE": "Sử dụng kho phương tiện",
   "USE_MEDIA_STORE_SUBTITLE": "✓ thời gian lập chỉ mục ngay lập tức\nx chú ý .nomedia sẽ được kích hoạt bắt buộc\nx một số thẻ siêu dữ liệu sẽ bị thiếu\nx tích hợp Youtube cho thư viện cục bộ sẽ không hoạt động",
-  "USE_PITCH_BLACK": "Sử dụng màu đen cực tối",
+  "USE_PITCH_BLACK": "Sử dụng nền đen cực tối",
   "USE_PITCH_BLACK_SUBTITLE": "Hữu ích cho màn hình AMOLED.. và trông ngầu hơn",
   "VALUE": "Giá trị",
   "VALUE_BETWEEN_50_200": "Giá trị nên nằm trong khoảng từ 50% đến 200%",
