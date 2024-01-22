@@ -91,6 +91,7 @@
   "CONFIGURE": "Configure",
   "CONFIRM": "Confirm",
   "COPIED_ARTWORK": "Copied Artwork",
+  "COPIED_TO_CLIPBOARD": "Copied to Clipboard",
   "COPY": "Copy",
   "CORRUPTED_FILE": "Couldn't parse file, it might be corrupted",
   "COULDNT_OPEN": "Couldn't open :(",
