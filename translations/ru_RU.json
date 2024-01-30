@@ -434,6 +434,8 @@
   "PREVENT_DUPLICATED_TRACKS": "Предотвращать дублирование треков",
   "PREVENT_DUPLICATED_TRACKS_SUBTITLE": "Использует имя файла для однозначной идентификации треков",
   "PREVIEW": "Предпросмотр",
+  "PREVIOUS_BUTTON_REPLAYS": "Previous button replays",
+  "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "if pressed while current position was more than seek duration",
   "PRIORITIZE_EMBEDDED_LYRICS": "Приоритетизировать встроенный текст песни",
   "PROGRESS": "Прогресс",
   "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ были найдены новые файлы, а _DELETED_FILES_ были удалены или отфильтрованы, хочешь обновить?",

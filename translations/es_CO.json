@@ -429,6 +429,8 @@
   "PREVENT_DUPLICATED_TRACKS": "Evitar pistas duplicadas",
   "PREVENT_DUPLICATED_TRACKS_SUBTITLE": "Utiliza el nombre del archivo para identificar pistas de forma única",
   "PREVIEW": "Avance",
+  "PREVIOUS_BUTTON_REPLAYS": "Previous button replays",
+  "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "if pressed while current position was more than seek duration",
   "PRIORITIZE_EMBEDDED_LYRICS": "Priorizar letras incrustadas",
   "PROGRESS": "Progreso",
   "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ se encontraron archivos nuevos y _DELETED_FILES_ se eliminó o filtró, ¿quieres actualizar?",

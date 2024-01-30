@@ -431,6 +431,8 @@
   "PREVENT_DUPLICATED_TRACKS": "جلوگیری از آهنگ های یکسان",
   "PREVENT_DUPLICATED_TRACKS_SUBTITLE": "از نام آهنگ جهت تشخیص منحصر به فرد آهنگ ها استفاده میکند",
   "PREVIEW": "پیش نمایش",
+  "PREVIOUS_BUTTON_REPLAYS": "Previous button replays",
+  "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "if pressed while current position was more than seek duration",
   "PRIORITIZE_EMBEDDED_LYRICS": "به نمایش متن های درون خود فایل آهنگ اولویت بده",
   "PROGRESS": "پیشرفت",
   "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ فایل جدید پیدا شد و _DELETED_FILES_ حذف یا مرتب شد، میخوای بروزرسانی کنی؟",

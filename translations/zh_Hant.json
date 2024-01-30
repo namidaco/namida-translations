@@ -429,6 +429,8 @@
   "PREVENT_DUPLICATED_TRACKS": "防止重複曲目",
   "PREVENT_DUPLICATED_TRACKS_SUBTITLE": "使用檔案名稱來唯一識別曲目",
   "PREVIEW": "預覽",
+  "PREVIOUS_BUTTON_REPLAYS": "Previous button replays",
+  "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "if pressed while current position was more than seek duration",
   "PRIORITIZE_EMBEDDED_LYRICS": "優先考慮嵌入歌詞",
   "PROGRESS": "進步",
   "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ 已找到新檔案且 _DELETED_FILES_ 已被刪除或過濾,想要刷新嗎?",

@@ -434,6 +434,8 @@
   "PREVENT_DUPLICATED_TRACKS": "डुप्लिकेट ट्रैक को रोकें",
   "PREVENT_DUPLICATED_TRACKS_SUBTITLE": "ट्रैक को विशिष्ट रूप से पहचानने के लिए फ़ाइलनाम का उपयोग करता है",
   "PREVIEW": "पूर्वावलोकन",
+  "PREVIOUS_BUTTON_REPLAYS": "Previous button replays",
+  "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "if pressed while current position was more than seek duration",
   "PRIORITIZE_EMBEDDED_LYRICS": "एम्बेडेड गीतों को प्राथमिकता दें",
   "PROGRESS": "प्रगति",
   "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ नई फ़ाइलें मिली हैं और _DELETED_FILES_ हटा दी गई थीं या फ़िल्टर की गई थीं, क्या आप रीफ़्रेश करना चाहते हैं?",

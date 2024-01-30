@@ -434,6 +434,8 @@
   "PREVENT_DUPLICATED_TRACKS": "Tekrar eden parçları engelleyin",
   "PREVENT_DUPLICATED_TRACKS_SUBTITLE": "Parçaları ayırmak için dosya ismini kullan",
   "PREVIEW": "Önizleme",
+  "PREVIOUS_BUTTON_REPLAYS": "Previous button replays",
+  "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "if pressed while current position was more than seek duration",
   "PRIORITIZE_EMBEDDED_LYRICS": "Gömülü şarkı sözlerine öncelik ver",
   "PROGRESS": "İlerleme",
   "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ yeni dosyalar bulundu & _DELETED_FILES_ ya silindi ya da dahil edilmedi, yenilemek ister misiniz?",
