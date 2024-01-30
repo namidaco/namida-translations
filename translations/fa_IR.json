@@ -450,6 +450,7 @@
   "REFRESH": "بروزرسانی",
   "REFRESH_LIBRARY": "بروزرسانی مجموعه",
   "REFRESH_LIBRARY_SUBTITLE": "بررسی کردن برای آهنگ های حذف شده یا اضافه شده",
+  "REFRESH_ON_STARTUP": "Refresh on startup",
   "REMEMBER_AUDIO_ONLY_MODE": "حالت فقط صدا را به یاد داشته باش",
   "REMIXER": "تنظیم کننده",
   "REMOVE": "حذف کردن",

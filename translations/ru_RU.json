@@ -453,6 +453,7 @@
   "REFRESH": "Обновить",
   "REFRESH_LIBRARY": "Обновить Библиотеку",
   "REFRESH_LIBRARY_SUBTITLE": "Проверить наличие новых добавленных или удалённых треков",
+  "REFRESH_ON_STARTUP": "Refresh on startup",
   "REMEMBER_AUDIO_ONLY_MODE": "Запоминать \"Только Аудио\" режим",
   "REMIXER": "Ремиксер",
   "REMOVE": "Удалить",

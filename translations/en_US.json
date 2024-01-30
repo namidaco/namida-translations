@@ -453,6 +453,7 @@
   "REFRESH": "Refresh",
   "REFRESH_LIBRARY": "Refresh Library",
   "REFRESH_LIBRARY_SUBTITLE": "Check for newly added or deleted music",
+  "REFRESH_ON_STARTUP": "Refresh on startup",
   "REMEMBER_AUDIO_ONLY_MODE": "Remember audio only mode",
   "REMIXER": "Remixer",
   "REMOVE": "Remove",

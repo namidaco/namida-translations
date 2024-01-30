@@ -448,6 +448,7 @@
   "REFRESH": "重新整理",
   "REFRESH_LIBRARY": "重新整理庫",
   "REFRESH_LIBRARY_SUBTITLE": "檢查新新增或刪除的音樂",
+  "REFRESH_ON_STARTUP": "Refresh on startup",
   "REMEMBER_AUDIO_ONLY_MODE": "記住純音訊模式",
   "REMIXER": "混音器",
   "REMOVE": "消除",

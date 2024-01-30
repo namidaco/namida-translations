@@ -453,6 +453,7 @@
   "REFRESH": "Yenile",
   "REFRESH_LIBRARY": "Kütüphaneyi Yenile",
   "REFRESH_LIBRARY_SUBTITLE": "Yeni eklenmiş ya da silinmiş dosyaları kontrol et",
+  "REFRESH_ON_STARTUP": "Refresh on startup",
   "REMEMBER_AUDIO_ONLY_MODE": "Sadece dinle modunu hatırla",
   "REMIXER": "Remiksle",
   "REMOVE": "Çıkar",

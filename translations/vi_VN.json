@@ -453,6 +453,7 @@
   "REFRESH": "Làm mới",
   "REFRESH_LIBRARY": "Làm mới thư viện",
   "REFRESH_LIBRARY_SUBTITLE": "Kiểm tra những bài nhạc mới được thêm hoặc bị xóa",
+  "REFRESH_ON_STARTUP": "Refresh on startup",
   "REMEMBER_AUDIO_ONLY_MODE": "Ghi nhớ chế độ chỉ có âm thanh",
   "REMIXER": "Phối lại",
   "REMOVE": "Loại bỏ",
