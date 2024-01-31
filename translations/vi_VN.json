@@ -435,7 +435,7 @@
   "PREVENT_DUPLICATED_TRACKS_SUBTITLE": "Sử dụng tên tệp để xác định các bản nhạc",
   "PREVIEW": "Xem trước",
   "PREVIOUS_BUTTON_REPLAYS": "Phát lại nút trước",
-  "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "Nếu được nhấn trong khi vị trí hiện tại dài hơn thời gian tìm kiếm",
+  "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "Nếu được nhấn trong khi vị trí hiện tại dài hơn thời lượng tìm kiếm",
   "PRIORITIZE_EMBEDDED_LYRICS": "Ưu tiên lời bài hát được nhúng",
   "PROGRESS": "Tiến độ",
   "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ tệp mới đã được tìm thấy & _DELETED_FILES_ đã bị xóa hoặc lọc, bạn có muốn làm mới không?",
