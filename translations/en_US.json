@@ -541,6 +541,7 @@
   "STATS_SUBTITLE": "Here are some info about your library",
   "STOP": "Stop",
   "STOP_AFTER_THIS_TRACK": "Stop after this track",
+  "STOP_AFTER_THIS_VIDEO": "Stop after this video",
   "STORAGE_PERMISSION_DENIED": "Permission Denied",
   "STORAGE_PERMISSION_DENIED_SUBTITLE": "Please allow access to be able to perform this action",
   "SUBSCRIBE": "Subscribe",

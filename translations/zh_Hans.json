@@ -536,6 +536,7 @@
   "STATS_SUBTITLE": "以下是有关您的图书馆的一些信息",
   "STOP": "停止",
   "STOP_AFTER_THIS_TRACK": "停在这条轨道之后",
+  "STOP_AFTER_THIS_VIDEO": "Stop after this video",
   "STORAGE_PERMISSION_DENIED": "没有权限",
   "STORAGE_PERMISSION_DENIED_SUBTITLE": "请允许访问才能执行此操作",
   "SUBSCRIBE": "订阅",
