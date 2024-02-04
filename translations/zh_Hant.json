@@ -163,6 +163,7 @@
   "DOWNLOADS_METADATA_TAGS_SUBTITLE": "預設從視訊訊息中提取藝術家、標題和專輯",
   "DO_NOTHING": "沒做什麼",
   "DUCK_AUDIO": "鴨子音頻",
+  "DUPLICATED_ITEMS_ADDING": "You are trying to add some items that already exist in this playlist",
   "DUPLICATED_TRACKS": "重複曲目",
   "DURATION": "期間",
   "EDGE_COLORS_SWITCHING": "邊緣顏色切換",

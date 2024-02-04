@@ -163,6 +163,7 @@
   "DOWNLOADS_METADATA_TAGS_SUBTITLE": "默认从视频信息中提取艺术家、标题和专辑",
   "DO_NOTHING": "没做什么",
   "DUCK_AUDIO": "鸭子音频",
+  "DUPLICATED_ITEMS_ADDING": "You are trying to add some items that already exist in this playlist",
   "DUPLICATED_TRACKS": "重复曲目",
   "DURATION": "期间",
   "EDGE_COLORS_SWITCHING": "边缘颜色切换",

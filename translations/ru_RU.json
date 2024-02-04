@@ -164,6 +164,7 @@
   "DOWNLOADS_METADATA_TAGS_SUBTITLE": "Извлекать исполнителя, название и альбом из информации о видео по умолчанию",
   "DO_NOTHING": "Ничего не делать",
   "DUCK_AUDIO": "Приглушать аудио",
+  "DUPLICATED_ITEMS_ADDING": "You are trying to add some items that already exist in this playlist",
   "DUPLICATED_TRACKS": "Дублированные Треки",
   "DURATION": "Продолжительность",
   "EDGE_COLORS_SWITCHING": "Переключение Цветов по Краям",

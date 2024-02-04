@@ -164,6 +164,7 @@
   "DOWNLOADS_METADATA_TAGS_SUBTITLE": "Estrai artista, titolo e album dalle informazioni video per default",
   "DO_NOTHING": "Non fare nulla",
   "DUCK_AUDIO": "Abbassa audio",
+  "DUPLICATED_ITEMS_ADDING": "You are trying to add some items that already exist in this playlist",
   "DUPLICATED_TRACKS": "Tracce duplicate",
   "DURATION": "Durata",
   "EDGE_COLORS_SWITCHING": "Transizione colori bordo",
