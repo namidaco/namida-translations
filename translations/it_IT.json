@@ -49,6 +49,7 @@
   "AUTO": "Auto",
   "AUTOMATIC_BACKUP": "Automatico",
   "AUTOMATIC_BACKUP_SUBTITLE": "Applica automaticamente il file di backup più recente trovato all'interno della posizione di backup",
+  "AUTO_BACKUP_INTERVAL": "Auto backup interval",
   "AUTO_COLORING": "Colorazione automatica",
   "AUTO_COLORING_SUBTITLE": "Scegli automaticamente i colori del player dalla copertina corrente",
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "Estrai automaticamente dal nome file",

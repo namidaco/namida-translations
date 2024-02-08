@@ -49,6 +49,7 @@
   "AUTO": "Otomatik",
   "AUTOMATIC_BACKUP": "Otomatik Yedekleme",
   "AUTOMATIC_BACKUP_SUBTITLE": "Yedekleme klasöründe bulunan en son yedeklemeyi otomatikman uygular.",
+  "AUTO_BACKUP_INTERVAL": "Auto backup interval",
   "AUTO_COLORING": "Otomatik Renklendirme",
   "AUTO_COLORING_SUBTITLE": "Albüm kapağından otomatik olarak renk oluştur",
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "Dosyya isminden otomatik olarak etikeleri çıkar",

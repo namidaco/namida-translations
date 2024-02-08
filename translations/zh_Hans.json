@@ -48,6 +48,7 @@
   "AUTO": "车",
   "AUTOMATIC_BACKUP": "自动的",
   "AUTOMATIC_BACKUP_SUBTITLE": "自动应用在备份位置中找到的最新备份文件",
+  "AUTO_BACKUP_INTERVAL": "Auto backup interval",
   "AUTO_COLORING": "自动着色",
   "AUTO_COLORING_SUBTITLE": "自动从当前艺术作品中挑选玩家颜色",
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "自动从文件名中提取",

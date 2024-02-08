@@ -49,6 +49,7 @@
   "AUTO": "Auto",
   "AUTOMATIC_BACKUP": "Automatic",
   "AUTOMATIC_BACKUP_SUBTITLE": "Automatically applies the most recent backup file found inside backup location",
+  "AUTO_BACKUP_INTERVAL": "Auto backup interval",
   "AUTO_COLORING": "Auto Coloring",
   "AUTO_COLORING_SUBTITLE": "Automatically pick player colors from current artwork",
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "Auto extract from filename",
