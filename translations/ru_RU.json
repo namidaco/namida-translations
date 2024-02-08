@@ -49,6 +49,7 @@
   "AUTO": "Автоматически",
   "AUTOMATIC_BACKUP": "Автоматическое",
   "AUTOMATIC_BACKUP_SUBTITLE": "Автоматическое примененяет последний файл резервной копии, найденного в месте их хранения",
+  "AUTO_BACKUP_INTERVAL": "Auto backup interval",
   "AUTO_COLORING": "Автораскраска",
   "AUTO_COLORING_SUBTITLE": "Автоматический выбор цветов плеера на основе текущих иллюстраций",
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "Автоматически извлекать из имени файла",

@@ -49,6 +49,7 @@
   "AUTO": "خودکار",
   "AUTOMATIC_BACKUP": "بصورت خودکار",
   "AUTOMATIC_BACKUP_SUBTITLE": "بصورت خودکار جدیدترین فایل پشتیبان گیری را از محل آن، اعمال میکند",
+  "AUTO_BACKUP_INTERVAL": "Auto backup interval",
   "AUTO_COLORING": "رنگ خودکار",
   "AUTO_COLORING_SUBTITLE": "بصورت خودکار رنگ پخش کننده را همرنگ کاور آهنگ میکند",
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "استخراج خودکار از نام فایل",

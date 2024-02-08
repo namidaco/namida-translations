@@ -49,6 +49,7 @@
   "AUTO": "Auto",
   "AUTOMATIC_BACKUP": "Automático",
   "AUTOMATIC_BACKUP_SUBTITLE": "Automaticamente utiliza arquivo de backup mais recente encontrado na localização de backup selecionada",
+  "AUTO_BACKUP_INTERVAL": "Auto backup interval",
   "AUTO_COLORING": "Coloração automática",
   "AUTO_COLORING_SUBTITLE": "Escolher cores do player automaticamente a partir da ilustração atual",
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "Extrair tags automaticamente do nome do arquivo",

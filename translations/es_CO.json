@@ -48,6 +48,7 @@
   "AUTO": "Auto",
   "AUTOMATIC_BACKUP": "Automático",
   "AUTOMATIC_BACKUP_SUBTITLE": "Aplica automáticamente el archivo de copia de seguridad más reciente encontrado dentro de la ubicación de la copia de seguridad",
+  "AUTO_BACKUP_INTERVAL": "Auto backup interval",
   "AUTO_COLORING": "Coloración automática",
   "AUTO_COLORING_SUBTITLE": "Elige automáticamente los colores del reproductor del arte actual",
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "Extracción automática del nombre del archivo",

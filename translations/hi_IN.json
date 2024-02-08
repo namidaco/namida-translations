@@ -49,6 +49,7 @@
   "AUTO": "ऑटो",
   "AUTOMATIC_BACKUP": "स्वचालित",
   "AUTOMATIC_BACKUP_SUBTITLE": "बैकअप स्थान के अंदर पाए गए सबसे हाल के बैकअप फ़ाइल को स्वचालित रूप से लागू करता है",
+  "AUTO_BACKUP_INTERVAL": "Auto backup interval",
   "AUTO_COLORING": "ऑटो कलरिंग",
   "AUTO_COLORING_SUBTITLE": "वर्तमान कलाकृति से स्वचालित रूप से खिलाड़ी रंग चुनें",
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "फ़ाइल नाम से स्वतः निकालें",
