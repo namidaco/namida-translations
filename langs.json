@@ -10,6 +10,11 @@
     "country": "Colombia"
   },
   {
+    "code": "fr_FR",
+    "name": "Français",
+    "country": "France"
+  },
+  {
     "code": "hi_IN",
     "name": "Hindi",
     "country": "India"
