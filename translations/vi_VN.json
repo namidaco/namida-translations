@@ -49,7 +49,7 @@
   "AUTO": "Tự động",
   "AUTOMATIC_BACKUP": "Tự động",
   "AUTOMATIC_BACKUP_SUBTITLE": "Tự động áp dụng tệp sao lưu gần đây nhất được tìm thấy bên trong vị trí sao lưu",
-  "AUTO_BACKUP_INTERVAL": "Auto backup interval",
+  "AUTO_BACKUP_INTERVAL": "Khoảng thời gian sao lưu tự động",
   "AUTO_COLORING": "Đổi màu tự động",
   "AUTO_COLORING_SUBTITLE": "Tự động chọn màu dựa trên bìa nhạc đang mở",
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "Tự động trích xuất từ tên tập tin",
