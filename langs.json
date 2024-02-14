@@ -10,9 +10,19 @@
     "country": "Colombia"
   },
   {
+    "code": "fr_FR",
+    "name": "Français",
+    "country": "France"
+  },
+  {
     "code": "hi_IN",
     "name": "Hindi",
     "country": "India"
+  },
+  {
+    "code": "id_ID",
+    "name": "Indonesia",
+    "country": "Indonesian"
   },
   {
     "code": "it_IT",
@@ -53,8 +63,5 @@
     "code": "zh_Hans",
     "name": "简体中文",
     "country": "中国"
-  },
-    "code": "id_ID",
-    "name": "Indonesia",
-    "country": "Indonesian"
+  }
 ]
