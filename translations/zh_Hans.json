@@ -131,6 +131,7 @@
   "DELETE": "删除",
   "DELETE_FILE_CACHE_SUBTITLE": "Delete _FILES_COUNT_ file representing _TOTAL_SIZE_?",
   "DELETE_PLAYLIST": "删除播放列表",
+  "DELETE_TEMP_FILES": "Delete temp files",
   "DESCRIPTION": "描述",
   "DIM_INTENSITY": "暗淡强度",
   "DIM_MINIPLAYER_AFTER_SECONDS": "不活动 _SECONDS_ 秒后迷你播放器变暗",

@@ -131,6 +131,7 @@
   "DELETE": "Borrar",
   "DELETE_FILE_CACHE_SUBTITLE": "Delete _FILES_COUNT_ file representing _TOTAL_SIZE_?",
   "DELETE_PLAYLIST": "Eliminar lista de reproducción",
+  "DELETE_TEMP_FILES": "Delete temp files",
   "DESCRIPTION": "Descripción",
   "DIM_INTENSITY": "intensidad tenue",
   "DIM_MINIPLAYER_AFTER_SECONDS": "Minirreproductor atenuado después de _SECONDS_ segundos de inactividad",

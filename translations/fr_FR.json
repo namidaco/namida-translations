@@ -132,6 +132,7 @@
   "DELETE": "Supprimer",
   "DELETE_FILE_CACHE_SUBTITLE": "Delete _FILES_COUNT_ file representing _TOTAL_SIZE_?",
   "DELETE_PLAYLIST": "Supprimer la Playlist",
+  "DELETE_TEMP_FILES": "Delete temp files",
   "DESCRIPTION": "Description",
   "DIM_INTENSITY": "Intensité de la lumière",
   "DIM_MINIPLAYER_AFTER_SECONDS": "Diminuer le mini-lecteur après _SECONDS_ secondes d'inactivité",

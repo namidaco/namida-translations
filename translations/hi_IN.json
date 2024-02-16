@@ -132,6 +132,7 @@
   "DELETE": "हटाएँ",
   "DELETE_FILE_CACHE_SUBTITLE": "Delete _FILES_COUNT_ file representing _TOTAL_SIZE_?",
   "DELETE_PLAYLIST": "प्लेलिस्ट हटाएं",
+  "DELETE_TEMP_FILES": "Delete temp files",
   "DESCRIPTION": "विवरण",
   "DIM_INTENSITY": "मंद तीव्रता",
   "DIM_MINIPLAYER_AFTER_SECONDS": "निष्क्रियता के _SECONDS_ सेकंड के बाद मिनिप्लेयर कम करें",

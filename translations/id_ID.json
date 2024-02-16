@@ -132,6 +132,7 @@
   "DELETE": "Hapus",
   "DELETE_FILE_CACHE_SUBTITLE": "Delete _FILES_COUNT_ file representing _TOTAL_SIZE_?",
   "DELETE_PLAYLIST": "Hapus Daftar Putar",
+  "DELETE_TEMP_FILES": "Delete temp files",
   "DESCRIPTION": "Deskripsi",
   "DIM_INTENSITY": "Intensitas Redup",
   "DIM_MINIPLAYER_AFTER_SECONDS": "Redupkan miniplayer setelah _SECONDS_ detik tidak ada aktivitas",

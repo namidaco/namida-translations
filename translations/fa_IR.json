@@ -132,6 +132,7 @@
   "DELETE": "حذف",
   "DELETE_FILE_CACHE_SUBTITLE": "Delete _FILES_COUNT_ file representing _TOTAL_SIZE_?",
   "DELETE_PLAYLIST": "حذف لیست پخش",
+  "DELETE_TEMP_FILES": "Delete temp files",
   "DESCRIPTION": "شرح",
   "DIM_INTENSITY": "شدت تیرگی",
   "DIM_MINIPLAYER_AFTER_SECONDS": "صفحه پخش را پس از _SECONDS_ ثانیه بی فعالیتی تیره کن",

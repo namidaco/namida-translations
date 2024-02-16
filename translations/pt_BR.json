@@ -132,6 +132,7 @@
   "DELETE": "Remover",
   "DELETE_FILE_CACHE_SUBTITLE": "Delete _FILES_COUNT_ file representing _TOTAL_SIZE_?",
   "DELETE_PLAYLIST": "Remover Playlist",
+  "DELETE_TEMP_FILES": "Delete temp files",
   "DESCRIPTION": "Descrição",
   "DIM_INTENSITY": "Intensidade do escurecimento da tela",
   "DIM_MINIPLAYER_AFTER_SECONDS": "Escurecer miniplayer após _SECONDS_ segundos de inatividade",

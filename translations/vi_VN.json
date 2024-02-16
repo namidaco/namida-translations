@@ -132,6 +132,7 @@
   "DELETE": "Xoá",
   "DELETE_FILE_CACHE_SUBTITLE": "Delete _FILES_COUNT_ file representing _TOTAL_SIZE_?",
   "DELETE_PLAYLIST": "Xoá dánh sách phát",
+  "DELETE_TEMP_FILES": "Delete temp files",
   "DESCRIPTION": "Mô tả",
   "DIM_INTENSITY": "Cường độ tối",
   "DIM_MINIPLAYER_AFTER_SECONDS": "Độ tối của trình phát thu nhỏ sẽ bật trong _SECONDS_ giây khi không hoạt động",

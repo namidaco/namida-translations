@@ -132,6 +132,7 @@
   "DELETE": "Удалить",
   "DELETE_FILE_CACHE_SUBTITLE": "Delete _FILES_COUNT_ file representing _TOTAL_SIZE_?",
   "DELETE_PLAYLIST": "Удалить Плейлист",
+  "DELETE_TEMP_FILES": "Delete temp files",
   "DESCRIPTION": "Описание",
   "DIM_INTENSITY": "Интенсивность Затемнения",
   "DIM_MINIPLAYER_AFTER_SECONDS": "Затемнять миниплеер после _SECONDS_ секунд бездействия",
