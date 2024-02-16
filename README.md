@@ -45,8 +45,3 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Vietnamese  | Vietnam | [@KaieTaniya 🌺](https://github.com/KaieTaniya) | [`vi_VN.json`](translations/vi_VN.json)
 | 繁體中文  | Taiwan | [@xqsart](https://github.com/xqsart) | [`zh_Hant.json`](translations/zh_Hant.json)
 | 简体中文  | China | [@xqsart](https://github.com/xqsart) | [`zh_Hans.json`](translations/zh_Hans.json)
-
-
-## Notes
-
-- [ID] Beberapa kata mungkin terlihat aneh dan baku. Saya akan terus mengupdatenya!
