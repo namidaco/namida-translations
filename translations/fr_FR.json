@@ -655,6 +655,7 @@
   "YOUTUBE": "Youtube",
   "YOUTUBE_MUSIC": "Youtube Music",
   "YOUTUBE_SETTINGS_SUBTITLE": "Personnaliser l'expérience Youtube",
+  "YOUTUBE_STYLE_MINIPLAYER": "Youtube-style Miniplayer",
   "YT_PREFER_NEW_COMMENTS": "Privilégier les nouveaux commentaires lorsque c'est possible",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "La version mise en cache ne sera utilisée que lorsqu'il n'y a pas de connexion."
 }

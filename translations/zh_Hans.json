@@ -650,6 +650,7 @@
   "YOUTUBE": "YouTube",
   "YOUTUBE_MUSIC": "Youtube 音乐",
   "YOUTUBE_SETTINGS_SUBTITLE": "自定义 YouTube 体验",
+  "YOUTUBE_STYLE_MINIPLAYER": "Youtube-style Miniplayer",
   "YT_PREFER_NEW_COMMENTS": "尽可能喜欢新评论",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "仅当没有连接时才会使用缓存版本"
 }

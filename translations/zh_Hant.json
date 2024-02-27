@@ -650,6 +650,7 @@
   "YOUTUBE": "Youtube",
   "YOUTUBE_MUSIC": "Youtube 音樂",
   "YOUTUBE_SETTINGS_SUBTITLE": "自訂 YouTube 體驗",
+  "YOUTUBE_STYLE_MINIPLAYER": "Youtube-style Miniplayer",
   "YT_PREFER_NEW_COMMENTS": "盡可能喜歡新評論",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "僅當沒有連線時才會使用快取版本"
 }

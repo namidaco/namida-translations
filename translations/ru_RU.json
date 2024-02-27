@@ -657,6 +657,7 @@
   "YOUTUBE": "YouTube",
   "YOUTUBE_MUSIC": "YouTube Music",
   "YOUTUBE_SETTINGS_SUBTITLE": "Настройка YouTube",
+  "YOUTUBE_STYLE_MINIPLAYER": "Youtube-style Miniplayer",
   "YT_PREFER_NEW_COMMENTS": "Загрузка новых комментариев по возможности",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "Кэшированная версия будет использована только при отсутствии подключения к интернету"
 }
