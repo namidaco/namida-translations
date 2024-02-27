@@ -146,6 +146,7 @@
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE": "Carte de l'album en haut à droite",
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Affichage de la date de l'album en haut à droite de la carte de l'album",
   "DISPLAY_ARTIST_BEFORE_TITLE": "Afficher l'artiste avant le titre",
+  "DISPLAY_ARTWORK_ON_LOCKSCREEN": "Display artwork on lockscreen",
   "DISPLAY_AUDIO_INFO_IN_MINIPLAYER": "Affichage des informations audio",
   "DISPLAY_FAVOURITE_ICON_IN_TRACK_TILE": "Affichage de la touche favorite",
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Afficher le bouton favori dans la notification",

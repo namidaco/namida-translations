@@ -146,6 +146,7 @@
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE": "Album Card top right date",
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Display Album date at Album Card top right",
   "DISPLAY_ARTIST_BEFORE_TITLE": "Display artist before title",
+  "DISPLAY_ARTWORK_ON_LOCKSCREEN": "Display artwork on lockscreen",
   "DISPLAY_AUDIO_INFO_IN_MINIPLAYER": "Display Audio Info",
   "DISPLAY_FAVOURITE_ICON_IN_TRACK_TILE": "Display Favourite Button",
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Display Favourite Button in Notification",

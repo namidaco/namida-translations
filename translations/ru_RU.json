@@ -146,6 +146,7 @@
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE": "Дата Карточки Альбома в правом верхнем углу",
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Отображать дату Альбома в правом верхнем углу Карточки Альбома",
   "DISPLAY_ARTIST_BEFORE_TITLE": "Отображать исполнителя перед названием",
+  "DISPLAY_ARTWORK_ON_LOCKSCREEN": "Display artwork on lockscreen",
   "DISPLAY_AUDIO_INFO_IN_MINIPLAYER": "Отображать Информацию об Аудио",
   "DISPLAY_FAVOURITE_ICON_IN_TRACK_TILE": "Отображать кнопку \"Избранное\"",
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Отображать кнопку \"Избранное\" в Уведомлениях",
