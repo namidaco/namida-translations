@@ -146,6 +146,7 @@
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE": "Tanggal kanan atas Kartu Album",
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Menampilkan tanggal Album di Kartu Album kanan atas",
   "DISPLAY_ARTIST_BEFORE_TITLE": "Display artist before title",
+  "DISPLAY_ARTWORK_ON_LOCKSCREEN": "Display artwork on lockscreen",
   "DISPLAY_AUDIO_INFO_IN_MINIPLAYER": "Tampilkan Info Audio",
   "DISPLAY_FAVOURITE_ICON_IN_TRACK_TILE": "Tampilkan Tombol Favorit",
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Tampilkan Tombol Favorit di Notifikasi",
@@ -657,6 +658,7 @@
   "YOUTUBE": "Youtube",
   "YOUTUBE_MUSIC": "Youtube Music",
   "YOUTUBE_SETTINGS_SUBTITLE": "Sesuaikan pengalaman Youtube",
+  "YOUTUBE_STYLE_MINIPLAYER": "Youtube-style Miniplayer",
   "YT_PREFER_NEW_COMMENTS": "Tampilkan komentar terbaru jika memungkinkan",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "Versi cache hanya akan digunakan ketika tidak ada koneksi"
 }

@@ -146,6 +146,7 @@
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE": "Data in alto a destra scheda album",
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Visualizza la data dell'album in alto a destra nella scheda dell'album",
   "DISPLAY_ARTIST_BEFORE_TITLE": "Visualizza artista prima del titolo",
+  "DISPLAY_ARTWORK_ON_LOCKSCREEN": "Display artwork on lockscreen",
   "DISPLAY_AUDIO_INFO_IN_MINIPLAYER": "Visualizza informazioni audio",
   "DISPLAY_FAVOURITE_ICON_IN_TRACK_TILE": "Visualizza pulsante Preferiti",
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Visualizza pulsante Preferiti nella notifica",
@@ -657,6 +658,7 @@
   "YOUTUBE": "Youtube",
   "YOUTUBE_MUSIC": "Youtube Music",
   "YOUTUBE_SETTINGS_SUBTITLE": "Personalizza l'esperienza Youtube",
+  "YOUTUBE_STYLE_MINIPLAYER": "Youtube-style Miniplayer",
   "YT_PREFER_NEW_COMMENTS": "Preferisci i nuovi commenti quando possibile",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "La versione in cache verrà usata solo se non c'è connessione"
 }

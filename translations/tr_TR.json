@@ -146,6 +146,7 @@
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE": "Albüm Kartı Sağ Üst Tarih",
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Albüm tarihini Albüm Kartı'nın sağ üstünde göster",
   "DISPLAY_ARTIST_BEFORE_TITLE": "Sanatçıyı albüm isminden önce göster",
+  "DISPLAY_ARTWORK_ON_LOCKSCREEN": "Display artwork on lockscreen",
   "DISPLAY_AUDIO_INFO_IN_MINIPLAYER": "Ses Bilgisini Göster",
   "DISPLAY_FAVOURITE_ICON_IN_TRACK_TILE": "Favori Butonunu Göster",
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Favori Butonunu Bildirimlerde Göster",
@@ -657,6 +658,7 @@
   "YOUTUBE": "Youtube",
   "YOUTUBE_MUSIC": "Youtube Müzik",
   "YOUTUBE_SETTINGS_SUBTITLE": "Youtube deneyimini özelleştirin",
+  "YOUTUBE_STYLE_MINIPLAYER": "Youtube-style Miniplayer",
   "YT_PREFER_NEW_COMMENTS": "Mümkünse yeni yorumları tercih edin",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "Bağlantı yoksa önbellek sürümü kullanılacaktır"
 }
