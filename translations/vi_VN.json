@@ -146,7 +146,7 @@
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE": "Ngày trên cùng bên phải Thẻ Album",
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Hiển thị ngày của Album ở Thẻ Album trên cùng bên phải",
   "DISPLAY_ARTIST_BEFORE_TITLE": "Hiển thị tên Nghệ sĩ ở trước tiêu đề",
-  "DISPLAY_ARTWORK_ON_LOCKSCREEN": "Display artwork on lockscreen",
+  "DISPLAY_ARTWORK_ON_LOCKSCREEN": "Hiển thị bìa nhạc trên màn hình khóa",
   "DISPLAY_AUDIO_INFO_IN_MINIPLAYER": "Hiển thị thông tin âm thanh",
   "DISPLAY_FAVOURITE_ICON_IN_TRACK_TILE": "Hiển thị nút Yêu thích",
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Hiển thị nút Yêu thích trong Thông báo",
@@ -658,7 +658,7 @@
   "YOUTUBE": "Youtube",
   "YOUTUBE_MUSIC": "Youtube Music",
   "YOUTUBE_SETTINGS_SUBTITLE": "Tùy chỉnh trải nghiệm Youtube",
-  "YOUTUBE_STYLE_MINIPLAYER": "Youtube-style Miniplayer",
+  "YOUTUBE_STYLE_MINIPLAYER": "Trình phát thu nhỏ theo phong cách Youtube",
   "YT_PREFER_NEW_COMMENTS": "Thích những bình luận mới khi có thể",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "Bộ nhớ đệm của Phiên bản đã lưu sẽ được sử dụng khi không có kết nối"
 }
