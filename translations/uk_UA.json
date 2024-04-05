@@ -498,7 +498,7 @@
   "RESTART": "Перезавантажити",
   "RESTORED_BACKUP_SUCCESSFULLY": "Резервна копія відновлення",
   "RESTORED_BACKUP_SUCCESSFULLY_SUB": "Файл резервної копії успішно відновлено",
-  "RESTORE_BACKUP": "Відновити резервну копію,"
+  "RESTORE_BACKUP": "Відновити резервну копію",
   "RESTORE_DEFAULTS": "Відновити значення по замовчуванню",
   "RESUME": "Продовжити",
   "RESUME_IF_WAS_INTERRUPTED": "Продовжити відтворення, якщо було призупинено з-за преривання",
