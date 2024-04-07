@@ -271,7 +271,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "Những mục này không thể tìm thấy trong thư viện, nếu bạn cho rằng chúng tồn tại, vui lòng cân nhắc việc thêm chúng theo cách thủ công",
   "HISTORY_LISTENS_REPLACE_WARNING": "_LISTENS_COUNT_ Lắng nghe _OLD_TRACK_INFO_ sẽ được thay thế _NEW_TRACK_INFO_, xác nhận ?",
   "HOME": "Trang chính",
-  "HOURS": "Hours",
+  "HOURS": "Giờ",
   "HOUR_FORMAT_12": "Định dạng 12 giờ",
   "IF_NOT_PLAYING": "Nếu không phát",
   "IGNORES": "Bỏ qua",
