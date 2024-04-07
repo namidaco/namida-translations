@@ -50,6 +50,11 @@
     "country": "Türkiye"
   },
   {
+    "code": "uk_UA",
+    "name": "Українська",
+    "country": "Ukraine"
+  },
+  {
     "code": "vi_VN",
     "name": "Vietnamese",
     "country": "Vietnam"
