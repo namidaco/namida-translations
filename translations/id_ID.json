@@ -271,6 +271,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "Entri ini tidak dapat ditemukan di dalam pustaka, jika Anda yakin entri tersebut ada, harap pertimbangkan untuk menambahkannya secara manual",
   "HISTORY_LISTENS_REPLACE_WARNING": "_LISTENS_COUNT_ mendengarkan _OLD_TRACK_INFO_ akan diganti dengan _NEW_TRACK_INFO_, konfirmasi?",
   "HOME": "Beranda",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "Format 12 Jam",
   "IF_NOT_PLAYING": "Jika tidak memutar",
   "IGNORES": "Abaikan",

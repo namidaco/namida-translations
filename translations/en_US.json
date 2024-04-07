@@ -271,6 +271,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "These entries couldn't be found inside library, if you believe they exist, please consider adding them manually",
   "HISTORY_LISTENS_REPLACE_WARNING": "_LISTENS_COUNT_ listens for _OLD_TRACK_INFO_ will be replaced with _NEW_TRACK_INFO_, confirm?",
   "HOME": "Home",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "12 Hour Format",
   "IF_NOT_PLAYING": "If not playing",
   "IGNORES": "Ignores",

@@ -270,6 +270,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "這些條目在庫中找不到,如果您認為它們存在​​,請考慮手動添加它們",
   "HISTORY_LISTENS_REPLACE_WARNING": "_LISTENS_COUNT_ 監聽的 _OLD_TRACK_INFO_ 將會替換為 _NEW_TRACK_INFO_,確認嗎?",
   "HOME": "家",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "12 小時制",
   "IF_NOT_PLAYING": "如果不玩的話",
   "IGNORES": "忽略",
