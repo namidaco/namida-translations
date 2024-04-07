@@ -271,6 +271,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "ये प्रविष्टियां लाइब्रेरी के अंदर नहीं मिलीं, यदि आपको लगता है कि वे मौजूद हैं, तो कृपया उन्हें मैन्युअल रूप से जोड़ने पर विचार करें",
   "HISTORY_LISTENS_REPLACE_WARNING": "LISTENS_COUNT सुनता है OLD_TRACK_INFO के लिए NEW_TRACK_INFO के साथ बदल दिया जाएगा, पुष्टि करें?",
   "HOME": "घर",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "12 घंटे का प्रारूप",
   "IF_NOT_PLAYING": "यदि नहीं चल रहा है",
   "IGNORES": "अनदेखा करता",

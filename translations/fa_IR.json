@@ -271,6 +271,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "این درایه ها داخل مجموعه یافت نشدند، اگر فکر میکنید وجود دارند، بصورت دستی وارد کنید",
   "HISTORY_LISTENS_REPLACE_WARNING": "_LISTENS_COUNT_ بار گوش دادن به _OLD_TRACK_INFO_ با _NEW_TRACK_INFO_, جایگزین میشود، تایید؟",
   "HOME": "خانه",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "فورمت ۱۲ ساعته",
   "IF_NOT_PLAYING": "اگر پخش نمیشود",
   "IGNORES": "نادیده میگیرد",

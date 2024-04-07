@@ -270,6 +270,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "Estas entradas no se pudieron encontrar dentro de la biblioteca. Si cree que existen, considere agregarlas manualmente.",
   "HISTORY_LISTENS_REPLACE_WARNING": "_LISTENS_COUNT_ escucha _OLD_TRACK_INFO_ será reemplazado por _NEW_TRACK_INFO_, ¿confirmar?",
   "HOME": "Hogar",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "Formato de 12 horas",
   "IF_NOT_PLAYING": "Si no juegas",
   "IGNORES": "ignora",

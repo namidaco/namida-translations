@@ -271,6 +271,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "Estas informações não puderam ser encontradas na bilioteca. Se você acredita que elas existem, acrescente-as manualmente.",
   "HISTORY_LISTENS_REPLACE_WARNING": "_LISTENS_COUNT_ reproduções de _OLD_TRACK_INFO_ serão sustituidas por _NEW_TRACK_INFO_, confirmar?",
   "HOME": "Início",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "Relógio de 12 horas",
   "IF_NOT_PLAYING": "Se não estiver reproduzindo",
   "IGNORES": "Ignora",

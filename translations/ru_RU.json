@@ -271,6 +271,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "Эти записи не удалось найти в библиотеке. Если ты считаешь, что они существуют, пожалуйста, добавь их вручную",
   "HISTORY_LISTENS_REPLACE_WARNING": "_LISTENS_COUNT_ прослушиваний _OLD_TRACK_INFO_ будут заменены на _NEW_TRACK_INFO_, подтвердить?",
   "HOME": "Главная",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "12-часовой формат",
   "IF_NOT_PLAYING": "Если не проигрывает",
   "IGNORES": "Игнорирует",

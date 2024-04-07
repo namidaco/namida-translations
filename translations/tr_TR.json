@@ -271,6 +271,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "Bu dosyalar kütüphanede bulunamadı, orada olduğundan eminseniz, lütfen elle ekleyin.",
   "HISTORY_LISTENS_REPLACE_WARNING": "_OLD_TRACK_INFO_ için _LISTENS_COUNT_ dinleme sayısı _NEW_TRACK_INFO_ ile değiştirilecek, onaylıyor musunuz?",
   "HOME": "Ev",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "12 Saat Formatı",
   "IF_NOT_PLAYING": "Çalmıyorsa",
   "IGNORES": "Gözmezden Geliyor",

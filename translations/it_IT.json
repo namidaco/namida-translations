@@ -271,6 +271,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "Queste voci non sono state trovate nella libreria, se pensi che esistano, considera di aggiungerle manualmente",
   "HISTORY_LISTENS_REPLACE_WARNING": "Sostituire _LISTENS_COUNT_ ascolti di _OLD_TRACK_INFO_ con _NEW_TRACK_INFO_, confermare?",
   "HOME": "Home",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "Formato 12 ore",
   "IF_NOT_PLAYING": "Se non in riproduzione",
   "IGNORES": "Ignora",

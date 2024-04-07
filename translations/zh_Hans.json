@@ -270,6 +270,7 @@
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "在库中找不到这些条目，如果您认为它们存在，请考虑手动添加它们",
   "HISTORY_LISTENS_REPLACE_WARNING": "_LISTENS_COUNT_ 监听的 _OLD_TRACK_INFO_ 将替换为 _NEW_TRACK_INFO_,确认吗?",
   "HOME": "家",
+  "HOURS": "Hours",
   "HOUR_FORMAT_12": "12 小时制",
   "IF_NOT_PLAYING": "如果没有在播放",
   "IGNORES": "忽略",
