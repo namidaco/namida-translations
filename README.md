@@ -53,7 +53,7 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Português  | Brasil | [@mbdpym](https://github.com/mbdpym) | [`pt_BR.json`](translations/pt_BR.json)
 | Russian  | Russia | [@sodiel](https://github.com/sodiel), [@Lowara1243](https://github.com/Lowara1243), [@VerySweetBread](https://github.com/VerySweetBread) | [`ru_RU.json`](translations/ru_RU.json)
 | Turkish  | Turkey | [@jericho909](https://github.com/jericho909) | [`tr_TR.json`](translations/tr_TR.json)
-| Українська  | Ukraine | [@sleepyFlowey 🌺](https://github.com/sleepyFlowey) | [`uk_UA.json`](translations/uk_UA.json)
+| Українська  | Ukraine | [@sweeteBatata 🌺](https://github.com/sweeteBatata) | [`uk_UA.json`](translations/uk_UA.json)
 | Vietnamese  | Vietnam | [@KaieTaniya 🌺](https://github.com/KaieTaniya) | [`vi_VN.json`](translations/vi_VN.json)
 | 繁體中文  | Taiwan | [@xqsart](https://github.com/xqsart) | [`zh_Hant.json`](translations/zh_Hant.json)
 | 简体中文  | China | [@xqsart](https://github.com/xqsart) | [`zh_Hans.json`](translations/zh_Hans.json)
