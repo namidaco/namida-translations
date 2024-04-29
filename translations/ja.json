@@ -79,5 +79,6 @@
   "CLEAR_IMAGE_CACHE_WARNING": "警告：画像のないライブラリが作成されます。画像キャッシュを再構築する場合にのみ使用してください。",
   "CLEAR_TRACK_ITEM": "トラックをクリア",
   "CLEAR_TRACK_ITEM_MULTIPLE": "_NUMBER_ 個のトラックをクリア",
-  "CLEAR_VIDEO_CACHE": "映像キャッシュをクリア"
+  "CLEAR_VIDEO_CACHE": "映像キャッシュをクリア",
+  "CLEAR_VIDEO_CACHE_NOTE": "削除するものを選択"
 }
