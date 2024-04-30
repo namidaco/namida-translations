@@ -99,7 +99,7 @@
   "COPY": "Copier",
   "CORRUPTED_FILE": "Impossible d'analyser le fichier, il est peut-être corrompu",
   "COULDNT_OPEN": "Impossible d'ouvrir :(",
-  "COULDNT_OPEN_YT_LINK": "Aucun lien Youtube n'est disponible pour ce titre.",
+  "COULDNT_OPEN_YT_LINK": "Aucun lien Youtube n'est disponible pour ce titre",
   "COULDNT_PLAY_FILE": "Impossible de lire le fichier",
   "COULDNT_RENAME_PLAYLIST": "Impossible de renommer la liste de lecture",
   "COULDNT_SAVE_IMAGE": "Impossible d'enregistrer l'image",
