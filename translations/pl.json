@@ -482,9 +482,19 @@
   "STOP_AFTER_THIS_VIDEO": "Zatrzymaj po tym wideo",
   "STORAGE_PERMISSION_DENIED": "Odmowa uprawnienia",
   "STORAGE_PERMISSION_DENIED_SUBTITLE": "Zezwól na dostęp, aby móc wykonać tę akcję",
-  "SUBSCRIBE": "Sybskrybuj",
+  "SUBSCRIBE": "Subskrybuj",
   "SUBSCRIBED": "Zasubskrybowano",
   "SUBSCRIBER": "Subskrybent",
   "SUBSCRIBERS": "Subskrybenci",
-  "SUPPORT": "Wsparcie"
+  "SUPPORT": "Wsparcie",
+  "TAGS": "Tagi",
+  "TAG_FIELDS": "Pola tagów",
+  "THEME_MODE_DARK": "Ciemny",
+  "THEME_MODE_LIGHT": "Jasny",
+  "THEME_MODE_SYSTEM": "System",
+  "THEME_SETTINGS": "Motyw",
+  "THUMBNAILS": "Miniatury",
+  "TITLE": "Tytuł",
+  "TOP_COMMENTS": "Najlepsze komentarze",
+  "TOP_COMMENTS_SUBTITLE": "Wyświetlaj komentarze na górze zamiast na dole"
 }
