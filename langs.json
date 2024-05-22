@@ -35,6 +35,11 @@
     "country": "Italy"
   },
   {
+    "code": "ja_JP",
+    "name": "Japanese",
+    "country": "Japan"
+  },
+  {
     "code": "fa_IR",
     "name": "Persian",
     "country": "Iran"
