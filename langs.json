@@ -15,6 +15,11 @@
     "country": "France"
   },
   {
+    "code": "de_DE",
+    "name": "German",
+    "country": "Germany"
+  },
+  {
     "code": "hi_IN",
     "name": "Hindi",
     "country": "India"
@@ -33,6 +38,11 @@
     "code": "fa_IR",
     "name": "Persian",
     "country": "Iran"
+  },
+  {
+    "code": "pl_PL",
+    "name": "Polish",
+    "country": "Poland"
   },
   {
     "code": "pt_BR",
