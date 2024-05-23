@@ -1,5 +1,10 @@
 [
   {
+    "code": "ar_SA",
+    "name": "Arabic",
+    "country": "Saudi Arabia"
+  },
+  {
     "code": "en_US",
     "name": "English",
     "country": "United States"
