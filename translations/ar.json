@@ -66,7 +66,7 @@
   "CACHE": "التخزين المؤقت",
   "CANCEL": "إلغاﺀ",
   "CHANGED": "تم تغييره",
-  "CHANGELOG": "‫سجل التغيير",
+  "CHANGELOG": "سجل التغيير",
   "CHANNEL": "القناة",
   "CHANNELS": "القنوات",
   "CHECK_FOR_MORE": "تحقق من المزيد",
@@ -649,7 +649,7 @@
   "VIDEO_QUALITY": "جودة الفيديو",
   "VIDEO_QUALITY_SUBTITLE": "سيتم اختيار أعلى جودة متاحة.",
   "VIDEO_QUALITY_SUBTITLE_NOTE": "من الجيد دائمًا الاحتفاظ بمزيد من البدائل في حالة عدم العثور على الجودة، وإلا فسيتم الرجوع إلى الجودة الأسوأ",
-  "VIEW": "عرض",
+  "VIEW": "شاهد",
   "VIEWS": "مشاهدات",
   "VIEW_ALL": "عرض الكل",
   "VOLUME": "مستوى الصوت",
@@ -662,7 +662,7 @@
   "YOUTUBE": "يوتيوب",
   "YOUTUBE_MUSIC": "موسيقى اليوتيوب",
   "YOUTUBE_SETTINGS_SUBTITLE": "تخصيص تجربة يوتيوب",
-  "YOUTUBE_STYLE_MINIPLAYER": "مشغل الصغير على طريقة اليوتيوب",
-  "YT_PREFER_NEW_COMMENTS": "تفضل التعليقات الجديدة عندما يكون ذلك ممكنا",
+  "YOUTUBE_STYLE_MINIPLAYER": "المشغل الصغير على طريقة اليوتيوب",
+  "YT_PREFER_NEW_COMMENTS": "تفضيل التعليقات الجديدة عندما يكون ذلك ممكنا",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "سيتم استخدام النسخة المخزنة مؤقتًا فقط في حالة عدم وجود اتصال"
 }
