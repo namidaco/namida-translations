@@ -66,6 +66,10 @@
                 <langSet xml:lang="en"><tig><term>Title</term></tig></langSet>
                 <langSet xml:lang="ru"><tig><term>Название</term></tig></langSet>
             </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Membership</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Членство</term></tig></langSet>
+            </termEntry>
         </body>
     </text>
 </martif>
