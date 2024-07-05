@@ -699,6 +699,5 @@
   "YOUTUBE_SETTINGS_SUBTITLE": "Customize Youtube experience",
   "YOUTUBE_STYLE_MINIPLAYER": "Youtube-style Miniplayer",
   "YT_PREFER_NEW_COMMENTS": "Prefer new comments when possible",
-  "YT_PREFER_NEW_COMMENTS_SUBTITLE": "Cached version will only be used when there is no connection",
-  "notifications": "Notifications"
+  "YT_PREFER_NEW_COMMENTS_SUBTITLE": "Cached version will only be used when there is no connection"
 }
