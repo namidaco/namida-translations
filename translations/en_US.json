@@ -339,6 +339,7 @@
   "MANAGE_YOUR_ACCOUNTS": "Manage your accounts",
   "MANUAL_BACKUP": "Manual",
   "MANUAL_BACKUP_SUBTITLE": "pick up a specific file",
+  "MARK_AS_READ": "Mark as read",
   "MATCHING_TYPE": "Matching type",
   "MATCH_ALL_TRACKS": "Match All Tracks",
   "MATCH_ALL_TRACKS_NOTE": "this can have an impact on the matching speed, as it will check all tracks in your library",
