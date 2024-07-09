@@ -339,6 +339,7 @@
   "MANAGE_YOUR_ACCOUNTS": "إدارة حساباتك",
   "MANUAL_BACKUP": "يدوي",
   "MANUAL_BACKUP_SUBTITLE": "اختر ملف محدد",
+  "MARK_AS_READ": "وضع علامة مقروء",
   "MATCHING_TYPE": "نوع المطابقة",
   "MATCH_ALL_TRACKS": "مطابقة كل المسارات",
   "MATCH_ALL_TRACKS_NOTE": "يمكن أن يكون لهذا تأثير على سرعة المطابقة، لأنه سيفحص جميع المسارات الموجودة في مكتبتك",
