@@ -572,6 +572,7 @@
   "SHOULD_DUCK_NOTE": "Indicates that the volume should be lowered. ex: notification",
   "SHOULD_PAUSE": "Should pause",
   "SHOULD_PAUSE_NOTE": "Indicates that the playback should be paused. ex: calls",
+  "SHOW_CHANNEL_WATERMARK_IN_FULLSCREEN": "Show channel watermark in fullscreen",
   "SHOW_HIDE_UNKNOWN_FIELDS": "Show/hide Unknown Fields",
   "SHOW_MIX_PLAYLISTS_IN": "Show Mixes in",
   "SHOW_MORE": "Show more",
