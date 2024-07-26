@@ -572,6 +572,7 @@
   "SHOULD_DUCK_NOTE": "يشير إلى أنه ينبغي خفض مستوى الصوت. على سبيل المثال: الإشعار",
   "SHOULD_PAUSE": "يجب أن يتوقف",
   "SHOULD_PAUSE_NOTE": "يشير إلى أنه يجب إيقاف التشغيل مؤقتًا. على سبيل المثال: المكالمات",
+  "SHOW_CHANNEL_WATERMARK_IN_FULLSCREEN": "عرض العلامة المائية للقناة في وضع ملء الشاشة",
   "SHOW_HIDE_UNKNOWN_FIELDS": "إظهار/إخفاء الحقول غير المعروفة",
   "SHOW_MIX_PLAYLISTS_IN": "عرض الخلط في",
   "SHOW_MORE": "إظهار المزيد",
