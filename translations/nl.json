@@ -572,6 +572,7 @@
   "SHOULD_DUCK_NOTE": "Geeft aan dat het volume verlaagd moet worden, bijvoorbeeld door middel van een melding",
   "SHOULD_PAUSE": "Pauzeren",
   "SHOULD_PAUSE_NOTE": "Geeft aan dat het afspelen onderbroken moet worden, bijvoorbeeld tijdens een oproep",
+  "SHOW_CHANNEL_WATERMARK_IN_FULLSCREEN": "Watermerk van kanaal schermvullend tonen",
   "SHOW_HIDE_UNKNOWN_FIELDS": "Onbekende velden tonen/verbergen",
   "SHOW_MIX_PLAYLISTS_IN": "Mixen tonen in",
   "SHOW_MORE": "Meer tonen",
