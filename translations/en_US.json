@@ -136,6 +136,7 @@
   "DEFAULT_LIBRARY_TAB": "Default Library Tab",
   "DELETE": "Delete",
   "DELETE_FILE_CACHE_SUBTITLE": "Delete _FILES_COUNT_ file representing _TOTAL_SIZE_?",
+  "DELETE_N_TRACKS_FROM_STORAGE": "Permanently delete _NUM_ from your storage",
   "DELETE_PLAYLIST": "Delete Playlist",
   "DELETE_TEMP_FILES": "Delete temp files",
   "DESCRIPTION": "Description",
