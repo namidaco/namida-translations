@@ -58,6 +58,8 @@
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "Auto extract from filename",
   "AUTO_EXTRACT_TITLE_AND_ARTIST_FROM_VIDEO_TITLE": "Auto extract Title & Artist from video title",
   "AUTO_GENERATED": "Auto Generated",
+  "AUTO_START_RADIO": "Auto start radio",
+  "AUTO_START_RADIO_SUBTITLE": "Automatically adds a mix playlist when playing a single track",
   "BACKUP_AND_RESTORE": "Backup & Restore",
   "BACKUP_AND_RESTORE_SUBTITLE": "Backup your database and settings",
   "BALANCED": "Balanced",
