@@ -58,6 +58,8 @@
   "AUTO_EXTRACT_TAGS_FROM_FILENAME": "Автоматично витягувати з імені файлу",
   "AUTO_EXTRACT_TITLE_AND_ARTIST_FROM_VIDEO_TITLE": "Автоматично витягувати назву та виконавця з назви відео",
   "AUTO_GENERATED": "Автоматично згенерований",
+  "AUTO_START_RADIO": "Автозапуск радіо",
+  "AUTO_START_RADIO_SUBTITLE": "Автоматично додає плейлист «Мікс» під час відтворення одного треку",
   "BACKUP_AND_RESTORE": "Резервне копіювання та відновлення",
   "BACKUP_AND_RESTORE_SUBTITLE": "Резервне копіювання бази даних та налаштувань",
   "BALANCED": "Збалансований",
