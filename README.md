@@ -63,7 +63,6 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Urdu  | Pakistan | [@rehan5039](https://github.com/rehan5039) | [`ur_PK.json`](translations/ur_PK.json)
 | 繁體中文  | Taiwan | [@xqsart](https://github.com/xqsart) | [`zh_Hant.json`](translations/zh_Hant.json)
 | 简体中文  | China | [@xqsart](https://github.com/xqsart), [@monstorix](https://github.com/monstorix) | [`zh_Hans.json`](translations/zh_Hans.json)
-| Urdu  | Pakistan | [@rehan5039](https://github.com/rehan5039) | [`ur_PA.json`](translations/ur_PA.json)
 
 
 
