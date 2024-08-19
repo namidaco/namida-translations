@@ -62,5 +62,20 @@
   "AUTO_START_RADIO_SUBTITLE": "Na-agbakwụnye ndepụta ọkpụkpọ agwakọta na-akpaghị aka mgbe ị na-akpọ otu egwu",
   "BACKUP_AND_RESTORE": "Ndabere & weghachite",
   "BACKUP_AND_RESTORE_SUBTITLE": "Kwado nchekwa data na ntọala gị",
-  "BALANCED": "Kwesịrị ekwesị"
+  "BALANCED": "Kwesịrị ekwesị",
+  "CLEAR_VIDEO_CACHE_NOTE": "Ị nwere ike ịhọrọ ihe ị ga-ehichapụ.",
+  "CLOCK": "Elekere",
+  "COLOR_PALETTE": "Palette Agba",
+  "COLOR_PALETTES": "Palettes Agba",
+  "COLOR_PALETTE_NOTE_1": "Ogologo pịa agba ka iwepụ ya",
+  "COLOR_PALETTE_NOTE_2": "Kpatụ na ngwakọta ka iji dị ka mgba ndabara",
+  "COMMENT": "Ikwu okwu",
+  "COMMENTS": "Kwuru",
+  "COMPOSER": "Onye na-ede ihe",
+  "COMPRESS": "mpikọta ọnụ",
+  "COMPRESSION_PERCENTAGE": "Pasent mkpakọ",
+  "COMPRESS_IMAGES": "Mpikọta ọnụ onyonyo",
+  "CONFIGURE": "Hazie",
+  "CONFIRM": "Gosi",
+  "COPIED_ARTWORK": "Ihe osise e depụtaghachiri"
 }
