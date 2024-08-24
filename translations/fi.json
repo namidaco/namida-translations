@@ -290,5 +290,8 @@
   "IF_NOT_PLAYING": "Jos ei pelaa",
   "IGNORES": "Ohittaa",
   "IGNORE_BATTERY_OPTIMIZATIONS_SUBTITLE": "Latauksia voidaan rajoittaa, kun sovelluksen akku on rajoitettu",
-  "IMMERSIVE_MODE": "Mukaansatempaavatila"
+  "IMMERSIVE_MODE": "Mukaansatempaavatila",
+  "IMMERSIVE_MODE_SUBTITLE": "Piilota tila ja navigointipalkit, kun minisoitin laajenee",
+  "IMPORT": "Tuoda",
+  "IMPORTED_N_CHANNELS_SUCCESSFULLY": "_NUM_ kanavat tuotu onnistuneesti"
 }
