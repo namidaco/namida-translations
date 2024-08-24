@@ -289,5 +289,6 @@
   "HOUR_FORMAT_12": "12 Tunni kello",
   "IF_NOT_PLAYING": "Jos ei pelaa",
   "IGNORES": "Ohittaa",
-  "IGNORE_BATTERY_OPTIMIZATIONS_SUBTITLE": "Latauksia voidaan rajoittaa, kun sovelluksen akku on rajoitettu"
+  "IGNORE_BATTERY_OPTIMIZATIONS_SUBTITLE": "Latauksia voidaan rajoittaa, kun sovelluksen akku on rajoitettu",
+  "IMMERSIVE_MODE": "Mukaansatempaavatila"
 }
