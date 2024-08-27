@@ -317,5 +317,6 @@
   "JUMP_TO_DAY": "Hyppää päivään",
   "JUMP_TO_FIRST_TRACK_AFTER_QUEUE_FINISH": "Hyppää ensimmäiseen kappaleeseen jonon päätyttyä",
   "KEEP_CACHED_VERSIONS": "Säilytä välimuistissa olevat versiot",
-  "KEEP_FILE_DATES": "Säilytä tiedostojen päivämäärät"
+  "KEEP_FILE_DATES": "Säilytä tiedostojen päivämäärät",
+  "KEEP_SCREEN_AWAKE_MINIPLAYER_EXPANDED": "Minisoitin on laajennettu"
 }
