@@ -145,5 +145,12 @@
   "DISLIKE": "Enweghị mmasị",
   "DISMISSIBLE_MINIPLAYER": "Obere Ọkpụkpọ egwu enweghị ike ịchụpụ",
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE": "Kaadị Album n'elu akara ụbọchị",
-  "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Gosipụta ụbọchị ọba na Kaadị Album n'elu ụbọchị aka nri"
+  "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Gosipụta ụbọchị ọba na Kaadị Album n'elu ụbọchị aka nri",
+  "DISPLAY_THIRD_ITEM_IN_ROW_IN_TRACK_TILE": "Gosipụta Ihe Nke Atọ N'ahịrị Nke Ọ bụla",
+  "DISPLAY_THIRD_ROW_IN_TRACK_TILE": "Gosipụta Ahịrị Nke Atọ",
+  "DISPLAY_TRACK_NUMBER_IN_ALBUM_PAGE": "Gosi nọmba Egwu na Ibe Ọba",
+  "DISPLAY_TRACK_NUMBER_IN_ALBUM_PAGE_SUBTITLE": "Gosipụta obere igbe nwere nọmba egwu na ibe ọba",
+  "DONE": "Emela",
+  "DONT_ASK_AGAIN": "Ajụkwala ọzọ",
+  "DONT_RESTORE_POSITION": "Eweghachila"
 }
