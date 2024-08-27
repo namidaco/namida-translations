@@ -318,5 +318,11 @@
   "JUMP_TO_FIRST_TRACK_AFTER_QUEUE_FINISH": "Hyppää ensimmäiseen kappaleeseen jonon päätyttyä",
   "KEEP_CACHED_VERSIONS": "Säilytä välimuistissa olevat versiot",
   "KEEP_FILE_DATES": "Säilytä tiedostojen päivämäärät",
-  "KEEP_SCREEN_AWAKE_MINIPLAYER_EXPANDED": "Minisoitin on laajennettu"
+  "KEEP_SCREEN_AWAKE_MINIPLAYER_EXPANDED": "Minisoitin on laajennettu",
+  "KEEP_SCREEN_AWAKE_MINIPLAYER_EXPANDED_AND_VIDEO": "Minisoitin on laajennettu ja videota toistetaan",
+  "KEEP_SCREEN_AWAKE_NONE": "Älä pidä näyttöä hereillä",
+  "KEEP_SCREEN_AWAKE_WHEN": "Pidä näyttö hereillä kun",
+  "KILL_PLAYER_AFTER_DISMISSING_APP": "Tappaa pelaajan toiminta sovelluksen hylkäämisen jälkeen",
+  "LANGUAGE": "Kieli",
+  "LIBRARY_TABS": "Kirjaston välilehdet"
 }
