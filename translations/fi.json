@@ -324,5 +324,11 @@
   "KEEP_SCREEN_AWAKE_WHEN": "Pidä näyttö hereillä kun",
   "KILL_PLAYER_AFTER_DISMISSING_APP": "Tappaa pelaajan toiminta sovelluksen hylkäämisen jälkeen",
   "LANGUAGE": "Kieli",
-  "LIBRARY_TABS": "Kirjaston välilehdet"
+  "LIBRARY_TABS": "Kirjaston välilehdet",
+  "LOAD_ALL": "Lataa kaikki",
+  "LOCAL": "Paikallinen",
+  "LOCAL_VIDEO_MATCHING": "Paikallinen videovastaavuus",
+  "LOST_MEMORIES": "Kadonneita muistoja",
+  "LOST_MEMORIES_SUBTITLE": "noin tähän aikaan, _NUM_ vuotta sitten",
+  "LOUDNESS_ENHANCER": "Kuuluvuus Tehostaja"
 }
