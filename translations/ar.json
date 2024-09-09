@@ -413,6 +413,8 @@
   "NONE": "لاشيء",
   "NON_ACTIVE": "غير نشط",
   "NON_FAVOURITES": "غير المفضلة",
+  "NORMALIZE_AUDIO": "موازنة الصوت",
+  "NORMALIZE_AUDIO_SUBTITLE": "موازنة مستوى الصوت من خلال قراءة علامة كسب الإعادة أو المعلومات المقدمة من يوتيوب",
   "NOTE": "ملاحظة",
   "NOTIFICATION": "الإشعارات",
   "NOTIFICATIONS": "الإشعارات",
