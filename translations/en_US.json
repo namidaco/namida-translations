@@ -413,6 +413,8 @@
   "NONE": "None",
   "NON_ACTIVE": "Non-Active",
   "NON_FAVOURITES": "Non-Favourites",
+  "NORMALIZE_AUDIO": "Normalize audio",
+  "NORMALIZE_AUDIO_SUBTITLE": "Normalizes volume by reading the replay gain tag or the info provided by youtube",
   "NOTE": "Note",
   "NOTIFICATION": "Notification",
   "NOTIFICATIONS": "Notifications",
