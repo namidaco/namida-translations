@@ -413,6 +413,8 @@
   "NONE": "无",
   "NON_ACTIVE": "不活跃",
   "NON_FAVOURITES": "未收藏",
+  "NORMALIZE_AUDIO": "标准化音频",
+  "NORMALIZE_AUDIO_SUBTITLE": "通过读取重播增益标签或 YouTube 提供的信息来标准化音量",
   "NOTE": "提示",
   "NOTIFICATION": "通知",
   "NOTIFICATIONS": "通知",
