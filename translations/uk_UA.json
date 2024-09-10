@@ -413,6 +413,8 @@
   "NONE": "Нічого",
   "NON_ACTIVE": "Неактивний",
   "NON_FAVOURITES": "Необране",
+  "NORMALIZE_AUDIO": "Нормалізація звуку",
+  "NORMALIZE_AUDIO_SUBTITLE": "Нормалізує гучність, зчитуючи тег посилення відтворення або інформацію, надану YouTube",
   "NOTE": "Примітка",
   "NOTIFICATION": "Сповіщення",
   "NOTIFICATIONS": "Сповіщення",
