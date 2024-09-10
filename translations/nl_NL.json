@@ -413,6 +413,8 @@
   "NONE": "Geen",
   "NON_ACTIVE": "Inactief",
   "NON_FAVOURITES": "Geen favorieten",
+  "NORMALIZE_AUDIO": "Audio normaliseren",
+  "NORMALIZE_AUDIO_SUBTITLE": "Normaliseer het audiovolume door de replaygaintag of YouTube-informatie uit te lezen",
   "NOTE": "Opmerking",
   "NOTIFICATION": "Melding",
   "NOTIFICATIONS": "Meldingen",
