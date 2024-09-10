@@ -413,6 +413,8 @@
   "NONE": "Ниједно",
   "NON_ACTIVE": "Неактивно",
   "NON_FAVOURITES": "Неомиљено",
+  "NORMALIZE_AUDIO": "Нормализуј звук",
+  "NORMALIZE_AUDIO_SUBTITLE": "Нормализује јачину звука читајући ознаку за добијање поновног пуштања или информације које пружа YouTube",
   "NOTE": "Напомена",
   "NOTIFICATION": "Обавештење",
   "NOTIFICATIONS": "Обавештења",
