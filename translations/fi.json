@@ -325,10 +325,20 @@
   "KILL_PLAYER_AFTER_DISMISSING_APP": "Tappaa pelaajan toiminta sovelluksen hylkäämisen jälkeen",
   "LANGUAGE": "Kieli",
   "LIBRARY_TABS": "Kirjaston välilehdet",
+  "LIBRARY_TABS_REORDER": "Sinä voit järjestää aktivoitu välilehdet.",
+  "LIKE": "Kun",
+  "LIKED": "Tykätu",
+  "LINK": "Linkki",
+  "LIST_OF_FOLDERS": "Luettelo Kansioista",
+  "LOADING_FILE": "Ladataan tiedostoa",
   "LOAD_ALL": "Lataa kaikki",
   "LOCAL": "Paikallinen",
   "LOCAL_VIDEO_MATCHING": "Paikallinen videovastaavuus",
   "LOST_MEMORIES": "Kadonneita muistoja",
   "LOST_MEMORIES_SUBTITLE": "noin tähän aikaan, _NUM_ vuotta sitten",
-  "LOUDNESS_ENHANCER": "Kuuluvuus Tehostaja"
+  "LOUDNESS_ENHANCER": "Kuuluvuus Tehostaja",
+  "LYRICIST": "Sanoittaja",
+  "LYRICS": "Sanat",
+  "LYRICS_SOURCE": "Sanan alkuperä",
+  "M3U_PLAYLIST": "M3U Soitolista"
 }
