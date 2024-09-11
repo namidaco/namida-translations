@@ -340,5 +340,13 @@
   "LYRICIST": "Sanoittaja",
   "LYRICS": "Sanat",
   "LYRICS_SOURCE": "Sanan alkuperä",
-  "M3U_PLAYLIST": "M3U Soitolista"
+  "M3U_PLAYLIST": "M3U Soitolista",
+  "MAKE_YOUR_FIRST_LISTEN": "Tee ensimmäinen kuuntelusi!",
+  "MANAGE": "Hallitse",
+  "MANAGE_YOUR_ACCOUNTS": "Hallitse sun tilit",
+  "MANUAL_BACKUP": "Manuaalinen",
+  "MANUAL_BACKUP_SUBTITLE": "Poimi tietty tiedosto",
+  "MARK_AS_READ": "Merkitse lukenut",
+  "MATCHING_TYPE": "Vastaava tyyppi",
+  "MATCH_ALL_TRACKS": "Vastaa Kaikki Musiikkikappaleet"
 }
