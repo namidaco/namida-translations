@@ -1,1 +1,8 @@
-{}
+{
+  "ABOUT": "Information on the application",
+  "ACTIVE": "Active",
+  "ADD": "Append",
+  "ADDED": "Appended",
+  "ADD_ACCOUNT": "Append account",
+  "ADD_ALL": "Append all"
+}
