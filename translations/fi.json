@@ -348,5 +348,20 @@
   "MANUAL_BACKUP_SUBTITLE": "Poimi tietty tiedosto",
   "MARK_AS_READ": "Merkitse lukenut",
   "MATCHING_TYPE": "Vastaava tyyppi",
-  "MATCH_ALL_TRACKS": "Vastaa Kaikki Musiikkikappaleet"
+  "MATCH_ALL_TRACKS": "Vastaa Kaikki Musiikkikappaleet",
+  "MATCH_ALL_TRACKS_NOTE": "tämä voi vaikuttaa hakunopeuteen, koska se tarkistaa kaikki kokoelmasi kappaleet",
+  "MAXIMUM": "Maksimi",
+  "MAX_AUDIO_CACHE_SIZE": "Äänivälimuistin Enimmäiskoko",
+  "MAX_IMAGE_CACHE_SIZE": "Kuvavälimuistin Enimmäiskoko",
+  "MAX_VIDEO_CACHE_SIZE": "Videovälimuistin Enimmäiskoko",
+  "MEMBERSHIP_CODE": "Koodi",
+  "MEMBERSHIP_CODE_SENT_TO_EMAIL": "Koodi lähetetty sun sähköpostiin",
+  "MEMBERSHIP_DIDNT_CHANGE": "Jäsenyys ei vaihtonut",
+  "MEMBERSHIP_ENJOY_NEW": "Toivottavasti pidät uudesta jäsenyydestäsi :)",
+  "MEMBERSHIP_FREE_COUPON": "Ilmainen kuponki",
+  "MEMBERSHIP_MANAGE": "Hallinnoi Jäsenyyttäsi",
+  "MEMBERSHIP_NO_SUBSCRIPTIONS_FOUND_FOR_USER": "Tilauksia ei löytynyt tama käyttäjälle",
+  "MEMBERSHIP_SIGN_IN_TO_PATREON_ACCOUNT": "Kirjaudu sisään patreon-tilillesi",
+  "MEMBERSHIP_UNKNOWN": "Jäsentaso Epävarma",
+  "MEMBERSHIP_YOU_NEED_MEMBERSHIP_OF_TO_ADD_MULTIPLE_ACCOUNTS": "Tarvitset jäsenyyden _NAME1_ tai _NAME2_ Etta voit käyttää moninkertainen tilliä"
 }
