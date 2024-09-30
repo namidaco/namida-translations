@@ -243,6 +243,16 @@
   "FORCE_SQUARED_ALBUM_THUMBNAIL": "Manye Thumbnail Album Nwere Akụkụ Anọ",
   "FORCE_SQUARED_THUMBNAIL_NOTE": "Ogo Thumbnail na Ịdị Elu Tile ADỊGHỊ nhata, ọdịdị akụkụ anọ agaghị adị ka a tụrụ anya ya, ịchọrọ ime ka ha nhata?",
   "FORCE_SQUARED_TRACK_THUMBNAIL": "Mee ka thumbnail egwu nwere akụkụ anọ",
+  "FORCE_STOP_COLOR_PALETTE_GENERATION": "Manye kwụsị iwepụta palette agba? ị ka nwere ike ịga n'ihu ma emechaa",
+  "FORMAT": "Usoro",
+  "GENERATE": "Mepụta",
+  "GENERATE_FROM_DATES": "Ogologo Oge",
+  "GENERATE_FROM_DATES_SUBTITLE": "Mepụta egwu ndị ị gere n'otu oge",
+  "GENERATE_RANDOM_PLAYLIST": "Mepụta ndepụta ọkpụkpọ enweghị usoro",
+  "GENRE": "Ụdị",
+  "GENRES": "Ụdị",
+  "GOOD_LOOKING": "Dị mma n'anya",
+  "GO_TO_ALBUM": "Gaa na Albọm",
   "GO_TO_ARTIST": "Gaa na oti egwu",
   "GO_TO_CHANNEL": "Gaa na ọwa",
   "GO_TO_FOLDER": "Gaa na Nsomebefaịlụ",
@@ -274,5 +284,9 @@
   "IMPORT_TIME_RANGE": "Bubata ogologo oge",
   "IMPORT_YOUTUBE_HISTORY": "Bubata Akụkọ Youtube",
   "IMPORT_YOUTUBE_HISTORY_GUIDE": "1. Gaa na _TAKEOUT_LINK_\n\n2. Pịa \"Ọtụtụ Usoro\" na n'akụkụ \"Akụkọ\" họrọ \"JSON\".\n\n3. Pịa \"YouTube data niile ka agụnyere\", họpụta ha niile na họrọ naanị akụkọ.\n\n4. Mepụta mbupụ, mbudata & nwepụ.\n\n5. Họrọ \"watch-history.json\" site na ihuenyo dị n'ihu.",
-  "INDEXER": "Indexer"
+  "INDEXER": "Indexer",
+  "INDEXER_NOTE": "Mara: Ọnụọgụ Ọrụ Nka ezughị ezu na-ezo aka na nke emegharịrị & ahụghị Ọrụ Nka",
+  "INDEXER_SUBTITLE": "Jikwaa ọba egwu gị",
+  "INDEX_REFRESH_REQUIRED": "Mee ume Ọhụrụ mgbe ịgbanwere nke a",
+  "INFINITY_QUEUE_ON_NEXT_PREV": "Ịkwụ N'Ahiri Na-Enweghị Ngwụcha Na-Esote/Nke Gara Aga"
 }
