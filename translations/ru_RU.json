@@ -363,7 +363,7 @@
   "MEMBERSHIP_NO_SUBSCRIPTIONS_FOUND_FOR_USER": "У этого пользователя не найдены подписки",
   "MEMBERSHIP_SIGN_IN_TO_PATREON_ACCOUNT": "Войди в свой аккаунт Patreon",
   "MEMBERSHIP_UNKNOWN": "Неизвестное Членство",
-  "MEMBERSHIP_YOU_NEED_MEMBERSHIP_OF_TO_ADD_MULTIPLE_ACCOUNTS": "Тебе нужно членство _NAME1_ или_NAME2_, чтобы добавить несколько аккаунтов",
+  "MEMBERSHIP_YOU_NEED_MEMBERSHIP_OF_TO_ADD_MULTIPLE_ACCOUNTS": "Тебе нужно членство _NAME1_ или _NAME2_, чтобы добавить несколько аккаунтов",
   "METADATA_CACHE": "Кэш метаданных",
   "METADATA_EDIT_FAILED": "Не удалось отредактировать метаданные",
   "METADATA_READ_FAILED": "Не удалось прочитать метаданные",
