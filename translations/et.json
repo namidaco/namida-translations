@@ -1,1 +1,15 @@
-{}
+{
+  "ABOUT": "Rakenduse teave",
+  "ACTIVE": "Aktiivne",
+  "ADD": "Lisa",
+  "ADDED": "lisatud",
+  "ADD_ACCOUNT": "Lisa kasutajakonto",
+  "ADD_ALL": "Lisa kõik",
+  "ADD_ALL_AND_REMOVE_OLD_ONES": "Lisa kõik ja eemalda vanad",
+  "ADD_AS_A_NEW_PLAYLIST": "Lisa uue esitusloendina",
+  "ADD_AUDIO_TO_LOCAL_LIBRARY": "Lisa heliriba kohalikku meediakogusse",
+  "ADD_FOLDER": "Lisa kaust",
+  "ADD_LANGUAGE": "Lisa keel",
+  "ADD_LANGUAGE_SUBTITLE": "Aita Namidat tõlkida oma keelde",
+  "ADD_LRC_FILE": "Lisa LRC-fail"
+}
