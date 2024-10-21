@@ -29,5 +29,9 @@
   "ALBUM_ARTIST": "Albumi esitaja",
   "ALBUM_ARTISTS": "Albumi esitajad",
   "ALBUM_IDENTIFIERS": "Albumi tunnused",
-  "ALBUM_THUMBNAIL_SIZE_IN_LIST": "Albumi pisipildi suurus"
+  "ALBUM_THUMBNAIL_SIZE_IN_LIST": "Albumi pisipildi suurus",
+  "ALBUM_TILE_CUSTOMIZATION": "Albumiruutude kohendamine",
+  "ALL": "Kõik",
+  "ALL_TIME": "Kogu ajavahemik",
+  "ALWAYS": "Alati"
 }
