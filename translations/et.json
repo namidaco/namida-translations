@@ -33,5 +33,10 @@
   "ALBUM_TILE_CUSTOMIZATION": "Albumiruutude kohendamine",
   "ALL": "Kõik",
   "ALL_TIME": "Kogu ajavahemik",
-  "ALWAYS": "Alati"
+  "ALWAYS": "Alati",
+  "ALWAYS_ASK": "Küsi alati",
+  "ALWAYS_EXPANDED_SEARCHBAR": "Kasuta alati laiendatud otsinguriba",
+  "ALWAYS_RESTORE": "Alati taasta",
+  "ANIMATING_THUMBNAIL_INTENSITY": "Pisipiltide animatsiooni intensiivsus",
+  "ANIMATING_THUMBNAIL_INVERSED": "Pööratud animatsioonid"
 }
