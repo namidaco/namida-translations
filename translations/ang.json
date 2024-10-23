@@ -4,5 +4,6 @@
   "ADD": "Append",
   "ADDED": "Appended",
   "ADD_ACCOUNT": "Append account",
-  "ADD_ALL": "Append all"
+  "ADD_ALL": "Append all",
+  "ADD_ALL_AND_REMOVE_OLD_ONES": "Adth and removth the elden ones"
 }
