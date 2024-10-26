@@ -1,10 +1,83 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
-<martif type="TBX">
-<martifHeader>
-<fileDesc>
-<sourceDesc><p>Translate Toolkit</p></sourceDesc>
-</fileDesc>
-</martifHeader>
-<text><body></body></text>
+<martif type="TBX" xml:lang="en">
+    <martifHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Translate Toolkit</p>
+            </sourceDesc>
+        </fileDesc>
+    </martifHeader>
+    <text>
+        <body>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Artist</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Исполнитель</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Track</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Трек</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Playlist</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Плейлист</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Artwork</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Обложка</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Folder</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Папка</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Favourite Button</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Кнопка "Избранное"</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Metadata tags</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Теги Метаданных</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Backup</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Резервная копия</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Crossfade</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Затухающий переход</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Miniplayer</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Миниплеер</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Artworks</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Обложки</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Album</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Альбом</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Thumbnail</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Миниатюра</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Title</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Название</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Membership</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Членство</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Storage</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Хранилище</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Searchbar</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Панель поиска</term></tig></langSet>
+            </termEntry>
+        </body>
+    </text>
 </martif>

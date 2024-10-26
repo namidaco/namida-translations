@@ -1,8 +1,15 @@
 [
   {
+
     "code": "ar_SA",
     "name": "Arabic",
     "country": "Saudi Arabia"
+  },
+  {
+    "code": "nl_NL",
+    "name": "Dutch",
+    "country": "Netherlands"
+
   },
   {
     "code": "en_US",
@@ -65,6 +72,11 @@
     "country": "Russia"
   },
   {
+    "code": "sr_RS",
+    "name": "Serbian",
+    "country": "Serbia"
+  },
+  {
     "code": "tr_TR",
     "name": "Turkish",
     "country": "Türkiye"
@@ -78,6 +90,11 @@
     "code": "vi_VN",
     "name": "Vietnamese",
     "country": "Vietnam"
+  },
+  {
+    "code": "ur_PK",
+    "name": "Urdu",
+    "country": "Pakistan"
   },
   {
     "code": "zh_Hant",
