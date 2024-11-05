@@ -365,6 +365,7 @@
   "MEMBERSHIP_SIGN_IN_TO_PATREON_ACCOUNT": "Sign in to your patreon account",
   "MEMBERSHIP_UNKNOWN": "Unknown Membership",
   "MEMBERSHIP_YOU_NEED_MEMBERSHIP_OF_TO_ADD_MULTIPLE_ACCOUNTS": "You need membership of _NAME1_ or _NAME2_ to add multiple accounts",
+  "MERGE": "Merge",
   "METADATA_CACHE": "Metadata Cache",
   "METADATA_EDIT_FAILED": "Failed to edit metadata",
   "METADATA_READ_FAILED": "Failed to read metadata",
