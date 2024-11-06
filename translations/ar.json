@@ -365,6 +365,7 @@
   "MEMBERSHIP_SIGN_IN_TO_PATREON_ACCOUNT": "قم بتسجيل الدخول إلى حساب باتريون الخاص بك",
   "MEMBERSHIP_UNKNOWN": "عضوية غير معروفة",
   "MEMBERSHIP_YOU_NEED_MEMBERSHIP_OF_TO_ADD_MULTIPLE_ACCOUNTS": "تحتاج إلى عضوية _NAME1_ أو _NAME2_ لإضافة حسابات متعددة",
+  "MERGE": "دمج",
   "METADATA_CACHE": "السجل المؤقت للبيانات الوصفية",
   "METADATA_EDIT_FAILED": "فشل في تحرير بيانات التعريف",
   "METADATA_READ_FAILED": "فشل في قراءة بيانات التعريف",
