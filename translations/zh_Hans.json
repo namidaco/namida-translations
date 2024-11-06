@@ -365,6 +365,7 @@
   "MEMBERSHIP_SIGN_IN_TO_PATREON_ACCOUNT": "登录您的 Patreon 账号",
   "MEMBERSHIP_UNKNOWN": "未知会员资格",
   "MEMBERSHIP_YOU_NEED_MEMBERSHIP_OF_TO_ADD_MULTIPLE_ACCOUNTS": "您需要 _NAME1_ 或 _NAME2_ 的会员资格才能添加多个账号",
+  "MERGE": "合并",
   "METADATA_CACHE": "元数据缓存",
   "METADATA_EDIT_FAILED": "无法编辑元数据",
   "METADATA_READ_FAILED": "无法读取元数据",
