@@ -469,6 +469,8 @@
   "PERFORMANCE_MODE": "Performance mode",
   "PERFORMANCE_NOTE": "Might affect performance",
   "PERSONALIZED": "Personalized",
+  "PERSONALIZED_RELATED_VIDEOS": "Personalized Related Videos",
+  "PERSONALIZED_RELATED_VIDEOS_SUBTITLE": "Disabling this will increase data usage",
   "PICK_COLORS_FROM_DEVICE_WALLPAPER": "Pick Colors from Device Wallpaper",
   "PICK_FROM_STORAGE": "Pick from storage",
   "PINNED": "Pinned",
