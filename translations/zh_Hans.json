@@ -469,6 +469,8 @@
   "PERFORMANCE_MODE": "性能模式",
   "PERFORMANCE_NOTE": "可能会影响手机性能",
   "PERSONALIZED": "个性化",
+  "PERSONALIZED_RELATED_VIDEOS": "个性化相关视频",
+  "PERSONALIZED_RELATED_VIDEOS_SUBTITLE": "禁用此选项将增加数据使用量",
   "PICK_COLORS_FROM_DEVICE_WALLPAPER": "从设备壁纸中选取颜色",
   "PICK_FROM_STORAGE": "从存储中选取",
   "PINNED": "已固定",
