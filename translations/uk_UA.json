@@ -469,6 +469,8 @@
   "PERFORMANCE_MODE": "Продуктивний режим",
   "PERFORMANCE_NOTE": "Може вплинути на продуктивність",
   "PERSONALIZED": "Персоналізований",
+  "PERSONALIZED_RELATED_VIDEOS": "Персоналізовані схожі відео",
+  "PERSONALIZED_RELATED_VIDEOS_SUBTITLE": "Якщо вимкнено, зростає використання даних",
   "PICK_COLORS_FROM_DEVICE_WALLPAPER": "Обрати колір зі шпалер на пристрої",
   "PICK_FROM_STORAGE": "Обрати зі сховища",
   "PINNED": "Закріплено",
