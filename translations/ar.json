@@ -469,6 +469,8 @@
   "PERFORMANCE_MODE": "وضع الاداء",
   "PERFORMANCE_NOTE": "قد يؤثر على الأداء",
   "PERSONALIZED": "مخصص",
+  "PERSONALIZED_RELATED_VIDEOS": "مقاطع فيديو مخصصة ذات صلة",
+  "PERSONALIZED_RELATED_VIDEOS_SUBTITLE": "سيؤدي تعطيل هذا إلى زيادة استخدام البيانات",
   "PICK_COLORS_FROM_DEVICE_WALLPAPER": "اختر الألوان من خلفية الجهاز",
   "PICK_FROM_STORAGE": "اختر من وحدة التخزين",
   "PINNED": "مُثَبَّتَة",
