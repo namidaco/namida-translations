@@ -469,6 +469,8 @@
   "PERFORMANCE_MODE": "Производительный режим",
   "PERFORMANCE_NOTE": "Может повлиять на производительность",
   "PERSONALIZED": "Персонализированный",
+  "PERSONALIZED_RELATED_VIDEOS": "Персонализированные похожие видео",
+  "PERSONALIZED_RELATED_VIDEOS_SUBTITLE": "Отключение этого параметра увеличит расход данных",
   "PICK_COLORS_FROM_DEVICE_WALLPAPER": "Выбирать цвета из обоев на устройстве",
   "PICK_FROM_STORAGE": "Выбрать из хранилища",
   "PINNED": "Закреплено",
