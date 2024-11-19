@@ -302,6 +302,7 @@
   "IMPORT_TIME_RANGE": "Tijdspanne importeren",
   "IMPORT_YOUTUBE_HISTORY": "YouTube-geschiedenis importeren",
   "IMPORT_YOUTUBE_HISTORY_GUIDE": "1. Ga naar _TAKEOUT_LINK_\n\n2. Druk op ‘Meerdere indelingen’ en klik naast ‘Geschiedenis’ op ‘JSON’.\n\n3. Druk op ‘Alle YouTube-gegevens inbegrepen’, deselecteer alles en kies alleen voor de geschiedenis.\n\n4. Stel een export samen, download deze en pak het archiefbestand uit.\n\n5. Kies op het volgende scherm het bestand ‘watch-history.json’.",
+  "INCLUDE_VIDEOS": "Inclusief video's",
   "INDEXER": "Indexering",
   "INDEXER_NOTE": "Let op: een onvolledig aantal albumhoezen verwijst naar duplicaten en niet-aangetroffen hoezen",
   "INDEXER_SUBTITLE": "Muziekverzameling beheren",
