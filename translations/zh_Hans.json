@@ -302,6 +302,7 @@
   "IMPORT_TIME_RANGE": "导入时间范围",
   "IMPORT_YOUTUBE_HISTORY": "导入 YouTube 历史记录",
   "IMPORT_YOUTUBE_HISTORY_GUIDE": "1. 转到_TAKEOUT_LINK_\n\n2.点击“多种格式”，然后在“历史记录”旁选择“JSON”。\n\n3.反选“包含所有 Youtube 数据”，仅勾选历史记录。\n\n4.创建导出任务，之后下载并解压得到的文件。\n\n5.从下一个屏幕中选择“watch-history.json”。",
+  "INCLUDE_VIDEOS": "包括视频",
   "INDEXER": "索引器",
   "INDEXER_NOTE": "注：专辑封面数量不一致，意味着存在重复封面或未找到封面",
   "INDEXER_SUBTITLE": "管理您的音乐库",
