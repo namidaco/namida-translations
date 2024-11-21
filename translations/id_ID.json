@@ -1,7 +1,7 @@
 {
   "ABOUT": "Tentang",
   "ACTIVE": "Aktif",
-  "ADD": "Menambahkan",
+  "ADD": "Tambahkan",
   "ADDED": "Ditambahkan",
   "ADD_ACCOUNT": "Tambahkan akun",
   "ADD_ALL": "Tambahkan Semua",
@@ -302,6 +302,7 @@
   "IMPORT_TIME_RANGE": "Impor rentang waktu",
   "IMPORT_YOUTUBE_HISTORY": "Impor Riwayat Youtube",
   "IMPORT_YOUTUBE_HISTORY_GUIDE": "1. Buka _TAKEOUT_LINK_\n\n2. Tekan \"Beberapa Format\" dan di samping \"Riwayat\" pilih \"JSON\".\n\n3. Tekan \"Semua data Youtube disertakan\", Batalkan pilihan Semua dan pilih hanya riwayat.\n\n4. Buat Ekspor, Unduh & Buka zip.\n\n5. Pilih \"watch-history.json\" dari layar berikutnya.",
+  "INCLUDE_VIDEOS": "Termasuk video",
   "INDEXER": "Pengindeks",
   "INDEXER_NOTE": "Catatan: Jumlah Gambar yang Tidak Lengkap mengacu pada Gambar yang diduplikasi & tidak ditemukan",
   "INDEXER_SUBTITLE": "Kelola Pustaka musik Anda",
