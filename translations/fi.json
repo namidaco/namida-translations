@@ -206,7 +206,7 @@
   "ENABLE_PARALLAX_EFFECT": "Käyttää parallaksiefekti",
   "ENABLE_PARTY_MODE": "Käyttää juhlatila",
   "ENABLE_PARTY_MODE_SUBTITLE": "Käytä hienoa reunahengitystehoa",
-  "ENABLE_PICTURE_IN_PICTURE": "Käyttää kuva kuvassatila",
+  "ENABLE_PICTURE_IN_PICTURE": "Käyttää kuva kuvassa",
   "ENABLE_REORDERING": "Käyttää uudelleenjärjestely",
   "ENABLE_SEARCH_CLEANUP": "Käyttää Haku Puhdistus",
   "ENABLE_SEARCH_CLEANUP_SUBTITLE": "Kaikki symbolit ja välilyönnit ohitetaan",
@@ -341,7 +341,7 @@
   "LYRICS": "Sanat",
   "LYRICS_SOURCE": "Sanan alkuperä",
   "M3U_PLAYLIST": "M3U Soitolista",
-  "MAKE_YOUR_FIRST_LISTEN": "Tee ensimmäinen kuuntelusi!",
+  "MAKE_YOUR_FIRST_LISTEN": "Tee ensimmäinen kuuntelus!",
   "MANAGE": "Hallitse",
   "MANAGE_YOUR_ACCOUNTS": "Hallitse sun tilit",
   "MANUAL_BACKUP": "Manuaalinen",
@@ -363,5 +363,10 @@
   "MEMBERSHIP_NO_SUBSCRIPTIONS_FOUND_FOR_USER": "Tilauksia ei löytynyt tama käyttäjälle",
   "MEMBERSHIP_SIGN_IN_TO_PATREON_ACCOUNT": "Kirjaudu sisään patreon-tilillesi",
   "MEMBERSHIP_UNKNOWN": "Jäsentaso Epävarma",
-  "MEMBERSHIP_YOU_NEED_MEMBERSHIP_OF_TO_ADD_MULTIPLE_ACCOUNTS": "Tarvitset jäsenyyden _NAME1_ tai _NAME2_ Etta voit käyttää moninkertainen tilliä"
+  "MEMBERSHIP_YOU_NEED_MEMBERSHIP_OF_TO_ADD_MULTIPLE_ACCOUNTS": "Tarvitset jäsenyyden _NAME1_ tai _NAME2_ Etta voit käyttää moninkertainen tilliä",
+  "METADATA_CACHE": "Metadata Välimuisti",
+  "METADATA_EDIT_FAILED": "Metatietojen välimuistin muokkaaminen epäonnistui",
+  "METADATA_READ_FAILED": "Metatietojen lukeminen epäonnistui",
+  "MINIMIZED_MINIPLAYER": "Minimoitu minisoitin",
+  "MINIMUM": "Minimum"
 }
