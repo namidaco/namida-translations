@@ -1,8 +1,15 @@
 [
   {
+
+    "code": "ar_SA",
+    "name": "Arabic",
+    "country": "Saudi Arabia"
+  },
+  {
     "code": "nl_NL",
     "name": "Dutch",
     "country": "Netherlands"
+
   },
   {
     "code": "en_US",
