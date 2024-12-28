@@ -501,6 +501,7 @@
   "PREVIOUS_BUTTON_REPLAYS": "Перезавантажувати трек при виборі наступного треку",
   "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "Якщо натиснуто, коли поточна позиція більше довжини перемотки",
   "PRIORITIZE_EMBEDDED_LYRICS": "Пріоритезувати вбудований текст пісні",
+  "PRIORITY": "Пріоритет",
   "PRIVATE": "Приватний",
   "PROGRESS": "Прогрес",
   "PROMPT_INDEXING_REFRESH": "Знайдено _NEW_FILES_ нових файлів, а _DELETED_FILES_ видалено або відфільтровано, хочете оновити?",
