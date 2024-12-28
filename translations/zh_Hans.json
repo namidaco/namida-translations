@@ -501,6 +501,7 @@
   "PREVIOUS_BUTTON_REPLAYS": "上一曲按钮重放",
   "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "启用时，若当前播放时长大于设定的步进时长，单击上一曲按钮将重新播放曲目",
   "PRIORITIZE_EMBEDDED_LYRICS": "优先使用嵌入歌词",
+  "PRIORITY": "优先级",
   "PRIVATE": "私人",
   "PROGRESS": "进度",
   "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ 个新文件已找到且 _DELETED_FILES_ 个文件已被删除或过滤，您想要刷新吗？",
