@@ -501,6 +501,7 @@
   "PREVIOUS_BUTTON_REPLAYS": "Previous button replays",
   "PREVIOUS_BUTTON_REPLAYS_SUBTITLE": "if pressed while current position was more than seek duration",
   "PRIORITIZE_EMBEDDED_LYRICS": "Prioritize embedded lyrics",
+  "PRIORITY": "Priority",
   "PRIVATE": "Private",
   "PROGRESS": "Progress",
   "PROMPT_INDEXING_REFRESH": "_NEW_FILES_ new files has been found & _DELETED_FILES_ was deleted or filtered, wanna do a refresh?",
