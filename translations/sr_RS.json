@@ -147,6 +147,7 @@
   "DIM_INTENSITY": "Интензитет затамњења",
   "DIM_MINIPLAYER_AFTER_SECONDS": "Затамњење мини-плејера након _SECONDS_ секунди неактивности",
   "DIRECTORY_DOESNT_EXIST": "Директоријум не постоји",
+  "DISABLE_ALL": "Онемогући све",
   "DISABLE_REORDERING": "Онемогући преуређивање",
   "DISABLE_SEARCH_CLEANUP": "Онемогући чишћење претраге",
   "DISC_NUMBER": "Број диска",
