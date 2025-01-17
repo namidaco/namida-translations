@@ -82,10 +82,6 @@
                 <langSet xml:lang="en"><tig><term>Cache</term></tig></langSet>
                 <langSet xml:lang="ru"><tig><term>Кэш</term></tig></langSet>
             </termEntry>
-            <termEntry>
-                <langSet xml:lang="en"><tig><term>you</term></tig></langSet>
-                <langSet xml:lang="ru"><tig><term>ты</term></tig></langSet>
-            </termEntry>
         </body>
     </text>
 </martif>
