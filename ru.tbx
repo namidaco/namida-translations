@@ -86,6 +86,10 @@
                 <langSet xml:lang="en"><tig><term>You</term></tig></langSet>
                 <langSet xml:lang="ru"><tig><term>Ты</term></tig></langSet>
             </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Dim</term></tig></langSet>
+                <langSet xml:lang="ru"><tig><term>Затемнение</term></tig></langSet>
+            </termEntry>
         </body>
     </text>
 </martif>
