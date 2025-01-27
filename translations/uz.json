@@ -1,1 +1,19 @@
-{}
+{
+  "ABOUT": "Ilova haqida",
+  "ACTIVE": "Faol",
+  "ADD": "Qo'shish",
+  "ADDED": "Qo'shildi",
+  "ADD_ACCOUNT": "Account Qo'shish",
+  "ADD_ALL": "Hammasini Qo'shish",
+  "ADD_ALL_AND_REMOVE_OLD_ONES": "Hammasini qo'shing va eskilarini olib tashlang",
+  "ADD_AS_A_NEW_PLAYLIST": "Yangi pleylist sifatida qo'shish",
+  "ADD_FOLDER": "Fayl qo'shish",
+  "ADD_LANGUAGE": "Til Qo'shish",
+  "ADD_LANGUAGE_SUBTITLE": "Namidani o'z tilingizga tarjima qilishga yordam bering",
+  "ADD_LRC_FILE": "LRC faylini qo'shish",
+  "ADD_MORE_FROM_THIS_ALBUM": "Ushbu albomdan navbatga ko'proq qo'shing",
+  "ADD_MORE_FROM_THIS_ARTIST": "Ushbu qo'shiqchidan navbatga ko'proq qo'shing",
+  "ADD_MORE_FROM_THIS_FOLDER": "Ushbu fayldan navbatga ko'proq qo'shing",
+  "ADD_MORE_FROM_TO_QUEUE": "_MEDIA_ dan navbatga qo'shimcha qo'shish",
+  "ADD_ONLY_MISSING": "Faqat yetishmayotgan qo'shish"
+}
