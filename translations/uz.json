@@ -173,5 +173,12 @@
   "EDGE_COLORS_SWITCHING": "Chegara ranglarini o‘zgartirish",
   "EDIT": "O‘zgartirish",
   "EDIT_ARTWORK": "Eskizni o‘zgartirish",
+  "EDIT_TAGS": "Teglarni tahrirlash",
+  "EMAIL": "Email (elektron pochta)",
+  "EMPTY_NON_MEANINGFUL_TAG_FIELDS": "sizda bo‘sh/ma’nosiz maydonlar bor, ularni rostdan ham tahrirlamoqchi ekaningizga ishonch hosil qiling",
+  "EMPTY_VALUE": "Bo‘sh miqdor",
+  "ENABLE_BLUR_EFFECT": "Xiralashtirish effektini yoqish",
+  "ENABLE_BOTTOM_NAV_BAR": "Pastki navigatsiya panelini yoqish",
+  "ENABLE_BOTTOM_NAV_BAR_SUBTITLE": "Buyumlar ikkala tomonda ham qutining ichida",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "Keshlangan versiya faqat ulanish bo'lmaganda ishlatiladi"
 }
