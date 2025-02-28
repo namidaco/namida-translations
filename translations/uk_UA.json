@@ -360,6 +360,7 @@
   "MAX_AUDIO_CACHE_SIZE": "Максимальний розмір кешу аудіо",
   "MAX_IMAGE_CACHE_SIZE": "Максимальний розмір кешу зображень",
   "MAX_VIDEO_CACHE_SIZE": "Максимальний розмір кешу відео",
+  "MEDIA_STORE_IS_ENABLED_THIS_WILL_HAVE_NO_EFFECT": "Увімкнено сховище медіафайлів, тому це налаштування не діятиме",
   "MEMBERSHIP_CODE": "Код",
   "MEMBERSHIP_CODE_SENT_TO_EMAIL": "Код надіслано на Вашу електронну пошту",
   "MEMBERSHIP_DIDNT_CHANGE": "Участь не змінилася",
