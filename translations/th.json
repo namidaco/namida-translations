@@ -167,5 +167,7 @@
   "LANGUAGE": "ภาษา",
   "MANAGE_YOUR_ACCOUNTS": "จัดการบัญชีของคุณ",
   "TRACK_PATH_OLD_NEW": "ชื่อเดิม: \"_OLD_NAME_\"\n\nชื่อใหม่: \"_NEW_NAME_\"\n\nคุณแน่ใจหรือไม่?",
-  "USE_PITCH_BLACK": "ใช้สีดำสนิท"
+  "USE_PITCH_BLACK": "ใช้สีดำสนิท",
+  "VIDEO_QUALITY": "คุณภาพของวิดีโอ",
+  "YEAR": "ปี"
 }
