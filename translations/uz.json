@@ -178,6 +178,9 @@
   "DOWNLOADING_WILL_OVERRIDE_IT": "Yuklab olish uni bekor qilishi mumkin",
   "DOWNLOADS": "Yuklanmalar",
   "DOWNLOADS_METADATA_TAGS": "Yuklanmalar Metama’lumot teglari",
+  "DUCK_AUDIO": "Duck audio",
+  "DUPLICATED_ITEMS_ADDING": "Bu pleylistda allaqachon mavjud bo‘lgan ayrim elementlarni kiritishga urinyapsiz",
+  "DUPLICATED_TRACKS": "Dublikat treklar",
   "DURATION": "Davomiylik",
   "EDGE_COLORS_SWITCHING": "Chegara ranglarini o‘zgartirish",
   "EDIT": "O‘zgartirish",
@@ -189,5 +192,7 @@
   "ENABLE_BLUR_EFFECT": "Xiralashtirish effektini yoqish",
   "ENABLE_BOTTOM_NAV_BAR": "Pastki navigatsiya panelini yoqish",
   "ENABLE_BOTTOM_NAV_BAR_SUBTITLE": "Buyumlar ikkala tomonda ham qutining ichida",
+  "ENABLE_CLIPBOARD_MONITORING": "Vaqtincha nusxa monitoring qilishni yoqish",
+  "ENABLE_CLIPBOARD_MONITORING_SUBTITLE": "Qidiruv paneli ichidagi havolalar va matnlarni bir vaqtda joylashtirish imkonini beradi",
   "YT_PREFER_NEW_COMMENTS_SUBTITLE": "Keshlangan versiya faqat ulanish bo'lmaganda ishlatiladi"
 }
