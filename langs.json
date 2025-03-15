@@ -15,6 +15,11 @@
     "country": "Colombia"
   },
   {
+    "code": "es",
+    "name": "Español",
+    "country": "Spain"
+  },
+  {
     "code": "fr_FR",
     "name": "Français",
     "country": "France"
@@ -45,6 +50,11 @@
     "country": "Japan"
   },
   {
+    "code": "ko",
+    "name": "Korean",
+    "country": "Korea"
+  },
+  {
     "code": "fa_IR",
     "name": "Persian",
     "country": "Iran"
@@ -68,6 +78,11 @@
     "code": "sr_RS",
     "name": "Serbian",
     "country": "Serbia"
+  },
+  {
+    "code": "ta",
+    "name": "Tamil",
+    "country": "India"
   },
   {
     "code": "tr_TR",
