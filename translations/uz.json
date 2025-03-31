@@ -229,6 +229,7 @@
   "EXTRACTING_INFO": "Ma’lumot olinmoqda",
   "EXTRACT_ALL_COLOR_PALETTES": "Barcha rang palitrasini ajratib olish",
   "EXTRACT_ALL_COLOR_PALETTES_SUBTITLE": "Qolgan _REMAINING_COLOR_PALETTES_ ajratib olinsinmi?",
+  "EXTRACT_FEAT_ARTIST": "   ",
   "FILTERED_BY_SIZE_AND_DURATION": "Treklar hajmi va davomiyligi asosida filtrlandi",
   "FILTER_PLAYLISTS": "Pleylistlarni filtrlash",
   "FILTER_TRACKS": "Treklarni filtrlash",
