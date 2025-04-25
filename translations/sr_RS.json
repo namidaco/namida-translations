@@ -721,7 +721,7 @@
   "VIDEO_PLAYBACK_SOURCE": "Извор видео снимка",
   "VIDEO_PLAYBACK_SOURCE_AUTO_SUBTITLE": "Ово ће дати приоритет локалним видео снимцима, ако се не пронађу, онда ће се преузети с YouTube-а",
   "VIDEO_PLAYBACK_SOURCE_LOCAL": "Локални видео снимци",
-  "VIDEO_PLAYBACK_SOURCE_LOCAL_EXAMPLE_SUBTITLE": "Alan Walker - Faded.m4a\nVideo Alan Walker - Faded (480p).mp4",
+  "VIDEO_PLAYBACK_SOURCE_LOCAL_EXAMPLE_SUBTITLE": "Alan Walker - Faded.m4a\nВидео Alan Walker - Faded (480p).mp4",
   "VIDEO_PLAYBACK_SOURCE_LOCAL_SUBTITLE": "Проверава да ли било који фајл видео снимка (који се налази на листи изабраних фолдера) има назив који садржи назив фајла",
   "VIDEO_PLAYBACK_SOURCE_YOUTUBE": "С YouTube-а",
   "VIDEO_PLAYBACK_SOURCE_YOUTUBE_SUBTITLE": "Проверава назив фајла и коментар нумере за било који подударни YouTube линк, видео снимци се кеширају за каснију употребу.",
