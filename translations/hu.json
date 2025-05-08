@@ -34,5 +34,13 @@
   "ALL": "Összes",
   "ALL_TIME": "Mindenkori",
   "ALWAYS": "Mindig",
-  "ALWAYS_ASK": "Mindig kérdezzen rá"
+  "ALWAYS_ASK": "Mindig kérdezzen rá",
+  "ALWAYS_DIM": "Mindig sötétítse el",
+  "ALWAYS_RESTORE": "Mindig állítsa vissza",
+  "ANIMATING_THUMBNAIL_INTENSITY": "Indexkép-animáció intenzitása",
+  "ANOTHER_PROCESS_IS_RUNNING": "Egy másik kliens már elindult.",
+  "ARTIST": "Előadó",
+  "ARTISTS": "Előadók",
+  "ARTWORK": "Albumborító",
+  "ARTWORKS": "Albumborítók"
 }
