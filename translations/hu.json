@@ -42,5 +42,12 @@
   "ARTIST": "Előadó",
   "ARTISTS": "Előadók",
   "ARTWORK": "Albumborító",
-  "ARTWORKS": "Albumborítók"
+  "ARTWORKS": "Albumborítók",
+  "ARTWORK_GESTURES": "Albumborító interakciók",
+  "AUDIO": "Hang",
+  "AUDIO_CACHE": "Hang gyorsítótár",
+  "AUDIO_ONLY": "Csak hang",
+  "AUTO": "Auto",
+  "AUTOMATIC_BACKUP": "Automatikus",
+  "AUTOMATIC_BACKUP_SUBTITLE": "Automatikusan a legutóbbi biztonsági mentés visszaállítása a biztonsági mentés mappából"
 }
