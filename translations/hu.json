@@ -45,7 +45,7 @@
   "ARTWORKS": "Albumborítók",
   "ARTWORK_GESTURES": "Albumborító interakciók",
   "AUDIO": "Hang",
-  "AUDIO_CACHE": "Hang gyorsítótár",
+  "AUDIO_CACHE": "Hang cache",
   "AUDIO_ONLY": "Csak hang",
   "AUTO": "Auto",
   "AUTOMATIC_BACKUP": "Automatikus",
