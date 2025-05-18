@@ -266,6 +266,7 @@
   "FORCE_SQUARED_TRACK_THUMBNAIL": "Force Squared Track Thumbnail",
   "FORCE_STOP_COLOR_PALETTE_GENERATION": "Force stop extracting color palettes? you can still continue it later",
   "FORMAT": "Format",
+  "FULLSCREEN": "Fullscreen",
   "GENERATE": "Generate",
   "GENERATE_FROM_DATES": "Time Range",
   "GENERATE_FROM_DATES_SUBTITLE": "Generate tracks you listened to in a time range",
