@@ -598,6 +598,7 @@
   "SET_TAGS": "Set tags",
   "SET_YOUTUBE_LINK": "Set Youtube Link",
   "SHARE": "Share",
+  "SHORTCUTS": "Shortcuts",
   "SHOULD_DUCK": "Should duck",
   "SHOULD_DUCK_NOTE": "Indicates that the volume should be lowered. ex: notification",
   "SHOULD_PAUSE": "Should pause",
