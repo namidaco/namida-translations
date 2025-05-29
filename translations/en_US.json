@@ -585,6 +585,7 @@
   "SEEK_DURATION_INFO": "You can tap on current duration to seek backwards & total duration to seek forwards",
   "SELECTED_TRACKS": "Selected Tracks",
   "SELECT_ALL": "Select All",
+  "SELECT_FILES_ALREADY_IN_LOCAL_LIBRARY": "Select files already in local library",
   "SEPARATORS_BLACKLIST_SUBTITLE": "These words will not get split",
   "SEPARATORS_MESSAGE": "No need to insert spaces, unless you wanna use a letter/symbol that can be found in a whole word (like x and ft.)",
   "SETTINGS": "Settings",
