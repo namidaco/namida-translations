@@ -585,6 +585,7 @@
   "SEEK_DURATION_INFO": "Vous pouvez appuyer sur la durée actuelle pour rechercher en arrière et sur la durée totale pour rechercher en avant.",
   "SELECTED_TRACKS": "Morceaux choisis",
   "SELECT_ALL": "Sélectionner tout",
+  "SELECT_FILES_ALREADY_IN_LOCAL_LIBRARY": "Sélectionner les fichiers dans la librairie locale",
   "SEPARATORS_BLACKLIST_SUBTITLE": "Ces mots ne seront pas divisés",
   "SEPARATORS_MESSAGE": "Il n'est pas nécessaire d'insérer des espaces, sauf si vous voulez utiliser une lettre/un symbole qui se trouve dans un mot entier (comme x et ft).",
   "SETTINGS": "Paramètres",
