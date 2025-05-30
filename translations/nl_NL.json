@@ -585,6 +585,7 @@
   "SEEK_DURATION_INFO": "Tip: druk op de huidige duur om terug te spoelen en op de totaalduur om vooruit te spoelen",
   "SELECTED_TRACKS": "Gekozen nummers",
   "SELECT_ALL": "Alles selecteren",
+  "SELECT_FILES_ALREADY_IN_LOCAL_LIBRARY": "Kies bestanden uit lokale verzameling",
   "SEPARATORS_BLACKLIST_SUBTITLE": "Deze woorden worden niet opgedeeld",
   "SEPARATORS_MESSAGE": "Je hoeft geen spaties te gebruiken, tenzij je een letter of symbool uit een woord wilt opnemen, bijvoorbeeld ‘x’ of ‘ft.’",
   "SETTINGS": "Instellingen",
