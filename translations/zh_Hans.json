@@ -585,6 +585,7 @@
   "SEEK_DURATION_INFO": "您可以点击当前时长以快退，点击总时长以快进",
   "SELECTED_TRACKS": "已选曲目",
   "SELECT_ALL": "全选",
+  "SELECT_FILES_ALREADY_IN_LOCAL_LIBRARY": "选择本地库中已有的文件",
   "SEPARATORS_BLACKLIST_SUBTITLE": "这些词不会被分割",
   "SEPARATORS_MESSAGE": "无需插入空格，除非您想凭借单个字母或符号寻找特定词（例如 x 和 ft)。",
   "SETTINGS": "设置",
