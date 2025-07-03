@@ -719,6 +719,7 @@
   "VALUE": "Value",
   "VALUE_BETWEEN_50_200": "Value should be between 50% and 200%",
   "VIBRATION": "Vibration",
+  "VIBRATION_TYPE": "Vibration type",
   "VIDEO": "Video",
   "VIDEOS": "Videos",
   "VIDEO_CACHE": "Video Cache",
