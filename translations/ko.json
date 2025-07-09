@@ -147,6 +147,7 @@
   "DIM_INTENSITY": "밝기",
   "DIM_MINIPLAYER_AFTER_SECONDS": "_SECONDS_초 동안 조작하지 않으면 미니 플레이어가 어두워집니다",
   "DIRECTORY_DOESNT_EXIST": "디렉토리가 존재하지 않음",
+  "DISABLE_ALL": "KO",
   "DISABLE_REORDERING": "정렬 비활성화",
   "DISABLE_SEARCH_CLEANUP": "검색 정리 비활성화",
   "DISC_NUMBER": "디스크 번호",
