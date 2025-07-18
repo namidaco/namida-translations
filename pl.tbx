@@ -1,10 +1,26 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
-<martif type="TBX">
-<martifHeader>
-<fileDesc>
-<sourceDesc><p>Translate Toolkit</p></sourceDesc>
-</fileDesc>
-</martifHeader>
-<text><body></body></text>
+<martif type="TBX" xml:lang="en">
+    <martifHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Translate Toolkit</p>
+            </sourceDesc>
+        </fileDesc>
+    </martifHeader>
+    <text>
+        <body>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Folder</term></tig></langSet>
+                <langSet xml:lang="pl"><tig><term>Folder</term></tig></langSet>
+                <note from="translator">in this form, it's also folder in polish</note>
+                <descrip>in this form, it's also folder in polish</descrip>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Youtube Music</term></tig></langSet>
+                <langSet xml:lang="pl"><tig><term>Youtube Music</term></tig></langSet>
+                <note from="translator">Name of a music platform, no need to translate</note>
+            </termEntry>
+        </body>
+    </text>
 </martif>
