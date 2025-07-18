@@ -55,7 +55,7 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Japanese  | Japan | [@taxi13245](https://github.com/taxi13245) | [`ja_JP.json`](translations/ja_JP.json)
 | Korean  | Korea | [@onlydev](https://translate.codeberg.org/user/onlydev) | [`ko.json`](translations/ko.json)
 | Persian  | Iran | [@Stamili](https://github.com/Stamili) | [`fa_IR.json`](translations/fa_IR.json)
-| Polish  | Poland | [@pantin](https://translate.codeberg.org/user/pantin) | [`pl_PL.json`](translations/pl_PL.json)
+| Polish  | Poland | [@pantin](https://translate.codeberg.org/user/pantin), [@KOXXPL](https://github.com/KOXXPL) | [`pl_PL.json`](translations/pl_PL.json)
 | Português  | Brasil | [@mbdpym](https://github.com/mbdpym) | [`pt_BR.json`](translations/pt_BR.json)
 | Russian  | Russia | [@sodiel](https://github.com/sodiel), [@Lowara1243](https://github.com/Lowara1243), [@VerySweetBread](https://github.com/VerySweetBread) | [`ru_RU.json`](translations/ru_RU.json)
 | Serbian  | Serbia | [@nexi](https://translate.codeberg.org/user/nexi) | [`sr_RS.json`](translations/sr_RS.json)
