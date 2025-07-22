@@ -28,5 +28,15 @@
   "ALBUM_ARTIST": "Album Artist",
   "ALBUM_ARTISTS": "Album Artister",
   "ALBUM_IDENTIFIERS": "Album Identifierare",
-  "ALBUM_THUMBNAIL_SIZE_IN_LIST": "Storlek av Albumets Tumnagel"
+  "ALBUM_THUMBNAIL_SIZE_IN_LIST": "Storlek av Albumets Tumnagel",
+  "LOST_MEMORIES": "Bortglömda Minnen",
+  "MIXES": "Mixar",
+  "RECENTLY_ADDED": "Nyligen Tillagda",
+  "RECENT_ALBUMS": "Senaste Album",
+  "RECENT_ARTISTS": "Senaste Artister",
+  "RECENT_LISTENS": "Nyligen Spelade",
+  "REFRESH": "Ladda om",
+  "REFRESH_LIBRARY": "Ladda om Bibliotek",
+  "REFRESH_LIBRARY_SUBTITLE": "Kolla för nyligen tillagda eller borttagna spår",
+  "REFRESH_ON_STARTUP": "Ladda om vid uppstart"
 }
