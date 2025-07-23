@@ -23,7 +23,7 @@
   "ADVANCED_SETTINGS_SUBTITLE": "Avancerade inställningar, rör ej",
   "ALARM": "Alarm",
   "ALBUM": "Album",
-  "ALBUMS": "Album",
+  "ALBUMS": "Alla Album",
   "ALBUMS_COUNT": "Mängd Album",
   "ALBUM_ARTIST": "Album Artist",
   "ALBUM_ARTISTS": "Album Artister",
@@ -55,5 +55,10 @@
   "REFRESH": "Ladda om",
   "REFRESH_LIBRARY": "Ladda om Bibliotek",
   "REFRESH_LIBRARY_SUBTITLE": "Kolla för nyligen tillagda eller borttagna spår",
-  "REFRESH_ON_STARTUP": "Ladda om vid uppstart"
+  "REFRESH_ON_STARTUP": "Ladda om vid uppstart",
+  "SPEED": "Hastighet",
+  "THUMBNAILS": "Tumnaglar",
+  "TITLE": "Titel",
+  "TRACKS": "Spår",
+  "VOLUME": "Volym"
 }
