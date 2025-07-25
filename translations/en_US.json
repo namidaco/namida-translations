@@ -121,6 +121,7 @@
   "CROSSFADE_DURATION": "Crossfade duration",
   "CROSSFADE_TRIGGER_SECONDS": "Trigger Crossfade automatically in the last _SECONDS_ seconds",
   "CROSSFADE_TRIGGER_SECONDS_DISABLED": "Do not trigger crossfade automatically",
+  "CROSS_PLATFORM_SYNC": "Cross-Platform Sync",
   "CUSTOM": "Custom",
   "CUSTOMIZATIONS": "Customizations",
   "CUSTOMIZATIONS_SUBTITLE": "Customize how your player looks, make it yours",
