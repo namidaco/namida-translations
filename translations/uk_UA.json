@@ -121,6 +121,7 @@
   "CROSSFADE_DURATION": "Тривалість згасаючого переходу",
   "CROSSFADE_TRIGGER_SECONDS": "Автоматично вмикати згасаючий перехід в останні _SECONDS_ секунд",
   "CROSSFADE_TRIGGER_SECONDS_DISABLED": "Не запускати згасаючий перехід автоматично",
+  "CROSS_PLATFORM_SYNC": "Синхронізація між платформами",
   "CUSTOM": "Користувацький",
   "CUSTOMIZATIONS": "Персоналізація",
   "CUSTOMIZATIONS_SUBTITLE": "Налаштуйте зовнішній вигляд свого плеєра під себе",
