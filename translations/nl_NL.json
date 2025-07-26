@@ -121,6 +121,7 @@
   "CROSSFADE_DURATION": "Overgangsduur",
   "CROSSFADE_TRIGGER_SECONDS": "Automatisch een vloeiende overgang verzorgen in de laatste _SECONDS_ seconden",
   "CROSSFADE_TRIGGER_SECONDS_DISABLED": "Geen automatische vloeiende overgang",
+  "CROSS_PLATFORM_SYNC": "Synchronisatie tussen platformen",
   "CUSTOM": "Aangepast",
   "CUSTOMIZATIONS": "Aanpassingen",
   "CUSTOMIZATIONS_SUBTITLE": "Zet de speler naar eigen hand",
