@@ -121,6 +121,7 @@
   "CROSSFADE_DURATION": "淡入淡出时长",
   "CROSSFADE_TRIGGER_SECONDS": "在最后 _SECONDS_ 秒内自动触发淡入淡出",
   "CROSSFADE_TRIGGER_SECONDS_DISABLED": "不自动触发淡入淡出",
+  "CROSS_PLATFORM_SYNC": "跨平台同步",
   "CUSTOM": "自定义",
   "CUSTOMIZATIONS": "自定义",
   "CUSTOMIZATIONS_SUBTITLE": "根据喜好自定义您的播放器外观",
