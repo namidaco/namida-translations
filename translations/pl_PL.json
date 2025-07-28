@@ -121,6 +121,7 @@
   "CROSSFADE_DURATION": "Czas przejścia",
   "CROSSFADE_TRIGGER_SECONDS": "Włącz funkcję przejścia automatycznie w ciągu ostatnich _SECONDS_ sekund",
   "CROSSFADE_TRIGGER_SECONDS_DISABLED": "Nie włączaj przejścia automatycznie",
+  "CROSS_PLATFORM_SYNC": "Synchronizacja międzyplatformowa",
   "CUSTOM": "Własny",
   "CUSTOMIZATIONS": "Dostosowanie",
   "CUSTOMIZATIONS_SUBTITLE": "Dostosuj wygląd odtwarzacza, według własnego uznania",
