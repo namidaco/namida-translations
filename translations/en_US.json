@@ -631,7 +631,7 @@
   "SIGN_OUT": "Sign out",
   "SIGN_OUT_FROM_NAME": "Sign out from _NAME_",
   "SIMILAR_DISCOVER_DATE": "Similar Discover Date",
-  "SIMILAR_DISCOVER_DATE_SUBTITLE": "Generate tracks that was discovered around the same time as _CURRENT_TRACK_",
+  "SIMILAR_DISCOVER_DATE_SUBTITLE": "Generate tracks that were discovered around the same time as _CURRENT_TRACK_",
   "SIMILAR_TIME_RANGE": "Similar Time Range",
   "SIMILAR_TIME_RANGE_SUBTITLE": "Generate tracks you listened to around the same time as _CURRENT_TRACK_",
   "SIZE": "Size",
