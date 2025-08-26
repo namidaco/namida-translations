@@ -628,6 +628,8 @@
   "SIGN_IN_YOU_NEED_ACCOUNT_TO_VIEW_PAGE": "Du brauchst ein Konto, um diese Seite zu sehen",
   "SIGN_OUT": "Abmelden",
   "SIGN_OUT_FROM_NAME": "Abmeldung von _NAME_",
+  "SIMILAR_TIME_RANGE": "Ähnliche Zeitspanne",
+  "SIMILAR_TIME_RANGE_SUBTITLE": "Generiere Musiktitel, die Du zum gleichen Zeitpunkt wie _CURRENT_TRACK_ angehört hast",
   "SIZE": "Größe",
   "SKIP": "Überspringen",
   "SKIP_SILENCE": "Stille überspringen",
