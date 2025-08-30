@@ -298,6 +298,7 @@
   "IF_NOT_PLAYING": "Якщо не відтворюється",
   "IGNORES": "Ігнорує",
   "IGNORE_BATTERY_OPTIMIZATIONS_SUBTITLE": "Завантаження може бути обмежено, якщо додаток працює від акумулятора",
+  "IGNORE_COMMON_PREFIXES_WHILE_SORTING": "Ігнорувати поширені префікси під час сортування",
   "IMAGE_SOURCE": "Джерело зображень",
   "IMMERSIVE_MODE": "Режим занурення",
   "IMMERSIVE_MODE_SUBTITLE": "Приховує статусну та навігаційну панелі при розгорнутому мініплеєрі",
