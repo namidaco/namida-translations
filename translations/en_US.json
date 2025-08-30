@@ -298,6 +298,7 @@
   "IF_NOT_PLAYING": "If not playing",
   "IGNORES": "Ignores",
   "IGNORE_BATTERY_OPTIMIZATIONS_SUBTITLE": "Downloads can be throttled when the app is battery restricted",
+  "IGNORE_COMMON_PREFIXES_WHILE_SORTING": "Ignore common prefixes while sorting",
   "IMAGE_SOURCE": "Image source",
   "IMMERSIVE_MODE": "Immersive Mode",
   "IMMERSIVE_MODE_SUBTITLE": "Hide Status & Navigation bars while Miniplayer is expanded",
