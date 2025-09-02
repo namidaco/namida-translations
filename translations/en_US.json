@@ -636,6 +636,7 @@
   "SIMILAR_DISCOVER_DATE_SUBTITLE": "Generate tracks that were discovered around the same time as _CURRENT_TRACK_",
   "SIMILAR_TIME_RANGE": "Similar Time Range",
   "SIMILAR_TIME_RANGE_SUBTITLE": "Generate tracks you listened to around the same time as _CURRENT_TRACK_",
+  "SINGLES": "Singles",
   "SIZE": "Size",
   "SKIP": "Skip",
   "SKIP_SILENCE": "Skip Silence",
