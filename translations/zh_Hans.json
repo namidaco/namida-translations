@@ -636,6 +636,7 @@
   "SIMILAR_DISCOVER_DATE_SUBTITLE": "生成与 _CURRENT_TRACK_ 同时期发现的曲目",
   "SIMILAR_TIME_RANGE": "相似时间范围",
   "SIMILAR_TIME_RANGE_SUBTITLE": "生成与 _CURRENT_TRACK_ 同时段收听过的曲目",
+  "SINGLES": "单曲",
   "SIZE": "尺寸",
   "SKIP": "跳过",
   "SKIP_SILENCE": "跳过静音部分",
