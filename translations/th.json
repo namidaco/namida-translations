@@ -176,6 +176,8 @@
   "ENABLE_BLUR_EFFECT": "เปิดใช้งานเอฟเฟ็กต์เบลอ",
   "ENABLE_BOTTOM_NAV_BAR": "เปิดใช้งานแถบนำทางด้านล่าง",
   "ENABLE_CROSSFADE_EFFECT": "เปิดใช้งานการเฟดเสียง",
+  "ENABLE_GLOW_EFFECT": "เปิดการใช้เอฟเฟกต์เรืองแสง",
+  "ENABLE_M3U_SYNC": "เปิดการซิงค์ M3U",
   "ENABLE_PICTURE_IN_PICTURE": "เปิดการใช้งานภาพซ้อนภาพ",
   "EXIT_APP_SUBTITLE": "แตะอีกครั้งเพื่อออก",
   "IMPORT": "นำเข้า",
