@@ -270,6 +270,7 @@
   "FORCE_STOP_COLOR_PALETTE_GENERATION": "Force stop extracting color palettes? you can still continue it later",
   "FORMAT": "Format",
   "FULLSCREEN": "Fullscreen",
+  "GAPLESS_PLAYBACK": "Gapless Playback",
   "GENERATE": "Generate",
   "GENERATE_FROM_DATES": "Time Range",
   "GENERATE_FROM_DATES_SUBTITLE": "Generate tracks you listened to in a time range",
