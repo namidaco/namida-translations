@@ -270,6 +270,7 @@
   "FORCE_STOP_COLOR_PALETTE_GENERATION": "Примусово припинити витяг кольорових палітр? Ви можете продовжити це пізніше",
   "FORMAT": "Формат",
   "FULLSCREEN": "На весь екран",
+  "GAPLESS_PLAYBACK": "Відтворення без пауз",
   "GENERATE": "Згенерувати",
   "GENERATE_FROM_DATES": "Діапазон часу",
   "GENERATE_FROM_DATES_SUBTITLE": "Згенерувати треки, прослухані в певному часовому діапазоні",
