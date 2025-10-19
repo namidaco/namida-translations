@@ -270,6 +270,7 @@
   "FORCE_STOP_COLOR_PALETTE_GENERATION": "是否强制停止提取调色板？您稍后仍可以继续此操作",
   "FORMAT": "格式",
   "FULLSCREEN": "全屏",
+  "GAPLESS_PLAYBACK": "无缝播放",
   "GENERATE": "生成",
   "GENERATE_FROM_DATES": "时间范围",
   "GENERATE_FROM_DATES_SUBTITLE": "生成您在某个时间范围内听过的曲目",
