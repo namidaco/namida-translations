@@ -270,6 +270,7 @@
   "FORCE_STOP_COLOR_PALETTE_GENERATION": "Weet je zeker dat je het extraheren wilt afbreken? Je kunt op een ander moment verdergaan.",
   "FORMAT": "Formaat",
   "FULLSCREEN": "Schermvullende weergave",
+  "GAPLESS_PLAYBACK": "Ononderbroken afspelen",
   "GENERATE": "Genereren",
   "GENERATE_FROM_DATES": "Tijdspanne",
   "GENERATE_FROM_DATES_SUBTITLE": "Genereer beluisterde nummers binnen een bepaalde tijdspanne",
