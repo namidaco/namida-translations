@@ -1,1 +1,17 @@
-{}
+{
+  "ABOUT": "اباؤٹ",
+  "ACTIVE": "ایکٹیو",
+  "ADD": "ایڈ",
+  "ADDED": "ایڈیڈ",
+  "ADD_ACCOUNT": "ایڈ اکاؤنٹ",
+  "ADD_ALL": "سب ایڈ کریں",
+  "ADD_ALL_AND_REMOVE_OLD_ONES": "سب ایڈ کریں اور پرانے ہٹا دیں",
+  "ADD_AS_A_NEW_PLAYLIST": "نئی پلےلست کے طور پر ایڈ کریں",
+  "ADD_AUDIO_TO_LOCAL_LIBRARY": "لوکل لائبریری میں آڈیو شامل کریں",
+  "ADD_FOLDER": "فولڈر ایڈ کریں",
+  "ADD_LANGUAGE": "زُبان ایڈ کریں",
+  "ADD_LANGUAGE_SUBTITLE": "نمیڈا کی اپنی زبان میں تبدیل کرنے میں مدد کریں",
+  "ADD_LRC_FILE": "ایل آر سی فائل ایڈ کریں",
+  "ADD_MORE_FROM_THIS_ALBUM": "البم سے پلیئنگ آڈیو کی قطار میں ایڈ کریں",
+  "ADD_MORE_FROM_THIS_ARTIST": "اس آرٹسٹ سے مزید آڈیوز کو قطار میں شامل کریں۔"
+}
