@@ -158,6 +158,7 @@
   "DISC_NUMBER_TOTAL": "Усього дисків",
   "DISLIKE": "Не подобається",
   "DISMISSIBLE_MINIPLAYER": "Мініплеєр, який можна закрити",
+  "DISPLAY_ACTUAL_POSITION_INSTEAD_OF_DIFFERENCE_WHILE_SEEKING": "Відображати фактичну позицію замість різниці під час пошуку",
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE": "Дата альбому в правому верхньому кутку картки",
   "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Відображати дату альбому в правому верхньому кутку картки альбому",
   "DISPLAY_ARTIST_BEFORE_TITLE": "Відображати виконавця перед назвою",
