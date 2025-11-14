@@ -718,6 +718,7 @@
   "UNDO_CHANGES_DELETED_PLAYLIST": "Verwijderde afspeellijst herstellen",
   "UNDO_CHANGES_DELETED_QUEUE": "Verwijderde wachtrij herstellen",
   "UNDO_CHANGES_DELETED_TRACK": "Verwijderd nummer herstellen",
+  "UNIQUE_ARTWORK_HASH": "Unieke controlesom van hoes",
   "UNLIMITED": "Onbeperkt",
   "UNLISTED": "Niet-vermeld",
   "UNLOCK": "Ontgrendelen",
