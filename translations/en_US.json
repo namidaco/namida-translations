@@ -168,6 +168,7 @@
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Display Favourite Button in Notification",
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION_SUBTITLE": "Thumbnail might get displaced.",
   "DISPLAY_REMAINING_DURATION_INSTEAD_OF_TOTAL": "Display remaining duration instead of total",
+  "DISPLAY_STOP_BUTTON_IN_NOTIFICATION": "Display Stop Button in Notification",
   "DISPLAY_THIRD_ITEM_IN_ROW_IN_TRACK_TILE": "Display Third Item in each Row",
   "DISPLAY_THIRD_ROW_IN_TRACK_TILE": "Display Third Row",
   "DISPLAY_TRACK_NUMBER_IN_ALBUM_PAGE": "Display Track number in Album Page",
