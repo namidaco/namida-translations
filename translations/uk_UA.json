@@ -168,6 +168,7 @@
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Відображати кнопку «Обране» в сповіщеннях",
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION_SUBTITLE": "Мініатюра може бути зміщена.",
   "DISPLAY_REMAINING_DURATION_INSTEAD_OF_TOTAL": "Відображати тривалість що залишилася, замість загальної",
+  "DISPLAY_STOP_BUTTON_IN_NOTIFICATION": "Відображати кнопку «Стоп» у сповіщеннях",
   "DISPLAY_THIRD_ITEM_IN_ROW_IN_TRACK_TILE": "Відображати третій елемент у кожному рядку",
   "DISPLAY_THIRD_ROW_IN_TRACK_TILE": "Відображати третій рядок",
   "DISPLAY_TRACK_NUMBER_IN_ALBUM_PAGE": "Відображати номер треку на сторінці альбому",
