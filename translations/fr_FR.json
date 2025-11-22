@@ -168,6 +168,7 @@
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Afficher le bouton favori dans la notification",
   "DISPLAY_FAV_BUTTON_IN_NOTIFICATION_SUBTITLE": "La miniature risque d'être déplacée.",
   "DISPLAY_REMAINING_DURATION_INSTEAD_OF_TOTAL": "Afficher la durée restante au lieu de la durée totale",
+  "DISPLAY_STOP_BUTTON_IN_NOTIFICATION": "Afficher le bouton Arrêter dans la notification",
   "DISPLAY_THIRD_ITEM_IN_ROW_IN_TRACK_TILE": "Afficher le troisième élément de chaque ligne",
   "DISPLAY_THIRD_ROW_IN_TRACK_TILE": "Afficher la troisième rangée",
   "DISPLAY_TRACK_NUMBER_IN_ALBUM_PAGE": "Afficher le numéro de piste sur la page de l'album",
