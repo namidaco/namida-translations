@@ -662,6 +662,7 @@
   "SIZE": "Size",
   "SKIP": "Skip",
   "SKIP_SILENCE": "Skip Silence",
+  "SKIP_SPONSOR_SEGMENTS_IN_VIDEOS": "Skip Sponsor Segments in Videos",
   "SLEEP_AFTER": "Sleep After",
   "SLEEP_TIMER": "Sleep timer",
   "SORT_BY": "Sort by",
