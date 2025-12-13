@@ -58,5 +58,10 @@
   "AUTO_BACKUP_INTERVAL": "آٹو بیک اپ وقفہ",
   "AUTO_COLORING": "آٹو کلرنگ",
   "AUTO_COLORING_SUBTITLE": "موجودہ آرٹ ورک سے خود ہی پلیئر کے رنگ چُن لیں",
-  "AUTO_EXTRACT_TAGS_FROM_FILENAME": "خود ہی فائل کا نام ایکسٹریکٹ کر لے"
+  "AUTO_EXTRACT_TAGS_FROM_FILENAME": "خود ہی فائل کا نام ایکسٹریکٹ کر لے",
+  "AUTO_EXTRACT_TITLE_AND_ARTIST_FROM_VIDEO_TITLE": "ویڈیو ٹائٹل سے ٹائٹل اور آرٹسٹ کا نام ایکسٹریکٹ کرلو",
+  "AUTO_GENERATED": "آٹو جنریٹڈ",
+  "AUTO_START_RADIO": "ریڈیو خود بخود سٹارٹ کرو",
+  "AUTO_START_RADIO_SUBTITLE": "خود بخود مکس پلے لسٹ ایڈ کرو جب سنگل ٹریک پلے ہو رہا ہو",
+  "BACKUP_AND_RESTORE": "بیک اپ اینڈ ریسٹور"
 }
