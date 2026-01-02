@@ -130,6 +130,7 @@
   "CUSTOMIZATIONS": "Personnalisations",
   "CUSTOMIZATIONS_SUBTITLE": "Personnalisez l'apparence de votre lecteur",
   "DATABASE": "Base de données",
+  "DATA_IS_PROVIDED_BY_NAME": "Les donnees sont fournies par: _NAME_",
   "DATA_SAVER": "Économiseur de données",
   "DATA_SAVER_MODE": "Mode économie de données",
   "DATE": "Date",
