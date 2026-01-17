@@ -35,6 +35,11 @@
     "country": "Global"
   },
   {
+    "code": "fi",
+    "name": "Finnish",
+    "country": "Finland"
+  },
+  {
     "code": "fr_FR",
     "name": "Français",
     "country": "France"
@@ -85,6 +90,11 @@
     "country": "Brasil"
   },
   {
+    "code": "ro",
+    "name": "Romanian",
+    "country": "Romania"
+  },
+  {
     "code": "ru_RU",
     "name": "Russian",
     "country": "Russia"
@@ -115,14 +125,14 @@
     "country": "Ukraine"
   },
   {
-    "code": "vi_VN",
-    "name": "Vietnamese",
-    "country": "Vietnam"
-  },
-  {
     "code": "ur_PK",
     "name": "Urdu",
     "country": "Pakistan"
+  },
+  {
+    "code": "vi_VN",
+    "name": "Vietnamese",
+    "country": "Vietnam"
   },
   {
     "code": "zh_Hant",
