@@ -1,5 +1,15 @@
 [
   {
+    "code": "af",
+    "name": "Afrikaans",
+    "country": "South Africa"
+  },
+  {
+    "code": "bs",
+    "name": "Bosnian",
+    "country": "Bosnia"
+  },
+  {
     "code": "nl_NL",
     "name": "Dutch",
     "country": "Netherlands"
@@ -18,6 +28,11 @@
     "code": "es",
     "name": "Español",
     "country": "Spain"
+  },
+  {
+    "code": "eo",
+    "name": "Esperanto",
+    "country": "Global"
   },
   {
     "code": "fr_FR",
@@ -78,6 +93,11 @@
     "code": "sr_RS",
     "name": "Serbian",
     "country": "Serbia"
+  },
+  {
+    "code": "sl",
+    "name": "Slovenian",
+    "country": "Slovenia"
   },
   {
     "code": "ta",

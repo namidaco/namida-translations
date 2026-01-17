@@ -44,10 +44,13 @@ By translating, you are implying that you are a nice, great and specialito perso
 ## kawaii translators:
 | Language | Country | Contributers | Translation |
 |----------|---------|--------------|-------------|
+| Afrikaans | South Africa | [@BosnianPrince97](https://github.com/BosnianPrince97) | [`af.json`](translations/af.json)
+| Bosnian | Bosnia | [@BosnianPrince97](https://github.com/BosnianPrince97) | [`bs.json`](translations/bs.json)
 | Dutch  | Netherlands | [@Vistaus](https://github.com/Vistaus) | [`nl_NL.json`](translations/nl_NL.json)
 | English  | United States | [@MSOB7YY](https://github.com/MSOB7YY) | [`en_US.json`](translations/en_US.json)
 | Español  | Spain | [@alexwithstars](https://translate.codeberg.org/user/alexwithstars), [@UpsideDownCak3](https://translate.codeberg.org/user/UpsideDownCak3), [@galahad_wpx](https://translate.codeberg.org/user/galahad_wpx). [@abn1227](https://translate.codeberg.org/user/abn1227) | [`es.json`](translations/es.json)
 | Español  | Colombia | [@xqsart](https://github.com/xqsart) | [`es_CO.json`](translations/es_CO.json)
+| Esperanto | Global | [@BosnianPrince97](https://github.com/BosnianPrince97) | [`eo.json`](translations/eo.json)
 | Français  | France | [@yannouuuu](https://github.com/yannouuuu) | [`fr_FR.json`](translations/fr_FR.json)
 | German  | Germany | [@Maxitendo1](https://github.com/Maxitendo1) | [`de_DE.json`](translations/de_DE.json)
 | Hindi  | India | [@Debu72](https://github.com/Debu72) | [`hi_IN.json`](translations/hi_IN.json)
@@ -60,6 +63,7 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Português  | Brasil | [@mbdpym](https://github.com/mbdpym) | [`pt_BR.json`](translations/pt_BR.json)
 | Russian  | Russia | [@sodiel](https://github.com/sodiel), [@Lowara1243](https://github.com/Lowara1243), [@VerySweetBread](https://github.com/VerySweetBread) | [`ru_RU.json`](translations/ru_RU.json)
 | Serbian  | Serbia | [@nexi](https://translate.codeberg.org/user/nexi) | [`sr_RS.json`](translations/sr_RS.json)
+| Slovenian | Slovenia | [@BosnianPrince97](https://github.com/BosnianPrince97) | [`sl.json`](translations/sl.json)
 | Tamil  | India | [@srshankar](https://translate.codeberg.org/user/srshankar) | [`ta.json`](translations/ta.json)
 | Turkish  | Turkey | [@jericho909](https://github.com/jericho909) | [`tr_TR.json`](translations/tr_TR.json)
 | Українська  | Ukraine | [@sweeteBatata](https://github.com/sweeteBatata) | [`uk_UA.json`](translations/uk_UA.json)
