@@ -202,6 +202,8 @@
   "ENABLE_FOLDERS_HIERARCHY": "เปิดให้แสดงโฟลเดอร์ซ้อนโฟลเดอร์ได้ค่ะ",
   "ENABLE_GLOW_EFFECT": "เปิดการใช้เอฟเฟกต์เรืองแสง",
   "ENABLE_M3U_SYNC": "เปิดการซิงค์ M3U",
+  "ENABLE_M3U_SYNC_NOTE_1": "M3U Sync ช่วยให้สามารถบันทึกการเปลี่ยนแปลงเพลย์ลิสต์ลงในไฟล์ M3U ต้นฉบับได้",
+  "ENABLE_M3U_SYNC_NOTE_2": "ถ้ามีอะไรผิดแปลกพลิกแพลงหรือไรก็ตามไม่รู้แหละ แต่เพลย์ลิสต์สำรองจะไปอยู่ใน _PLAYLISTS_BACKUP_PATH_ นะ",
   "ENABLE_PICTURE_IN_PICTURE": "เปิดการใช้งานภาพซ้อนภาพ",
   "EXIT_APP_SUBTITLE": "แตะอีกครั้งเพื่อออก",
   "IMPORT": "นำเข้า",
