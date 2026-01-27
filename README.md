@@ -74,7 +74,7 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Vietnamese  | Vietnam | [@MikazukiReina 🌺](https://github.com/MikazukiReina) | [`vi_VN.json`](translations/vi_VN.json)
 | 繁體中文  | Taiwan | [@xqsart](https://github.com/xqsart) | [`zh_Hant.json`](translations/zh_Hant.json)
 | 简体中文  | China | [@xqsart](https://github.com/xqsart), [@monstorix](https://github.com/monstorix) | [`zh_Hans.json`](translations/zh_Hans.json)
-| বাংলা  | Bangladesh | [@chayanforyou](https://github.com/chayanforyou) | [`bn_BD.json`](translations/bn_BD.json)
+| বাংলা  | Bangladesh | [@chayanforyou](https://github.com/chayanforyou), [@sagorxzx](https://github.com/sagorxzx) | [`bn_BD.json`](translations/bn_BD.json)
 
 
 
