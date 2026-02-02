@@ -270,6 +270,7 @@
   "FORCE_STOP_COLOR_PALETTE_GENERATION": "¿Parar a la fuerza la extracción de paletas de colores? aún puedes continuarlo mas tarde",
   "FORMAT": "Formato",
   "FULLSCREEN": "Pantalla completa",
+  "GAPLESS_PLAYBACK": "Reproducción sin espacios",
   "GENERATE": "Generar",
   "GENERATE_FROM_DATES": "Rango de tiempo",
   "GENERATE_FROM_DATES_SUBTITLE": "Genera pistas que escuchaste en un intervalo de tiempo",
