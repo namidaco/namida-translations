@@ -204,6 +204,8 @@
   "EMAIL": "Email",
   "EMPTY_NON_MEANINGFUL_TAG_FIELDS": "you have fields with empty/non-meaningful values, make sure you really want to edit them",
   "EMPTY_VALUE": "Empty Value",
+  "ENABLE_ARTWORK_CACHE": "Enable Artwork Cache",
+  "ENABLE_ARTWORK_CACHE_SUBTITLE": "Faster loading and improved performance, but uses more storage",
   "ENABLE_BLUR_EFFECT": "Enable Blur Effect",
   "ENABLE_BOTTOM_NAV_BAR": "Enable Bottom Navigation Bar",
   "ENABLE_BOTTOM_NAV_BAR_SUBTITLE": "Items are inside the drawer bothways",
