@@ -204,6 +204,8 @@
   "EMAIL": "电子邮件",
   "EMPTY_NON_MEANINGFUL_TAG_FIELDS": "您有包含空/无意义值的字段，请确保您确实想要编辑它们",
   "EMPTY_VALUE": "空值",
+  "ENABLE_ARTWORK_CACHE": "启用专辑封面缓存",
+  "ENABLE_ARTWORK_CACHE_SUBTITLE": "加载更快，性能更佳，但会占用更多存储空间",
   "ENABLE_BLUR_EFFECT": "启用模糊效果",
   "ENABLE_BOTTOM_NAV_BAR": "启用底部导航栏",
   "ENABLE_BOTTOM_NAV_BAR_SUBTITLE": "抽屉中仍然会显示入口",
