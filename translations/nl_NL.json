@@ -204,6 +204,8 @@
   "EMAIL": "E-mailadres",
   "EMPTY_NON_MEANINGFUL_TAG_FIELDS": "Let op: er zijn velden met blanco of ongeschikte waarden - denk goed na of je ze wilt bewerken",
   "EMPTY_VALUE": "Blanco waarde",
+  "ENABLE_ARTWORK_CACHE": "Hoezen bewaren in cache",
+  "ENABLE_ARTWORK_CACHE_SUBTITLE": "Versnelt het laden en verbetert de prestaties, maar verbruikt meer opslagruimte",
   "ENABLE_BLUR_EFFECT": "Vervagingseffect gebruiken",
   "ENABLE_BOTTOM_NAV_BAR": "Navigatiebalk aan onderkant van scherm tonen",
   "ENABLE_BOTTOM_NAV_BAR_SUBTITLE": "Items bevinden zich tevens in het zijpaneel",
