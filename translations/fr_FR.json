@@ -204,6 +204,8 @@
   "EMAIL": "Email",
   "EMPTY_NON_MEANINGFUL_TAG_FIELDS": "Certains champs contiennent des valeurs vides ou non pertinentes ; assurez-vous de vouloir réellement les modifier.",
   "EMPTY_VALUE": "Valeur vide",
+  "ENABLE_ARTWORK_CACHE": "Activer le cache des illustrations",
+  "ENABLE_ARTWORK_CACHE_SUBTITLE": "Chargement plus rapide et performances améliorées, mais utilise davantage d'espace de stockage",
   "ENABLE_BLUR_EFFECT": "Activer l'effet de flou",
   "ENABLE_BOTTOM_NAV_BAR": "Activer la barre de navigation inférieure",
   "ENABLE_BOTTOM_NAV_BAR_SUBTITLE": "Les objets se trouvent dans le tiroir dans les deux sens",
