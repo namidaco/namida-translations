@@ -421,7 +421,7 @@
   "MIN_FILE_SIZE": "সর্বনিম্ন ফাইল সাইজ",
   "MIN_TRACK_DURATION_TO_RESTORE_LAST_POSITION": "শেষবার শ্রবণের অবস্থান পুনরুদ্ধার করতে সর্বনিম্ন ট্র্যাক সময়কাল",
   "MIN_VALUE_CANT_BE_MORE_THAN_MAX": "সর্বনিম্ন মান সর্বোচ্চ মানের চেয়ে বেশি হতে পারে না",
-  "MIN_VALUE_TO_COUNT_TRACK_LISTEN": "কতটুকু শোনা হলে শ্রবণ হিসেবে গণনা করা হবে",
+  "MIN_VALUE_TO_COUNT_TRACK_LISTEN": "কতটুকু শোনা হলে শ্রবণ হিসেবে গণনা করা হবে ",
   "MISSING_ENTRIES": "অনুপস্থিত এন্ট্রিসমূহ",
   "MISSING_TRACKS": "অনুপস্থিত ট্র্যাকসমূহ",
   "MIX": "মিক্স",
