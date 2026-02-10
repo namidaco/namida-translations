@@ -5,6 +5,11 @@
     "country": "South Africa"
   },
   {
+    "code": "bn",
+    "name": "Bangla",
+    "country": "Bangladesh"
+  },
+  {
     "code": "bs",
     "name": "Bosnian",
     "country": "Bosnia"
@@ -143,10 +148,6 @@
     "code": "zh_Hans",
     "name": "简体中文",
     "country": "中国"
-  },
-  {
-    "code": "bn",
-    "name": "বাংলা",
-    "country": "Bangladesh"
   }
 ]
+
