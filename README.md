@@ -45,6 +45,7 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Language | Country | Contributers | Translation |
 |----------|---------|--------------|-------------|
 | Afrikaans  | South Africa | [@BosnianPrince97](https://github.com/BosnianPrince97) | [`af.json`](translations/af.json)
+| Bangla  | Bangladesh | [@chayanforyou](https://github.com/chayanforyou), [@sagorxzx](https://github.com/sagorxzx) | [`bn.json`](translations/bn.json)
 | Bosnian  | Bosnia | [@BosnianPrince97](https://github.com/BosnianPrince97) | [`bs.json`](translations/bs.json)
 | Dutch  | Netherlands | [@Vistaus](https://github.com/Vistaus) | [`nl_NL.json`](translations/nl_NL.json)
 | English  | United States | [@MSOB7YY](https://github.com/MSOB7YY) | [`en_US.json`](translations/en_US.json)
@@ -74,7 +75,6 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Vietnamese  | Vietnam | [@MikazukiReina 🌺](https://github.com/MikazukiReina) | [`vi_VN.json`](translations/vi_VN.json)
 | 繁體中文  | Taiwan | [@xqsart](https://github.com/xqsart) | [`zh_Hant.json`](translations/zh_Hant.json)
 | 简体中文  | China | [@xqsart](https://github.com/xqsart), [@monstorix](https://github.com/monstorix) | [`zh_Hans.json`](translations/zh_Hans.json)
-| Bangla  | Bangladesh | [@chayanforyou](https://github.com/chayanforyou), [@sagorxzx](https://github.com/sagorxzx) | [`bn.json`](translations/bn.json)
 
 
 
