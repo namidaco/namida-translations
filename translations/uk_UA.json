@@ -153,6 +153,8 @@
   "DELETE_PLAYLIST": "Видалити плейлист",
   "DELETE_TEMP_FILES": "Видалити тимчасові файли",
   "DESCRIPTION": "Опис",
+  "DEVELOPER": "Розробник",
+  "DEVELOPMENT": "Розробка",
   "DID_YOU_MEAN": "Можливо, Ви мали на увазі",
   "DIM_INTENSITY": "Інтенсивність затемнення",
   "DIM_MINIPLAYER_AFTER_SECONDS": "Затемнення мініплеєра через _SECONDS_ секунд бездіяльності",
