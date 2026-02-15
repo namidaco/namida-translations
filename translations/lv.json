@@ -1,1 +1,10 @@
-{}
+{
+  "ABOUT": "Par",
+  "ACTIVE": "Aktīvs",
+  "ADD": "Pievienot",
+  "ADDED": "Pievienots",
+  "ADD_ACCOUNT": "Pievienot kontu",
+  "ADD_ALL": "Pievienot visas",
+  "ADD_ALL_AND_REMOVE_OLD_ONES": "Pievienot visas un noņemt vecās",
+  "ADD_AS_A_NEW_PLAYLIST": "Pievienot kā jaunu sarakstu"
+}
