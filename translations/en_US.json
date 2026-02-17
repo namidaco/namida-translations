@@ -267,7 +267,7 @@
   "FILENAME_SHOULDNT_START_WITH": "Filename shouldn't start with",
   "FILES": "Files",
   "FILE_ALREADY_EXISTS": "File already exists",
-  "FILE_BASED_SERVER_WARNING": "Files will be temporarily downloaded for indexing, Make sure your connection is stable.\\nWi-Fi is recommended to avoid high data usage.",
+  "FILE_BASED_SERVER_WARNING": "Files will be temporarily downloaded for indexing, Make sure your connection is stable.\nWi-Fi is recommended to avoid high data usage.",
   "FILE_NAME": "File Name",
   "FILE_NAME_WO_EXT": "Filename without extension",
   "FILLER": "Filler",
