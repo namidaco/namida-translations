@@ -73,8 +73,8 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Ukrainian  | Ukraine | [@Batata](https://translate.codeberg.org/user/Batata), [@SomeTr](https://translate.codeberg.org/user/SomeTr) | [`uk_UA.json`](translations/uk_UA.json)
 | Urdu  | Pakistan | [@rehan5039](https://github.com/rehan5039) | [`ur_PK.json`](translations/ur_PK.json)
 | Vietnamese  | Vietnam | [@MikazukiReina 🌺](https://github.com/MikazukiReina) | [`vi_VN.json`](translations/vi_VN.json)
-| 繁體中文  | Taiwan | [@xqsart](https://github.com/xqsart) | [`zh_Hant.json`](translations/zh_Hant.json)
-| 简体中文  | China | [@xqsart](https://github.com/xqsart), [@monstorix](https://github.com/monstorix) | [`zh_Hans.json`](translations/zh_Hans.json)
+| 繁體中文  | Taiwan | [@xqsart](https://github.com/xqsart) | [`zh_tw.json`](translations/zh_tw.json)
+| 简体中文  | China | [@xqsart](https://github.com/xqsart), [@monstorix](https://github.com/monstorix) | [`zh_cn.json`](translations/zh_cn.json)
 
 
 
