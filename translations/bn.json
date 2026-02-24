@@ -611,7 +611,7 @@
   "REQUIRES_CLEARING_IMAGE_CACHE_AND_RE_INDEXING": "ছবির ক্যাশ সাফ করা এবং পুনরায় ইনডেক্সিং করা প্রয়োজন",
   "RESCAN_VIDEOS": "ভিডিও স্ক্যান করুন",
   "RESET_BRIGHTNESS": "উজ্জ্বলতা রিসেট করুন",
-  "RESET_TO_DEFAULT": "এতে সেট করুন",
+  "RESET_TO_DEFAULT": "ডিফল্ট মান পুনরুদ্ধার করা হয়েছে",
   "RESPECT_NO_MEDIA": ".nomedia মেনে চলুন",
   "RESPECT_NO_MEDIA_SUBTITLE": ".nomedia আছে এমন ফোল্ডার অন্তর্ভুক্ত করবে না",
   "RESTART": "পুনরায় শুরু করুন",
