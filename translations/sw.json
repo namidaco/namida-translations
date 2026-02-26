@@ -168,5 +168,16 @@
   "DISABLE_SEARCH_CLEANUP": "Zuia kucleanup search",
   "DISCOVER": "Vitu Mpya",
   "DISC_NUMBER": "Namba ya Disc",
-  "DISC_NUMBER_TOTAL": "Disc Zote"
+  "DISC_NUMBER_TOTAL": "Disc Zote",
+  "DISLIKE": "Hupendi",
+  "DISMISSIBLE_MINIPLAYER": "Miniplayer yenye inaweza tolewa",
+  "DISPLAY_ACTUAL_POSITION_INSTEAD_OF_DIFFERENCE_WHILE_SEEKING": "Onyesha the actual position badala ya difference uki tafuta",
+  "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE": "Cardi ya album juu side ya right ikue tarehe",
+  "DISPLAY_ALBUM_CARD_TOP_RIGHT_DATE_SUBTITLE": "Onyesha tarehe ya album pande ya top right",
+  "DISPLAY_ARTIST_BEFORE_TITLE": "Onyesha msanii mbele ya Jina ya ngoma",
+  "DISPLAY_ARTWORK_ON_LOCKSCREEN": "Onyesha artwork ukilock screen",
+  "DISPLAY_AUDIO_INFO_IN_MINIPLAYER": "Onyesha information kuhusu ngoma",
+  "DISPLAY_FAVOURITE_ICON_IN_TRACK_TILE": "Onyesha button ya Favourite",
+  "DISPLAY_FAV_BUTTON_IN_NOTIFICATION": "Onyesha button ya Favourite kwa Notification",
+  "DISPLAY_FAV_BUTTON_IN_NOTIFICATION_SUBTITLE": "Thumbnail inaweza wekwa vibaya."
 }
