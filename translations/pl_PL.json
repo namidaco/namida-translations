@@ -292,7 +292,7 @@
   "HIGH_PERFORMANCE": "Wysoka wydajność",
   "HISTORY": "Historia",
   "HISTORY_IMPORT_MISSING_ENTRIES_NOTE": "Tych wpisów nie można znaleźć w bibliotece. Jeśli uważasz, że istnieją, rozważ dodanie ich ręcznie",
-  "HISTORY_LISTENS_REPLACE_WARNING": "_LISTEN_COUNT_ odsłuchań _OLD_TRACK_INFO_ zostanie zastąpionych przez _NEW_TRACK_INFO_, potwierdzasz?",
+  "HISTORY_LISTENS_REPLACE_WARNING": "_LISTENS_COUNT_ odsłuchań _OLD_TRACK_INFO_ zostanie zastąpionych przez _NEW_TRACK_INFO_, potwierdzasz?",
   "HOME": "Główna",
   "HOURS": "Godziny",
   "HOUR_FORMAT_12": "Format 12-godzinny",

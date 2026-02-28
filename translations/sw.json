@@ -94,7 +94,7 @@
   "CLEAR_IMAGE_CACHE": "safisha data za wanjapi(image cache)",
   "CLEAR_IMAGE_CACHE_WARNING": "Onyo: ita reset library bila picha, tumia ku rebuild image cache pekee.",
   "CLEAR_TRACK_ITEM": "Safisha Ngoma",
-  "CLEAR_TRACK_ITEM_MULTIPLE": "safisha_Number_Ngoma",
+  "CLEAR_TRACK_ITEM_MULTIPLE": "safisha _NUMBER_ Ngoma",
   "CLEAR_VIDEO_CACHE": "Safisha data(cache) za vida",
   "CLEAR_VIDEO_CACHE_NOTE": "Chagua kenye unataka kudelete.",
   "CLOCK": "Saa",

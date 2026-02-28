@@ -127,7 +127,7 @@
   "CREATE_BACKUP": "Créer une sauvegarde",
   "CREATE_NEW_PLAYLIST": "Créer une nouvelle playlist",
   "CROSSFADE_DURATION": "Durée du fondu enchaîné",
-  "CROSSFADE_TRIGGER_SECONDS": "Déclenchement automatique du fondu enchaîné dans les _SECONDES_ dernières secondes",
+  "CROSSFADE_TRIGGER_SECONDS": "Déclenchement automatique du fondu enchaîné dans les _SECONDS_ dernières secondes",
   "CROSSFADE_TRIGGER_SECONDS_DISABLED": "Ne pas déclencher automatiquement le fondu enchaîné",
   "CROSS_PLATFORM_SYNC": "Synchronisation Multi-platforme",
   "CUSTOM": "Sur mesure",

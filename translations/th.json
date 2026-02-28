@@ -148,7 +148,7 @@
   "DEFAULT_DOWNLOAD_LOCATION": "ค่าเริ่มต้นตำแหน่งการดาวน์โหลด",
   "DEFAULT_LIBRARY_TAB": "ค่าเริ่มต้นปุ่มของคลัง",
   "DELETE": "ลบ",
-  "DELETE_FILE_CACHE_SUBTITLE": "ลบไฟล์จำนวน _FILES_COUNT_ ไฟล์ ขนาดทั้งหมด _TOTAL_SIZE?_ เลยไหม",
+  "DELETE_FILE_CACHE_SUBTITLE": "ลบไฟล์จำนวน _FILES_COUNT_ ไฟล์ ขนาดทั้งหมด _TOTAL_SIZE_ เลยไหม?",
   "DELETE_N_TRACKS_FROM_STORAGE": "ลบ _NUM_ จากพื้นที่จัดเก็บถาวร",
   "DELETE_PLAYLIST": "ลบเพลย์ลิสต์",
   "DELETE_TEMP_FILES": "ลบไฟล์ชั่วคราว",
