@@ -1,0 +1,41 @@
+{
+  "@@locale": "sk",
+  "about": "O",
+  "active": "Aktívny",
+  "add": "pridať",
+  "added": "pridané",
+  "addAccount": "Pridať účet",
+  "addAll": "Pridať všetko",
+  "addAllAndRemoveOldOnes": "pridať všetky a odstrániť staré",
+  "addAsANewPlaylist": "Pridať ako nový playlist",
+  "addAudioToLocalLibrary": "Pridať zvuk do lokálnej knižnice",
+  "addFolder": "Pridať priečinok",
+  "addLanguage": "Pridať Jazyk",
+  "addLanguageSubtitle": "Pomôžte preložiť Namidu do svojho jazyka",
+  "addLrcFile": "Pridať LRC súbor",
+  "addMoreFromThisAlbum": "Pridať viac z tohto albumu do poradia",
+  "addMoreFromThisArtist": "Pridať viac od tohto interpreta do poradia",
+  "addMoreFromThisFolder": "Pridať viac z tohto priečinka do poradia",
+  "addMoreFromToQueue": "Pridať viac z {media} do poradia",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "addOnlyMissing": "Pridať iba chýbajúce",
+  "addToFavourites": "Pridať do obľúbených",
+  "addToPlaylist": "Pridať do Playlistu",
+  "addTracksAtTheBeginning": "Pridať skladby na začiatok",
+  "advanced": "Pokročilé",
+  "advancedSettings": "Pokročilé",
+  "advancedSettingsSubtitle": "Pokročilé nastavenia, nedotýkajte sa",
+  "alarm": "Alarm",
+  "album": "Album",
+  "albums": "Albumy",
+  "albumsCount": "Počet albumov",
+  "albumArtist": "Interpret albumu",
+  "albumArtists": "Interpreti Albumu",
+  "albumIdentifiers": "Identifikátory albumu"
+}
