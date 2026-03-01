@@ -390,7 +390,7 @@
   "defaultLabel": "Default",
   "defaultLibraryTab": "Default Library Tab",
   "delete": "Delete",
-  "deleteFileCacheSubtitle": "{filesCount, plural, one{Delete {number} file representing {totalSize}?} other{Delete {filesCount} files representing {totalSize}?}}",
+  "deleteFileCacheSubtitle": "{filesCount, plural, one{Delete {filesCount} file representing {totalSize}?} other{Delete {filesCount} files representing {totalSize}?}}",
   "deleteNTracksFromStorage": "{number, plural, one{Permanently delete {number} track from your storage} other{Permanently delete {number} tracks from your storage}}",
   "deletePlaylist": "Delete Playlist",
   "deleteTempFiles": "Delete temp files",
