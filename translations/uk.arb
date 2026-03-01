@@ -333,7 +333,7 @@
   "clearImageCache": "Очистити кеш зображень",
   "clearImageCacheWarning": "Попередження: буде створена бібліотека без зображень. Використовуйте тільки для перебудови кешу зображень.",
   "clearTrackItem": "Видалити у треку",
-  "clearTrackItemMultiple": "{number, plural, other{Очистити {number} у треків}}",
+  "clearTrackItemMultiple": "{number, plural, one{Очистити у {number} треку} other{Очистити у {number} треків}}",
   "clearVideoCache": "Очистити кеш відео",
   "clearVideoCacheNote": "Ви можете обрати, що видалити.",
   "clock": "Годинник",
