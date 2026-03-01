@@ -390,7 +390,7 @@
   "defaultLabel": "默认",
   "defaultLibraryTab": "默认媒体库标签页",
   "delete": "删除",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{是否删除 {filesCount} 个文件（占用 {totalSize} ）？}}",
+  "deleteFileCacheSubtitle": "{filesCount, plural, other{是否删除 {number} 个文件（占用 {totalSize}）？}}",
   "deleteNTracksFromStorage": "{number, plural, other{从存储中永久删除 {number}}}",
   "deletePlaylist": "删除播放列表",
   "deleteTempFiles": "删除临时文件",
