@@ -1,9 +1,246 @@
 {
   "@@locale": "en",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "About",
   "active": "Active",
   "add": "Add",
-  "added": "added",
   "addAccount": "Add account",
   "addAll": "Add all",
   "addAllAndRemoveOldOnes": "Add all and remove old ones",
@@ -17,29 +254,23 @@
   "addMoreFromThisArtist": "Add more from this Artist to queue",
   "addMoreFromThisFolder": "Add more from this Folder to queue",
   "addMoreFromToQueue": "Add more from {media} to queue",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Add only missing",
   "addToFavourites": "Add to favourites",
   "addToPlaylist": "Add to Playlist",
   "addTracksAtTheBeginning": "Add tracks at the beginning",
+  "added": "added",
   "advanced": "Advanced",
   "advancedSettings": "Advanced",
   "advancedSettingsSubtitle": "Advanced Settings, don't touch",
   "alarm": "Alarm",
   "album": "Album",
-  "albums": "Albums",
-  "albumsCount": "Albums Count",
   "albumArtist": "Album Artist",
   "albumArtists": "Album Artists",
   "albumIdentifiers": "Album Identifiers",
   "albumThumbnailSizeInList": "Size of Album Thumbnail",
   "albumTileCustomization": "Album Tile Customization",
+  "albums": "Albums",
+  "albumsCount": "Albums Count",
   "all": "All",
   "allTime": "All time",
   "alreadyExists": "Already Exists",
@@ -57,14 +288,12 @@
   "artist": "Artist",
   "artists": "Artists",
   "artwork": "Artwork",
-  "artworks": "Artworks",
   "artworkGestures": "Artwork Gestures",
+  "artworks": "Artworks",
   "audio": "Audio",
   "audioCache": "Audio Cache",
   "audioOnly": "Audio Only",
   "auto": "Auto",
-  "automaticBackup": "Automatic",
-  "automaticBackupSubtitle": "Automatically applies the most recent backup file found inside backup location",
   "autoBackupInterval": "Auto backup interval",
   "autoColoring": "Auto Coloring",
   "autoColoringSubtitle": "Automatically pick player colors from current artwork",
@@ -75,6 +304,8 @@
   "autoSkipOnce": "Auto Skip Once",
   "autoStartRadio": "Auto start radio",
   "autoStartRadioSubtitle": "Automatically adds a mix playlist when playing a single track",
+  "automaticBackup": "Automatic",
+  "automaticBackupSubtitle": "Automatically applies the most recent backup file found inside backup location",
   "backupAndRestore": "Backup & Restore",
   "backupAndRestoreSubtitle": "Backup your database and settings",
   "balanced": "Balanced",
@@ -102,27 +333,20 @@
   "clearImageCache": "Clear Image cache",
   "clearImageCacheWarning": "Warning: will result in a library without images, Use only to rebuild image cache.",
   "clearTrackItem": "Clear Track's",
-  "clearTrackItemMultiple": "{number, plural, one{Clear {number} Track's} other{Clear {number} Tracks'}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
+  "clearTrackItemMultiple": "{number, plural, one{Clear Track''s} other{Clear {number} Tracks''}}",
   "clearVideoCache": "Clear Video Cache",
   "clearVideoCacheNote": "You can choose what to delete.",
   "clock": "Clock",
   "colorPalette": "Color Palette",
-  "colorPalettes": "Color Palettes",
   "colorPaletteNote1": "Long press a color to remove it",
   "colorPaletteNote2": "Tap on a mix to use as a default color",
+  "colorPalettes": "Color Palettes",
   "comment": "Comment",
   "comments": "Comments",
   "composer": "Composer",
   "compress": "Compress",
-  "compressionPercentage": "Compression percentage",
   "compressImages": "Compress Images",
+  "compressionPercentage": "Compression percentage",
   "configure": "Configure",
   "confirm": "Confirm",
   "copiedArtwork": "Copied Artwork",
@@ -137,35 +361,21 @@
   "country": "Country",
   "coupon": "Coupon",
   "create": "Create",
-  "createdBackupSuccessfully": "Created Backup",
-  "createdBackupSuccessfullySub": "Backup file has been created successfully",
   "createBackup": "Create Backup",
   "createNewPlaylist": "Create new Playlist",
+  "createdBackupSuccessfully": "Created Backup",
+  "createdBackupSuccessfullySub": "Backup file has been created successfully",
+  "crossPlatformSync": "Cross-Platform Sync",
   "crossfadeDuration": "Crossfade duration",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Trigger Crossfade automatically in the last {seconds} second} other{Trigger Crossfade automatically in the last {seconds} seconds}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "Do not trigger crossfade automatically",
-  "crossPlatformSync": "Cross-Platform Sync",
   "custom": "Custom",
   "customizations": "Customizations",
   "customizationsSubtitle": "Customize how your player looks, make it yours",
-  "database": "Database",
   "dataIsProvidedByName": "Data is provided by: {name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "Data Saver",
   "dataSaverMode": "Data Saver Mode",
+  "database": "Database",
   "date": "Date",
   "dateAdded": "Date Added",
   "dateCreated": "Date Created",
@@ -173,32 +383,15 @@
   "dateTimeFormat": "Date Time Format",
   "day": "Day",
   "days": "Days",
-  "defaultLabel": "Default",
   "defaultBackupLocation": "Default Backup Location",
   "defaultColor": "Default Color",
   "defaultColorSubtitle": "Set a color to be used by the player",
   "defaultDownloadLocation": "Default Download Location",
+  "defaultLabel": "Default",
   "defaultLibraryTab": "Default Library Tab",
   "delete": "Delete",
   "deleteFileCacheSubtitle": "{filesCount, plural, one{Delete {number} file representing {totalSize}?} other{Delete {filesCount} files representing {totalSize}?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, one{Permanently delete {number} track from your storage} other{Permanently delete {number} tracks from your storage}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "Delete Playlist",
   "deleteTempFiles": "Delete temp files",
   "description": "Description",
@@ -207,21 +400,14 @@
   "didYouMean": "Did you mean",
   "dimIntensity": "Dim Intensity",
   "dimMiniplayerAfterSeconds": "{seconds, plural, one{Dim miniplayer after {seconds} second of inactivity} other{Dim miniplayer after {seconds} seconds of inactivity}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "Directory doesn't exist",
   "disable": "Disable",
   "disableAll": "Disable All",
   "disableReordering": "Disable Reordering",
   "disableSearchCleanup": "Disable Search Cleanup",
-  "discover": "Discover",
   "discNumber": "Disc Number",
   "discNumberTotal": "Disc Total",
+  "discover": "Discover",
   "dislike": "Dislike",
   "dismissibleMiniplayer": "Dismissible Miniplayer",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "Display actual position instead of difference while seeking",
@@ -230,15 +416,16 @@
   "displayArtistBeforeTitle": "Display artist before title",
   "displayArtworkOnLockscreen": "Display artwork on lockscreen",
   "displayAudioInfoInMiniplayer": "Display Audio Info",
-  "displayFavouriteIconInTrackTile": "Display Favourite Button",
   "displayFavButtonInNotification": "Display Favourite Button in Notification",
   "displayFavButtonInNotificationSubtitle": "Thumbnail might get displaced.",
+  "displayFavouriteIconInTrackTile": "Display Favourite Button",
   "displayRemainingDurationInsteadOfTotal": "Display remaining duration instead of total",
   "displayStopButtonInNotification": "Display Stop Button in Notification",
   "displayThirdItemInRowInTrackTile": "Display Third Item in each Row",
   "displayThirdRowInTrackTile": "Display Third Row",
   "displayTrackNumberInAlbumPage": "Display Track number in Album Page",
   "displayTrackNumberInAlbumPageSubtitle": "Display a small box containing the track number in the album page",
+  "doNothing": "Do nothing",
   "donate": "Donate",
   "donateSubtitle": "If you think it deserves",
   "done": "Done",
@@ -252,7 +439,6 @@
   "downloads": "Downloads",
   "downloadsMetadataTags": "Downloads Metadata tags",
   "downloadsMetadataTagsSubtitle": "Extract artist, title & album from video info by default",
-  "doNothing": "Do nothing",
   "dragToSeek": "Drag to seek",
   "duckAudio": "Duck audio",
   "duplicatedItemsAdding": "You are trying to add some items that already exist in this playlist",
@@ -279,13 +465,6 @@
   "enableM3uSync": "Enable M3U Sync",
   "enableM3uSyncNote1": "M3U Sync allows saving playlist changes to the original M3U file",
   "enableM3uSyncNote2": "If anything went wrong, a backup of this playlist will be found in {playlistsBackupPath}",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "If Denied, all changes done in this playlist will be lost on restart",
   "enableMiniplayerParticles": "Enable moving particles",
   "enableParallaxEffect": "Enable Parallax Effect",
@@ -310,18 +489,11 @@
   "extension": "Extension",
   "externalFiles": "External Files",
   "extract": "Extract",
-  "extractingInfo": "Extracting Info",
   "extractAllColorPalettes": "Extract All Color Palettes",
   "extractAllColorPalettesSubtitle": "{number, plural, one{Extract Remaining {remainingColorPalettes}?} other{Extract Remaining {remainingColorPalettes}?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "Extract feat. artists from title",
   "extractFeatArtistSubtitle": "Extracts (feat. X) and (ft. X) artists, as a new artist entry.",
+  "extractingInfo": "Extracting Info",
   "extras": "Extras",
   "extrasSubtitle": "Extra Settings to fine your experience",
   "extreme": "Extreme",
@@ -332,28 +504,28 @@
   "fetching": "Fetching",
   "fetchingOfAllVideos": "Fetching of all videos",
   "file": "File",
-  "filenameShouldntStartWith": "Filename shouldn't start with",
-  "files": "Files",
   "fileAlreadyExists": "File already exists",
   "fileBasedServerWarning": "Files will be temporarily downloaded for indexing, Make sure your connection is stable.\nWi-Fi is recommended to avoid high data usage.",
   "fileName": "File Name",
   "fileNameWoExt": "Filename without extension",
+  "filenameShouldntStartWith": "Filename shouldn't start with",
+  "files": "Files",
   "filler": "Filler",
-  "filteredBySizeAndDuration": "Tracks Filtered by size and duration",
   "filterAlbums": "Filter Albums",
   "filterArtists": "Filter Artists",
   "filterGenres": "Filter Genres",
   "filterPlaylists": "Filter Playlists",
   "filterTracks": "Filter Tracks",
   "filterTracksBy": "Filter Tracks in Search Lists By",
+  "filteredBySizeAndDuration": "Tracks Filtered by size and duration",
   "finished": "Finished",
   "finishedUpdatingLibrary": "Finished Updating Library",
   "firstListen": "First listen",
   "fixYtdlpBigThumbnailSize": "Fix yt-dlp big thumbnail size",
   "floatingActionButton": "Floating Action Button",
   "folder": "Folder",
-  "folders": "Folders",
   "folderName": "Folder Name",
+  "folders": "Folders",
   "fontScale": "Font Scale",
   "forceMiniplayerFollowTrackColors": "Force miniplayer to follow track colors",
   "forceSquaredAlbumThumbnail": "Force Squared Album Thumbnail",
@@ -369,11 +541,11 @@
   "generateRandomPlaylist": "Generate random Playlist",
   "genre": "Genre",
   "genres": "Genres",
-  "goodLooking": "Good looking",
   "goToAlbum": "Go to Album",
   "goToArtist": "Go to Artist",
   "goToChannel": "Go to channel",
   "goToFolder": "Go to Folder",
+  "goodLooking": "Good looking",
   "grantStoragePermission": "Grant Storage Permission",
   "group": "Group",
   "groupArtworksByAlbum": "Group Artworks by Album",
@@ -382,79 +554,39 @@
   "heightOfAlbumTile": "Height of Album Tile",
   "heightOfTrackTile": "Height of Track Tile",
   "hideSkipButtonAfter": "Hide skip button after",
-  "highlight": "Highlight",
   "highMatches": "High matches",
   "highPerformance": "High performance",
+  "highlight": "Highlight",
   "history": "History",
   "historyImportMissingEntriesNote": "These entries couldn't be found inside library, if you believe they exist, please consider adding them manually",
   "historyListensReplaceWarning": "{listensCount, plural, one{{number} listen for {oldTrackInfo} will be replaced with {newTrackInfo}, confirm?} other{{listensCount} listens for {oldTrackInfo} will be replaced with {newTrackInfo}, confirm?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "Home",
   "hook": "Hook",
   "host": "Host",
-  "hours": "Hours",
   "hourFormat12": "12 Hour Format",
+  "hours": "Hours",
+  "iReadAndAgree": "I read & agree",
   "ifNotPlaying": "If not playing",
-  "ignores": "Ignores",
   "ignoreBatteryOptimizationsSubtitle": "Downloads can be throttled when the app is battery restricted",
   "ignoreCommonPrefixesWhileSorting": "Ignore common prefixes while sorting",
+  "ignores": "Ignores",
   "imageSource": "Image source",
   "immersiveMode": "Immersive Mode",
   "immersiveModeSubtitle": "Hide Status & Navigation bars while Miniplayer is expanded",
   "import": "Import",
-  "importedNChannelsSuccessfully": "{number, plural, one{Imported {number} channel successfully} other{Imported {number} channels successfully}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, one{Imported {number} playlist successfully} other{Imported {number} playlists successfully}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "Import all",
   "importLastFmHistory": "Import LastFm History",
   "importLastFmHistoryGuide": "1. Go to {lastfmCsvLink}\n\n2. Type your username, fetch and download csv file.\n\n3. Choose the file from the next screen.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "Import time range",
   "importYoutubeHistory": "Import Youtube History",
   "importYoutubeHistoryGuide": "1. Go to {takeoutLink}\n\n2. Press \"Multiple Formats\" and beside \"History\" choose \"JSON\".\n\n3. Press \"All Youtube data included\", Deselect All and choose history only.\n\n4. Create Export, Download & Unzip.\n\n5. Choose \"watch-history.json\" from the next screen.",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, one{Imported {number} channel successfully} other{Imported {number} channels successfully}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, one{Imported {number} playlist successfully} other{Imported {number} playlists successfully}}",
   "includeVideos": "Include videos",
+  "indexRefreshRequired": "Do a Refresh after changing this",
   "indexer": "Indexer",
   "indexerNote": "Note: Incomplete Number of Artworks refers to the duplicated & not found Artworks",
   "indexerSubtitle": "Manage your music Library",
-  "indexRefreshRequired": "Do a Refresh after changing this",
   "infinityQueueOnNextPrev": "Infinity Queue on Next/Previous",
   "infinityQueueOnNextPrevSubtitle": "pressing next while playing the last item will jump to first, and vice versa",
   "info": "Info",
@@ -465,7 +597,6 @@
   "invertSelection": "Invert Selection",
   "issues": "Issues",
   "item": "Item",
-  "iReadAndAgree": "I read & agree",
   "jump": "Jump",
   "jumpToDay": "Jump to Day",
   "jumpToFirstTrackAfterQueueFinish": "Jump to first track after finishing queue",
@@ -488,8 +619,8 @@
   "liked": "Liked",
   "link": "Link",
   "listOfFolders": "List of Folders",
-  "loadingFile": "Loading File",
   "loadAll": "Load all",
+  "loadingFile": "Loading File",
   "local": "Local",
   "localVideoMatching": "Local Video Matching",
   "login": "Login",
@@ -497,13 +628,6 @@
   "longPressTheLyricsToEnterFullscreen": "Long press the lyrics to enter fullscreen",
   "lostMemories": "Lost Memories",
   "lostMemoriesSubtitle": "{number, plural, one{around this time, {number} year ago} other{around this time, {number} years ago}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "lostPartners": "Lost Partners",
   "loudnessEnhancer": "Loudness Enhancer",
   "lyricist": "Lyricist",
@@ -516,13 +640,13 @@
   "manualBackup": "Manual",
   "manualBackupSubtitle": "pick up a specific file",
   "markAsRead": "Mark as read",
-  "matchingType": "Matching type",
   "matchAllTracks": "Match All Tracks",
   "matchAllTracksNote": "this can have an impact on the matching speed, as it will check all tracks in your library",
-  "maximum": "Maximum",
+  "matchingType": "Matching type",
   "maxAudioCacheSize": "Max audio cache size",
   "maxImageCacheSize": "Max image cache size",
   "maxVideoCacheSize": "Max video cache size",
+  "maximum": "Maximum",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Media Store is enabled, this will have no effect",
   "medium": "Medium",
   "membershipCode": "Code",
@@ -535,45 +659,28 @@
   "membershipSignInToPatreonAccount": "Sign in to your patreon account",
   "membershipUnknown": "Unknown Membership",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "You need membership of {name1} or {name2} to add multiple accounts",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "Merge",
   "metadataCache": "Metadata Cache",
   "metadataEditFailed": "Failed to edit metadata",
   "metadataReadFailed": "Failed to read metadata",
-  "minimizedMiniplayer": "Minimized Miniplayer",
-  "minimum": "Minimum",
-  "minimumOneFolderSubtitle": "There should be at least 1 folder, add more folders if you want to remove this one",
-  "minimumOneItem": "Couldn't remove item",
-  "minimumOneItemSubtitle": "{number, plural, one{At least {number} item should remain} other{At least {number} items should remain}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "minimumSegmentDuration": "Minimum Segment Duration",
-  "miniplayerCustomization": "Miniplayer Customization",
-  "minutes": "minutes",
   "minFileDuration": "Minimum Track Duration",
   "minFileSize": "Minimum File Size",
   "minTrackDurationToRestoreLastPosition": "Minimum track duration to restore last played position",
   "minValueCantBeMoreThanMax": "Minimum value can't be more than the maximum",
   "minValueToCountTrackListen": "Count a listen after: ",
+  "minimizedMiniplayer": "Minimized Miniplayer",
+  "minimum": "Minimum",
+  "minimumOneFolderSubtitle": "There should be at least 1 folder, add more folders if you want to remove this one",
+  "minimumOneItem": "Couldn't remove item",
+  "minimumOneItemSubtitle": "{number, plural, one{At least {number} item should remain} other{At least {number} items should remain}}",
+  "minimumSegmentDuration": "Minimum Segment Duration",
+  "miniplayerCustomization": "Miniplayer Customization",
+  "minutes": "minutes",
   "missingEntries": "Missing Entries",
   "missingTracks": "Missing Tracks",
   "mix": "Mix",
-  "mixes": "Mixes",
   "mixPlaylistGeneratedByYoutube": "Mix playlist generated by youtube",
+  "mixes": "Mixes",
   "mobile": "Mobile",
   "month": "Month",
   "months": "Months",
@@ -586,7 +693,6 @@
   "name": "Name",
   "nameContainsBadCharacter": "Name contains bad character",
   "never": "Never",
-  "newest": "Newest",
   "newDirectory": "New directory",
   "newTracksAdd": "Add Tracks",
   "newTracksMoods": "Mood",
@@ -597,35 +703,12 @@
   "newTracksRatingsSubtitle": "Generate tracks that has specific rating",
   "newTracksRecommended": "Recommended",
   "newTracksRecommendedSubtitle": "Generate tracks you usually listened to with {currentTrack}",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "Similar Release Date",
   "newTracksSimilarrReleaseDateSubtitle": "Generate tracks that were released around the same time as {currentTrack}",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "Track has unknown year",
+  "newest": "Newest",
   "next": "Next",
   "no": "no",
-  "none": "None",
-  "nonActive": "Non-Active",
-  "nonFavourites": "Non-Favourites",
-  "normalizeAudio": "Normalize audio",
-  "normalizeAudioSubtitle": "Normalizes volume by reading the replay gain tag or the info provided by youtube",
-  "note": "Note",
-  "notification": "Notification",
-  "notifications": "Notifications",
-  "notAvailableForYourDevice": "Not Available for your Device",
-  "notSupportedForNetworkFiles": "Not Supported for Network Files",
   "noChangesFound": "No changes has been found.",
   "noEnoughTracks": "You don't have much tracks..",
   "noExcludedFolders": "You Don't have any excluded folders",
@@ -636,19 +719,29 @@
   "noTracksFoundBetweenDates": "This timerange doesn't have any tracks.",
   "noTracksFoundInDirectory": "No tracks found in this directory",
   "noTracksInHistory": "You don't have enough tracks in history",
+  "nonActive": "Non-Active",
+  "nonFavourites": "Non-Favourites",
+  "none": "None",
+  "normalizeAudio": "Normalize audio",
+  "normalizeAudioSubtitle": "Normalizes volume by reading the replay gain tag or the info provided by youtube",
+  "notAvailableForYourDevice": "Not Available for your Device",
+  "notSupportedForNetworkFiles": "Not Supported for Network Files",
+  "note": "Note",
+  "notification": "Notification",
+  "notifications": "Notifications",
   "numberOfTracks": "Number of Tracks",
   "ofLabel": "of",
   "offlineSearch": "Offline Search",
   "offset": "Offset",
-  "oldestWatch": "Oldest Watch",
   "oldDirectory": "Old directory",
   "oldDirectoryStillHasTracks": "Old Directory still have some tracks, confirm?",
-  "ongoing": "Ongoing",
+  "oldestWatch": "Oldest Watch",
   "onInterruption": "On Interruption",
   "onNotificationTap": "On Notification Tap",
   "onOpeningYoutubeLink": "On opening youtube link",
   "onSwiping": "On Swiping",
   "onVolumeZero": "On volume 0",
+  "ongoing": "Ongoing",
   "open": "Open",
   "openApp": "Open App",
   "openInFileExplorer": "Open in File Explorer",
@@ -657,24 +750,7 @@
   "openQueue": "Open Queue",
   "openYoutubeLink": "Open Youtube Link",
   "operationRequiresAccount": "Operation {name} requires account, Sign in to proceed",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "Operation {operation} requires at least membership {name}",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "or",
   "others": "Others",
   "output": "Output",
@@ -703,6 +779,12 @@
   "pitch": "Pitch",
   "plain": "Plain",
   "play": "Play",
+  "playAfter": "Play After",
+  "playAfterNextPrev": "Auto Play on Next/Previous",
+  "playAll": "Play All",
+  "playFadeDuration": "Play Fade Duration",
+  "playLast": "Play Last",
+  "playNext": "Play Next",
   "playbackSetting": "Playback",
   "playbackSettingSubtitle": "Can be accessed directly in the player by long pressing the audio button",
   "playlist": "Playlist",
@@ -710,12 +792,6 @@
   "playlistsImportM3uNative": "This will import M3U playlists to be used only by namida, use if you are migrating",
   "playlistsImportM3uSynced": "This will automatically import M3U playlists from indexer folders and keep them synced with the original M3U file. enable if you access/modify the playlists from other apps",
   "playlistsImportM3uSyncedAutoImport": "Auto import M3U Playlists",
-  "playAfter": "Play After",
-  "playAfterNextPrev": "Auto Play on Next/Previous",
-  "playAll": "Play All",
-  "playFadeDuration": "Play Fade Duration",
-  "playLast": "Play Last",
-  "playNext": "Play Next",
   "pleaseEnterADifferentName": "This name already exists :(\nplease try another fancy name",
   "pleaseEnterALink": "Please enter a link",
   "pleaseEnterALinkSubtitle": "umm.. is this a youtube link?",
@@ -732,16 +808,6 @@
   "private": "Private",
   "progress": "Progress",
   "promptIndexingRefresh": "{newFiles} new files has been found & {deletedFiles} was deleted or filtered, wanna do a refresh?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "Usually this happens when you delete/move/rename the file outside namida, Would you like to update current path?",
   "public": "Public",
   "queue": "Queue",
@@ -749,10 +815,13 @@
   "random": "Random",
   "randomPicks": "Random Picks",
   "rating": "Rating",
-  "recentlyAdded": "Recently Added",
+  "reIndex": "Re-index",
+  "reIndexSubtitle": "Rebuild your music library from scratch",
+  "reIndexWarning": "This process might take a while, depending on your library size.\n\nArtworks will not get re-indexed as long as they still exist",
   "recentAlbums": "Recent Albums",
   "recentArtists": "Recent Artists",
   "recentListens": "Recent Listens",
+  "recentlyAdded": "Recently Added",
   "recordLabel": "Record Label",
   "refresh": "Refresh",
   "refreshLibrary": "Refresh Library",
@@ -762,7 +831,6 @@
   "rememberAudioOnlyMode": "Remember audio only mode",
   "remixer": "Remixer",
   "remove": "Remove",
-  "removed": "Removed",
   "removeDuplicates": "Remove Duplicates",
   "removeFromFavourites": "Remove from favourites",
   "removeFromLibrary": "Remove from library",
@@ -770,17 +838,11 @@
   "removeQueue": "Remove Queue",
   "removeSourceFromHistory": "Remove source from history",
   "removeWhitespaces": "Remove Whitespaces",
+  "removed": "Removed",
   "rename": "Rename",
   "renamePlaylist": "Rename Playlist",
   "reorderable": "Reorderable",
   "repeatForNTimes": "{number, plural, one{Repeat for {number} more time} other{Repeat for {number} more times}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "Repeat mode",
   "repeatModeAll": "Repeat All Queue",
   "repeatModeNone": "Stop on Last Track",
@@ -795,59 +857,40 @@
   "respectNoMedia": "Respect .nomedia",
   "respectNoMediaSubtitle": "Don't include folders that has .nomedia",
   "restart": "Restart",
-  "restoredBackupSuccessfully": "Restored Backup",
-  "restoredBackupSuccessfullySub": "Backup file has been restored successfully",
   "restoreBackup": "Restore Backup",
   "restoreDefaults": "Restore Defaults",
+  "restoredBackupSuccessfully": "Restored Backup",
+  "restoredBackupSuccessfullySub": "Backup file has been restored successfully",
   "resume": "Resume",
   "resumeIfWasInterrupted": "Resume if was paused by interruption",
   "resumeIfWasPausedByVolume": "Resume if was paused by volume",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, one{Resume if was paused for less than {number} minute} other{Resume if was paused for less than {number} minutes}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "returnYoutubeDislike": "Return Youtube Dislike",
   "reverseOrder": "Reverse Order",
-  "reIndex": "Re-index",
-  "reIndexSubtitle": "Rebuild your music library from scratch",
-  "reIndexWarning": "This process might take a while, depending on your library size.\n\nArtworks will not get re-indexed as long as they still exist",
   "rightAction": "Right Action",
   "ringtone": "Ringtone",
   "sameDirectoryOnly": "Same directory only",
   "sample": "Sample",
   "sampleRate": "Sample Rate",
   "save": "Save",
-  "savedIn": "Saved in",
   "saveToLibrary": "Save to library",
+  "savedIn": "Saved in",
   "scaleMultiplier": "Scale Multiplier",
   "search": "Search",
   "searchYoutube": "Search YouTube",
   "seconds": "seconds",
-  "seekbar": "Seekbar",
+  "seeProjectCodeOnSite": "See Project Code on {site}",
   "seekDuration": "Seek Duration",
   "seekDurationInfo": "You can tap on current duration to seek backwards & total duration to seek forwards",
-  "seeProjectCodeOnSite": "See Project Code on {site}",
-  "@seeProjectCodeOnSite": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
-  "selectedTracks": "Selected Tracks",
+  "seekbar": "Seekbar",
   "selectAll": "Select All",
   "selectFilesAlreadyInLocalLibrary": "Select files already in local library",
+  "selectedTracks": "Selected Tracks",
   "selfPromotion": "Self Promotion",
   "semitones": "Semitones",
   "separatorsBlacklistSubtitle": "These words will not get split",
   "separatorsMessage": "No need to insert spaces, unless you wanna use a letter/symbol that can be found in a whole word (like x and ft.)",
   "serverAddress": "Server Address",
-  "settings": "Settings",
-  "setupFirstStartup": "Setup first startup",
   "setAs": "Set as",
   "setAsDefault": "Set as Default",
   "setFileLastModifiedAsVideoUploadDate": "Set file last modified as video upload date",
@@ -856,6 +899,8 @@
   "setRating": "Set Rating",
   "setTags": "Set tags",
   "setYoutubeLink": "Set Youtube Link",
+  "settings": "Settings",
+  "setupFirstStartup": "Setup first startup",
   "share": "Share",
   "shareLogs": "Share Logs",
   "shortcuts": "Shortcuts",
@@ -877,8 +922,6 @@
   "shuffle": "Shuffle",
   "shuffleAll": "Shuffle All",
   "shuffleNext": "Shuffle Next",
-  "signingInAllowsBasicUsage": "Signing in allows basic usage",
-  "signingInAllowsBasicUsageSubtitle": "Get early access through patreon or by using coupon",
   "signIn": "Sign in",
   "signInCanceled": "Sign in was canceled",
   "signInFailed": "Sign in failed",
@@ -887,31 +930,12 @@
   "signInYouNeedAccountToViewPage": "You need an account to view this page",
   "signOut": "Sign out",
   "signOutFromName": "Sign out from {name}",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "Signing in allows basic usage",
+  "signingInAllowsBasicUsageSubtitle": "Get early access through patreon or by using coupon",
   "similarDiscoverDate": "Similar Discover Date",
   "similarDiscoverDateSubtitle": "Generate tracks that were discovered around the same time as {currentTrack}",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "Similar Time Range",
   "similarTimeRangeSubtitle": "Generate tracks you listened to around the same time as {currentTrack}",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "Singles",
   "size": "Size",
   "skip": "Skip",
@@ -946,13 +970,6 @@
   "subscribers": "Subscribers",
   "succeeded": "Succeeded",
   "suggestionSubtitle": "Have an Issue or Suggestion? Open an issue on {site}",
-  "@suggestionSubtitle": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
   "support": "Support",
   "supremacy": "Supremacy",
   "sussyBaka": "Bruh no tracks",
@@ -960,8 +977,8 @@
   "swipeToOpenDrawer": "Swipe to open drawer",
   "synced": "Synced",
   "synopsis": "Synopsis",
-  "tags": "Tags",
   "tagFields": "Tag Fields",
+  "tags": "Tags",
   "tapAction": "Tap Action",
   "tapToSeek": "Tap to seek",
   "themeMode": "Theme Mode",
@@ -977,17 +994,14 @@
   "top": "Top",
   "topComments": "Top comments",
   "topCommentsSubtitle": "Display comments at top instead of bottom",
-  "topRecents": "Top Recents",
   "topRecentAlbums": "Top Recent Albums",
   "topRecentArtists": "Top Recent Artists",
-  "totalListens": "Total Listens",
+  "topRecents": "Top Recents",
   "totalListenTime": "Total Listen Time",
+  "totalListens": "Total Listens",
   "totalTracks": "Total Tracks",
   "totalTracksDuration": "Total Tracks Duration",
   "track": "Track",
-  "tracks": "Tracks",
-  "tracksExcludedByNomedia": "Tracks Excluded by .nomedia",
-  "tracksInfo": "Tracks Info",
   "trackArtistsSeparator": "Artists Separators",
   "trackGenresSeparator": "Genres Separators",
   "trackInfo": "Track Info",
@@ -995,16 +1009,6 @@
   "trackNumber": "Track Number",
   "trackNumberTotal": "Track Total",
   "trackPathOldNew": "Old name: \"{oldName}\"\n\nNew name: \"{newName}\"\n\nAre you sure?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "Play Mode",
   "trackPlayModeSearchResults": "Search Results",
   "trackPlayModeSelectedOnly": "Selected track only",
@@ -1014,6 +1018,9 @@
   "trackThumbnailSizeInList": "Size of Track Thumbnail",
   "trackTileCustomization": "Track Tile Customization",
   "trackTileItemsSeparator": "Items Separator",
+  "tracks": "Tracks",
+  "tracksExcludedByNomedia": "Tracks Excluded by .nomedia",
+  "tracksInfo": "Tracks Info",
   "underrated": "Underrated",
   "undo": "Undo",
   "undoChanges": "Undo Changes?",
@@ -1028,18 +1035,17 @@
   "updateDirectoryPath": "Update directory path",
   "updateMissingTracksOnly": "Update missing tracks only",
   "updating": "Updating",
-  "used": "Used",
   "useCollapsedSettingTiles": "Use Collapsed Setting Tiles",
   "useMediaStore": "Use Media Store",
   "useMediaStoreSubtitle": "✓ instant indexing time\nx respect .nomedia will be forcely enabled\nx some metadata tags will be missing\nx youtube integration for local library will not work",
   "usePitchBlack": "Use Pitch Black",
   "usePitchBlackSubtitle": "Useful for AMOLED screens.. and looks cooler",
+  "used": "Used",
   "value": "Value",
   "valueBetween50200": "Value should be between 50% and 200%",
   "vibration": "Vibration",
   "vibrationType": "Vibration type",
   "video": "Video",
-  "videos": "Videos",
   "videoCache": "Video Cache",
   "videoCacheFile": "Cached Video File",
   "videoCacheFiles": "Cached Video Files",
@@ -1054,9 +1060,10 @@
   "videoQuality": "Video Quality",
   "videoQualitySubtitle": "Highest quality available will be picked.",
   "videoQualitySubtitleNote": "It's always good to keep more alternatives in case a quality isn't found, otherwise it will fallback to the worst quality",
+  "videos": "Videos",
   "view": "view",
-  "views": "views",
   "viewAll": "View All",
+  "views": "views",
   "volume": "Volume",
   "warning": "Warning",
   "waveformBarsCount": "Waveform Bars Count",
@@ -1065,13 +1072,6 @@
   "year": "Year",
   "yes": "yes",
   "yourCurrentMembershipIs": "Your current membership is {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "Your custom order will be lost, Are you sure?",
   "youtube": "Youtube",
   "youtubeMusic": "Youtube Music",
