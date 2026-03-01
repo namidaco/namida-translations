@@ -1,9 +1,246 @@
 {
   "@@locale": "bs",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "O aplikaciji",
   "active": "Aktivno",
   "add": "Dodaj",
-  "added": "Dodano",
   "addAccount": "Dodaj račun",
   "addAll": "Dodaj sve",
   "addAllAndRemoveOldOnes": "Dodaj sve i ukloni stare",
@@ -17,29 +254,23 @@
   "addMoreFromThisArtist": "Dodaj više od ovog izvođača u red čekanja",
   "addMoreFromThisFolder": "Dodaj više iz ove fascikle u red čekanja",
   "addMoreFromToQueue": "Dodaj više iz {media} u red čekanja",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Dodaj samo nedostajuće",
   "addToFavourites": "Dodaj u omiljene",
   "addToPlaylist": "Dodaj na listu",
   "addTracksAtTheBeginning": "Dodaj pjesme na početak",
+  "added": "Dodano",
   "advanced": "Napredno",
   "advancedSettings": "Napredno",
   "advancedSettingsSubtitle": "Napredne postavke, ne dirajte ako niste sigurni šta radite",
   "alarm": "Budilnik",
   "album": "Album",
-  "albums": "Albumi",
-  "albumsCount": "Broj albuma",
   "albumArtist": "Izvođač albuma",
   "albumArtists": "Izvođači albuma",
   "albumIdentifiers": "Identifikatori albuma",
   "albumThumbnailSizeInList": "Veličina sličice albuma",
   "albumTileCustomization": "Prilagođavanje pločice albuma",
+  "albums": "Albumi",
+  "albumsCount": "Broj albuma",
   "all": "Sve",
   "allTime": "Sve vrijeme",
   "alreadyExists": "Već postoji",
@@ -57,14 +288,12 @@
   "artist": "Izvođač",
   "artists": "Izvođači",
   "artwork": "Omot",
-  "artworks": "Omoti",
   "artworkGestures": "Pokreti na omotu",
+  "artworks": "Omoti",
   "audio": "Zvuk",
   "audioCache": "Predmemorija zvuka",
   "audioOnly": "Samo zvuk",
   "auto": "Automatski",
-  "automaticBackup": "Automatski backup",
-  "automaticBackupSubtitle": "Automatski primjenjuje najnoviju datoteku rezervne kopije pronađenu na lokaciji",
   "autoBackupInterval": "Interval automatske rezervne kopije",
   "autoColoring": "Automatsko bojenje",
   "autoColoringSubtitle": "Automatski odaberi boje plejera iz trenutnog omota",
@@ -75,6 +304,8 @@
   "autoSkipOnce": "Automatski preskoči jednom",
   "autoStartRadio": "Automatski pokreni radio",
   "autoStartRadioSubtitle": "Automatski dodaje miks listu kada se pusti jedna numera",
+  "automaticBackup": "Automatski backup",
+  "automaticBackupSubtitle": "Automatski primjenjuje najnoviju datoteku rezervne kopije pronađenu na lokaciji",
   "backupAndRestore": "Rezervna kopija i vraćanje",
   "backupAndRestoreSubtitle": "Napravite rezervnu kopiju baze podataka i postavki",
   "balanced": "Uravnoteženo",
@@ -103,26 +334,19 @@
   "clearImageCacheWarning": "Upozorenje: ovo će rezultirati bibliotekom bez slika. Koristite samo za ponovnu izgradnju predmemorije slika.",
   "clearTrackItem": "Očisti za numeru",
   "clearTrackItemMultiple": "{number, plural, other{Očisti za {number} numera}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "Očisti predmemoriju videa",
   "clearVideoCacheNote": "Možete odabrati šta želite izbrisati.",
   "clock": "Sat",
   "colorPalette": "Paleta boja",
-  "colorPalettes": "Palete boja",
   "colorPaletteNote1": "Dugo pritisnite boju da je uklonite",
   "colorPaletteNote2": "Dodirnite miks da ga koristite kao zadanu boju",
+  "colorPalettes": "Palete boja",
   "comment": "Komentar",
   "comments": "Komentari",
   "composer": "Kompozitor",
   "compress": "Sažmi",
-  "compressionPercentage": "Postotak sažimanja",
   "compressImages": "Sažmi slike",
+  "compressionPercentage": "Postotak sažimanja",
   "configure": "Konfiguriši",
   "confirm": "Potvrdi",
   "copiedArtwork": "Kopiran omot",
@@ -136,35 +360,21 @@
   "couldntSaveImage": "Nije moguće sačuvati sliku",
   "country": "Država",
   "create": "Stvori",
-  "createdBackupSuccessfully": "Rezervna kopija kreirana",
-  "createdBackupSuccessfullySub": "Datoteka rezervne kopije je uspješno kreirana",
   "createBackup": "Kreiraj rezervnu kopiju",
   "createNewPlaylist": "Kreiraj novu listu numera",
+  "createdBackupSuccessfully": "Rezervna kopija kreirana",
+  "createdBackupSuccessfullySub": "Datoteka rezervne kopije je uspješno kreirana",
+  "crossPlatformSync": "Međuplatformskl usklađivanje",
   "crossfadeDuration": "Trajanje pretapanja",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Automatski pokreni pretapanje u posljednjih {seconds} sekundi}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "Ne pokreći pretapanje automatski",
-  "crossPlatformSync": "Međuplatformskl usklađivanje",
   "custom": "Prilagođeno",
   "customizations": "Prilagođavanja",
   "customizationsSubtitle": "Prilagodite izgled plejera, učinite ga svojim",
-  "database": "Baza podataka",
   "dataIsProvidedByName": "Podatke osigurava: {name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "Ušteda podataka",
   "dataSaverMode": "Režim uštede podataka",
+  "database": "Baza podataka",
   "date": "Datum",
   "dateAdded": "Datum dodavanja",
   "dateCreated": "Datum kreiranja",
@@ -172,32 +382,15 @@
   "dateTimeFormat": "Format datuma i vremena",
   "day": "Dan",
   "days": "Dana",
-  "defaultLabel": "Zadano",
   "defaultBackupLocation": "Zadana lokacija rezervne kopije",
   "defaultColor": "Zadana boja",
   "defaultColorSubtitle": "Postavite boju koju će koristiti plejer",
   "defaultDownloadLocation": "Zadana lokacija preuzimanja",
+  "defaultLabel": "Zadano",
   "defaultLibraryTab": "Zadana kartica biblioteke",
   "delete": "Izbriši",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{Izbrisati {filesCount} datoteku/a ukupne veličine {totalSize}?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{Trajno izbrisati {number} iz pohrane}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "Izbriši listu numera",
   "deleteTempFiles": "Izbriši privremene datoteke",
   "description": "Opis",
@@ -206,21 +399,14 @@
   "didYouMean": "Jeste li mislili",
   "dimIntensity": "Intenzitet zatamnjenja",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{Zatamni mini-plejer nakon {seconds} sekunde/i neaktivnosti}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "Direktorij ne postoji",
   "disable": "Onemogući",
   "disableAll": "Onemogući sve",
   "disableReordering": "Onemogući promjenu redoslijeda",
   "disableSearchCleanup": "Onemogući čišćenje pretrage",
-  "discover": "Otkrij novitete",
   "discNumber": "Broj diska",
   "discNumberTotal": "Ukupno diskova",
+  "discover": "Otkrij novitete",
   "dislike": "Ne sviđa mi se",
   "dismissibleMiniplayer": "Uklonjiv mini-plejer",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "Prikaži stvarnu poziciju umjesto razlike tokom traženja",
@@ -229,15 +415,16 @@
   "displayArtistBeforeTitle": "Prikaži izvođača prije naslova",
   "displayArtworkOnLockscreen": "Prikaži omot na zaključanom ekranu",
   "displayAudioInfoInMiniplayer": "Prikaži informacije o zvuku",
-  "displayFavouriteIconInTrackTile": "Prikaži dugme za omiljene",
   "displayFavButtonInNotification": "Prikaži dugme za omiljene u obavijestima",
   "displayFavButtonInNotificationSubtitle": "Sličica se može pomjeriti.",
+  "displayFavouriteIconInTrackTile": "Prikaži dugme za omiljene",
   "displayRemainingDurationInsteadOfTotal": "Prikaži preostalo trajanje umjesto ukupnog",
   "displayStopButtonInNotification": "Prikaži dugme za zaustavljanje u obavijestima",
   "displayThirdItemInRowInTrackTile": "Prikaži treću stavku u svakom redu",
   "displayThirdRowInTrackTile": "Prikaži treći red",
   "displayTrackNumberInAlbumPage": "Prikaži broj numere na stranici albuma",
   "displayTrackNumberInAlbumPageSubtitle": "Prikaži mali okvir s brojem numere na stranici albuma",
+  "doNothing": "Ne radi ništa",
   "donate": "Podrži nas",
   "donateSubtitle": "ako mislite da je zasluženo",
   "done": "Gotovo",
@@ -251,7 +438,6 @@
   "downloads": "Preuzimanja",
   "downloadsMetadataTags": "Oznake metapodataka preuzimanja",
   "downloadsMetadataTagsSubtitle": "Zadano izvlači izvođača, naslov i album iz informacija videa",
-  "doNothing": "Ne radi ništa",
   "dragToSeek": "Povuci za traženje",
   "duckAudio": "Utišaj zvuk",
   "duplicatedItemsAdding": "Pokušavate dodati stavke koje već postoje u ovoj listi",
@@ -278,13 +464,6 @@
   "enableM3uSync": "Omogući M3U sinhronizaciju",
   "enableM3uSyncNote1": "M3U sinhronizacija omogućava spremanje promjena liste numera u originalnu M3U datoteku",
   "enableM3uSyncNote2": "Ako nešto pođe po zlu, rezervna kopija ove liste će se naći u {playlistsBackupPath}",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "Ako se odbije, sve promjene u ovoj listi bit će izgubljene pri ponovnom pokretanju",
   "enableMiniplayerParticles": "Omogući pokretne čestice",
   "enableParallaxEffect": "Omogući paralaks efekt",
@@ -309,18 +488,11 @@
   "extension": "Ekstenzija",
   "externalFiles": "Vanjske datoteke",
   "extract": "Izdvoj",
-  "extractingInfo": "Izvlačenje informacija",
   "extractAllColorPalettes": "Izdvoj sve palete boja",
   "extractAllColorPalettesSubtitle": "{number, plural, other{Izdvojiti preostale {remainingColorPalettes}?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "Izdvoj gostujuće umjetnike iz naslova",
   "extractFeatArtistSubtitle": "Izvlači (feat. X) i (ft. X) umjetnike kao novi unos izvođača.",
+  "extractingInfo": "Izvlačenje informacija",
   "extras": "Dodaci",
   "extrasSubtitle": "Dodatne postavke za poboljšanje vašeg iskustva",
   "extreme": "Ekstremno",
@@ -331,27 +503,27 @@
   "fetching": "Dohvatanje",
   "fetchingOfAllVideos": "Dohvatanje svih videa",
   "file": "Datoteka",
-  "filenameShouldntStartWith": "Naziv datoteke ne bi trebao počinjati sa",
-  "files": "Datoteke",
   "fileAlreadyExists": "Datoteka već postoji",
   "fileName": "Naziv datoteke",
   "fileNameWoExt": "Naziv datoteke bez ekstenzije",
+  "filenameShouldntStartWith": "Naziv datoteke ne bi trebao počinjati sa",
+  "files": "Datoteke",
   "filler": "Popuna",
-  "filteredBySizeAndDuration": "Numere filtrirane po veličini i trajanju",
   "filterAlbums": "Filtriraj albume",
   "filterArtists": "Filtriraj izvođače",
   "filterGenres": "Filtriraj žanrove",
   "filterPlaylists": "Filtriraj liste numera",
   "filterTracks": "Filtriraj numere",
   "filterTracksBy": "Filtriraj numere u listama pretrage po",
+  "filteredBySizeAndDuration": "Numere filtrirane po veličini i trajanju",
   "finished": "Završeno",
   "finishedUpdatingLibrary": "Završeno ažuriranje biblioteke",
   "firstListen": "Prvo slušanje",
   "fixYtdlpBigThumbnailSize": "Popravi veliku veličinu sličice yt-dlp",
   "floatingActionButton": "Plutajuće akcijsko dugme",
   "folder": "Direktorij",
-  "folders": "Direktoriji",
   "folderName": "Naziv direktorija",
+  "folders": "Direktoriji",
   "fontScale": "Veličina fonta",
   "forceMiniplayerFollowTrackColors": "Prisili mini-plejer da prati boje numere",
   "forceSquaredAlbumThumbnail": "Prisili kvadratnu sličicu albuma",
@@ -367,11 +539,11 @@
   "generateRandomPlaylist": "Generiši nasumičnu listu numera",
   "genre": "Žanr",
   "genres": "Žanrovi",
-  "goodLooking": "Izgleda dobro",
   "goToAlbum": "Idi na album",
   "goToArtist": "Idi na izvođača",
   "goToChannel": "Idi na kanal",
   "goToFolder": "Idi na direktorij",
+  "goodLooking": "Izgleda dobro",
   "grantStoragePermission": "Odobri pristup pohrani",
   "group": "Grupa",
   "groupArtworksByAlbum": "Grupiši omote po albumu",
@@ -380,78 +552,38 @@
   "heightOfAlbumTile": "Visina pločice albuma",
   "heightOfTrackTile": "Visina pločice numere",
   "hideSkipButtonAfter": "Sakrij dugme za preskakanje nakon",
-  "highlight": "Istaknuto",
   "highMatches": "Visoka podudaranja",
   "highPerformance": "Visoke performanse",
+  "highlight": "Istaknuto",
   "history": "Historija",
   "historyImportMissingEntriesNote": "Ovi unosi nisu pronađeni u biblioteci. Ako vjerujete da postoje, razmislite o ručnom dodavanju",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} slušanja za {oldTrackInfo} bit će zamijenjeno sa {newTrackInfo}, potvrdi?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "Početna",
   "hook": "Refren",
-  "hours": "Sati",
   "hourFormat12": "12-satni format",
+  "hours": "Sati",
+  "iReadAndAgree": "Pročitao sam i slažem se",
   "ifNotPlaying": "Ako ne svira",
-  "ignores": "Ignoriše",
   "ignoreBatteryOptimizationsSubtitle": "Preuzimanja mogu biti usporena kada je aplikacija ograničena baterijom",
   "ignoreCommonPrefixesWhileSorting": "Ignoriši uobičajene prefikse pri sortiranju",
+  "ignores": "Ignoriše",
   "imageSource": "Izvor slike",
   "immersiveMode": "Impresivni režim",
   "immersiveModeSubtitle": "Sakrij statusnu i navigacijsku traku dok je mini-plejer proširen",
   "import": "Uvezi",
-  "importedNChannelsSuccessfully": "{number, plural, other{Uspješno uvezeno {number} kanala}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{Uspješno uvezeno {number} lista numera}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "Uvezi sve",
   "importLastFmHistory": "Uvezi Last.fm historiju",
   "importLastFmHistoryGuide": "1. Idite na {lastfmCsvLink}\n\n2. Unesite svoje korisničko ime, dohvatite i preuzmite CSV datoteku.\n\n3. Odaberite datoteku na sljedećem ekranu.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "Uvezi vremenski raspon",
   "importYoutubeHistory": "Uvezi YouTube historiju",
   "importYoutubeHistoryGuide": "1. Idite na {takeoutLink}\n\n2. Pritisnite \"Multiple Formats\" i pored \"History\" odaberite \"JSON\".\n\n3. Pritisnite \"All Youtube data included\", poništite sve i odaberite samo historiju.\n\n4. Kreirajte izvoz, preuzmite i raspakujte.\n\n5. Odaberite \"watch-history.json\" na sljedećem ekranu.",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{Uspješno uvezeno {number} kanala}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{Uspješno uvezeno {number} lista numera}}",
   "includeVideos": "Uključi videe",
+  "indexRefreshRequired": "Osvježite nakon promjene ovoga",
   "indexer": "Indekser",
   "indexerNote": "Napomena: Nepotpuni broj omota odnosi se na duplicirane i nepronađene omote",
   "indexerSubtitle": "Upravljajte svojom muzičkom bibliotekom",
-  "indexRefreshRequired": "Osvježite nakon promjene ovoga",
   "infinityQueueOnNextPrev": "Beskonačni red čekanja na Sljedeće/Prethodno",
   "infinityQueueOnNextPrevSubtitle": "Pritiskom na sljedeće dok svira zadnja stavka skočit će na prvu, i obrnuto",
   "info": "Info",
@@ -462,7 +594,6 @@
   "invertSelection": "Obrni odabir",
   "issues": "Problemi",
   "item": "Stavka",
-  "iReadAndAgree": "Pročitao sam i slažem se",
   "jump": "Skoči",
   "jumpToDay": "Skoči na dan",
   "jumpToFirstTrackAfterQueueFinish": "Skoči na prvu numeru nakon završetka reda",
@@ -485,8 +616,8 @@
   "liked": "Sviđa mi se",
   "link": "Link",
   "listOfFolders": "Lista direktorija",
-  "loadingFile": "Učitavanje datoteke",
   "loadAll": "Učitaj sve",
+  "loadingFile": "Učitavanje datoteke",
   "local": "Lokalno",
   "localVideoMatching": "Lokalno podudaranje videa",
   "login": "Prijava",
@@ -494,13 +625,6 @@
   "longPressTheLyricsToEnterFullscreen": "Dugo pritisnite tekst pjesme za cijeli ekran",
   "lostMemories": "Izgubljena sjećanja",
   "lostMemoriesSubtitle": "{number, plural, other{oko ovog vremena, prije {number} godina}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "lostPartners": "Izgubljene veze",
   "loudnessEnhancer": "Pojačivač glasnoće",
   "lyricist": "Tekstopisac",
@@ -513,13 +637,13 @@
   "manualBackup": "Ručno",
   "manualBackupSubtitle": "odaberite specifičnu datoteku",
   "markAsRead": "Označi kao pročitano",
-  "matchingType": "Tip podudaranja",
   "matchAllTracks": "Podudari sve numere",
   "matchAllTracksNote": "Ovo može utjecati na brzinu podudaranja jer će provjeriti sve numere u vašoj biblioteci",
-  "maximum": "Maksimalno",
+  "matchingType": "Tip podudaranja",
   "maxAudioCacheSize": "Maksimalna veličina predmemorije zvuka",
   "maxImageCacheSize": "Maksimalna veličina predmemorije slika",
   "maxVideoCacheSize": "Maksimalna veličina predmemorije videa",
+  "maximum": "Maksimalno",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Media Store je omogućen, ovo neće imati efekta",
   "medium": "Srednje",
   "membershipCode": "Kod",
@@ -532,45 +656,28 @@
   "membershipSignInToPatreonAccount": "Prijavite se na svoj Patreon račun",
   "membershipUnknown": "Nepoznato članstvo",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "Trebate članstvo {name1} ili {name2} za dodavanje više računa",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "Spoji",
   "metadataCache": "Predmemorija metapodataka",
   "metadataEditFailed": "Uređivanje metapodataka nije uspjelo",
   "metadataReadFailed": "Čitanje metapodataka nije uspjeslo",
-  "minimizedMiniplayer": "Minimiziran mini-plejer",
-  "minimum": "Minimalno",
-  "minimumOneFolderSubtitle": "Trebao bi postojati barem 1 direktorij, dodajte više direktorija ako želite ukloniti ovaj",
-  "minimumOneItem": "Nije moguće ukloniti stavku",
-  "minimumOneItemSubtitle": "{number, plural, other{Najmanje {number} stavki treba ostati}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "minimumSegmentDuration": "Minimalno trajanje segmenta",
-  "miniplayerCustomization": "Prilagođavanje mini-plejera",
-  "minutes": "minuta",
   "minFileDuration": "Minimalno trajanje numere",
   "minFileSize": "Minimalna veličina datoteke",
   "minTrackDurationToRestoreLastPosition": "Minimalno trajanje numere za vraćanje zadnje pozicije",
   "minValueCantBeMoreThanMax": "Minimalna vrijednost ne može biti veća od maksimalne",
   "minValueToCountTrackListen": "Broji slušanje nakon: ",
+  "minimizedMiniplayer": "Minimiziran mini-plejer",
+  "minimum": "Minimalno",
+  "minimumOneFolderSubtitle": "Trebao bi postojati barem 1 direktorij, dodajte više direktorija ako želite ukloniti ovaj",
+  "minimumOneItem": "Nije moguće ukloniti stavku",
+  "minimumOneItemSubtitle": "{number, plural, other{Najmanje {number} stavki treba ostati}}",
+  "minimumSegmentDuration": "Minimalno trajanje segmenta",
+  "miniplayerCustomization": "Prilagođavanje mini-plejera",
+  "minutes": "minuta",
   "missingEntries": "Nedostajući unosi",
   "missingTracks": "Nedostajuće numere",
   "mix": "Miks",
-  "mixes": "Miksevi",
   "mixPlaylistGeneratedByYoutube": "Miks lista numera generisana od strane YouTube-a",
+  "mixes": "Miksevi",
   "mobile": "Mobilni",
   "month": "Mjesec",
   "months": "Mjeseci",
@@ -583,7 +690,6 @@
   "name": "Ime",
   "nameContainsBadCharacter": "Ime sadrži loš karakter",
   "never": "Nikad",
-  "newest": "Najnovije",
   "newDirectory": "Novi direktorij",
   "newTracksAdd": "Dodaj numere",
   "newTracksMoods": "Raspoloženje",
@@ -594,35 +700,12 @@
   "newTracksRatingsSubtitle": "Generiši numere koje imaju specifičnu ocjenu",
   "newTracksRecommended": "Preporučeno",
   "newTracksRecommendedSubtitle": "Generiši numere koje obično slušate uz {currentTrack}",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "Sličan datum izdanja",
   "newTracksSimilarrReleaseDateSubtitle": "Generiši numere koje su objavljene otprilike u isto vrijeme kao {currentTrack}",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "Numera ima nepoznatu godinu",
+  "newest": "Najnovije",
   "next": "Sljedeće",
   "no": "ne",
-  "none": "Nijedno",
-  "nonActive": "Neaktivno",
-  "nonFavourites": "Nisu omiljeni",
-  "normalizeAudio": "Normalizuj zvuk",
-  "normalizeAudioSubtitle": "Normalizuje glasnoću čitanjem oznake replay gain ili informacija s YouTube-a",
-  "note": "Napomena",
-  "notification": "Obavijest",
-  "notifications": "Obavijesti",
-  "notAvailableForYourDevice": "Nije dostupno za vaš uređaj",
-  "notSupportedForNetworkFiles": "Nije podržano za mrežne datoteke",
   "noChangesFound": "Nisu pronađene promjene.",
   "noEnoughTracks": "Nemate dovoljno numera..",
   "noExcludedFolders": "Nemate isključenih direktorija",
@@ -633,19 +716,29 @@
   "noTracksFoundBetweenDates": "Ovaj vremenski raspon nema numera.",
   "noTracksFoundInDirectory": "Nisu pronađene numere u ovom direktoriju",
   "noTracksInHistory": "Nemate dovoljno numera u historiji",
+  "nonActive": "Neaktivno",
+  "nonFavourites": "Nisu omiljeni",
+  "none": "Nijedno",
+  "normalizeAudio": "Normalizuj zvuk",
+  "normalizeAudioSubtitle": "Normalizuje glasnoću čitanjem oznake replay gain ili informacija s YouTube-a",
+  "notAvailableForYourDevice": "Nije dostupno za vaš uređaj",
+  "notSupportedForNetworkFiles": "Nije podržano za mrežne datoteke",
+  "note": "Napomena",
+  "notification": "Obavijest",
+  "notifications": "Obavijesti",
   "numberOfTracks": "Broj numera",
   "ofLabel": "od",
   "offlineSearch": "Pretraga van mreže",
   "offset": "Pomak",
-  "oldestWatch": "Najstarije gledano",
   "oldDirectory": "Stari direktorij",
   "oldDirectoryStillHasTracks": "Stari direktorij još uvijek ima neke numere, potvrdi?",
-  "ongoing": "U toku",
+  "oldestWatch": "Najstarije gledano",
   "onInterruption": "Pri prekidu",
   "onNotificationTap": "Pri dodiru obavijesti",
   "onOpeningYoutubeLink": "Pri otvaranju YouTube linka",
   "onSwiping": "Pri prevlačenju",
   "onVolumeZero": "Na glasnoći 0",
+  "ongoing": "U toku",
   "open": "Otvori",
   "openApp": "Otvori aplikaciju",
   "openInFileExplorer": "Otvori u File Exploreru",
@@ -654,24 +747,7 @@
   "openQueue": "Otvori red čekanja",
   "openYoutubeLink": "Otvori YouTube link",
   "operationRequiresAccount": "Operacija {name} zahtijeva račun, prijavite se za nastavak",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "Operacija {operation} zahtijeva najmanje članstvo {name}",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "ili",
   "others": "Ostali",
   "output": "Izlaz",
@@ -700,6 +776,12 @@
   "pitch": "Visina tona",
   "plain": "Obično",
   "play": "Sviraj",
+  "playAfter": "Sviraj poslije",
+  "playAfterNextPrev": "Automatska reprodukcija na Sljedeće/Prethodno",
+  "playAll": "Sviraj sve",
+  "playFadeDuration": "Trajanje blijeđenja pri sviranju",
+  "playLast": "Sviraj zadnje",
+  "playNext": "Sviraj sljedeće",
   "playbackSetting": "Reprodukcija",
   "playbackSettingSubtitle": "Može se pristupiti direktno u plejeru dugim pritiskom na audio dugme",
   "playlist": "Lista numera",
@@ -707,12 +789,6 @@
   "playlistsImportM3uNative": "Ovo će uvesti M3U liste samo za korištenje u Namidi, koristite ako migrirate",
   "playlistsImportM3uSynced": "Ovo će automatski uvesti M3U liste iz direktorija indeksera i držati ih sinhroniziranim s originalnom M3U datotekom. Omogućite ako pristupate/mijenjate liste iz drugih aplikacija",
   "playlistsImportM3uSyncedAutoImport": "Automatski uvezi M3U liste",
-  "playAfter": "Sviraj poslije",
-  "playAfterNextPrev": "Automatska reprodukcija na Sljedeće/Prethodno",
-  "playAll": "Sviraj sve",
-  "playFadeDuration": "Trajanje blijeđenja pri sviranju",
-  "playLast": "Sviraj zadnje",
-  "playNext": "Sviraj sljedeće",
   "pleaseEnterADifferentName": "Ovo ime već postoji :(\nmolim pokušajte drugo fensi ime",
   "pleaseEnterALink": "Molim unesite link",
   "pleaseEnterALinkSubtitle": "umm.. je li ovo YouTube link?",
@@ -728,16 +804,6 @@
   "private": "Privatno",
   "progress": "Napredak",
   "promptIndexingRefresh": "{newFiles} novih datoteka je pronađeno i {deletedFiles} je izbrisano ili filtrirano, želite li osvježiti?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "Obično se ovo dešava kada izbrišete/premjestite/preimenujete datoteku izvan Namide. Želite li ažurirati trenutnu putanju?",
   "public": "Javno",
   "queue": "Red čekanja",
@@ -745,10 +811,13 @@
   "random": "Nasumično",
   "randomPicks": "Nasumični odabir",
   "rating": "Ocjena",
-  "recentlyAdded": "Nedavno dodano",
+  "reIndex": "Ponovo indeksiraj",
+  "reIndexSubtitle": "Izgradite svoju muzičku biblioteku ispočetka",
+  "reIndexWarning": "Ovaj proces može potrajati, ovisno o veličini vaše biblioteke.\n\nOmoti neće biti ponovo indeksirani dok god postoje",
   "recentAlbums": "Nedavni albumi",
   "recentArtists": "Nedavni izvođači",
   "recentListens": "Nedavna slušanja",
+  "recentlyAdded": "Nedavno dodano",
   "recordLabel": "Izdavačka kuća",
   "refresh": "Osvježi",
   "refreshLibrary": "Osvježi biblioteku",
@@ -758,7 +827,6 @@
   "rememberAudioOnlyMode": "Zapamti režim samo zvuk",
   "remixer": "Remikser",
   "remove": "Ukloni",
-  "removed": "Uklonjeno",
   "removeDuplicates": "Ukloni duplikate",
   "removeFromFavourites": "Ukloni iz omiljenih",
   "removeFromLibrary": "Ukloni iz biblioteke",
@@ -766,17 +834,11 @@
   "removeQueue": "Ukloni red čekanja",
   "removeSourceFromHistory": "Ukloni izvor iz historije",
   "removeWhitespaces": "Ukloni praznine",
+  "removed": "Uklonjeno",
   "rename": "Preimenuj",
   "renamePlaylist": "Preimenuj listu numera",
   "reorderable": "Promjenjiv redoslijed",
   "repeatForNTimes": "{number, plural, other{Ponovi još {number} puta}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "Režim ponavljanja",
   "repeatModeAll": "Ponovi cijeli red",
   "repeatModeNone": "Stani na zadnjoj numeri",
@@ -791,58 +853,39 @@
   "respectNoMedia": "Poštuj .nomedia",
   "respectNoMediaSubtitle": "Ne uključuj direktorije koji imaju .nomedia",
   "restart": "Ponovo pokreni",
-  "restoredBackupSuccessfully": "Rezervna kopija vraćena",
-  "restoredBackupSuccessfullySub": "Datoteka rezervne kopije je uspješno vraćena",
   "restoreBackup": "Vrati rezervnu kopiju",
   "restoreDefaults": "Vrati zadane postavke",
+  "restoredBackupSuccessfully": "Rezervna kopija vraćena",
+  "restoredBackupSuccessfullySub": "Datoteka rezervne kopije je uspješno vraćena",
   "resume": "Nastavi",
   "resumeIfWasInterrupted": "Nastavi ako je pauzirano zbog prekida",
   "resumeIfWasPausedByVolume": "Nastavi ako je pauzirano zbog glasnoće",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{Nastavi ako je pauzirano manje od {number} minuta}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "returnYoutubeDislike": "Vrati Youtube Dislike prikaz",
   "reverseOrder": "Obrnuti redoslijed",
-  "reIndex": "Ponovo indeksiraj",
-  "reIndexSubtitle": "Izgradite svoju muzičku biblioteku ispočetka",
-  "reIndexWarning": "Ovaj proces može potrajati, ovisno o veličini vaše biblioteke.\n\nOmoti neće biti ponovo indeksirani dok god postoje",
   "rightAction": "Desna radnja",
   "ringtone": "Melodija zvona",
   "sameDirectoryOnly": "Samo isti direktorij",
   "sample": "Uzorak",
   "sampleRate": "Stopa uzorkovanja",
   "save": "Sačuvaj",
-  "savedIn": "Sačuvano u",
   "saveToLibrary": "Sačuvaj u biblioteku",
+  "savedIn": "Sačuvano u",
   "scaleMultiplier": "Množitelj skale",
   "search": "Traži",
   "searchYoutube": "Traži YouTube",
   "seconds": "sekundi",
-  "seekbar": "Traka za traženje",
+  "seeProjectCodeOnSite": "Pogledaj kôd projekta na {site}",
   "seekDuration": "Trajanje traženja",
   "seekDurationInfo": "Možete dodirnuti trenutno trajanje za traženje unazad i ukupno trajanje za traženje unaprijed",
-  "seeProjectCodeOnSite": "Pogledaj kôd projekta na {site}",
-  "@seeProjectCodeOnSite": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
-  "selectedTracks": "Odabrane numere",
+  "seekbar": "Traka za traženje",
   "selectAll": "Odaberi sve",
   "selectFilesAlreadyInLocalLibrary": "Odaberi datoteke već u lokalnoj biblioteci",
+  "selectedTracks": "Odabrane numere",
   "selfPromotion": "Samopromocija",
   "separatorsBlacklistSubtitle": "Ove riječi neće biti podijeljene",
   "separatorsMessage": "Nema potrebe za umetanjem razmaka, osim ako želite koristiti slovo/simbol koji se može naći u cijeloj riječi (poput x i ft.)",
   "serverAddress": "Adresa servera",
-  "settings": "Postavke",
-  "setupFirstStartup": "Postavljanje prvog pokretanja",
   "setAs": "Postavi kao",
   "setAsDefault": "Postavi kao zadano",
   "setFileLastModifiedAsVideoUploadDate": "Postavi zadnju izmjenu datoteke kao datum uploada videa",
@@ -851,6 +894,8 @@
   "setRating": "Postavi ocjenu",
   "setTags": "Postavi oznake",
   "setYoutubeLink": "Postavi YouTube link",
+  "settings": "Postavke",
+  "setupFirstStartup": "Postavljanje prvog pokretanja",
   "share": "Dijeli",
   "shareLogs": "Podijeli zapise",
   "shortcuts": "Prečice",
@@ -872,8 +917,6 @@
   "shuffle": "Izmiješaj",
   "shuffleAll": "Nasumično sve",
   "shuffleNext": "Nasumično sljedeće",
-  "signingInAllowsBasicUsage": "Prijava omogućava osnovno korištenje",
-  "signingInAllowsBasicUsageSubtitle": "Dobijte rani pristup putem Patreona ili korištenjem kupona",
   "signIn": "Prijavi se",
   "signInCanceled": "Prijava otkazana",
   "signInFailed": "Prijava neuspjela",
@@ -882,31 +925,12 @@
   "signInYouNeedAccountToViewPage": "Trebate račun za pregled ove stranice",
   "signOut": "Odjavi se",
   "signOutFromName": "Odjavi se sa {name}",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "Prijava omogućava osnovno korištenje",
+  "signingInAllowsBasicUsageSubtitle": "Dobijte rani pristup putem Patreona ili korištenjem kupona",
   "similarDiscoverDate": "Sličan datum otkrivanja",
   "similarDiscoverDateSubtitle": "Generiši numere koje su otkrivene otprilike u isto vrijeme kao {currentTrack}",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "Sličan vremenski raspon",
   "similarTimeRangeSubtitle": "Generiši numere koje ste slušali otprilike u isto vrijeme kao {currentTrack}",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "Singlovi",
   "size": "Veličina",
   "skip": "Preskoči",
@@ -940,13 +964,6 @@
   "subscribers": "Pretplatnici",
   "succeeded": "Uspjelo",
   "suggestionSubtitle": "Imate problem ili prijedlog? Otvorite prijavu na {site}",
-  "@suggestionSubtitle": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
   "support": "Podrška",
   "supremacy": "Nadmoć",
   "sussyBaka": "Bruh nema numera",
@@ -954,8 +971,8 @@
   "swipeToOpenDrawer": "Prevuci za otvaranje ladice",
   "synced": "Sinhronizirano",
   "synopsis": "Sinopsis",
-  "tags": "Oznake",
   "tagFields": "Polja oznaka",
+  "tags": "Oznake",
   "tapAction": "Radnja dodirom",
   "tapToSeek": "Dodirni za traženje",
   "themeMode": "Režim teme",
@@ -971,17 +988,14 @@
   "top": "Vrh",
   "topComments": "Najbolji komentari",
   "topCommentsSubtitle": "Prikaži komentare na vrhu umjesto na dnu",
-  "topRecents": "Najnovije",
   "topRecentAlbums": "Najnoviji albumi",
   "topRecentArtists": "Najnoviji izvođači",
-  "totalListens": "Ukupno slušanja",
+  "topRecents": "Najnovije",
   "totalListenTime": "Ukupno vrijeme slušanja",
+  "totalListens": "Ukupno slušanja",
   "totalTracks": "Ukupno numera",
   "totalTracksDuration": "Ukupno trajanje numera",
   "track": "Numera",
-  "tracks": "Numere",
-  "tracksExcludedByNomedia": "Numere isključene zbog .nomedia",
-  "tracksInfo": "Informacije o numerama",
   "trackArtistsSeparator": "Razdjelnik izvođača",
   "trackGenresSeparator": "Razdjelnik žanrova",
   "trackInfo": "Informacije o numeri",
@@ -989,16 +1003,6 @@
   "trackNumber": "Broj numere",
   "trackNumberTotal": "Ukupno numera",
   "trackPathOldNew": "Staro ime: \"{oldName}\"\n\nNovo ime: \"{newName}\"\n\nJeste li sigurni?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "Režim reprodukcije",
   "trackPlayModeSearchResults": "Rezultati pretrage",
   "trackPlayModeSelectedOnly": "Samo odabrana numera",
@@ -1008,6 +1012,9 @@
   "trackThumbnailSizeInList": "Veličina sličice numere",
   "trackTileCustomization": "Prilagođavanje pločice numere",
   "trackTileItemsSeparator": "Razdjelnik stavki",
+  "tracks": "Numere",
+  "tracksExcludedByNomedia": "Numere isključene zbog .nomedia",
+  "tracksInfo": "Informacije o numerama",
   "underrated": "Podcijenjeno",
   "undo": "Poništi",
   "undoChanges": "Poništi promjene?",
@@ -1022,18 +1029,17 @@
   "updateDirectoryPath": "Ažuriraj putanju direktorija",
   "updateMissingTracksOnly": "Ažuriraj samo nedostajuće numere",
   "updating": "Ažuriranje",
-  "used": "Iskorišteno",
   "useCollapsedSettingTiles": "Koristi sažete pločice postavki",
   "useMediaStore": "Koristi Media Store",
   "useMediaStoreSubtitle": "✓ trenutno indeksiranje\nx poštivanje .nomedia će biti prisilno omogućeno\nx neke oznake metapodataka će nedostajati\nx YouTube integracija za lokalnu biblioteku neće raditi",
   "usePitchBlack": "Koristi potpuno crnu",
   "usePitchBlackSubtitle": "Korisno za AMOLED ekrane.. i izgleda kul",
+  "used": "Iskorišteno",
   "value": "Vrijednost",
   "valueBetween50200": "Vrijednost treba biti između 50% i 200%",
   "vibration": "Vibracija",
   "vibrationType": "Tip vibracije",
   "video": "Video",
-  "videos": "Videi",
   "videoCache": "Predmemorija videa",
   "videoCacheFile": "Keširana video datoteka",
   "videoCacheFiles": "Keširane video datoteke",
@@ -1048,9 +1054,10 @@
   "videoQuality": "Kvaliteta videa",
   "videoQualitySubtitle": "Bit će odabrana najviša dostupna kvaliteta.",
   "videoQualitySubtitleNote": "Uvijek je dobro zadržati više alternativa u slučaju da kvaliteta nije pronađena, inače će se vratiti na najlošiju kvalitetu",
+  "videos": "Videi",
   "view": "prikaz",
-  "views": "pregleda",
   "viewAll": "Prikaži sve",
+  "views": "pregleda",
   "volume": "Glasnoća",
   "warning": "Upozorenje",
   "waveformBarsCount": "Broj traka valnog oblika",
@@ -1059,13 +1066,6 @@
   "year": "Godina",
   "yes": "Da",
   "yourCurrentMembershipIs": "Vaše trenutno članstvo je {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "Vaš prilagođeni redoslijed će biti izgubljen. Jeste li sigurni?",
   "youtube": "YouTube",
   "youtubeMusic": "YouTube Music",
