@@ -1,9 +1,211 @@
 {
   "@@locale": "ko",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "앱 정보",
   "active": "활성화",
   "add": "추가",
-  "added": "추가됨",
   "addAccount": "계정 추가",
   "addAll": "모두 추가",
   "addAllAndRemoveOldOnes": "오래된 것 삭제하고 모두 추가",
@@ -17,28 +219,22 @@
   "addMoreFromThisArtist": "이 아티스트에서 대기열에 추가",
   "addMoreFromThisFolder": "이 폴더에서 대기열에 추가",
   "addMoreFromToQueue": "{media}에서 추가 대기열에 추가",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "누락된 것만 추가",
   "addToFavourites": "즐겨찾기에 추가",
   "addToPlaylist": "재생목록에 추가",
+  "added": "추가됨",
   "advanced": "고급",
   "advancedSettings": "고급 설정",
   "advancedSettingsSubtitle": "고급 설정(건드리지 않는 것이 좋습니다)",
   "alarm": "알람",
   "album": "앨범",
-  "albums": "앨범",
-  "albumsCount": "앨범 수",
   "albumArtist": "앨범 아티스트",
   "albumArtists": "앨범 아티스트",
   "albumIdentifiers": "앨범 ID",
   "albumThumbnailSizeInList": "앨범 썸네일 크기",
   "albumTileCustomization": "앨범 타일 맞춤 설정",
+  "albums": "앨범",
+  "albumsCount": "앨범 수",
   "all": "모두",
   "allTime": "전체 기간",
   "always": "항상",
@@ -52,14 +248,12 @@
   "artist": "아티스트",
   "artists": "아티스트",
   "artwork": "아트워크",
-  "artworks": "아트워크",
   "artworkGestures": "아트웍 제스처",
+  "artworks": "아트워크",
   "audio": "오디오",
   "audioCache": "오디오 캐시",
   "audioOnly": "오디오만",
   "auto": "자동",
-  "automaticBackup": "자동 백업",
-  "automaticBackupSubtitle": "백업 위치에서 찾은 최신 백업 파일 자동 적용",
   "autoBackupInterval": "자동 백업 간격",
   "autoColoring": "자동 색상 지정",
   "autoColoringSubtitle": "현재 아트웍에서 플레이어 색상 자동 선택",
@@ -68,6 +262,8 @@
   "autoGenerated": "자동 생성",
   "autoStartRadio": "라디오 자동 시작",
   "autoStartRadioSubtitle": "단일 트랙 재생 시 믹스 재생목록을 자동으로 추가합니다",
+  "automaticBackup": "자동 백업",
+  "automaticBackupSubtitle": "백업 위치에서 찾은 최신 백업 파일 자동 적용",
   "backupAndRestore": "백업 & 복원",
   "backupAndRestoreSubtitle": "데이터베이스 및 설정 백업",
   "balanced": "균형",
@@ -95,26 +291,19 @@
   "clearImageCacheWarning": "경고: 이미지가 없는 라이브러리가 생성되므로 이미지 캐시를 다시 생성할 때만 사용합니다.",
   "clearTrackItem": "트랙 지우기",
   "clearTrackItemMultiple": "{number, plural, other{{number}개의 트랙 지우기}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "동영상 캐시 지우기",
   "clearVideoCacheNote": "삭제할 항목을 선택할 수 있습니다.",
   "clock": "시계",
   "colorPalette": "색상 팔레트",
-  "colorPalettes": "색상 팔레트",
   "colorPaletteNote1": "길게 눌러 색상 삭제",
   "colorPaletteNote2": "기본 색상으로 사용할 믹스를 누릅니다",
+  "colorPalettes": "색상 팔레트",
   "comment": "댓글",
   "comments": "댓글",
   "composer": "작곡가",
   "compress": "압축",
-  "compressionPercentage": "압축률",
   "compressImages": "이미지 압축",
+  "compressionPercentage": "압축률",
   "configure": "구성",
   "confirm": "승인",
   "copiedArtwork": "아트웍 복사",
@@ -128,19 +317,12 @@
   "couldntSaveImage": "이미지를 저장할 수 없습니다",
   "country": "국가",
   "create": "생성",
-  "createdBackupSuccessfully": "생성된 백업",
-  "createdBackupSuccessfullySub": "백업 파일 생성 성공",
   "createBackup": "백업 생성",
   "createNewPlaylist": "새 재생목록 만들기",
+  "createdBackupSuccessfully": "생성된 백업",
+  "createdBackupSuccessfullySub": "백업 파일 생성 성공",
   "crossfadeDuration": "크로스페이드 시간",
   "crossfadeTriggerSeconds": "{seconds, plural, other{종료 {seconds}초 전부터 자동으로 크로스페이드 시작}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "크로스페이드를 자동으로 시작하지 않음",
   "custom": "사용자 정의",
   "customizations": "맞춤 설정",
@@ -153,45 +335,21 @@
   "dateTimeFormat": "날짜 시간 형식",
   "day": "일",
   "days": "일",
-  "defaultLabel": "기본",
   "defaultBackupLocation": "기본 백업 위치",
   "defaultColor": "기본 색상",
   "defaultColorSubtitle": "플레이어에서 사용할 색상 설정",
   "defaultDownloadLocation": "기본 다운로드 위치",
+  "defaultLabel": "기본",
   "defaultLibraryTab": "기본 라이브러리 탭",
   "delete": "삭제",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{{totalSize}에 해당하는 {filesCount}개의 파일을 삭제할까요?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "totalSize": {
-        "type": "int"
-      },
-      "filesCount": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{저장소에서 {number}개 영구 삭제}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "재생목록 삭제",
   "deleteTempFiles": "임시파일 삭제",
   "description": "설명",
   "didYouMean": "혹시",
   "dimIntensity": "밝기",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{{seconds}초 동안 조작하지 않으면 미니 플레이어가 어두워집니다}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "디렉토리가 존재하지 않음",
   "disableAll": "KO",
   "disableReordering": "정렬 비활성화",
@@ -205,14 +363,15 @@
   "displayArtistBeforeTitle": "제목 앞에 아티스트 표시",
   "displayArtworkOnLockscreen": "잠금화면에서 아트웍 표시",
   "displayAudioInfoInMiniplayer": "오디오 정보 표시",
-  "displayFavouriteIconInTrackTile": "즐겨찾기 버튼 표시",
   "displayFavButtonInNotification": "알림에 즐겨찾기 버튼 표시",
   "displayFavButtonInNotificationSubtitle": "썸네일이 어긋날 수 있습니다.",
+  "displayFavouriteIconInTrackTile": "즐겨찾기 버튼 표시",
   "displayRemainingDurationInsteadOfTotal": "총 시간이 아닌 남은 시간 표시",
   "displayThirdItemInRowInTrackTile": "각 행에 세 번째 항목 표시",
   "displayThirdRowInTrackTile": "세 번째 항목 표시",
   "displayTrackNumberInAlbumPage": "앨범의 트랙 번호 표시",
   "displayTrackNumberInAlbumPageSubtitle": "앨범에 트랙 번호 작은 박스 표시",
+  "doNothing": "아무것도 하지 않음",
   "done": "완료",
   "dontAskAgain": "다시 묻지 않기",
   "dontRestorePosition": "복원하지 않음",
@@ -223,7 +382,6 @@
   "downloads": "다운로드",
   "downloadsMetadataTags": "메타데이터 태그 다운로드",
   "downloadsMetadataTagsSubtitle": "기본적으로 동영상 정보에서 아티스트, 제목 및 앨범 추출",
-  "doNothing": "아무것도 하지 않음",
   "dragToSeek": "드래그해서 찾기",
   "duckAudio": "볼륨 낮추기",
   "duplicatedItemsAdding": "해당 항목은 이미 추가되어 있습니다",
@@ -248,13 +406,6 @@
   "enableM3uSync": "M3U Sync 활성화",
   "enableM3uSyncNote1": "M3U Sync를 사용하면 재생목록의 변경사항을 원본 M3U 파일에 반영할 수 있습니다",
   "enableM3uSyncNote2": "문제가 발생하면 이 재생목록의 백업은 {playlistsBackupPath}에 있습니다",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "거부하면, 재시작 시 이 재생 목록의 모든 변경사항이 손실됩니다",
   "enableMiniplayerParticles": "움직이는 파티클 활성화",
   "enableParallaxEffect": "시차 효과 활성화",
@@ -277,18 +428,11 @@
   "extension": "확장",
   "externalFiles": "외부 파일",
   "extract": "추출",
-  "extractingInfo": "정보 추출",
   "extractAllColorPalettes": "모든 색상 팔레트 추출",
   "extractAllColorPalettesSubtitle": "{number, plural, other{나머지 {remainingColorPalettes}를 추출할까요?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "제목에서 feat. 아티스트 추출",
   "extractFeatArtistSubtitle": "(feat. X) 및 (ft. X) 아티스트를 새로운 아티스트 항목으로 추출합니다.",
+  "extractingInfo": "정보 추출",
   "extras": "추가 기능",
   "extrasSubtitle": "경험을 향상시키기 위한 추가 설정",
   "failed": "실패",
@@ -297,26 +441,26 @@
   "fetching": "추출 중",
   "fetchingOfAllVideos": "모든 동영상 가져오기",
   "file": "파일",
-  "filenameShouldntStartWith": "파일명은 다음과 같이 시작하면 안 됨",
-  "files": "파일",
   "fileAlreadyExists": "파일이 이미 존재함",
   "fileName": "파일명",
   "fileNameWoExt": "확장자 없는 파일명",
-  "filteredBySizeAndDuration": "크기와 길이로 필터링된 트랙",
+  "filenameShouldntStartWith": "파일명은 다음과 같이 시작하면 안 됨",
+  "files": "파일",
   "filterAlbums": "앨범 필터링",
   "filterArtists": "아티스트 필터링",
   "filterGenres": "장르 필터링",
   "filterPlaylists": "재생목록 필터링",
   "filterTracks": "트랙 필터링",
   "filterTracksBy": "검색 목록의 트랙을 필터링",
+  "filteredBySizeAndDuration": "크기와 길이로 필터링된 트랙",
   "finished": "완료되었습니다",
   "finishedUpdatingLibrary": "라이브러리 업데이트가 완료되었습니다",
   "firstListen": "먼저 듣기",
   "fixYtdlpBigThumbnailSize": "yt-dlp의 큰 썸네일 크기 수정",
   "floatingActionButton": "플로팅 액션 버튼",
   "folder": "폴더",
-  "folders": "폴더",
   "folderName": "폴더명",
+  "folders": "폴더",
   "fontScale": "폰트 크기",
   "forceMiniplayerFollowTrackColors": "미니 플레이어를 트랙 색상에 맞추기",
   "forceSquaredAlbumThumbnail": "앨범 썸네일을 정사각형으로 강제 설정",
@@ -330,11 +474,11 @@
   "generateRandomPlaylist": "랜덤 재생목록 생성",
   "genre": "장르",
   "genres": "장르",
-  "goodLooking": "좋아요",
   "goToAlbum": "앨범으로 이동",
   "goToArtist": "아티스트로 이동",
   "goToChannel": "채널로 이동",
   "goToFolder": "폴더로 이동",
+  "goodLooking": "좋아요",
   "grantStoragePermission": "저장소 권한 부여",
   "group": "그룹",
   "groupArtworksByAlbum": "앨범별로 아트웍을 그룹화",
@@ -346,68 +490,28 @@
   "history": "히스토리",
   "historyImportMissingEntriesNote": "이 항목들은 라이브러리에서 찾을 수 없습니다. 만약 존재한다면 수동으로 추가해 보세요",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} 건을 들었습니다. {oldTrackInfo}는 {newTrackInfo}로 대체됩니다. 대체할까요?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "홈",
-  "hours": "시간",
   "hourFormat12": "12시간 표기",
+  "hours": "시간",
+  "iReadAndAgree": "읽고 동의 합니다",
   "ifNotPlaying": "중지 중일 경우",
-  "ignores": "무시",
   "ignoreBatteryOptimizationsSubtitle": "시스템의 절전 기능에 앱이 등록되어 있을 경우 다운로드 속도가 느려질 수 있습니다",
+  "ignores": "무시",
   "immersiveMode": "몰입형 모드",
   "immersiveModeSubtitle": "미니플레이어가 펼쳐져 있는 동안 상태 표시줄과 내비게이션 바를 숨김",
   "import": "가져오기",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number}개의 채널을 성공적으로 가져왔습니다}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number}개의 재생목록을 성공적으로 가져왔습니다}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "모두 가져오기",
   "importLastFmHistory": "LastFm 시청 기록 가져오기",
   "importLastFmHistoryGuide": "1. {lastfmCsvLink}로 이동합니다\n\n2. 사용자 이름을 입력하고 csv 파일을 가져와 다운로드합니다.\n\n3. 다음 화면에서 파일을 선택합니다.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "져오기 시간 범위",
   "importYoutubeHistory": "Youtube 시청 기록 가져오기",
   "importYoutubeHistoryGuide": "1. {takeoutLink}로 이동합니다.\n\n2. 「여러 형식」을 누르고 「기록」옆에 있는 「JSON」을 선택합니다.\n\n3. 「모든 Youtube 데이터 포함됨」을 눌러 모두 선택을 해제하고 시청 기록만 선택합니다.\n\n4. 내보내기, 다운로드, 압축 해제를 생성합니다.\n\n5. 다음 화면에서 「시청 기록.json」을 선택합니다.",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{{number}개의 채널을 성공적으로 가져왔습니다}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{number}개의 재생목록을 성공적으로 가져왔습니다}}",
+  "indexRefreshRequired": "이 옵션을 변경한 후 새로고침",
   "indexer": "인덱싱",
   "indexerNote": "참고: 작품 수가 불완전합니다. 중복되거나 누락된 작품이 있습니다",
   "indexerSubtitle": "음악 라이브러리 관리",
-  "indexRefreshRequired": "이 옵션을 변경한 후 새로고침",
   "infinityQueueOnNextPrev": "다음/이전 무한 대기열",
   "infinityQueueOnNextPrevSubtitle": "마지막 항목 재생 중 다음을 누르면 첫 번째 항목으로 이동합니다. 그 반대의 경우도 마찬가지입니다",
   "info": "정보",
@@ -415,7 +519,6 @@
   "instantlyApplies": "즉시 적용",
   "invertSelection": "선택 반전",
   "item": "항목",
-  "iReadAndAgree": "읽고 동의 합니다",
   "jump": "점프",
   "jumpToDay": "날짜로 점프",
   "jumpToFirstTrackAfterQueueFinish": "대기열 종료 후 첫 번째 트랙으로 점프",
@@ -433,19 +536,12 @@
   "liked": "좋아요",
   "link": "링크",
   "listOfFolders": "폴더 목록",
-  "loadingFile": "파일 불러오기",
   "loadAll": "모두 불러오기",
+  "loadingFile": "파일 불러오기",
   "local": "로컬",
   "localVideoMatching": "로컬 영상 검색",
   "lostMemories": "한동안 듣지 않음",
   "lostMemoriesSubtitle": "{number, plural, other{{number}년 전 이맘때}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "loudnessEnhancer": "볼륨 부스터",
   "lyricist": "작사",
   "lyrics": "가사",
@@ -457,13 +553,13 @@
   "manualBackup": "설명서",
   "manualBackupSubtitle": "특정 파일 선택",
   "markAsRead": "읽은 것으로 표시",
-  "matchingType": "일치 유형",
   "matchAllTracks": "모든 트랙과 일치",
   "matchAllTracksNote": "라이브러리의 모든 트랙을 검사하기 때문에 매칭 속도에 영향을 줄 수 있음",
-  "maximum": "최대",
+  "matchingType": "일치 유형",
   "maxAudioCacheSize": "최대 오디오 캐시 크기",
   "maxImageCacheSize": "최대 이미지 캐시 크기",
   "maxVideoCacheSize": "최대 동영상 캐시 크기",
+  "maximum": "최대",
   "membershipCode": "멤버십 코드",
   "membershipCodeSentToEmail": "코드가 메일로 전송되었습니다",
   "membershipDidntChange": "멤버십이 변경되지 않았습니다",
@@ -474,44 +570,27 @@
   "membershipSignInToPatreonAccount": "후원자 계정 로그인",
   "membershipUnknown": "알 수 없는 멤버십",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "여러 계정을 추가하려면 {name1} 또는 {name2} 멤버십이 필요합니다",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "병합",
   "metadataCache": "메타데이터 캐시",
   "metadataEditFailed": "메타데이터 편집 실패",
   "metadataReadFailed": "메타데이터 읽기 실패",
-  "minimizedMiniplayer": "최소화된 미니플레이어",
-  "minimum": "최소화",
-  "minimumOneFolderSubtitle": "최소 1개의 폴더가 필요합니다. 이 폴더를 삭제하려면 새 폴더를 추가하세요",
-  "minimumOneItem": "항목을 삭제할 수 없습니다",
-  "minimumOneItemSubtitle": "{number, plural, other{최소 {number}개의 항목이 남아 있어야 합니다}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "miniplayerCustomization": "미니플레이어 맞춤 설정",
-  "minutes": "분",
   "minFileDuration": "최소 트랙 지속시간",
   "minFileSize": "최소 파일 크기",
   "minTrackDurationToRestoreLastPosition": "마지막 재생 위치를 복원하기 위한 최소 트랙 지속시간",
   "minValueCantBeMoreThanMax": "최솟값은 최댓값을 초과할 수 없습니다",
   "minValueToCountTrackListen": "다음 길이까지 재생하면 1회 카운트됩니다: ",
+  "minimizedMiniplayer": "최소화된 미니플레이어",
+  "minimum": "최소화",
+  "minimumOneFolderSubtitle": "최소 1개의 폴더가 필요합니다. 이 폴더를 삭제하려면 새 폴더를 추가하세요",
+  "minimumOneItem": "항목을 삭제할 수 없습니다",
+  "minimumOneItemSubtitle": "{number, plural, other{최소 {number}개의 항목이 남아 있어야 합니다}}",
+  "miniplayerCustomization": "미니플레이어 맞춤 설정",
+  "minutes": "분",
   "missingEntries": "누락된 항목",
   "missingTracks": "누락된 트랙",
   "mix": "믹스",
-  "mixes": "믹스",
   "mixPlaylistGeneratedByYoutube": "YouTube에서 생성한 믹스 재생 목록",
+  "mixes": "믹스",
   "month": "월",
   "months": "월",
   "mood": "분위기",
@@ -522,7 +601,6 @@
   "name": "이름",
   "nameContainsBadCharacter": "이름에 부적절한 문자가 포함되어 있습니다",
   "never": "한 번도",
-  "newest": "최신",
   "newDirectory": "새 디렉토리",
   "newTracksAdd": "트랙 추가",
   "newTracksMoods": "분위기",
@@ -533,33 +611,12 @@
   "newTracksRatingsSubtitle": "특정 등급의 트랙을 생성",
   "newTracksRecommended": "추천",
   "newTracksRecommendedSubtitle": "{currentTrack}에서 자주 듣는 트랙을 생성합니다",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "비슷한 발매일",
   "newTracksSimilarrReleaseDateSubtitle": "{currentTrack}과 비슷한 시기에 발매된 트랙을 생성합니다",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "트랙의 연도를 알 수 없음",
+  "newest": "최신",
   "next": "다음",
   "no": "아니오",
-  "none": "없음",
-  "nonActive": "비활성화",
-  "nonFavourites": "즐겨찾기가 아님",
-  "normalizeAudio": "오디오 정규화",
-  "normalizeAudioSubtitle": "재생 게인 태그 또는 YouTube에서 제공한 정보를 읽어 볼륨을 정규화합니다",
-  "note": "노트",
-  "notification": "알림",
-  "notifications": "알림",
   "noChangesFound": "변경사항을 찾지 못했습니다.",
   "noEnoughTracks": "트랙이 충분하지 않습니다..",
   "noExcludedFolders": "제외된 폴더가 없습니다",
@@ -570,19 +627,27 @@
   "noTracksFoundBetweenDates": "이 시간대에 트랙이 없습니다.",
   "noTracksFoundInDirectory": "이 디렉토리에 트랙이 없습니다",
   "noTracksInHistory": "기록에 충분한 트랙이 없습니다",
+  "nonActive": "비활성화",
+  "nonFavourites": "즐겨찾기가 아님",
+  "none": "없음",
+  "normalizeAudio": "오디오 정규화",
+  "normalizeAudioSubtitle": "재생 게인 태그 또는 YouTube에서 제공한 정보를 읽어 볼륨을 정규화합니다",
+  "note": "노트",
+  "notification": "알림",
+  "notifications": "알림",
   "numberOfTracks": "트랙 수",
   "ofLabel": "의",
   "offlineSearch": "오프라인 검색",
   "offset": "오프셋",
-  "oldestWatch": "가장 예전에 본",
   "oldDirectory": "오래된 디렉토리",
   "oldDirectoryStillHasTracks": "오래된 디렉토리에 아직 트랙이 몇 개 남아있는데 괜찮습니까?",
-  "ongoing": "진행 중",
+  "oldestWatch": "가장 예전에 본",
   "onInterruption": "중단 시",
   "onNotificationTap": "알림 탭 시",
   "onOpeningYoutubeLink": "YouTube 링크 열 때",
   "onSwiping": "스와이프 중일 때",
   "onVolumeZero": "볼륨 0일 때",
+  "ongoing": "진행 중",
   "open": "열기",
   "openApp": "앱 열기",
   "openInYoutubeView": "YouTube에서 열기",
@@ -590,24 +655,7 @@
   "openQueue": "대기열 열기",
   "openYoutubeLink": "YouTube 링크 열기",
   "operationRequiresAccount": "{name}을 실행하려면 계정이 필요합니다. 계속하려면 로그인하세요",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "{operation}은 최소한 {name} 멤버십 가입이 필요합니다",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "또는",
   "others": "기타",
   "output": "출력",
@@ -634,6 +682,12 @@
   "pitch": "피치",
   "plain": "일반 텍스트",
   "play": "재생",
+  "playAfter": "나중에 재생",
+  "playAfterNextPrev": "다음/이전 자동재생",
+  "playAll": "모두 재생",
+  "playFadeDuration": "재생 시 페이드 길이",
+  "playLast": "마지막 재생",
+  "playNext": "다음 재생",
   "playbackSetting": "재생",
   "playbackSettingSubtitle": "오디오 버튼을 길게 누르면 플레이어에서 바로 접근 가능",
   "playlist": "재생목록",
@@ -641,12 +695,6 @@
   "playlistsImportM3uNative": "이것은 Namida에서만 사용할 M3U 플레이리스트를 가져옵니다. 마이그레이션 중인 경우에만 사용하세요",
   "playlistsImportM3uSynced": "인덱서 폴더에서 M3U 플레이리스트를 자동으로 가져오고, 원본 M3U 파일과 동기화 상태를 유지합니다. 다른 앱에서 플레이리스트에 접근하거나 수정하는 경우 활성화하세요",
   "playlistsImportM3uSyncedAutoImport": "M3U 재생목록 자동 가져오기",
-  "playAfter": "나중에 재생",
-  "playAfterNextPrev": "다음/이전 자동재생",
-  "playAll": "모두 재생",
-  "playFadeDuration": "재생 시 페이드 길이",
-  "playLast": "마지막 재생",
-  "playNext": "다음 재생",
   "pleaseEnterADifferentName": "이 이름은 이미 존재합니다 :(\n다른 멋진 이름을 시도해 보세요",
   "pleaseEnterALink": "링크를 입력하세요",
   "pleaseEnterALinkSubtitle": "어...이거 YouTube 링크인가요?",
@@ -660,16 +708,6 @@
   "private": "비공개",
   "progress": "진행",
   "promptIndexingRefresh": "{newFiles}개의 새 파일이 발견되었고 {deletedFiles}개가 삭제 또는 필터링되었습니다. 업데이트하시겠습니까?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "일반적으로 이것은 namida 외부에서 파일을 삭제/이동/이름을 변경했을 때 발생합니다. 현재 경로를 업데이트 하시겠습니까?",
   "public": "공개",
   "queue": "대기열",
@@ -677,10 +715,13 @@
   "random": "랜덤",
   "randomPicks": "랜덤 선택",
   "rating": "평가",
-  "recentlyAdded": "최근 추가됨",
+  "reIndex": "재인덱스",
+  "reIndexSubtitle": "음악 라이브러리 재구성",
+  "reIndexWarning": "이 프로세스는 라이브러리의 크기에 따라 다소 시간이 걸릴 수 있습니다.\n\n아트웍은 존재하는 한 재인덱싱되지 않습니다",
   "recentAlbums": "최근 앨범",
   "recentArtists": "최근 아티스트",
   "recentListens": "최근 청취",
+  "recentlyAdded": "최근 추가됨",
   "recordLabel": "음반사",
   "refresh": "새로 고침",
   "refreshLibrary": "라이브러리 새로 고침",
@@ -690,7 +731,6 @@
   "rememberAudioOnlyMode": "오디오 전용 모드 저장",
   "remixer": "리믹서",
   "remove": "삭제",
-  "removed": "삭제 완료",
   "removeDuplicates": "중복 삭제",
   "removeFromFavourites": "즐겨찾기에서 삭제",
   "removeFromLibrary": "라이브러리에서 삭제",
@@ -698,17 +738,11 @@
   "removeQueue": "대기열에서 삭제",
   "removeSourceFromHistory": "기록에서 소스 삭제",
   "removeWhitespaces": "공백 제거",
+  "removed": "삭제 완료",
   "rename": "이름 변경",
   "renamePlaylist": "재생목록 이름 변경",
   "reorderable": "정렬 가능",
   "repeatForNTimes": "{number, plural, other{{number}회 반복}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatModeAll": "모든 대기열 반복",
   "repeatModeNone": "마지막 트랙에서 정지",
   "repeatModeOne": "현재 트랙 반복",
@@ -722,44 +756,32 @@
   "respectNoMedia": ".nomedia 무시",
   "respectNoMediaSubtitle": ".nomedia 폴더를 포함하지 않음",
   "restart": "재시작",
-  "restoredBackupSuccessfully": "복원된 백업",
-  "restoredBackupSuccessfullySub": "백업 파일이 성공적으로 복원되었습니다",
   "restoreBackup": "백업 복원",
   "restoreDefaults": "기본값으로 복원",
+  "restoredBackupSuccessfully": "복원된 백업",
+  "restoredBackupSuccessfullySub": "백업 파일이 성공적으로 복원되었습니다",
   "resume": "다시 시작",
   "resumeIfWasInterrupted": "중단으로 인해 일시 정지된 경우 다시 시작",
   "resumeIfWasPausedByVolume": "볼륨에 의해 일시 정지된 경우 다시 시작",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{일시정지가 {number}분 미만인 경우 다시 시작}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "reverseOrder": "역순",
-  "reIndex": "재인덱스",
-  "reIndexSubtitle": "음악 라이브러리 재구성",
-  "reIndexWarning": "이 프로세스는 라이브러리의 크기에 따라 다소 시간이 걸릴 수 있습니다.\n\n아트웍은 존재하는 한 재인덱싱되지 않습니다",
   "ringtone": "벨소리",
   "sameDirectoryOnly": "같은 디렉토리만",
   "sampleRate": "샘플 속도",
   "save": "저장",
-  "savedIn": "저장 위치",
   "saveToLibrary": "라이브러리에 저장",
+  "savedIn": "저장 위치",
   "scaleMultiplier": "스케일 배율",
   "search": "검색",
   "searchYoutube": "YouTube에서 검색",
   "seconds": "초",
-  "seekbar": "탐색바",
   "seekDuration": "탐색 간격",
   "seekDurationInfo": "현재 시간을 누르면 되감기, 총 시간을 누르면 빨리 감기",
-  "selectedTracks": "선택된 트랙",
+  "seekbar": "탐색바",
   "selectAll": "모두 선택",
+  "selectedTracks": "선택된 트랙",
   "separatorsBlacklistSubtitle": "이러한 단어는 분할되지 않습니다",
   "separatorsMessage": "단어 전체에 포함되는 문자/기호(예: x 또는 ft.)를 사용하는 경우를 제외하고는 공백을 삽입할 필요가 없습니다",
-  "settings": "설정",
-  "setupFirstStartup": "초기 시작시 설정",
   "setAs": "로 설정",
   "setAsDefault": "기본값으로 설정",
   "setFileLastModifiedAsVideoUploadDate": "파일의 마지막 업데이트 날짜를 동영상 업로드 날짜로 설정",
@@ -768,6 +790,8 @@
   "setRating": "평점 설정",
   "setTags": "태그 설정",
   "setYoutubeLink": "YouTube링크 설정",
+  "settings": "설정",
+  "setupFirstStartup": "초기 시작시 설정",
   "share": "공유",
   "shouldDuck": "볼륨을 낮춰야 함",
   "shouldDuckNote": "볼륨을 낮춰야 함을 나타냅니다. 예: 알림",
@@ -783,8 +807,6 @@
   "shuffle": "섞기",
   "shuffleAll": "모두 섞기",
   "shuffleNext": "다음 섞기",
-  "signingInAllowsBasicUsage": "로그인하면 기본 기능을 사용할 수 있습니다",
-  "signingInAllowsBasicUsageSubtitle": "Patreon 또는 쿠폰을 사용하여 얼리 액세스 받기",
   "signIn": "로그인",
   "signInCanceled": "로그인이 취소되었습니다",
   "signInFailed": "로그인 실패",
@@ -793,13 +815,8 @@
   "signInYouNeedAccountToViewPage": "이 페이지를 보려면 계정이 필요합니다",
   "signOut": "로그아웃",
   "signOutFromName": "{name}에서 로그아웃",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "로그인하면 기본 기능을 사용할 수 있습니다",
+  "signingInAllowsBasicUsageSubtitle": "Patreon 또는 쿠폰을 사용하여 얼리 액세스 받기",
   "size": "크기",
   "skip": "건너띄기",
   "skipSilence": "무음 건너띄기",
@@ -828,8 +845,8 @@
   "swipeToOpenDrawer": "스와이프하여 서랍을 엽니다",
   "synced": "동기화됨",
   "synopsis": "개요",
-  "tags": "태그",
   "tagFields": "태그 필드",
+  "tags": "태그",
   "tapToSeek": "탭하여 되감기",
   "themeMode": "테마 선택",
   "themeModeDark": "다크",
@@ -842,17 +859,14 @@
   "top": "상단",
   "topComments": "인기 댓글",
   "topCommentsSubtitle": "댓글을 아래가 아닌 위에 표시",
-  "topRecents": "최근 인기 게시물",
   "topRecentAlbums": "최근 인기 앨범",
   "topRecentArtists": "최근 인기 아티스트",
-  "totalListens": "총 재생 횟수",
+  "topRecents": "최근 인기 게시물",
   "totalListenTime": "총 재생 시간",
+  "totalListens": "총 재생 횟수",
   "totalTracks": "총 트랙 수",
   "totalTracksDuration": "총 트랙 시간",
   "track": "트랙",
-  "tracks": "트랙",
-  "tracksExcludedByNomedia": ".nomedia에 의해 제외된 트랙",
-  "tracksInfo": "트랙 정보",
   "trackArtistsSeparator": "아티스트 구분자",
   "trackGenresSeparator": "장르 구분자",
   "trackInfo": "트랙 정보",
@@ -860,16 +874,6 @@
   "trackNumber": "트랙 번호",
   "trackNumberTotal": "총 트랙 수",
   "trackPathOldNew": "이전 이름: 「{oldName}」\n\n새 이름: 「{newName}」\n\n괜찮으시겠습니까?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "재생 모드",
   "trackPlayModeSearchResults": "검색 결과",
   "trackPlayModeSelectedOnly": "선택된 트랙만",
@@ -879,6 +883,9 @@
   "trackThumbnailSizeInList": "트랙 썸네일 크기",
   "trackTileCustomization": "트랙 타일 맞춤 설정",
   "trackTileItemsSeparator": "아이템 구분자",
+  "tracks": "트랙",
+  "tracksExcludedByNomedia": ".nomedia에 의해 제외된 트랙",
+  "tracksInfo": "트랙 정보",
   "undo": "실행 취소",
   "undoChanges": "변경사항을 취소하시겠습니까?",
   "undoChangesDeletedPlaylist": "재생목록 삭제를 취소했습니다",
@@ -891,16 +898,15 @@
   "updateDirectoryPath": "디렉토리 경로 업데이트",
   "updateMissingTracksOnly": "누락된 트랙만 업데이트",
   "updating": "업데이트 중",
-  "used": "사용됨",
   "useCollapsedSettingTiles": "접힌 설정 타일 사용",
   "useMediaStore": "미디어 저장소 사용",
   "useMediaStoreSubtitle": "✓ 인덱싱 시간이 즉시 완료됨\nx .nomedia가 강제로 활성화됨\nx 일부 메타데이터 태그가 누락됨\nx 로컬 라이브러리의 YouTube 통합이 작동하지 않음",
   "usePitchBlack": "검은색으로 설정",
   "usePitchBlackSubtitle": "AMOLED 화면에서 작동하고, 멋지게 보입니다",
+  "used": "사용됨",
   "value": "값",
   "valueBetween50200": "값은 50%에서 200% 사이여야 함",
   "video": "동영상",
-  "videos": "동영상",
   "videoCache": "영상 캐시",
   "videoCacheFile": "캐시된 영상 파일",
   "videoCacheFiles": "캐시된 영상 파일",
@@ -915,9 +921,10 @@
   "videoQuality": "동영상 품질",
   "videoQualitySubtitle": "최고 품질이 선택됩니다.",
   "videoQualitySubtitleNote": "원하는 품질을 찾지 못할 경우를 대비하여 여러 가지 대안을 준비하는 것이 좋습니다. 그렇지 않으면 최악의 품질로 돌아갈 수 있습니다",
+  "videos": "동영상",
   "view": "보기",
-  "views": "재생회수",
   "viewAll": "모두 보기",
+  "views": "재생회수",
   "volume": "볼륨",
   "warning": "경고",
   "waveformBarsCount": "파형 막대 개수",
@@ -926,13 +933,6 @@
   "year": "년",
   "yes": "예",
   "yourCurrentMembershipIs": "현재 멤버십은 {name}입니다",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "youtube": "YouTube",
   "youtubeMusic": "YouTube Music",
   "youtubeSettingsSubtitle": "YouTube경험 사용자 정의하기",
