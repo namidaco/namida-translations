@@ -1,9 +1,232 @@
 {
   "@@locale": "eo",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Pri",
   "active": "Aktiva",
   "add": "Aldoni",
-  "added": "aldonita",
   "addAccount": "Aldoni konton",
   "addAll": "Aldoni ĉion",
   "addAllAndRemoveOldOnes": "Aldoni ĉion kaj forigi malnovajn",
@@ -17,29 +240,23 @@
   "addMoreFromThisArtist": "Aldoni pli de ĉi tiu artisto al vico",
   "addMoreFromThisFolder": "Aldoni pli de ĉi tiu dosierujo al vico",
   "addMoreFromToQueue": "Aldoni pli de {media} al vico",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Aldoni nur mankantajn",
   "addToFavourites": "Aldoni al ŝatataj",
   "addToPlaylist": "Aldoni al ludlisto",
   "addTracksAtTheBeginning": "Aldoni trakojn ĉe la komenco",
+  "added": "aldonita",
   "advanced": "Altnivela",
   "advancedSettings": "Altnivela",
   "advancedSettingsSubtitle": "Altnivelaj agordoj, ne tuŝu",
   "alarm": "Alarmo",
   "album": "Albumo",
-  "albums": "Albumoj",
-  "albumsCount": "Nombro de albumoj",
   "albumArtist": "Albumartisto",
   "albumArtists": "Albumartistoj",
   "albumIdentifiers": "Albumidentigiloj",
   "albumThumbnailSizeInList": "Grandeco de albuma bildeteto",
   "albumTileCustomization": "Agordo de albumkahelo",
+  "albums": "Albumoj",
+  "albumsCount": "Nombro de albumoj",
   "all": "Ĉio",
   "allTime": "Ĉiuj tempoj",
   "always": "Ĉiam",
@@ -55,14 +272,12 @@
   "artist": "Artisto",
   "artists": "Artistoj",
   "artwork": "Kovrilbildo",
-  "artworks": "Kovrilbildoj",
   "artworkGestures": "Kovrilbildaj gestoj",
+  "artworks": "Kovrilbildoj",
   "audio": "Aŭdio",
   "audioCache": "Aŭdia kaŝmemoro",
   "audioOnly": "Nur aŭdio",
   "auto": "Aŭto",
-  "automaticBackup": "Aŭtomata",
-  "automaticBackupSubtitle": "Aŭtomate aplikas la plej freŝan savkopian dosieron trovitan en la savkopia loko",
   "autoBackupInterval": "Aŭtomata savkopia intervalo",
   "autoColoring": "Aŭtomata kolorigo",
   "autoColoringSubtitle": "Aŭtomate elekti ludilajn kolorojn el nuna kovrilbildo",
@@ -73,6 +288,8 @@
   "autoSkipOnce": "Aŭtomate preterpasi unufoje",
   "autoStartRadio": "Aŭtomate komenci radion",
   "autoStartRadioSubtitle": "Aŭtomate aldonas miksan ludliston kiam oni ludas unuopan trakon",
+  "automaticBackup": "Aŭtomata",
+  "automaticBackupSubtitle": "Aŭtomate aplikas la plej freŝan savkopian dosieron trovitan en la savkopia loko",
   "backupAndRestore": "Savkopio & Restarigo",
   "backupAndRestoreSubtitle": "Faru savkopion de via datumbazo kaj agordoj",
   "balanced": "Ekvilibra",
@@ -100,26 +317,19 @@
   "clearImageCacheWarning": "Averto: rezultigos bibliotekon sen bildoj. Uzu nur por rekonstrui bildan kaŝmemoron.",
   "clearTrackItem": "Forigi tiujn de trako",
   "clearTrackItemMultiple": "{number, plural, other{Forigi tiujn de {number} trakoj}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "Forigi videan kaŝmemoron",
   "clearVideoCacheNote": "Vi povas elekti kion forigi.",
   "clock": "Horloĝo",
   "colorPalette": "Kolorpaletro",
-  "colorPalettes": "Kolorpaletroj",
   "colorPaletteNote1": "Longe premu koloron por forigi ĝin",
   "colorPaletteNote2": "Frapetu miksaĵon por uzi kiel defaŭltan koloron",
+  "colorPalettes": "Kolorpaletroj",
   "comment": "Komento",
   "comments": "Komentoj",
   "composer": "Komponisto",
   "compress": "Kunpremi",
-  "compressionPercentage": "Procento de kunpremo",
   "compressImages": "Kunpremi bildojn",
+  "compressionPercentage": "Procento de kunpremo",
   "configure": "Agordi",
   "confirm": "Konfirmi",
   "copiedArtwork": "Kovrilbildo kopiita",
@@ -133,35 +343,21 @@
   "couldntSaveImage": "Ne povis konservi bildon",
   "country": "Lando",
   "create": "Krei",
-  "createdBackupSuccessfully": "Savkopio kreita",
-  "createdBackupSuccessfullySub": "Savkopia dosiero estis sukcese kreita",
   "createBackup": "Krei savkopion",
   "createNewPlaylist": "Krei novan ludliston",
+  "createdBackupSuccessfully": "Savkopio kreita",
+  "createdBackupSuccessfullySub": "Savkopia dosiero estis sukcese kreita",
+  "crossPlatformSync": "Interplatforma sinkronigo",
   "crossfadeDuration": "Daŭro de miksfando",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Aŭtomate aktivigi miksfandon en la lastaj {seconds} sekundoj}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "Ne aktivigi miksfandon aŭtomate",
-  "crossPlatformSync": "Interplatforma sinkronigo",
   "custom": "Propra",
   "customizations": "Personigoj",
   "customizationsSubtitle": "Agordu kiel via ludilo aspektas, faru ĝin via",
-  "database": "Datumbazo",
   "dataIsProvidedByName": "Datumoj provizitaj de: {name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "Datuma ŝparado",
   "dataSaverMode": "Reĝimo de datuma ŝparado",
+  "database": "Datumbazo",
   "date": "Dato",
   "dateAdded": "Dato aldonita",
   "dateCreated": "Dato kreita",
@@ -169,45 +365,21 @@
   "dateTimeFormat": "Dato-tempa formato",
   "day": "Tago",
   "days": "Tagoj",
-  "defaultLabel": "Defaŭlta",
   "defaultBackupLocation": "Defaŭlta savkopia loko",
   "defaultColor": "Defaŭlta koloro",
   "defaultColorSubtitle": "Agordu koloron uzotan de la ludilo",
   "defaultDownloadLocation": "Defaŭlta elŝuta loko",
+  "defaultLabel": "Defaŭlta",
   "defaultLibraryTab": "Defaŭlta biblioteka langeto",
   "delete": "Forigi",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{Ĉu forigi {filesCount} dosieron reprezentantan {totalSize}?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{Konstante forigi {number} el via stokado}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "Forigi ludliston",
   "deleteTempFiles": "Forigi tempajn dosierojn",
   "description": "Priskribo",
   "didYouMean": "Ĉu vi celis",
   "dimIntensity": "Intenseco de malheligo",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{Malheligi miniludilon post {seconds} sekundoj de neaktivieco}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "Dosierujo ne ekzistas",
   "disable": "Malŝalti",
   "disableAll": "Malŝalti ĉion",
@@ -223,15 +395,16 @@
   "displayArtistBeforeTitle": "Montri artiston antaŭ titolo",
   "displayArtworkOnLockscreen": "Montri kovrilbildon sur ŝlosita ekrano",
   "displayAudioInfoInMiniplayer": "Montri aŭdian informon",
-  "displayFavouriteIconInTrackTile": "Montri ŝatbutonon",
   "displayFavButtonInNotification": "Montri ŝatbutonon en sciigo",
   "displayFavButtonInNotificationSubtitle": "Bildeteto eble moviĝos.",
+  "displayFavouriteIconInTrackTile": "Montri ŝatbutonon",
   "displayRemainingDurationInsteadOfTotal": "Montri restantan daŭron anstataŭ totalon",
   "displayStopButtonInNotification": "Montri stop-butonon en sciigo",
   "displayThirdItemInRowInTrackTile": "Montri trian eron en ĉiu vico",
   "displayThirdRowInTrackTile": "Montri trian vicon",
   "displayTrackNumberInAlbumPage": "Montri trakan numeron en albumpaĝo",
   "displayTrackNumberInAlbumPageSubtitle": "Montri malgrandan skatolon enhavantan la trakan numeron en la albumpaĝo",
+  "doNothing": "Fari nenion",
   "done": "Farita",
   "dontAskAgain": "Ne demandu denove",
   "dontDim": "Ne malheligi",
@@ -243,7 +416,6 @@
   "downloads": "Elŝutoj",
   "downloadsMetadataTags": "Metadatumaj etikedoj de elŝutoj",
   "downloadsMetadataTagsSubtitle": "Defaŭlte ĉerpi artiston, titolon & albumon el video-informoj",
-  "doNothing": "Fari nenion",
   "dragToSeek": "Trenu por serĉi",
   "duckAudio": "Malaltigi aŭdion",
   "duplicatedItemsAdding": "Vi provas aldoni kelkajn erojn kiuj jam ekzistas en ĉi tiu ludlisto",
@@ -268,13 +440,6 @@
   "enableM3uSync": "Ŝalti M3U-sinkronigon",
   "enableM3uSyncNote1": "M3U-sinkronigo ebligas konservi ŝanĝojn de ludlisto al la originala M3U-dosiero",
   "enableM3uSyncNote2": "Se io misfunkcios, savkopio de ĉi tiu ludlisto troviĝos en {playlistsBackupPath}",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "Se rifuzita, ĉiuj ŝanĝoj faritaj en ĉi tiu ludlisto estos perditaj ĉe restartigo",
   "enableMiniplayerParticles": "Ŝalti moviĝantajn partiklojn",
   "enableParallaxEffect": "Ŝalti paralaksan efikon",
@@ -299,18 +464,11 @@
   "extension": "Etendaĵo",
   "externalFiles": "Eksteraj dosieroj",
   "extract": "Ĉerpi",
-  "extractingInfo": "Ĉerpante informojn",
   "extractAllColorPalettes": "Ĉerpi ĉiujn kolorpaletrojn",
   "extractAllColorPalettesSubtitle": "{number, plural, other{Ĉu ĉerpi restantajn {remainingColorPalettes}?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "Ĉerpi feat. artistojn el titolo",
   "extractFeatArtistSubtitle": "Ĉerpas (feat. X) kaj (ft. X) artistojn, kiel novan artistan eniron.",
+  "extractingInfo": "Ĉerpante informojn",
   "extras": "Ekstraĵoj",
   "extrasSubtitle": "Ekstraj agordoj por fajnigi vian sperton",
   "extreme": "Ekstrema",
@@ -320,27 +478,27 @@
   "fetching": "Prenante",
   "fetchingOfAllVideos": "Prenante ĉiujn videojn",
   "file": "Dosiero",
-  "filenameShouldntStartWith": "Dosiernomo ne devus komenciĝi per",
-  "files": "Dosieroj",
   "fileAlreadyExists": "Dosiero jam ekzistas",
   "fileName": "Dosiernomo",
   "fileNameWoExt": "Dosiernomo sen etendaĵo",
+  "filenameShouldntStartWith": "Dosiernomo ne devus komenciĝi per",
+  "files": "Dosieroj",
   "filler": "Plenigilo",
-  "filteredBySizeAndDuration": "Trakoj filtritaj laŭ grandeco kaj daŭro",
   "filterAlbums": "Filtrili albumojn",
   "filterArtists": "Filtrili artistojn",
   "filterGenres": "Filtrili ĝenrojn",
   "filterPlaylists": "Filtrili ludlistojn",
   "filterTracks": "Filtrili trakojn",
   "filterTracksBy": "Filtrili trakojn en serĉlistoj laŭ",
+  "filteredBySizeAndDuration": "Trakoj filtritaj laŭ grandeco kaj daŭro",
   "finished": "Finita",
   "finishedUpdatingLibrary": "Finis ĝisdatigon de biblioteko",
   "firstListen": "Unua aŭskulto",
   "fixYtdlpBigThumbnailSize": "Ripari grandan bildetetgrandon de yt-dlp",
   "floatingActionButton": "Flosanta aga butono",
   "folder": "Dosierujo",
-  "folders": "Dosierujoj",
   "folderName": "Dosierujnomo",
+  "folders": "Dosierujoj",
   "fontScale": "Tipara skalo",
   "forceMiniplayerFollowTrackColors": "Devigi miniludilon sekvi trakajn kolorojn",
   "forceSquaredAlbumThumbnail": "Devigi kvadratan albuman bildeteton",
@@ -356,11 +514,11 @@
   "generateRandomPlaylist": "Generi hazardan ludliston",
   "genre": "Ĝenro",
   "genres": "Ĝenroj",
-  "goodLooking": "Bela aspekto",
   "goToAlbum": "Iru al albumo",
   "goToArtist": "Iru al artisto",
   "goToChannel": "Iru al kanalo",
   "goToFolder": "Iru al dosierujo",
+  "goodLooking": "Bela aspekto",
   "grantStoragePermission": "Doni stokan permeson",
   "group": "Grupo",
   "groupArtworksByAlbum": "Grupigi kovrilbildojn laŭ albumo",
@@ -369,78 +527,38 @@
   "heightOfAlbumTile": "Alto de albumkahelo",
   "heightOfTrackTile": "Alto de trakkahelo",
   "hideSkipButtonAfter": "Kaŝi preterpasan butonon post",
-  "highlight": "Elstarigi",
   "highMatches": "Altaj kongruoj",
   "highPerformance": "Alta rendimento",
+  "highlight": "Elstarigi",
   "history": "Historio",
   "historyImportMissingEntriesNote": "Ĉi tiuj eroj ne povis esti trovitaj en la biblioteko, se vi kredas ke ili ekzistas, bonvolu konsideri aldoni ilin mane",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} aŭskultoj por {oldTrackInfo} estos anstataŭigitaj per {newTrackInfo}, ĉu konfirmi?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "Hejmo",
   "hook": "Hoko",
-  "hours": "Horoj",
   "hourFormat12": "12-hora formato",
+  "hours": "Horoj",
+  "iReadAndAgree": "Mi legis & konsentas",
   "ifNotPlaying": "Se ne ludas",
-  "ignores": "Ignoras",
   "ignoreBatteryOptimizationsSubtitle": "Elŝutoj povas esti bremsitaj kiam la aplikaĵo estas baterie limigita",
   "ignoreCommonPrefixesWhileSorting": "Ignori komunajn prefiksojn dum ordigo",
+  "ignores": "Ignoras",
   "imageSource": "Bilda fonto",
   "immersiveMode": "Imersiva reĝimo",
   "immersiveModeSubtitle": "Kaŝi statusan & navigadan bretojn dum miniludilo estas vastigita",
   "import": "Imposti",
-  "importedNChannelsSuccessfully": "{number, plural, other{Importis {number} kanalojn sukcese}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{Importis {number} ludlistojn sukcese}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "Imposti ĉion",
   "importLastFmHistory": "Imposti LastFm Historion",
   "importLastFmHistoryGuide": "1. Iru al {lastfmCsvLink}\n\n2. Tajpu vian uzantnomon, prenu kaj elŝutu csv-dosieron.\n\n3. Elektu la dosieron de la sekva ekrano.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "Imposti tempan intervalon",
   "importYoutubeHistory": "Imposti Youtube Historion",
   "importYoutubeHistoryGuide": "1. Iru al {takeoutLink}\n\n2. Premu \"Multiple Formats\" kaj apud \"History\" elektu \"JSON\".\n\n3. Premu \"All Youtube data included\", Malelektu Ĉion kaj elektu nur historion.\n\n4. Kreu Eksporton, Elŝutu & Malzipigu.\n\n5. Elektu \"watch-history.json\" de la sekva ekrano.",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{Importis {number} kanalojn sukcese}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{Importis {number} ludlistojn sukcese}}",
   "includeVideos": "Inkluzivi videojn",
+  "indexRefreshRequired": "Faru refreŝigon post ŝanĝo de tio",
   "indexer": "Indeksilo",
   "indexerNote": "Noto: Nekompleta Nombro de Kovrilbildoj rilatas al la duobligitaj & ne trovitaj Kovrilbildoj",
   "indexerSubtitle": "Administru vian muzikan bibliotekon",
-  "indexRefreshRequired": "Faru refreŝigon post ŝanĝo de tio",
   "infinityQueueOnNextPrev": "Senfina vico ĉe Sekva/Antaŭa",
   "infinityQueueOnNextPrevSubtitle": "premi sekvan dum ludas la lasta ero saltos al la unua, kaj inverse",
   "info": "Info",
@@ -450,7 +568,6 @@
   "intro": "Enkonduko",
   "invertSelection": "Inversigi elekton",
   "item": "Ero",
-  "iReadAndAgree": "Mi legis & konsentas",
   "jump": "Salti",
   "jumpToDay": "Salti al Tago",
   "jumpToFirstTrackAfterQueueFinish": "Salti al unua trako post fino de vico",
@@ -470,21 +587,14 @@
   "liked": "Ŝatita",
   "link": "Ligilo",
   "listOfFolders": "Listo de Dosierujoj",
-  "loadingFile": "Ŝargante dosieron",
   "loadAll": "Ŝargi ĉion",
+  "loadingFile": "Ŝargante dosieron",
   "local": "Loka",
   "localVideoMatching": "Loka Videa Kongruo",
   "longPressAction": "Long-prema Ago",
   "longPressTheLyricsToEnterFullscreen": "Longe premu la kantotekston por eniri plenekranon",
   "lostMemories": "Perditaj Memoroj",
   "lostMemoriesSubtitle": "{number, plural, other{ĉirkaŭ ĉi tiu tempo, antaŭ {number} jaroj}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "loudnessEnhancer": "Laŭteca Plibonigilo",
   "lyricist": "Kantverkisto",
   "lyrics": "Kantoteksto",
@@ -496,13 +606,13 @@
   "manualBackup": "Manuale",
   "manualBackupSubtitle": "elektu specifan dosieron",
   "markAsRead": "Marki kiel legita",
-  "matchingType": "Kongrua tipo",
   "matchAllTracks": "Kongrui Ĉiujn Trakojn",
   "matchAllTracksNote": "tio povas havi efikon sur la kongrua rapido, ĉar ĝi kontrolos ĉiujn trakojn en via biblioteko",
-  "maximum": "Maksimumo",
+  "matchingType": "Kongrua tipo",
   "maxAudioCacheSize": "Maksimuma aŭdia kaŝmemora grandeco",
   "maxImageCacheSize": "Maksimuma bilda kaŝmemora grandeco",
   "maxVideoCacheSize": "Maksimuma videa kaŝmemora grandeco",
+  "maximum": "Maksimumo",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Media Store estas ŝaltita, tio ne havos efikon",
   "medium": "Meza",
   "membershipCode": "Kodo",
@@ -515,45 +625,28 @@
   "membershipSignInToPatreonAccount": "Ensalutu al via patreon-konto",
   "membershipUnknown": "Nekonata Membreco",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "Vi bezonas membrecon de {name1} aŭ {name2} por aldoni plurajn kontojn",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "Kunfandi",
   "metadataCache": "Metadatuma Kaŝmemoro",
   "metadataEditFailed": "Malsukcesis redakti metadatumojn",
   "metadataReadFailed": "Malsukcesis legi metadatumojn",
-  "minimizedMiniplayer": "Minimumigita Miniludilo",
-  "minimum": "Minimumo",
-  "minimumOneFolderSubtitle": "Devus esti almenaŭ 1 dosierujo, aldonu pli da dosierujoj se vi volas forigi ĉi tiun",
-  "minimumOneItem": "Ne povis forigi eron",
-  "minimumOneItemSubtitle": "{number, plural, other{Almenaŭ {number} eroj devus resti}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "minimumSegmentDuration": "Minimuma Segmenta Daŭro",
-  "miniplayerCustomization": "Miniludila Personigo",
-  "minutes": "minutoj",
   "minFileDuration": "Minimuma Traka Daŭro",
   "minFileSize": "Minimuma Dosiera Grandeco",
   "minTrackDurationToRestoreLastPosition": "Minimuma traka daŭro por restarigi lastan luditan pozicion",
   "minValueCantBeMoreThanMax": "Minimuma valoro ne povas esti pli ol la maksimumo",
   "minValueToCountTrackListen": "Nombri aŭskulton post: ",
+  "minimizedMiniplayer": "Minimumigita Miniludilo",
+  "minimum": "Minimumo",
+  "minimumOneFolderSubtitle": "Devus esti almenaŭ 1 dosierujo, aldonu pli da dosierujoj se vi volas forigi ĉi tiun",
+  "minimumOneItem": "Ne povis forigi eron",
+  "minimumOneItemSubtitle": "{number, plural, other{Almenaŭ {number} eroj devus resti}}",
+  "minimumSegmentDuration": "Minimuma Segmenta Daŭro",
+  "miniplayerCustomization": "Miniludila Personigo",
+  "minutes": "minutoj",
   "missingEntries": "Mankantaj Eroj",
   "missingTracks": "Mankantaj Trakoj",
   "mix": "Miksaĵo",
-  "mixes": "Miksaĵoj",
   "mixPlaylistGeneratedByYoutube": "Miksa ludlisto generita de youtube",
+  "mixes": "Miksaĵoj",
   "mobile": "Poŝtelefono",
   "month": "Monato",
   "months": "Monatoj",
@@ -566,7 +659,6 @@
   "name": "Nomo",
   "nameContainsBadCharacter": "Nomo enhavas malbonan signon",
   "never": "Neniam",
-  "newest": "Plej nova",
   "newDirectory": "Nova dosierujo",
   "newTracksAdd": "Aldoni Trakojn",
   "newTracksMoods": "Humoro",
@@ -577,34 +669,12 @@
   "newTracksRatingsSubtitle": "Generi trakojn kiuj havas specifan takson",
   "newTracksRecommended": "Rekomendita",
   "newTracksRecommendedSubtitle": "Generi trakojn kiujn vi kutime aŭskultis kun {currentTrack}",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "Simila Eldondato",
   "newTracksSimilarrReleaseDateSubtitle": "Generi trakojn kiuj estis eldonitaj ĉirkaŭ la sama tempo kiel {currentTrack}",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "Trako havas nekonatan jaron",
+  "newest": "Plej nova",
   "next": "Sekva",
   "no": "ne",
-  "none": "Neniu",
-  "nonActive": "Ne-Aktiva",
-  "nonFavourites": "Ne-Ŝatataj",
-  "normalizeAudio": "Normaligi aŭdion",
-  "normalizeAudioSubtitle": "Normaligas volumon legante la reproduktan gajnan etikedon aŭ la informojn provizitajn de youtube",
-  "note": "Noto",
-  "notification": "Sciigo",
-  "notifications": "Sciigoj",
-  "notAvailableForYourDevice": "Ne Havebla por via Aparato",
   "noChangesFound": "Neniuj ŝanĝoj trovitaj.",
   "noEnoughTracks": "Vi ne havas multajn trakojn..",
   "noExcludedFolders": "Vi ne havas ekskluditajn dosierujojn",
@@ -615,19 +685,28 @@
   "noTracksFoundBetweenDates": "Ĉi tiu tempintervalo ne havas trakojn.",
   "noTracksFoundInDirectory": "Neniuj trakoj trovitaj en ĉi tiu dosierujo",
   "noTracksInHistory": "Vi ne havas sufiĉe da trakoj en historio",
+  "nonActive": "Ne-Aktiva",
+  "nonFavourites": "Ne-Ŝatataj",
+  "none": "Neniu",
+  "normalizeAudio": "Normaligi aŭdion",
+  "normalizeAudioSubtitle": "Normaligas volumon legante la reproduktan gajnan etikedon aŭ la informojn provizitajn de youtube",
+  "notAvailableForYourDevice": "Ne Havebla por via Aparato",
+  "note": "Noto",
+  "notification": "Sciigo",
+  "notifications": "Sciigoj",
   "numberOfTracks": "Nombro de Trakoj",
   "ofLabel": "de",
   "offlineSearch": "Senreta Serĉo",
   "offset": "Ofseto",
-  "oldestWatch": "Plej Malnova Spekto",
   "oldDirectory": "Malnova dosierujo",
   "oldDirectoryStillHasTracks": "Malnova Dosierujo ankoraŭ havas iujn trakojn, ĉu konfirmi?",
-  "ongoing": "Daŭranta",
+  "oldestWatch": "Plej Malnova Spekto",
   "onInterruption": "Ĉe Interrompo",
   "onNotificationTap": "Ĉe Sciiga Frapeto",
   "onOpeningYoutubeLink": "Ĉe malfermo de youtube-ligilo",
   "onSwiping": "Ĉe Svingo",
   "onVolumeZero": "Ĉe volumo 0",
+  "ongoing": "Daŭranta",
   "open": "Malfermi",
   "openApp": "Malfermi Aplikaĵon",
   "openInFileExplorer": "Malfermi en Dosiera Esplorilo",
@@ -636,24 +715,7 @@
   "openQueue": "Malfermi Vicon",
   "openYoutubeLink": "Malfermi Youtube-Ligilon",
   "operationRequiresAccount": "Operacio {name} postulas konton, Ensalutu por daŭrigi",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "Operacio {operation} postulas almenaŭ membrecon {name}",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "aŭ",
   "others": "Aliaj",
   "output": "Eligo",
@@ -681,6 +743,12 @@
   "pitch": "Tonalteco",
   "plain": "Simpla",
   "play": "Ludi",
+  "playAfter": "Ludi Post",
+  "playAfterNextPrev": "Aŭtomata Ludo ĉe Sekva/Antaŭa",
+  "playAll": "Ludi Ĉion",
+  "playFadeDuration": "Daŭro de Luda Fando",
+  "playLast": "Ludi Lastan",
+  "playNext": "Ludi Sekvan",
   "playbackSetting": "Ludado",
   "playbackSettingSubtitle": "Povas esti alirita rekte en la ludilo per longa premo de la aŭdia butono",
   "playlist": "Ludlisto",
@@ -688,12 +756,6 @@
   "playlistsImportM3uNative": "Ĉi tio importos M3U-ludlistojn por esti uzataj nur de namida, uzu se vi migras",
   "playlistsImportM3uSynced": "Ĉi tio aŭtomate importos M3U-ludlistojn de indeksilaj dosierujoj kaj tenos ilin sinkronigitaj kun la originala M3U-dosiero. ŝaltu se vi aliras/modifas la ludlistojn de aliaj aplikaĵoj",
   "playlistsImportM3uSyncedAutoImport": "Aŭtomate importi M3U Ludlistojn",
-  "playAfter": "Ludi Post",
-  "playAfterNextPrev": "Aŭtomata Ludo ĉe Sekva/Antaŭa",
-  "playAll": "Ludi Ĉion",
-  "playFadeDuration": "Daŭro de Luda Fando",
-  "playLast": "Ludi Lastan",
-  "playNext": "Ludi Sekvan",
   "pleaseEnterADifferentName": "Ĉi tiu nomo jam ekzistas :(\nbonvolu provi alian belan nomon",
   "pleaseEnterALink": "Bonvolu enigi ligilon",
   "pleaseEnterALinkSubtitle": "umm.. ĉu ĉi tio estas youtube-ligilo?",
@@ -709,16 +771,6 @@
   "private": "Privata",
   "progress": "Progreso",
   "promptIndexingRefresh": "{newFiles} novaj dosieroj estis trovitaj & {deletedFiles} estis forigitaj aŭ filtritaj, ĉu fari refreŝigon?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "Kutime tio okazas kiam vi forigas/movas/alinomas la dosieron ekster namida, Ĉu vi volas ĝisdatigi nunan vojon?",
   "public": "Publika",
   "queue": "Vico",
@@ -726,10 +778,13 @@
   "random": "Hazarda",
   "randomPicks": "Hazardaj Elektoj",
   "rating": "Takso",
-  "recentlyAdded": "Lastatempe Aldonitaj",
+  "reIndex": "Re-indeksi",
+  "reIndexSubtitle": "Rekonstrui vian muzikan bibliotekon de nulo",
+  "reIndexWarning": "Ĉi tiu procezo eble daŭros iom, depende de via biblioteka grandeco.\n\nKovrilbildoj ne estos re-indeksitaj tiom longe kiom ili ankoraŭ ekzistas",
   "recentAlbums": "Lastatempaj Albumoj",
   "recentArtists": "Lastatempaj Artistoj",
   "recentListens": "Lastatempaj Aŭskultoj",
+  "recentlyAdded": "Lastatempe Aldonitaj",
   "recordLabel": "Diskeldonejo",
   "refresh": "Refreŝigi",
   "refreshLibrary": "Refreŝigi Bibliotekon",
@@ -739,7 +794,6 @@
   "rememberAudioOnlyMode": "Memori nur-aŭdian reĝimon",
   "remixer": "Remiksisto",
   "remove": "Forigi",
-  "removed": "Forigita",
   "removeDuplicates": "Forigi Duplikatojn",
   "removeFromFavourites": "Forigi el ŝatataj",
   "removeFromLibrary": "Forigi el biblioteko",
@@ -747,17 +801,11 @@
   "removeQueue": "Forigi Vicon",
   "removeSourceFromHistory": "Forigi fonton el historio",
   "removeWhitespaces": "Forigi Blankajn Spacojn",
+  "removed": "Forigita",
   "rename": "Alinomi",
   "renamePlaylist": "Alinomi Ludliston",
   "reorderable": "Reordigebla",
   "repeatForNTimes": "{number, plural, other{Ripeti por {number} pliaj fojoj}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "Ripeta reĝimo",
   "repeatModeAll": "Ripeti Tutan Vicon",
   "repeatModeNone": "Halti ĉe Lasta Trako",
@@ -772,50 +820,38 @@
   "respectNoMedia": "Respekti .nomedia",
   "respectNoMediaSubtitle": "Ne inkluzivi dosierujojn kiuj havas .nomedia",
   "restart": "Rekomenci",
-  "restoredBackupSuccessfully": "Restarigis Savkopion",
-  "restoredBackupSuccessfullySub": "Savkopia dosiero estis sukcese restarigita",
   "restoreBackup": "Restarigi Savkopion",
   "restoreDefaults": "Restarigi Defaŭltojn",
+  "restoredBackupSuccessfully": "Restarigis Savkopion",
+  "restoredBackupSuccessfullySub": "Savkopia dosiero estis sukcese restarigita",
   "resume": "Daŭrigi",
   "resumeIfWasInterrupted": "Daŭrigi se estis paŭzita per interrompo",
   "resumeIfWasPausedByVolume": "Daŭrigi se estis paŭzita per volumo",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{Daŭrigi se estis paŭzita por malpli ol {number} minutoj}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "returnYoutubeDislike": "Return Youtube Dislike",
   "reverseOrder": "Inversa Ordo",
-  "reIndex": "Re-indeksi",
-  "reIndexSubtitle": "Rekonstrui vian muzikan bibliotekon de nulo",
-  "reIndexWarning": "Ĉi tiu procezo eble daŭros iom, depende de via biblioteka grandeco.\n\nKovrilbildoj ne estos re-indeksitaj tiom longe kiom ili ankoraŭ ekzistas",
   "rightAction": "Dekstra Ago",
   "ringtone": "Sonoro",
   "sameDirectoryOnly": "Sama dosierujo nur",
   "sample": "Specimeno",
   "sampleRate": "Specimena Ofteco",
   "save": "Konservi",
-  "savedIn": "Konservita en",
   "saveToLibrary": "Konservi al biblioteko",
+  "savedIn": "Konservita en",
   "scaleMultiplier": "Skala Obliganto",
   "search": "Serĉi",
   "searchYoutube": "Serĉi YouTube",
   "seconds": "sekundoj",
-  "seekbar": "Serĉbreto",
   "seekDuration": "Serĉa Daŭro",
   "seekDurationInfo": "Vi povas frapeti nunan daŭron por serĉi malantaŭen & totalan daŭron por serĉi antaŭen",
-  "selectedTracks": "Elektitaj Trakoj",
+  "seekbar": "Serĉbreto",
   "selectAll": "Elekti Ĉion",
   "selectFilesAlreadyInLocalLibrary": "Elekti dosierojn jam en loka biblioteko",
+  "selectedTracks": "Elektitaj Trakoj",
   "selfPromotion": "Mem-Promocio",
   "separatorsBlacklistSubtitle": "Ĉi tiuj vortoj ne estos disigitaj",
   "separatorsMessage": "Ne necesas enmeti spacojn, krom se vi volas uzi literon/simbolon kiu troviĝas en tuta vorto (kiel x kaj ft.)",
   "serverAddress": "Servila Adreso",
-  "settings": "Agordoj",
-  "setupFirstStartup": "Agordi unuan komencon",
   "setAs": "Agordi kiel",
   "setAsDefault": "Agordi kiel Defaŭltan",
   "setFileLastModifiedAsVideoUploadDate": "Agordi dosieran lastan modifon kiel videan alŝutdaton",
@@ -824,6 +860,8 @@
   "setRating": "Agordi Takson",
   "setTags": "Agordi etikedojn",
   "setYoutubeLink": "Agordi Youtube-Ligilon",
+  "settings": "Agordoj",
+  "setupFirstStartup": "Agordi unuan komencon",
   "share": "Kunhavigi",
   "shortcuts": "Mallongigoj",
   "shouldDuck": "Devus malaltigi",
@@ -844,8 +882,6 @@
   "shuffle": "Miksi",
   "shuffleAll": "Miksi Ĉion",
   "shuffleNext": "Miksi Sekvan",
-  "signingInAllowsBasicUsage": "Ensaluto permesas bazan uzadon",
-  "signingInAllowsBasicUsageSubtitle": "Akiru fruan aliron per patreon aŭ uzante kuponon",
   "signIn": "Ensaluti",
   "signInCanceled": "Ensaluto estis nuligita",
   "signInFailed": "Ensaluto malsukcesis",
@@ -854,31 +890,12 @@
   "signInYouNeedAccountToViewPage": "Vi bezonas konton por vidi ĉi tiun paĝon",
   "signOut": "Elsaluti",
   "signOutFromName": "Elsaluti de {name}",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "Ensaluto permesas bazan uzadon",
+  "signingInAllowsBasicUsageSubtitle": "Akiru fruan aliron per patreon aŭ uzante kuponon",
   "similarDiscoverDate": "Simila Malkovra Dato",
   "similarDiscoverDateSubtitle": "Generi trakojn kiuj estis malkovritaj ĉirkaŭ la sama tempo kiel {currentTrack}",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "Simila Tempa Intervalo",
   "similarTimeRangeSubtitle": "Generi trakojn kiujn vi aŭskultis ĉirkaŭ la sama tempo kiel {currentTrack}",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "Unuopaĵoj",
   "size": "Grandeco",
   "skip": "Preterpasi",
@@ -915,8 +932,8 @@
   "swipeToOpenDrawer": "Svingu por malfermi tirkeston",
   "synced": "Sinkronigita",
   "synopsis": "Sinoptiko",
-  "tags": "Etikedoj",
   "tagFields": "Etikedaj Kampoj",
+  "tags": "Etikedoj",
   "tapAction": "Frapeta Ago",
   "tapToSeek": "Frapetu por serĉi",
   "themeMode": "Tema Reĝimo",
@@ -932,17 +949,14 @@
   "top": "Supre",
   "topComments": "Supraj komentoj",
   "topCommentsSubtitle": "Montri komentojn supre anstataŭ malsupre",
-  "topRecents": "Supraj Lastatempaj",
   "topRecentAlbums": "Supraj Lastatempaj Albumoj",
   "topRecentArtists": "Supraj Lastatempaj Artistoj",
-  "totalListens": "Totalaj Aŭskultoj",
+  "topRecents": "Supraj Lastatempaj",
   "totalListenTime": "Totala Aŭskulta Tempo",
+  "totalListens": "Totalaj Aŭskultoj",
   "totalTracks": "Totalaj Trakoj",
   "totalTracksDuration": "Totala Traka Daŭro",
   "track": "Trako",
-  "tracks": "Trakoj",
-  "tracksExcludedByNomedia": "Trakoj Ekskluditaj per .nomedia",
-  "tracksInfo": "Trakaj Info",
   "trackArtistsSeparator": "Artistaj Disigiloj",
   "trackGenresSeparator": "Ĝenraj Disigiloj",
   "trackInfo": "Traka Info",
@@ -950,16 +964,6 @@
   "trackNumber": "Traka Numero",
   "trackNumberTotal": "Traka Totalo",
   "trackPathOldNew": "Malnova nomo: \"{oldName}\"\n\nNova nomo: \"{newName}\"\n\nĈu vi certas?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "Luda Reĝimo",
   "trackPlayModeSearchResults": "Serĉaj Rezultoj",
   "trackPlayModeSelectedOnly": "Elektita trako nur",
@@ -969,6 +973,9 @@
   "trackThumbnailSizeInList": "Grandeco de Traka Bildeteto",
   "trackTileCustomization": "Traka Kahela Personigo",
   "trackTileItemsSeparator": "Eroj Disigilo",
+  "tracks": "Trakoj",
+  "tracksExcludedByNomedia": "Trakoj Ekskluditaj per .nomedia",
+  "tracksInfo": "Trakaj Info",
   "underrated": "Subtaksita",
   "undo": "Malfari",
   "undoChanges": "Ĉu Malfari Ŝanĝojn?",
@@ -983,18 +990,17 @@
   "updateDirectoryPath": "Ĝisdatigi dosierujan vojon",
   "updateMissingTracksOnly": "Ĝisdatigi mankantajn trakojn nur",
   "updating": "Ĝisdatigante",
-  "used": "Uzata",
   "useCollapsedSettingTiles": "Uzi Kolapsigitajn Agordajn Kahelojn",
   "useMediaStore": "Uzi Media Store",
   "useMediaStoreSubtitle": "✓ tuja indeksada tempo\nx respekto al .nomedia estos devige ŝaltita\nx iuj metadatumaj etikedoj mankos\nx youtube-integriĝo por loka biblioteko ne funkcios",
   "usePitchBlack": "Uzi Tute Nigran",
   "usePitchBlackSubtitle": "Utila por AMOLED-ekranoj.. kaj aspektas pli bone",
+  "used": "Uzata",
   "value": "Valoro",
   "valueBetween50200": "Valoro devus esti inter 50% kaj 200%",
   "vibration": "Vibrado",
   "vibrationType": "Vibrada tipo",
   "video": "Video",
-  "videos": "Videoj",
   "videoCache": "Videa Kaŝmemoro",
   "videoCacheFile": "Kaŝmemorigita Videa Dosiero",
   "videoCacheFiles": "Kaŝmemorigitaj Videaj Dosieroj",
@@ -1009,9 +1015,10 @@
   "videoQuality": "Videa Kvalito",
   "videoQualitySubtitle": "Plej alta kvalito havebla estos elektita.",
   "videoQualitySubtitleNote": "Estas ĉiam bone teni pli da alternativoj kaze ke kvalito ne estas trovita, alie ĝi revenos al la plej malbona kvalito",
+  "videos": "Videoj",
   "view": "vido",
-  "views": "vidoj",
   "viewAll": "Vidi Ĉion",
+  "views": "vidoj",
   "volume": "Volumo",
   "warning": "Averto",
   "waveformBarsCount": "Ondformaj Bastonoj Nombro",
@@ -1020,13 +1027,6 @@
   "year": "Jaro",
   "yes": "jes",
   "yourCurrentMembershipIs": "Via nuna membreco estas {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "Via propra ordo estos perdita, Ĉu vi certas?",
   "youtube": "Youtube",
   "youtubeMusic": "Youtube Music",
