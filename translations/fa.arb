@@ -1,9 +1,201 @@
 {
   "@@locale": "fa",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "درباره",
   "active": "فعال",
   "add": "افزودن",
-  "added": "افزوده شد",
   "addAccount": "افزودن حساب",
   "addAll": "همه را اضافه کن",
   "addAllAndRemoveOldOnes": "همه را اضافه و قدیمی ها را حذف کن",
@@ -17,28 +209,22 @@
   "addMoreFromThisArtist": "افزودن بیشتر از هنرمند به صف پخش",
   "addMoreFromThisFolder": "افزودن بیشتر از پوشه به صف پخش",
   "addMoreFromToQueue": "افزودن بیشتر از {media} به صف پخش",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "فقط گمشده ها را اضافه کن",
   "addToFavourites": "افزودن به علاقه‌مندی‌ها",
   "addToPlaylist": "افزودن به لیست پخش",
+  "added": "افزوده شد",
   "advanced": "پیشرفته",
   "advancedSettings": "تنظیمات پیشرفته",
   "advancedSettingsSubtitle": "تنظیمات پیشرفته، دست نزن",
   "alarm": "Alarm",
   "album": "آلبوم",
-  "albums": "آلبوم ها",
-  "albumsCount": "شماره آلبوم ها",
   "albumArtist": "هنرمند آلبوم",
   "albumArtists": "هنرمندان آلبوم",
   "albumIdentifiers": "مشخصه های آلبوم",
   "albumThumbnailSizeInList": "اندازه کاور آلبوم",
   "albumTileCustomization": "شخصی سازی نمایش آلبوم",
+  "albums": "آلبوم ها",
+  "albumsCount": "شماره آلبوم ها",
   "all": "همه",
   "allTime": "درکل",
   "always": "همیشه",
@@ -51,14 +237,12 @@
   "artist": "هنرمند",
   "artists": "هنرمندان",
   "artwork": "کاور",
-  "artworks": "کاور ها",
   "artworkGestures": "ژست های لمسی برروی کاور",
+  "artworks": "کاور ها",
   "audio": "صدا",
   "audioCache": "حافظه پنهان صدا",
   "audioOnly": "فقط صدا",
   "auto": "خودکار",
-  "automaticBackup": "بصورت خودکار",
-  "automaticBackupSubtitle": "بصورت خودکار جدیدترین فایل پشتیبان گیری را از محل آن، اعمال میکند",
   "autoBackupInterval": "فاصله پشتیبان گیری خودکار",
   "autoColoring": "رنگ خودکار",
   "autoColoringSubtitle": "بصورت خودکار رنگ پخش کننده را همرنگ کاور آهنگ میکند",
@@ -66,6 +250,8 @@
   "autoExtractTitleAndArtistFromVideoTitle": "استخراج خودکار عنوان و نام هنرمند از عنوان ویدیو",
   "autoGenerated": "بصورت خودکار ایجاد شده",
   "autoStartRadio": "شروع خودکار رادیو",
+  "automaticBackup": "بصورت خودکار",
+  "automaticBackupSubtitle": "بصورت خودکار جدیدترین فایل پشتیبان گیری را از محل آن، اعمال میکند",
   "backupAndRestore": "پشتیبان گیری و بازیابی",
   "backupAndRestoreSubtitle": "پشتیبان گیری از تنظیمات و دیتابیس شما",
   "balanced": "متعادل",
@@ -93,26 +279,19 @@
   "clearImageCacheWarning": "اخطار : موجب حذف عکس ها میشود، تنها برای بازسازی حافظه پنهان عکس استفاده شود.",
   "clearTrackItem": "موارد حذفی آهنگ",
   "clearTrackItemMultiple": "{number, plural, other{موارد حذفی {number} آهنگ}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "حذف حافظه پنهان ویدیو",
   "clearVideoCacheNote": ". می توانید موارد حذفی را انتخاب کنید",
   "clock": "ساعت",
   "colorPalette": "پالت رنگ",
-  "colorPalettes": "پالت های رنگ",
   "colorPaletteNote1": "انگشت را روی رنگ نگهدارید تا حذفش کنید",
   "colorPaletteNote2": "مخلوط رنگی را برای رنگ پیش فرض انتخاب نمایید",
+  "colorPalettes": "پالت های رنگ",
   "comment": "نظر",
   "comments": "نظرها",
   "composer": "آهنگساز",
   "compress": "متراکم سازی",
-  "compressionPercentage": "درصد متراکم سازی",
   "compressImages": "متراکم سازی عکس ها",
+  "compressionPercentage": "درصد متراکم سازی",
   "configure": "تنظیم کردن",
   "confirm": "تایید کردن",
   "copiedArtwork": "کاور کپی شد",
@@ -126,19 +305,12 @@
   "couldntSaveImage": "خطا در ذخیره عکس",
   "country": "کشور",
   "create": "ایجاد",
-  "createdBackupSuccessfully": "پشتیبان گیری ایجاد شد",
-  "createdBackupSuccessfullySub": "فایل پشتیبان گیری با موفقیت ایجاد شد",
   "createBackup": "ایجاد پشتیبان گیری",
   "createNewPlaylist": "ایجاد لیست پخش جدید",
+  "createdBackupSuccessfully": "پشتیبان گیری ایجاد شد",
+  "createdBackupSuccessfullySub": "فایل پشتیبان گیری با موفقیت ایجاد شد",
   "crossfadeDuration": "Crossfade مدت",
   "crossfadeTriggerSeconds": "{seconds, plural, other{در آخرین Crossfade فعالسازی خودکار اثر {seconds} ثانیه}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "را به طور خودکار فعال نکن Crossfade اثر",
   "custom": "سفارشی",
   "customizations": "شخصی سازی",
@@ -151,45 +323,21 @@
   "dateTimeFormat": "فورمت تاریخ",
   "day": "روز",
   "days": "روز",
-  "defaultLabel": "پیش فرض",
   "defaultBackupLocation": "محل پشتیبان گیری پیش فرض",
   "defaultColor": "رنگ پیش فرض",
   "defaultColorSubtitle": "رنگی برای پخش کننده انتخاب کن",
   "defaultDownloadLocation": "محل دانلود پیش فرض",
+  "defaultLabel": "پیش فرض",
   "defaultLibraryTab": "سربرگ پیش فرض",
   "delete": "حذف",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{Delete {filesCount} file representing {totalSize}?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{{number} را برای همیشه از حافظه خود پاک کنید}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "حذف لیست پخش",
   "deleteTempFiles": "پاک سازی فایل های موقت",
   "description": "شرح",
   "didYouMean": "منظورتان این بود",
   "dimIntensity": "شدت تیرگی",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{صفحه پخش را پس از {seconds} ثانیه بی فعالیتی تیره کن}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "دایرکتوری موجود نیست",
   "disableReordering": "بازچینش را غیرفعال کن",
   "disableSearchCleanup": "جستجوی تمیز را غیرفعال کن",
@@ -202,14 +350,15 @@
   "displayArtistBeforeTitle": "نمایش هنرمند بالای عنوان آهنگ",
   "displayArtworkOnLockscreen": "نمایش آثار هنری روی صفحه قفل",
   "displayAudioInfoInMiniplayer": "نمایش اطلاعات آهنگ",
-  "displayFavouriteIconInTrackTile": "نمایش دکمه موردعلاقه",
   "displayFavButtonInNotification": "نمایش دکمه مورد علاقه در اعلان ها",
   "displayFavButtonInNotificationSubtitle": "شاید کاور جابه جا شود",
+  "displayFavouriteIconInTrackTile": "نمایش دکمه موردعلاقه",
   "displayRemainingDurationInsteadOfTotal": "نمایش زمان باقیمانده به جای کل زمان",
   "displayThirdItemInRowInTrackTile": "نمایش سومین آیتم در هر ردیف",
   "displayThirdRowInTrackTile": "نمایش سومین ردیف",
   "displayTrackNumberInAlbumPage": "نمایش شماره آهنگ در صفحه آلبوم",
   "displayTrackNumberInAlbumPageSubtitle": "یک کادر کوچک حاوی شماره آهنگ را در صفحه آلبوم نمایش دهید",
+  "doNothing": "کاری نکن",
   "done": "انجام شد",
   "dontAskAgain": "دوباره نپرس",
   "dontRestorePosition": "بازیابی نکن",
@@ -220,7 +369,6 @@
   "downloads": "دانلود ها",
   "downloadsMetadataTags": "برچسب های متادیتا را دانلود میکند",
   "downloadsMetadataTagsSubtitle": "استخراج هنرمند، عنوان و آلبوم از اطلاعات ویدیو بصورت پیش فرض",
-  "doNothing": "کاری نکن",
   "dragToSeek": "برای جستجو بکشید",
   "duckAudio": "بی صدا",
   "duplicatedItemsAdding": "در حال تلاش برای افزودن مواردی هستید که هم اکنون در لیست پخش موجود هستند",
@@ -245,13 +393,6 @@
   "enableM3uSync": "M3U فعالسازی هماهنگ سازی",
   "enableM3uSyncNote1": "میدهد M3U اجازه ذخیره ویرایش های لیست پخش را به فایل اصلی  M3U هماهنگ سازی",
   "enableM3uSyncNote2": "اگر اشتباهی صورت گرفت، فایل پشتیبان گیری این لیست پخش در {playlistsBackupPath} خواهد بود",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "اگر رد شود، تمام تغییرات صورت گرفته در این لیست پخش پس از ریستارت از بین میروند",
   "enableMiniplayerParticles": "فعالسازی ذره های متحرک",
   "enableParallaxEffect": "فعالسازی اثر اختلاف منظر",
@@ -274,18 +415,11 @@
   "extension": "پسوند",
   "externalFiles": "فایل های خارجی",
   "extract": "استخراج",
-  "extractingInfo": "درحال استخراج اطلاعات",
   "extractAllColorPalettes": "تمام پالت های رنگ را استخراج کن",
   "extractAllColorPalettesSubtitle": "{number, plural, other{آیا{remainingColorPalettes} استخراج شود؟}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "از آهنگ feat. استخراج هنرمندان",
   "extractFeatArtistSubtitle": "و ثبت آنان بعنوان ورودی هنرمند جدید (ft. X) و (feat. X) استخراج نام هنرمندان در",
+  "extractingInfo": "درحال استخراج اطلاعات",
   "extras": "اضافه بر سازمان",
   "extrasSubtitle": "تنظیمات اضافی برای تغییرات ریز و دقیق",
   "failed": "ناموفق",
@@ -294,25 +428,25 @@
   "fetching": "دریافت کردن",
   "fetchingOfAllVideos": "دریافت کردن همه ویدیو‌ها",
   "file": "فایل",
-  "filenameShouldntStartWith": "نام فایل نباید شروع شود با",
-  "files": "فایل ها",
   "fileAlreadyExists": "فایل همین الانشم موجود است",
   "fileName": "نام فایل",
   "fileNameWoExt": "نام فایل بدون پسوند",
-  "filteredBySizeAndDuration": "مرتب کردن آهنگ ها بر اساس اندازه و زمان",
+  "filenameShouldntStartWith": "نام فایل نباید شروع شود با",
+  "files": "فایل ها",
   "filterAlbums": "مرتب کردن آلبوم ها",
   "filterArtists": "مرتب کردن هنرمندان",
   "filterGenres": "مرتب کردن سبک ها",
   "filterPlaylists": "مرتب کردن لیست پخش ها",
   "filterTracks": "مرتب کردن آهنگ ها",
   "filterTracksBy": "مرتب کردن آهنگ هابر اساس",
+  "filteredBySizeAndDuration": "مرتب کردن آهنگ ها بر اساس اندازه و زمان",
   "finished": "تمام شد",
   "finishedUpdatingLibrary": "بروزرسانی مجموعه به پایان رسید",
   "fixYtdlpBigThumbnailSize": "yt-dlp تعمیر اندازه بزرگ کاور",
   "floatingActionButton": "دکمه شناور",
   "folder": "پوشه",
-  "folders": "پوشه ها",
   "folderName": "نام پوشه",
+  "folders": "پوشه ها",
   "fontScale": "اندازه فونت",
   "forceMiniplayerFollowTrackColors": "تبعیت صفحه پخش از رنگ آهنگ",
   "forceSquaredAlbumThumbnail": "کاور های آلبوم مربعی",
@@ -326,11 +460,11 @@
   "generateRandomPlaylist": "ایجاد کردن لیست پخش به صورت شانسی",
   "genre": "سبک",
   "genres": "سبک ها",
-  "goodLooking": "زیبا",
   "goToAlbum": "برو به آلبوم",
   "goToArtist": "برو به هنرمند",
   "goToChannel": "برو به کانال",
   "goToFolder": "برو به پوشه",
+  "goodLooking": "زیبا",
   "grantStoragePermission": "اجازه دسترسی حافظه",
   "group": "گروه",
   "groupArtworksByAlbum": "گروه بندی کاور ها از روی آلبوم",
@@ -342,68 +476,28 @@
   "history": "تاریخچه",
   "historyImportMissingEntriesNote": "این درایه ها داخل مجموعه یافت نشدند، اگر فکر میکنید وجود دارند، بصورت دستی وارد کنید",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} بار گوش دادن به {oldTrackInfo} با {newTrackInfo}, جایگزین میشود، تایید؟}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "خانه",
-  "hours": "ساعت",
   "hourFormat12": "فورمت ۱۲ ساعته",
+  "hours": "ساعت",
+  "iReadAndAgree": "خواندم و قبول میکنم",
   "ifNotPlaying": "اگر پخش نمیشود",
-  "ignores": "نادیده میگیرد",
   "ignoreBatteryOptimizationsSubtitle": "ممکن است در دانلود ها وقفه ایجاد شود اگر برنامه دسترسی محدودی به باتری داشته باشد",
+  "ignores": "نادیده میگیرد",
   "immersiveMode": "حالت مسحور کننده",
   "immersiveModeSubtitle": "نوار وضعیت و ناوبری را زمانیکه پخش کننده بزرگ است، محو میکند",
   "import": "وارد کردن",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number} کانال با موفقیت وارد شدند}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} لیست پخش با موفقیت اضافه شدن}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "بارگذاری همه",
   "importLastFmHistory": "LastFm بارگذاری تاریخچه",
   "importLastFmHistoryGuide": "1. برو به {lastfmCsvLink}\n\n2. را بارگذاری و دانلود کن csv نام کاربری را بنویس و فایل\n\n3. در صفحه بعدی فایل را انتخاب کن",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "بارگذاری بازه زمانی",
   "importYoutubeHistory": "بارگذاری تاریخچه یوتیوب",
   "importYoutubeHistoryGuide": "1. برو به {takeoutLink}\n\n2. بزن رو \"Multiple Formats\" و کنار \"History\" انتخاب کن \"JSON\".\n\n3. بزن رو \"All Youtube data included\", همه را غیر فعال کن و بزن رو تنها تاریخچه\n\n4. استخراج را درست کن، دانلود و آنزیپ کن\n\n5. \"watch-history.json\" را در صفحه بعدی انتخاب کن",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{{number} کانال با موفقیت وارد شدند}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} لیست پخش با موفقیت اضافه شدن}}",
+  "indexRefreshRequired": "پس از تغییر این گزینه، بروزرسانی انجام شود",
   "indexer": "جستجوگر",
   "indexerNote": "توجه: منظور از شمار ناکامل کاور ها، کاور های یکسان و ناپیدا است",
   "indexerSubtitle": "مدیریت مجموعه آهنگ ها",
-  "indexRefreshRequired": "پس از تغییر این گزینه، بروزرسانی انجام شود",
   "infinityQueueOnNextPrev": "صف پخش بی نهایت",
   "infinityQueueOnNextPrevSubtitle": "زدن بعدی هنگام پخش آخرین آیتم، شما را به اولین آیتم میبرد و بلعکس",
   "info": "اطلاعات",
@@ -411,7 +505,6 @@
   "instantlyApplies": "بلافاصله اعمال میشود",
   "invertSelection": "انتخاب معکوس",
   "item": "آیتم",
-  "iReadAndAgree": "خواندم و قبول میکنم",
   "jump": "برو",
   "jumpToDay": "برو به روز",
   "jumpToFirstTrackAfterQueueFinish": "برو به اولین آهنگ پس از اتمام صف پخش",
@@ -429,19 +522,12 @@
   "liked": "پسندیده",
   "link": "لینک",
   "listOfFolders": "لیست پوشه ها",
-  "loadingFile": "بارگذاری فایل",
   "loadAll": "بارگیری کردن همه",
+  "loadingFile": "بارگذاری فایل",
   "local": "داخلی",
   "localVideoMatching": "تطابق ویدیو های داخلی",
   "lostMemories": "خاطره های گم شده",
   "lostMemoriesSubtitle": "{number, plural, other{روزی روزگاری {number} سال پیش}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "loudnessEnhancer": "تقویت کننده بلندی",
   "lyricist": "متن ساز",
   "lyrics": "متن ها",
@@ -453,13 +539,13 @@
   "manualBackup": "دستی",
   "manualBackupSubtitle": "انتخاب کردن فایل مشخص",
   "markAsRead": "علامت زدن به عنوان خوانده شده",
-  "matchingType": "نوع تطابق",
   "matchAllTracks": "تطابق تمام آهنگ ها",
   "matchAllTracksNote": "این میتواند بر سرعت تطابق تاثرگذار باشد، از آنجایی که کل آهنگ های مجموعه تان را بررسی میکند",
-  "maximum": "حداکثر",
+  "matchingType": "نوع تطابق",
   "maxAudioCacheSize": "Max audio cache size",
   "maxImageCacheSize": "حداکثر حافظه پنهان عکس",
   "maxVideoCacheSize": "حداکثر حافظه پنهان ویدیو",
+  "maximum": "حداکثر",
   "membershipCodeSentToEmail": "کد به ایمیلتان ارسال شد",
   "membershipDidntChange": "عضویت تغییر نکرد",
   "membershipEnjoyNew": "از عضویت جدید خود لذت ببرید",
@@ -471,25 +557,18 @@
   "metadataCache": "حافظه پنهان متادیتا",
   "metadataEditFailed": "ناموفقیت در ویرایش متادیتا",
   "metadataReadFailed": "ناموفقیت در خواندن متادیتا",
-  "minimizedMiniplayer": "Minimized Miniplayer",
-  "minimum": "حداقل",
-  "minimumOneFolderSubtitle": "باید حداقل یک پوشه باشد، پوشه های بیشتری اضافه کن اگر قصد حذف این پوشه را داری",
-  "minimumOneItem": "ناتوانی در حذف آیتم",
-  "minimumOneItemSubtitle": "{number, plural, other{حداقل {number} آیتم باید بماند}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "miniplayerCustomization": "شخصی سازی صفحه پخش",
-  "minutes": "دقیقه",
   "minFileDuration": "حداقل زمان آهنگ",
   "minFileSize": "حداقل اندازه فایل",
   "minTrackDurationToRestoreLastPosition": "حداقل زمان کل آهنگ برای بازیابی وضعیت زمانی قبلی",
   "minValueCantBeMoreThanMax": "مقدار حداقل نمیتواند بیشتر از حداکثر باشد",
   "minValueToCountTrackListen": "یک گوش دادن حساب کن پس از:",
+  "minimizedMiniplayer": "Minimized Miniplayer",
+  "minimum": "حداقل",
+  "minimumOneFolderSubtitle": "باید حداقل یک پوشه باشد، پوشه های بیشتری اضافه کن اگر قصد حذف این پوشه را داری",
+  "minimumOneItem": "ناتوانی در حذف آیتم",
+  "minimumOneItemSubtitle": "{number, plural, other{حداقل {number} آیتم باید بماند}}",
+  "miniplayerCustomization": "شخصی سازی صفحه پخش",
+  "minutes": "دقیقه",
   "missingEntries": "درایه های از قلم افتاده",
   "missingTracks": "آهنگ های گمشده",
   "mixes": "میکس ها",
@@ -503,7 +582,6 @@
   "name": "نام",
   "nameContainsBadCharacter": "نام حاوی حرف نامطلوب است",
   "never": "هرگز",
-  "newest": "جدیدترین",
   "newDirectory": "دایرکتوری جدید",
   "newTracksAdd": "افزودن آهنگ ها",
   "newTracksMoods": "حال و هوای آهنگ ها",
@@ -514,32 +592,12 @@
   "newTracksRatingsSubtitle": "ایجاد آهنگ هایی با امتیاز مشخص",
   "newTracksRecommended": "پیشنهادی",
   "newTracksRecommendedSubtitle": "ایجاد آهنگ هایی که اغلب به آنها گوش میدادید با {currentTrack}",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "تاریخ عرضه متشابه",
   "newTracksSimilarrReleaseDateSubtitle": "ایجاد آهنگ هایی که تاریخ عرضه مشابه {currentTrack} داشتند",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "آهنگ سال نامشخصی دارد",
+  "newest": "جدیدترین",
   "next": "بعدی",
   "no": "نه",
-  "none": "هیچ",
-  "nonActive": "غیرفعال",
-  "nonFavourites": "غیرعلاقه‌مندی‌ها",
-  "normalizeAudio": "عادی کردن صدا",
-  "note": "توجه",
-  "notification": "اعلان",
-  "notifications": "اعلان‌ها",
   "noChangesFound": "هیچ تغییری یافت نشد.",
   "noEnoughTracks": "آهنگ به اندازه کافی موجود نیست",
   "noExcludedFolders": "هیچ پوشه مستثنی ای ندارید",
@@ -550,18 +608,25 @@
   "noTracksFoundBetweenDates": "این محدوده زمانی هیچ آهنگی ندارد.",
   "noTracksFoundInDirectory": "هیچ آهنگی در این دایرکتوری یافت نشد",
   "noTracksInHistory": "آهنگ کافی در تاریخچه موجود نیست",
+  "nonActive": "غیرفعال",
+  "nonFavourites": "غیرعلاقه‌مندی‌ها",
+  "none": "هیچ",
+  "normalizeAudio": "عادی کردن صدا",
+  "note": "توجه",
+  "notification": "اعلان",
+  "notifications": "اعلان‌ها",
   "numberOfTracks": "شماره آهنگ ها",
   "ofLabel": "از",
   "offlineSearch": "جست و جوی آفلاین",
   "offset": "آفست صدا",
-  "oldestWatch": "قدیمی ترین تماشا",
   "oldDirectory": "دایرکتوری قدیمی",
   "oldDirectoryStillHasTracks": "دایرکتوری قدیمی هنوز دارای آهنگ میباشد، مطمئنی ؟",
-  "ongoing": "درحال وقوع",
+  "oldestWatch": "قدیمی ترین تماشا",
   "onInterruption": "اگر وقفه ای صورت گرفت",
   "onNotificationTap": "زدن روی اعلان باعث",
   "onOpeningYoutubeLink": "در باز شدن لینک یوتیوب",
   "onVolumeZero": "اگر درجه صدا صفر شود",
+  "ongoing": "درحال وقوع",
   "open": "باز کردن",
   "openApp": "باز کردن برنامه",
   "openInYoutubeView": "در یوتیوب ویو باز شود",
@@ -569,24 +634,7 @@
   "openQueue": "صف پخش باز شود",
   "openYoutubeLink": "لینک یوتیوب باز شود",
   "operationRequiresAccount": "عملیت {name} به حساب کاربری نیاز دارد, برای ادامه وارد شوید",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "عملیات {operation} حداقل به عضویت {name} نیاز دارد",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "یا",
   "others": "غیره",
   "output": "خروجی",
@@ -611,16 +659,16 @@
   "pitch": "گام صدا",
   "plain": "ساده",
   "play": "پخش",
-  "playbackSetting": "پخش",
-  "playbackSettingSubtitle": "میتوانید از صفحه پخش کننده نیز با نگه داشتن دکمه پایین سمت چپ صدا به اینجا دسترسی پیدا کنید",
-  "playlist": "لیست پخش",
-  "playlists": "لیست پخش",
   "playAfter": "پخش بعدی",
   "playAfterNextPrev": "پخش خودکار آهنگ پس از زدن بعدی/قبلی",
   "playAll": "بخش همه",
   "playFadeDuration": "حین پخش آهنگ Fade مدت زمان اثر",
   "playLast": "پخش آخر آهنگ",
   "playNext": "پخش بعد آهنگ",
+  "playbackSetting": "پخش",
+  "playbackSettingSubtitle": "میتوانید از صفحه پخش کننده نیز با نگه داشتن دکمه پایین سمت چپ صدا به اینجا دسترسی پیدا کنید",
+  "playlist": "لیست پخش",
+  "playlists": "لیست پخش",
   "pleaseEnterADifferentName": "این نام همین الانشم موجود است :(\nلطفا نامی دیگر انتخاب کنید",
   "pleaseEnterALink": "لطفاً لینک را وارد کنید",
   "pleaseEnterALinkSubtitle": "آم... این لینک یوتیوب است؟",
@@ -634,16 +682,6 @@
   "private": "خصوصی",
   "progress": "پیشرفت",
   "promptIndexingRefresh": "{newFiles} فایل جدید پیدا شد و {deletedFiles} حذف یا مرتب شد، میخوای بروزرسانی کنی؟",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "معمولاً زمانی اتفاق می اُفتد که فایل خارج از برنامه حذف/ویرایش نام/جابه جا میشود، مایل به بروزرسانی محل کنونی هستید؟",
   "public": "عمومی",
   "queue": "صف پخش",
@@ -651,10 +689,13 @@
   "random": "تصادفی",
   "randomPicks": "انتخاب های تصادفی",
   "rating": "امتیاز",
-  "recentlyAdded": "اضافه شده های اخیر",
+  "reIndex": "فهرست مجدد",
+  "reIndexSubtitle": "بازتولیدی مجموعه آهنگ های شما از نو",
+  "reIndexWarning": "این فرآیند، بسته به اندازه مجموعه، شما ممکن است طول بکشد.\n\nکاور ها تا زمانیکه هنوز موجود هستند، فهرست مجدد نخواهند شد",
   "recentAlbums": "آلبوم های اخیر",
   "recentArtists": "هنرمندان اخیر",
   "recentListens": "گوش دادن های اخیر",
+  "recentlyAdded": "اضافه شده های اخیر",
   "recordLabel": "ناشر آهنگ",
   "refresh": "بروزرسانی",
   "refreshLibrary": "بروزرسانی مجموعه",
@@ -664,7 +705,6 @@
   "rememberAudioOnlyMode": "حالت فقط صدا را به یاد داشته باش",
   "remixer": "تنظیم کننده",
   "remove": "حذف کردن",
-  "removed": "حذف شد",
   "removeDuplicates": "حذف یکسان ها",
   "removeFromFavourites": "حذف کردن از علاقه‌مندی‌‌ها",
   "removeFromLibrary": "حذف کردن از مجموعه",
@@ -672,17 +712,11 @@
   "removeQueue": "حذف صف پخش",
   "removeSourceFromHistory": "حذف منبع از تاریخچه",
   "removeWhitespaces": "حذف فضا های خالی",
+  "removed": "حذف شد",
   "rename": "تغییر نام",
   "renamePlaylist": "تغییر نام لیست پخش",
   "reorderable": "قابل بازچینش",
   "repeatForNTimes": "{number, plural, other{بازپخش برای {number} بار}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatModeAll": "بازپخش تمام آهنگ های صف پخش",
   "repeatModeNone": "توقف در آخرین آهنگ",
   "repeatModeOne": "بازپخش این آهنگ",
@@ -696,44 +730,32 @@
   "respectNoMedia": "تابع .nomedia",
   "respectNoMediaSubtitle": "هستند را نادیده بگیر .nomedia پوشه هایی که دارای",
   "restart": "شروع مجدد",
-  "restoredBackupSuccessfully": "پشتیبان گیری صورت گرفت",
-  "restoredBackupSuccessfullySub": "فایل پشتیبان گیری با موفقیت برگردانده شد",
   "restoreBackup": "پشتیبان گیری",
   "restoreDefaults": "برگرداندن پیش فرض ها",
+  "restoredBackupSuccessfully": "پشتیبان گیری صورت گرفت",
+  "restoredBackupSuccessfullySub": "فایل پشتیبان گیری با موفقیت برگردانده شد",
   "resume": "ادامه",
   "resumeIfWasInterrupted": "اگر وقفه ای صورت گرفت، پخش ادامه یابد",
   "resumeIfWasPausedByVolume": "افزایش صدا باعث ادامه پخش شود",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{اكر كمتر از{number} دقيقه مكث شده بود، ازسركيرى كنيد}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "reverseOrder": "چینش بلعکس",
-  "reIndex": "فهرست مجدد",
-  "reIndexSubtitle": "بازتولیدی مجموعه آهنگ های شما از نو",
-  "reIndexWarning": "این فرآیند، بسته به اندازه مجموعه، شما ممکن است طول بکشد.\n\nکاور ها تا زمانیکه هنوز موجود هستند، فهرست مجدد نخواهند شد",
   "ringtone": "Ringtone",
   "sameDirectoryOnly": "فقط همین دایرکتوری",
   "sampleRate": "نرخ نمونه",
   "save": "ذخیره",
-  "savedIn": "ذخیره در",
   "saveToLibrary": "ذخیره در مجموعه",
+  "savedIn": "ذخیره در",
   "scaleMultiplier": "بزرگ کردن نسبت",
   "search": "جست و جو",
   "searchYoutube": "جست و جوی یوتیوب",
   "seconds": "ثانیه",
-  "seekbar": "Seekbar",
   "seekDuration": "زمان رد",
   "seekDurationInfo": "زدن روی زمان فعلی و زمان کل آهنگ باعث جلو/عقب شدن آن میشود",
-  "selectedTracks": "آهنگ های انتخاب شده",
+  "seekbar": "Seekbar",
   "selectAll": "انتخاب همه",
+  "selectedTracks": "آهنگ های انتخاب شده",
   "separatorsBlacklistSubtitle": "این کلمات جدا نخواهند شد",
   "separatorsMessage": "(feat. و x نیازی به فاصله گذاری نیست، مگرآنکه قصد نوشتن حرف یا علامتی که در کلمه کامل پیدا میشود را داشته باشی (مانند",
-  "settings": "تنظیمات",
-  "setupFirstStartup": "راه اندازی اولیه",
   "setAs": "Set as",
   "setAsDefault": "بعنوان پیش فرض قرار بده",
   "setFileLastModifiedAsVideoUploadDate": "آخرین ویرایش فایل را بعنوان تاریخ آپلود ویدیو قرار بده",
@@ -742,6 +764,8 @@
   "setRating": "امتیازدهی",
   "setTags": "برچسب گذاری",
   "setYoutubeLink": "لینک یوتیوب را بگذار",
+  "settings": "تنظیمات",
+  "setupFirstStartup": "راه اندازی اولیه",
   "share": "اشتراک گذاری",
   "shouldDuck": "باید کم شود",
   "shouldDuckNote": "نشان دهنده کم شدن صداست. مثال: حین اعلان ",
@@ -754,7 +778,6 @@
   "shuffle": "پخش تصادفی",
   "shuffleAll": "پخش تصادفی همه",
   "shuffleNext": "پخش تصادفی بعدی",
-  "signingInAllowsBasicUsageSubtitle": "دسترسی زودرس بگیرید از طریق patreaon یا کوپن",
   "signIn": "وارد شدن",
   "signInCanceled": "وارد شدن لغو شد",
   "signInFailed": "وارد شدن نا‌موفقیت آمیز بود",
@@ -763,13 +786,7 @@
   "signInYouNeedAccountToViewPage": "شما به یک حساب کاربی برای دیدن این صفحه نیاز دارید",
   "signOut": "خارج شدن",
   "signOutFromName": "خارج شدن از {name}",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsageSubtitle": "دسترسی زودرس بگیرید از طریق patreaon یا کوپن",
   "size": "اندازه",
   "skip": "رد کردن",
   "skipSilence": "رد کردن سکوت",
@@ -798,8 +815,8 @@
   "swipeToOpenDrawer": "بکش سمت راست تا کشو باز شود",
   "synced": "هماهنگ سازی شده",
   "synopsis": "خلاصه",
-  "tags": "برچسب ها",
   "tagFields": "فیلد برچسب ها",
+  "tags": "برچسب ها",
   "tapToSeek": "Tap to seek",
   "themeMode": "حالت پس زمینه",
   "themeModeDark": "تاریک",
@@ -812,17 +829,14 @@
   "top": "برترین",
   "topComments": "بیشترین نظرات",
   "topCommentsSubtitle": "نمایش نظرات بالا به جای پایین",
-  "topRecents": "برترین های اخیر",
   "topRecentAlbums": "برترین آلبوم های اخیر",
   "topRecentArtists": "برترین هنرمندان اخیر",
-  "totalListens": "شمار گوش دادن",
+  "topRecents": "برترین های اخیر",
   "totalListenTime": "زمان کل گوش دادن",
+  "totalListens": "شمار گوش دادن",
   "totalTracks": "شمار آهنگ ها",
   "totalTracksDuration": "زمان کل آهنگ ها",
   "track": "آهنگ",
-  "tracks": "آهنگ ها",
-  "tracksExcludedByNomedia": "مستثنی شده اند .nomedia آهنگ هایی که با",
-  "tracksInfo": "اطلاعات آهنگ ها",
   "trackArtistsSeparator": "جدا کننده هنرمندان",
   "trackGenresSeparator": "جدا کننده سبک ها",
   "trackInfo": "اطلاعات آهنگ",
@@ -830,16 +844,6 @@
   "trackNumber": "شماره آهنگ",
   "trackNumberTotal": "شمار آهنگ ها",
   "trackPathOldNew": "نام قدیمی: \"{oldName}\"\n\nنام جدید: \"{newName}\"\n\nمطمئنی؟",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "حالت پخش",
   "trackPlayModeSearchResults": "نتایج جست و جو",
   "trackPlayModeSelectedOnly": "فقط آهنگ انتخاب شده",
@@ -849,6 +853,9 @@
   "trackThumbnailSizeInList": "اندازه کاور آهنگ",
   "trackTileCustomization": "شخصی سازی لیست آهنگ",
   "trackTileItemsSeparator": "جدا کننده آیتم ها",
+  "tracks": "آهنگ ها",
+  "tracksExcludedByNomedia": "مستثنی شده اند .nomedia آهنگ هایی که با",
+  "tracksInfo": "اطلاعات آهنگ ها",
   "undo": "بازگردان",
   "undoChanges": "بازگردانی تغییرات؟",
   "undoChangesDeletedPlaylist": "بازگردانی لیست پخش حذف شده",
@@ -861,16 +868,15 @@
   "updateDirectoryPath": "بروزرسانی مسیر دایرکتوری",
   "updateMissingTracksOnly": "فقط آهنگ های از قلم افتاده بروزرسانی شوند",
   "updating": "درحال بروزرسانی",
-  "used": "استفاده شده",
   "useCollapsedSettingTiles": "طبقه بندی صفحه تنظیمات",
   "useMediaStore": "استفاده شود Media Store از",
   "useMediaStoreSubtitle": "✓ فهرست کردن سریع\nx اجباراً فعال خواهد شد .nomedia تابع\nx برخی برچسب های متادیتا از قلم می اُفتند\nx ادغام یوتیوب با مجموعه داخلی کار نخواهد کرد",
   "usePitchBlack": "سیاه مطلق",
   "usePitchBlackSubtitle": "برای صفحات امولد... باحال ترم هست",
+  "used": "استفاده شده",
   "value": "مقدار",
   "valueBetween50200": "مقدار باید بین %50 و %200 باشد",
   "video": "ویدیو",
-  "videos": "ویدیو ها",
   "videoCache": "حافظه پنهان ویدیو",
   "videoCacheFile": "فایل پنهان ویدیو",
   "videoCacheFiles": "فایل های پنهان ویدیو",
@@ -885,9 +891,10 @@
   "videoQuality": "کیفیت ویدیو",
   "videoQualitySubtitle": "بالاترین کیفیت موجود انتخاب میشود",
   "videoQualitySubtitleNote": "خوب است که در صورت پیدا نشدن کیفیت، جایگزین های بیشتری را حفظ کنید، در غیر این صورت به بدترین کیفیت رجوع میکند.",
+  "videos": "ویدیو ها",
   "view": "بازدید",
-  "views": "بازدید",
   "viewAll": "مشاهده همه",
+  "views": "بازدید",
   "volume": "صدا",
   "warning": "اخطار",
   "waveformBarsCount": "تعداد خطوط موج",
@@ -896,13 +903,6 @@
   "year": "سال",
   "yes": "بله",
   "yourCurrentMembershipIs": "عضویت فعلی شما {name} است",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "youtube": "یوتیوب",
   "youtubeMusic": "یوتیوب موزیک",
   "youtubeSettingsSubtitle": "شخصی سازی تجربه یوتیوب",
