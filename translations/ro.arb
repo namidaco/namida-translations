@@ -1,9 +1,225 @@
 {
   "@@locale": "ro",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Despre",
   "active": "Activ",
   "add": "Adaugă",
-  "added": "adăugat",
   "addAccount": "Adaugă cont",
   "addAll": "Adaugă tot",
   "addAllAndRemoveOldOnes": "Adaugă tot și elimină cele vechi",
@@ -17,29 +233,23 @@
   "addMoreFromThisArtist": "Adaugă mai multe de la acest artist la coadă",
   "addMoreFromThisFolder": "Adaugă mai multe din acest folder la coadă",
   "addMoreFromToQueue": "Adaugă mai multe din {media} la coadă",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Adaugă doar lipsuri",
   "addToFavourites": "Adaugă la favorite",
   "addToPlaylist": "Adaugă la playlist",
   "addTracksAtTheBeginning": "Adaugă melodii la început",
+  "added": "adăugat",
   "advanced": "Avansat",
   "advancedSettings": "Avansat",
   "advancedSettingsSubtitle": "Setări avansate, nu atinge",
   "alarm": "Alarmă",
   "album": "Album",
-  "albums": "Albume",
-  "albumsCount": "Număr albume",
   "albumArtist": "Artist album",
   "albumArtists": "Artiști album",
   "albumIdentifiers": "Identificatori album",
   "albumThumbnailSizeInList": "Dimensiune miniatură album",
   "albumTileCustomization": "Personalizare element album",
+  "albums": "Albume",
+  "albumsCount": "Număr albume",
   "all": "Tot",
   "allTime": "Tot timpul",
   "always": "Întotdeauna",
@@ -55,14 +265,12 @@
   "artist": "Artist",
   "artists": "Artiști",
   "artwork": "Copertă",
-  "artworks": "Coperte",
   "artworkGestures": "Gesturi copertă",
+  "artworks": "Coperte",
   "audio": "Audio",
   "audioCache": "Cache audio",
   "audioOnly": "Doar audio",
   "auto": "Auto",
-  "automaticBackup": "Automat",
-  "automaticBackupSubtitle": "Aplică automat cel mai recent fișier de backup găsit în locația de backup",
   "autoBackupInterval": "Interval backup automat",
   "autoColoring": "Colorare automată",
   "autoColoringSubtitle": "Alege automat culorile playerului din coperta curentă",
@@ -71,6 +279,8 @@
   "autoGenerated": "Generat automat",
   "autoStartRadio": "Pornește automat radio",
   "autoStartRadioSubtitle": "Adaugă automat un playlist mixt când redai o singură melodie",
+  "automaticBackup": "Automat",
+  "automaticBackupSubtitle": "Aplică automat cel mai recent fișier de backup găsit în locația de backup",
   "backupAndRestore": "Backup și restaurare",
   "backupAndRestoreSubtitle": "Fă backup la baza de date și setări",
   "balanced": "Echilibrat",
@@ -98,26 +308,19 @@
   "clearImageCacheWarning": "Atenție: va rezulta o bibliotecă fără imagini. Folosește doar pentru a reconstrui cache-ul de imagini.",
   "clearTrackItem": "Șterge melodia",
   "clearTrackItemMultiple": "{number, plural, other{Șterge {number} melodii}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "Șterge cache video",
   "clearVideoCacheNote": "Poți alege ce să ștergi.",
   "clock": "Ceas",
   "colorPalette": "Paletă culori",
-  "colorPalettes": "Palete culori",
   "colorPaletteNote1": "Apasă lung o culoare pentru a o elimina",
   "colorPaletteNote2": "Atinge un mix pentru a-l folosi ca culoare implicită",
+  "colorPalettes": "Palete culori",
   "comment": "Comentariu",
   "comments": "Comentarii",
   "composer": "Compozitor",
   "compress": "Comprimă",
-  "compressionPercentage": "Procent comprimare",
   "compressImages": "Comprimă imagini",
+  "compressionPercentage": "Procent comprimare",
   "configure": "Configurează",
   "confirm": "Confirmă",
   "copiedArtwork": "Copertă copiată",
@@ -131,21 +334,14 @@
   "couldntSaveImage": "Nu s-a putut salva imaginea",
   "country": "Țară",
   "create": "Creează",
-  "createdBackupSuccessfully": "Backup creat",
-  "createdBackupSuccessfullySub": "Fișierul de backup a fost creat cu succes",
   "createBackup": "Creează backup",
   "createNewPlaylist": "Creează playlist nou",
+  "createdBackupSuccessfully": "Backup creat",
+  "createdBackupSuccessfullySub": "Fișierul de backup a fost creat cu succes",
+  "crossPlatformSync": "Sincronizare cross-platform",
   "crossfadeDuration": "Durată crossfade",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Activează crossfade automat în ultimele {seconds} secunde}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "Nu activa crossfade automat",
-  "crossPlatformSync": "Sincronizare cross-platform",
   "custom": "Personalizat",
   "customizations": "Personalizări",
   "customizationsSubtitle": "Personalizează aspectul playerului, fă-l al tău",
@@ -157,45 +353,21 @@
   "dateTimeFormat": "Format dată și oră",
   "day": "Zi",
   "days": "Zile",
-  "defaultLabel": "Implicit",
   "defaultBackupLocation": "Locație backup implicită",
   "defaultColor": "Culoare implicită",
   "defaultColorSubtitle": "Setează o culoare pentru player",
   "defaultDownloadLocation": "Locație descărcare implicită",
+  "defaultLabel": "Implicit",
   "defaultLibraryTab": "Tab bibliotecă implicit",
   "delete": "Șterge",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{Ștergi {filesCount} fișier reprezentând {totalSize}?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{Șterge permanent {number} din stocare}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "Șterge playlist",
   "deleteTempFiles": "Șterge fișiere temporare",
   "description": "Descriere",
   "didYouMean": "Ai vrut să spui",
   "dimIntensity": "Intensitate întuncare",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{Întunecă miniplayerul după {seconds} secunde de inactivitate}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "Directorul nu există",
   "disableAll": "Dezactivează tot",
   "disableReordering": "Dezactivează reordonarea",
@@ -209,14 +381,15 @@
   "displayArtistBeforeTitle": "Afișează artistul înaintea titlului",
   "displayArtworkOnLockscreen": "Afișează coperta pe ecranul de blocare",
   "displayAudioInfoInMiniplayer": "Afișează info audio",
-  "displayFavouriteIconInTrackTile": "Afișează butonul de favorite",
   "displayFavButtonInNotification": "Afișează butonul de favorite în notificare",
   "displayFavButtonInNotificationSubtitle": "Miniatura ar putea fi deplasată.",
+  "displayFavouriteIconInTrackTile": "Afișează butonul de favorite",
   "displayRemainingDurationInsteadOfTotal": "Afișează durata rămasă în loc de total",
   "displayThirdItemInRowInTrackTile": "Afișează al treilea element în fiecare rând",
   "displayThirdRowInTrackTile": "Afișează al treilea rând",
   "displayTrackNumberInAlbumPage": "Afișează numărul melodiei în pagina albumului",
   "displayTrackNumberInAlbumPageSubtitle": "Afișează o casetă mică cu numărul melodiei în pagina albumului",
+  "doNothing": "Nu face nimic",
   "done": "Gata",
   "dontAskAgain": "Nu mai întreba",
   "dontDim": "Nu întuneca",
@@ -228,7 +401,6 @@
   "downloads": "Descărcări",
   "downloadsMetadataTags": "Descarcă etichete metadata",
   "downloadsMetadataTagsSubtitle": "Extrage artistul, titlul și albumul din informațiile video implicit",
-  "doNothing": "Nu face nimic",
   "dragToSeek": "Trage pentru a naviga",
   "duckAudio": "Coboară volumul",
   "duplicatedItemsAdding": "Încerci să adaugi elemente care există deja în acest playlist",
@@ -253,13 +425,6 @@
   "enableM3uSync": "Activează sincronizare M3U",
   "enableM3uSyncNote1": "Sincronizarea M3U permite salvarea modificărilor playlist-ului în fișierul M3U original",
   "enableM3uSyncNote2": "Dacă ceva nu merge, un backup al acestui playlist va fi găsit în {playlistsBackupPath}",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "Dacă e refuzat, toate modificările făcute în acest playlist vor fi pierdute la repornire",
   "enableMiniplayerParticles": "Activează particule în mișcare",
   "enableParallaxEffect": "Activează efect paralaxă",
@@ -282,18 +447,11 @@
   "extension": "Extensie",
   "externalFiles": "Fișiere externe",
   "extract": "Extrage",
-  "extractingInfo": "Extragere informații",
   "extractAllColorPalettes": "Extrage toate paletele de culori",
   "extractAllColorPalettesSubtitle": "{number, plural, other{Extragi paletele rămase {remainingColorPalettes}?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "Extrage artiști feat. din titlu",
   "extractFeatArtistSubtitle": "Extrage artiștii (feat. X) și (ft. X) ca o nouă intrare de artist.",
+  "extractingInfo": "Extragere informații",
   "extras": "Extra",
   "extrasSubtitle": "Setări extra pentru a-ți rafina experiența",
   "failed": "Eșuat",
@@ -302,26 +460,26 @@
   "fetching": "Se preia",
   "fetchingOfAllVideos": "Preluarea tuturor videourilor",
   "file": "Fișier",
-  "filenameShouldntStartWith": "Numele fișierului nu ar trebui să înceapă cu",
-  "files": "Fișiere",
   "fileAlreadyExists": "Fișierul există deja",
   "fileName": "Nume fișier",
   "fileNameWoExt": "Nume fișier fără extensie",
-  "filteredBySizeAndDuration": "Melodii filtrate după dimensiune și durată",
+  "filenameShouldntStartWith": "Numele fișierului nu ar trebui să înceapă cu",
+  "files": "Fișiere",
   "filterAlbums": "Filtrează albume",
   "filterArtists": "Filtrează artiști",
   "filterGenres": "Filtrează genuri",
   "filterPlaylists": "Filtrează playlisturi",
   "filterTracks": "Filtrează melodii",
   "filterTracksBy": "Filtrează melodii în listele de căutare după",
+  "filteredBySizeAndDuration": "Melodii filtrate după dimensiune și durată",
   "finished": "Terminat",
   "finishedUpdatingLibrary": "Actualizare bibliotecă terminată",
   "firstListen": "Prima ascultare",
   "fixYtdlpBigThumbnailSize": "Repară dimensiunea mare a miniaturii yt-dlp",
   "floatingActionButton": "Buton acțiune flotant",
   "folder": "Folder",
-  "folders": "Foldere",
   "folderName": "Nume folder",
+  "folders": "Foldere",
   "fontScale": "Scară font",
   "forceMiniplayerFollowTrackColors": "Forțează miniplayerul să urmeze culorile melodiei",
   "forceSquaredAlbumThumbnail": "Forțează miniatură album pătrată",
@@ -336,11 +494,11 @@
   "generateRandomPlaylist": "Generează playlist aleatoriu",
   "genre": "Gen",
   "genres": "Genuri",
-  "goodLooking": "Arată bine",
   "goToAlbum": "Mergi la album",
   "goToArtist": "Mergi la artist",
   "goToChannel": "Mergi la canal",
   "goToFolder": "Mergi la folder",
+  "goodLooking": "Arată bine",
   "grantStoragePermission": "Acordă permisiune stocare",
   "group": "Grupează",
   "groupArtworksByAlbum": "Grupează coperte după album",
@@ -353,71 +511,31 @@
   "history": "Istoric",
   "historyImportMissingEntriesNote": "Aceste intrări nu au putut fi găsite în bibliotecă, dacă crezi că există, ia în considerare adăugarea lor manuală",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} ascultări pentru {oldTrackInfo} vor fi înlocuite cu {newTrackInfo}, confirmă?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "Acasă",
-  "hours": "Ore",
   "hourFormat12": "Format 12 ore",
+  "hours": "Ore",
+  "iReadAndAgree": "Am citit și sunt de acord",
   "ifNotPlaying": "Dacă nu redă",
-  "ignores": "Ignoră",
   "ignoreBatteryOptimizationsSubtitle": "Descărcările pot fi limitate când aplicația are restricții de baterie",
   "ignoreCommonPrefixesWhileSorting": "Ignoră prefixele comune la sortare",
+  "ignores": "Ignoră",
   "imageSource": "Sursă imagine",
   "immersiveMode": "Mod imersiv",
   "immersiveModeSubtitle": "Ascunde barele de stare și navigare când miniplayerul e extins",
   "import": "Importă",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number} canale importate cu succes}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} playlisturi importate cu succes}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "Importă tot",
   "importLastFmHistory": "Importă istoric LastFm",
   "importLastFmHistoryGuide": "1. Mergi la {lastfmCsvLink}\n\n2. Scrie numele tău de utilizator, preia și descarcă fișierul csv.\n\n3. Alege fișierul din ecranul următor.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "Importă interval de timp",
   "importYoutubeHistory": "Importă istoric Youtube",
   "importYoutubeHistoryGuide": "1. Mergi la {takeoutLink}\n\n2. Apasă \"Formate multiple\" și lângă \"Istoric\" alege \"JSON\".\n\n3. Apasă \"Toate datele Youtube incluse\", Deselectează tot și alege doar istoricul.\n\n4. Creează export, descarcă și dezarhivează.\n\n5. Alege \"watch-history.json\" din ecranul următor.",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{{number} canale importate cu succes}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} playlisturi importate cu succes}}",
   "includeVideos": "Include videoclipuri",
+  "indexRefreshRequired": "Fă o reîmprospătare după ce schimbi asta",
   "indexer": "Indexator",
   "indexerNote": "Notă: Numărul incomplet de coperte se referă la coperte duplicate și negăsite",
   "indexerSubtitle": "Gestionează biblioteca ta muzicală",
-  "indexRefreshRequired": "Fă o reîmprospătare după ce schimbi asta",
   "infinityQueueOnNextPrev": "Coadă infinită la următorul/precedentul",
   "infinityQueueOnNextPrevSubtitle": "apăsând următorul în timp ce redai ultimul element va sări la primul și invers",
   "info": "Info",
@@ -425,7 +543,6 @@
   "instantlyApplies": "Se aplică instant",
   "invertSelection": "Inversează selecția",
   "item": "Element",
-  "iReadAndAgree": "Am citit și sunt de acord",
   "jump": "Sari",
   "jumpToDay": "Sari la zi",
   "jumpToFirstTrackAfterQueueFinish": "Sari la prima melodie după terminarea cozii",
@@ -443,20 +560,13 @@
   "liked": "Apreciat",
   "link": "Link",
   "listOfFolders": "Lista de foldere",
-  "loadingFile": "Se încarcă fișierul",
   "loadAll": "Încarcă tot",
+  "loadingFile": "Se încarcă fișierul",
   "local": "Local",
   "localVideoMatching": "Potrivire video locală",
   "longPressTheLyricsToEnterFullscreen": "Apasă lung versurile pentru ecran complet",
   "lostMemories": "Amintiri pierdute",
   "lostMemoriesSubtitle": "{number, plural, other{pe vremea asta, acum {number} ani}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "loudnessEnhancer": "Amplificator volum",
   "lyricist": "Autor versuri",
   "lyrics": "Versuri",
@@ -468,13 +578,13 @@
   "manualBackup": "Manual",
   "manualBackupSubtitle": "alege un fișier specific",
   "markAsRead": "Marchează ca citit",
-  "matchingType": "Tip potrivire",
   "matchAllTracks": "Potrivește toate melodiile",
   "matchAllTracksNote": "asta poate avea impact asupra vitezei de potrivire, deoarece va verifica toate melodiile din biblioteca ta",
-  "maximum": "Maximum",
+  "matchingType": "Tip potrivire",
   "maxAudioCacheSize": "Dimensiune maximă cache audio",
   "maxImageCacheSize": "Dimensiune maximă cache imagini",
   "maxVideoCacheSize": "Dimensiune maximă cache video",
+  "maximum": "Maximum",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Media Store este activat, asta nu va avea efect",
   "membershipCode": "Cod",
   "membershipCodeSentToEmail": "Cod trimis la emailul tău",
@@ -486,44 +596,27 @@
   "membershipSignInToPatreonAccount": "Conectează-te la contul tău patreon",
   "membershipUnknown": "Abonament necunoscut",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "Ai nevoie de abonament {name1} sau {name2} pentru a adăuga conturi multiple",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "Îmbină",
   "metadataCache": "Cache metadata",
   "metadataEditFailed": "Editarea metadatelor a eșuat",
   "metadataReadFailed": "Citirea metadatelor a eșuat",
-  "minimizedMiniplayer": "Miniplayer minimizat",
-  "minimum": "Minim",
-  "minimumOneFolderSubtitle": "Ar trebui să fie cel puțin 1 folder, adaugă mai multe foldere dacă vrei să elimini acesta",
-  "minimumOneItem": "Nu s-a putut elimina elementul",
-  "minimumOneItemSubtitle": "{number, plural, other{Cel puțin {number} elemente trebuie să rămână}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "miniplayerCustomization": "Personalizare miniplayer",
-  "minutes": "minute",
   "minFileDuration": "Durată minimă melodie",
   "minFileSize": "Dimensiune minimă fișier",
   "minTrackDurationToRestoreLastPosition": "Durată minimă melodie pentru a restaura ultima poziție redată",
   "minValueCantBeMoreThanMax": "Valoarea minimă nu poate fi mai mare decât maximul",
   "minValueToCountTrackListen": "Numără o ascultare după: ",
+  "minimizedMiniplayer": "Miniplayer minimizat",
+  "minimum": "Minim",
+  "minimumOneFolderSubtitle": "Ar trebui să fie cel puțin 1 folder, adaugă mai multe foldere dacă vrei să elimini acesta",
+  "minimumOneItem": "Nu s-a putut elimina elementul",
+  "minimumOneItemSubtitle": "{number, plural, other{Cel puțin {number} elemente trebuie să rămână}}",
+  "miniplayerCustomization": "Personalizare miniplayer",
+  "minutes": "minute",
   "missingEntries": "Intrări lipsă",
   "missingTracks": "Melodii lipsă",
   "mix": "Mix",
-  "mixes": "Mixuri",
   "mixPlaylistGeneratedByYoutube": "Playlist mix generat de youtube",
+  "mixes": "Mixuri",
   "month": "Lună",
   "months": "Luni",
   "mood": "Stare",
@@ -534,7 +627,6 @@
   "name": "Nume",
   "nameContainsBadCharacter": "Numele conține caracter invalid",
   "never": "Niciodată",
-  "newest": "Cele mai noi",
   "newDirectory": "Director nou",
   "newTracksAdd": "Adaugă melodii",
   "newTracksMoods": "Stare",
@@ -545,33 +637,12 @@
   "newTracksRatingsSubtitle": "Generează melodii care au o anumită evaluare",
   "newTracksRecommended": "Recomandate",
   "newTracksRecommendedSubtitle": "Generează melodii pe care le asculți de obicei cu {currentTrack}",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "Dată lansare similară",
   "newTracksSimilarrReleaseDateSubtitle": "Generează melodii lansate cam în același timp cu {currentTrack}",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "Melodia are an necunoscut",
+  "newest": "Cele mai noi",
   "next": "Următorul",
   "no": "nu",
-  "none": "Nimic",
-  "nonActive": "Neactiv",
-  "nonFavourites": "Nefavorite",
-  "normalizeAudio": "Normalizează audio",
-  "normalizeAudioSubtitle": "Normalizează volumul citind eticheta replay gain sau informațiile furnizate de youtube",
-  "note": "Notă",
-  "notification": "Notificare",
-  "notifications": "Notificări",
   "noChangesFound": "Nu s-au găsit modificări.",
   "noEnoughTracks": "Nu ai prea multe melodii..",
   "noExcludedFolders": "Nu ai foldere excluse",
@@ -582,19 +653,27 @@
   "noTracksFoundBetweenDates": "Acest interval de timp nu are melodii.",
   "noTracksFoundInDirectory": "Nu s-au găsit melodii în acest director",
   "noTracksInHistory": "Nu ai destule melodii în istoric",
+  "nonActive": "Neactiv",
+  "nonFavourites": "Nefavorite",
+  "none": "Nimic",
+  "normalizeAudio": "Normalizează audio",
+  "normalizeAudioSubtitle": "Normalizează volumul citind eticheta replay gain sau informațiile furnizate de youtube",
+  "note": "Notă",
+  "notification": "Notificare",
+  "notifications": "Notificări",
   "numberOfTracks": "Număr melodii",
   "ofLabel": "din",
   "offlineSearch": "Căutare offline",
   "offset": "Decalaj",
-  "oldestWatch": "Cea mai veche vizionare",
   "oldDirectory": "Director vechi",
   "oldDirectoryStillHasTracks": "Directorul vechi mai are melodii, confirmă?",
-  "ongoing": "În desfășurare",
+  "oldestWatch": "Cea mai veche vizionare",
   "onInterruption": "La întrerupere",
   "onNotificationTap": "La atingerea notificării",
   "onOpeningYoutubeLink": "La deschiderea linkului youtube",
   "onSwiping": "La glisare",
   "onVolumeZero": "La volum 0",
+  "ongoing": "În desfășurare",
   "open": "Deschide",
   "openApp": "Deschide aplicația",
   "openInYoutubeView": "Deschide în vizualizarea Youtube",
@@ -602,24 +681,7 @@
   "openQueue": "Deschide coada",
   "openYoutubeLink": "Deschide link Youtube",
   "operationRequiresAccount": "Operațiunea {name} necesită cont, Conectează-te pentru a continua",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "Operațiunea {operation} necesită cel puțin abonament {name}",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "sau",
   "others": "Altele",
   "output": "Ieșire",
@@ -646,6 +708,12 @@
   "pitch": "Tonalitate",
   "plain": "Simplu",
   "play": "Redă",
+  "playAfter": "Redă după",
+  "playAfterNextPrev": "Redă automat la următorul/precedentul",
+  "playAll": "Redă tot",
+  "playFadeDuration": "Durată estompare redare",
+  "playLast": "Redă ultimul",
+  "playNext": "Redă următorul",
   "playbackSetting": "Redare",
   "playbackSettingSubtitle": "Poate fi accesat direct în player apăsând lung butonul audio",
   "playlist": "Playlist",
@@ -653,12 +721,6 @@
   "playlistsImportM3uNative": "Asta va importa playlisturile M3U pentru a fi folosite doar de namida, folosește dacă migrezi",
   "playlistsImportM3uSynced": "Asta va importa automat playlisturile M3U din folderele indexatorului și le va păstra sincronizate cu fișierul M3U original. activează dacă accesezi/modifici playlisturile din alte aplicații",
   "playlistsImportM3uSyncedAutoImport": "Importă automat playlisturi M3U",
-  "playAfter": "Redă după",
-  "playAfterNextPrev": "Redă automat la următorul/precedentul",
-  "playAll": "Redă tot",
-  "playFadeDuration": "Durată estompare redare",
-  "playLast": "Redă ultimul",
-  "playNext": "Redă următorul",
   "pleaseEnterADifferentName": "Acest nume există deja :(\nte rog încearcă alt nume fancy",
   "pleaseEnterALink": "Te rog introdu un link",
   "pleaseEnterALinkSubtitle": "umm.. asta e un link youtube?",
@@ -674,16 +736,6 @@
   "private": "Privat",
   "progress": "Progres",
   "promptIndexingRefresh": "{newFiles} fișiere noi au fost găsite și {deletedFiles} au fost șterse sau filtrate, vrei să faci o reîmprospătare?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "De obicei asta se întâmplă când ștergi/muți/redenumești fișierul în afara namida. Vrei să actualizezi calea curentă?",
   "public": "Public",
   "queue": "Coadă",
@@ -691,10 +743,13 @@
   "random": "Aleatoriu",
   "randomPicks": "Alegeri aleatorii",
   "rating": "Evaluare",
-  "recentlyAdded": "Adăugate recent",
+  "reIndex": "Reindexează",
+  "reIndexSubtitle": "Reconstruiește biblioteca ta muzicală de la zero",
+  "reIndexWarning": "Acest proces ar putea dura ceva timp, în funcție de dimensiunea bibliotecii tale.\n\nCopertele nu vor fi reindexate atâta timp cât încă există",
   "recentAlbums": "Albume recente",
   "recentArtists": "Artiști recenți",
   "recentListens": "Ascultări recente",
+  "recentlyAdded": "Adăugate recent",
   "recordLabel": "Casă de discuri",
   "refresh": "Reîmprospătează",
   "refreshLibrary": "Reîmprospătează biblioteca",
@@ -704,7 +759,6 @@
   "rememberAudioOnlyMode": "Ține minte modul doar audio",
   "remixer": "Remixer",
   "remove": "Elimină",
-  "removed": "Eliminat",
   "removeDuplicates": "Elimină duplicate",
   "removeFromFavourites": "Elimină din favorite",
   "removeFromLibrary": "Elimină din bibliotecă",
@@ -712,17 +766,11 @@
   "removeQueue": "Elimină coada",
   "removeSourceFromHistory": "Elimină sursa din istoric",
   "removeWhitespaces": "Elimină spațiile",
+  "removed": "Eliminat",
   "rename": "Redenumește",
   "renamePlaylist": "Redenumește playlist",
   "reorderable": "Reordonabil",
   "repeatForNTimes": "{number, plural, other{Repetă încă {number} ori}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "Mod repetare",
   "repeatModeAll": "Repetă toată coada",
   "repeatModeNone": "Oprește la ultima melodie",
@@ -737,46 +785,34 @@
   "respectNoMedia": "Respectă .nomedia",
   "respectNoMediaSubtitle": "Nu include foldere care au .nomedia",
   "restart": "Repornește",
-  "restoredBackupSuccessfully": "Backup restaurat",
-  "restoredBackupSuccessfullySub": "Fișierul de backup a fost restaurat cu succes",
   "restoreBackup": "Restaurează backup",
   "restoreDefaults": "Restaurează valorile implicite",
+  "restoredBackupSuccessfully": "Backup restaurat",
+  "restoredBackupSuccessfullySub": "Fișierul de backup a fost restaurat cu succes",
   "resume": "Reia",
   "resumeIfWasInterrupted": "Reia dacă a fost întreruptă",
   "resumeIfWasPausedByVolume": "Reia dacă a fost pusă pe pauză de volum",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{Reia dacă a fost pusă pe pauză mai puțin de {number} minute}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "reverseOrder": "Inversează ordinea",
-  "reIndex": "Reindexează",
-  "reIndexSubtitle": "Reconstruiește biblioteca ta muzicală de la zero",
-  "reIndexWarning": "Acest proces ar putea dura ceva timp, în funcție de dimensiunea bibliotecii tale.\n\nCopertele nu vor fi reindexate atâta timp cât încă există",
   "ringtone": "Ton de apel",
   "sameDirectoryOnly": "Doar același director",
   "sample": "Mostră",
   "sampleRate": "Rată eșantionare",
   "save": "Salvează",
-  "savedIn": "Salvat în",
   "saveToLibrary": "Salvează în bibliotecă",
+  "savedIn": "Salvat în",
   "scaleMultiplier": "Multiplicator scară",
   "search": "Caută",
   "searchYoutube": "Caută pe YouTube",
   "seconds": "secunde",
-  "seekbar": "Bară navigare",
   "seekDuration": "Durată navigare",
   "seekDurationInfo": "Poți atinge durata curentă pentru a naviga înapoi și durata totală pentru a naviga înainte",
-  "selectedTracks": "Melodii selectate",
+  "seekbar": "Bară navigare",
   "selectAll": "Selectează tot",
   "selectFilesAlreadyInLocalLibrary": "Selectează fișiere deja în biblioteca locală",
+  "selectedTracks": "Melodii selectate",
   "separatorsBlacklistSubtitle": "Aceste cuvinte nu vor fi împărțite",
   "separatorsMessage": "Nu e nevoie să inserezi spații, decât dacă vrei să folosești o literă/simbol care poate fi găsit într-un cuvânt întreg (cum ar fi x și ft.)",
-  "settings": "Setări",
-  "setupFirstStartup": "Configurează prima pornire",
   "setAs": "Setează ca",
   "setAsDefault": "Setează ca implicit",
   "setFileLastModifiedAsVideoUploadDate": "Setează data ultimei modificări a fișierului ca dată de încărcare video",
@@ -785,6 +821,8 @@
   "setRating": "Setează evaluare",
   "setTags": "Setează etichete",
   "setYoutubeLink": "Setează link Youtube",
+  "settings": "Setări",
+  "setupFirstStartup": "Configurează prima pornire",
   "share": "Distribuie",
   "shortcuts": "Comenzi rapide",
   "shouldDuck": "Ar trebui să coboare",
@@ -803,8 +841,6 @@
   "shuffle": "Amestecă",
   "shuffleAll": "Amestecă tot",
   "shuffleNext": "Amestecă următorul",
-  "signingInAllowsBasicUsage": "Conectarea permite utilizarea de bază",
-  "signingInAllowsBasicUsageSubtitle": "Obține acces anticipat prin patreon sau folosind cupon",
   "signIn": "Conectează-te",
   "signInCanceled": "Conectarea a fost anulată",
   "signInFailed": "Conectarea a eșuat",
@@ -813,31 +849,12 @@
   "signInYouNeedAccountToViewPage": "Ai nevoie de un cont pentru a vizualiza această pagină",
   "signOut": "Deconectează-te",
   "signOutFromName": "Deconectează-te de la {name}",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "Conectarea permite utilizarea de bază",
+  "signingInAllowsBasicUsageSubtitle": "Obține acces anticipat prin patreon sau folosind cupon",
   "similarDiscoverDate": "Dată descoperire similară",
   "similarDiscoverDateSubtitle": "Generează melodii descoperite cam în același timp cu {currentTrack}",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "Interval de timp similar",
   "similarTimeRangeSubtitle": "Generează melodii pe care le-ai ascultat cam în același timp cu {currentTrack}",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "Melodii single",
   "size": "Dimensiune",
   "skip": "Sari",
@@ -868,8 +885,8 @@
   "swipeToOpenDrawer": "Glisează pentru a deschide meniul",
   "synced": "Sincronizat",
   "synopsis": "Sinopsis",
-  "tags": "Etichete",
   "tagFields": "Câmpuri etichete",
+  "tags": "Etichete",
   "tapToSeek": "Atinge pentru a naviga",
   "themeMode": "Mod temă",
   "themeModeDark": "Întunecat",
@@ -884,17 +901,14 @@
   "top": "Top",
   "topComments": "Comentarii top",
   "topCommentsSubtitle": "Afișează comentariile sus în loc de jos",
-  "topRecents": "Top recente",
   "topRecentAlbums": "Top albume recente",
   "topRecentArtists": "Top artiști recenți",
-  "totalListens": "Total ascultări",
+  "topRecents": "Top recente",
   "totalListenTime": "Timp total ascultare",
+  "totalListens": "Total ascultări",
   "totalTracks": "Total melodii",
   "totalTracksDuration": "Durată totală melodii",
   "track": "Melodie",
-  "tracks": "Melodii",
-  "tracksExcludedByNomedia": "Melodii excluse de .nomedia",
-  "tracksInfo": "Info melodii",
   "trackArtistsSeparator": "Separatori artiști",
   "trackGenresSeparator": "Separatori genuri",
   "trackInfo": "Info melodie",
@@ -902,16 +916,6 @@
   "trackNumber": "Număr melodie",
   "trackNumberTotal": "Total melodii",
   "trackPathOldNew": "Nume vechi: \"{oldName}\"\n\nNume nou: \"{newName}\"\n\nEști sigur?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "Mod redare",
   "trackPlayModeSearchResults": "Rezultate căutare",
   "trackPlayModeSelectedOnly": "Doar melodia selectată",
@@ -921,6 +925,9 @@
   "trackThumbnailSizeInList": "Dimensiune miniatură melodie",
   "trackTileCustomization": "Personalizare element melodie",
   "trackTileItemsSeparator": "Separator elemente",
+  "tracks": "Melodii",
+  "tracksExcludedByNomedia": "Melodii excluse de .nomedia",
+  "tracksInfo": "Info melodii",
   "undo": "Anulează",
   "undoChanges": "Anulezi modificările?",
   "undoChangesDeletedPlaylist": "Anulează playlist șters",
@@ -933,18 +940,17 @@
   "updateDirectoryPath": "Actualizează calea directorului",
   "updateMissingTracksOnly": "Actualizează doar melodiile lipsă",
   "updating": "Se actualizează",
-  "used": "Folosit",
   "useCollapsedSettingTiles": "Folosește elemente de setări restrânse",
   "useMediaStore": "Folosește Media Store",
   "useMediaStoreSubtitle": "✓ timp instant de indexare\n× respectarea .nomedia va fi forțat activată\n× unele etichete metadata vor lipsi\n× integrarea youtube pentru biblioteca locală nu va funcționa",
   "usePitchBlack": "Folosește negru profund",
   "usePitchBlackSubtitle": "Util pentru ecrane AMOLED.. și arată mai cool",
+  "used": "Folosit",
   "value": "Valoare",
   "valueBetween50200": "Valoarea ar trebui să fie între 50% și 200%",
   "vibration": "Vibrare",
   "vibrationType": "Tip vibrare",
   "video": "Video",
-  "videos": "Videoclipuri",
   "videoCache": "Cache video",
   "videoCacheFile": "Fișier video din cache",
   "videoCacheFiles": "Fișiere video din cache",
@@ -959,9 +965,10 @@
   "videoQuality": "Calitate video",
   "videoQualitySubtitle": "Cea mai înaltă calitate disponibilă va fi aleasă.",
   "videoQualitySubtitleNote": "E întotdeauna bine să păstrezi mai multe alternative în caz că o calitate nu e găsită, altfel va reveni la cea mai proastă calitate",
+  "videos": "Videoclipuri",
   "view": "vizualizare",
-  "views": "vizualizări",
   "viewAll": "Vezi tot",
+  "views": "vizualizări",
   "volume": "Volum",
   "warning": "Avertisment",
   "waveformBarsCount": "Număr bare formă de undă",
@@ -970,13 +977,6 @@
   "year": "An",
   "yes": "da",
   "yourCurrentMembershipIs": "Abonamentul tău curent este {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "Ordinea ta personalizată va fi pierdută. Ești sigur?",
   "youtube": "Youtube",
   "youtubeMusic": "Youtube Music",
