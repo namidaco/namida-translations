@@ -390,7 +390,7 @@
   "defaultLabel": "ডিফল্ট",
   "defaultLibraryTab": "ডিফল্ট লাইব্রেরি ট্যাব",
   "delete": "ডিলিট করুন",
-  "deleteFileCacheSubtitle": "{filesCount, plural, one {{number} টি ফাইল, যার মোট সাইজ {totalSize}, ডিলিট করবেন?} other {{filesCount} টি ফাইল, যার মোট সাইজ {totalSize}, ডিলিট করবেন?}}",
+  "deleteFileCacheSubtitle": "{filesCount, plural, one {{totalSize} টি ফাইল, যার মোট সাইজ {totalSize}, ডিলিট করবেন?} other {{filesCount} টি ফাইল, যার মোট সাইজ {totalSize}, ডিলিট করবেন?}}",
   "deleteNTracksFromStorage": "{number, plural, other{নিশ্চিত করুন, আপনি কি স্থায়ীভাবে {number} ডিলিট করতে চান}}",
   "deletePlaylist": "প্লেলিস্ট ডিলিট করুন",
   "deleteTempFiles": "অস্থায়ী ফাইল ডিলিট করুন",
