@@ -302,7 +302,7 @@
   "clearImageCache": "Bersihkan cache Gambar",
   "clearImageCacheWarning": "Peringatan: akan membuat pustaka tanpa gambar, Gunakan hanya untuk membangun kembali cache gambar.",
   "clearTrackItem": "Hapus Trek",
-  "clearTrackItemMultiple": "{number, plural, other{Hapus Trek {number}'}}",
+  "clearTrackItemMultiple": "{number, plural, other{Hapus Trek {number}}}",
   "clearVideoCache": "Bersihkan cache Video",
   "clearVideoCacheNote": "Anda dapat memilih apa yang akan dihapus.",
   "clock": "Waktu",
