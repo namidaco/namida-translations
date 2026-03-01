@@ -16,99 +16,141 @@
   },
   "@countAlbumArtists": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countAlbums": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countArtists": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countComposers": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countDays": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countFiles": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countFolders": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countGenres": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countMonths": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countPlaylists": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countSubscribers": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countTracks": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countVideos": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@countViews": {
     "placeholders": {
-      "number": {
+      "count": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
@@ -456,20 +498,20 @@
   "couldntPlayFile": "Couldn't play file",
   "couldntRenamePlaylist": "Couldn't rename playlist",
   "couldntSaveImage": "Couldn't save image",
-  "countAlbumArtists": "{number, plural, one{{number} Album Artist} other{{number} Album Artists}}",
-  "countAlbums": "{number, plural, one{{number} Album} other{{number} Albums}}",
-  "countArtists": "{number, plural, one{{number} Artist} other{{number} Artists}}",
-  "countComposers": "{number, plural, one{{number} Composer} other{{number} Composers}}",
-  "countDays": "{number, plural, one{{number} Day} other{{number} Days}}",
-  "countFiles": "{number, plural, one{{number} File} other{{number} Files}}",
-  "countFolders": "{number, plural, one{{number} Folder} other{{number} Folders}}",
-  "countGenres": "{number, plural, one{{number} Genre} other{{number} Genres}}",
-  "countMonths": "{number, plural, one{{number} Month} other{{number} Months}}",
-  "countPlaylists": "{number, plural, one{{number} Playlist} other{{number} Playlists}}",
-  "countSubscribers": "{number, plural, one{{number} Subscriber} other{{number} Subscribers}}",
-  "countTracks": "{number, plural, one{{number} Track} other{{number} Tracks}}",
-  "countVideos": "{number, plural, one{{number} Video} other{{number} Videos}}",
-  "countViews": "{number, plural, one{{number} View} other{{number} Views}}",
+  "countAlbumArtists": "{count, plural, one{{numberText} Album Artist} other{{numberText} Album Artists}}",
+  "countAlbums": "{count, plural, one{{numberText} Album} other{{numberText} Albums}}",
+  "countArtists": "{count, plural, one{{numberText} Artist} other{{numberText} Artists}}",
+  "countComposers": "{count, plural, one{{numberText} Composer} other{{numberText} Composers}}",
+  "countDays": "{count, plural, one{{numberText} Day} other{{numberText} Days}}",
+  "countFiles": "{count, plural, one{{numberText} File} other{{numberText} Files}}",
+  "countFolders": "{count, plural, one{{numberText} Folder} other{{numberText} Folders}}",
+  "countGenres": "{count, plural, one{{numberText} Genre} other{{numberText} Genres}}",
+  "countMonths": "{count, plural, one{{numberText} Month} other{{numberText} Months}}",
+  "countPlaylists": "{count, plural, one{{numberText} Playlist} other{{numberText} Playlists}}",
+  "countSubscribers": "{count, plural, one{{numberText} Subscriber} other{{numberText} Subscribers}}",
+  "countTracks": "{count, plural, one{{numberText} Track} other{{numberText} Tracks}}",
+  "countVideos": "{count, plural, one{{numberText} Video} other{{numberText} Videos}}",
+  "countViews": "{count, plural, one{{numberText} View} other{{numberText} Views}}",
   "country": "Country",
   "coupon": "Coupon",
   "create": "Create",
