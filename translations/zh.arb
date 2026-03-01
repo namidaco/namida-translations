@@ -1,9 +1,246 @@
 {
   "@@locale": "zh",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "关于",
   "active": "启用",
   "add": "添加",
-  "added": "已添加",
   "addAccount": "添加账号",
   "addAll": "全部添加",
   "addAllAndRemoveOldOnes": "全部添加并移除旧记录",
@@ -17,29 +254,23 @@
   "addMoreFromThisArtist": "将此音乐人的更多曲目添加到队列",
   "addMoreFromThisFolder": "将此文件夹中的更多曲目添加到队列",
   "addMoreFromToQueue": "将 {media} 中的更多曲目添加到队列",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "仅添加缺失项",
   "addToFavourites": "添加到收藏夹",
   "addToPlaylist": "添加到播放列表",
   "addTracksAtTheBeginning": "在开头添加曲目",
+  "added": "已添加",
   "advanced": "高级",
   "advancedSettings": "高级设置",
   "advancedSettingsSubtitle": "高级设置，请谨慎操作",
   "alarm": "闹钟",
   "album": "专辑",
-  "albums": "专辑",
-  "albumsCount": "专辑数量",
   "albumArtist": "专辑音乐人",
   "albumArtists": "专辑音乐人",
   "albumIdentifiers": "专辑标识符",
   "albumThumbnailSizeInList": "专辑缩略图大小",
   "albumTileCustomization": "专辑图块个性化",
+  "albums": "专辑",
+  "albumsCount": "专辑数量",
   "all": "全部",
   "allTime": "所有时间",
   "alreadyExists": "已存在",
@@ -57,14 +288,12 @@
   "artist": "音乐人",
   "artists": "音乐人",
   "artwork": "封面",
-  "artworks": "封面",
   "artworkGestures": "专辑封面手势",
+  "artworks": "封面",
   "audio": "音频",
   "audioCache": "音频缓存",
   "audioOnly": "仅音频",
   "auto": "自动",
-  "automaticBackup": "自动备份",
-  "automaticBackupSubtitle": "自动应用在备份位置中找到的最新备份文件",
   "autoBackupInterval": "自动备份间隔",
   "autoColoring": "自动着色",
   "autoColoringSubtitle": "根据专辑封面配色自动调整播放器颜色",
@@ -75,6 +304,8 @@
   "autoSkipOnce": "仅本次自动跳过",
   "autoStartRadio": "自动启动收音机",
   "autoStartRadioSubtitle": "播放单曲时自动添加合辑播放列表",
+  "automaticBackup": "自动备份",
+  "automaticBackupSubtitle": "自动应用在备份位置中找到的最新备份文件",
   "backupAndRestore": "备份与恢复",
   "backupAndRestoreSubtitle": "备份您的数据库和设置",
   "balanced": "均衡",
@@ -103,26 +334,19 @@
   "clearImageCacheWarning": "警告: 此操作将导致媒体库中的图像丢失，仅应在需要重建图像缓存时使用。",
   "clearTrackItem": "清除曲目",
   "clearTrackItemMultiple": "{number, plural, other{清除 {number} 首曲目}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "清除视频缓存",
   "clearVideoCacheNote": "您可以选择要删除的内容。",
   "clock": "时钟",
   "colorPalette": "调色板",
-  "colorPalettes": "调色板",
   "colorPaletteNote1": "长按一种颜色即可将其移除",
   "colorPaletteNote2": "点击任一配色组可将其用作默认颜色",
+  "colorPalettes": "调色板",
   "comment": "评论",
   "comments": "评论",
   "composer": "作曲者",
   "compress": "压缩",
-  "compressionPercentage": "压缩比",
   "compressImages": "压缩图像",
+  "compressionPercentage": "压缩比",
   "configure": "配置",
   "confirm": "确认",
   "copiedArtwork": "已复制专辑封面",
@@ -137,35 +361,21 @@
   "country": "国家",
   "coupon": "兑换码",
   "create": "创建",
-  "createdBackupSuccessfully": "已创建备份",
-  "createdBackupSuccessfullySub": "建立备份文件成功",
   "createBackup": "创建备份",
   "createNewPlaylist": "新建播放列表",
+  "createdBackupSuccessfully": "已创建备份",
+  "createdBackupSuccessfullySub": "建立备份文件成功",
+  "crossPlatformSync": "跨平台同步",
   "crossfadeDuration": "淡入淡出时长",
   "crossfadeTriggerSeconds": "{seconds, plural, other{在最后 {seconds} 秒内自动触发淡入淡出}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "不自动触发淡入淡出",
-  "crossPlatformSync": "跨平台同步",
   "custom": "自定义",
   "customizations": "自定义",
   "customizationsSubtitle": "根据喜好自定义您的播放器外观",
-  "database": "数据库",
   "dataIsProvidedByName": "数据提供者：{name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "流量节省程序",
   "dataSaverMode": "流量节省模式",
+  "database": "数据库",
   "date": "日期",
   "dateAdded": "添加日期",
   "dateCreated": "创建日期",
@@ -173,32 +383,15 @@
   "dateTimeFormat": "日期时间格式",
   "day": "天",
   "days": "天",
-  "defaultLabel": "默认",
   "defaultBackupLocation": "默认备份位置",
   "defaultColor": "默认颜色",
   "defaultColorSubtitle": "设置播放器使用的颜色",
   "defaultDownloadLocation": "默认下载位置",
+  "defaultLabel": "默认",
   "defaultLibraryTab": "默认媒体库标签页",
   "delete": "删除",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{是否删除 {filesCount} 个文件（占用 {totalSize} ）？}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{从存储中永久删除 {number}}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "删除播放列表",
   "deleteTempFiles": "删除临时文件",
   "description": "描述",
@@ -207,21 +400,14 @@
   "didYouMean": "您的意思是",
   "dimIntensity": "暗淡强度",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{迷你播放器在不活动 {seconds} 秒后变暗}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "目录不存在",
   "disable": "禁用",
   "disableAll": "禁用全部",
   "disableReordering": "禁用重新排序",
   "disableSearchCleanup": "禁用搜索清理",
-  "discover": "发现",
   "discNumber": "光盘编号",
   "discNumberTotal": "光盘总数",
+  "discover": "发现",
   "dislike": "不喜欢",
   "dismissibleMiniplayer": "可关闭的迷你播放器",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "步进时显示实际位置而非时间差",
@@ -230,15 +416,16 @@
   "displayArtistBeforeTitle": "在标题前显示音乐人",
   "displayArtworkOnLockscreen": "在锁定屏幕上显示专辑封面",
   "displayAudioInfoInMiniplayer": "显示音频信息",
-  "displayFavouriteIconInTrackTile": "显示收藏按钮",
   "displayFavButtonInNotification": "在通知中显示收藏按钮",
   "displayFavButtonInNotificationSubtitle": "可能会导致缩略图移位。",
+  "displayFavouriteIconInTrackTile": "显示收藏按钮",
   "displayRemainingDurationInsteadOfTotal": "显示剩余时长而非总时长",
   "displayStopButtonInNotification": "在通知中显示停止按钮",
   "displayThirdItemInRowInTrackTile": "增加专辑条目的信息列数",
   "displayThirdRowInTrackTile": "增加专辑条目的信息行数",
   "displayTrackNumberInAlbumPage": "在专辑页面中显示曲目编号",
   "displayTrackNumberInAlbumPageSubtitle": "在专辑页面上显示一个包含曲目编号的小框",
+  "doNothing": "什么也不做",
   "donate": "捐赠",
   "donateSubtitle": "如果您认为值得支持",
   "done": "完成",
@@ -252,7 +439,6 @@
   "downloads": "下载",
   "downloadsMetadataTags": "下载元数据标签",
   "downloadsMetadataTagsSubtitle": "默认从视频信息中提取音乐人、标题和专辑",
-  "doNothing": "什么也不做",
   "dragToSeek": "拖动以定位",
   "duckAudio": "音频闪避",
   "duplicatedItemsAdding": "试图添加重复的项目",
@@ -279,13 +465,6 @@
   "enableM3uSync": "启用 M3U 同步",
   "enableM3uSyncNote1": "M3U 同步允许将播放列表更改保存到原始 M3U 文件",
   "enableM3uSyncNote2": "如果出现任何问题，可在 {playlistsBackupPath} 中找到此播放列表的备份",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "如果同步被拒绝，在此播放列表中所做的所有更改都将在重新启动后丢失",
   "enableMiniplayerParticles": "启用粒子效果",
   "enableParallaxEffect": "启用视差效果",
@@ -310,18 +489,11 @@
   "extension": "扩展",
   "externalFiles": "外部文件",
   "extract": "提取",
-  "extractingInfo": "提取信息",
   "extractAllColorPalettes": "提取所有调色板",
   "extractAllColorPalettesSubtitle": "{number, plural, other{提取剩余的{remainingColorPalettes} ？}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "从标题中提取合作音乐人",
   "extractFeatArtistSubtitle": "提取 (feat. X) 和 (ft. X) 音乐人，作为新音乐人条目。",
+  "extractingInfo": "提取信息",
   "extras": "额外功能",
   "extrasSubtitle": "能够改善体验的额外设置",
   "extreme": "极致节省",
@@ -332,28 +504,28 @@
   "fetching": "获取",
   "fetchingOfAllVideos": "获取所有视频",
   "file": "文件",
-  "filenameShouldntStartWith": "文件名开头不应使用",
-  "files": "文件",
   "fileAlreadyExists": "文件已存在",
   "fileBasedServerWarning": "文件将临时下载进行索引，请确保您的连接稳定。\n推荐使用 Wi-Fi 以避免高数据使用量。",
   "fileName": "文件名",
   "fileNameWoExt": "不带扩展名的文件名",
+  "filenameShouldntStartWith": "文件名开头不应使用",
+  "files": "文件",
   "filler": "填充内容",
-  "filteredBySizeAndDuration": "按大小和时长筛选的曲目",
   "filterAlbums": "筛选专辑",
   "filterArtists": "筛选音乐人",
   "filterGenres": "筛选流派",
   "filterPlaylists": "筛选播放列表",
   "filterTracks": "筛选曲目",
   "filterTracksBy": "筛选搜索列表中的曲目",
+  "filteredBySizeAndDuration": "按大小和时长筛选的曲目",
   "finished": "已完成",
   "finishedUpdatingLibrary": "媒体库更新完成",
   "firstListen": "第一次听",
   "fixYtdlpBigThumbnailSize": "修复 yt-dlp 大缩略图尺寸",
   "floatingActionButton": "悬浮操作按钮",
   "folder": "文件夹",
-  "folders": "文件夹",
   "folderName": "文件夹名称",
+  "folders": "文件夹",
   "fontScale": "字体缩放比例",
   "forceMiniplayerFollowTrackColors": "强制迷你播放器跟随曲目颜色",
   "forceSquaredAlbumThumbnail": "强制使用方形专辑缩略图",
@@ -369,11 +541,11 @@
   "generateRandomPlaylist": "生成随机播放列表",
   "genre": "类型",
   "genres": "流派",
-  "goodLooking": "好看",
   "goToAlbum": "转到专辑",
   "goToArtist": "转到音乐人",
   "goToChannel": "转到频道",
   "goToFolder": "转到文件夹",
+  "goodLooking": "好看",
   "grantStoragePermission": "授予存储权限",
   "group": "分组",
   "groupArtworksByAlbum": "按专辑分组专辑封面",
@@ -382,79 +554,39 @@
   "heightOfAlbumTile": "专辑图块高度",
   "heightOfTrackTile": "曲目图块高度",
   "hideSkipButtonAfter": "隐藏跳过按钮",
-  "highlight": "高光片段",
   "highMatches": "高匹配",
   "highPerformance": "高性能",
+  "highlight": "高光片段",
   "history": "历史",
   "historyImportMissingEntriesNote": "在媒体库中找不到这些条目，如果您认为它们存在，请考虑手动添加它们",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} 监听的 {oldTrackInfo} 将替换为 {newTrackInfo}，确认吗?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "首页",
   "hook": "开场钩子",
   "host": "主机",
-  "hours": "小时",
   "hourFormat12": "12 小时制",
+  "hours": "小时",
+  "iReadAndAgree": "我已阅读并同意",
   "ifNotPlaying": "如果未在播放",
-  "ignores": "忽略",
   "ignoreBatteryOptimizationsSubtitle": "当程序受到系统省电功能限制时，下载速度可能会减慢",
   "ignoreCommonPrefixesWhileSorting": "排序时忽略常见前缀",
+  "ignores": "忽略",
   "imageSource": "图片来源",
   "immersiveMode": "沉浸模式",
   "immersiveModeSubtitle": "迷你播放器展开时隐藏状态栏和导航栏",
   "import": "导入",
-  "importedNChannelsSuccessfully": "{number, plural, other{成功导入 {number} 个频道}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{成功导入 {number} 个播放列表}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "全部导入",
   "importLastFmHistory": "导入 Last.Fm 历史记录",
   "importLastFmHistoryGuide": "1. 转到 {lastfmCsvLink}\n\n2. 输入您的用户名，获取并下载 csv 文件。\n\n3. 从下一个屏幕中选择文件。",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "导入时间范围",
   "importYoutubeHistory": "导入 YouTube 历史记录",
   "importYoutubeHistoryGuide": "1. 转到{takeoutLink}\n\n2.点击“多种格式”，然后在“历史记录”旁选择“JSON”。\n\n3.反选“包含所有 Youtube 数据”，仅勾选历史记录。\n\n4.创建导出任务，之后下载并解压得到的文件。\n\n5.从下一个屏幕中选择“watch-history.json”。",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{成功导入 {number} 个频道}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{成功导入 {number} 个播放列表}}",
   "includeVideos": "包括视频",
+  "indexRefreshRequired": "更改后执行刷新",
   "indexer": "索引器",
   "indexerNote": "注：专辑封面数量不一致，意味着存在重复封面或未找到封面",
   "indexerSubtitle": "管理您的音乐库",
-  "indexRefreshRequired": "更改后执行刷新",
   "infinityQueueOnNextPrev": "无限上下曲队列",
   "infinityQueueOnNextPrevSubtitle": "播放到最后一项时，点击下一曲将跳转到第一项，反之亦然",
   "info": "信息",
@@ -465,7 +597,6 @@
   "invertSelection": "反选",
   "issues": "问题",
   "item": "条目",
-  "iReadAndAgree": "我已阅读并同意",
   "jump": "跳转",
   "jumpToDay": "跳转至日期",
   "jumpToFirstTrackAfterQueueFinish": "队列播放完毕后跳转到第一首曲目",
@@ -488,8 +619,8 @@
   "liked": "喜欢",
   "link": "关联",
   "listOfFolders": "文件夹列表",
-  "loadingFile": "加载文件",
   "loadAll": "加载全部",
+  "loadingFile": "加载文件",
   "local": "本地",
   "localVideoMatching": "本地视频匹配",
   "login": "登录",
@@ -497,13 +628,6 @@
   "longPressTheLyricsToEnterFullscreen": "长按歌词进入全屏",
   "lostMemories": "逝去的记忆",
   "lostMemoriesSubtitle": "{number, plural, other{大约在 {number} 年前的这个时候}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "lostPartners": "旧曲重逢",
   "loudnessEnhancer": "响度增强",
   "lyricist": "作词者",
@@ -516,13 +640,13 @@
   "manualBackup": "手动备份",
   "manualBackupSubtitle": "选取一个特定的文件",
   "markAsRead": "标记为已读",
-  "matchingType": "匹配类型",
   "matchAllTracks": "匹配所有曲目",
   "matchAllTracksNote": "这可能会影响匹配速度,因为它将检查您库中的所有曲目",
-  "maximum": "最大",
+  "matchingType": "匹配类型",
   "maxAudioCacheSize": "最大音频缓存大小",
   "maxImageCacheSize": "最大图像缓存大小",
   "maxVideoCacheSize": "最大视频缓存大小",
+  "maximum": "最大",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "已启用媒体存储，这将无效",
   "medium": "中等节省",
   "membershipCode": "代码",
@@ -535,45 +659,28 @@
   "membershipSignInToPatreonAccount": "登录您的 Patreon 账号",
   "membershipUnknown": "未知会员资格",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "您需要 {name1} 或 {name2} 的会员资格才能添加多个账号",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "合并",
   "metadataCache": "元数据缓存",
   "metadataEditFailed": "无法编辑元数据",
   "metadataReadFailed": "无法读取元数据",
-  "minimizedMiniplayer": "最小化的迷你播放器",
-  "minimum": "最小",
-  "minimumOneFolderSubtitle": "至少应该有一个文件夹，如果要移除此文件夹，请添加更多文件夹",
-  "minimumOneItem": "无法移除项目",
-  "minimumOneItemSubtitle": "{number, plural, other{至少应保留 {number} 个项目}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "minimumSegmentDuration": "最短片段时长",
-  "miniplayerCustomization": "迷你播放器定制",
-  "minutes": "分钟",
   "minFileDuration": "最短曲目时长",
   "minFileSize": "最小文件大小",
   "minTrackDurationToRestoreLastPosition": "恢复上次播放位置的最短曲目时长",
   "minValueCantBeMoreThanMax": "最小值不能大于最大值",
   "minValueToCountTrackListen": "播放至以下长度后算作一次: ",
+  "minimizedMiniplayer": "最小化的迷你播放器",
+  "minimum": "最小",
+  "minimumOneFolderSubtitle": "至少应该有一个文件夹，如果要移除此文件夹，请添加更多文件夹",
+  "minimumOneItem": "无法移除项目",
+  "minimumOneItemSubtitle": "{number, plural, other{至少应保留 {number} 个项目}}",
+  "minimumSegmentDuration": "最短片段时长",
+  "miniplayerCustomization": "迷你播放器定制",
+  "minutes": "分钟",
   "missingEntries": "缺少条目",
   "missingTracks": "缺少曲目",
   "mix": "合辑",
-  "mixes": "合辑",
   "mixPlaylistGeneratedByYoutube": "由 YouTube 生成的合辑播放列表",
+  "mixes": "合辑",
   "mobile": "移动网络",
   "month": "月",
   "months": "月",
@@ -586,7 +693,6 @@
   "name": "名称",
   "nameContainsBadCharacter": "名称包含不当字符",
   "never": "从不",
-  "newest": "最新的",
   "newDirectory": "新目录",
   "newTracksAdd": "添加曲目",
   "newTracksMoods": "情绪",
@@ -597,35 +703,12 @@
   "newTracksRatingsSubtitle": "生成具有特定评级的曲目",
   "newTracksRecommended": "推荐的",
   "newTracksRecommendedSubtitle": "使用 {currentTrack} 生成您经常听的曲目",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "类似的发布日期",
   "newTracksSimilarrReleaseDateSubtitle": "生成与 {currentTrack} 大约同时发布的曲目",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "曲目年份未知",
+  "newest": "最新的",
   "next": "下一首",
   "no": "不",
-  "none": "无",
-  "nonActive": "未启用",
-  "nonFavourites": "未收藏",
-  "normalizeAudio": "标准化音频",
-  "normalizeAudioSubtitle": "通过读取重播增益标签或 YouTube 提供的信息来标准化音量",
-  "note": "提示",
-  "notification": "通知",
-  "notifications": "通知",
-  "notAvailableForYourDevice": "不适用于您的设备",
-  "notSupportedForNetworkFiles": "不支持网络文件",
   "noChangesFound": "没有发现任何变化。",
   "noEnoughTracks": "您没有足够的曲目…",
   "noExcludedFolders": "您没有任何排除的文件夹",
@@ -636,19 +719,29 @@
   "noTracksFoundBetweenDates": "该时间范围没有任何曲目。",
   "noTracksFoundInDirectory": "在此目录中找不到曲目",
   "noTracksInHistory": "你的历史记录中没有足够的曲目",
+  "nonActive": "未启用",
+  "nonFavourites": "未收藏",
+  "none": "无",
+  "normalizeAudio": "标准化音频",
+  "normalizeAudioSubtitle": "通过读取重播增益标签或 YouTube 提供的信息来标准化音量",
+  "notAvailableForYourDevice": "不适用于您的设备",
+  "notSupportedForNetworkFiles": "不支持网络文件",
+  "note": "提示",
+  "notification": "通知",
+  "notifications": "通知",
   "numberOfTracks": "曲目数量",
   "ofLabel": "的",
   "offlineSearch": "离线搜索",
   "offset": "抵消",
-  "oldestWatch": "最久的观看",
   "oldDirectory": "旧文件夹",
   "oldDirectoryStillHasTracks": "旧文件夹仍然有一些曲目，确认吗？",
-  "ongoing": "进行中",
+  "oldestWatch": "最久的观看",
   "onInterruption": "中断时",
   "onNotificationTap": "点击通知时",
   "onOpeningYoutubeLink": "打开 YouTube 链接时",
   "onSwiping": "滑动操作",
   "onVolumeZero": "音量为 0 时",
+  "ongoing": "进行中",
   "open": "打开",
   "openApp": "打开应用程序",
   "openInFileExplorer": "在文件资源管理器中打开",
@@ -657,24 +750,7 @@
   "openQueue": "打开播放队列",
   "openYoutubeLink": "打开 YouTube 链接",
   "operationRequiresAccount": "操作 {name} 需要账号，请登录以继续",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "操作 {operation} 至少需要会员资格 {name}",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "或者",
   "others": "其他",
   "output": "输出",
@@ -703,6 +779,12 @@
   "pitch": "纯色",
   "plain": "纯文本",
   "play": "播放",
+  "playAfter": "之后播放",
+  "playAfterNextPrev": "自动播放下一个/上一个",
+  "playAll": "全部播放",
+  "playFadeDuration": "播放淡入淡出时长",
+  "playLast": "添加到末尾",
+  "playNext": "添加到下一首",
   "playbackSetting": "播放设置",
   "playbackSettingSubtitle": "可以通过长按音频按钮直接在播放器中访问",
   "playlist": "播放列表",
@@ -710,12 +792,6 @@
   "playlistsImportM3uNative": "这将导入仅供 namida 使用的 M3U 播放列表，如果您正在迁移，请使用",
   "playlistsImportM3uSynced": "这将自动从索引器文件夹导入 M3U 播放列表，并使其与原始 M3U 文件保持同步。如果您从其他应用访问/修改播放列表，请启用",
   "playlistsImportM3uSyncedAutoImport": "自动导入 M3U 播放列表",
-  "playAfter": "之后播放",
-  "playAfterNextPrev": "自动播放下一个/上一个",
-  "playAll": "全部播放",
-  "playFadeDuration": "播放淡入淡出时长",
-  "playLast": "添加到末尾",
-  "playNext": "添加到下一首",
   "pleaseEnterADifferentName": "该名称已存在 :(\n请尝试另一个独特名称",
   "pleaseEnterALink": "请输入链接",
   "pleaseEnterALinkSubtitle": "嗯…这是 YouTube 链接吗？",
@@ -732,16 +808,6 @@
   "private": "私享",
   "progress": "进度",
   "promptIndexingRefresh": "{newFiles} 个新文件已找到且 {deletedFiles} 个文件已被删除或过滤，您想要刷新吗？",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "通常，当您绕过 namida 删除、移动或重命名文件时会发生这种情况，您想更新当前路径吗？",
   "public": "公开",
   "queue": "队列",
@@ -749,10 +815,13 @@
   "random": "随机",
   "randomPicks": "随机选择",
   "rating": "评分",
-  "recentlyAdded": "最近添加",
+  "reIndex": "重新索引",
+  "reIndexSubtitle": "重建您的音乐库",
+  "reIndexWarning": "此过程可能需要一段时间，具体取决于您的库大小。\n\n仍然存在的专辑封面不会被重新索引",
   "recentAlbums": "最近专辑",
   "recentArtists": "最近音乐人",
   "recentListens": "最近收听",
+  "recentlyAdded": "最近添加",
   "recordLabel": "唱片公司",
   "refresh": "刷新",
   "refreshLibrary": "刷新媒体库",
@@ -762,7 +831,6 @@
   "rememberAudioOnlyMode": "记住纯音频模式",
   "remixer": "混音器",
   "remove": "移除",
-  "removed": "已移除",
   "removeDuplicates": "移除重复项",
   "removeFromFavourites": "从收藏夹中移除",
   "removeFromLibrary": "从媒体库中移除",
@@ -770,17 +838,11 @@
   "removeQueue": "移除队列",
   "removeSourceFromHistory": "从历史记录中移除源",
   "removeWhitespaces": "移除空格",
+  "removed": "已移除",
   "rename": "改名",
   "renamePlaylist": "重命名播放列表",
   "reorderable": "可重新排序",
   "repeatForNTimes": "{number, plural, other{再重复 {number} 次}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "重复模式",
   "repeatModeAll": "重复所有队列",
   "repeatModeNone": "播放完最后一首曲目后停止",
@@ -795,59 +857,40 @@
   "respectNoMedia": "遵守 .nomedia",
   "respectNoMediaSubtitle": "不搜索包含 .nomedia 的文件夹",
   "restart": "重新启动",
-  "restoredBackupSuccessfully": "已还原备份",
-  "restoredBackupSuccessfullySub": "备份文件已成功还原",
   "restoreBackup": "还原备份",
   "restoreDefaults": "恢复默认值",
+  "restoredBackupSuccessfully": "已还原备份",
+  "restoredBackupSuccessfullySub": "备份文件已成功还原",
   "resume": "恢复",
   "resumeIfWasInterrupted": "若受其他程序干扰暂停，则恢复播放",
   "resumeIfWasPausedByVolume": "若因静音暂停，则恢复播放",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{若被暂停时长小于 {number} 分钟，则恢复播放}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "returnYoutubeDislike": "Return YouTube Dislike",
   "reverseOrder": "倒序",
-  "reIndex": "重新索引",
-  "reIndexSubtitle": "重建您的音乐库",
-  "reIndexWarning": "此过程可能需要一段时间，具体取决于您的库大小。\n\n仍然存在的专辑封面不会被重新索引",
   "rightAction": "右滑操作",
   "ringtone": "铃声",
   "sameDirectoryOnly": "仅同一目录",
   "sample": "样本",
   "sampleRate": "采样率",
   "save": "保存",
-  "savedIn": "保存于",
   "saveToLibrary": "保存到媒体库",
+  "savedIn": "保存于",
   "scaleMultiplier": "比例倍数",
   "search": "搜索",
   "searchYoutube": "搜索 YouTube",
   "seconds": "秒",
-  "seekbar": "进度条",
+  "seeProjectCodeOnSite": "在 {site} 查看项目代码",
   "seekDuration": "步进时长",
   "seekDurationInfo": "您可以点击当前时长以快退，点击总时长以快进",
-  "seeProjectCodeOnSite": "在 {site} 查看项目代码",
-  "@seeProjectCodeOnSite": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
-  "selectedTracks": "已选曲目",
+  "seekbar": "进度条",
   "selectAll": "全选",
   "selectFilesAlreadyInLocalLibrary": "选择本地库中已有的文件",
+  "selectedTracks": "已选曲目",
   "selfPromotion": "自我推广内容",
   "semitones": "半音",
   "separatorsBlacklistSubtitle": "这些词不会被分割",
   "separatorsMessage": "无需插入空格，除非您想凭借单个字母或符号寻找特定词（例如 x 和 ft)。",
   "serverAddress": "服务器地址",
-  "settings": "设置",
-  "setupFirstStartup": "首次启动设置",
   "setAs": "设置为",
   "setAsDefault": "设为默认",
   "setFileLastModifiedAsVideoUploadDate": "将文件上次修改日期设置为视频上传日期",
@@ -856,6 +899,8 @@
   "setRating": "设置评级",
   "setTags": "设置标签",
   "setYoutubeLink": "设置 YouTube 链接",
+  "settings": "设置",
+  "setupFirstStartup": "首次启动设置",
   "share": "分享",
   "shareLogs": "分享日志",
   "shortcuts": "快捷方式",
@@ -877,8 +922,6 @@
   "shuffle": "随机播放",
   "shuffleAll": "全部随机播放",
   "shuffleNext": "随机播放下一个",
-  "signingInAllowsBasicUsage": "登录后即可使用基本功能",
-  "signingInAllowsBasicUsageSubtitle": "通过 Patreon 或使用兑换码抢先体验",
   "signIn": "登录",
   "signInCanceled": "登录已取消",
   "signInFailed": "登录失败",
@@ -887,31 +930,12 @@
   "signInYouNeedAccountToViewPage": "您需要一个账号才能查看此页面",
   "signOut": "登出",
   "signOutFromName": "从 {name} 登出",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "登录后即可使用基本功能",
+  "signingInAllowsBasicUsageSubtitle": "通过 Patreon 或使用兑换码抢先体验",
   "similarDiscoverDate": "相似发现日期",
   "similarDiscoverDateSubtitle": "生成与 {currentTrack} 同时期发现的曲目",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "相似时间范围",
   "similarTimeRangeSubtitle": "生成与 {currentTrack} 同时段收听过的曲目",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "单曲",
   "size": "尺寸",
   "skip": "跳过",
@@ -946,13 +970,6 @@
   "subscribers": "订阅者",
   "succeeded": "成功了",
   "suggestionSubtitle": "遇到问题或有建议？请在 {site} 上反馈",
-  "@suggestionSubtitle": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
   "support": "支持",
   "supremacy": "霸权",
   "sussyBaka": "emmm, 没有曲目",
@@ -960,8 +977,8 @@
   "swipeToOpenDrawer": "滑动打开抽屉",
   "synced": "已同步",
   "synopsis": "概要",
-  "tags": "标签",
   "tagFields": "标签字段",
+  "tags": "标签",
   "tapAction": "点击操作",
   "tapToSeek": "点击步进",
   "themeMode": "主题模式",
@@ -977,17 +994,14 @@
   "top": "热门",
   "topComments": "热门评论",
   "topCommentsSubtitle": "在顶部而非底部显示评论",
-  "topRecents": "最近热门",
   "topRecentAlbums": "最近热门专辑",
   "topRecentArtists": "最新热门音乐人",
-  "totalListens": "总收听次数",
+  "topRecents": "最近热门",
   "totalListenTime": "总收听时间",
+  "totalListens": "总收听次数",
   "totalTracks": "总曲目数",
   "totalTracksDuration": "曲目总时长",
   "track": "曲目",
-  "tracks": "曲目",
-  "tracksExcludedByNomedia": ".nomedia 排除的曲目",
-  "tracksInfo": "曲目信息",
   "trackArtistsSeparator": "音乐人分隔符",
   "trackGenresSeparator": "流派分隔符",
   "trackInfo": "曲目信息",
@@ -995,16 +1009,6 @@
   "trackNumber": "曲目号",
   "trackNumberTotal": "曲目总数",
   "trackPathOldNew": "旧名称：“{oldName}”\n\n新名称：“{newName}”\n\n您确定吗？",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "播放模式",
   "trackPlayModeSearchResults": "搜索结果",
   "trackPlayModeSelectedOnly": "仅选定曲目",
@@ -1014,6 +1018,9 @@
   "trackThumbnailSizeInList": "曲目缩略图的大小",
   "trackTileCustomization": "曲目图块定制",
   "trackTileItemsSeparator": "项目分隔符",
+  "tracks": "曲目",
+  "tracksExcludedByNomedia": ".nomedia 排除的曲目",
+  "tracksInfo": "曲目信息",
   "underrated": "被低估",
   "undo": "撤消",
   "undoChanges": "撤消更改？",
@@ -1028,18 +1035,17 @@
   "updateDirectoryPath": "更新目录路径",
   "updateMissingTracksOnly": "仅更新缺失曲目",
   "updating": "更新中",
-  "used": "已使用",
   "useCollapsedSettingTiles": "使用折叠设置图块",
   "useMediaStore": "使用媒体存储",
   "useMediaStoreSubtitle": "✓ 即时索引\nx 将强制遵循 .nomedia\nx 部分元数据标签将丢失\nx 本地媒体库的 YouTube 集成将无法工作",
   "usePitchBlack": "使用纯黑模式",
   "usePitchBlackSubtitle": "适用于 AMOLED 屏幕……而且看起来更酷",
+  "used": "已使用",
   "value": "值",
   "valueBetween50200": "值应介于 50% 和 200% 之间",
   "vibration": "振动",
   "vibrationType": "振动类型",
   "video": "视频",
-  "videos": "视频",
   "videoCache": "视频缓存",
   "videoCacheFile": "已缓存的视频文件",
   "videoCacheFiles": "已缓存的视频文件",
@@ -1054,9 +1060,10 @@
   "videoQuality": "视频画质",
   "videoQualitySubtitle": "将选择可用的最高画质。",
   "videoQualitySubtitleNote": "最好保留更多的替代方案，以防找不到合适的画质，否则将会退回到最差画质",
+  "videos": "视频",
   "view": "次观看",
-  "views": "次观看",
   "viewAll": "观看全部",
+  "views": "次观看",
   "volume": "音量",
   "warning": "警告",
   "waveformBarsCount": "波形条数",
@@ -1065,13 +1072,6 @@
   "year": "年",
   "yes": "是",
   "yourCurrentMembershipIs": "您当前的会员资格是 {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "您的自定义排序将会丢失，是否确定？",
   "youtube": "YouTube",
   "youtubeMusic": "YouTube Music",
