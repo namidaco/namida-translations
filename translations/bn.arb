@@ -1,9 +1,246 @@
 {
   "@@locale": "bn",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "পরিচিতি",
   "active": "সক্রিয়",
   "add": "যোগ করুন",
-  "added": "যোগ করা হয়েছে",
   "addAccount": "অ্যাকাউন্ট যোগ করুন",
   "addAll": "সব যোগ করুন",
   "addAllAndRemoveOldOnes": "সব যোগ করুন এবং পুরনোগুলো সরিয়ে দিন",
@@ -17,29 +254,23 @@
   "addMoreFromThisArtist": "এই শিল্পী থেকে কিউতে আরও যোগ করুন",
   "addMoreFromThisFolder": "এই ফোল্ডার থেকে কিউতে আরও যোগ করুন",
   "addMoreFromToQueue": "{media} থেকে আরও গান কিউতে যোগ করুন",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "শুধু অনুপস্থিতগুলো যোগ করুন",
   "addToFavourites": "পছন্দের তালিকায় যোগ করুন",
   "addToPlaylist": "প্লেলিস্টে যোগ করুন",
   "addTracksAtTheBeginning": "ট্র্যাকের শুরুতে যোগ করুন",
+  "added": "যোগ করা হয়েছে",
   "advanced": "উন্নত",
   "advancedSettings": "উন্নত সেটিংস",
   "advancedSettingsSubtitle": "উন্নত সেটিংস, পরিবর্তন না করাই শ্রেয়",
   "alarm": "অ্যালার্ম",
   "album": "অ্যালবাম",
-  "albums": "অ্যালবাম",
-  "albumsCount": "অ্যালবামের সংখ্যা",
   "albumArtist": "অ্যালবাম শিল্পী",
   "albumArtists": "অ্যালবাম শিল্পী",
   "albumIdentifiers": "অ্যালবাম সনাক্তকারী",
   "albumThumbnailSizeInList": "অ্যালবাম থাম্বনেইলের আকার",
   "albumTileCustomization": "অ্যালবাম টাইল কাস্টমাইজেশন",
+  "albums": "অ্যালবাম",
+  "albumsCount": "অ্যালবামের সংখ্যা",
   "all": "সব",
   "allTime": "সবসময়",
   "alreadyExists": "ইতিমধ্যেই বিদ্যমান",
@@ -57,14 +288,12 @@
   "artist": "শিল্পী",
   "artists": "শিল্পী",
   "artwork": "আর্টওয়ার্ক",
-  "artworks": "আর্টওয়ার্ক",
   "artworkGestures": "আর্টওয়ার্ক জেসচার",
+  "artworks": "আর্টওয়ার্ক",
   "audio": "অডিও",
   "audioCache": "অডিও ক্যাশ",
   "audioOnly": "শুধুমাত্র অডিও",
   "auto": "স্বয়ংক্রিয়",
-  "automaticBackup": "স্বয়ংক্রিয় ব্যাকআপ",
-  "automaticBackupSubtitle": "ব্যাকআপ লোকেশনে পাওয়া সাম্প্রতিক ব্যাকআপ ফাইল স্বয়ংক্রিয়ভাবে প্রয়োগ করে",
   "autoBackupInterval": "স্বয়ংক্রিয় ব্যাকআপ ব্যবধান",
   "autoColoring": "স্বয়ংক্রিয় রঙ নির্ধারণ",
   "autoColoringSubtitle": "বর্তমান আর্টওয়ার্ক দ্বারা স্বয়ংক্রিয়ভাবে প্লেয়ারের রঙ নির্ধারণ করুন",
@@ -75,6 +304,8 @@
   "autoSkipOnce": "স্বয়ংক্রিয়ভাবে একবার এড়িয়ে যান",
   "autoStartRadio": "অটো-রেডিও চালু করুন",
   "autoStartRadioSubtitle": "একটি একক ট্র্যাক চালানোর সময় স্বয়ংক্রিয়ভাবে একটি মিক্স প্লেলিস্ট যোগ করে",
+  "automaticBackup": "স্বয়ংক্রিয় ব্যাকআপ",
+  "automaticBackupSubtitle": "ব্যাকআপ লোকেশনে পাওয়া সাম্প্রতিক ব্যাকআপ ফাইল স্বয়ংক্রিয়ভাবে প্রয়োগ করে",
   "backupAndRestore": "ব্যাকআপ ও পুনরুদ্ধার",
   "backupAndRestoreSubtitle": "আপনার ডাটাবেস এবং সেটিংস ব্যাকআপ করুন",
   "balanced": "ভারসাম্যপূর্ণ",
@@ -103,26 +334,19 @@
   "clearImageCacheWarning": "সতর্কতা: লাইব্রেরি ট্র্যাকে কোনো আর্টওয়ার্ক থাকবে না! শুধুমাত্র ইমেজ ক্যাশ পুনরায় তৈরি করার জন্য এটি ব্যবহার করুন।",
   "clearTrackItem": "ট্র্যাকের বিষয়বস্তু সাফ করুন",
   "clearTrackItemMultiple": "{number, plural, other{{number} টি ট্র্যাকের বিষয়বস্তু সাফ করুন}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "ভিডিওর ক্যাশ সাফ করুন",
   "clearVideoCacheNote": "আপনি চাইলে নির্দিষ্ট ফাইল বেছে নিতে পারেন।",
   "clock": "ঘড়ি",
   "colorPalette": "রঙের প্যালেট",
-  "colorPalettes": "রঙের প্যালেটসমূহ",
   "colorPaletteNote1": "চাইলে লং-প্রেস করে রঙ সরিয়ে ফেলতে পারেন",
   "colorPaletteNote2": "ডিফল্ট রঙ হিসেবে ব্যবহার করতে মিক্সে ট্যাপ করুন",
+  "colorPalettes": "রঙের প্যালেটসমূহ",
   "comment": "মন্তব্য",
   "comments": "মন্তব্যসমূহ",
   "composer": "সুরকার",
   "compress": "কমপ্রেস করুন",
-  "compressionPercentage": "কমপ্রেশন শতাংশ",
   "compressImages": "ছবি কমপ্রেস করুন",
+  "compressionPercentage": "কমপ্রেশন শতাংশ",
   "configure": "কনফিগার",
   "confirm": "নিশ্চিত করুন",
   "copiedArtwork": "আর্টওয়ার্ক সংরক্ষণ করা হয়েছে",
@@ -137,35 +361,21 @@
   "country": "দেশ",
   "coupon": "কুপন",
   "create": "তৈরি করুন",
-  "createdBackupSuccessfully": "ব্যাকআপ তৈরি করা হয়েছে",
-  "createdBackupSuccessfullySub": "ব্যাকআপ ফাইল সফলভাবে তৈরি করা হয়েছে",
   "createBackup": "ব্যাকআপ তৈরি করুন",
   "createNewPlaylist": "নতুন প্লেলিস্ট তৈরি করুন",
+  "createdBackupSuccessfully": "ব্যাকআপ তৈরি করা হয়েছে",
+  "createdBackupSuccessfullySub": "ব্যাকআপ ফাইল সফলভাবে তৈরি করা হয়েছে",
+  "crossPlatformSync": "ক্রস-প্ল্যাটফর্ম সিঙ্ক",
   "crossfadeDuration": "ক্রসফেড সময়কাল",
   "crossfadeTriggerSeconds": "{seconds, plural, other{স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করুন শেষ {seconds} সেকেন্ডে}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করবেন না",
-  "crossPlatformSync": "ক্রস-প্ল্যাটফর্ম সিঙ্ক",
   "custom": "কাস্টম",
   "customizations": "কাস্টমাইজেশন",
   "customizationsSubtitle": "Namida-কে আপনার নিজের মতো করে কাস্টমাইজ করুন",
-  "database": "ডাটাবেস",
   "dataIsProvidedByName": "ডেটা সরবরাহকারী: {name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "ডেটা সেভার",
   "dataSaverMode": "ডেটা সেভার মোড",
+  "database": "ডাটাবেস",
   "date": "তারিখ",
   "dateAdded": "যোগ করার তারিখ",
   "dateCreated": "তৈরির তারিখ",
@@ -173,32 +383,15 @@
   "dateTimeFormat": "তারিখ ও সময়ের ফরম্যাট",
   "day": "দিন",
   "days": "দিন",
-  "defaultLabel": "ডিফল্ট",
   "defaultBackupLocation": "ডিফল্ট ব্যাকআপ অবস্থান",
   "defaultColor": "ডিফল্ট রঙ",
   "defaultColorSubtitle": "প্লেয়ারে ব্যবহৃত হওয়ার জন্য একটি রঙ নির্ধারণ করুন",
   "defaultDownloadLocation": "ডিফল্ট ডাউনলোড এর অবস্থান",
+  "defaultLabel": "ডিফল্ট",
   "defaultLibraryTab": "ডিফল্ট লাইব্রেরি ট্যাব",
   "delete": "ডিলিট করুন",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{{filesCount} টি ফাইল, যার মোট সাইজ {totalSize}, ডিলিট করবেন?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{নিশ্চিত করুন, আপনি কি স্থায়ীভাবে {number} ডিলিট করতে চান}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "প্লেলিস্ট ডিলিট করুন",
   "deleteTempFiles": "অস্থায়ী ফাইল ডিলিট করুন",
   "description": "বর্ণনা",
@@ -207,21 +400,14 @@
   "didYouMean": "আপনি কি বোঝাতে চেয়েছেন",
   "dimIntensity": "ম্লান করার তীব্রতা",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{নিষ্ক্রিয়তা থাকার {seconds} সেকেন্ড পর মিনিপ্লেয়ার ম্লান করুন}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "ডিরেক্টরির অস্তিত্ব নেই",
   "disable": "নিষ্ক্রিয় করুন",
   "disableAll": "সব নিষ্ক্রিয় করুন",
   "disableReordering": "পুনর্বিন্যাস নিষ্ক্রিয় করুন",
   "disableSearchCleanup": "সার্চ ক্লিনআপ নিষ্ক্রিয় করুন",
-  "discover": "ডিসকভার",
   "discNumber": "ডিস্ক নম্বর",
   "discNumberTotal": "ডিস্কের মোট সংখ্যা",
+  "discover": "ডিসকভার",
   "dislike": "ডিসলাইক",
   "dismissibleMiniplayer": "খারিজযোগ্য মিনিপ্লেয়ার",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "সিক করার সময় পার্থক্যের পরিবর্তে প্রকৃত অবস্থান প্রদর্শন করুন",
@@ -230,15 +416,16 @@
   "displayArtistBeforeTitle": "শিরোনামের উপরে শিল্পী প্রদর্শন করুন",
   "displayArtworkOnLockscreen": "লকস্ক্রিনে আর্টওয়ার্ক প্রদর্শন করুন",
   "displayAudioInfoInMiniplayer": "অডিওর তথ্য প্রদর্শন করুন",
-  "displayFavouriteIconInTrackTile": "পছন্দের বোতাম প্রদর্শন করুন",
   "displayFavButtonInNotification": "নোটিফিকেশনে পছন্দের বোতাম প্রদর্শন করুন",
   "displayFavButtonInNotificationSubtitle": "থাম্বনেইল স্থানচ্যুত হতে পারে।",
+  "displayFavouriteIconInTrackTile": "পছন্দের বোতাম প্রদর্শন করুন",
   "displayRemainingDurationInsteadOfTotal": "মোট সময়ের পরিবর্তে অবশিষ্ট সময় প্রদর্শন করুন",
   "displayStopButtonInNotification": "নোটিফিকেশনে স্টপ বোতাম প্রদর্শন করুন",
   "displayThirdItemInRowInTrackTile": "প্রতিটি সারিতে তৃতীয় আইটেম প্রদর্শন করুন",
   "displayThirdRowInTrackTile": "ট্র্যাক বক্সে তৃতীয় সারি প্রদর্শন করুন",
   "displayTrackNumberInAlbumPage": "অ্যালবাম পেজে ট্র্যাক নম্বর প্রদর্শন করুন",
   "displayTrackNumberInAlbumPageSubtitle": "অ্যালবাম পেজে ট্র্যাক নম্বর সম্বলিত একটি ছোট বাক্স প্রদর্শন করুন",
+  "doNothing": "কিছুই করবে না",
   "donate": "অনুদান দিন",
   "donateSubtitle": "অ্যাপটি আরও উন্নত করতে অনুদান দিতে পারেন",
   "done": "সম্পন্ন",
@@ -252,7 +439,6 @@
   "downloads": "ডাউনলোডসমূহ",
   "downloadsMetadataTags": "মেটাডেটা ট্যাগসমূহ ডাউনলোড করুন",
   "downloadsMetadataTagsSubtitle": "ডিফল্টভাবে ভিডিও তথ্য থেকে শিল্পী, শিরোনাম ও অ্যালবাম বের করুন",
-  "doNothing": "কিছুই করবে না",
   "dragToSeek": "সিক করতে টেনে আনুন",
   "duckAudio": "অডিও ধীর করুন",
   "duplicatedItemsAdding": "আপনি এমন কিছু আইটেম যোগ করার চেষ্টা করছেন যা ইতিমধ্যে এই প্লেলিস্টে বিদ্যমান",
@@ -279,13 +465,6 @@
   "enableM3uSync": "M3U সিঙ্ক সক্রিয় করুন",
   "enableM3uSyncNote1": "M3U সিঙ্ক প্লেলিস্টের পরিবর্তন মূল M3U ফাইলে সংরক্ষণ করতে দেয়",
   "enableM3uSyncNote2": "কিছু ভুল হলে, এই প্লেলিস্টের একটি ব্যাকআপ {playlistsBackupPath} এ পাওয়া যাবে",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "যদি অস্বীকার করা হয়, এই প্লেলিস্টে করা সমস্ত পরিবর্তন পুনরায় চালু করার সময় হারিয়ে যাবে",
   "enableMiniplayerParticles": "উড়ন্ত কণাগুলো সক্রিয় করুন",
   "enableParallaxEffect": "প্যারালাক্স ইফেক্ট সক্রিয় করুন",
@@ -310,18 +489,11 @@
   "extension": "এক্সটেনশন",
   "externalFiles": "বাহ্যিক ফাইলসমূহ",
   "extract": "এক্সট্র্যাক্ট করুন",
-  "extractingInfo": "তথ্য এক্সট্র্যাক্ট করা হচ্ছে",
   "extractAllColorPalettes": "সব রঙের প্যালেট এক্সট্র্যাক্ট করুন",
   "extractAllColorPalettesSubtitle": "{number, plural, other{{remainingColorPalettes} টি প্যালেট বাকি আছে, এক্সট্র্যাক্ট করবেন?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "শিরোনাম থেকে শিল্পী বের করুন",
   "extractFeatArtistSubtitle": "(feat. X) এবং (ft. X) শিল্পীগুলোকে একটি নতুন শিল্পী এন্ট্রি হিসেবে বের করে।",
+  "extractingInfo": "তথ্য এক্সট্র্যাক্ট করা হচ্ছে",
   "extras": "অতিরিক্ত",
   "extrasSubtitle": "আপনার অভিজ্ঞতা ঠিক করতে অতিরিক্ত সেটিংস",
   "extreme": "উচ্চ",
@@ -332,28 +504,28 @@
   "fetching": "লোড হচ্ছে",
   "fetchingOfAllVideos": "সব ভিডিও লোড করা হচ্ছে",
   "file": "ফাইল",
-  "filenameShouldntStartWith": "ফাইলের নাম এটা দিয়ে শুরু হওয়া উচিত নয়",
-  "files": "ফাইলসমূহ",
   "fileAlreadyExists": "ফাইল ইতিমধ্যে বিদ্যমান",
   "fileBasedServerWarning": "ইনডেক্সিং (Indexing) করার জন্য ফাইলগুলো সাময়িকভাবে ডাউনলোড করা হবে।\nনিশ্চিত করুন আপনার ইন্টারনেট সংযোগ স্থিতিশীল আছে। অতিরিক্ত ডেটা খরচ এড়াতে ওয়াই-ফাই (Wi-Fi) ব্যবহার করুন।",
   "fileName": "ফাইলের নাম",
   "fileNameWoExt": "এক্সটেনশন ছাড়া ফাইলের নাম",
+  "filenameShouldntStartWith": "ফাইলের নাম এটা দিয়ে শুরু হওয়া উচিত নয়",
+  "files": "ফাইলসমূহ",
   "filler": "ফিলার",
-  "filteredBySizeAndDuration": "আকার এবং সময়কাল দ্বারা ফিল্টার করা ট্র্যাকসমূহ",
   "filterAlbums": "অ্যালবাম ফিল্টার করুন",
   "filterArtists": "শিল্পী ফিল্টার করুন",
   "filterGenres": "জনরা ফিল্টার করুন",
   "filterPlaylists": "প্লেলিস্ট ফিল্টার করুন",
   "filterTracks": "ট্র্যাক ফিল্টার করুন",
   "filterTracksBy": "অনুসন্ধান তালিকায় ট্র্যাক ফিল্টার করুন",
+  "filteredBySizeAndDuration": "আকার এবং সময়কাল দ্বারা ফিল্টার করা ট্র্যাকসমূহ",
   "finished": "সম্পন্ন হয়েছে",
   "finishedUpdatingLibrary": "লাইব্রেরি আপডেট সম্পন্ন হয়েছে",
   "firstListen": "প্রথম শ্রবণ",
   "fixYtdlpBigThumbnailSize": "yt-dlp বড় থাম্বনেইলের আকার ঠিক করুন",
   "floatingActionButton": "ভাসমান অ্যাকশন বোতাম",
   "folder": "ফোল্ডার",
-  "folders": "ফোল্ডার",
   "folderName": "ফোল্ডারের নাম",
+  "folders": "ফোল্ডার",
   "fontScale": "ফন্ট স্কেল",
   "forceMiniplayerFollowTrackColors": "মিনিপ্লেয়ারকে ট্র্যাকের রঙ অনুসরণ করতে বাধ্য করুন",
   "forceSquaredAlbumThumbnail": "সকল অ্যালবাম থাম্বনেইল বর্গাকার করুন",
@@ -369,11 +541,11 @@
   "generateRandomPlaylist": "এলোমেলো প্লেলিস্ট তৈরি করুন",
   "genre": "জনরা",
   "genres": "জনরা",
-  "goodLooking": "আকর্ষণীয়",
   "goToAlbum": "অ্যালবামে যান",
   "goToArtist": "শিল্পীতে যান",
   "goToChannel": "চ্যানেলে যান",
   "goToFolder": "ফোল্ডারে যান",
+  "goodLooking": "আকর্ষণীয়",
   "grantStoragePermission": "স্টোরেজ পারমিশন দিন",
   "group": "গ্রুপ",
   "groupArtworksByAlbum": "অ্যালবাম দ্বারা আর্টওয়ার্ক গ্রুপ করুন",
@@ -382,79 +554,39 @@
   "heightOfAlbumTile": "অ্যালবাম টাইলের উচ্চতা",
   "heightOfTrackTile": "ট্র্যাক টাইলের উচ্চতা",
   "hideSkipButtonAfter": "এরপর স্কিপ বোতাম লুকান",
-  "highlight": "হাইলাইট",
   "highMatches": "সর্বোচ্চ মিলসমূহ",
   "highPerformance": "সর্বোচ্চ কার্যক্ষমতা",
+  "highlight": "হাইলাইট",
   "history": "ইতিহাস",
   "historyImportMissingEntriesNote": "এই এন্ট্রিগুলো লাইব্রেরির ভিতরে পাওয়া যায়নি, যদি আপনি বিশ্বাস করেন যে সেগুলো বিদ্যমান, দয়া করে সেগুলো ম্যানুয়ালি যোগ করার কথা বিবেচনা করুন",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "হোম",
   "hook": "হুক",
   "host": "হোস্ট",
-  "hours": "ঘণ্টা",
   "hourFormat12": "১২ ঘণ্টার ফরম্যাট",
+  "hours": "ঘণ্টা",
+  "iReadAndAgree": "আমি পড়েছি এবং সম্মত",
   "ifNotPlaying": "যদি চালানো না হয়",
-  "ignores": "উপেক্ষা",
   "ignoreBatteryOptimizationsSubtitle": "অ্যাপ ব্যাটারি সীমাবদ্ধ থাকলে ডাউনলোড গতি কমে যেতে পারে",
   "ignoreCommonPrefixesWhileSorting": "সাধারণ উপসর্গগুলো উপেক্ষা করুন",
+  "ignores": "উপেক্ষা",
   "imageSource": "ছবির উৎস",
   "immersiveMode": "ইমারসিভ মোড",
   "immersiveModeSubtitle": "মিনিপ্লেয়ার প্রসারিত থাকাকালীন স্ট্যাটাস এবং নেভিগেশন বার লুকান",
   "import": "ইম্পোর্ট",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number} টি চ্যানেল সফলভাবে ইম্পোর্ট করা হয়েছে}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} টি প্লেলিস্ট সফলভাবে ইম্পোর্ট করা হয়েছে}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "সব ইম্পোর্ট করুন",
   "importLastFmHistory": "LastFm ইতিহাস ইম্পোর্ট করুন",
   "importLastFmHistoryGuide": "1. {lastfmCsvLink} -এ যান।\n\n2. আপনার ইউজারনেম লিখুন, তথ্যগুলো সংগ্রহ করুন এবং সিএসভি (csv) ফাইলটি ডাউনলোড করুন।\n\n3. পরবর্তী স্ক্রিন থেকে ফাইলটি নির্বাচন করুন।",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "ইম্পোর্ট সময় পরিসীমা",
   "importYoutubeHistory": "ইউটিউব ইতিহাস ইম্পোর্ট করুন",
   "importYoutubeHistoryGuide": "1. {takeoutLink} -এ যান।\n\n2. \"Multiple Formats\" -এ ক্লিক করুন এবং \"History\"-এর পাশে \"JSON\" অপশনটি বেছে নিন।\n\n3. \"All Youtube data included\" -এ ক্লিক করে সব ডি-সিলেক্ট (Deselect) করুন এবং শুধু \"history\" সিলেক্ট করুন।\n\n4. এক্সপোর্ট তৈরি করে ফাইলটি ডাউনলোড এবং আনজিপ (Unzip) করুন।\n\n5. পরবর্তী স্ক্রিন থেকে \"watch-history.json\" ফাইলটি বেছে নিন।",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{{number} টি চ্যানেল সফলভাবে ইম্পোর্ট করা হয়েছে}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} টি প্লেলিস্ট সফলভাবে ইম্পোর্ট করা হয়েছে}}",
   "includeVideos": "ভিডিও অন্তর্ভুক্ত করুন",
+  "indexRefreshRequired": "পরিবর্তনের পর একবার রিফ্রেশ করুন",
   "indexer": "ইনডেক্সার",
   "indexerNote": "দ্রষ্টব্য: অসম্পূর্ণ সংখ্যক আর্টওয়ার্ক সদৃশ এবং না পাওয়া আর্টওয়ার্কগুলিকে বোঝায়",
   "indexerSubtitle": "আপনার সঙ্গীত লাইব্রেরি নিয়ন্ত্রন করুন",
-  "indexRefreshRequired": "পরিবর্তনের পর একবার রিফ্রেশ করুন",
   "infinityQueueOnNextPrev": "পরবর্তী/পূর্ববর্তীতে ইনফিনিটি কিউ",
   "infinityQueueOnNextPrevSubtitle": "শেষ ট্র্যাক চালানোর সময় 'পরবর্তী' বোতাম চাপলে প্রথম ট্র্যাকে চলে যাবে, এবং তদ্বিপরীত",
   "info": "তথ্য",
@@ -465,7 +597,6 @@
   "invertSelection": "নির্বাচন বিপরীত করুন",
   "issues": "সমস্যা",
   "item": "আইটেম",
-  "iReadAndAgree": "আমি পড়েছি এবং সম্মত",
   "jump": "যান",
   "jumpToDay": "দিনে যান",
   "jumpToFirstTrackAfterQueueFinish": "কিউ শেষ হওয়ার পর প্রথম ট্র্যাকে চলে যান",
@@ -488,8 +619,8 @@
   "liked": "লাইক করা হয়েছে",
   "link": "লিঙ্ক",
   "listOfFolders": "নির্বাচিত ফোল্ডার",
-  "loadingFile": "ফাইল লোড হচ্ছে",
   "loadAll": "সব লোড করুন",
+  "loadingFile": "ফাইল লোড হচ্ছে",
   "local": "স্থানীয়",
   "localVideoMatching": "স্থানীয় ভিডিও ম্যাচিং",
   "login": "লগইন",
@@ -497,13 +628,6 @@
   "longPressTheLyricsToEnterFullscreen": "ফুলস্ক্রিনে লিরিক্স দেখতে লং-প্রেস করুন",
   "lostMemories": "হারানো স্মৃতিসমূহ",
   "lostMemoriesSubtitle": "{number, plural, other{{number} বছরের কাছাকাছি সময় আগের}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "lostPartners": "পুরনো সাথী",
   "loudnessEnhancer": "লাউডনেস এনহ্যান্সার",
   "lyricist": "গীতিকার",
@@ -516,13 +640,13 @@
   "manualBackup": "ম্যানুয়াল",
   "manualBackupSubtitle": "একটি নির্দিষ্ট ফাইল নির্বাচন করুন",
   "markAsRead": "পড়া হয়েছে হিসাবে চিহ্নিত করুন",
-  "matchingType": "ম্যাচিং এর ধরন",
   "matchAllTracks": "সমস্ত ট্র্যাক ম্যাচ করুন",
   "matchAllTracksNote": "এটি ম্যাচিং গতিতে প্রভাব ফেলতে পারে, কারণ এটি আপনার লাইব্রেরির সমস্ত ট্র্যাক চেক করবে",
-  "maximum": "সর্বোচ্চ",
+  "matchingType": "ম্যাচিং এর ধরন",
   "maxAudioCacheSize": "সর্বোচ্চ অডিওর ক্যাশ",
   "maxImageCacheSize": "সর্বোচ্চ ছবির ক্যাশ",
   "maxVideoCacheSize": "সর্বোচ্চ ভিডিওর ক্যাশ",
+  "maximum": "সর্বোচ্চ",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "মিডিয়া স্টোর সক্রিয়, এর কোন প্রভাব থাকবে না",
   "medium": "মধ্যম",
   "membershipCode": "কোড",
@@ -535,45 +659,28 @@
   "membershipSignInToPatreonAccount": "আপনার প্যাট্রিয়ন অ্যাকাউন্টে সাইন ইন করুন",
   "membershipUnknown": "অজানা সদস্যপদ",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "একাধিক অ্যাকাউন্ট যোগ করতে আপনার {name1} বা {name2} এর সদস্যপদ প্রয়োজন",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "একত্রিত করুন",
   "metadataCache": "মেটাডেটা ক্যাশ",
   "metadataEditFailed": "মেটাডেটা সম্পাদনা ব্যর্থ হয়েছে",
   "metadataReadFailed": "মেটাডেটা পড়া ব্যর্থ হয়েছে",
-  "minimizedMiniplayer": "সঙ্কুচিত মিনিপ্লেয়ার",
-  "minimum": "সর্বনিম্ন",
-  "minimumOneFolderSubtitle": "কমপক্ষে ১টি ফোল্ডার থাকা উচিত, আপনি যদি এটি সরাতে চান তবে আরও ফোল্ডার যোগ করুন",
-  "minimumOneItem": "আইটেম সরানো যায়নি",
-  "minimumOneItemSubtitle": "{number, plural, other{কমপক্ষে {number} আইটেম অবশিষ্ট থাকা উচিত}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "minimumSegmentDuration": "সর্বনিম্ন সেগমেন্ট সময়কাল",
-  "miniplayerCustomization": "মিনিপ্লেয়ার কাস্টমাইজেশন",
-  "minutes": "মিনিট",
   "minFileDuration": "সর্বনিম্ন ট্র্যাক সময়কাল",
   "minFileSize": "সর্বনিম্ন ফাইল সাইজ",
   "minTrackDurationToRestoreLastPosition": "শেষবার শ্রবণের অবস্থান পুনরুদ্ধার করতে সর্বনিম্ন ট্র্যাক সময়কাল",
   "minValueCantBeMoreThanMax": "সর্বনিম্ন মান সর্বোচ্চ মানের চেয়ে বেশি হতে পারে না",
   "minValueToCountTrackListen": "কতটুকু শোনা হলে শ্রবণ হিসেবে গণনা করা হবে ",
+  "minimizedMiniplayer": "সঙ্কুচিত মিনিপ্লেয়ার",
+  "minimum": "সর্বনিম্ন",
+  "minimumOneFolderSubtitle": "কমপক্ষে ১টি ফোল্ডার থাকা উচিত, আপনি যদি এটি সরাতে চান তবে আরও ফোল্ডার যোগ করুন",
+  "minimumOneItem": "আইটেম সরানো যায়নি",
+  "minimumOneItemSubtitle": "{number, plural, other{কমপক্ষে {number} আইটেম অবশিষ্ট থাকা উচিত}}",
+  "minimumSegmentDuration": "সর্বনিম্ন সেগমেন্ট সময়কাল",
+  "miniplayerCustomization": "মিনিপ্লেয়ার কাস্টমাইজেশন",
+  "minutes": "মিনিট",
   "missingEntries": "অনুপস্থিত এন্ট্রিসমূহ",
   "missingTracks": "অনুপস্থিত ট্র্যাকসমূহ",
   "mix": "মিক্স",
-  "mixes": "মিক্সসমূহ",
   "mixPlaylistGeneratedByYoutube": "ইউটিউব দ্বারা তৈরি মিক্স প্লেলিস্ট",
+  "mixes": "মিক্সসমূহ",
   "mobile": "মোবাইল",
   "month": "মাস",
   "months": "মাস",
@@ -586,7 +693,6 @@
   "name": "নাম",
   "nameContainsBadCharacter": "নামে খারাপ অক্ষর রয়েছে",
   "never": "কখনো না",
-  "newest": "নতুন",
   "newDirectory": "নতুন ডিরেক্টরি",
   "newTracksAdd": "ট্র্যাক যোগ করুন",
   "newTracksMoods": "মুড",
@@ -597,35 +703,12 @@
   "newTracksRatingsSubtitle": "নির্দিষ্ট রেটিং আছে এমন ট্র্যাক উৎপন্ন করুন",
   "newTracksRecommended": "সুপারিশকৃত",
   "newTracksRecommendedSubtitle": "আপনি সাধারণত {currentTrack} এর সাথে শোনা ট্র্যাকগুলো উৎপন্ন করুন",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "সদৃশ মুক্তির তারিখ",
   "newTracksSimilarrReleaseDateSubtitle": "{currentTrack} এর প্রায় একই সময়ে মুক্তিপ্রাপ্ত ট্র্যাকগুলো উৎপন্ন করুন",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "ট্র্যাকের বছর অজানা",
+  "newest": "নতুন",
   "next": "পরবর্তী",
   "no": "না",
-  "none": "কোনোটিই নয়",
-  "nonActive": "নিষ্ক্রিয়",
-  "nonFavourites": "অপছন্দসমূহ",
-  "normalizeAudio": "অডিও স্বাভাবিক করুন",
-  "normalizeAudioSubtitle": "রিপ্লে গেইন ট্যাগ বা ইউটিউব প্রদত্ত তথ্য পড়ে ভলিউম স্বাভাবিক করে",
-  "note": "দ্রষ্টব্য",
-  "notification": "নোটিফিকেশন",
-  "notifications": "নোটিফিকেশন",
-  "notAvailableForYourDevice": "আপনার ডিভাইসের জন্য উপলব্ধ নয়",
-  "notSupportedForNetworkFiles": "নেটওয়ার্ক ফাইলের জন্য সমর্থিত নয়",
   "noChangesFound": "কোনো পরিবর্তন পাওয়া যায়নি।",
   "noEnoughTracks": "আপনার কাছে যথেষ্ট ট্র্যাক নেই..",
   "noExcludedFolders": "আপনার কাছে কোন বর্জিত ফোল্ডার নেই",
@@ -636,19 +719,29 @@
   "noTracksFoundBetweenDates": "এই সময় পরিসীমায় কোন ট্র্যাক নেই।",
   "noTracksFoundInDirectory": "এই ডিরেক্টরিতে কোন ট্র্যাক পাওয়া যায়নি",
   "noTracksInHistory": "আপনার ইতিহাসে পর্যাপ্ত ট্র্যাক নেই",
+  "nonActive": "নিষ্ক্রিয়",
+  "nonFavourites": "অপছন্দসমূহ",
+  "none": "কোনোটিই নয়",
+  "normalizeAudio": "অডিও স্বাভাবিক করুন",
+  "normalizeAudioSubtitle": "রিপ্লে গেইন ট্যাগ বা ইউটিউব প্রদত্ত তথ্য পড়ে ভলিউম স্বাভাবিক করে",
+  "notAvailableForYourDevice": "আপনার ডিভাইসের জন্য উপলব্ধ নয়",
+  "notSupportedForNetworkFiles": "নেটওয়ার্ক ফাইলের জন্য সমর্থিত নয়",
+  "note": "দ্রষ্টব্য",
+  "notification": "নোটিফিকেশন",
+  "notifications": "নোটিফিকেশন",
   "numberOfTracks": "ট্র্যাকের সংখ্যা",
   "ofLabel": "এর",
   "offlineSearch": "অফলাইন অনুসন্ধান",
   "offset": "অফসেট",
-  "oldestWatch": "অনেক আগের দেখা",
   "oldDirectory": "পুরনো ডিরেক্টরি",
   "oldDirectoryStillHasTracks": "পুরনো ডিরেক্টরিতে এখনও কিছু ট্র্যাক রয়েছে, নিশ্চিত?",
-  "ongoing": "চলমান",
+  "oldestWatch": "অনেক আগের দেখা",
   "onInterruption": "বাধা পাওয়ার সময়",
   "onNotificationTap": "নোটিফিকেশনে ট্যাপ করালে",
   "onOpeningYoutubeLink": "ইউটিউব লিঙ্ক খোলার সময়",
   "onSwiping": "সোয়াইপ করার সময়",
   "onVolumeZero": "ভলিউম ০ হওয়ার সময়",
+  "ongoing": "চলমান",
   "open": "খুলুন",
   "openApp": "অ্যাপ খুলুন",
   "openInFileExplorer": "ফাইল এক্সপ্লোরারে খুলুন",
@@ -657,24 +750,7 @@
   "openQueue": "কিউ খুলুন",
   "openYoutubeLink": "ইউটিউব লিঙ্ক খুলুন",
   "operationRequiresAccount": "অপারেশন {name} এর জন্য অ্যাকাউন্ট প্রয়োজন, অগ্রসর হতে সাইন ইন করুন",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "অপারেশন {operation} এর জন্য কমপক্ষে {name} সদস্যপদ প্রয়োজন",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "বা",
   "others": "অন্যান্য",
   "output": "আউটপুট",
@@ -703,6 +779,12 @@
   "pitch": "পিচ",
   "plain": "সাধারণ",
   "play": "চালান",
+  "playAfter": "এর পরে চালান",
+  "playAfterNextPrev": "পরবর্তী/পূর্ববর্তীতে স্বয়ংক্রিয় চালান",
+  "playAll": "সব চালান",
+  "playFadeDuration": "প্লে ফেড এর সময়কাল",
+  "playLast": "শেষটি চালান",
+  "playNext": "পরবর্তীটি চালান",
   "playbackSetting": "প্লেব্যাক",
   "playbackSettingSubtitle": "অডিও বোতামে লং-প্রেস করে সরাসরি এই সেটিংস অ্যাক্সেস করুন",
   "playlist": "প্লেলিস্ট",
@@ -710,12 +792,6 @@
   "playlistsImportM3uNative": "এটি শুধুমাত্র Namida-তে ব্যবহারের জন্য M3U প্লেলিস্ট ইম্পোর্ট করবে। মাইগ্রেট করলে এটি ব্যবহার করুন",
   "playlistsImportM3uSynced": "এটি স্বয়ংক্রিয়ভাবে ইনডেক্সার ফোল্ডার থেকে M3U প্লেলিস্ট ইম্পোর্ট করবে এবং মূল M3U ফাইলের সাথে সিঙ্ক রাখবে। আপনি যদি অন্যান্য অ্যাপ থেকে প্লেলিস্ট অ্যাক্সেস/পরিবর্তন করেন তবে সক্রিয় করুন",
   "playlistsImportM3uSyncedAutoImport": "স্বয়ংক্রিয়ভাবে M3U প্লেলিস্ট ইম্পোর্ট করুন",
-  "playAfter": "এর পরে চালান",
-  "playAfterNextPrev": "পরবর্তী/পূর্ববর্তীতে স্বয়ংক্রিয় চালান",
-  "playAll": "সব চালান",
-  "playFadeDuration": "প্লে ফেড এর সময়কাল",
-  "playLast": "শেষটি চালান",
-  "playNext": "পরবর্তীটি চালান",
   "pleaseEnterADifferentName": "এই নামটি ইতিমধ্যে বিদ্যমান :(\nদয়া করে একটি অন্য নাম চেষ্টা করুন",
   "pleaseEnterALink": "দয়া করে একটি লিঙ্ক দিন",
   "pleaseEnterALinkSubtitle": "উম্ম.. এটি কি একটি ইউটিউব লিঙ্ক?",
@@ -732,16 +808,6 @@
   "private": "ব্যক্তিগত",
   "progress": "অগ্রগতি",
   "promptIndexingRefresh": "{newFiles} টি নতুন ফাইল পাওয়া গেছে এবং {deletedFiles} টি ফাইল ফিল্টার/ডিলিট করা হয়েছে, আপনি কী রিফ্রেশ করতে চান?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "সাধারণত এটি ঘটে যখন আপনি Namida-এর বাইরে থেকে ফাইলটি ডিলিট, স্থানান্তর বা নাম পরিবর্তন করেন। আপনি কি বর্তমান পাথ (Path) আপডেট করতে চান?",
   "public": "সাধারণ",
   "queue": "কিউ",
@@ -749,10 +815,13 @@
   "random": "র‍্যান্ডম",
   "randomPicks": "এলোমেলো বাছাই",
   "rating": "রেটিং",
-  "recentlyAdded": "সাম্প্রতিক সংযোজন",
+  "reIndex": "রি-ইনডেক্স",
+  "reIndexSubtitle": "আপনার সঙ্গীত লাইব্রেরি শূন্য থেকে পুনর্নির্মাণ করুন",
+  "reIndexWarning": "এই প্রক্রিয়াটি কিছু সময় নিতে পারে, আপনার লাইব্রেরির আকারের উপর নির্ভর করে। \n\nযতক্ষণ আর্টওয়ার্ক বিদ্যমান ততক্ষণ সেগুলো পুনঃইনডেক্স করা হবে না",
   "recentAlbums": "সাম্প্রতিক অ্যালবামসমূহ",
   "recentArtists": "সাম্প্রতিক শিল্পীগণ",
   "recentListens": "সাম্প্রতিক শোনা",
+  "recentlyAdded": "সাম্প্রতিক সংযোজন",
   "recordLabel": "রেকর্ড লেবেল",
   "refresh": "রিফ্রেশ",
   "refreshLibrary": "লাইব্রেরি রিফ্রেশ করুন",
@@ -762,7 +831,6 @@
   "rememberAudioOnlyMode": "শুধুমাত্র অডিও মোড মনে রাখুন",
   "remixer": "রিমিক্সার",
   "remove": "সরান",
-  "removed": "সরানো হয়েছে",
   "removeDuplicates": "সদৃশ সরান",
   "removeFromFavourites": "পছন্দের তালিকা থেকে সরান",
   "removeFromLibrary": "লাইব্রেরি থেকে সরান",
@@ -770,17 +838,11 @@
   "removeQueue": "কিউ সরান",
   "removeSourceFromHistory": "ইতিহাস থেকে উৎস সরান",
   "removeWhitespaces": "হোয়াইটস্পেস সরান",
+  "removed": "সরানো হয়েছে",
   "rename": "নাম পরিবর্তন করুন",
   "renamePlaylist": "প্লেলিস্টের নাম পরিবর্তন করুন",
   "reorderable": "পুনর্বিন্যাসযোগ্য",
   "repeatForNTimes": "{number, plural, other{আরও {number} বার পুনরাবৃত্তি করুন}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "পুনরাবৃত্তি মোড",
   "repeatModeAll": "সম্পূর্ণ কিউ পুনরাবৃত্তি করুন",
   "repeatModeNone": "শেষ ট্র্যাকে থামুন",
@@ -795,59 +857,40 @@
   "respectNoMedia": ".nomedia মেনে চলুন",
   "respectNoMediaSubtitle": ".nomedia আছে এমন ফোল্ডার অন্তর্ভুক্ত করবে না",
   "restart": "পুনরায় শুরু করুন",
-  "restoredBackupSuccessfully": "ব্যাকআপ পুনরুদ্ধার করা হয়েছে",
-  "restoredBackupSuccessfullySub": "ব্যাকআপ ফাইল সফলভাবে পুনরুদ্ধার করা হয়েছে",
   "restoreBackup": "ব্যাকআপ পুনরুদ্ধার করুন",
   "restoreDefaults": "ডিফল্ট পুনরুদ্ধার করুন",
+  "restoredBackupSuccessfully": "ব্যাকআপ পুনরুদ্ধার করা হয়েছে",
+  "restoredBackupSuccessfullySub": "ব্যাকআপ ফাইল সফলভাবে পুনরুদ্ধার করা হয়েছে",
   "resume": "পুনরায় শুরু",
   "resumeIfWasInterrupted": "পুনরায় শুরু করুন যদি কোনো বাধা দ্বারা থামানো হয়ে থাকে",
   "resumeIfWasPausedByVolume": "পুনরায় শুরু করুন যদি ভলিউম দ্বারা থামানো হয়ে থাকে",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{পুনরায় শুরু করুন যদি {number} মিনিটের কম সময়ের জন্য থামানো হয়ে থাকে}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "returnYoutubeDislike": "রিটার্ন ইউটিউব ডিসলাইক",
   "reverseOrder": "উল্টো ক্রম",
-  "reIndex": "রি-ইনডেক্স",
-  "reIndexSubtitle": "আপনার সঙ্গীত লাইব্রেরি শূন্য থেকে পুনর্নির্মাণ করুন",
-  "reIndexWarning": "এই প্রক্রিয়াটি কিছু সময় নিতে পারে, আপনার লাইব্রেরির আকারের উপর নির্ভর করে। \n\nযতক্ষণ আর্টওয়ার্ক বিদ্যমান ততক্ষণ সেগুলো পুনঃইনডেক্স করা হবে না",
   "rightAction": "ডান দিকের অ্যাকশন",
   "ringtone": "রিংটোন",
   "sameDirectoryOnly": "শুধুমাত্র একই ডিরেক্টরি",
   "sample": "নমুনা",
   "sampleRate": "নমুনা হার",
   "save": "সংরক্ষণ করুন",
-  "savedIn": "সংরক্ষিত হয়েছে",
   "saveToLibrary": "লাইব্রেরিতে সংরক্ষণ করুন",
+  "savedIn": "সংরক্ষিত হয়েছে",
   "scaleMultiplier": "আর্টওয়ার্ক সাইজ",
   "search": "অনুসন্ধান করুন",
   "searchYoutube": "ইউটিউবে অনুসন্ধান করুন",
   "seconds": "সেকেন্ড",
-  "seekbar": "সিকবার",
+  "seeProjectCodeOnSite": "{site}-এ প্রজেক্ট কোড দেখুন",
   "seekDuration": "সিক সময়কাল",
   "seekDurationInfo": "পিছনে সিক করতে বর্তমান সময়কাল এবং সামনে সিক করতে মোট সময়কালের উপর ট্যাপ করুন",
-  "seeProjectCodeOnSite": "{site}-এ প্রজেক্ট কোড দেখুন",
-  "@seeProjectCodeOnSite": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
-  "selectedTracks": "নির্বাচিত ট্র্যাকসমূহ",
+  "seekbar": "সিকবার",
   "selectAll": "সব নির্বাচন করুন",
   "selectFilesAlreadyInLocalLibrary": "স্থানীয় লাইব্রেরিতে ইতিমধ্যে থাকা ফাইল নির্বাচন করুন",
+  "selectedTracks": "নির্বাচিত ট্র্যাকসমূহ",
   "selfPromotion": "স্ব-প্রচার",
   "semitones": "সেমিটোন",
   "separatorsBlacklistSubtitle": "এই শব্দগুলো বিভক্ত হবে না",
   "separatorsMessage": "স্পেস দেওয়ার প্রয়োজন নেই, যদি না চিহ্নটি কোনো শব্দের অংশ হয় (যেমন: x এবং ft.)",
   "serverAddress": "সার্ভার ঠিকানা",
-  "settings": "সেটিংস",
-  "setupFirstStartup": "প্রথমবার চালুর সেটআপ করুন",
   "setAs": "হিসাবে সেট করুন",
   "setAsDefault": "ডিফল্ট হিসাবে সেট করুন",
   "setFileLastModifiedAsVideoUploadDate": "ফাইলের সর্বশেষ পরিবর্তনকে ভিডিও আপলোডের তারিখ হিসাবে সেট করুন",
@@ -856,6 +899,8 @@
   "setRating": "রেটিং সেট করুন",
   "setTags": "ট্যাগ সেট করুন",
   "setYoutubeLink": "ইউটিউব লিঙ্ক সেট করুন",
+  "settings": "সেটিংস",
+  "setupFirstStartup": "প্রথমবার চালুর সেটআপ করুন",
   "share": "শেয়ার",
   "shareLogs": "লগ শেয়ার করুন",
   "shortcuts": "শর্টকাট",
@@ -877,8 +922,6 @@
   "shuffle": "এলোমেলো",
   "shuffleAll": "সব এলোমেলো করুন",
   "shuffleNext": "শুধু পরবর্তিগুলো",
-  "signingInAllowsBasicUsage": "সাইন ইন করলে মৌলিক ব্যবহারের অনুমতি দেয়",
-  "signingInAllowsBasicUsageSubtitle": "প্যাট্রিয়ন বা কুপন ব্যবহার করে প্রাথমিক অ্যাক্সেস পান",
   "signIn": "সাইন ইন",
   "signInCanceled": "সাইন ইন বাতিল করা হয়েছে",
   "signInFailed": "সাইন ইন ব্যর্থ হয়েছে",
@@ -887,31 +930,12 @@
   "signInYouNeedAccountToViewPage": "এই পৃষ্ঠা দেখতে আপনার একটি অ্যাকাউন্ট প্রয়োজন",
   "signOut": "সাইন আউট",
   "signOutFromName": "{name} থেকে সাইন আউট করুন",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "সাইন ইন করলে মৌলিক ব্যবহারের অনুমতি দেয়",
+  "signingInAllowsBasicUsageSubtitle": "প্যাট্রিয়ন বা কুপন ব্যবহার করে প্রাথমিক অ্যাক্সেস পান",
   "similarDiscoverDate": "সদৃশ আবিষ্কারের তারিখ",
   "similarDiscoverDateSubtitle": "{currentTrack} এর প্রায় একই সময়ে আবিষ্কৃত ট্র্যাকগুলো উৎপন্ন করুন",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "একই/কাছাকাছি সময় পরিসীমা",
   "similarTimeRangeSubtitle": "{currentTrack} এর প্রায় একই সময়ে আপনি যে ট্র্যাক শুনেছেন সেগুলো উৎপন্ন করুন",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "সিঙ্গলস",
   "size": "আকার",
   "skip": "স্কিপ",
@@ -946,13 +970,6 @@
   "subscribers": "সাবস্ক্রাইবার",
   "succeeded": "সফল হয়েছে",
   "suggestionSubtitle": "কোনো সমস্যা বা পরামর্শ থাকলে {site}-এ আমাদের জানানতে পারেন",
-  "@suggestionSubtitle": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
   "support": "সহায়তা",
   "supremacy": "সর্বোচ্চতা",
   "sussyBaka": "কিছুই পাওয়া যায়নি",
@@ -960,8 +977,8 @@
   "swipeToOpenDrawer": "ড্রয়ার খুলতে সোয়াইপ করুন",
   "synced": "সিঙ্ক করা হয়েছে",
   "synopsis": "সারসংক্ষেপ",
-  "tags": "ট্যাগসমূহ",
   "tagFields": "ট্যাগ ক্ষেত্রসমূহ",
+  "tags": "ট্যাগসমূহ",
   "tapAction": "ট্যাপ অ্যাকশন",
   "tapToSeek": "সিক করতে ট্যাপ করুন",
   "themeMode": "থিম মোড",
@@ -977,17 +994,14 @@
   "top": "শীর্ষ",
   "topComments": "শীর্ষ মন্তব্যসমূহ",
   "topCommentsSubtitle": "নিচের পরিবর্তে উপরে মন্তব্য প্রদর্শন করুন",
-  "topRecents": "সাম্প্রতিক শীর্ষ তালিকা",
   "topRecentAlbums": "সাম্প্রতিক শীর্ষ অ্যালবামসমূহ",
   "topRecentArtists": "সাম্প্রতিক শীর্ষ শিল্পীগণ",
-  "totalListens": "মোট শ্রবণ",
+  "topRecents": "সাম্প্রতিক শীর্ষ তালিকা",
   "totalListenTime": "মোট শ্রবণের সময়",
+  "totalListens": "মোট শ্রবণ",
   "totalTracks": "মোট ট্র্যাক",
   "totalTracksDuration": "মোট ট্র্যাকের সময়কাল",
   "track": "ট্র্যাক",
-  "tracks": "ট্র্যাক",
-  "tracksExcludedByNomedia": ".nomedia দ্বারা বর্জিত ট্র্যাকসমূহ",
-  "tracksInfo": "ট্র্যাকের তথ্য",
   "trackArtistsSeparator": "শিল্পী বিভাজক",
   "trackGenresSeparator": "জনরা বিভাজক",
   "trackInfo": "ট্র্যাকের তথ্য",
@@ -995,16 +1009,6 @@
   "trackNumber": "ট্র্যাক নম্বর",
   "trackNumberTotal": "ট্র্যাক মোট",
   "trackPathOldNew": "পুরনো নাম: \"{oldName}\"\n\nনতুন নাম: \"{newName}\"\n\nআপনি কি নিশ্চিত?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "চালানোর মোড",
   "trackPlayModeSearchResults": "অনুসন্ধানকৃত ফলাফল",
   "trackPlayModeSelectedOnly": "শুধুমাত্র নির্বাচিত ট্র্যাক",
@@ -1014,6 +1018,9 @@
   "trackThumbnailSizeInList": "ট্র্যাক থাম্বনেইলের আকার",
   "trackTileCustomization": "ট্র্যাক টাইল কাস্টমাইজেশন",
   "trackTileItemsSeparator": "আইটেম বিভাজক",
+  "tracks": "ট্র্যাক",
+  "tracksExcludedByNomedia": ".nomedia দ্বারা বর্জিত ট্র্যাকসমূহ",
+  "tracksInfo": "ট্র্যাকের তথ্য",
   "underrated": "অবমূল্যায়িত",
   "undo": "পূর্বাবস্থায় আনুন",
   "undoChanges": "পরিবর্তন পূর্বাবস্থায় আনবেন?",
@@ -1028,18 +1035,17 @@
   "updateDirectoryPath": "ডিরেক্টরি পথ আপডেট করুন",
   "updateMissingTracksOnly": "শুধুমাত্র অনুপস্থিত ট্র্যাক আপডেট করুন",
   "updating": "আপডেট করা হচ্ছে",
-  "used": "ব্যবহৃত",
   "useCollapsedSettingTiles": "সঙ্কুচিত সেটিংস টাইল ব্যবহার করুন",
   "useMediaStore": "মিডিয়া স্টোর ব্যবহার করুন",
   "useMediaStoreSubtitle": "✓ তাত্ক্ষণিক ইনডেক্সিং\nx .nomedia মানা হবে\nx কিছু মেটাডেটা ট্যাগ অনুপস্থিত থাকবে\nx স্থানীয় লাইব্রেরির জন্য ইউটিউব ইন্টিগ্রেশন কাজ করবে না",
   "usePitchBlack": "পিচ ব্ল্যাক মোড",
   "usePitchBlackSubtitle": "AMOLED স্ক্রিনের জন্য উপযোগী.. এবং দেখতে আরও আকর্ষণীয়",
+  "used": "ব্যবহৃত",
   "value": "মান",
   "valueBetween50200": "মান ৫০% এবং ২০০% এর মধ্যে হওয়া উচিত",
   "vibration": "কম্পন",
   "vibrationType": "কম্পনের ধরন",
   "video": "ভিডিও",
-  "videos": "ভিডিও",
   "videoCache": "ভিডিও ক্যাশ",
   "videoCacheFile": "ক্যাশ করা ভিডিও ফাইল",
   "videoCacheFiles": "ক্যাশ করা ভিডিও ফাইলসমূহ",
@@ -1054,9 +1060,10 @@
   "videoQuality": "ভিডিও কোয়ালিটি",
   "videoQualitySubtitle": "সর্বোচ্চ উপলব্ধ কোয়ালিটি নির্বাচন করা হবে।",
   "videoQualitySubtitleNote": "একটি কোয়ালিটি না পাওয়া গেলে বিকল্পের জন্য একাধিক কোয়ালিটি রাখা ভালো, অন্যথায় এটি সর্বনিম্ন কোয়ালিটিতে ফিরে যাবে",
+  "videos": "ভিডিও",
   "view": "দেখুন",
-  "views": "ভিউ",
   "viewAll": "সব দেখুন",
+  "views": "ভিউ",
   "volume": "ভলিউম",
   "warning": "সতর্কতা",
   "waveformBarsCount": "ওয়েভফর্ম বার সংখ্যা",
@@ -1065,13 +1072,6 @@
   "year": "বছর",
   "yes": "হ্যাঁ",
   "yourCurrentMembershipIs": "আপনার বর্তমান সদস্যপদ {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "আপনার কাস্টম ক্রম হারিয়ে যাবে, আপনি কি নিশ্চিত?",
   "youtube": "ইউটিউব",
   "youtubeMusic": "ইউটিউব মিউজিক",
