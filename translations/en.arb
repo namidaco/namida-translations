@@ -14,6 +14,13 @@
       }
     }
   },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
   "@countAlbums": {
     "placeholders": {
       "number": {
@@ -22,6 +29,13 @@
     }
   },
   "@countArtists": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
     "placeholders": {
       "number": {
         "type": "int"
@@ -442,8 +456,10 @@
   "couldntPlayFile": "Couldn't play file",
   "couldntRenamePlaylist": "Couldn't rename playlist",
   "couldntSaveImage": "Couldn't save image",
+  "countAlbumArtists": "{number, plural, one{{number} Album Artist} other{{number} Album Artists}}",
   "countAlbums": "{number, plural, one{{number} Album} other{{number} Albums}}",
   "countArtists": "{number, plural, one{{number} Artist} other{{number} Artists}}",
+  "countComposers": "{number, plural, one{{number} Composer} other{{number} Composers}}",
   "countDays": "{number, plural, one{{number} Day} other{{number} Days}}",
   "countFiles": "{number, plural, one{{number} File} other{{number} Files}}",
   "countFolders": "{number, plural, one{{number} Folder} other{{number} Folders}}",
