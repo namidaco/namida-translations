@@ -1,9 +1,207 @@
 {
   "@@locale": "hi",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "track": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {}
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {}
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "हमारे बारे में",
   "active": "सक्रिय",
   "add": "जोड़े",
-  "added": "जोड़ा गया है",
   "addAccount": "Account जोड़े",
   "addAll": "सभी को जोड़ो",
   "addAllAndRemoveOldOnes": "सभी जोड़ें और पुराने हटाएं",
@@ -17,29 +215,23 @@
   "addMoreFromThisArtist": "इस कलाकार से और जोड़ें कतार में",
   "addMoreFromThisFolder": "इस folder से और जोड़ें queue में",
   "addMoreFromToQueue": "{media} से queue में और जोड़े",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "केवल लुप्त को ही जोड़ें",
   "addToFavourites": "पसंदीदा में जोड़ें",
   "addToPlaylist": "Playlist में जोड़ें",
   "addTracksAtTheBeginning": "शुरुआत में ट्रैक जोड़ें",
+  "added": "जोड़ा गया है",
   "advanced": "उन्नत",
   "advancedSettings": "उन्नत settings",
   "advancedSettingsSubtitle": "उन्नत सेटिंग्स, स्पर्श न करें",
   "alarm": "Alarm",
   "album": "Album",
-  "albums": "एल्बम",
-  "albumsCount": "एल्बम गणना",
   "albumArtist": "एल्बम कलाकार",
   "albumArtists": "एल्बम कलाकार",
   "albumIdentifiers": "एल्बम पहचानकर्ता",
   "albumThumbnailSizeInList": "सूची में एल्बम थंबनेल का आकार",
   "albumTileCustomization": "एल्बम टाइल अनुकूलन",
+  "albums": "एल्बम",
+  "albumsCount": "एल्बम गणना",
   "all": "सभी",
   "allTime": "सभी समय",
   "alreadyExists": "पहले से मौजूद है",
@@ -56,14 +248,12 @@
   "artist": "कलाकार",
   "artists": "कलाकार",
   "artwork": "कलाकृति",
-  "artworks": "कलाकृतियाँ",
   "artworkGestures": "कलाकृति इशारे",
+  "artworks": "कलाकृतियाँ",
   "audio": "ऑडियो",
   "audioCache": "ऑडियो कैश",
   "audioOnly": "केवल ऑडियो",
   "auto": "ऑटो",
-  "automaticBackup": "स्वचालित",
-  "automaticBackupSubtitle": "बैकअप स्थान के अंदर पाए गए सबसे हाल के बैकअप फ़ाइल को स्वचालित रूप से लागू करता है",
   "autoBackupInterval": "स्वचालित बैकअप अंतराल",
   "autoColoring": "ऑटो कलरिंग",
   "autoColoringSubtitle": "वर्तमान कलाकृति से स्वचालित रूप से खिलाड़ी रंग चुनें",
@@ -74,6 +264,8 @@
   "autoSkipOnce": "एक बार ऑटो स्किप",
   "autoStartRadio": "अपने आप शुरू करें रेडियो",
   "autoStartRadioSubtitle": "अकेले ट्रैक चलाने पर स्वचालित रूप से मिक्स प्लेलिस्ट जोड़ता है",
+  "automaticBackup": "स्वचालित",
+  "automaticBackupSubtitle": "बैकअप स्थान के अंदर पाए गए सबसे हाल के बैकअप फ़ाइल को स्वचालित रूप से लागू करता है",
   "backupAndRestore": "बैकअप और पुनर्स्थापना",
   "backupAndRestoreSubtitle": "अपना डेटाबेस और सेटिंग्स बैकअप करें",
   "balanced": "संतुलित",
@@ -101,26 +293,19 @@
   "clearImageCacheWarning": "चेतावनी: छवियों के बिना एक पुस्तकालय का परिणाम होगा, केवल छवि कैश को पुनर्निर्माण करने के लिए उपयोग करें।",
   "clearTrackItem": "ट्रैक के साफ़ करें",
   "clearTrackItemMultiple": "{number, plural, other{{number} ट्रैक साफ़ करें}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "वीडियो कैश साफ़ करें",
   "clearVideoCacheNote": "आप चुन सकते हैं कि क्या हटाना है।",
   "clock": "घड़ी",
   "colorPalette": "रंग पैलेट",
-  "colorPalettes": "रंग पैलेट",
   "colorPaletteNote1": "किसी रंग को हटाने के लिए उसे लंबे समय तक दबाएँ",
   "colorPaletteNote2": "डिफ़ॉल्ट रंग के रूप में उपयोग करने के लिए मिश्रण पर टैप करें",
+  "colorPalettes": "रंग पैलेट",
   "comment": "कॉमेंट",
   "comments": "कॉमेंटे",
   "composer": "संगीतकार",
   "compress": "कंप्रेस करें",
-  "compressionPercentage": "संपीड़न प्रतिशत",
   "compressImages": "छवियों को संपीड़ित करें",
+  "compressionPercentage": "संपीड़न प्रतिशत",
   "configure": "कॉन्फ़िगर करें",
   "confirm": "पुष्टि करें",
   "copiedArtwork": "कलाकृति कॉपी की गई",
@@ -134,35 +319,21 @@
   "couldntSaveImage": "छवि सहेज नहीं सका",
   "country": "देश",
   "create": "बनाएं",
-  "createdBackupSuccessfully": "बैकअप बनाया",
-  "createdBackupSuccessfullySub": "बैकअप फ़ाइल सफलतापूर्वक बनाई गई है",
   "createBackup": "बैकअप बनाएं",
   "createNewPlaylist": "नई playlist बनाएं",
+  "createdBackupSuccessfully": "बैकअप बनाया",
+  "createdBackupSuccessfullySub": "बैकअप फ़ाइल सफलतापूर्वक बनाई गई है",
+  "crossPlatformSync": "क्रॉस-प्लेटफ़ॉर्म सिंक",
   "crossfadeDuration": "Crossfade अवधि",
   "crossfadeTriggerSeconds": "{seconds, plural, other{अंतिम {seconds} सेकंडों में स्वचालित रूप से crossfade को trigger करे}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "Crossfade को स्वचालित रूप से trigger न करें",
-  "crossPlatformSync": "क्रॉस-प्लेटफ़ॉर्म सिंक",
   "custom": "कस्टम",
   "customizations": "अनुकूलन",
   "customizationsSubtitle": "अपने player को देखने के तरीके को अनुकूलित करें, इसे अपना बनाएं",
-  "database": "डेटाबेस",
   "dataIsProvidedByName": "डेटा प्रदान किया गया है: {name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "डेटा सेवर",
   "dataSaverMode": "डेटा सेवर मोड",
+  "database": "डेटाबेस",
   "date": "दिनांक",
   "dateAdded": "जोड़ा गया दिनांक",
   "dateCreated": "बनाए गए दिनांक",
@@ -170,45 +341,21 @@
   "dateTimeFormat": "दिनांक समय प्रारूप",
   "day": "दिन",
   "days": "दिन",
-  "defaultLabel": "डिफ़ॉल्ट",
   "defaultBackupLocation": "डिफ़ॉल्ट बैकअप स्थान",
   "defaultColor": "डिफ़ॉल्ट रंग",
   "defaultColorSubtitle": "Player द्वारा उपयोग किए जाने वाले रंग को सेट करें",
   "defaultDownloadLocation": "डिफ़ॉल्ट डाउनलोड स्थान",
+  "defaultLabel": "डिफ़ॉल्ट",
   "defaultLibraryTab": "डिफ़ॉल्ट लाइब्रेरी टैब",
   "delete": "हटाएँ",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{{filesCount} दिखाने वाले {totalSize} को रद करें?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{अपने स्टोरेज से {number} को स्थायी रूप से हटाएं}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "प्लेलिस्ट हटाएं",
   "deleteTempFiles": "अस्थायी फ़ाइलें हटाएँ",
   "description": "विवरण",
   "didYouMean": "क्या आपका मतलब ये था",
   "dimIntensity": "मंद तीव्रता",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{निष्क्रियता के {seconds} सेकंड के बाद मिनिप्लेयर कम करें}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "निर्देशिका मौजूद नहीं है",
   "disable": "अक्षम करें",
   "disableAll": "सभी अक्षम करें",
@@ -224,15 +371,16 @@
   "displayArtistBeforeTitle": "कलाकार को शीर्षक से पहले प्रदर्शित करें",
   "displayArtworkOnLockscreen": "लॉकस्क्रीन पर कलाकृति प्रदर्शित करें",
   "displayAudioInfoInMiniplayer": "ऑडियो जानकारी प्रदर्शित करें",
-  "displayFavouriteIconInTrackTile": "ट्रैक टाइल में पसंदीदा बटन प्रदर्शित करें",
   "displayFavButtonInNotification": "Notification में पसंदीदा बटन प्रदर्शित करें",
   "displayFavButtonInNotificationSubtitle": "थंबनेल विस्थापित हो सकता है।",
+  "displayFavouriteIconInTrackTile": "ट्रैक टाइल में पसंदीदा बटन प्रदर्शित करें",
   "displayRemainingDurationInsteadOfTotal": "कुल के बजाय शेष अवधि प्रदर्शित करें",
   "displayStopButtonInNotification": "नोटिफिकेशन में स्टॉप बटन दिखाएँ",
   "displayThirdItemInRowInTrackTile": "ट्रैक टाइल में तीसरा आइटम प्रदर्शित करें",
   "displayThirdRowInTrackTile": "तीसरी पंक्ति प्रदर्शित करें",
   "displayTrackNumberInAlbumPage": "एल्बम पृष्ठ में ट्रैक नंबर प्रदर्शित करें",
   "displayTrackNumberInAlbumPageSubtitle": "एल्बम पृष्ठ में ट्रैक नंबर वाला एक छोटा बॉक्स प्रदर्शित करें",
+  "doNothing": "कुछ मत करो",
   "done": "किया हुआ",
   "dontAskAgain": "फिर पूछना मत",
   "dontDim": "धुंधला न करें",
@@ -244,7 +392,6 @@
   "downloads": "डाउनलोड्स",
   "downloadsMetadataTags": "डाउनलोड्स मेटाडेटा टैग",
   "downloadsMetadataTagsSubtitle": "वीडियो जानकारी से कलाकार, शीर्षक और एल्बम को डिफ़ॉल्ट रूप से निकालें",
-  "doNothing": "कुछ मत करो",
   "dragToSeek": "करने के लिए खींचें तलाश",
   "duckAudio": "डक ऑडियो",
   "duplicatedItemsAdding": "आप कुछ ऐसे आइटम जोड़ने का प्रयास कर रहे हैं जो पहले से ही इस प्लेलिस्ट में मौजूद हैं",
@@ -271,13 +418,6 @@
   "enableM3uSync": "M3U सिंक सक्षम करें",
   "enableM3uSyncNote1": "M3U सिंक मूल M3U फ़ाइल में प्लेलिस्ट परिवर्तनों को सहेजने की अनुमति देता है",
   "enableM3uSyncNote2": "अगर कुछ गलत हो जाता है, तो इस प्लेलिस्ट का बैकअप {playlistsBackupPath} में पाया जाएगा",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "यदि अस्वीकार कर दिया गया है, तो इस प्लेलिस्ट में किए गए सभी परिवर्तन पुनः आरंभ करने पर खो जाएंगे",
   "enableMiniplayerParticles": "चलते कणों को सक्षम करें",
   "enableParallaxEffect": "पैरालैक्स प्रभाव सक्षम करें",
@@ -302,18 +442,11 @@
   "extension": "विस्तार",
   "externalFiles": "बाह्य फ़ाइलें",
   "extract": "निकालें",
-  "extractingInfo": "जानकारी निकाल रहा है",
   "extractAllColorPalettes": "सभी रंग palette निकालें",
   "extractAllColorPalettesSubtitle": "{number, plural, other{शेष {remainingColorPalettes} निकालें?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "शीर्षक से feat. कलाकारों को निकालें",
   "extractFeatArtistSubtitle": "नए कलाकार प्रविष्टि के रूप में (feat. X) और (ft. X) कलाकारों को निकालता है।",
+  "extractingInfo": "जानकारी निकाल रहा है",
   "extras": "अतिरिक्त",
   "extrasSubtitle": "अपने अनुभव को ठीक करने के लिए अतिरिक्त सेटिंग्स",
   "extreme": "अत्यधिक",
@@ -323,27 +456,27 @@
   "fetching": "प्राप्त कर रहा है",
   "fetchingOfAllVideos": "सारे वीडियो को प्राप्त कर रहा",
   "file": "फ़ाइल",
-  "filenameShouldntStartWith": "फ़ाइल नाम की शुरुआत इस प्रकार नहीं होनी चाहिए",
-  "files": "फ़ाइलें",
   "fileAlreadyExists": "फ़ाइल पहले से मौजूद है",
   "fileName": "फ़ाइल का नाम",
   "fileNameWoExt": "बिना extension के फ़ाइल नाम",
+  "filenameShouldntStartWith": "फ़ाइल नाम की शुरुआत इस प्रकार नहीं होनी चाहिए",
+  "files": "फ़ाइलें",
   "filler": "फिलर",
-  "filteredBySizeAndDuration": "आकार और अवधि के अनुसार फ़िल्टर किए गए ट्रैक",
   "filterAlbums": "एल्बम फ़िल्टर करें",
   "filterArtists": "कलाकारों को फ़िल्टर करें",
   "filterGenres": "शैलियाँ फ़िल्टर करें",
   "filterPlaylists": "प्लेलिस्ट फ़िल्टर करें",
   "filterTracks": "ट्रैक फ़िल्टर करें",
   "filterTracksBy": "खोज सूचियों में ट्रैक फ़िल्टर करें",
+  "filteredBySizeAndDuration": "आकार और अवधि के अनुसार फ़िल्टर किए गए ट्रैक",
   "finished": "समाप्त",
   "finishedUpdatingLibrary": "लाइब्रेरी अपडेट करना समाप्त हुआ",
   "firstListen": "पहले सुना",
   "fixYtdlpBigThumbnailSize": "yt-dlp के बड़े थंबनेल आकार को ठीक करें",
   "floatingActionButton": "फ़्लोटिंग एक्शन बटन",
   "folder": "फ़ोल्डर",
-  "folders": "फ़ोल्डर्स",
   "folderName": "फ़ोल्डर नाम",
+  "folders": "फ़ोल्डर्स",
   "fontScale": "फ़ॉन्ट स्केल",
   "forceMiniplayerFollowTrackColors": "ट्रैक रंगों का पालन करने के लिए miniplayer को बाध्य करें",
   "forceSquaredAlbumThumbnail": "वर्ग एल्बम थंबनेल को लागू करें",
@@ -359,11 +492,11 @@
   "generateRandomPlaylist": "यादृच्छिक प्लेलिस्ट बनाएं",
   "genre": "शैली",
   "genres": "शैलियाँ",
-  "goodLooking": "सुंदर दिखने वाला",
   "goToAlbum": "एल्बम में जाएं",
   "goToArtist": "कलाकार के पास जाएं",
   "goToChannel": "चैनल में जाएं",
   "goToFolder": "फ़ोल्डर में जाएं",
+  "goodLooking": "सुंदर दिखने वाला",
   "grantStoragePermission": "स्टोरेज अनुमति प्रदान करें",
   "group": "ग्रुप",
   "groupArtworksByAlbum": "ग्रुप आर्टवर्क बाय एल्बम",
@@ -372,75 +505,38 @@
   "heightOfAlbumTile": "एल्बम टाइल की ऊंचाई",
   "heightOfTrackTile": "ट्रैक टाइल की ऊंचाई",
   "hideSkipButtonAfter": "इसके बाद स्किप बटन छिपाएँ",
-  "highlight": "हाइलाइट",
   "highMatches": "उच्च मिलान",
   "highPerformance": "उच्च performance",
+  "highlight": "हाइलाइट",
   "history": "इतिहास",
   "historyImportMissingEntriesNote": "ये प्रविष्टियां लाइब्रेरी के अंदर नहीं मिलीं, यदि आपको लगता है कि वे मौजूद हैं, तो कृपया उन्हें मैन्युअल रूप से जोड़ने पर विचार करें",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} सुनता है OLD{track}INFO के लिए NEW{track}INFO के साथ बदल दिया जाएगा, पुष्टि करें?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "track": {
-        "type": "String"
-      }
-    }
-  },
   "home": "होम",
   "hook": "हुक",
-  "hours": "घंटे",
   "hourFormat12": "12 घंटे का प्रारूप",
+  "hours": "घंटे",
+  "iReadAndAgree": "मैंने पढ़ा और सहमत हूं",
   "ifNotPlaying": "यदि नहीं चल रहा है",
-  "ignores": "अनदेखा करता",
   "ignoreBatteryOptimizationsSubtitle": "जब ऐप बैटरी प्रतिबंधित होती है तो डाउनलोड को कम किया जा सकता है",
   "ignoreCommonPrefixesWhileSorting": "सॉर्ट करते समय सामान्य प्रीफिक्स को अनदेखा करें",
+  "ignores": "अनदेखा करता",
   "imageSource": "इमेज स्रोत",
   "immersiveMode": "इमर्सिव मोड",
   "immersiveModeSubtitle": "Miniplayer के विस्तारित होने पर स्टेटस और नेविगेशन बार छुपाएं",
   "import": "आयात",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number} को चैनल से प्राप्त करना सफल हुआ}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} प्लेलिस्ट की प्राप्ति सफल हुई}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "सभी आयात करें",
   "importLastFmHistory": "लस्ट एफएम इतिहास आयात करें",
   "importLastFmHistoryGuide": "1. {lastfmCsvLink} पर जाएं\n\n2. अपना उपयोगकर्ता नाम टाइप करें, फ़ेच करें और csv फ़ाइल डाउनलोड करें।\n\n3. अगली स्क्रीन से फ़ाइल चुनें।",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "समय सीमा आयात करें",
   "importYoutubeHistory": "यूट्यूब इतिहास आयात करें",
   "importYoutubeHistoryGuide": "1. {takeoutLink} पर जाएं\n\n2. \"कई प्रारूप\" दबाएं और \"इतिहास\" के बगल में \"JSON\" चुनें।\n\n3. \"सभी यूट्यूब डेटा शामिल\" दबाएं, सभी का चयन रद्द करें और केवल इतिहास चुनें।\n\n4. निर्यात बनाएं, डाउनलोड करें और अनज़िप करें।\n\n5. अगली स्क्रीन से \"watch-history.json\" चुनें।",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{{number} को चैनल से प्राप्त करना सफल हुआ}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} प्लेलिस्ट की प्राप्ति सफल हुई}}",
   "includeVideos": "वीडियो शामिल करें",
+  "indexRefreshRequired": "इसे बदलने के बाद रिफ्रेश करें",
   "indexer": "अनुक्रमक",
   "indexerNote": "नोट: अधूरा संख्या कलाकृतियों का तात्पर्य दोहराए गए और नहीं पाए गए कलाकृतियों से है",
   "indexerSubtitle": "अपनी संगीत लाइब्रेरी प्रबंधित करें",
-  "indexRefreshRequired": "इसे बदलने के बाद रिफ्रेश करें",
   "infinityQueueOnNextPrev": "अगला/पिछला पर इन्फिनिटी कतार",
   "infinityQueueOnNextPrevSubtitle": "अंतिम आइटम चलाते समय अगला दबाने से पहले कूद जाएगा, और इसके विपरीत",
   "info": "जानकारी",
@@ -450,7 +546,6 @@
   "intro": "इंट्रो",
   "invertSelection": "उलट चयन",
   "item": "आइटम",
-  "iReadAndAgree": "मैंने पढ़ा और सहमत हूं",
   "jump": "कूदें",
   "jumpToDay": "दिन में कूदें",
   "jumpToFirstTrackAfterQueueFinish": "Queue समाप्त होने के बाद पहले ट्रैक पर जाएं",
@@ -468,15 +563,12 @@
   "liked": "पसंद किया",
   "link": "लिंक",
   "listOfFolders": "फ़ोल्डरों की सूची",
-  "loadingFile": "फ़ाइल लोड हो रही है",
   "loadAll": "सब लोड करें",
+  "loadingFile": "फ़ाइल लोड हो रही है",
   "local": "स्थानीय",
   "localVideoMatching": "स्थानीय वीडियो मिलान",
   "lostMemories": "खोई यादें",
   "lostMemoriesSubtitle": "{number, plural, other{इस समय के आसपास, साल पहले}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {}
-  },
   "loudnessEnhancer": "प्रबलता बढ़ाने वाला",
   "lyricist": "Lyricist(रचयिता)",
   "lyrics": "लिरिक्स",
@@ -488,13 +580,13 @@
   "manualBackup": "मैनुअल",
   "manualBackupSubtitle": "एक विशिष्ट फ़ाइल चुनें",
   "markAsRead": "देखा गया है चिन्हित करें",
-  "matchingType": "मिलान प्रकार",
   "matchAllTracks": "सभी ट्रैक्स को मिलाएं",
   "matchAllTracksNote": "इसका मिलान गति पर प्रभाव पड़ सकता है, क्योंकि यह आपकी लाइब्रेरी में सभी ट्रैक्स की जाँच करेगा",
-  "maximum": "अधिकतम",
+  "matchingType": "मिलान प्रकार",
   "maxAudioCacheSize": "अधिकतम ऑडियो कैश आकार",
   "maxImageCacheSize": "अधिकतम छवि कैश आकार",
   "maxVideoCacheSize": "अधिकतम वीडियो कैश आकार",
+  "maximum": "अधिकतम",
   "membershipCode": "कोड",
   "membershipCodeSentToEmail": "कोड आपके ईमेल पर भेजा गया है",
   "membershipDidntChange": "मेंबरशिप परिवर्तन नही हुई",
@@ -505,40 +597,27 @@
   "membershipSignInToPatreonAccount": "अपने योगदाता अकाउंट पर sign in करें",
   "membershipUnknown": "अज्ञात मेंबरशिप",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "आपको {name1} या {name2} जोड़ने के लिए मेंबरशिप चहिए",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "मर्ज",
   "metadataCache": "Metadata Cache",
   "metadataEditFailed": "Metadata संपादित करने में विफल",
   "metadataReadFailed": "Metadata पढ़ने में विफल",
-  "minimizedMiniplayer": "न्यूनतम Miniplayer",
-  "minimum": "न्यूनतम",
-  "minimumOneFolderSubtitle": "कम से कम 1 फ़ोल्डर होना चाहिए, यदि आप इसे निकालना चाहते हैं तो अधिक फ़ोल्डर जोड़ें",
-  "minimumOneItem": "आइटम नहीं हटा सका",
-  "minimumOneItemSubtitle": "{number, plural, other{कम से कम NUM आइटम रहना चाहिए}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {}
-  },
-  "miniplayerCustomization": "मिनिप्लेयर अनुकूलन",
-  "minutes": "मिनट",
   "minFileDuration": "न्यूनतम ट्रैक अवधि",
   "minFileSize": "न्यूनतम फ़ाइल आकार",
   "minTrackDurationToRestoreLastPosition": "अंतिम प्लेबैक स्थिति को पुनर्स्थापित करने के लिए न्यूनतम ट्रैक अवधि",
   "minValueCantBeMoreThanMax": "न्यूनतम मान अधिकतम से अधिक नहीं हो सकता",
   "minValueToCountTrackListen": "इसके बाद सुनें: ",
+  "minimizedMiniplayer": "न्यूनतम Miniplayer",
+  "minimum": "न्यूनतम",
+  "minimumOneFolderSubtitle": "कम से कम 1 फ़ोल्डर होना चाहिए, यदि आप इसे निकालना चाहते हैं तो अधिक फ़ोल्डर जोड़ें",
+  "minimumOneItem": "आइटम नहीं हटा सका",
+  "minimumOneItemSubtitle": "{number, plural, other{कम से कम NUM आइटम रहना चाहिए}}",
+  "miniplayerCustomization": "मिनिप्लेयर अनुकूलन",
+  "minutes": "मिनट",
   "missingEntries": "गायब प्रविष्टियाँ",
   "missingTracks": "लापता ट्रैक",
   "mix": "मिलाए",
-  "mixes": "मिक्स",
   "mixPlaylistGeneratedByYoutube": "यूट्यूब द्वारा निर्मित मिक्स प्लेलिस्ट",
+  "mixes": "मिक्स",
   "month": "महीना",
   "months": "महीने",
   "mood": "मूड",
@@ -549,7 +628,6 @@
   "name": "नाम",
   "nameContainsBadCharacter": "नाम में खराब चरित्र शामिल है",
   "never": "कभी नहीं",
-  "newest": "सबसे नया",
   "newDirectory": "नई निर्देशिका",
   "newTracksAdd": "ट्रैक जोड़ें",
   "newTracksMoods": "मूड",
@@ -560,33 +638,12 @@
   "newTracksRatingsSubtitle": "ऐसे ट्रैक उत्पन्न करें जिनकी विशिष्ट रेटिंग है",
   "newTracksRecommended": "सुझाया गया",
   "newTracksRecommendedSubtitle": "{currentTrack} के साथ आमतौर पर आपने जो ट्रैक सुने हैं, उन्हें उत्पन्न करें",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "समान रिलीज़ तिथि",
   "newTracksSimilarrReleaseDateSubtitle": "{currentTrack} के समान समय के आसपास रिलीज़ किए गए ट्रैक उत्पन्न करें",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "ट्रैक में अज्ञात वर्ष है",
+  "newest": "सबसे नया",
   "next": "Next",
   "no": "नहीं",
-  "none": "कोई नहीं",
-  "nonActive": "गैर-सक्रिय",
-  "nonFavourites": "गैर-पसंदीदा",
-  "normalizeAudio": "ऑडियो को सामान्य करें",
-  "normalizeAudioSubtitle": "रीप्ले गेन टैग या यूट्यूब द्वारा प्रदान की गई जानकारी को पढ़कर वॉल्यूम को सामान्य करता है",
-  "note": "ध्यान दें",
-  "notification": "Notification",
-  "notifications": "Notifications",
   "noChangesFound": "कोई परिवर्तन नहीं मिला।",
   "noEnoughTracks": "आपके पास ज्यादा ट्रैक नहीं हैं..",
   "noExcludedFolders": "आपके पास कोई बहिष्कृत फ़ोल्डर नहीं है",
@@ -597,19 +654,27 @@
   "noTracksFoundBetweenDates": "इस timerange में कोई track नही है।",
   "noTracksFoundInDirectory": "इस निर्देशिका में कोई track नहीं मिला",
   "noTracksInHistory": "आपके पास इतिहास में पर्याप्त track नहीं हैं",
+  "nonActive": "गैर-सक्रिय",
+  "nonFavourites": "गैर-पसंदीदा",
+  "none": "कोई नहीं",
+  "normalizeAudio": "ऑडियो को सामान्य करें",
+  "normalizeAudioSubtitle": "रीप्ले गेन टैग या यूट्यूब द्वारा प्रदान की गई जानकारी को पढ़कर वॉल्यूम को सामान्य करता है",
+  "note": "ध्यान दें",
+  "notification": "Notification",
+  "notifications": "Notifications",
   "numberOfTracks": "Tracks की संख्या",
   "ofLabel": "का",
   "offlineSearch": "ऑफ़लाइन खोज",
   "offset": "ऑफ़सेट",
-  "oldestWatch": "सबसे पुराना वॉच",
   "oldDirectory": "पुरानी निर्देशिका",
   "oldDirectoryStillHasTracks": "पुराने डायरेक्टरी में अभी भी कुछ track हैं, पुष्टि करें?",
-  "ongoing": "चल रहा है",
+  "oldestWatch": "सबसे पुराना वॉच",
   "onInterruption": "बाधित होने पर",
   "onNotificationTap": "Notification टैप पर",
   "onOpeningYoutubeLink": "यूट्यूब लिंक खोलते समय",
   "onSwiping": "स्वाइप करने पर",
   "onVolumeZero": "वॉल्यूम 0 पर",
+  "ongoing": "चल रहा है",
   "open": "खोले",
   "openApp": "ऐप खोलें",
   "openInYoutubeView": "YouTube view में खोलें",
@@ -617,24 +682,7 @@
   "openQueue": "Queue खोलें",
   "openYoutubeLink": "यूट्यूब लिंक खोलें",
   "operationRequiresAccount": "कार्य {name} को करने के लिए अकाउंट चाहिए, आगे बढ़ने के लिए sign in करें",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "कार्य {operation} करने के लिए कमसेकम membership {name} चाहिए",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "या",
   "others": "अन्य",
   "output": "बहिर्गमन",
@@ -661,6 +709,12 @@
   "pitch": "पिच",
   "plain": "सादा",
   "play": "खेल",
+  "playAfter": "बाद में चलाएं",
+  "playAfterNextPrev": "अगले/पिछले पर ऑटो प्ले",
+  "playAll": "सभी चलाएं",
+  "playFadeDuration": "प्ले फीका अवधि",
+  "playLast": "आखिरी चलाएं",
+  "playNext": "अगला चलाएं",
   "playbackSetting": "प्लेबैक",
   "playbackSettingSubtitle": "प्लेयर में सीधे ऑडियो बटन को लंबे समय तक दबाकर एक्सेस किया जा सकता है",
   "playlist": "प्लेलिस्ट",
@@ -668,12 +722,6 @@
   "playlistsImportM3uNative": "यह M3U प्लेलिस्ट को केवल नामीदा द्वारा उपयोग करने के लिए आयात करेगा, यदि आप माइग्रेट कर रहे हैं तो इसका उपयोग करें",
   "playlistsImportM3uSynced": "यह स्वचालित रूप से इंडेक्सर फ़ोल्डरों से M3U प्लेलिस्ट आयात करेगा और उन्हें मूल M3U फ़ाइल के साथ सिंक करेगा। यदि आप अन्य ऐप्स से प्लेलिस्ट तक पहुंचते हैं / संशोधित करते हैं तो सक्षम करें",
   "playlistsImportM3uSyncedAutoImport": "M3U प्लेलिस्ट स्वचालित रूप से आयात करें",
-  "playAfter": "बाद में चलाएं",
-  "playAfterNextPrev": "अगले/पिछले पर ऑटो प्ले",
-  "playAll": "सभी चलाएं",
-  "playFadeDuration": "प्ले फीका अवधि",
-  "playLast": "आखिरी चलाएं",
-  "playNext": "अगला चलाएं",
   "pleaseEnterADifferentName": "यह नाम पहले से मौजूद है :(\nकृपया एक और फैंसी नाम आज़माएं",
   "pleaseEnterALink": "कृपया एक लिंक दर्ज करें",
   "pleaseEnterALinkSubtitle": "उमम.. क्या यह एक यूट्यूब लिंक है?",
@@ -687,16 +735,6 @@
   "private": "निजी",
   "progress": "प्रगति",
   "promptIndexingRefresh": "{newFiles} नई फ़ाइलें मिली हैं और {deletedFiles} हटा दी गई थीं या फ़िल्टर की गई थीं, क्या आप रीफ़्रेश करना चाहते हैं?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "आमतौर पर ऐसा तब होता है जब आप फ़ाइल को Namida से बाहर निकालते हैं/स्थानांतरित करते हैं/नाम बदलते हैं, क्या आप वर्तमान पथ को अपडेट करना चाहते हैं?",
   "public": "जनता",
   "queue": "Queue",
@@ -704,10 +742,13 @@
   "random": "बेतरतीब",
   "randomPicks": "बेतरतीब ढंग से चुने गए",
   "rating": "रेटिंग",
-  "recentlyAdded": "हाल ही में जोड़ा गया",
+  "reIndex": "पुनः अनुक्रमित करें",
+  "reIndexSubtitle": "अपनी संगीत लाइब्रेरी को खरोंच से फिर से बनाएं",
+  "reIndexWarning": "यह प्रक्रिया आपकी लाइब्रेरी के आकार के आधार पर कुछ समय ले सकती है।\n\nजब तक वे मौजूद हैं, कलाकृतियों को फिर से अनुक्रमित नहीं किया जाएगा",
   "recentAlbums": "हाल ही में जोड़े गए एल्बम",
   "recentArtists": "हाल ही में जोड़े गए कलाकार",
   "recentListens": "हाल ही में सुने गए",
+  "recentlyAdded": "हाल ही में जोड़ा गया",
   "recordLabel": "रिकॉर्ड लेबल",
   "refresh": "Refresh करें",
   "refreshLibrary": "लाइब्रेरी refresh करें",
@@ -717,7 +758,6 @@
   "rememberAudioOnlyMode": "केवल ऑडियो मोड याद रखें",
   "remixer": "रीमिक्सर",
   "remove": "हटाएं",
-  "removed": "हटाया गया",
   "removeDuplicates": "डुप्लिकेट हटाएं",
   "removeFromFavourites": "पसंदीदा से हटाए",
   "removeFromLibrary": "Library से निकालें",
@@ -725,17 +765,11 @@
   "removeQueue": "Queue हटाएं",
   "removeSourceFromHistory": "स्रोत को इतिहास से हटाएं",
   "removeWhitespaces": "Whitespaces हटाएं",
+  "removed": "हटाया गया",
   "rename": "नाम बदलें",
   "renamePlaylist": "प्लेलिस्ट का नाम बदलें",
   "reorderable": "पुनर्व्यवस्थित करने योग्य",
   "repeatForNTimes": "{number, plural, other{{number} और बार दोहराएं}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatModeAll": "Queue से सभी दोहराएं",
   "repeatModeNone": "अंतिम ट्रैक पर रुकें",
   "repeatModeOne": "वर्तमान ट्रैक दोहराएं",
@@ -749,44 +783,32 @@
   "respectNoMedia": ".nomedia का सम्मान करें",
   "respectNoMediaSubtitle": "ऐसे फ़ोल्डर शामिल न करें जिनमें .nomedia हो",
   "restart": "पुनः आरंभ करें",
-  "restoredBackupSuccessfully": "बैकअप सफलतापूर्वक बहाल किया गया",
-  "restoredBackupSuccessfullySub": "बैकअप फ़ाइल सफलतापूर्वक बहाल कर दी गई है",
   "restoreBackup": "बैकअप बहाल करें",
   "restoreDefaults": "डिफ़ॉल्ट्स पुनर्स्थापित करें",
+  "restoredBackupSuccessfully": "बैकअप सफलतापूर्वक बहाल किया गया",
+  "restoredBackupSuccessfullySub": "बैकअप फ़ाइल सफलतापूर्वक बहाल कर दी गई है",
   "resume": "जारी रखें",
   "resumeIfWasInterrupted": "यदि रुकावट के कारण रोक दिया गया था तो फिर से शुरू करें",
   "resumeIfWasPausedByVolume": "यदि वॉल्यूम द्वारा रोक दिया गया था तो फिर से शुरू करें",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{यदि {number} मिनट से कम समय के लिए रोका गया था तो पुनः आरंभ करें}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "reverseOrder": "उलटा क्रम",
-  "reIndex": "पुनः अनुक्रमित करें",
-  "reIndexSubtitle": "अपनी संगीत लाइब्रेरी को खरोंच से फिर से बनाएं",
-  "reIndexWarning": "यह प्रक्रिया आपकी लाइब्रेरी के आकार के आधार पर कुछ समय ले सकती है।\n\nजब तक वे मौजूद हैं, कलाकृतियों को फिर से अनुक्रमित नहीं किया जाएगा",
   "ringtone": "रिंगटोन",
   "sameDirectoryOnly": "केवल एक ही निर्देशिका",
   "sampleRate": "नमूना दर",
   "save": "सहेजें",
-  "savedIn": "में सहेजा गया",
   "saveToLibrary": "Library में save करें",
+  "savedIn": "में सहेजा गया",
   "scaleMultiplier": "स्केल गुणक",
   "search": "खोज",
   "searchYoutube": "यूट्यूब खोजें",
   "seconds": "सेकंड",
-  "seekbar": "बढ़ेगा",
   "seekDuration": "सीक अवधि",
   "seekDurationInfo": "आप पिछड़ी ओर जाने के लिए वर्तमान अवधि पर टैप कर सकते हैं और आगे बढ़ने के लिए कुल अवधि पर टैप कर सकते हैं",
-  "selectedTracks": "चयनित ट्रैक",
+  "seekbar": "बढ़ेगा",
   "selectAll": "सबका चयन करें",
+  "selectedTracks": "चयनित ट्रैक",
   "separatorsBlacklistSubtitle": "ये शब्द विभाजित नहीं होंगे",
   "separatorsMessage": "रिक्त स्थान जोड़ने की आवश्यकता नहीं है, जब तक कि आप उस अक्षर/प्रतीक का उपयोग नहीं करना चाहते हैं जो पूरे शब्द में पाया जा सकता है (जैसे x और ft।)",
-  "settings": "सेटिंग्स",
-  "setupFirstStartup": "पहला स्टार्टअप सेट करें",
   "setAs": "Set as",
   "setAsDefault": "डिफ़ॉल्ट के रूप में सेट करें",
   "setFileLastModifiedAsVideoUploadDate": "वीडियो अपलोड दिनांक के रूप में फ़ाइल को अंतिम रूप से संशोधित करें",
@@ -795,6 +817,8 @@
   "setRating": "रेटिंग सेट करें",
   "setTags": "Tags सेट करें",
   "setYoutubeLink": "YouTube लिंक सेट करें",
+  "settings": "सेटिंग्स",
+  "setupFirstStartup": "पहला स्टार्टअप सेट करें",
   "share": "साझा करें",
   "shouldDuck": "दुबक जाना चाहिए",
   "shouldDuckNote": "इंगित करता है कि वॉल्यूम कम किया जाना चाहिए। उदाहरण: अधिसूचना",
@@ -810,8 +834,6 @@
   "shuffle": "फेरबदल",
   "shuffleAll": "सबको मिलाएं",
   "shuffleNext": "अगला मिलाएं",
-  "signingInAllowsBasicUsage": "Sign in साधारण इस्तमाल को करने देता है",
-  "signingInAllowsBasicUsageSubtitle": "जल्दी access पाएं सयाहतों या कूपन इस्तमाल करके",
   "signIn": "साइन इन",
   "signInCanceled": "Sign को रद किया गया",
   "signInFailed": "Sign in असफल हुई",
@@ -820,13 +842,8 @@
   "signInYouNeedAccountToViewPage": "आपको ये पेज देखने के लिए एक अकाउंट चाहिए",
   "signOut": "साइन आउट",
   "signOutFromName": "{name} से sign out करें",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "Sign in साधारण इस्तमाल को करने देता है",
+  "signingInAllowsBasicUsageSubtitle": "जल्दी access पाएं सयाहतों या कूपन इस्तमाल करके",
   "size": "आकार",
   "skip": "छोड़ें",
   "skipSilence": "चुप्पी छोड़ें",
@@ -855,8 +872,8 @@
   "swipeToOpenDrawer": "दराज खोलने के लिए स्वाइप करें",
   "synced": "सिंक्रनाइज़",
   "synopsis": "सारांश",
-  "tags": "टैग",
   "tagFields": "टैग फ़ील्ड",
+  "tags": "टैग",
   "tapToSeek": "Tap to seek",
   "themeMode": "थीम मोड",
   "themeModeDark": "Dark",
@@ -869,17 +886,14 @@
   "top": "शीर्ष",
   "topComments": "शीर्ष comments",
   "topCommentsSubtitle": "comments को नीचे की जगह शीर्ष में दिखाई",
-  "topRecents": "हाल ही में शीर्ष गाने",
   "topRecentAlbums": "हाल ही में शीर्ष एल्बम",
   "topRecentArtists": "हाल ही में शीर्ष कलाकार",
-  "totalListens": "कुल सुनते है",
+  "topRecents": "हाल ही में शीर्ष गाने",
   "totalListenTime": "कुल सुनने का समय",
+  "totalListens": "कुल सुनते है",
   "totalTracks": "कुल ट्रैक",
   "totalTracksDuration": "कुल ट्रैक अवधि",
   "track": "ट्रैक",
-  "tracks": "ट्रैक",
-  "tracksExcludedByNomedia": ".nomedia द्वारा बहिष्कृत ट्रैक",
-  "tracksInfo": "ट्रैक जानकारी",
   "trackArtistsSeparator": "कलाकार विभाजक",
   "trackGenresSeparator": "शैली विभाजक",
   "trackInfo": "ट्रैक जानकारी",
@@ -887,16 +901,6 @@
   "trackNumber": "ट्रैक नंबर",
   "trackNumberTotal": "ट्रैक कुल",
   "trackPathOldNew": "पुराना नाम: \"{oldName}\"\n\nनया नाम: \"{newName}\"\n\nक्या आप सुनिश्चित हैं?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "प्ले मोड",
   "trackPlayModeSearchResults": "खोज परिणाम",
   "trackPlayModeSelectedOnly": "केवल चयनित ट्रैक",
@@ -906,6 +910,9 @@
   "trackThumbnailSizeInList": "ट्रैक थंबनेल का आकार",
   "trackTileCustomization": "ट्रैक टाइल अनुकूलन",
   "trackTileItemsSeparator": "आइटम विभाजक",
+  "tracks": "ट्रैक",
+  "tracksExcludedByNomedia": ".nomedia द्वारा बहिष्कृत ट्रैक",
+  "tracksInfo": "ट्रैक जानकारी",
   "undo": "पूर्ववत करें",
   "undoChanges": "बदलाव पूर्ववत करें?",
   "undoChangesDeletedPlaylist": "हटाई गई प्लेसूची पूर्ववत करें",
@@ -918,16 +925,15 @@
   "updateDirectoryPath": "डायरेक्टरी पथ अपडेट करें",
   "updateMissingTracksOnly": "केवल गायब ट्रैक अपडेट करें",
   "updating": "अपडेट हो रहा है",
-  "used": "प्रयुक्त",
   "useCollapsedSettingTiles": "Collapsed सेटिंग टाइल्स का उपयोग करें",
   "useMediaStore": "मीडिया स्टोर का उपयोग करें",
   "useMediaStoreSubtitle": "✓ त्वरित अनुक्रमण समय\nx सम्मान .nomedia जबरन सक्षम किया जाएगा\nx कुछ मेटाडेटा टैग गायब होंगे\nx स्थानीय लाइब्रेरी के लिए youtube एकीकरण काम नहीं करेगा",
   "usePitchBlack": "पिच ब्लैक का उपयोग करें",
   "usePitchBlackSubtitle": "AMOLED स्क्रीन के लिए उपयोगी.. और कूलर दिखता है",
+  "used": "प्रयुक्त",
   "value": "मूल्य",
   "valueBetween50200": "मान 50% और 200% के बीच होना चाहिए",
   "video": "वीडियो",
-  "videos": "वीडियो",
   "videoCache": "वीडियो कैश",
   "videoCacheFile": "सहेजे गए वीडियो फ़ाइल",
   "videoCacheFiles": "सहेजी गई वीडियो फ़ाइलें",
@@ -942,9 +948,10 @@
   "videoQuality": "वीडियो गुणवत्ता",
   "videoQualitySubtitle": "उच्चतम गुणवत्ता उपलब्ध होगी।",
   "videoQualitySubtitleNote": "यह हमेशा गुणवत्ता न मिलने की स्थिति में अधिक विकल्प रखना अच्छा होता है, अन्यथा यह सबसे खराब गुणवत्ता पर वापस आ जाएगा",
+  "videos": "वीडियो",
   "view": "दृश्य",
-  "views": "देखें",
   "viewAll": "सभी देखें",
+  "views": "देखें",
   "volume": "आवाज़",
   "warning": "चेतावनी",
   "waveformBarsCount": "लहर बार्स गिनती",
@@ -953,13 +960,6 @@
   "year": "साल",
   "yes": "हाँ",
   "yourCurrentMembershipIs": "आपकी वर्तमान membership है {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "youtube": "YouTube",
   "youtubeMusic": "YouTube music",
   "youtubeSettingsSubtitle": "YouTube अनुभव अनुकूलित करें",
