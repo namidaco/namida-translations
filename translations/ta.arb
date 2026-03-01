@@ -333,7 +333,7 @@
   "clearImageCache": "பட தற்காலிக சேமிப்பை அழிக்கவும்",
   "clearImageCacheWarning": "எச்சரிக்கை: படங்கள் இல்லாத நூலகம் உருவாகும், பட தற்காலிக சேமிப்பை மீண்டும் உருவாக்க மட்டும் பயன்படுத்தவும்.",
   "clearTrackItem": "தடங்களை அழி",
-  "clearTrackItemMultiple": "{number, plural, other{{number} தடங்களை அழி'}}",
+  "clearTrackItemMultiple": "{number, plural, other{{number} தடங்களை அழி}}",
   "clearVideoCache": "வீடியோ தற்காலிக சேமிப்பை அழிக்கவும்",
   "clearVideoCacheNote": "எதை நீக்க வேண்டும் என்பதை நீங்கள் தேர்வு செய்யலாம்.",
   "clock": "கடிகாரம்",
