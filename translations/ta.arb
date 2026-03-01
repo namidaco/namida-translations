@@ -1,9 +1,246 @@
 {
   "@@locale": "ta",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "விவரங்கள்",
   "active": "செயலில்",
   "add": "சேர்",
-  "added": "சேர்க்கப்பட்டது",
   "addAccount": "கணக்கைச் சேர்க்கவும்",
   "addAll": "அனைத்தையும் சேர்",
   "addAllAndRemoveOldOnes": "அனைத்தையும் சேர்த்து பழையவற்றை அகற்று",
@@ -17,29 +254,23 @@
   "addMoreFromThisArtist": "இந்த கலைஞரின் மேலும் பாடல்களை வரிசையில் சேர்க்க",
   "addMoreFromThisFolder": "இந்த கோப்புறையில் இருந்து மேலும் பாடல்களை வரிசையில் சேர்க்க",
   "addMoreFromToQueue": "{media} இருந்து மேலும் வரிசையில் சேர்க்க",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "விடுபட்டவற்றை மட்டும் சேர்க்கவும்",
   "addToFavourites": "விருப்ப பட்டியலில் சேர்க்க",
   "addToPlaylist": "தற்போதைய பாடல் வரிசையில் சேர்க்க",
   "addTracksAtTheBeginning": "தொடக்கத்தில் தடங்களைச் சேர்க்கவும்",
+  "added": "சேர்க்கப்பட்டது",
   "advanced": "மேம்பட்ட",
   "advancedSettings": "மேம்பட்ட அமைப்புகள்",
   "advancedSettingsSubtitle": "இவை மேம்பட்ட அமைப்புகளாகும். தேவையற்ற மாற்றங்களைத் தவிர்க்கவும்",
   "alarm": "அலாரம்",
   "album": "இசைத் தொகுப்பு",
-  "albums": "இசைத் தொகுப்புகள்",
-  "albumsCount": "இசைத் தொகுப்பு எண்ணிக்கை",
   "albumArtist": "இசை கலைஞர்",
   "albumArtists": "இசைக் கலைஞர்கள்",
   "albumIdentifiers": "இசைத் தொகுப்பு அடையாளங்காட்டி",
   "albumThumbnailSizeInList": "இசைத் தொகுப்பின் சிறு படவுரு அளவு",
   "albumTileCustomization": "இசைத் தொகுப்பு தோற்றத்தைத் தனிப்பயனாக்குதல்",
+  "albums": "இசைத் தொகுப்புகள்",
+  "albumsCount": "இசைத் தொகுப்பு எண்ணிக்கை",
   "all": "அனைத்தும்",
   "allTime": "என்றும்",
   "alreadyExists": "ஏற்கனவே உள்ளது",
@@ -57,14 +288,12 @@
   "artist": "இசைக் கலைஞர்",
   "artists": "இசை கலைஞர்கள்",
   "artwork": "கலைப்படைப்பு",
-  "artworks": "கலைப்படைப்புகள்",
   "artworkGestures": "கலைப்படைப்புச் சைகைகள்",
+  "artworks": "கலைப்படைப்புகள்",
   "audio": "ஒலி",
   "audioCache": "ஒலியின் தற்காலிக சேமிப்பு",
   "audioOnly": "ஒலி மட்டுமே",
   "auto": "தானியங்கி",
-  "automaticBackup": "தானாக காப்புப்பிரதி எடுக்க",
-  "automaticBackupSubtitle": "வசன வரிகளை தானாக காப்புப்பிரதி எடுக்க",
   "autoBackupInterval": "தானாக காப்புப்பிரதி எடுக்க இடைவெளி",
   "autoColoring": "சுயமாக வண்ணமடித்தல்",
   "autoColoringSubtitle": "வசன வரிகளை சுயமாக வண்ணமடிக்க",
@@ -75,6 +304,8 @@
   "autoSkipOnce": "ஒருமுறை ஆட்டோ ச்கிப்",
   "autoStartRadio": "வானொலியை தானாக துவக்க",
   "autoStartRadioSubtitle": "ஒற்றை டிராக்கை இயக்கும்போது தானாகவே மிக்ஸ் பிளேலிஸ்ட்டைச் சேர்க்கிறது",
+  "automaticBackup": "தானாக காப்புப்பிரதி எடுக்க",
+  "automaticBackupSubtitle": "வசன வரிகளை தானாக காப்புப்பிரதி எடுக்க",
   "backupAndRestore": "காப்புபிரதி மற்றும் மீட்டமை",
   "backupAndRestoreSubtitle": "உங்கள் தரவுத்தளம் மற்றும் அமைப்புகளை காப்புப்பிரதி எடுக்கவும்",
   "balanced": "சமநிலையாக",
@@ -103,26 +334,19 @@
   "clearImageCacheWarning": "எச்சரிக்கை: படங்கள் இல்லாத நூலகம் உருவாகும், பட தற்காலிக சேமிப்பை மீண்டும் உருவாக்க மட்டும் பயன்படுத்தவும்.",
   "clearTrackItem": "தடங்களை அழி",
   "clearTrackItemMultiple": "{number, plural, other{{number} தடங்களை அழி'}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "வீடியோ தற்காலிக சேமிப்பை அழிக்கவும்",
   "clearVideoCacheNote": "எதை நீக்க வேண்டும் என்பதை நீங்கள் தேர்வு செய்யலாம்.",
   "clock": "கடிகாரம்",
   "colorPalette": "நிற தட்டு",
-  "colorPalettes": "வண்ண தட்டுக்கள்",
   "colorPaletteNote1": "ஒரு நிறத்தை நீக்க நீண்ட நேரம் அழுத்தவும்",
   "colorPaletteNote2": "இயல்புநிலை நிறமாகப் பயன்படுத்த ஒரு கலவையைத் தட்டவும்",
+  "colorPalettes": "வண்ண தட்டுக்கள்",
   "comment": "கருத்து",
   "comments": "கருத்துக்கள்",
   "composer": "இசையமைப்பாளர்",
   "compress": "சுருக்கு",
-  "compressionPercentage": "சுருக்க சதவீதம்",
   "compressImages": "படத்தை சுருக்கவும்",
+  "compressionPercentage": "சுருக்க சதவீதம்",
   "configure": "கட்டமைக்க",
   "confirm": "உறுதிப்படுத்து",
   "copiedArtwork": "நகலெடுக்கப்பட்ட கலைப்படைப்பு",
@@ -137,35 +361,21 @@
   "country": "நாடு",
   "coupon": "கூப்பன்",
   "create": "உருவாக்க",
-  "createdBackupSuccessfully": "காப்புப்பிரதி உருவாக்கப்பட்டது",
-  "createdBackupSuccessfullySub": "காப்பு கோப்பு வெற்றிகரமாக உருவாக்கப்பட்டது",
   "createBackup": "காப்புப்பிரதியை உருவாக்கு",
   "createNewPlaylist": "புதிய பட்டியலை உருவாக்கவும்",
+  "createdBackupSuccessfully": "காப்புப்பிரதி உருவாக்கப்பட்டது",
+  "createdBackupSuccessfullySub": "காப்பு கோப்பு வெற்றிகரமாக உருவாக்கப்பட்டது",
+  "crossPlatformSync": "குறுக்கு-தளம் ஒத்திசைவு",
   "crossfadeDuration": "கிராஸ்ஃபேட் கால அளவு",
   "crossfadeTriggerSeconds": "{seconds, plural, other{கடைசி {seconds} வினாடிகளில் தானாகவே கிராஸ்ஃபேடை இயக்கு}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "கிராஸ்ஃபேடை தானாகத் தூண்ட வேண்டாம்",
-  "crossPlatformSync": "குறுக்கு-தளம் ஒத்திசைவு",
   "custom": "வழக்கம்",
   "customizations": "தனிப்பயனாக்கங்கள்",
   "customizationsSubtitle": "துணைத் தலைப்பு தனிப்பயனாக்குதல்",
-  "database": "டேட்டாபேஸ்",
   "dataIsProvidedByName": "தரவு வழங்கியவர்: {name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "தரவு சேமிப்பான்",
   "dataSaverMode": "டேட்டா சேவர் பயன்முறை",
+  "database": "டேட்டாபேஸ்",
   "date": "தேதி",
   "dateAdded": "சேர்க்கப்பட்ட தேதி",
   "dateCreated": "உருவாக்கப்பட்ட தேதி",
@@ -173,32 +383,15 @@
   "dateTimeFormat": "தேதி நேர வடிவம்",
   "day": "நாள்",
   "days": "நாட்களில்",
-  "defaultLabel": "இயல்புநிலை",
   "defaultBackupLocation": "இயல்புநிலை காப்புப் பிரதி இடம்",
   "defaultColor": "இயல்பு வண்ணம்",
   "defaultColorSubtitle": "துணைத் தலைப்பின் இயல்புநிலை வண்ணம்",
   "defaultDownloadLocation": "இயல்புநிலை பதிவிறக்க இருப்பிடம்",
+  "defaultLabel": "இயல்புநிலை",
   "defaultLibraryTab": "இயல்புநிலை நூலக தாவல்",
   "delete": "நீக்க",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{{totalSize} ஐக் குறிக்கும் {filesCount} கோப்பை நீக்கவா?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "totalSize": {
-        "type": "int"
-      },
-      "filesCount": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{உங்கள் சேமிப்பகத்திலிருந்து {number} ஐ நிரந்தரமாக நீக்கவும்}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "பிளேலிஸ்ட்டை நீக்கு",
   "deleteTempFiles": "தற்காலிக கோப்புகளை நீக்கு",
   "description": "விவரிக்க",
@@ -207,21 +400,14 @@
   "didYouMean": "நீங்கள் கூற வருவது",
   "dimIntensity": "திரை மங்கலாக்கல்",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{{seconds} வினாடிகள் செயலற்ற நிலைக்குப் பிறகு மினிபிளேயரை மங்கலாக்கு}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "கோப்பகம் இல்லை",
   "disable": "முடக்கு",
   "disableAll": "அனைத்தையும் முடக்கு",
   "disableReordering": "மறுவரிசைப்படுத்தலை முடக்கு",
   "disableSearchCleanup": "தேடல் பெட்டி சுத்தம் செய்வதை முடக்கு",
-  "discover": "கண்டுபிடி",
   "discNumber": "டிஸ்க் எண்",
   "discNumberTotal": "மொத்த வட்டு",
+  "discover": "கண்டுபிடி",
   "dislike": "பிடிக்கவில்லை",
   "dismissibleMiniplayer": "நிராகரிக்கக்கூடிய மினிபிளேயர்",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "தேடும் போது வித்தியாசத்திற்குப் பதிலாக உண்மையான நிலையைக் காட்டு",
@@ -230,15 +416,16 @@
   "displayArtistBeforeTitle": "தலைப்புக்கு முன் கலைஞரைக் காட்டு",
   "displayArtworkOnLockscreen": "பூட்டுத் திரையில் கலைப்படைப்புகளைக் காட்டு",
   "displayAudioInfoInMiniplayer": "ஆடியோ தகவலைக் காட்டு",
-  "displayFavouriteIconInTrackTile": "பிடித்த பொத்தானைக் காட்டு",
   "displayFavButtonInNotification": "அறிவிப்பில் பிடித்த பொத்தானைக் காண்பி",
   "displayFavButtonInNotificationSubtitle": "சிறுபடம் இடம்பெயரக்கூடும்.",
+  "displayFavouriteIconInTrackTile": "பிடித்த பொத்தானைக் காட்டு",
   "displayRemainingDurationInsteadOfTotal": "மொத்த கால அளவிற்கு பதிலாக மீதமுள்ள கால அளவைக் காண்பி",
   "displayStopButtonInNotification": "அறிவிப்பில் ச்டாப் பட்டனைக் காண்பி",
   "displayThirdItemInRowInTrackTile": "ஒவ்வொரு வரிசையிலும் மூன்றாவது உருப்படியைக் காட்டு",
   "displayThirdRowInTrackTile": "மூன்றாவது வரிசையைக் காட்டு",
   "displayTrackNumberInAlbumPage": "ஆல்பம் பக்கத்தில் டிராக் எண்ணைக் காட்டு",
   "displayTrackNumberInAlbumPageSubtitle": "ஆல்பம் பக்கத்தில் டிராக் எண்ணைக் கொண்ட ஒரு சிறிய பெட்டியைக் காண்பி",
+  "doNothing": "ஒன்றுமே செய்யாதே",
   "donate": "நன்கொடை",
   "donateSubtitle": "நீங்கள் நினைத்தால் அது தகுதியானது",
   "done": "முடிந்தது",
@@ -252,7 +439,6 @@
   "downloads": "பதிவிறக்கங்கள்",
   "downloadsMetadataTags": "மெட்டாடேட்டா குறிச்சொற்களைப் பதிவிறக்கு",
   "downloadsMetadataTagsSubtitle": "வீடியோ தகவலிலிருந்து கலைஞர், தலைப்பு மற்றும் ஆல்பத்தை இயல்பாகவே பிரித்தெடுக்கவும்",
-  "doNothing": "ஒன்றுமே செய்யாதே",
   "dragToSeek": "நகர்த்த இழுக்கவும்",
   "duckAudio": "டக் ஆடியோ",
   "duplicatedItemsAdding": "இந்த பிளேலிஸ்ட்டில் ஏற்கனவே உள்ள சில உருப்படிகளைச் சேர்க்க முயற்சிக்கிறீர்கள்",
@@ -279,13 +465,6 @@
   "enableM3uSync": "M3U ஒத்திசைவை இயக்கு",
   "enableM3uSyncNote1": "M3U ஒத்திசைவு, பிளேலிஸ்ட் மாற்றங்களை அசல் M3U கோப்பில் சேமிக்க அனுமதிக்கிறது",
   "enableM3uSyncNote2": "ஏதேனும் தவறு நடந்திருந்தால், இந்தப் பட்டியலின் காப்புப்பிரதி {playlistsBackupPath} இல் காணப்படும்",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "மறுக்கப்பட்டால், இந்த பிளேலிஸ்ட்டில் செய்யப்பட்ட அனைத்து மாற்றங்களும் மறுதொடக்கத்தில் இழக்கப்படும்",
   "enableMiniplayerParticles": "நகரும் துகள்களை இயக்கு",
   "enableParallaxEffect": "இடமாறு விளைவை இயக்கு",
@@ -310,18 +489,11 @@
   "extension": "நீட்டிப்பு",
   "externalFiles": "வெளிப்புற கோப்புகள்",
   "extract": "பிரித்தெடுக்க",
-  "extractingInfo": "தகவலைப் பிரித்தெடுக்கிறது",
   "extractAllColorPalettes": "அனைத்து வண்ணத் தட்டுகளையும் பிரித்தெடுக்கவும்",
   "extractAllColorPalettesSubtitle": "{number, plural, other{மீதமுள்ள {remainingColorPalettes} பிரித்தெடுக்கவா?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "தலைப்பிலிருந்து கலைஞர்களின் சாதனையைப் பிரித்தெடுக்கவும்",
   "extractFeatArtistSubtitle": "ஒரு புதிய கலைஞரின் நுழைவாக, (feat. X) மற்றும் (ft. X) கலைஞர்கள்.",
+  "extractingInfo": "தகவலைப் பிரித்தெடுக்கிறது",
   "extras": "கூடுதல்கள்",
   "extrasSubtitle": "கூடுதல் துணை தலைப்பு",
   "extreme": "தீவிர",
@@ -332,28 +504,28 @@
   "fetching": "எடுக்கிறது",
   "fetchingOfAllVideos": "அனைத்து வீடியோக்களையும் எடுக்கிறது",
   "file": "கோப்பு",
-  "filenameShouldntStartWith": "கோப்பு பெயர் தொடங்கக்கூடாது",
-  "files": "கோப்புகள்",
   "fileAlreadyExists": "கோப்பு ஏற்கனவே உள்ளது",
   "fileBasedServerWarning": "அட்டவணைப்படுத்துவதற்காக கோப்புகள் தற்காலிகமாக பதிவிறக்கம் செய்யப்படும், உங்கள் இணைப்பு நிலையானது என்பதை உறுதிப்படுத்தவும். \nஅதிக டேட்டா உபயோகத்தைத் தவிர்க்க வைஃபை பரிந்துரைக்கப்படுகிறது.",
   "fileName": "கோப்பு பெயர்",
   "fileNameWoExt": "கோப்பு வடிவம் இல்லாத கோப்பு பெயர்",
+  "filenameShouldntStartWith": "கோப்பு பெயர் தொடங்கக்கூடாது",
+  "files": "கோப்புகள்",
   "filler": "நிரப்பு",
-  "filteredBySizeAndDuration": "அளவு மற்றும் கால அளவு மூலம் வடிகட்டப்பட்ட தடங்கள்",
   "filterAlbums": "ஆல்பங்களை வடிகட்டவும்",
   "filterArtists": "கலைஞர்களாக வடிகட்டவும்",
   "filterGenres": "வகைகளை வடிகட்டவும்",
   "filterPlaylists": "பிளேலிஸ்ட்களை வடிகட்டவும்",
   "filterTracks": "தடங்களாக வடிகட்ட",
   "filterTracksBy": "தேடல் பட்டியல்களில் உள்ள தடங்களை இதன்படி வடிகட்டவும்",
+  "filteredBySizeAndDuration": "அளவு மற்றும் கால அளவு மூலம் வடிகட்டப்பட்ட தடங்கள்",
   "finished": "முடிந்துவிட்டது",
   "finishedUpdatingLibrary": "நூலகத்தைப் புதுப்பிப்பது முடிந்தது",
   "firstListen": "முதல் முறையாக கேட்டேன்",
   "fixYtdlpBigThumbnailSize": "yt-dlp பெரிய சிறுபட அளவை சரிசெய்யவும்",
   "floatingActionButton": "மிதக்கும் செயல் பொத்தான்",
   "folder": "கோப்புறை",
-  "folders": "கோப்புறைகள்",
   "folderName": "கோப்புறையின் பெயர்",
+  "folders": "கோப்புறைகள்",
   "fontScale": "எழுத்துரு அளவு",
   "forceMiniplayerFollowTrackColors": "மினிபிளேயரை டிராக் வண்ணங்களைப் பின்பற்ற கட்டாயப்படுத்து",
   "forceSquaredAlbumThumbnail": "ஆல்பத்தின் சிறுபடம் சதுர வடிவமாக கட்டாயமாக்கு",
@@ -369,11 +541,11 @@
   "generateRandomPlaylist": "சீரற்ற பிளேலிஸ்ட்டை உருவாக்கு",
   "genre": "வகை",
   "genres": "வகைகள்",
-  "goodLooking": "அழகாக இருக்கிறது",
   "goToAlbum": "ஆல்பத்திற்கு செல்க",
   "goToArtist": "கலைஞருக்குச் செல்லவும்",
   "goToChannel": "சேனலுக்குச் செல்",
   "goToFolder": "கோப்புறைக்கு செல்க",
+  "goodLooking": "அழகாக இருக்கிறது",
   "grantStoragePermission": "சேமிப்பக அனுமதியை வழங்கு",
   "group": "குழுவாக",
   "groupArtworksByAlbum": "ஆல்பத்தின் கலைப்படைப்புகளை குழுவாக்கு",
@@ -382,79 +554,39 @@
   "heightOfAlbumTile": "ஆல்பம் டைலின் உயரம்",
   "heightOfTrackTile": "ட்ராக் டைலின் உயரம்",
   "hideSkipButtonAfter": "பின் தவிர் பொத்தானை மறை",
-  "highlight": "முன்னிலைப்படுத்தவும்",
   "highMatches": "அதிக பொருத்தங்கள்",
   "highPerformance": "உயர் செயல்திறன்",
+  "highlight": "முன்னிலைப்படுத்தவும்",
   "history": "வரலாறு",
   "historyImportMissingEntriesNote": "இந்த உள்ளீடுகளை நூலகத்திற்குள் காண முடியவில்லை, அவை இருப்பதாக நீங்கள் நம்பினால், அவற்றை கைமுறையாகச் சேர்ப்பதைக் கருத்தில் கொள்ளவும்",
   "historyListensReplaceWarning": "{listensCount, plural, other{{oldTrackInfo} க்கான {listensCount} கேட்பவர்கள் {newTrackInfo} உடன் மாற்றப்படும், உறுதிப்படுத்தவா?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "listensCount": {
-        "type": "int"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "முகப்பு",
   "hook": "கொக்கி",
   "host": "விருந்தோம்பி",
-  "hours": "மணிநேரம்",
   "hourFormat12": "12 மணிநேர வடிவம்",
+  "hours": "மணிநேரம்",
+  "iReadAndAgree": "நான் படித்து ஒப்புக்கொள்கிறேன்",
   "ifNotPlaying": "பாடல் ஒலிக்கவில்லை என்றால்",
-  "ignores": "புறக்கணிக்க",
   "ignoreBatteryOptimizationsSubtitle": "செயலி பேட்டரியை மேம்படுத்தும்போது பதிவிறக்கங்களை வேகப்படுத்தலாம்",
   "ignoreCommonPrefixesWhileSorting": "வரிசைப்படுத்தும்போது பொதுவான முன்னொட்டுகளைப் புறக்கணிக்கவும்",
+  "ignores": "புறக்கணிக்க",
   "imageSource": "படத்தின் சான்று",
   "immersiveMode": "மூழ்கும் பயன்முறை",
   "immersiveModeSubtitle": "மினிபிளேயர் விரிவாக்கப்படும்போது நிலை & வழிசெலுத்தல் பட்டிகளை மறைக்கவும்",
   "import": "இறக்குமதி",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number} சேனல்கள் வெற்றிகரமாக இறக்குமதி செய்யப்பட்டன}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} சேனல்கள் வெற்றிகரமாக இறக்குமதி செய்யப்பட்டது}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "அனைத்தையும் இறக்குமதி செய்",
   "importLastFmHistory": "LastFm வரலாற்றை இறக்குமதி செய்",
   "importLastFmHistoryGuide": "1. {lastfmCsvLink} க்குச் செல்லவும்\n\n2. உங்கள் பயனர்பெயரை உள்ளிட்டு, csv கோப்பைப் பெற்று பதிவிறக்கவும்.\n\n3. அடுத்த திரையில் இருந்து கோப்பைத் தேர்ந்தெடுக்கவும்.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "இறக்குமதி நேர வரம்பு",
   "importYoutubeHistory": "YouTube வரலாற்றை இறக்குமதி செய்",
   "importYoutubeHistoryGuide": "1. {takeoutLink} க்குச் செல்லவும்\n\n2. \"பல வடிவங்கள்\" என்பதை அழுத்தி, \"வரலாறு\" என்பதற்கு அருகில் \"JSON\" என்பதைத் தேர்ந்தெடுக்கவும்.\n\n3. \"அனைத்து YouTube தரவும் சேர்க்கப்பட்டுள்ளது\" என்பதை அழுத்தி, அனைத்தையும் தேர்வுநீக்கி வரலாற்றை மட்டும் தேர்வு செய்யவும்.\n\n4. ஏற்றுமதியை உருவாக்கு, பதிவிறக்கு & அன்சிப் செய்யவும்.\n\n5. அடுத்த திரையில் இருந்து \"watch-history.json\" என்பதைத் தேர்ந்தெடுக்கவும்.",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{{number} சேனல்கள் வெற்றிகரமாக இறக்குமதி செய்யப்பட்டன}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} சேனல்கள் வெற்றிகரமாக இறக்குமதி செய்யப்பட்டது}}",
   "includeVideos": "வீடியோக்களைச் சேர்க்கவும்",
+  "indexRefreshRequired": "இதை மாற்றிய பின் புதுப்பிக்கவும்",
   "indexer": "குறியீட்டாளர்",
   "indexerNote": "குறிப்பு: முழுமையற்ற கலைப்படைப்புகளின் எண்ணிக்கை என்பது நகல் எடுக்கப்பட்ட & கண்டுபிடிக்கப்படாத கலைப்படைப்புகளைக் குறிக்கிறது",
   "indexerSubtitle": "உங்கள் இசை நூலகத்தை நிர்வகிக்கவும்",
-  "indexRefreshRequired": "இதை மாற்றிய பின் புதுப்பிக்கவும்",
   "infinityQueueOnNextPrev": "அடுத்தது/முந்தையதில் முடிவிலி வரிசை",
   "infinityQueueOnNextPrevSubtitle": "கடைசி உருப்படியை இயக்கும்போது அடுத்து என்பதை அழுத்தினால் முதல் உருப்படிக்குச் செல்லும், அதற்கு நேர்மாறாகவும் நடக்கும்",
   "info": "தகவல்",
@@ -465,7 +597,6 @@
   "invertSelection": "தேர்வை தலைகீழாக மாற்று",
   "issues": "சிக்கல்கள்",
   "item": "பொருள்",
-  "iReadAndAgree": "நான் படித்து ஒப்புக்கொள்கிறேன்",
   "jump": "குதிக்கவும்",
   "jumpToDay": "நாளுக்குச் செல்லவும்",
   "jumpToFirstTrackAfterQueueFinish": "வரிசையை முடித்த பிறகு முதல் தடத்திற்குச் செல்லவும்",
@@ -488,8 +619,8 @@
   "liked": "பிடித்தது",
   "link": "இணைப்பு",
   "listOfFolders": "கோப்புறைகளின் பட்டியல்",
-  "loadingFile": "கோப்பை ஏற்றுகிறது",
   "loadAll": "அனைத்தையும் ஏற்று",
+  "loadingFile": "கோப்பை ஏற்றுகிறது",
   "local": "உள்ளூர",
   "localVideoMatching": "உள்ளூர் வீடியோ பொருத்தம்",
   "login": "புகுபதிவு",
@@ -497,13 +628,6 @@
   "longPressTheLyricsToEnterFullscreen": "முழுத்திரையில் நுழைய பாடல் வரிகளை நீண்ட நேரம் அழுத்தவும்",
   "lostMemories": "இழந்த நினைவுகள்",
   "lostMemoriesSubtitle": "{number, plural, other{இதே நேரத்தில், {number} ஆண்டுகளுக்கு முன்பு}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "lostPartners": "இழந்த பங்குதாரர்கள்",
   "loudnessEnhancer": "சத்தத்தை அதிகரிக்கும் கருவி",
   "lyricist": "பாடலாசிரியர்",
@@ -516,13 +640,13 @@
   "manualBackup": "கையேடு",
   "manualBackupSubtitle": "ஒரு குறிப்பிட்ட கோப்பை எடு",
   "markAsRead": "படித்ததாகக் குறி",
-  "matchingType": "பொருந்தும் வகை",
   "matchAllTracks": "எல்லா டிராக்குகளையும் பொருத்து",
   "matchAllTracksNote": "இது உங்கள் நூலகத்தில் உள்ள அனைத்து தடங்களையும் சரிபார்க்கும் என்பதால், பொருத்த வேகத்தில் தாக்கத்தை ஏற்படுத்தலாம்",
-  "maximum": "அதிகபட்ச",
+  "matchingType": "பொருந்தும் வகை",
   "maxAudioCacheSize": "அதிகபட்ச ஆடியோ கேச் அளவு",
   "maxImageCacheSize": "அதிகபட்ச பட தற்காலிக சேமிப்பு அளவு",
   "maxVideoCacheSize": "அதிகபட்ச வீடியோ கேச் அளவு",
+  "maximum": "அதிகபட்ச",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "மீடியா கடை இயக்கப்பட்டுள்ளது, இது எந்த விளைவையும் ஏற்படுத்தாது",
   "medium": "சராசரி",
   "membershipCode": "குறியீடு",
@@ -535,45 +659,28 @@
   "membershipSignInToPatreonAccount": "உங்கள் புரவலர் கணக்கில் உள்நுழையவும்",
   "membershipUnknown": "அறியப்படாத உறுப்பினர்",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "பல கணக்குகளைச் சேர்க்க {name1} அல்லது {name2} இன் உறுப்பினர் தேவை",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "ஒன்றிணை",
   "metadataCache": "மெட்டாடேட்டா தற்காலிக சேமிப்பு",
   "metadataEditFailed": "மெட்டாடேட்டாவை திருத்துவதில் தோல்வி",
   "metadataReadFailed": "மெட்டாடேட்டாவைப் படிப்பதில் தோல்வி",
-  "minimizedMiniplayer": "சிறிதாக்கப்பட்ட மினிபிளேயர்",
-  "minimum": "குறைந்தபட்சம்",
-  "minimumOneFolderSubtitle": "குறைந்தது ஒரு கோப்புறையாவது இருக்க வேண்டும், இதை நீக்க விரும்பினால் மேலும் கோப்புறைகளைச் சேர்க்கவும்",
-  "minimumOneItem": "பொருளை அகற்ற முடியவில்லை",
-  "minimumOneItemSubtitle": "{number, plural, other{குறைந்தது {number} உருப்படிகளாவது இருக்க வேண்டும்}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "minimumSegmentDuration": "குறைந்தபட்ச பிரிவு காலம்",
-  "miniplayerCustomization": "மினிபிளேயர் தனிப்பயனாக்கம்",
-  "minutes": "நிமிடங்கள்",
   "minFileDuration": "குறைந்தபட்ச டிராக் காலம்",
   "minFileSize": "குறைந்தபட்ச கோப்பு அளவு",
   "minTrackDurationToRestoreLastPosition": "கடைசியாக வாசிக்கப்பட்ட பாடலை மீட்டமைக்க குறைந்தபட்ச டிராக் கால அளவு",
   "minValueCantBeMoreThanMax": "குறைந்தபட்ச மதிப்பு அதிகபட்சத்தை விட அதிகமாக இருக்கக்கூடாது",
   "minValueToCountTrackListen": "பிறகு கேளுங்கள் என்று எண்ணுங்கள்: ",
+  "minimizedMiniplayer": "சிறிதாக்கப்பட்ட மினிபிளேயர்",
+  "minimum": "குறைந்தபட்சம்",
+  "minimumOneFolderSubtitle": "குறைந்தது ஒரு கோப்புறையாவது இருக்க வேண்டும், இதை நீக்க விரும்பினால் மேலும் கோப்புறைகளைச் சேர்க்கவும்",
+  "minimumOneItem": "பொருளை அகற்ற முடியவில்லை",
+  "minimumOneItemSubtitle": "{number, plural, other{குறைந்தது {number} உருப்படிகளாவது இருக்க வேண்டும்}}",
+  "minimumSegmentDuration": "குறைந்தபட்ச பிரிவு காலம்",
+  "miniplayerCustomization": "மினிபிளேயர் தனிப்பயனாக்கம்",
+  "minutes": "நிமிடங்கள்",
   "missingEntries": "விடுபட்ட உள்ளீடுகள்",
   "missingTracks": "காணாமல் போன தடங்கள்",
   "mix": "கலவை",
-  "mixes": "கலவைகள்",
   "mixPlaylistGeneratedByYoutube": "யூடியூப் மூலம் உருவாக்கப்பட்ட மிக்ஸ் பிளேலிஸ்ட்",
+  "mixes": "கலவைகள்",
   "mobile": "மொபைல்",
   "month": "மாதம்",
   "months": "மாதங்கள்",
@@ -586,7 +693,6 @@
   "name": "பெயர்",
   "nameContainsBadCharacter": "பெயரில் அனுமதிக்கப்படாத எழுதுரு உள்ளது",
   "never": "ஒருபோதும் இல்லை",
-  "newest": "புதியது",
   "newDirectory": "புதிய கோப்பகம்",
   "newTracksAdd": "தடங்களைச் சேர்க்க",
   "newTracksMoods": "மனோநிலை",
@@ -597,35 +703,12 @@
   "newTracksRatingsSubtitle": "குறிப்பிட்ட மதிப்பீட்டைக் கொண்ட தடங்களை உருவாக்குங்கள்",
   "newTracksRecommended": "பரிந்துரைக்கப்படுகிறது",
   "newTracksRecommendedSubtitle": "{currentTrack} உடன் நீங்கள் வழக்கமாகக் கேட்ட டிராக்குகளை உருவாக்குங்கள்",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "இதேபோன்ற வெளியீட்டு தேதி",
   "newTracksSimilarrReleaseDateSubtitle": "{currentTrack} வெளியிடப்பட்ட அதே நேரத்தில் வெளியிடப்பட்ட டிராக்குகளை உருவாக்கவும்",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "ட்ராக் அறியப்படாத ஆண்டு",
+  "newest": "புதியது",
   "next": "அடுத்து",
   "no": "இல்லை",
-  "none": "எதுவும் இல்லை",
-  "nonActive": "செயலில் இல்லாதது",
-  "nonFavourites": "விருப்பமற்றவை",
-  "normalizeAudio": "ஆடியோவை இயல்பாக்கு",
-  "normalizeAudioSubtitle": "ரீப்ளே கெயின் டேக் அல்லது யூடியூப் வழங்கிய தகவலைப் படிப்பதன் மூலம் ஒலியளவை இயல்பாக்குகிறது",
-  "note": "குறிப்பு",
-  "notification": "அறிவிப்பு",
-  "notifications": "அறிவிப்புகள்",
-  "notAvailableForYourDevice": "உங்கள் சாதனத்திற்கு கிடைக்கவில்லை",
-  "notSupportedForNetworkFiles": "பிணைய கோப்புகள் ஆதரிக்கப்படவில்லை",
   "noChangesFound": "எந்த மாற்றங்களும் காணப்படவில்லை.",
   "noEnoughTracks": "உங்களிடம் அதிக தடங்கள் இல்லை.",
   "noExcludedFolders": "விலக்கப்பட்ட கோப்புறைகள் எதுவும் உங்களிடம் இல்லை",
@@ -636,19 +719,29 @@
   "noTracksFoundBetweenDates": "இந்த நேர வரம்பில் எந்த தடங்களும் இல்லை.",
   "noTracksFoundInDirectory": "இந்த கோப்பகத்தில் எந்த தடங்களும் கிடைக்கவில்லை",
   "noTracksInHistory": "வரலாற்றில் போதுமான தடங்கள் உங்களிடம் இல்லை",
+  "nonActive": "செயலில் இல்லாதது",
+  "nonFavourites": "விருப்பமற்றவை",
+  "none": "எதுவும் இல்லை",
+  "normalizeAudio": "ஆடியோவை இயல்பாக்கு",
+  "normalizeAudioSubtitle": "ரீப்ளே கெயின் டேக் அல்லது யூடியூப் வழங்கிய தகவலைப் படிப்பதன் மூலம் ஒலியளவை இயல்பாக்குகிறது",
+  "notAvailableForYourDevice": "உங்கள் சாதனத்திற்கு கிடைக்கவில்லை",
+  "notSupportedForNetworkFiles": "பிணைய கோப்புகள் ஆதரிக்கப்படவில்லை",
+  "note": "குறிப்பு",
+  "notification": "அறிவிப்பு",
+  "notifications": "அறிவிப்புகள்",
   "numberOfTracks": "தடங்களின் எண்ணிக்கை",
   "ofLabel": "இன்",
   "offlineSearch": "ஆஃப்லைன் தேடல்",
   "offset": "ஆஃப்செட்",
-  "oldestWatch": "பார்க்கப்பட்டவற்றில் மிகப் பழமையானது",
   "oldDirectory": "பழைய கோப்பகம்",
   "oldDirectoryStillHasTracks": "பழைய டைரக்டரியில் இன்னும் சில டிராக்குகள் உள்ளன, உறுதியா?",
-  "ongoing": "நடந்து கொண்டிருக்கிறது",
+  "oldestWatch": "பார்க்கப்பட்டவற்றில் மிகப் பழமையானது",
   "onInterruption": "குறுக்கீடு செய்யப்பட்டது",
   "onNotificationTap": "அறிவிப்பு தட்டலில்",
   "onOpeningYoutubeLink": "யூடியூப் இணைப்பைத் திறக்கும்போது",
   "onSwiping": "ஸ்வைப் செய்யும்போது",
   "onVolumeZero": "சத்தம் 0 அளவில்",
+  "ongoing": "நடந்து கொண்டிருக்கிறது",
   "open": "திற",
   "openApp": "பயன்பாட்டைத் திற",
   "openInFileExplorer": "கோப்பு எக்ச்ப்ளோரரில் திறக்கவும்",
@@ -657,24 +750,7 @@
   "openQueue": "வரிசையைத் திற",
   "openYoutubeLink": "யூடியூப் இணைப்பைத் திறக்கவும்",
   "operationRequiresAccount": "{name} செயல்பாட்டிற்கு கணக்கு தேவை, தொடர உள்நுழையவும்",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "{operation} செயல்பாட்டிற்கு குறைந்தபட்சம் {name} உறுப்பினர் தேவை",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "அல்லது",
   "others": "மற்றவைகள்",
   "output": "வெளியீட்டு",
@@ -703,6 +779,12 @@
   "pitch": "சுருதி",
   "plain": "சமவெளி",
   "play": "இயக்கு",
+  "playAfter": "இதற்கு பிறகு இயக்கு",
+  "playAfterNextPrev": "அடுத்தது/முந்தையதில் தானாக இயக்கவும்",
+  "playAll": "அனைத்தையும் இயக்கு",
+  "playFadeDuration": "மங்கலான கால அளவைத் தொடங்கு",
+  "playLast": "கடைசியானவற்றை இயக்கு",
+  "playNext": "அடுத்ததாக இயக்கு",
   "playbackSetting": "பின்னணி",
   "playbackSettingSubtitle": "ஆடியோ பொத்தானை நீண்ட நேரம் அழுத்துவதன் மூலம் பிளேயரில் நேரடியாக அணுகலாம்",
   "playlist": "பாடல் பட்டியல்",
@@ -710,12 +792,6 @@
   "playlistsImportM3uNative": "இது நமீடாவால் மட்டுமே பயன்படுத்த M3U பிளேலிஸ்ட்களை இறக்குமதி செய்யும், நீங்கள் இடம்பெயர்ந்தால் பயன்படுத்தவும்",
   "playlistsImportM3uSynced": "இது இன்டெக்ஸர் கோப்புறைகளிலிருந்து M3U பிளேலிஸ்ட்களை தானாகவே இறக்குமதி செய்து, அவற்றை அசல் M3U கோப்போடு ஒத்திசைத்து வைத்திருக்கும். பிற பயன்பாடுகளிலிருந்து பிளேலிஸ்ட்களை அணுகினால்/மாற்றியமைத்தால் இயக்கவும்",
   "playlistsImportM3uSyncedAutoImport": "M3U பிளேலிஸ்ட்களை தானாக இறக்குமதி செய்",
-  "playAfter": "இதற்கு பிறகு இயக்கு",
-  "playAfterNextPrev": "அடுத்தது/முந்தையதில் தானாக இயக்கவும்",
-  "playAll": "அனைத்தையும் இயக்கு",
-  "playFadeDuration": "மங்கலான கால அளவைத் தொடங்கு",
-  "playLast": "கடைசியானவற்றை இயக்கு",
-  "playNext": "அடுத்ததாக இயக்கு",
   "pleaseEnterADifferentName": "இந்தப் பெயர் ஏற்கனவே உள்ளது :(\nவேறொரு பெயரை முயற்சிக்கவும்",
   "pleaseEnterALink": "இணைப்பை உள்ளிடவும்",
   "pleaseEnterALinkSubtitle": "ம்ம் ... இது யூடியூப் இணைப்புதானா?",
@@ -732,16 +808,6 @@
   "private": "தனிப்பட்ட",
   "progress": "முன்னேற்றம்",
   "promptIndexingRefresh": "{newFiles} புதிய கோப்புகள் கண்டறியப்பட்டன & {deletedFiles} நீக்கப்பட்டது அல்லது வடிகட்டப்பட்டது, புதுப்பிக்க வேண்டுமா?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "பொதுவாக இது நமிடாவின் வெளியே கோப்பை நீக்கும்போது/நகர்த்தும்போது/மறுபெயரிடும்போது நடக்கும். தற்போதைய பாதையைப் புதுப்பிக்க விரும்புகிறீர்களா?",
   "public": "பொது",
   "queue": "வரிசை",
@@ -749,10 +815,13 @@
   "random": "சீரற்ற",
   "randomPicks": "சீரற்ற தேர்வுகள்",
   "rating": "மதிப்பீடு",
-  "recentlyAdded": "சமீபத்தில் சேர்க்கப்பட்டது",
+  "reIndex": "மறு அட்டவணைப்படுத்தல்",
+  "reIndexSubtitle": "உங்கள் இசை நூலகத்தை புதிதாக உருவாக்குங்கள்",
+  "reIndexWarning": "உங்கள் நூலக அளவைப் பொறுத்து இந்த செயல்முறை சிறிது நேரம் ஆகலாம்.\n\nகலைப்படைப்புகள் இருக்கும் வரை அவை மீண்டும் அட்டவணைப்படுத்தப்படாது",
   "recentAlbums": "சமீபத்திய ஆல்பங்கள்",
   "recentArtists": "சமீபத்திய கலைஞர்கள்",
   "recentListens": "சமீபத்தில் கேட்டவை",
+  "recentlyAdded": "சமீபத்தில் சேர்க்கப்பட்டது",
   "recordLabel": "இசைப்பதிவுத்தட்டு லேபிள்",
   "refresh": "புதுப்பிக்க",
   "refreshLibrary": "நூலகத்தைப் புதுப்பிக்கவும்",
@@ -762,7 +831,6 @@
   "rememberAudioOnlyMode": "ஆடியோ மட்டும் பயன்முறையை நினைவில் கொள்க",
   "remixer": "ரீமிக்சர்",
   "remove": "நீக்கவும்",
-  "removed": "அகற்றப்பட்டது",
   "removeDuplicates": "நகல்களை அகற்று",
   "removeFromFavourites": "பிடித்தவையிலிருந்து அகற்று",
   "removeFromLibrary": "நூலகத்திலிருந்து நீக்கு",
@@ -770,17 +838,11 @@
   "removeQueue": "வரிசையை அகற்று",
   "removeSourceFromHistory": "வரலாற்றிலிருந்து மூலத்தை அகற்று",
   "removeWhitespaces": "இடைவெளிகளை அகற்று",
+  "removed": "அகற்றப்பட்டது",
   "rename": "மறுபெயரிடு",
   "renamePlaylist": "பிளேலிஸ்ட்டின் பெயரை மாற்றவும்",
   "reorderable": "மறுவரிசைப்படுத்தக்கூடியது",
   "repeatForNTimes": "{number, plural, other{இன்னும் {number} முறை இயக்கவும்}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "மீண்டும் முறை",
   "repeatModeAll": "வரிசையில் இருந்து அனைத்தையும் இயக்கு",
   "repeatModeNone": "கடைசி பாடலுடன் நிறுத்தவும்",
@@ -795,58 +857,39 @@
   "respectNoMedia": ".nomedia வை மதிக்கவும்",
   "respectNoMediaSubtitle": ".nomedia வில் உள்ள கோப்புறைகளைச் சேர்க்க வேண்டாம்",
   "restart": "மறுதொடக்கம்",
-  "restoredBackupSuccessfully": "மீட்டெடுக்கப்பட்ட காப்புப்பிரதி",
-  "restoredBackupSuccessfullySub": "காப்புப்பிரதி கோப்பு வெற்றிகரமாக மீட்டமைக்கப்பட்டது",
   "restoreBackup": "காப்புப்பிரதியை மீட்டமை",
   "restoreDefaults": "இயல்புநிலைகளை மீட்டமை",
+  "restoredBackupSuccessfully": "மீட்டெடுக்கப்பட்ட காப்புப்பிரதி",
+  "restoredBackupSuccessfullySub": "காப்புப்பிரதி கோப்பு வெற்றிகரமாக மீட்டமைக்கப்பட்டது",
   "resume": "மீண்டும் தொடர்",
   "resumeIfWasInterrupted": "குறுக்கீட்டால் நிறுத்தப்பட்டிருந்தால் மீண்டும் தொடங்கு",
   "resumeIfWasPausedByVolume": "ஒலியளவால் நிறுத்தப்பட்டிருந்தால் மீண்டும் தொடங்கு",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{{number} நிமிடங்களுக்கும் குறைவாக இடைநிறுத்தப்பட்டிருந்தால் மீண்டும் தொடங்கு}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "returnYoutubeDislike": "Youtube விருப்பமின்மையைத் திரும்பப் பெறவும்",
   "reverseOrder": "தலைகீழ் வரிசை",
-  "reIndex": "மறு அட்டவணைப்படுத்தல்",
-  "reIndexSubtitle": "உங்கள் இசை நூலகத்தை புதிதாக உருவாக்குங்கள்",
-  "reIndexWarning": "உங்கள் நூலக அளவைப் பொறுத்து இந்த செயல்முறை சிறிது நேரம் ஆகலாம்.\n\nகலைப்படைப்புகள் இருக்கும் வரை அவை மீண்டும் அட்டவணைப்படுத்தப்படாது",
   "rightAction": "சரியான நடவடிக்கை",
   "ringtone": "ரிங் டோன்",
   "sameDirectoryOnly": "ஒரே கோப்பகம் மட்டும்",
   "sample": "மாதிரி",
   "sampleRate": "மாதிரியெடுப்பு வீதம்",
   "save": "சேமி",
-  "savedIn": "சேமிக்கப்பட்டது",
   "saveToLibrary": "நூலகத்தில் சேமிக்கவும்",
+  "savedIn": "சேமிக்கப்பட்டது",
   "scaleMultiplier": "அளவுகோல் பெருக்கி",
   "search": "தேடு",
   "searchYoutube": "யூடியூபில் தேடு",
   "seconds": "வினாடிகள்",
-  "seekbar": "முன்னேற்றப் பட்டை",
+  "seeProjectCodeOnSite": "{site} இல் திட்டக் குறியீட்டைப் பார்க்கவும்",
   "seekDuration": "முன்னேற்றப்பட்டை கால அளவு",
   "seekDurationInfo": "பின்னோக்கிச் செல்ல தற்போதைய கால அளவையும், முன்னோக்கிச் செல்ல மொத்த கால அளவையும் தட்டலாம்",
-  "seeProjectCodeOnSite": "{site} இல் திட்டக் குறியீட்டைப் பார்க்கவும்",
-  "@seeProjectCodeOnSite": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
-  "selectedTracks": "தேர்ந்தெடுக்கப்பட்ட பாடல்கள்",
+  "seekbar": "முன்னேற்றப் பட்டை",
   "selectAll": "அனைத்தையும் தேர்ந்தெடுக்கவும்",
   "selectFilesAlreadyInLocalLibrary": "உள்ளக நூலகத்தில் ஏற்கனவே உள்ள கோப்புகளைத் தேர்ந்தெடுக்கவும்",
+  "selectedTracks": "தேர்ந்தெடுக்கப்பட்ட பாடல்கள்",
   "selfPromotion": "தன்வய விளம்பரம்",
   "separatorsBlacklistSubtitle": "இந்த வார்த்தைகள் பிரிக்கப்படாது",
   "separatorsMessage": "ஒரு முழு வார்த்தையில் (x மற்றும் ft போன்றவை) காணக்கூடிய ஒரு எழுத்து/குறியீட்டைப் பயன்படுத்த விரும்பினால் தவிர, இடைவெளிகளைச் செருக வேண்டிய அவசியமில்லை",
   "serverAddress": "சேவையக முகவரி",
-  "settings": "அமைப்புகள்",
-  "setupFirstStartup": "முதல் தொடக்கத்தை அமைக்கவும்",
   "setAs": "என அமைக்க",
   "setAsDefault": "இயல்புநிலையாக அமை",
   "setFileLastModifiedAsVideoUploadDate": "கோப்பை கடைசியாக வீடியோ பதிவேற்ற தேதியாக அமைக்கவும்",
@@ -855,6 +898,8 @@
   "setRating": "மதிப்பீட்டை அமைக்கவும்",
   "setTags": "குறிச்சொற்களை அமைக்கவும்",
   "setYoutubeLink": "யூடியூப் இணைப்பை அமைக்கவும்",
+  "settings": "அமைப்புகள்",
+  "setupFirstStartup": "முதல் தொடக்கத்தை அமைக்கவும்",
   "share": "பகிர்",
   "shareLogs": "பகிர்வு பதிவுகள்",
   "shortcuts": "குறுக்குவழிகள்",
@@ -876,8 +921,6 @@
   "shuffle": "கலக்கு",
   "shuffleAll": "அனைத்தையும் கலக்கு",
   "shuffleNext": "அடுத்ததைக் கலக்கவும்",
-  "signingInAllowsBasicUsage": "உள்நுழைவது அடிப்படை பயன்பாட்டை அனுமதிக்கிறது",
-  "signingInAllowsBasicUsageSubtitle": "Patreon மூலமாகவோ அல்லது கூப்பன் மூலமாகவோ ஆரம்ப அணுகலைப் பெறுங்கள்",
   "signIn": "உள்நுழையவும்",
   "signInCanceled": "உள்நுழைவு ரத்து செய்யப்பட்டது",
   "signInFailed": "உள்நுழைவு தோல்வியடைந்தது",
@@ -886,31 +929,12 @@
   "signInYouNeedAccountToViewPage": "இந்தப் பக்கத்தைக் காண உங்களுக்கு ஒரு கணக்கு தேவை",
   "signOut": "வெளியேறுங்கள்",
   "signOutFromName": "{name} லிருந்து வெளியேறு",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "உள்நுழைவது அடிப்படை பயன்பாட்டை அனுமதிக்கிறது",
+  "signingInAllowsBasicUsageSubtitle": "Patreon மூலமாகவோ அல்லது கூப்பன் மூலமாகவோ ஆரம்ப அணுகலைப் பெறுங்கள்",
   "similarDiscoverDate": "இதே போன்ற கண்டுபிடிப்பு தேதி",
   "similarDiscoverDateSubtitle": "{currentTrack} போன்ற அதே நேரத்தில் கண்டுபிடிக்கப்பட்ட தடங்களை உருவாக்கவும்",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "இதே போன்ற நேர வரம்பு",
   "similarTimeRangeSubtitle": "{currentTrack} போன்ற அதே நேரத்தில் நீங்கள் கேட்ட டிராக்குகளை உருவாக்கவும்",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "ஒற்றையர்",
   "size": "அளவு",
   "skip": "தவிர்",
@@ -945,13 +969,6 @@
   "subscribers": "சந்தாதாரர்கள்",
   "succeeded": "வெற்றி பெற்றது",
   "suggestionSubtitle": "ஏதேனும் சிக்கல் அல்லது பரிந்துரை உள்ளதா? {site} இல் சிக்கலைத் திறக்கவும்",
-  "@suggestionSubtitle": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
   "support": "ஆதரவு",
   "supremacy": "மேலாதிக்கம்",
   "sussyBaka": "ப்ரூஹ் தடங்கள் இல்லை",
@@ -959,8 +976,8 @@
   "swipeToOpenDrawer": "டிராயரைத் திறக்க ஸ்வைப் செய்யவும்",
   "synced": "ஒத்திசைக்கப்பட்டது",
   "synopsis": "சுருக்கம்",
-  "tags": "குறிச்சொற்கள்",
   "tagFields": "குறிச்சொல் புலங்கள்",
+  "tags": "குறிச்சொற்கள்",
   "tapAction": "செயலைத் தட்டவும்",
   "tapToSeek": "தேட தட்டவும்",
   "themeMode": "தீம் பயன்முறை",
@@ -976,17 +993,14 @@
   "top": "மேல்",
   "topComments": "சிறந்த கருத்துகள்",
   "topCommentsSubtitle": "கருத்துகளை கீழே காட்டுவதற்கு பதிலாக மேலே காட்டவும்",
-  "topRecents": "சமீபத்திய சிறந்தவை",
   "topRecentAlbums": "சமீபத்திய சிறந்த ஆல்பங்கள்",
   "topRecentArtists": "சமீபத்திய சிறந்த கலைஞர்கள்",
-  "totalListens": "மொத்தக் கேட்டவை",
+  "topRecents": "சமீபத்திய சிறந்தவை",
   "totalListenTime": "மொத்த கேட்ட நேரம்",
+  "totalListens": "மொத்தக் கேட்டவை",
   "totalTracks": "மொத்த தடங்கள்",
   "totalTracksDuration": "மொத்த தடங்களின் கால அளவு",
   "track": "தடம்",
-  "tracks": "தடங்கள்",
-  "tracksExcludedByNomedia": ".nomedia ஆல் விலக்கப்பட்ட தடங்கள்",
-  "tracksInfo": "தடங்கள் பற்றிய தகவல்",
   "trackArtistsSeparator": "கலைஞர்களைப் பிரிப்பவர்கள்",
   "trackGenresSeparator": "வகைகள் பிரிப்பான்கள்",
   "trackInfo": "டிராக் தகவல்",
@@ -994,16 +1008,6 @@
   "trackNumber": "தட எண்",
   "trackNumberTotal": "மொத்த டிராக்குகள்",
   "trackPathOldNew": "பழைய பெயர்: \"{oldName}\"\n\nபுதிய பெயர்: \"{newName}\"\n\nநீ சொல்வது உறுதியா?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "இசைக்கும் பயன்முறை",
   "trackPlayModeSearchResults": "தேடல் முடிவுகள்",
   "trackPlayModeSelectedOnly": "தேர்ந்தெடுக்கப்பட்ட டிராக் மட்டும்",
@@ -1013,6 +1017,9 @@
   "trackThumbnailSizeInList": "டிராக் சிறுபடத்தின் அளவு",
   "trackTileCustomization": "டிராக் டைல் தனிப்பயனாக்கம்",
   "trackTileItemsSeparator": "பொருட்களைப் பிரிப்பான்",
+  "tracks": "தடங்கள்",
+  "tracksExcludedByNomedia": ".nomedia ஆல் விலக்கப்பட்ட தடங்கள்",
+  "tracksInfo": "தடங்கள் பற்றிய தகவல்",
   "underrated": "குறைத்து மதிப்பிடப்பட்டது",
   "undo": "செயல்தவிர்",
   "undoChanges": "மாற்றங்களைச் செயல்தவிர் ?",
@@ -1027,18 +1034,17 @@
   "updateDirectoryPath": "கோப்பக பாதையை மேம்படுத்தவும்",
   "updateMissingTracksOnly": "விடுபட்ட தடங்களை மட்டும் புதுப்பிக்கவும்",
   "updating": "புதுப்பித்தல் நடக்கிறது",
-  "used": "உபயோகப்படுத்தியது",
   "useCollapsedSettingTiles": "சுருக்கப்பட்ட அமைப்பு ஓடுகளைப் பயன்படுத்தவும்",
   "useMediaStore": "மீடியா ஸ்டோரைப் பயன்படுத்தவும்",
   "useMediaStoreSubtitle": "✓ உடனடி அட்டவணைப்படுத்தல் நேரம் \nx மரியாதை .nomedia கட்டாயமாக இயக்கப்படும் \nx சில மேனிலை தரவு குறிச்சொற்கள் விடுபட்டிருக்கும் \nஉள்ளக நூலகத்திற்கான ஃச் யூடியூப் ஒருங்கிணைப்பு வேலை செய்யாது",
   "usePitchBlack": "கருப்பு நிறத்தைப் பயன்படுத்துங்கள்",
   "usePitchBlackSubtitle": "AMOLED திரைகளுக்கு பயனுள்ளதாக இருக்கும்.. மேலும் குளிர்ச்சியாகவும் இருக்கும்",
+  "used": "உபயோகப்படுத்தியது",
   "value": "மதிப்பு",
   "valueBetween50200": "மதிப்பு 50% முதல் 200% வரை இருக்க வேண்டும்",
   "vibration": "அதிர்வு",
   "vibrationType": "அதிர்வு வகை",
   "video": "காணொளி",
-  "videos": "காணொளிகள்",
   "videoCache": "காணொளி தற்காலிக சேமிப்பு",
   "videoCacheFile": "தற்காலிகமாக சேமித்த வீடியோ",
   "videoCacheFiles": "தற்காலிகமாகச் சேமித்த வீடியோ",
@@ -1053,9 +1059,10 @@
   "videoQuality": "ஒளியின் தரம்",
   "videoQualitySubtitle": "கிடைக்கக்கூடிய மிக உயர்ந்த தரம் தேர்ந்தெடுக்கப்படும்.",
   "videoQualitySubtitleNote": "தகுதி கிடைக்காத பட்சத்தில் அதிக மாற்றுகளை வைத்திருப்பது எப்போதும் நல்லது, இல்லையெனில் அது மோசமான தரத்திற்கு திரும்பும்",
+  "videos": "காணொளிகள்",
   "view": "பார்வை",
-  "views": "பார்வைகள்",
   "viewAll": "அனைத்தையும் பார்",
+  "views": "பார்வைகள்",
   "volume": "சத்தம்",
   "warning": "எச்சரிக்கை",
   "waveformBarsCount": "அலைவடிவ பார்கள் எண்ணிக்கை",
@@ -1064,13 +1071,6 @@
   "year": "வருடம்",
   "yes": "ஆம்",
   "yourCurrentMembershipIs": "உங்கள் தற்போதைய உறுப்பினர் {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "உங்கள் தனிப்பயன் ஆர்டர் தொலைந்து போகும், நிச்சயமாகவா?",
   "youtube": "யூடியூப்",
   "youtubeMusic": "யூடியூப் இசை",
