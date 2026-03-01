@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -320,7 +320,7 @@
   "externalFiles": "Ārējie faili",
   "extract": "Izvilkt",
   "extractAllColorPalettes": "Izvilkt visas krāsu paletes",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Izvilkt atlikušās {remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Izvilkt atlikušās {number}?}}",
   "extractFeatArtist": "Izvilkt papildus izpildītājus no nosaukuma",
   "extractFeatArtistSubtitle": "Izvelk (feat. X) un (ft. X) izpildītājus kā papildus izpildītājus",
   "extractingInfo": "Izvelk informāciju",

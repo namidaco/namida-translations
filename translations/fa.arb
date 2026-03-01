@@ -54,7 +54,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -416,7 +416,7 @@
   "externalFiles": "فایل های خارجی",
   "extract": "استخراج",
   "extractAllColorPalettes": "تمام پالت های رنگ را استخراج کن",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{آیا{remainingColorPalettes} استخراج شود؟}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{آیا{number} استخراج شود؟}}",
   "extractFeatArtist": "از آهنگ feat. استخراج هنرمندان",
   "extractFeatArtistSubtitle": "و ثبت آنان بعنوان ورودی هنرمند جدید (ft. X) و (feat. X) استخراج نام هنرمندان در",
   "extractingInfo": "درحال استخراج اطلاعات",

@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -490,7 +490,7 @@
   "externalFiles": "外部ファイル",
   "extract": "抽出",
   "extractAllColorPalettes": "すべてのカラーパレットを抽出",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{残りの{remainingColorPalettes}を抽出しますか?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{残りの{number}を抽出しますか?}}",
   "extractFeatArtist": "タイトルからfeat. アーティストを抽出",
   "extractFeatArtistSubtitle": "タイトル上の (feat. X) および (ft. X) を新しいアーティスト エントリとして抽出します。",
   "extractingInfo": "情報の抽出",

@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -490,7 +490,7 @@
   "externalFiles": "বাহ্যিক ফাইলসমূহ",
   "extract": "এক্সট্র্যাক্ট করুন",
   "extractAllColorPalettes": "সব রঙের প্যালেট এক্সট্র্যাক্ট করুন",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{{remainingColorPalettes} টি প্যালেট বাকি আছে, এক্সট্র্যাক্ট করবেন?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{{number} টি প্যালেট বাকি আছে, এক্সট্র্যাক্ট করবেন?}}",
   "extractFeatArtist": "শিরোনাম থেকে শিল্পী বের করুন",
   "extractFeatArtistSubtitle": "(feat. X) এবং (ft. X) শিল্পীগুলোকে একটি নতুন শিল্পী এন্ট্রি হিসেবে বের করে।",
   "extractingInfo": "তথ্য এক্সট্র্যাক্ট করা হচ্ছে",
@@ -559,7 +559,7 @@
   "highlight": "হাইলাইট",
   "history": "ইতিহাস",
   "historyImportMissingEntriesNote": "এই এন্ট্রিগুলো লাইব্রেরির ভিতরে পাওয়া যায়নি, যদি আপনি বিশ্বাস করেন যে সেগুলো বিদ্যমান, দয়া করে সেগুলো ম্যানুয়ালি যোগ করার কথা বিবেচনা করুন",
-  "historyListensReplaceWarning": "{listensCount, plural, one{{number} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?} other{{listensCount} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?}}",
+  "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?} other{{listensCount} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?}}",
   "home": "হোম",
   "hook": "হুক",
   "host": "হোস্ট",

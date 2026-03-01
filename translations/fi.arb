@@ -54,7 +54,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -430,7 +430,7 @@
   "externalFiles": "Ulkoiset Tiedostot",
   "extract": "Purkaa",
   "extractAllColorPalettes": "Pura Kaikki Väripaletit",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Pura kaikki jäljellä {remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Pura kaikki jäljellä {number}?}}",
   "extractFeatArtist": "Pura feat. muusikot nimestä",
   "extractFeatArtistSubtitle": "Pura (feat. X) ja (ft. X) muusikot, uutena muusikkona.",
   "extractingInfo": "Tietojen Poimiminen",

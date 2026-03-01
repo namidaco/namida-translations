@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -465,7 +465,7 @@
   "externalFiles": "Eksteraj dosieroj",
   "extract": "Ĉerpi",
   "extractAllColorPalettes": "Ĉerpi ĉiujn kolorpaletrojn",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Ĉu ĉerpi restantajn {remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Ĉu ĉerpi restantajn {number}?}}",
   "extractFeatArtist": "Ĉerpi feat. artistojn el titolo",
   "extractFeatArtistSubtitle": "Ĉerpas (feat. X) kaj (ft. X) artistojn, kiel novan artistan eniron.",
   "extractingInfo": "Ĉerpante informojn",

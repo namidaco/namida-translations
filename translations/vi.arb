@@ -54,7 +54,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -447,7 +447,7 @@
   "externalFiles": "Tập tin bên ngoài",
   "extract": "Trích xuất",
   "extractAllColorPalettes": "Trích xuất tất cả bảng màu",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Trích xuất còn lại {remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Trích xuất còn lại {number}?}}",
   "extractFeatArtist": "Trích xuất feat. Nghệ sĩ từ tiêu đề",
   "extractFeatArtistSubtitle": "Trích xuất (feat. X) và (ft. X) nghệ sĩ, với tư cách là nghệ sĩ mới tham gia.",
   "extractingInfo": "Trích xuất Thông tin",

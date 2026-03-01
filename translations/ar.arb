@@ -54,7 +54,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -435,7 +435,7 @@
   "externalFiles": "ملفات خارجية",
   "extract": "استخراج",
   "extractAllColorPalettes": "استخراج كافة لوحات الألوان",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{هل تريد استخراج {remainingColorPalettes} المتبقي؟}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{هل تريد استخراج {number} المتبقي؟}}",
   "extractFeatArtist": "استخراج الفنانين المشاركين من العنوان",
   "extractFeatArtistSubtitle": "مقتطفات من الفنانين (fet.X) و(ft.X)، كمدخل فنان جديد.",
   "extractingInfo": "استخراج المعلومات",

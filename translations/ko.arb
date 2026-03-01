@@ -54,7 +54,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -429,7 +429,7 @@
   "externalFiles": "외부 파일",
   "extract": "추출",
   "extractAllColorPalettes": "모든 색상 팔레트 추출",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{나머지 {remainingColorPalettes}를 추출할까요?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{나머지 {number}를 추출할까요?}}",
   "extractFeatArtist": "제목에서 feat. 아티스트 추출",
   "extractFeatArtistSubtitle": "(feat. X) 및 (ft. X) 아티스트를 새로운 아티스트 항목으로 추출합니다.",
   "extractingInfo": "정보 추출",

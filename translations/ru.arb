@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -465,7 +465,7 @@
   "externalFiles": "Внешние Файлы",
   "extract": "Извлечь",
   "extractAllColorPalettes": "Извлечь все цветовые палитры",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Извлечь оставшиеся {remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Извлечь оставшиеся {number}?}}",
   "extractFeatArtist": "Извлечь исполнителей из названия",
   "extractFeatArtistSubtitle": "Извлечь (feat. X) и (ft. X) исполнителей в виде записи нового исполнителя.",
   "extractingInfo": "Извлечение информации",

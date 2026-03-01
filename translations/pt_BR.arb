@@ -54,7 +54,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -448,7 +448,7 @@
   "externalFiles": "Arquivos externos",
   "extract": "Extrair",
   "extractAllColorPalettes": "Extrair Todas as Paletas de Cores",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Extrair {remainingColorPalettes} Restantes?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Extrair {number} Restantes?}}",
   "extractFeatArtist": "Extrair artistas em destaque do título",
   "extractFeatArtistSubtitle": "Exair artistas (feat. X) e (ft. X) como entidades separadas.",
   "extractingInfo": "Extraindo Informações",

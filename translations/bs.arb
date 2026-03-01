@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -489,7 +489,7 @@
   "externalFiles": "Vanjske datoteke",
   "extract": "Izdvoj",
   "extractAllColorPalettes": "Izdvoj sve palete boja",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Izdvojiti preostale {remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Izdvojiti preostale {number}?}}",
   "extractFeatArtist": "Izdvoj gostujuće umjetnike iz naslova",
   "extractFeatArtistSubtitle": "Izvlači (feat. X) i (ft. X) umjetnike kao novi unos izvođača.",
   "extractingInfo": "Izvlačenje informacija",

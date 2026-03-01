@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -489,7 +489,7 @@
   "externalFiles": "Eksterne lêers",
   "extract": "Trek uit",
   "extractAllColorPalettes": "Trek alle kleurpalette uit",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Trek oorblywende {remainingColorPalettes} uit?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Trek oorblywende {number} uit?}}",
   "extractFeatArtist": "Trek feat. kunstenaars uit titel uit",
   "extractFeatArtistSubtitle": "Trek (feat. X) en (ft. X) kunstenaars uit as 'n nuwe kunstenaarsinskrywing.",
   "extractingInfo": "Trek inligting uit",

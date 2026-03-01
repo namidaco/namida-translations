@@ -54,7 +54,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -446,7 +446,7 @@
   "externalFiles": "File Eksternal",
   "extract": "Ekstrak",
   "extractAllColorPalettes": "Ekstrak Semua Palet Warna",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Ekstrak Sisa {remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Ekstrak Sisa {number}?}}",
   "extractFeatArtist": "Ekstrak prestasi. artis dari judul",
   "extractFeatArtistSubtitle": "Ekstrak artis (feat. X) dan (ft. X), sebagai entri artis baru.",
   "extractingInfo": "Mengekstrak Info",

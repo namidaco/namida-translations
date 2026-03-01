@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -490,7 +490,7 @@
   "externalFiles": "外部文件",
   "extract": "提取",
   "extractAllColorPalettes": "提取所有调色板",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{提取剩余的{remainingColorPalettes} ？}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{提取剩余的{number} ？}}",
   "extractFeatArtist": "从标题中提取合作音乐人",
   "extractFeatArtistSubtitle": "提取 (feat. X) 和 (ft. X) 音乐人，作为新音乐人条目。",
   "extractingInfo": "提取信息",

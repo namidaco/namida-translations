@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -490,7 +490,7 @@
   "externalFiles": "Harici Dosyalar",
   "extract": "Çıkar",
   "extractAllColorPalettes": "Tüm Renk Paletlerini Çıkar",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Kalan {remainingColorPalettes} palet çıkarılsın mı?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Kalan {number} palet çıkarılsın mı?}}",
   "extractFeatArtist": "feat. sanatçılarını başlıktan çıkar",
   "extractFeatArtistSubtitle": "(feat. X) ve (ft. X) sanatçılarını yeni bir sanatçı girişi olarak çıkarır.",
   "extractingInfo": "Bilgi Çıkarılıyor",

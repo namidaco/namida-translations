@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -490,7 +490,7 @@
   "externalFiles": "வெளிப்புற கோப்புகள்",
   "extract": "பிரித்தெடுக்க",
   "extractAllColorPalettes": "அனைத்து வண்ணத் தட்டுகளையும் பிரித்தெடுக்கவும்",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{மீதமுள்ள {remainingColorPalettes} பிரித்தெடுக்கவா?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{மீதமுள்ள {number} பிரித்தெடுக்கவா?}}",
   "extractFeatArtist": "தலைப்பிலிருந்து கலைஞர்களின் சாதனையைப் பிரித்தெடுக்கவும்",
   "extractFeatArtistSubtitle": "ஒரு புதிய கலைஞரின் நுழைவாக, (feat. X) மற்றும் (ft. X) கலைஞர்கள்.",
   "extractingInfo": "தகவலைப் பிரித்தெடுக்கிறது",

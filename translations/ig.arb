@@ -54,7 +54,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -308,7 +308,7 @@
   "externalFiles": "Mpụga Faịlụ",
   "extract": "Wepụta",
   "extractAllColorPalettes": "Wepụ Palettes Agba Niile",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Wepụ fọdụrụnụ {remainingColorPalettes} ?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Wepụ fọdụrụnụ {number} ?}}",
   "extractFeatArtist": "Wepụta ndị tíri egwu na aha",
   "extractFeatArtistSubtitle": "Wepụta (feat. X) na (ft. X) ndị tíri egwu, dika ntinye ndi egwu ohuru",
   "extractingInfo": "Ozi Nwepụta",

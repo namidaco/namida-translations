@@ -54,7 +54,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -448,7 +448,7 @@
   "externalFiles": "Fișiere externe",
   "extract": "Extrage",
   "extractAllColorPalettes": "Extrage toate paletele de culori",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Extragi paletele rămase {remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Extragi paletele rămase {number}?}}",
   "extractFeatArtist": "Extrage artiști feat. din titlu",
   "extractFeatArtistSubtitle": "Extrage artiștii (feat. X) și (ft. X) ca o nouă intrare de artist.",
   "extractingInfo": "Extragere informații",

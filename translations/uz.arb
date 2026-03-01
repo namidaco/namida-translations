@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -344,7 +344,7 @@
   "externalFiles": "Tashqi fayllar",
   "extract": "Chiqarib olish",
   "extractAllColorPalettes": "Barcha rang palitrasini ajratib olish",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Qolgan {remainingColorPalettes} ajratib olinsinmi?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Qolgan {number} ajratib olinsinmi?}}",
   "extractFeatArtist": "   ",
   "extractFeatArtistSubtitle": "Ajratuvchi (feat. X) va (ft. X) qo'shiqchilar, yangi qo'shiqchi yozuvi sifatida.",
   "extractingInfo": "Ma’lumot olinmoqda",

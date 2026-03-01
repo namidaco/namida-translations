@@ -54,7 +54,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -448,7 +448,7 @@
   "externalFiles": "Pliki zewnętrzne",
   "extract": "Wyodrębnij",
   "extractAllColorPalettes": "Wyodrębnij wszystkie palety kolorów",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Wyodrębnić pozostałe {remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Wyodrębnić pozostałe {number}?}}",
   "extractFeatArtist": "Wyodrębnij wykonawcę feat. z tytułu",
   "extractFeatArtistSubtitle": "Wyodrębnij (feat. X) i (ft. X) wykonawców jako wpis nowy wykonawca.",
   "extractingInfo": "Wyodrębnianie informacji",

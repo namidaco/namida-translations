@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -490,7 +490,7 @@
   "externalFiles": "Externe bestanden",
   "extract": "Extraheren",
   "extractAllColorPalettes": "Alle kleurenschema's extraheren",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Wil je de resterende {remainingColorPalettes} extraheren?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Wil je de resterende {number} extraheren?}}",
   "extractFeatArtist": "Nummers met ‘feat.‘ apart noteren",
   "extractFeatArtistSubtitle": "Voegt artiesten met ‘feat. X’ en ‘ft. X’ toe als losse items.",
   "extractingInfo": "Bezig met extraheren van informatie…",

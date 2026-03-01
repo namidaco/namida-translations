@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -443,7 +443,7 @@
   "externalFiles": "बाह्य फ़ाइलें",
   "extract": "निकालें",
   "extractAllColorPalettes": "सभी रंग palette निकालें",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{शेष {remainingColorPalettes} निकालें?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{शेष {number} निकालें?}}",
   "extractFeatArtist": "शीर्षक से feat. कलाकारों को निकालें",
   "extractFeatArtistSubtitle": "नए कलाकार प्रविष्टि के रूप में (feat. X) और (ft. X) कलाकारों को निकालता है।",
   "extractingInfo": "जानकारी निकाल रहा है",

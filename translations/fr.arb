@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -490,7 +490,7 @@
   "externalFiles": "Fichiers externes",
   "extract": "Extraire",
   "extractAllColorPalettes": "Extraire toutes les palettes de couleurs",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Extraire les {remainingColorPalettes} restantes ?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Extraire les {number} restantes ?}}",
   "extractFeatArtist": "Extraire les artistes du titre",
   "extractFeatArtistSubtitle": "Extraits (feat. X) et (ft. X) artistes, en tant que nouvelle entrée d'artiste.",
   "extractingInfo": "Informations d'extraction",

@@ -47,7 +47,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -355,7 +355,7 @@
   "externalFiles": "外部文件",
   "extract": "提煉",
   "extractAllColorPalettes": "提取所有調色板",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{提取剩餘{remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{提取剩餘{number}?}}",
   "extractFeatArtist": "提取壯舉。來自標題的藝術家",
   "extractFeatArtistSubtitle": "提取 (feat. X) 和 (ft. X) 藝術家,作為新的藝術家條目。",
   "extractingInfo": "擷取訊息",

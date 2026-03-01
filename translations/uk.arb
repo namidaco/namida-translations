@@ -61,7 +61,7 @@
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
-      "remainingColorPalettes": {
+      "number": {
         "type": "int"
       }
     }
@@ -489,7 +489,7 @@
   "externalFiles": "Зовнішні файли",
   "extract": "Витягти",
   "extractAllColorPalettes": "Витягти всі кольорові палітри",
-  "extractAllColorPalettesSubtitle": "{number, plural, other{Витягти решту {remainingColorPalettes}?}}",
+  "extractAllColorPalettesSubtitle": "{number, plural, other{Витягти решту {number}?}}",
   "extractFeatArtist": "Витягти виконавців з назви",
   "extractFeatArtistSubtitle": "Витягти (feat. X) та (ft. X) виконавців у вигляді запису нового виконавця.",
   "extractingInfo": "Витяг інформації",
