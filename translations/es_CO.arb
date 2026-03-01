@@ -1,9 +1,225 @@
 {
   "@@locale": "es_CO",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Acerca de",
   "active": "Activo",
   "add": "Agregar",
-  "added": "agregado",
   "addAccount": "Añadir cuenta",
   "addAll": "Agregar todo",
   "addAllAndRemoveOldOnes": "Agregar todo y remover anteriores",
@@ -17,29 +233,23 @@
   "addMoreFromThisArtist": "Añade más de este artista a la cola",
   "addMoreFromThisFolder": "Agregar más de esta carpeta a la cola",
   "addMoreFromToQueue": "Agregar más de {media} a la cola",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Agregar solo faltantes",
   "addToFavourites": "Añadir a favoritos",
   "addToPlaylist": "Agregar a la lista de reproducción",
   "addTracksAtTheBeginning": "Añadir canciones al inicio",
+  "added": "agregado",
   "advanced": "Avanzado",
   "advancedSettings": "Avanzado",
   "advancedSettingsSubtitle": "Configuración avanzada, no tocar",
   "alarm": "Alarma",
   "album": "Álbum",
-  "albums": "Álbumes",
-  "albumsCount": "Número de álbumes",
   "albumArtist": "Artista del album",
   "albumArtists": "Artistas del álbum",
   "albumIdentifiers": "Identificadores de álbum",
   "albumThumbnailSizeInList": "Tamaño de la miniatura del álbum",
   "albumTileCustomization": "Personalización del mosaico del álbum",
+  "albums": "Álbumes",
+  "albumsCount": "Número de álbumes",
   "all": "Todo",
   "allTime": "Todo el tiempo",
   "always": "Siempre",
@@ -55,14 +265,12 @@
   "artist": "Artista",
   "artists": "Artistas",
   "artwork": "Carátula",
-  "artworks": "Carátulas",
   "artworkGestures": "Gestos artísticos",
+  "artworks": "Carátulas",
   "audio": "Audio",
   "audioCache": "Caché de audio",
   "audioOnly": "Solo audio",
   "auto": "Auto",
-  "automaticBackup": "Automático",
-  "automaticBackupSubtitle": "Aplica automáticamente el archivo de copia de seguridad más reciente encontrado dentro de la ubicación de la copia de seguridad",
   "autoBackupInterval": "Intervalo de respaldo automático",
   "autoColoring": "Coloración automática",
   "autoColoringSubtitle": "Elige automáticamente los colores de la carátula de la pista actual",
@@ -71,6 +279,8 @@
   "autoGenerated": "Auto generado",
   "autoStartRadio": "Empezar radio automaticamente",
   "autoStartRadioSubtitle": "Añade un mix de canciones automático mientras reproduces una sola cancion",
+  "automaticBackup": "Automático",
+  "automaticBackupSubtitle": "Aplica automáticamente el archivo de copia de seguridad más reciente encontrado dentro de la ubicación de la copia de seguridad",
   "backupAndRestore": "Copia de seguridad y Restauración",
   "backupAndRestoreSubtitle": "Haga una copia de seguridad de su base de datos y configuración",
   "balanced": "Equilibrado",
@@ -98,26 +308,19 @@
   "clearImageCacheWarning": "Advertencia: dará como resultado una biblioteca sin imágenes. Úsela solo para reconstruir el caché de imágenes.",
   "clearTrackItem": "Borrar de la pista",
   "clearTrackItemMultiple": "{number, plural, other{Borrar {number} pistas'}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "Borrar caché de vídeo",
   "clearVideoCacheNote": "Puedes elegir qué eliminar.",
   "clock": "Reloj",
   "colorPalette": "Paleta de color",
-  "colorPalettes": "Paletas de colores",
   "colorPaletteNote1": "Mantenga presionado un color para eliminarlo",
   "colorPaletteNote2": "Toque una mezcla para usarla como color predeterminado",
+  "colorPalettes": "Paletas de colores",
   "comment": "Comentario",
   "comments": "Comentarios",
   "composer": "Compositor",
   "compress": "Comprimir",
-  "compressionPercentage": "Porcentaje de compresión",
   "compressImages": "Comprimir imágenes",
+  "compressionPercentage": "Porcentaje de compresión",
   "configure": "Ajustes de sonido",
   "confirm": "Confirmar",
   "copiedArtwork": "Ilustraciones copiadas",
@@ -131,21 +334,14 @@
   "couldntSaveImage": "No se pudo guardar la imagen",
   "country": "País",
   "create": "Crear",
-  "createdBackupSuccessfully": "Copia de seguridad creada",
-  "createdBackupSuccessfullySub": "El archivo de copia de seguridad se ha creado correctamente",
   "createBackup": "Crear copia de seguridad",
   "createNewPlaylist": "Crear nueva lista de reproducción",
+  "createdBackupSuccessfully": "Copia de seguridad creada",
+  "createdBackupSuccessfullySub": "El archivo de copia de seguridad se ha creado correctamente",
+  "crossPlatformSync": "Sincronización entre plataformas",
   "crossfadeDuration": "Duración del fundido cruzado",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Activar Crossfade automáticamente en los últimos {seconds} segundos}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "No activar el crossfade entre canciones automáticamente",
-  "crossPlatformSync": "Sincronización entre plataformas",
   "custom": "A medida",
   "customizations": "Personalizaciones",
   "customizationsSubtitle": "Personaliza el aspecto de tu reproductor, hazlo tuyo",
@@ -157,45 +353,21 @@
   "dateTimeFormat": "Formato de fecha y hora",
   "day": "Día",
   "days": "Días",
-  "defaultLabel": "Por defecto",
   "defaultBackupLocation": "Ubicación de copia de seguridad predeterminada",
   "defaultColor": "Color predeterminado",
   "defaultColorSubtitle": "Establecer un color para ser utilizado por el reproductor",
   "defaultDownloadLocation": "Ubicación de Dercarga por Defecto",
+  "defaultLabel": "Por defecto",
   "defaultLibraryTab": "Pestaña Biblioteca predeterminada",
   "delete": "Borrar",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{¿Desea borrar {filesCount} file archivos de {totalSize} ?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{Borrar de forma permanente {number} de tu almacenamiento}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "Eliminar lista de reproducción",
   "deleteTempFiles": "Borrar archivos temporales",
   "description": "Descripción",
   "didYouMean": "Quisiste decir",
   "dimIntensity": "intensidad tenue",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{Minirreproductor atenuado después de {seconds} segundos de inactividad}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "El directorio no existe",
   "disableAll": "Desactivar todo",
   "disableReordering": "Deshabilitar reordenamiento",
@@ -210,15 +382,16 @@
   "displayArtistBeforeTitle": "Mostrar artista antes del título",
   "displayArtworkOnLockscreen": "Mostrar arte en la pantalla de bloqueo",
   "displayAudioInfoInMiniplayer": "Mostrar información de audio",
-  "displayFavouriteIconInTrackTile": "Mostrar botón favorito",
   "displayFavButtonInNotification": "Mostrar botón favorito en notificaciones",
   "displayFavButtonInNotificationSubtitle": "La miniatura podría quedar desplazada.",
+  "displayFavouriteIconInTrackTile": "Mostrar botón favorito",
   "displayRemainingDurationInsteadOfTotal": "Mostrar la duración restante en lugar del total",
   "displayStopButtonInNotification": "Mostrar botón de Parar en notificaciones",
   "displayThirdItemInRowInTrackTile": "Mostrar el tercer elemento en cada fila",
   "displayThirdRowInTrackTile": "Mostrar tercera fila",
   "displayTrackNumberInAlbumPage": "Mostrar el número de pista en la página del álbum",
   "displayTrackNumberInAlbumPageSubtitle": "Mostrar un pequeño cuadro conteniendo el número de pista en la página del álbum",
+  "doNothing": "No hacer nada",
   "done": "Hecho",
   "dontAskAgain": "no vuelvas a preguntar",
   "dontDim": "No oscurecer",
@@ -230,7 +403,6 @@
   "downloads": "Descargas",
   "downloadsMetadataTags": "Descargas etiquetas de metadatos",
   "downloadsMetadataTagsSubtitle": "Extrae artista, título y álbum de la información del vídeo de forma predeterminada",
-  "doNothing": "No hacer nada",
   "dragToSeek": "Agarra para buscar",
   "duckAudio": "Atenuación de audio",
   "duplicatedItemsAdding": "Estas tratansdo de añadir algunos objetos que ya existen en este playlist",
@@ -255,13 +427,6 @@
   "enableM3uSync": "Habilitar sincronización M3U",
   "enableM3uSyncNote1": "M3U Sync permite guardar los cambios de la lista de reproducción en el archivo M3U original",
   "enableM3uSyncNote2": "Si algo salió mal, se encontrará una copia de seguridad de esta lista de reproducción en {playlistsBackupPath}",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "Si se rechaza, todos los cambios realizados en esta lista de reproducción se perderán al reiniciar",
   "enableMiniplayerParticles": "Habilitar partículas en movimiento",
   "enableParallaxEffect": "Habilitar efecto de paralaje",
@@ -284,18 +449,11 @@
   "extension": "Extensión",
   "externalFiles": "Archivos externos",
   "extract": "Extracto",
-  "extractingInfo": "Extrayendo información",
   "extractAllColorPalettes": "Extraer todas las paletas de colores",
   "extractAllColorPalettesSubtitle": "{number, plural, other{¿Extraer los {remainingColorPalettes} restantes?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "Extraer hazaña. artistas del título",
   "extractFeatArtistSubtitle": "Extrae artistas (feat. X) y (ft. X), como una nueva entrada de artista.",
+  "extractingInfo": "Extrayendo información",
   "extras": "Extras",
   "extrasSubtitle": "Configuraciones adicionales para mejorar tu experiencia",
   "failed": "Fallido",
@@ -304,26 +462,26 @@
   "fetching": "Atractivo",
   "fetchingOfAllVideos": "Recuperación de todos los vídeos",
   "file": "Archivo",
-  "filenameShouldntStartWith": "El nombre del archivo no debería comenzar con",
-  "files": "Archivos",
   "fileAlreadyExists": "El archivo ya existe",
   "fileName": "Nombre del archivo",
   "fileNameWoExt": "Nombre de archivo sin extensión",
-  "filteredBySizeAndDuration": "Pistas filtradas por tamaño y duración",
+  "filenameShouldntStartWith": "El nombre del archivo no debería comenzar con",
+  "files": "Archivos",
   "filterAlbums": "Filtrar álbumes",
   "filterArtists": "Filtrar artistas",
   "filterGenres": "Filtrar géneros",
   "filterPlaylists": "Filtrar listas de reproducción",
   "filterTracks": "Filtrar pistas",
   "filterTracksBy": "Filtrar pistas en listas de búsqueda por",
+  "filteredBySizeAndDuration": "Pistas filtradas por tamaño y duración",
   "finished": "Finalizado",
   "finishedUpdatingLibrary": "Biblioteca de actualización finalizada",
   "firstListen": "Primera escucha",
   "fixYtdlpBigThumbnailSize": "Arreglar el tamaño de miniatura grande de yt-dlp",
   "floatingActionButton": "Botón de acción flotante",
   "folder": "Carpeta",
-  "folders": "Carpetas",
   "folderName": "Nombre de la carpeta",
+  "folders": "Carpetas",
   "fontScale": "Escala de fuente",
   "forceMiniplayerFollowTrackColors": "Forzar al minireproductor a seguir los colores de la caratula",
   "forceSquaredAlbumThumbnail": "Forzar miniatura del álbum cuadrada",
@@ -339,11 +497,11 @@
   "generateRandomPlaylist": "Generar playlist aleatoria",
   "genre": "Género",
   "genres": "Géneros",
-  "goodLooking": "Bien hermoso",
   "goToAlbum": "Ir al álbum",
   "goToArtist": "Ir al artista",
   "goToChannel": "ir al canal",
   "goToFolder": "Ir a la carpeta",
+  "goodLooking": "Bien hermoso",
   "grantStoragePermission": "Conceder permiso de almacenamiento",
   "group": "Grupo",
   "groupArtworksByAlbum": "Imágenes de álbum por grupos",
@@ -356,71 +514,31 @@
   "history": "Historial",
   "historyImportMissingEntriesNote": "Estos datos no se pudieron encontrar dentro de la biblioteca. Si cree que existen, considere agregarlas manualmente",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} escuchas {oldTrackInfo} será reemplazado por {newTrackInfo}, ¿confirmar?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "Inicio",
-  "hours": "Horas",
   "hourFormat12": "Formato de 12 horas",
+  "hours": "Horas",
+  "iReadAndAgree": "Leí y acepto",
   "ifNotPlaying": "Si está pausada",
-  "ignores": "ignora",
   "ignoreBatteryOptimizationsSubtitle": "Las descargas se pueden ralentizar cuando Namida tiene restricción de batería",
   "ignoreCommonPrefixesWhileSorting": "Ignorar prefijos comunes mientras se indexa",
+  "ignores": "ignora",
   "imageSource": "Fuente de la imagen",
   "immersiveMode": "Modo inmersivo",
   "immersiveModeSubtitle": "Ocultar barras de estado y navegación mientras el minirreproductor está expandido",
   "import": "Importar",
-  "importedNChannelsSuccessfully": "{number, plural, other{Ha importado {number} canales sucesivamente}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{Ha importado {number} playlists sucesivamente}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "Importar todo",
   "importLastFmHistory": "Importar historial de LastFm",
   "importLastFmHistoryGuide": "1. Vaya a {lastfmCsvLink}\n\n2. Escriba su nombre de usuario, busque y descargue el archivo csv.\n\n3. Elija el archivo en la siguiente pantalla.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "Intervalo de tiempo de importación",
   "importYoutubeHistory": "Importar historial de Youtube",
   "importYoutubeHistoryGuide": "1. Vaya a {takeoutLink}\n\n2. Presione \"Múltiples formatos\" y al lado de \"Historial\", elija \"JSON\".\n\n3. Presione \"Todos los datos de Youtube incluidos\", deseleccione Todo y elija solo historial.\n\n4. Crear Exportar, Descargar y Descomprimir.\n\n5. Elija \"watch-history.json\" en la siguiente pantalla.",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{Ha importado {number} canales sucesivamente}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{Ha importado {number} playlists sucesivamente}}",
   "includeVideos": "Incluye videos",
+  "indexRefreshRequired": "Hace una actualización después de cambiarlo",
   "indexer": "Indexador",
   "indexerNote": "Nota: El número incompleto de caratulas refiere a las carátulas duplicadas y no encontradas",
   "indexerSubtitle": "Administra tu biblioteca de música",
-  "indexRefreshRequired": "Hace una actualización después de cambiarlo",
   "infinityQueueOnNextPrev": "Cola infinita en siguiente/anterior",
   "infinityQueueOnNextPrevSubtitle": "Al presionar siguiente cuando se reproduce la ultima canción, volverá a reproducir la primera canción de la cola por siempre",
   "info": "Información",
@@ -428,7 +546,6 @@
   "instantlyApplies": "Se aplica instantáneamente",
   "invertSelection": "Invertir selección",
   "item": "Artículo",
-  "iReadAndAgree": "Leí y acepto",
   "jump": "Saltar",
   "jumpToDay": "Saltar al día",
   "jumpToFirstTrackAfterQueueFinish": "Saltar a la primera pista después de terminar la cola",
@@ -446,20 +563,13 @@
   "liked": "Favorito",
   "link": "Enlace",
   "listOfFolders": "Lista de carpetas",
-  "loadingFile": "Cargando archivo",
   "loadAll": "Cargar todo",
+  "loadingFile": "Cargando archivo",
   "local": "Local",
   "localVideoMatching": "Coincidencia de vídeos locales",
   "longPressTheLyricsToEnterFullscreen": "Mantén presionada la letra para entrar en la pantalla completa",
   "lostMemories": "Recuerdos perdidos",
   "lostMemoriesSubtitle": "{number, plural, other{alrededor de esta época, hace {number} años}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "loudnessEnhancer": "Mejora de ganancia",
   "lyricist": "Letrista",
   "lyrics": "Letra",
@@ -471,13 +581,13 @@
   "manualBackup": "Manual",
   "manualBackupSubtitle": "recoger un archivo específico",
   "markAsRead": "Marcar como leido",
-  "matchingType": "tipo coincidente",
   "matchAllTracks": "Coincidir con todas las pistas",
   "matchAllTracksNote": "Esto puede tener un impacto en la velocidad de comparación ya que verificará todas las pistas en su biblioteca",
-  "maximum": "Máximo",
+  "matchingType": "tipo coincidente",
   "maxAudioCacheSize": "Tamaño del caché de audio",
   "maxImageCacheSize": "Tamaño máximo de caché de imágenes",
   "maxVideoCacheSize": "Tamaño máximo de caché de vídeo",
+  "maximum": "Máximo",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Tienda multimedia está encendida, este ajuste no se aplicará",
   "membershipCode": "Codigo",
   "membershipCodeSentToEmail": "Codigo enviado a tu correo electrónico",
@@ -489,44 +599,27 @@
   "membershipSignInToPatreonAccount": "Inicia sesión en tu cuenta de Patreon",
   "membershipUnknown": "Membresía Desconocida",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "Necesitas la membresía de {name1} o {name2} para añadir múltiples cuentas",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "Conectar",
   "metadataCache": "Caché de metadatos",
   "metadataEditFailed": "No se pudieron editar los metadatos",
   "metadataReadFailed": "No se pudieron leer los metadatos",
-  "minimizedMiniplayer": "Mini reproductor minimizado(oculto)",
-  "minimum": "Mínimo",
-  "minimumOneFolderSubtitle": "Debe haber al menos 1 carpeta, agregue más carpetas si desea eliminar esta",
-  "minimumOneItem": "No se pudo eliminar el elemento",
-  "minimumOneItemSubtitle": "{number, plural, other{Deben quedar al menos {number} elementos}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "miniplayerCustomization": "Personalización del minireproductor",
-  "minutes": "minutos",
   "minFileDuration": "Duración mínima de la pista",
   "minFileSize": "Tamaño mínimo de archivo",
   "minTrackDurationToRestoreLastPosition": "Duración mínima de la pista para restaurar la última posición reproducida",
   "minValueCantBeMoreThanMax": "El valor mínimo no puede ser mayor que el valor máximo",
   "minValueToCountTrackListen": "Contar una reproducción después de: ",
+  "minimizedMiniplayer": "Mini reproductor minimizado(oculto)",
+  "minimum": "Mínimo",
+  "minimumOneFolderSubtitle": "Debe haber al menos 1 carpeta, agregue más carpetas si desea eliminar esta",
+  "minimumOneItem": "No se pudo eliminar el elemento",
+  "minimumOneItemSubtitle": "{number, plural, other{Deben quedar al menos {number} elementos}}",
+  "miniplayerCustomization": "Personalización del minireproductor",
+  "minutes": "minutos",
   "missingEntries": "Entradas faltantes",
   "missingTracks": "Canciones perdidas",
   "mix": "Mezcla",
-  "mixes": "Mezclas",
   "mixPlaylistGeneratedByYoutube": "Mezcla de playlist generada por YouTube",
+  "mixes": "Mezclas",
   "month": "Mes",
   "months": "Meses",
   "mood": "Ánimo",
@@ -537,7 +630,6 @@
   "name": "Nombre",
   "nameContainsBadCharacter": "El nombre contiene caracteres invalidos",
   "never": "Nunca",
-  "newest": "Mas nueva",
   "newDirectory": "Nuevo directorio",
   "newTracksAdd": "Agregar pistas",
   "newTracksMoods": "Ánimo",
@@ -548,33 +640,12 @@
   "newTracksRatingsSubtitle": "Generar pistas con una calificación específica",
   "newTracksRecommended": "Recomendado",
   "newTracksRecommendedSubtitle": "Genera pistas que escuchas habitualmente con {currentTrack}",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "Fecha de lanzamiento similar",
   "newTracksSimilarrReleaseDateSubtitle": "Genera pistas que se lanzaron aproximadamente al mismo tiempo que {currentTrack}",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "La canción tiene un año desconocido",
+  "newest": "Mas nueva",
   "next": "Next",
   "no": "No",
-  "none": "Ninguno",
-  "nonActive": "Inactivo",
-  "nonFavourites": "Canciones no favoritas",
-  "normalizeAudio": "Normalizar audio",
-  "normalizeAudioSubtitle": "Normaliza el volumen leyendo la etiqueta de ganancia de repetición o la información proveniente de YouTube",
-  "note": "Nota",
-  "notification": "Notificación",
-  "notifications": "Notificaciones",
   "noChangesFound": "No se han encontrado cambios.",
   "noEnoughTracks": "No tienes muchas pistas..",
   "noExcludedFolders": "No tienes ninguna carpeta excluida",
@@ -585,19 +656,27 @@
   "noTracksFoundBetweenDates": "Este rango de tiempo no tiene pistas.",
   "noTracksFoundInDirectory": "No se encontraron canciones en este directorio",
   "noTracksInHistory": "No tienes suficientes canciones en el historial",
+  "nonActive": "Inactivo",
+  "nonFavourites": "Canciones no favoritas",
+  "none": "Ninguno",
+  "normalizeAudio": "Normalizar audio",
+  "normalizeAudioSubtitle": "Normaliza el volumen leyendo la etiqueta de ganancia de repetición o la información proveniente de YouTube",
+  "note": "Nota",
+  "notification": "Notificación",
+  "notifications": "Notificaciones",
   "numberOfTracks": "Número de pistas",
   "ofLabel": "de",
   "offlineSearch": "Busqueda sin internet",
   "offset": "Compensar",
-  "oldestWatch": "Reloj más antiguo",
   "oldDirectory": "directorio antiguo",
   "oldDirectoryStillHasTracks": "El directorio antiguo todavía tiene algunas pistas, ¿confirmas?",
-  "ongoing": "En curso",
+  "oldestWatch": "Reloj más antiguo",
   "onInterruption": "En interrupciones",
   "onNotificationTap": "Al tocar en notificaciones",
   "onOpeningYoutubeLink": "Al abrir el enlace de youtube",
   "onSwiping": "Al deslizar",
   "onVolumeZero": "En el volumen 0",
+  "ongoing": "En curso",
   "open": "Abierto",
   "openApp": "Abrir la app",
   "openInFileExplorer": "Abrir en el explorador",
@@ -606,24 +685,7 @@
   "openQueue": "Abre la cola",
   "openYoutubeLink": "Abrir enlace de Youtube",
   "operationRequiresAccount": "La operacion {name} requiere una cuenta, Inicia sesión para proceder",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "La operacion {operation} requiere al menos la membresía {name}",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "o",
   "others": "Otros eventos",
   "output": "Producción",
@@ -650,6 +712,12 @@
   "pitch": "Tono (Pitch)",
   "plain": "Plano",
   "play": "Reproducir",
+  "playAfter": "Reproducir después",
+  "playAfterNextPrev": "Reproducción automática en siguiente/anterior",
+  "playAll": "Reproducir todo",
+  "playFadeDuration": "Duración del fundido de reproducción",
+  "playLast": "Reproducir último",
+  "playNext": "Reproducir siguiente",
   "playbackSetting": "Reproducción",
   "playbackSettingSubtitle": "Accesible directamente en el reproductor al mantener presionado el botón de audio",
   "playlist": "Lista de reproducción",
@@ -657,12 +725,6 @@
   "playlistsImportM3uNative": "Esto importara los playlist M3U solo para ser usado en namida, Usa esto si estas migrando",
   "playlistsImportM3uSynced": "Esto importará automáticamente las listas M3U desde las carpetas del indexador y las mantendrá sincronizadas desde M3U original. Habilita eso si accedes o modificas estas listas desde otras aplicaciones",
   "playlistsImportM3uSyncedAutoImport": "Auto importar playlists M3U",
-  "playAfter": "Reproducir después",
-  "playAfterNextPrev": "Reproducción automática en siguiente/anterior",
-  "playAll": "Reproducir todo",
-  "playFadeDuration": "Duración del fundido de reproducción",
-  "playLast": "Reproducir último",
-  "playNext": "Reproducir siguiente",
   "pleaseEnterADifferentName": "Este nombre ya existe :(\npruebe con otro nombre elegante",
   "pleaseEnterALink": "Por favor ingrese un enlace",
   "pleaseEnterALinkSubtitle": "umm... ¿es este un enlace de youtube?",
@@ -678,16 +740,6 @@
   "private": "Privado",
   "progress": "Progreso",
   "promptIndexingRefresh": "Se encontraron {newFiles} archivos nuevos y {deletedFiles} se eliminaron o filtraron, ¿quieres actualizar?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "Por lo general, esto sucede cuando elimina/mueve/cambia el nombre del archivo fuera de namida. ¿Le gustaría actualizar la ruta actual?",
   "public": "Publico",
   "queue": "Cola",
@@ -695,10 +747,13 @@
   "random": "Aleatorio",
   "randomPicks": "Selecciones aleatorias",
   "rating": "Clasificación",
-  "recentlyAdded": "Recientemente añadido",
+  "reIndex": "Volver a indexar",
+  "reIndexSubtitle": "Reconstruye tu biblioteca de música desde cero",
+  "reIndexWarning": "Este proceso puede tardar un poco, dependiendo del tamaño de su biblioteca.\n\nLas carátulas no se volverán a indexar mientras ya se hayan indexado anteriormente",
   "recentAlbums": "Álbumes recientes",
   "recentArtists": "Artistas recientes",
   "recentListens": "Escuchas recientes",
+  "recentlyAdded": "Recientemente añadido",
   "recordLabel": "Etiqueta de registro",
   "refresh": "Actualizar",
   "refreshLibrary": "Actualizar biblioteca",
@@ -708,7 +763,6 @@
   "rememberAudioOnlyMode": "Recordar el modo solo audio",
   "remixer": "Remezclador",
   "remove": "Eliminar",
-  "removed": "Remoto",
   "removeDuplicates": "Eliminar duplicados",
   "removeFromFavourites": "Quitar de favoritos",
   "removeFromLibrary": "Quitar de libreria",
@@ -716,17 +770,11 @@
   "removeQueue": "Quitar cola",
   "removeSourceFromHistory": "Eliminar fuente del historial",
   "removeWhitespaces": "Eliminar espacios en blanco",
+  "removed": "Remoto",
   "rename": "Rebautizar",
   "renamePlaylist": "Cambiar nombre de lista de reproducción",
   "reorderable": "Reordenable",
   "repeatForNTimes": "{number, plural, other{Repetir {number} veces más}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "Repetir",
   "repeatModeAll": "Repetir toda la cola",
   "repeatModeNone": "Deténgase en la última pista",
@@ -741,46 +789,34 @@
   "respectNoMedia": "Respeto .nomedia",
   "respectNoMediaSubtitle": "No incluyas carpetas que tengan .nomedia",
   "restart": "Reanudar",
-  "restoredBackupSuccessfully": "Copia de seguridad restaurada",
-  "restoredBackupSuccessfullySub": "El archivo de respaldo se ha restaurado exitosamente",
   "restoreBackup": "Restaurar copia de seguridad",
   "restoreDefaults": "Restaurar los valores predeterminados",
+  "restoredBackupSuccessfully": "Copia de seguridad restaurada",
+  "restoredBackupSuccessfullySub": "El archivo de respaldo se ha restaurado exitosamente",
   "resume": "Reanudar",
   "resumeIfWasInterrupted": "Reanudar si fue pausado por una interrupción",
   "resumeIfWasPausedByVolume": "Reanudar si fue pausado por volumen",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{Vuelve a reproducir si fue pausado por lo menos {number} minutos}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "reverseOrder": "Orden inverso",
-  "reIndex": "Volver a indexar",
-  "reIndexSubtitle": "Reconstruye tu biblioteca de música desde cero",
-  "reIndexWarning": "Este proceso puede tardar un poco, dependiendo del tamaño de su biblioteca.\n\nLas carátulas no se volverán a indexar mientras ya se hayan indexado anteriormente",
   "ringtone": "Tono de llamada",
   "sameDirectoryOnly": "Solo el mismo directorio",
   "sample": "Muestra",
   "sampleRate": "Frecuencia de muestreo",
   "save": "Guardar",
-  "savedIn": "Guardado en",
   "saveToLibrary": "Guardar a la libreria",
+  "savedIn": "Guardado en",
   "scaleMultiplier": "Multiplicador de escala",
   "search": "Buscar",
   "searchYoutube": "Buscar YouTube",
   "seconds": "segundos",
-  "seekbar": "Barra de Búsqueda",
   "seekDuration": "Duración de la búsqueda",
   "seekDurationInfo": "Toca la duración actual para buscar hacia atrás y la duración total de la canción para buscar hacia adelante",
-  "selectedTracks": "Pistas seleccionadas",
+  "seekbar": "Barra de Búsqueda",
   "selectAll": "Seleccionar todo",
   "selectFilesAlreadyInLocalLibrary": "Selecciona archivos disponibles en la biblioteca local",
+  "selectedTracks": "Pistas seleccionadas",
   "separatorsBlacklistSubtitle": "Estas palabras no se dividirán",
   "separatorsMessage": "No es necesario insertar espacios, a menos que quieras usar una letra/símbolo que se pueda encontrar en una palabra completa (como x y ft.)",
-  "settings": "Ajustes",
-  "setupFirstStartup": "Configurar el primer inicio",
   "setAs": "Usar como",
   "setAsDefault": "Establecer por defecto",
   "setFileLastModifiedAsVideoUploadDate": "Establecer archivo modificado por última vez como fecha de carga del video",
@@ -789,6 +825,8 @@
   "setRating": "Establecer calificación",
   "setTags": "Establecer etiquetas",
   "setYoutubeLink": "Establecer enlace de Youtube",
+  "settings": "Ajustes",
+  "setupFirstStartup": "Configurar el primer inicio",
   "share": "Compartir",
   "shortcuts": "Atajos",
   "shouldDuck": "Debería atenuarse",
@@ -807,8 +845,6 @@
   "shuffle": "Barajar",
   "shuffleAll": "Baraja todos",
   "shuffleNext": "Mezclar siguiente",
-  "signingInAllowsBasicUsage": "Iniciando sesion habilitara el uso basico",
-  "signingInAllowsBasicUsageSubtitle": "Ten acceso temprano por Patreon o usando un cupón",
   "signIn": "Inicia sesion",
   "signInCanceled": "El inicio de sesion fue cancelado",
   "signInFailed": "El Inicio de sesion ha fallado",
@@ -817,31 +853,12 @@
   "signInYouNeedAccountToViewPage": "Necesitas una cuenta para ver esta pagina",
   "signOut": "Cerrar sesion",
   "signOutFromName": "Cerrar sesion de {name}",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "Iniciando sesion habilitara el uso basico",
+  "signingInAllowsBasicUsageSubtitle": "Ten acceso temprano por Patreon o usando un cupón",
   "similarDiscoverDate": "Descubrimientos con fecha similar",
   "similarDiscoverDateSubtitle": "Genera pistas descubiertas en el mismo tiempo de {currentTrack}",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "Rango de Tiempo Similar",
   "similarTimeRangeSubtitle": "Genera canciones escuchadas en el mismo tiempo de {currentTrack}",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "Sencillos",
   "size": "Tamaño",
   "skip": "Saltar",
@@ -872,8 +889,8 @@
   "swipeToOpenDrawer": "Deslizar para abrir el cajón",
   "synced": "Sincronizado",
   "synopsis": "Sinopsis",
-  "tags": "Etiquetas",
   "tagFields": "Campos de etiquetas",
+  "tags": "Etiquetas",
   "tapToSeek": "Presiona para buscar",
   "themeMode": "Modo temático",
   "themeModeDark": "Oscuro",
@@ -888,17 +905,14 @@
   "top": "Parte superior",
   "topComments": "Comentarios destacados",
   "topCommentsSubtitle": "Mostrar comentarios arriba en vez de la parte inferior",
-  "topRecents": "Principales recientes",
   "topRecentAlbums": "Mejores álbumes recientes",
   "topRecentArtists": "Artistas más recientes",
-  "totalListens": "Total de escuchas",
+  "topRecents": "Principales recientes",
   "totalListenTime": "Tiempo total de escucha",
+  "totalListens": "Total de escuchas",
   "totalTracks": "Total de pistas",
   "totalTracksDuration": "Duración total de las pistas",
   "track": "Pista",
-  "tracks": "Pistas",
-  "tracksExcludedByNomedia": "Pistas excluidas por .nomedia",
-  "tracksInfo": "Información de pistas",
   "trackArtistsSeparator": "Separadores de artistas",
   "trackGenresSeparator": "Separadores de géneros",
   "trackInfo": "Información de seguimiento",
@@ -906,16 +920,6 @@
   "trackNumber": "Número de pista",
   "trackNumberTotal": "Seguimiento total",
   "trackPathOldNew": "Nombre antiguo: \"{oldName}\"\n\nNuevo nombre: \"{newName}\"\n\n¿Estás seguro?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "Modo de juego",
   "trackPlayModeSearchResults": "Resultados de la búsqueda",
   "trackPlayModeSelectedOnly": "Solo pista seleccionada",
@@ -925,6 +929,9 @@
   "trackThumbnailSizeInList": "Tamaño de la miniatura de la pista",
   "trackTileCustomization": "Personalización de mosaicos de seguimiento",
   "trackTileItemsSeparator": "Separador de artículos",
+  "tracks": "Pistas",
+  "tracksExcludedByNomedia": "Pistas excluidas por .nomedia",
+  "tracksInfo": "Información de pistas",
   "undo": "Deshacer",
   "undoChanges": "¿Deshacer cambios?",
   "undoChangesDeletedPlaylist": "Deshacer lista de reproducción eliminada",
@@ -938,18 +945,17 @@
   "updateDirectoryPath": "Actualizar ruta del directorio",
   "updateMissingTracksOnly": "Actualizar solo las pistas que faltan",
   "updating": "Actualizando",
-  "used": "Usado",
   "useCollapsedSettingTiles": "Usar mosaicos de configuración contraídos",
   "useMediaStore": "Usar tienda multimedia",
   "useMediaStoreSubtitle": "✓ tiempo de indexación instantáneo\nx respeto. Nomedia se habilitará a la fuerza\nx faltarán algunas etiquetas de metadatos\nx la integración de YouTube para la biblioteca local no funcionará",
   "usePitchBlack": "Usar tono negro",
   "usePitchBlackSubtitle": "Útil para pantallas AMOLED... y también luce muy cool",
+  "used": "Usado",
   "value": "Valor",
   "valueBetween50200": "El valor debe estar entre 50% y 200%",
   "vibration": "Vibración",
   "vibrationType": "Tipo de vibración",
   "video": "Video",
-  "videos": "Vídeos",
   "videoCache": "Caché de vídeo",
   "videoCacheFile": "Archivo de vídeo en caché",
   "videoCacheFiles": "Archivos de vídeo en caché",
@@ -964,9 +970,10 @@
   "videoQuality": "Calidad de video",
   "videoQualitySubtitle": "Se seleccionará la calidad más alta disponible.",
   "videoQualitySubtitleNote": "Siempre es bueno tener más alternativas en caso de que no se encuentre una calidad; de lo contrario, se recurrirá a la peor calidad",
+  "videos": "Vídeos",
   "view": "vista",
-  "views": "vistas",
   "viewAll": "Ver todo",
+  "views": "vistas",
   "volume": "Volumen",
   "warning": "Advertencia",
   "waveformBarsCount": "Recuento de barras de forma de onda",
@@ -975,13 +982,6 @@
   "year": "Año",
   "yes": "si",
   "yourCurrentMembershipIs": "Tu membresía actual es {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "Tu membresía actual será desactivada ¿Estás seguro?",
   "youtube": "YouTube",
   "youtubeMusic": "Youtube Music",
