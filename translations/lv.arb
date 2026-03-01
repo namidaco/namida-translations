@@ -1,9 +1,81 @@
 {
   "@@locale": "lv",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Par",
   "active": "Aktīvs",
   "add": "Pievienot",
-  "added": "Pievienots",
   "addAccount": "Pievienot kontu",
   "addAll": "Pievienot visas",
   "addAllAndRemoveOldOnes": "Pievienot visas un noņemt vecās",
@@ -17,29 +89,23 @@
   "addMoreFromThisArtist": "Pievienot vairāk no šī izpildītāja rindai",
   "addMoreFromThisFolder": "Pievienot vairāk no šīs mapes rindai",
   "addMoreFromToQueue": "Pievienot vairāk no {media} rindai",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Pievienot tikai trūkstošās",
   "addToFavourites": "Pievienot mīļākajām",
   "addToPlaylist": "Pievienot dziesmu sarakstam",
   "addTracksAtTheBeginning": "Pievienot dziesmas sākumam",
+  "added": "Pievienots",
   "advanced": "Papildu",
   "advancedSettings": "Paplašināti",
   "advancedSettingsSubtitle": "Papildu iestatījumi, nepieskaries!",
   "alarm": "Modinātāju",
   "album": "Albums",
-  "albums": "Albumi",
-  "albumsCount": "Albumu skaits",
   "albumArtist": "Albuma izpildītājs",
   "albumArtists": "Albuma izpildītāji",
   "albumIdentifiers": "Albuma identifikatori",
   "albumThumbnailSizeInList": "Albuma sīktēla izmērs",
   "albumTileCustomization": "Albumu paneļa pielāgošana",
+  "albums": "Albumi",
+  "albumsCount": "Albumu skaits",
   "all": "Viss",
   "allTime": "Visā laikā",
   "alreadyExists": "Jau eksistē",
@@ -57,14 +123,12 @@
   "artist": "Izpildītājs",
   "artists": "Izpildītāji",
   "artwork": "Ilustrācija",
-  "artworks": "Ilustrācijas",
   "artworkGestures": "Ilustrāciju žesti",
+  "artworks": "Ilustrācijas",
   "audio": "Audio",
   "audioCache": "Audio kešatmiņa",
   "audioOnly": "Tikai audio",
   "auto": "Automātisks",
-  "automaticBackup": "Automātiski",
-  "automaticBackupSubtitle": "Automātiski izmanto jaunāko dublējuma failu no dublējuma mapes",
   "autoBackupInterval": "Automātiskās dublēšanas intervāls",
   "autoColoring": "Automātiska krāsu izvēle",
   "autoColoringSubtitle": "Automātiski izvēlas krāsas no dziesmu ilustrācijām",
@@ -75,6 +139,8 @@
   "autoSkipOnce": "Vienreiz pārlekt automātiski",
   "autoStartRadio": "Automātiski sākt radio",
   "autoStartRadioSubtitle": "Automātiski pievieno dziesmu miksli, kad tiek atskaņota viena dziesma",
+  "automaticBackup": "Automātiski",
+  "automaticBackupSubtitle": "Automātiski izmanto jaunāko dublējuma failu no dublējuma mapes",
   "backupAndRestore": "Dublēšana un restaurēšana",
   "backupAndRestoreSubtitle": "Dublē savu datubāzi un iestatījumus",
   "balanced": "Līdzsvarots",
@@ -102,26 +168,19 @@
   "clearImageCacheWarning": "Uzmanību: rezultātā bibliotēka būs bez attēliem, izmanto tikai lai pārtaisītu attēlu kešatmiņu.",
   "clearTrackItem": "Notīrīt dziesmas",
   "clearTrackItemMultiple": "{number, plural, other{Notīrīt {number} dziesmu}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "Notīrīt video kešatmiņu",
   "clearVideoCacheNote": "Tu vari izvēlēties ko dzēst.",
   "clock": "Pulkstenis",
   "colorPalette": "Krāsu palete",
-  "colorPalettes": "Krāsu paletes",
   "colorPaletteNote1": "Uz laiku nospied krāsu, lai to noņemtu",
   "colorPaletteNote2": "Uzspied maisījumu lai izmantotu kā noklusējuma krāsu",
+  "colorPalettes": "Krāsu paletes",
   "comment": "Komentārs",
   "comments": "Komentāri",
   "composer": "Komponists",
   "compress": "Saspiest",
-  "compressionPercentage": "Saspiešanas procentualitāte",
   "compressImages": "Saspiest attēlus",
+  "compressionPercentage": "Saspiešanas procentualitāte",
   "configure": "Konfigurēt",
   "confirm": "Apstiprināt",
   "copiedArtwork": "Kopēta ilustrācija",
@@ -135,35 +194,21 @@
   "couldntSaveImage": "Neizdevās saglabāt attēlu",
   "country": "Valsts",
   "create": "Izveidot",
-  "createdBackupSuccessfully": "Izveidots dublējums",
-  "createdBackupSuccessfullySub": "Dublējuma fails tika veiksmīgi saglabāts",
   "createBackup": "Izveidot dublējumu",
   "createNewPlaylist": "Izveidot jaunu dziesmu sarakstu",
+  "createdBackupSuccessfully": "Izveidots dublējums",
+  "createdBackupSuccessfullySub": "Dublējuma fails tika veiksmīgi saglabāts",
+  "crossPlatformSync": "Sinhronizācija starp ierīcēm",
   "crossfadeDuration": "Crossfade ilgums",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Automātiski uzsāk crossfade pēdējās {seconds} sekundēs}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "Nesākt crossfade automātiski",
-  "crossPlatformSync": "Sinhronizācija starp ierīcēm",
   "custom": "Pielāgots",
   "customizations": "Pielāgojumi",
   "customizationsSubtitle": "Pielāgo izskatu savām prasībām",
-  "database": "Datubāze",
   "dataIsProvidedByName": "Datus nodrošina: {name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "Datu taupītājs",
   "dataSaverMode": "Datu taupītāja režīms",
+  "database": "Datubāze",
   "date": "Datums",
   "dateAdded": "Pievienošanas datums",
   "dateCreated": "Izveidošanas datums",
@@ -171,32 +216,15 @@
   "dateTimeFormat": "Datuma formāts",
   "day": "Dienu",
   "days": "Dienas",
-  "defaultLabel": "Noklusējuma",
   "defaultBackupLocation": "Noklusējuma dublējumu mape",
   "defaultColor": "Noklusējuma krāsa",
   "defaultColorSubtitle": "Izvēlies atskaņotāja krāsu",
   "defaultDownloadLocation": "Noklusējuma lejupielādes mape",
+  "defaultLabel": "Noklusējuma",
   "defaultLibraryTab": "Noklusējuma bibliotēkas logs",
   "delete": "Izdzēst",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{Izdzēst {filesCount} failu, kas satur {totalSize}?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{Neatgriezeniski dzēst {number} no ierīces}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "Izdēst sarakstu",
   "deleteTempFiles": "Izdēst pagaidu datu kopu",
   "description": "Apraksts",
@@ -205,21 +233,14 @@
   "didYouMean": "Vai jūs domājāt",
   "dimIntensity": "Aptumšošanas intensitāte",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{Aptumšot mazo atskaņotāju pēc {seconds} sekundēm bez aktivitātes}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "Direktorijs neeksistē",
   "disable": "Atspējot",
   "disableAll": "Atspējot visas",
   "disableReordering": "Atspējot pārkārtošanu",
   "disableSearchCleanup": "Atspējot meklēšanas attīrīšanu",
-  "discover": "Atklāj",
   "discNumber": "Diska numurs",
   "discNumberTotal": "Disku kopā",
+  "discover": "Atklāj",
   "dislike": "Nepatīk",
   "dismissibleMiniplayer": "Nometams mazais atskaņotājs",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "Rādīt patieso pozīciju nevis atšķirību, kad tiek mainīta pozīcija dziesmā",
@@ -228,14 +249,15 @@
   "displayArtistBeforeTitle": "Rādīt izpildītāju virs dziesmas nosaukuma",
   "displayArtworkOnLockscreen": "Rādīt ilustrāciju uz bloķēšanas ekrāna",
   "displayAudioInfoInMiniplayer": "Rādīt audio informāciju",
-  "displayFavouriteIconInTrackTile": "Rādīt mīlēšanas pogu",
   "displayFavButtonInNotification": "Rādīt mīlēšanas pogu paziņojumos",
   "displayFavButtonInNotificationSubtitle": "Sīktēls iespējams tiks pārvietots.",
+  "displayFavouriteIconInTrackTile": "Rādīt mīlēšanas pogu",
   "displayRemainingDurationInsteadOfTotal": "Rādīt atlikušo, nevis pilno ilgumu",
   "displayStopButtonInNotification": "Rādīt pārtraukšanas pogu paziņojumos",
   "displayThirdRowInTrackTile": "Rādīt trešo rindu",
   "displayTrackNumberInAlbumPage": "Rādīt dziesmas kārtas numuru albūma lapā",
   "displayTrackNumberInAlbumPageSubtitle": "Parāda mazu kasti pie sīktēla, kura satur dziesmas kārtas numuru",
+  "doNothing": "Neko nedarīt",
   "donate": "Ziedo",
   "donateSubtitle": "Ja jūs domājat, ka ir nopelnījusi",
   "done": "Izdarīts",
@@ -249,7 +271,6 @@
   "downloads": "Lejupielādes",
   "downloadsMetadataTags": "Lejupielādēt metadatu birkas",
   "downloadsMetadataTagsSubtitle": "Izvelk izpildītāju, dziesmas un albūma nosaukumu no video informācijas pēc noklusējuma",
-  "doNothing": "Neko nedarīt",
   "dragToSeek": "Vilkt pa laika joslu, lai mainītu pozīciju",
   "duckAudio": "Klusināt",
   "duplicatedItemsAdding": "Jūs mēģināt pievienot dažas dziesmas, kas jau ir šajā sarakstā",
@@ -274,13 +295,6 @@
   "enableM3uSync": "Iespējot M3U sinhronizāciju",
   "enableM3uSyncNote1": "M3U sinhronizācija ļauj saglabāt dziesmu sarakstu izmaiņas oriģinālajā M3U failā",
   "enableM3uSyncNote2": "Ja kautkas nogāja greizi, dublējums šim sarakstam būs atrodams iekš {playlistsBackupPath}",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "Ja noliegsi, tad visas saraksta izmaiņas būs zaudētas pēc restartēšanas",
   "enableMiniplayerParticles": "Iespējot kustīgas daļiņas",
   "enableParallaxEffect": "Iespējot paralakses efektu",
@@ -305,18 +319,11 @@
   "extension": "Paplašinājums",
   "externalFiles": "Ārējie faili",
   "extract": "Izvilkt",
-  "extractingInfo": "Izvelk informāciju",
   "extractAllColorPalettes": "Izvilkt visas krāsu paletes",
   "extractAllColorPalettesSubtitle": "{number, plural, other{Izvilkt atlikušās {remainingColorPalettes}?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "Izvilkt papildus izpildītājus no nosaukuma",
   "extractFeatArtistSubtitle": "Izvelk (feat. X) un (ft. X) izpildītājus kā papildus izpildītājus",
+  "extractingInfo": "Izvelk informāciju",
   "extras": "Ekstras",
   "extrasSubtitle": "Ekstra iestatījumi, lai uzlabotu pieredzi",
   "extreme": "Ekstrēms",
@@ -327,34 +334,27 @@
   "fetching": "Tveršana",
   "fetchingOfAllVideos": "Visu video tveršana",
   "file": "Fails",
-  "filenameShouldntStartWith": "Faila nosaukumam nevajadzētu sākties ar",
-  "files": "Faili",
   "fileAlreadyExists": "Fails jau eksistē",
   "fileName": "Faila nosaukums",
   "fileNameWoExt": "Faila nosaukums bez paplašinājuma",
+  "filenameShouldntStartWith": "Faila nosaukumam nevajadzētu sākties ar",
+  "files": "Faili",
   "importYoutubeHistoryGuide": "1. Dodaties uz {takeoutLink}\n\n2. Nospied \"Multiple Formats\" (\"Vairāki formāti\") un blakus \"History\" (\"vēsture\") izvēlies \"JSON\".\n\n3. Nospied \"All Youtube data included\" (\"Iekļauti visi YouTube dati\"), Izvēlies tikai \"History\".\n\n4. Veic datu eksportēšanu, lejupielādē un izvelc no zip arhīva.\n\n5. Izvēlies \"watch-history.json\" no nākamā loga.",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
   "includeVideos": "Iekļaut video failus",
   "indexer": "Indeksators",
   "indexerNote": "Piezīme: Neaizpildīts ilustrāciju skaits norāda uz dublētu un vai neatrastu ilustrāciju",
   "indexerSubtitle": "Pārvaldi savu mūzikas bibliotēku",
-  "minutes": "minūtes",
   "minFileDuration": "Minimālais dziesmas ilgums",
   "minFileSize": "Minimālais faila izmērs",
   "minTrackDurationToRestoreLastPosition": "Minimālais dziesmas ilgums lai saglabātu pēdējo atskaņošanas pozīciju",
   "minValueCantBeMoreThanMax": "Minimālā vērtība nedrīkst pārsniegt maksimālo",
   "minValueToCountTrackListen": "Reģistrēt kā klausītu pēc: ",
+  "minutes": "minūtes",
   "missingEntries": "Trūkstoši ieraksti",
   "missingTracks": "Trūkstošās dziesmas",
   "mix": "Mikslis",
-  "mixes": "Mikšli",
   "mixPlaylistGeneratedByYoutube": "Mikslis, kuru ģenerēja youtube",
+  "mixes": "Mikšli",
   "paletteMix": "Maisījums",
   "paletteNewMix": "Jaunais maisījums",
   "paletteSelectedMix": "Izvēlētais maisījums",
@@ -368,9 +368,9 @@
   "separatorsMessage": "Nav nepieciešams ievietot atstarpes, izņemot, ja gribi izmantot burtu/simbolu, kuru var atrast pilnos vārdos (piemēram, \"x\" vai \"ft.\")",
   "showMixPlaylistsIn": "Kur rādīt mikšļus",
   "showShortVideosIn": "Kur rādīt klipus",
-  "tracksExcludedByNomedia": "Dziesmas, kuras izraida .nomedia",
   "trackArtistsSeparator": "Izpildītāju atdalītāji",
   "trackGenresSeparator": "Žanru atdalītāji",
   "trackTileItemsSeparator": "Vienumu atdalītājs",
+  "tracksExcludedByNomedia": "Dziesmas, kuras izraida .nomedia",
   "useMediaStoreSubtitle": "✓ Tūlītēja indeksēšana\nx Atzīt .nomedia būs nenoliedzami ieslēgts\nx Dažas metadatu birkas būs trūkstošas\nx Youtube integrācija nestrādās lokālajai bibliotēkai"
 }
