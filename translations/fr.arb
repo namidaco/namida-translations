@@ -333,7 +333,7 @@
   "clearImageCache": "Effacer le cache d'images",
   "clearImageCacheWarning": "Avertissement : cette opération entraînera la création d’une bibliothèque sans images. À utiliser uniquement pour reconstruire le cache d’images.",
   "clearTrackItem": "Effacer la piste de lecture",
-  "clearTrackItemMultiple": "{number, plural, one{Clear Track's} other{Clear {number} Tracks'}}",
+  "clearTrackItemMultiple": "{number, plural, other{Effacer la piste de lecture {number}}}",
   "clearVideoCache": "Effacer le cache de la vidéo",
   "clearVideoCacheNote": "Vous pouvez choisir les éléments à supprimer.",
   "clock": "Horloge",
