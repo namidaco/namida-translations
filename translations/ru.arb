@@ -316,7 +316,7 @@
   "clearImageCache": "Очистить Кэш изображений",
   "clearImageCacheWarning": "Предупреждение: будет создана библиотека без изображений. Используй только для перестройки кэша изображений.",
   "clearTrackItem": "Удаление у Трека",
-  "clearTrackItemMultiple": "{number, plural, other{Очистить {number} Треков'}}",
+  "clearTrackItemMultiple": "{number, plural, other{Очистить {number} Треков}}",
   "clearVideoCache": "Очистить Кеш Видео",
   "clearVideoCacheNote": "Ты можешь выбрать, что удалить.",
   "clock": "Часы",
