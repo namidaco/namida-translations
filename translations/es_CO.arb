@@ -307,7 +307,7 @@
   "clearImageCache": "Borrar caché de imagen",
   "clearImageCacheWarning": "Advertencia: dará como resultado una biblioteca sin imágenes. Úsela solo para reconstruir el caché de imágenes.",
   "clearTrackItem": "Borrar de la pista",
-  "clearTrackItemMultiple": "{number, plural, other{Borrar {number} pistas'}}",
+  "clearTrackItemMultiple": "{number, plural, other{Borrar {number} pistas}}",
   "clearVideoCache": "Borrar caché de vídeo",
   "clearVideoCacheNote": "Puedes elegir qué eliminar.",
   "clock": "Reloj",
