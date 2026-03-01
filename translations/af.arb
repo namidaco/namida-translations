@@ -1,9 +1,246 @@
 {
   "@@locale": "af",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Oor",
   "active": "Aktief",
   "add": "Voeg by",
-  "added": "bygevoeg",
   "addAccount": "Voeg rekening by",
   "addAll": "Voeg alles by",
   "addAllAndRemoveOldOnes": "Voeg alles by en verwyder ou items",
@@ -17,29 +254,23 @@
   "addMoreFromThisArtist": "Voeg meer van hierdie kunstenaar by die tou",
   "addMoreFromThisFolder": "Voeg meer van hierdie vouer by die tou",
   "addMoreFromToQueue": "Voeg meer van {media} by die tou",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Voeg slegs ontbrekende by",
   "addToFavourites": "Voeg by gunstelinge",
   "addToPlaylist": "Voeg by snitlys",
   "addTracksAtTheBeginning": "Voeg snitte aan die begin by",
+  "added": "bygevoeg",
   "advanced": "Gevorderd",
   "advancedSettings": "Gevorderd",
   "advancedSettingsSubtitle": "Gevorderde instellings, moenie raak nie",
   "alarm": "Alarm",
   "album": "Album",
-  "albums": "Musiekalbums",
-  "albumsCount": "Albumtelling",
   "albumArtist": "Albumkunstenaar",
   "albumArtists": "Albumkunstenaars",
   "albumIdentifiers": "Albumidentifiseerders",
   "albumThumbnailSizeInList": "Grootte van albumduimnael",
   "albumTileCustomization": "Albumteël-aanpassing",
+  "albums": "Musiekalbums",
+  "albumsCount": "Albumtelling",
   "all": "Alles",
   "allTime": "Alle tye",
   "alreadyExists": "Bestaat alreeds",
@@ -57,14 +288,12 @@
   "artist": "Kunstenaar",
   "artists": "Kunstenaars",
   "artwork": "Kunswerk",
-  "artworks": "Kunswerke",
   "artworkGestures": "Kunswerkgebare",
+  "artworks": "Kunswerke",
   "audio": "Klank",
   "audioCache": "Klankkas",
   "audioOnly": "Slegs klank",
   "auto": "Outo",
-  "automaticBackup": "Outomaties",
-  "automaticBackupSubtitle": "Pas outomaties die mees onlangse rugsteunlêer toe wat in die rugsteunligging gevind is",
   "autoBackupInterval": "Outo-rugsteuninterval",
   "autoColoring": "Outokleuring",
   "autoColoringSubtitle": "Kies outomaties spelerskleure uit die huidige kunswerk",
@@ -75,6 +304,8 @@
   "autoSkipOnce": "Slaan een keer outomaties oor",
   "autoStartRadio": "Begin radio outomaties",
   "autoStartRadioSubtitle": "Voeg outomaties 'n mengselsnitlys by wanneer 'n enkele snit gespeel word",
+  "automaticBackup": "Outomaties",
+  "automaticBackupSubtitle": "Pas outomaties die mees onlangse rugsteunlêer toe wat in die rugsteunligging gevind is",
   "backupAndRestore": "Rugsteun en herstel",
   "backupAndRestoreSubtitle": "Rugsteun jou databasis en instellings",
   "balanced": "Gebalanseerd",
@@ -103,26 +334,19 @@
   "clearImageCacheWarning": "Waarskuwing: sal lei tot 'n biblioteek sonder beelde. Gebruik slegs om die beeldkas te herbou.",
   "clearTrackItem": "Maak snit s'n skoon",
   "clearTrackItemMultiple": "{number, plural, other{Maak {number} snitte s'n skoon}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "Maak videokas skoon",
   "clearVideoCacheNote": "Jy kan kies wat om te verwyder.",
   "clock": "Horlosie",
   "colorPalette": "Kleurpalet",
-  "colorPalettes": "Kleurpalette",
   "colorPaletteNote1": "Druk lank op 'n kleur om dit te verwyder",
   "colorPaletteNote2": "Tik op 'n mengsel om as 'n verstekkleur te gebruik",
+  "colorPalettes": "Kleurpalette",
   "comment": "Kommentaar",
   "comments": "Kommentare",
   "composer": "Komponis",
   "compress": "Pers saam",
-  "compressionPercentage": "Saampersingspersentasie",
   "compressImages": "Pers beelde saam",
+  "compressionPercentage": "Saampersingspersentasie",
   "configure": "Konfigureer",
   "confirm": "Bevestig",
   "copiedArtwork": "Kunswerk gekopieer",
@@ -136,35 +360,21 @@
   "couldntSaveImage": "Kon nie beeld stoor nie",
   "country": "Land",
   "create": "Skep",
-  "createdBackupSuccessfully": "Rugsteun geskep",
-  "createdBackupSuccessfullySub": "Rugsteunlêer is suksesvol geskep",
   "createBackup": "Skep rugsteun",
   "createNewPlaylist": "Skep nuwe snitlys",
+  "createdBackupSuccessfully": "Rugsteun geskep",
+  "createdBackupSuccessfullySub": "Rugsteunlêer is suksesvol geskep",
+  "crossPlatformSync": "Kruisplatform-sinchronisasie",
   "crossfadeDuration": "Kruisfadeduur",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Aktiveer kruisfade outomaties in die laaste {seconds} sekondes}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "Moenie kruisfade outomaties aktiveer nie",
-  "crossPlatformSync": "Kruisplatform-sinchronisasie",
   "custom": "Pasgemaak",
   "customizations": "Aanpassings",
   "customizationsSubtitle": "Pas aan hoe jou speler lyk, maak dit joune",
-  "database": "Databasis",
   "dataIsProvidedByName": "Data word verskaf deur: {name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "Databespaarder",
   "dataSaverMode": "Databespaardermodus",
+  "database": "Databasis",
   "date": "Datum",
   "dateAdded": "Datum bygevoeg",
   "dateCreated": "Datum geskep",
@@ -172,32 +382,15 @@
   "dateTimeFormat": "Datum-tyd-formaat",
   "day": "Dag",
   "days": "Dae",
-  "defaultLabel": "Verstek",
   "defaultBackupLocation": "Verstek rugsteunligging",
   "defaultColor": "Verstekkleur",
   "defaultColorSubtitle": "Stel 'n kleur in om deur die speler gebruik te word",
   "defaultDownloadLocation": "Verstek aflaailigging",
+  "defaultLabel": "Verstek",
   "defaultLibraryTab": "Verstek biblioteektab",
   "delete": "Verwyder",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{Verwyder {filesCount} lêer wat {totalSize} verteenwoordig?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{Verwyder {number} permanent van jou stoor}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "Verwyder snitlys",
   "deleteTempFiles": "Verwyder tydelike lêers",
   "description": "Beskrywing",
@@ -206,21 +399,14 @@
   "didYouMean": "Het jy bedoel",
   "dimIntensity": "Verdoofintensiteit",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{Verdoof minispeler na {seconds} sekondes van onaktiwiteit}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "Gids bestaan nie",
   "disable": "Deaktiveer",
   "disableAll": "Deaktiveer alles",
   "disableReordering": "Deaktiveer herrangskikking",
   "disableSearchCleanup": "Deaktiveer soekopruiming",
-  "discover": "Ontdek",
   "discNumber": "Skyfnommer",
   "discNumberTotal": "Skyftotaal",
+  "discover": "Ontdek",
   "dislike": "Hou nie van nie",
   "dismissibleMiniplayer": "Verwerpbaare minispeler",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "Vertoon werklike posisie in plaas van verskil tydens soek",
@@ -229,15 +415,16 @@
   "displayArtistBeforeTitle": "Vertoon kunstenaar voor titel",
   "displayArtworkOnLockscreen": "Vertoon kunswerk op sluitskerm",
   "displayAudioInfoInMiniplayer": "Vertoon klankinligting",
-  "displayFavouriteIconInTrackTile": "Vertoon gunsteling-knoppie",
   "displayFavButtonInNotification": "Vertoon gunsteling-knoppie in kennisgewing",
   "displayFavButtonInNotificationSubtitle": "Duimnael mag dalk verskuif word.",
+  "displayFavouriteIconInTrackTile": "Vertoon gunsteling-knoppie",
   "displayRemainingDurationInsteadOfTotal": "Vertoon oorblywende duur in plaas van totaal",
   "displayStopButtonInNotification": "Vertoon stopknoppie in kennisgewing",
   "displayThirdItemInRowInTrackTile": "Vertoon derde item in elke ry",
   "displayThirdRowInTrackTile": "Vertoon derde ry",
   "displayTrackNumberInAlbumPage": "Vertoon snitnommer op albumpadsy",
   "displayTrackNumberInAlbumPageSubtitle": "Vertoon 'n klein blokkie met die snitnommer op die albumpadsy",
+  "doNothing": "Doen niks",
   "donate": "Skenk",
   "donateSubtitle": "As jy dink dit verdien",
   "done": "Klaar",
@@ -251,7 +438,6 @@
   "downloads": "Aflaaie",
   "downloadsMetadataTags": "Aflaai metadata-etikette",
   "downloadsMetadataTagsSubtitle": "Trek kunstenaar, titel & album by verstek uit video-inligting",
-  "doNothing": "Doen niks",
   "dragToSeek": "Sleep om te soek",
   "duckAudio": "Duck oudio",
   "duplicatedItemsAdding": "Jy probeer items byvoeg wat reeds in hierdie snitlys bestaan",
@@ -278,13 +464,6 @@
   "enableM3uSync": "Aktiveer M3U-sinchronisasie",
   "enableM3uSyncNote1": "M3U-sinchronisasie laat toe om snitlysveranderinge in die oorspronklike M3U-lêer te stoor",
   "enableM3uSyncNote2": "As iets verkeerd gegaan het, sal 'n rugsteun van hierdie snitlys gevind word in {playlistsBackupPath}",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "Indien geweier, sal alle veranderinge wat in hierdie snitlys gemaak is, verlore gaan by herbegin",
   "enableMiniplayerParticles": "Aktiveer bewegende deeltjies",
   "enableParallaxEffect": "Aktiveer parallaks-effek",
@@ -309,18 +488,11 @@
   "extension": "Uitbreiding",
   "externalFiles": "Eksterne lêers",
   "extract": "Trek uit",
-  "extractingInfo": "Trek inligting uit",
   "extractAllColorPalettes": "Trek alle kleurpalette uit",
   "extractAllColorPalettesSubtitle": "{number, plural, other{Trek oorblywende {remainingColorPalettes} uit?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "Trek feat. kunstenaars uit titel uit",
   "extractFeatArtistSubtitle": "Trek (feat. X) en (ft. X) kunstenaars uit as 'n nuwe kunstenaarsinskrywing.",
+  "extractingInfo": "Trek inligting uit",
   "extras": "Ekstras",
   "extrasSubtitle": "Ekstra instellings om jou ervaring te verfyn",
   "extreme": "Ekstreem",
@@ -331,27 +503,27 @@
   "fetching": "Haal",
   "fetchingOfAllVideos": "Haal alle video's",
   "file": "Lêer",
-  "filenameShouldntStartWith": "Lêernaam moet nie begin met",
-  "files": "Lêers",
   "fileAlreadyExists": "Lêer bestaan reeds",
   "fileName": "Lêernaam",
   "fileNameWoExt": "Lêernaam sonder uitbreiding",
+  "filenameShouldntStartWith": "Lêernaam moet nie begin met",
+  "files": "Lêers",
   "filler": "Vuller",
-  "filteredBySizeAndDuration": "Snitte gefiltreer volgens grootte en duur",
   "filterAlbums": "Filtreer albums",
   "filterArtists": "Filtreer kunstenaars",
   "filterGenres": "Filtreer genres",
   "filterPlaylists": "Filtreer snitlyste",
   "filterTracks": "Filtreer snitte",
   "filterTracksBy": "Filtreer snitte in soeklyste volgens",
+  "filteredBySizeAndDuration": "Snitte gefiltreer volgens grootte en duur",
   "finished": "Klaar",
   "finishedUpdatingLibrary": "Klaar met bywerking van biblioteek",
   "firstListen": "Eerste luister",
   "fixYtdlpBigThumbnailSize": "Maak yt-dlp groot duimnaelgrootte reg",
   "floatingActionButton": "Swerwende aksieknoppie",
   "folder": "Vouer",
-  "folders": "Vouers",
   "folderName": "Vouernaam",
+  "folders": "Vouers",
   "fontScale": "Fontskaal",
   "forceMiniplayerFollowTrackColors": "Dwing minispeler om snitkleure te volg",
   "forceSquaredAlbumThumbnail": "Dwing vierkantige albumduimnael",
@@ -367,11 +539,11 @@
   "generateRandomPlaylist": "Genereer ewekansige snitlys",
   "genre": "Genre",
   "genres": "Styl",
-  "goodLooking": "Lyk goed",
   "goToAlbum": "Gaan na album",
   "goToArtist": "Gaan na kunstenaar",
   "goToChannel": "Gaan na kanaal",
   "goToFolder": "Gaan na vouer",
+  "goodLooking": "Lyk goed",
   "grantStoragePermission": "Gee stoortoestemming",
   "group": "Groep",
   "groupArtworksByAlbum": "Groepeer kunswerke volgens album",
@@ -380,78 +552,38 @@
   "heightOfAlbumTile": "Hoogte van albumteël",
   "heightOfTrackTile": "Hoogte van snitteël",
   "hideSkipButtonAfter": "Versteek slaan-oor-knoppie na",
-  "highlight": "Hoogtepunt",
   "highMatches": "Hoë ooreenkomste",
   "highPerformance": "Hoë werkverrigting",
+  "highlight": "Hoogtepunt",
   "history": "Geskiedenis",
   "historyImportMissingEntriesNote": "Hierdie inskrywings kon nie in die biblioteek gevind word nie, as jy glo hulle bestaan, oorweeg dit om hulle handmatig by te voeg",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} luisters vir {oldTrackInfo} sal vervang word met {newTrackInfo}, bevestig?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "Tuis",
   "hook": "Hook",
-  "hours": "Ure",
   "hourFormat12": "12-uur formaat",
+  "hours": "Ure",
+  "iReadAndAgree": "Ek het gelees & stem saam",
   "ifNotPlaying": "Indien nie speel nie",
-  "ignores": "Ignoreer",
   "ignoreBatteryOptimizationsSubtitle": "Aflaaie kan beperk word wanneer die toepassing batterybeperk is",
   "ignoreCommonPrefixesWhileSorting": "Ignoreer algemene voorvoegsels tydens sortering",
+  "ignores": "Ignoreer",
   "imageSource": "Beeldbron",
   "immersiveMode": "Meeslepende modus",
   "immersiveModeSubtitle": "Versteek status- & navigasiebalke terwyl minispeler uitgebrei is",
   "import": "Voer in",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number} kanale suksesvol ingevoer}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} snitlyste suksesvol ingevoer}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "Voer alles in",
   "importLastFmHistory": "Voer LastFm-geskiedenis in",
   "importLastFmHistoryGuide": "1. Gaan na {lastfmCsvLink}\n\n2. Tik jou gebruikersnaam, haal en laai csv-lêer af.\n\n3. Kies die lêer op die volgende skerm.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "Voer tydsbestek in",
   "importYoutubeHistory": "Voer Youtube-geskiedenis in",
   "importYoutubeHistoryGuide": "1. Gaan na {takeoutLink}\n\n2. Druk \"Multiple Formats\" en kies \"JSON\" langs \"History\".\n\n3. Druk \"All Youtube data included\", Ontkies Alles en kies slegs geskiedenis.\n\n4. Skep Uitvoer, Laai af & Pak uit.\n\n5. Kies \"watch-history.json\" op die volgende skerm.",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{{number} kanale suksesvol ingevoer}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} snitlyste suksesvol ingevoer}}",
   "includeVideos": "Sluit video's in",
+  "indexRefreshRequired": "Doen 'n verfris na verandering hiervan",
   "indexer": "Indekseerder",
   "indexerNote": "Nota: Onvolledige aantal kunswerke verwys na die gedupliseerde & nie-gevonde kunswerke",
   "indexerSubtitle": "Bestuur jou musiekbiblioteek",
-  "indexRefreshRequired": "Doen 'n verfris na verandering hiervan",
   "infinityQueueOnNextPrev": "Oneindige tou op Volgende/Vorige",
   "infinityQueueOnNextPrevSubtitle": "om volgende te druk terwyl die laaste item speel, sal na die eerste spring, en omgekeerd",
   "info": "Info",
@@ -462,7 +594,6 @@
   "invertSelection": "Keer seleksie om",
   "issues": "Kwessies",
   "item": "Item",
-  "iReadAndAgree": "Ek het gelees & stem saam",
   "jump": "Spring",
   "jumpToDay": "Spring na Dag",
   "jumpToFirstTrackAfterQueueFinish": "Spring na eerste snit nadat tou klaar is",
@@ -485,8 +616,8 @@
   "liked": "Gehou van",
   "link": "Skakel",
   "listOfFolders": "Lys van vouers",
-  "loadingFile": "Laai lêer",
   "loadAll": "Laai alles",
+  "loadingFile": "Laai lêer",
   "local": "Plaaslik",
   "localVideoMatching": "Plaaslike video-ooreenstemming",
   "login": "Meld aan",
@@ -494,13 +625,6 @@
   "longPressTheLyricsToEnterFullscreen": "Druk lank op die lirieke om volskerm te gaan",
   "lostMemories": "Verlore Herinneringe",
   "lostMemoriesSubtitle": "{number, plural, other{rondom hierdie tyd, {number} jaar gelede}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "lostPartners": "Verlore vennote",
   "loudnessEnhancer": "Hardheidsverbeteraar",
   "lyricist": "Liriekskrywer",
@@ -513,13 +637,13 @@
   "manualBackup": "Handmatig",
   "manualBackupSubtitle": "kies 'n spesifieke lêer",
   "markAsRead": "Merk as gelees",
-  "matchingType": "Ooreenstemmingstipe",
   "matchAllTracks": "Pas by alle snitte",
   "matchAllTracksNote": "dit kan 'n impak op die ooreenstemmingspoed hê, aangesien dit alle snitte in jou biblioteek sal nagaan",
-  "maximum": "Maksimum",
+  "matchingType": "Ooreenstemmingstipe",
   "maxAudioCacheSize": "Maks oudiokasgrootte",
   "maxImageCacheSize": "Maks beeldkasgrootte",
   "maxVideoCacheSize": "Maks videokasgrootte",
+  "maximum": "Maksimum",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Media Store is geaktiveer, dit sal geen effek hê nie",
   "medium": "Medium",
   "membershipCode": "Kode",
@@ -532,45 +656,28 @@
   "membershipSignInToPatreonAccount": "Teken in op jou patreon-rekening",
   "membershipUnknown": "Onbekende Lidmaatskap",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "Jy benodig lidmaatskap van {name1} of {name2} om veelvuldige rekeninge by te voeg",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "Voeg saam",
   "metadataCache": "Metadata-kas",
   "metadataEditFailed": "Kon nie metadata redigeer nie",
   "metadataReadFailed": "Kon nie metadata lees nie",
-  "minimizedMiniplayer": "Geminimeerde minispeler",
-  "minimum": "Minimum",
-  "minimumOneFolderSubtitle": "Daar moet ten minste 1 vouer wees, voeg meer vouers by as jy hierdie een wil verwyder",
-  "minimumOneItem": "Kon nie item verwyder nie",
-  "minimumOneItemSubtitle": "{number, plural, other{Ten minste {number} items moet oorbly}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "minimumSegmentDuration": "Minimum Segmentduur",
-  "miniplayerCustomization": "Minispeler-aanpassing",
-  "minutes": "minute",
   "minFileDuration": "Minimum Snitduur",
   "minFileSize": "Minimum Lêergrootte",
   "minTrackDurationToRestoreLastPosition": "Minimum snitduur om laaste gespeelde posisie te herstel",
   "minValueCantBeMoreThanMax": "Minimum waarde kan nie meer as die maksimum wees nie",
   "minValueToCountTrackListen": "Tel 'n luister na: ",
+  "minimizedMiniplayer": "Geminimeerde minispeler",
+  "minimum": "Minimum",
+  "minimumOneFolderSubtitle": "Daar moet ten minste 1 vouer wees, voeg meer vouers by as jy hierdie een wil verwyder",
+  "minimumOneItem": "Kon nie item verwyder nie",
+  "minimumOneItemSubtitle": "{number, plural, other{Ten minste {number} items moet oorbly}}",
+  "minimumSegmentDuration": "Minimum Segmentduur",
+  "miniplayerCustomization": "Minispeler-aanpassing",
+  "minutes": "minute",
   "missingEntries": "Ontbrekende Inskrywings",
   "missingTracks": "Ontbrekende Snitte",
   "mix": "Mengsel",
-  "mixes": "Mengsels",
   "mixPlaylistGeneratedByYoutube": "Mengselsnitlys gegenereer deur youtube",
+  "mixes": "Mengsels",
   "mobile": "Mobiel",
   "month": "Maand",
   "months": "Maande",
@@ -583,7 +690,6 @@
   "name": "Naam",
   "nameContainsBadCharacter": "Naam bevat slegte karakter",
   "never": "Nooit",
-  "newest": "Nuutste",
   "newDirectory": "Nuwe vouer",
   "newTracksAdd": "Voeg Snitte By",
   "newTracksMoods": "Luim",
@@ -594,35 +700,12 @@
   "newTracksRatingsSubtitle": "Genereer snitte wat spesifieke gradering het",
   "newTracksRecommended": "Aanbeveel",
   "newTracksRecommendedSubtitle": "Genereer snitte wat jy gewoonlik saam met {currentTrack} geluister het",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "Soortgelyke Vrystellingsdatum",
   "newTracksSimilarrReleaseDateSubtitle": "Genereer snitte wat rondom dieselfde tyd as {currentTrack} vrygestel is",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "Snit het onbekende jaar",
+  "newest": "Nuutste",
   "next": "Volgende",
   "no": "nee",
-  "none": "Geen",
-  "nonActive": "Nie-Aktief",
-  "nonFavourites": "Nie-Gunstelinge",
-  "normalizeAudio": "Normaliseer oudio",
-  "normalizeAudioSubtitle": "Normaliseer volume deur die herhalingswins-etiket of die inligting verskaf deur youtube te lees",
-  "note": "Nota",
-  "notification": "Kennisgewing",
-  "notifications": "Kennisgewings",
-  "notAvailableForYourDevice": "Nie beskikbaar vir jou toestel nie",
-  "notSupportedForNetworkFiles": "Nie ondersteun vir netwerklêers",
   "noChangesFound": "Geen veranderinge is gevind nie.",
   "noEnoughTracks": "Jy het nie veel snitte nie..",
   "noExcludedFolders": "Jy het geen uitgeslote vouers nie",
@@ -633,19 +716,29 @@
   "noTracksFoundBetweenDates": "Hierdie tydsbestek het geen snitte nie.",
   "noTracksFoundInDirectory": "Geen snitte gevind in hierdie vouer nie",
   "noTracksInHistory": "Jy het nie genoeg snitte in geskiedenis nie",
+  "nonActive": "Nie-Aktief",
+  "nonFavourites": "Nie-Gunstelinge",
+  "none": "Geen",
+  "normalizeAudio": "Normaliseer oudio",
+  "normalizeAudioSubtitle": "Normaliseer volume deur die herhalingswins-etiket of die inligting verskaf deur youtube te lees",
+  "notAvailableForYourDevice": "Nie beskikbaar vir jou toestel nie",
+  "notSupportedForNetworkFiles": "Nie ondersteun vir netwerklêers",
+  "note": "Nota",
+  "notification": "Kennisgewing",
+  "notifications": "Kennisgewings",
   "numberOfTracks": "Aantal Snitte",
   "ofLabel": "van",
   "offlineSearch": "Vanlyn Soektog",
   "offset": "Afset",
-  "oldestWatch": "Oudste Kyk",
   "oldDirectory": "Ou vouer",
   "oldDirectoryStillHasTracks": "Ou Vouer het steeds snitte, bevestig?",
-  "ongoing": "Deurlopend",
+  "oldestWatch": "Oudste Kyk",
   "onInterruption": "By Onderbreking",
   "onNotificationTap": "By Kennisgewing Tik",
   "onOpeningYoutubeLink": "By oopmaak van youtube-skakel",
   "onSwiping": "By Veeg",
   "onVolumeZero": "By volume 0",
+  "ongoing": "Deurlopend",
   "open": "Maak oop",
   "openApp": "Maak Toep Oop",
   "openInFileExplorer": "Maak oop in Lêerverkenner",
@@ -654,24 +747,7 @@
   "openQueue": "Maak Tou Oop",
   "openYoutubeLink": "Maak Youtube-skakel Oop",
   "operationRequiresAccount": "Operasie {name} vereis rekening, Teken in om voort te gaan",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "Operasie {operation} vereis ten minste lidmaatskap {name}",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "of",
   "others": "Ander",
   "output": "Uitset",
@@ -700,6 +776,12 @@
   "pitch": "Toonhoogte",
   "plain": "Gewoon",
   "play": "Speel",
+  "playAfter": "Speel Na",
+  "playAfterNextPrev": "Outospeel op Volgende/Vorige",
+  "playAll": "Speel Alles",
+  "playFadeDuration": "Speel Vervaagduur",
+  "playLast": "Speel Laaste",
+  "playNext": "Speel Volgende",
   "playbackSetting": "Terugspeel",
   "playbackSettingSubtitle": "Kan direk in die speler verkry word deur die oudioknoppie lank te druk",
   "playlist": "Snitlys",
@@ -707,12 +789,6 @@
   "playlistsImportM3uNative": "Hierdie sal M3U-snitlyste invoer om slegs deur namida gebruik te word, gebruik as jy migreer",
   "playlistsImportM3uSynced": "Hierdie sal outomaties M3U-snitlyste vanaf indekseerdergouers invoer en hulle gesinchroniseer hou met die oorspronklike M3U-lêer. aktiveer as jy die snitlyste vanaf ander toepassings gebruik/wysig",
   "playlistsImportM3uSyncedAutoImport": "Voer M3U Snitlyste outomaties in",
-  "playAfter": "Speel Na",
-  "playAfterNextPrev": "Outospeel op Volgende/Vorige",
-  "playAll": "Speel Alles",
-  "playFadeDuration": "Speel Vervaagduur",
-  "playLast": "Speel Laaste",
-  "playNext": "Speel Volgende",
   "pleaseEnterADifferentName": "Hierdie naam bestaan reeds :(\nprobeer asseblief 'n ander spoggerige naam",
   "pleaseEnterALink": "Voer asseblief 'n skakel in",
   "pleaseEnterALinkSubtitle": "umm.. is hierdie 'n youtube-skakel?",
@@ -728,16 +804,6 @@
   "private": "Privaat",
   "progress": "Vordering",
   "promptIndexingRefresh": "{newFiles} nuwe lêers is gevind & {deletedFiles} is verwyder of gefiltreer, wil jy 'n verfris doen?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "Gewoonlik gebeur dit wanneer jy die lêer buite namida verwyder/skuif/hernoem, Wil jy die huidige pad opdateer?",
   "public": "Publiek",
   "queue": "Tou",
@@ -745,10 +811,13 @@
   "random": "Ewekansig",
   "randomPicks": "Ewekansige Keuses",
   "rating": "Gradering",
-  "recentlyAdded": "Onlangs Bygevoeg",
+  "reIndex": "Her-indekseer",
+  "reIndexSubtitle": "Herbou jou musiekbiblioteek van nuuts af",
+  "reIndexWarning": "Hierdie proses mag 'n rukkie neem, afhangende van jou biblioteekgrootte.\n\nKunswerke sal nie her-indekseer word solank hulle nog bestaan nie",
   "recentAlbums": "Onlangse Albums",
   "recentArtists": "Onlangse Kunstenaars",
   "recentListens": "Onlangse Luisters",
+  "recentlyAdded": "Onlangs Bygevoeg",
   "recordLabel": "Platemaatskappy",
   "refresh": "Verfris",
   "refreshLibrary": "Verfris Biblioteek",
@@ -758,7 +827,6 @@
   "rememberAudioOnlyMode": "Onthou slegs-klank-modus",
   "remixer": "Remikser",
   "remove": "Verwyder",
-  "removed": "Verwyder",
   "removeDuplicates": "Verwyder Duplikate",
   "removeFromFavourites": "Verwyder uit gunstelinge",
   "removeFromLibrary": "Verwyder uit biblioteek",
@@ -766,17 +834,11 @@
   "removeQueue": "Verwyder Tou",
   "removeSourceFromHistory": "Verwyder bron uit geskiedenis",
   "removeWhitespaces": "Verwyder Witspasies",
+  "removed": "Verwyder",
   "rename": "Hernoem",
   "renamePlaylist": "Hernoem Snitlys",
   "reorderable": "Herrangskikbaar",
   "repeatForNTimes": "{number, plural, other{Herhaal vir nog {number} keer}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "Herhaalmodus",
   "repeatModeAll": "Herhaal Alle Tou",
   "repeatModeNone": "Stop op Laaste Snit",
@@ -791,58 +853,39 @@
   "respectNoMedia": "Respekteer .nomedia",
   "respectNoMediaSubtitle": "Moenie vouers insluit wat .nomedia het nie",
   "restart": "Herbegin",
-  "restoredBackupSuccessfully": "Rugsteun Herstel",
-  "restoredBackupSuccessfullySub": "Rugsteunlêer is suksesvol herstel",
   "restoreBackup": "Herstel Rugsteun",
   "restoreDefaults": "Herstel Verstekwaardes",
+  "restoredBackupSuccessfully": "Rugsteun Herstel",
+  "restoredBackupSuccessfullySub": "Rugsteunlêer is suksesvol herstel",
   "resume": "Hervat",
   "resumeIfWasInterrupted": "Hervat indien gepouseer deur onderbreking",
   "resumeIfWasPausedByVolume": "Hervat indien gepouseer deur volume",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{Hervat indien gepouseer vir minder as {number} minute}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "returnYoutubeDislike": "Keer YouTube terug",
   "reverseOrder": "Omgekeerde Volgorde",
-  "reIndex": "Her-indekseer",
-  "reIndexSubtitle": "Herbou jou musiekbiblioteek van nuuts af",
-  "reIndexWarning": "Hierdie proses mag 'n rukkie neem, afhangende van jou biblioteekgrootte.\n\nKunswerke sal nie her-indekseer word solank hulle nog bestaan nie",
   "rightAction": "Regteraksie",
   "ringtone": "Luitoon",
   "sameDirectoryOnly": "Slegs selfde vouer",
   "sample": "Monster",
   "sampleRate": "Monstertempo",
   "save": "Stoor",
-  "savedIn": "Gestoor in",
   "saveToLibrary": "Stoor na biblioteek",
+  "savedIn": "Gestoor in",
   "scaleMultiplier": "Skaalvermenigvuldiger",
   "search": "Soek",
   "searchYoutube": "Soek YouTube",
   "seconds": "sekondes",
-  "seekbar": "Soekbalk",
+  "seeProjectCodeOnSite": "Sien Projekkode op {site}",
   "seekDuration": "Soekduur",
   "seekDurationInfo": "Jy kan op huidige duur tik om terug te soek & totale duur om vorentoe te soek",
-  "seeProjectCodeOnSite": "Sien Projekkode op {site}",
-  "@seeProjectCodeOnSite": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
-  "selectedTracks": "Gekose Snitte",
+  "seekbar": "Soekbalk",
   "selectAll": "Kies Alles",
   "selectFilesAlreadyInLocalLibrary": "Kies lêers reeds in plaaslike biblioteek",
+  "selectedTracks": "Gekose Snitte",
   "selfPromotion": "Selfpromosie",
   "separatorsBlacklistSubtitle": "Hierdie woorde sal nie geskei word nie",
   "separatorsMessage": "Nie nodig om spasies in te voeg nie, tensy jy 'n letter/simbool wil gebruik wat in 'n hele woord gevind kan word (soos x en ft.)",
   "serverAddress": "Bedieneradres",
-  "settings": "Instellings",
-  "setupFirstStartup": "Stel eerste begin op",
   "setAs": "Stel as",
   "setAsDefault": "Stel as Verstek",
   "setFileLastModifiedAsVideoUploadDate": "Stel lêer laas gewysig as video-oplaaidatum",
@@ -851,6 +894,8 @@
   "setRating": "Stel Gradering",
   "setTags": "Stel etikette",
   "setYoutubeLink": "Stel Youtube-skakel",
+  "settings": "Instellings",
+  "setupFirstStartup": "Stel eerste begin op",
   "share": "Deel",
   "shareLogs": "Deel logs",
   "shortcuts": "Kortpaaie",
@@ -872,8 +917,6 @@
   "shuffle": "Skommel",
   "shuffleAll": "Skommel Alles",
   "shuffleNext": "Skommel Volgende",
-  "signingInAllowsBasicUsage": "Intekning laat basiese gebruik toe",
-  "signingInAllowsBasicUsageSubtitle": "Kry vroeë toegang deur patreon of deur koepon te gebruik",
   "signIn": "Teken in",
   "signInCanceled": "Intekning is gekanselleer",
   "signInFailed": "Intekning het misluk",
@@ -882,31 +925,12 @@
   "signInYouNeedAccountToViewPage": "Jy benodig 'n rekening om hierdie bladsy te sien",
   "signOut": "Teken uit",
   "signOutFromName": "Teken uit van {name}",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "Intekning laat basiese gebruik toe",
+  "signingInAllowsBasicUsageSubtitle": "Kry vroeë toegang deur patreon of deur koepon te gebruik",
   "similarDiscoverDate": "Soortgelyke Ontdekkingsdatum",
   "similarDiscoverDateSubtitle": "Genereer snitte wat rondom dieselfde tyd as {currentTrack} ontdek is",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "Soortgelyke Tydsbestek",
   "similarTimeRangeSubtitle": "Genereer snitte wat jy rondom dieselfde tyd as {currentTrack} geluister het",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "Enkelsnitte",
   "size": "Grootte",
   "skip": "Slaan oor",
@@ -940,13 +964,6 @@
   "subscribers": "Intekenare",
   "succeeded": "Geslaag",
   "suggestionSubtitle": "'n Kwessie of Voorstel? Maak 'n kwessie oop op {site}",
-  "@suggestionSubtitle": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
   "support": "Ondersteuning",
   "supremacy": "Oppergesag",
   "sussyBaka": "Bruh geen snitte",
@@ -954,8 +971,8 @@
   "swipeToOpenDrawer": "Veeg om laai oop te maak",
   "synced": "Gesinchroniseer",
   "synopsis": "Sinopsis",
-  "tags": "Etikette",
   "tagFields": "Etiketvelde",
+  "tags": "Etikette",
   "tapAction": "Tikaksie",
   "tapToSeek": "Tik om te soek",
   "themeMode": "Temamodus",
@@ -971,17 +988,14 @@
   "top": "Bo",
   "topComments": "Top kommentaar",
   "topCommentsSubtitle": "Vertoon kommentaar bo in plaas van onder",
-  "topRecents": "Top Onlangse",
   "topRecentAlbums": "Top Onlangse Albums",
   "topRecentArtists": "Top Onlangse Kunstenaars",
-  "totalListens": "Totale Luisters",
+  "topRecents": "Top Onlangse",
   "totalListenTime": "Totale Luistertyd",
+  "totalListens": "Totale Luisters",
   "totalTracks": "Totale Snitte",
   "totalTracksDuration": "Totale Snitte Duur",
   "track": "Snit",
-  "tracks": "Snitte",
-  "tracksExcludedByNomedia": "Snitte Uitgesluit deur .nomedia",
-  "tracksInfo": "Snitinfo",
   "trackArtistsSeparator": "Kunstenaarskeiers",
   "trackGenresSeparator": "Genreskeiers",
   "trackInfo": "Snitinligting",
@@ -989,16 +1003,6 @@
   "trackNumber": "Snitnommer",
   "trackNumberTotal": "Snit Totaal",
   "trackPathOldNew": "Ou naam: \"{oldName}\"\n\nNuwe naam: \"{newName}\"\n\nIs jy seker?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "Speelmodus",
   "trackPlayModeSearchResults": "Soekresultate",
   "trackPlayModeSelectedOnly": "Slegs gekose snit",
@@ -1008,6 +1012,9 @@
   "trackThumbnailSizeInList": "Grootte van Snitduimnael",
   "trackTileCustomization": "Snitteël-aanpassing",
   "trackTileItemsSeparator": "Itemsskeier",
+  "tracks": "Snitte",
+  "tracksExcludedByNomedia": "Snitte Uitgesluit deur .nomedia",
+  "tracksInfo": "Snitinfo",
   "underrated": "Onderwaardeer",
   "undo": "Maak ongedaan",
   "undoChanges": "Maak Veranderinge Ongedaan?",
@@ -1022,18 +1029,17 @@
   "updateDirectoryPath": "Dateer vouerpad op",
   "updateMissingTracksOnly": "Dateer slegs ontbrekende snitte op",
   "updating": "Besig om op te dateer",
-  "used": "Gebruik",
   "useCollapsedSettingTiles": "Gebruik Ingeplofte Instellingsteëls",
   "useMediaStore": "Gebruik Media Store",
   "useMediaStoreSubtitle": "✓ onmiddellike indekseringstyd\nx respekteer .nomedia sal gedwing word\nx sommige metadata-etikette sal ontbreek\nx youtube-integrasie vir plaaslike biblioteek sal nie werk nie",
   "usePitchBlack": "Gebruik Pikswart",
   "usePitchBlackSubtitle": "Nuttig vir AMOLED-skerms.. en lyk koeler",
+  "used": "Gebruik",
   "value": "Waarde",
   "valueBetween50200": "Waarde moet tussen 50% en 200% wees",
   "vibration": "Vibrasie",
   "vibrationType": "Vibrasietipe",
   "video": "Video",
-  "videos": "Video's",
   "videoCache": "Videokas",
   "videoCacheFile": "Gekaste Videolêer",
   "videoCacheFiles": "Gekaste Videolêers",
@@ -1048,9 +1054,10 @@
   "videoQuality": "Videokwaliteit",
   "videoQualitySubtitle": "Hoogste kwaliteit beskikbaar sal gekies word.",
   "videoQualitySubtitleNote": "Dis altyd goed om meer alternatiewe te hou vir ingeval 'n kwaliteit nie gevind word nie, andersins sal dit terugval na die swakste kwaliteit",
+  "videos": "Video's",
   "view": "kyk",
-  "views": "kyke",
   "viewAll": "Wys Alles",
+  "views": "kyke",
   "volume": "Volume",
   "warning": "Waarskuwing",
   "waveformBarsCount": "Golfvormstawe Telling",
@@ -1059,13 +1066,6 @@
   "year": "Jaar",
   "yes": "ja",
   "yourCurrentMembershipIs": "Jou huidige lidmaatskap is {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "Jou pasgemaakte volgorde sal verlore gaan, Is jy seker?",
   "youtube": "Youtube",
   "youtubeMusic": "Youtube Musiek",
