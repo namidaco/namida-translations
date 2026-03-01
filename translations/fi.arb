@@ -1,9 +1,201 @@
 {
   "@@locale": "fi",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Tietoja",
   "active": "Aktiivi",
   "add": "Lisätä",
-  "added": "Lisätty",
   "addAccount": "Lisätä tili",
   "addAll": "Lisätä kaikki",
   "addAllAndRemoveOldOnes": "Lisätä kaikki ja poista vanhat",
@@ -17,29 +209,23 @@
   "addMoreFromThisArtist": "Lisätä lisää tästä artistilta jonoon",
   "addMoreFromThisFolder": "Lisätä lisää tästä kansiosta jonoon",
   "addMoreFromToQueue": "Lisätä jonoon {media}sta",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Lisätä vain puuttuvat",
   "addToFavourites": "Lisätä suosikkeihin",
   "addToPlaylist": "Lisätä soittiolistaan",
   "addTracksAtTheBeginning": "Lisää kappaleita alkuun",
+  "added": "Lisätty",
   "advanced": "Kehittynyt",
   "advancedSettings": "Lisäasetukset",
   "advancedSettingsSubtitle": "Lisäasetukset, Älä koske",
   "alarm": "Herätyskello",
   "album": "Albumi",
-  "albums": "Albumit",
-  "albumsCount": "Albumien määrä",
   "albumArtist": "Albumien Muusikko",
   "albumArtists": "Albumi muusikot",
   "albumIdentifiers": "Albumin Tunnisteet",
   "albumThumbnailSizeInList": "Albumin valokuvan koko",
   "albumTileCustomization": "Albumin kannen mukauttaminen",
+  "albums": "Albumit",
+  "albumsCount": "Albumien määrä",
   "all": "Kaikki",
   "allTime": "Kaikki aikaa",
   "always": "Aina",
@@ -55,14 +241,12 @@
   "artist": "Muusikko",
   "artists": "Muusikot",
   "artwork": "Kuvamateriaali",
-  "artworks": "Kuvamateriaalia",
   "artworkGestures": "Kuvamateriaali Elkeet",
+  "artworks": "Kuvamateriaalia",
   "audio": "Audio",
   "audioCache": "Audio Välimuisti",
   "audioOnly": "Vain Audio",
   "auto": "Auto",
-  "automaticBackup": "Automaattinen",
-  "automaticBackupSubtitle": "Käyttää automaattisesti viimeisintä varmuuskopiotiedostoa, joka löytyy varmuuskopion sijainnista",
   "autoBackupInterval": "Automaattinen varmuuskopiointiväli",
   "autoColoring": "Auto väritys",
   "autoColoringSubtitle": "Valitse automaattisesti soittimen värit nykyisestä taideteoksesta",
@@ -73,6 +257,8 @@
   "autoSkipOnce": "Automaattinen ohitus kerran",
   "autoStartRadio": "Automaattisesti aloita radio",
   "autoStartRadioSubtitle": "Lisätä automaattisesti sekoitussoittolistan kappaletta toistettaessa",
+  "automaticBackup": "Automaattinen",
+  "automaticBackupSubtitle": "Käyttää automaattisesti viimeisintä varmuuskopiotiedostoa, joka löytyy varmuuskopion sijainnista",
   "backupAndRestore": "varmuuskopiointi ja palautus",
   "backupAndRestoreSubtitle": "Varmuuskopioi tietokanta ja asetukset",
   "balanced": "Tasapainoinen",
@@ -100,26 +286,19 @@
   "clearImageCacheWarning": "Varoitus: lähte kirjastoon ilman kuvia. Käytä vain rakenta uusi kuvavälimuisti.",
   "clearTrackItem": "Tyhjä kappaleita",
   "clearTrackItemMultiple": "{number, plural, other{Tyhjä {number} kappaletta}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "Tyhjä video Välimuisti",
   "clearVideoCacheNote": "Voit valita mitä haluat poistaa.",
   "clock": "Kello",
   "colorPalette": "Väripaletti",
-  "colorPalettes": "Väripaletteja",
   "colorPaletteNote1": "Poista väri painamalla pitkään",
   "colorPaletteNote2": "Napauta sekoitusta käytettäväksi oletuksena väri",
+  "colorPalettes": "Väripaletteja",
   "comment": "Kommenti",
   "comments": "Kommentit",
   "composer": "Säveltäjä",
   "compress": "Pakkaa",
-  "compressionPercentage": "Pakkaa prosenttia",
   "compressImages": "Pakkaa valokuvat",
+  "compressionPercentage": "Pakkaa prosenttia",
   "configure": "Konfiguroida",
   "confirm": "Vahvista",
   "copiedArtwork": "Kopioida Taideteos",
@@ -133,27 +312,20 @@
   "couldntSaveImage": "Ei voinut tallentaa",
   "country": "Maa",
   "create": "Luoda",
-  "createdBackupSuccessfully": "Luotu Varmuuskopio",
-  "createdBackupSuccessfullySub": "Varmuuskopiotiedosto on luotu onnistuneesti",
   "createBackup": "Luoda Varmuuskopio",
   "createNewPlaylist": "Luoda uusi Soittolista",
+  "createdBackupSuccessfully": "Luotu Varmuuskopio",
+  "createdBackupSuccessfullySub": "Varmuuskopiotiedosto on luotu onnistuneesti",
+  "crossPlatformSync": "Alustojen välinen Sync",
   "crossfadeDuration": "Ristihäivytyksen kesto",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Käynnistä Crossfade automaattisesti viimeisen {seconds} sekunnin aikana}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "Älä käynnistä ristihäivytystä automaattisesti",
-  "crossPlatformSync": "Alustojen välinen Sync",
   "custom": "Mukautettu",
   "customizations": "Mukautuksia",
   "customizationsSubtitle": "Mukauta kuinka soittimesi näyttää, tee siitä omasi! :)",
-  "database": "Tietokanta",
   "dataSaver": "Datan säästin",
   "dataSaverMode": "Datan säästötila",
+  "database": "Tietokanta",
   "date": "Päivämäärä",
   "dateAdded": "Päivämäärä Lisätty",
   "dateCreated": "Päivämäärä Luotu",
@@ -161,45 +333,21 @@
   "dateTimeFormat": "päivämäärän ja aika",
   "day": "Päivää",
   "days": "Päivät",
-  "defaultLabel": "Oletus",
   "defaultBackupLocation": "Oletus varmuuskopio sijainti",
   "defaultColor": "Oletusväri",
   "defaultColorSubtitle": "Aseta soittimen käyttämä väri",
   "defaultDownloadLocation": "Oletuslataussijainti",
+  "defaultLabel": "Oletus",
   "defaultLibraryTab": "Oletuskirjasto välilehti",
   "delete": "Poista",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{Poistetaanko {filesCount} tiedostoa, jotka edustavat kokoa {totalSize}?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{Poista pysyvästi {number} tallennustilastasi}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "Poista soittolista",
   "deleteTempFiles": "Poista väliaikaiset tiedostot",
   "description": "Kuvaus",
   "didYouMean": "Tarkoititko",
   "dimIntensity": "Himmeä intensiteetti",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{Himmentää minisoitinta {seconds} sekunnin käyttämättömyyden jälkeen}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "Hakemistoa ei ole olemassa",
   "disable": "Poista käytöstä",
   "disableAll": "Poista kaikki käytöstä",
@@ -214,15 +362,16 @@
   "displayArtistBeforeTitle": "Näytä artisti ennen nimi",
   "displayArtworkOnLockscreen": "Näytä kuvitus lukitusnäytöllä",
   "displayAudioInfoInMiniplayer": "Näytä äänitiedot",
-  "displayFavouriteIconInTrackTile": "Näytä suosikkipainike",
   "displayFavButtonInNotification": "Näytä suosikkipainike ilmoituksessa",
   "displayFavButtonInNotificationSubtitle": "Pikkukuva saattaa siirtyä vaarin paikkaan.",
+  "displayFavouriteIconInTrackTile": "Näytä suosikkipainike",
   "displayRemainingDurationInsteadOfTotal": "Näytä jäljellä oleva kesto kokonaismäärän sijaan",
   "displayStopButtonInNotification": "Näytä pysäytys nappi ilmoituksessa",
   "displayThirdItemInRowInTrackTile": "Näytä kolmas kohde jokaisella rivillä",
   "displayThirdRowInTrackTile": "Näytä kolmas rivi",
   "displayTrackNumberInAlbumPage": "Näytä kappaleen numero albumisivulla",
   "displayTrackNumberInAlbumPageSubtitle": "Näytä albumisivulla pieni laatikko, joka sisältää kappaleen numeron",
+  "doNothing": "Ei tee mitään",
   "done": "Tehty",
   "dontAskAgain": "Älä kysy uudestaan",
   "dontDim": "Älä Himmennä",
@@ -234,7 +383,6 @@
   "downloads": "Lataukset",
   "downloadsMetadataTags": "Lataa Metatietotunnisteita",
   "downloadsMetadataTagsSubtitle": "Pura esittäjä, nimi ja albumi videon tiedoista oletuksena",
-  "doNothing": "Ei tee mitään",
   "dragToSeek": "Vedä etsiäksesi",
   "duckAudio": "Alentaa audio",
   "duplicatedItemsAdding": "Yrität lisätä joitain kohteita, jotka ovat jo olemassa tässä soittolistassa",
@@ -259,13 +407,6 @@
   "enableM3uSync": "Käyttää M3U Sync",
   "enableM3uSyncNote1": "M3U Sync antaa soitolista tallenna muutokset alkuperäinen M3U tiedostolle",
   "enableM3uSyncNote2": "Jos jokin meni väärin, tämän soittolistan varmuuskopio löytyy osoitteesta {playlistsBackupPath}",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "Jos ei antaa, kaikki muutokset tehty tämä soitolistalle menetetään uudelleenkäynnistyksen yhteydessä",
   "enableMiniplayerParticles": "Salli liikkuvat hiukkaset",
   "enableParallaxEffect": "Käyttää parallaksiefekti",
@@ -288,18 +429,11 @@
   "extension": "Laajennus",
   "externalFiles": "Ulkoiset Tiedostot",
   "extract": "Purkaa",
-  "extractingInfo": "Tietojen Poimiminen",
   "extractAllColorPalettes": "Pura Kaikki Väripaletit",
   "extractAllColorPalettesSubtitle": "{number, plural, other{Pura kaikki jäljellä {remainingColorPalettes}?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "Pura feat. muusikot nimestä",
   "extractFeatArtistSubtitle": "Pura (feat. X) ja (ft. X) muusikot, uutena muusikkona.",
+  "extractingInfo": "Tietojen Poimiminen",
   "extras": "Ekstrat",
   "extrasSubtitle": "Lisäasetukset parantaaksesi käyttökokemustasi",
   "failed": "Ei toiminut",
@@ -308,26 +442,26 @@
   "fetching": "Haetaan",
   "fetchingOfAllVideos": "Kaikkien videoiden hakeminen",
   "file": "Tiedosto",
-  "filenameShouldntStartWith": "Tiedostonimen ei pitäisi alkaa tan kanssa =",
-  "files": "Tiedostot",
   "fileAlreadyExists": "Tiedosto on jo olemassa",
   "fileName": "Teidosto nimi",
   "fileNameWoExt": "Tiedostonimi ilman päätettä",
-  "filteredBySizeAndDuration": "Kappaleet suodatettu koko ja keston kanssa",
+  "filenameShouldntStartWith": "Tiedostonimen ei pitäisi alkaa tan kanssa =",
+  "files": "Tiedostot",
   "filterAlbums": "Suodata albumit",
   "filterArtists": "Suodata Muusikot",
   "filterGenres": "Suodata Genres",
   "filterPlaylists": "Suodata Soittolistat",
   "filterTracks": "Suodata kappaleita",
   "filterTracksBy": "Suodattaa kappaleita hakulistasa kautta",
+  "filteredBySizeAndDuration": "Kappaleet suodatettu koko ja keston kanssa",
   "finished": "Valmis",
   "finishedUpdatingLibrary": "Kirjaston Päivitys Valmis",
   "firstListen": "Ensin kuuntele",
   "fixYtdlpBigThumbnailSize": "Korjaa yt-dlp:n iso kuvituskoko",
   "floatingActionButton": "Kelluva Painike",
   "folder": "Kansio",
-  "folders": "Kansiot",
   "folderName": "Kansio Nimi",
+  "folders": "Kansiot",
   "fontScale": "Fonttikoko",
   "forceMiniplayerFollowTrackColors": "Pakota minisoitin seuraamaan kappaleiden värejä",
   "forceSquaredAlbumThumbnail": "Pakottaa Neliöity Albumi Kuva",
@@ -342,11 +476,11 @@
   "generateRandomPlaylist": "Luo satunnainen soittolista",
   "genre": "Genre",
   "genres": "Genres",
-  "goodLooking": "Hyvän näköinen",
   "goToAlbum": "Mennä Albumiin",
   "goToArtist": "Mene Muusikon",
   "goToChannel": "Mene kanavalle",
   "goToFolder": "Mene Kansoille",
+  "goodLooking": "Hyvän näköinen",
   "grantStoragePermission": "Anna Tallennuslupa",
   "group": "Ryhmä",
   "groupArtworksByAlbum": "Ryhmittele teoksia albumin mukaan",
@@ -359,70 +493,30 @@
   "history": "Historia",
   "historyImportMissingEntriesNote": "Näitä merkintöjä ei löydy kirjastosta. Jos uskot niiden olevan olemassa, harkitse niiden lisäämistä manuaalisesti",
   "historyListensReplaceWarning": "{listensCount, plural, other{{oldTrackInfo} ( {listensCount} ) kuuntelumääräsi korvataan {newTrackInfo} :lla, Oletko varma?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "listensCount": {
-        "type": "int"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "Koti",
-  "hours": "Tunnit",
   "hourFormat12": "12 Tunni kello",
+  "hours": "Tunnit",
+  "iReadAndAgree": "Luin ja Soustan",
   "ifNotPlaying": "Jos ei pelaa",
-  "ignores": "Ohittaa",
   "ignoreBatteryOptimizationsSubtitle": "Latauksia voidaan rajoittaa, kun sovelluksen akku on rajoitettu",
+  "ignores": "Ohittaa",
   "imageSource": "Kuvan lähde",
   "immersiveMode": "Mukaansatempaavatila",
   "immersiveModeSubtitle": "Piilota tila ja navigointipalkit, kun minisoitin laajenee",
   "import": "Tuoda",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number} kanavat tuotu onnistuneesti}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} soittolistan tuonti onnistuneesti}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "Tuo kaikki",
   "importLastFmHistory": "Tuo LastFm-historia",
   "importLastFmHistoryGuide": "1. Siirry osoitteeseen {lastfmCsvLink}\n\n 2. Kirjoita käyttäjänimesi, hae ja lataa csv-tiedosto.\n\n 3. Valitse tiedosto seuraavasta näytöstä.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "Tuo aikaväli",
   "importYoutubeHistory": "Tuo Youtube-historia",
   "importYoutubeHistoryGuide": "1. Siirry osoitteeseen {takeoutLink}\n\n 2. Paina \"Multiple Formats\" ja valitse \"Historia\"-kohdan vierestä \"JSON\". \n\n3. Paina \"Kaikki Youtube-tiedot sisältyvät\", poista kaikkien valinta ja valitse vain historia. \n\n4. Luo Vie, lataa ja pura. \n\n5. Valitse seuraavasta näytöstä \"watch-history.json\".",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{{number} kanavat tuotu onnistuneesti}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} soittolistan tuonti onnistuneesti}}",
   "includeVideos": "Sisällytä videot",
+  "indexRefreshRequired": "Tee Refresh tämän muuttamisen jälkeen",
   "indexer": "Indeksoija",
   "indexerNote": "Huomautus: Taideteosten epätäydellinen määrä viittaa monistettuihin ja ei löytyneisiin taideteoksiin",
   "indexerSubtitle": "Hallinnoi musiikkikirjastoasi",
-  "indexRefreshRequired": "Tee Refresh tämän muuttamisen jälkeen",
   "infinityQueueOnNextPrev": "Infinity-jono kohdassa Seuraava/Edellinen",
   "infinityQueueOnNextPrevSubtitle": "Seuraavan painaminen toistaessasi viimeistä kohdetta hyppää ensimmäiseen ja päinvastoin",
   "info": "Tiedot",
@@ -431,7 +525,6 @@
   "intro": "Intro",
   "invertSelection": "Käänteinen Valinta",
   "item": "Esine",
-  "iReadAndAgree": "Luin ja Soustan",
   "jump": "Hyppää",
   "jumpToDay": "Hyppää päivään",
   "jumpToFirstTrackAfterQueueFinish": "Hyppää ensimmäiseen kappaleeseen jonon päätyttyä",
@@ -450,20 +543,13 @@
   "liked": "Tykätu",
   "link": "Linkki",
   "listOfFolders": "Luettelo Kansioista",
-  "loadingFile": "Ladataan tiedostoa",
   "loadAll": "Lataa kaikki",
+  "loadingFile": "Ladataan tiedostoa",
   "local": "Paikallinen",
   "localVideoMatching": "Paikallinen videovastaavuus",
   "longPressTheLyricsToEnterFullscreen": "Paina sanoitusta pitkään siirtyäksesi koko näytön tilaan",
   "lostMemories": "Kadonneita muistoja",
   "lostMemoriesSubtitle": "{number, plural, other{noin tähän aikaan, {number} vuotta sitten}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "loudnessEnhancer": "Kuuluvuus Tehostaja",
   "lyricist": "Sanoittaja",
   "lyrics": "Sanat",
@@ -475,13 +561,13 @@
   "manualBackup": "Manuaalinen",
   "manualBackupSubtitle": "Poimi tietty tiedosto",
   "markAsRead": "Merkitse lukenut",
-  "matchingType": "Vastaava tyyppi",
   "matchAllTracks": "Vastaa Kaikki Musiikkikappaleet",
   "matchAllTracksNote": "tämä voi vaikuttaa hakunopeuteen, koska se tarkistaa kaikki kokoelmasi kappaleet",
-  "maximum": "Maksimi",
+  "matchingType": "Vastaava tyyppi",
   "maxAudioCacheSize": "Äänivälimuistin Enimmäiskoko",
   "maxImageCacheSize": "Kuvavälimuistin Enimmäiskoko",
   "maxVideoCacheSize": "Videovälimuistin Enimmäiskoko",
+  "maximum": "Maksimi",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Media säilytys on päällä, tällä ei tule olemaan vaikutusta",
   "membershipCode": "Koodi",
   "membershipCodeSentToEmail": "Koodi lähetetty sun sähköpostiin",
@@ -493,44 +579,27 @@
   "membershipSignInToPatreonAccount": "Kirjaudu sisään patreon-tilillesi",
   "membershipUnknown": "Jäsentaso Epävarma",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "Tarvitset jäsenyyden {name1} tai {name2} Etta voit käyttää moninkertainen tilliä",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "Yhdistä",
   "metadataCache": "Metadata Välimuisti",
   "metadataEditFailed": "Metatietojen välimuistin muokkaaminen epäonnistui",
   "metadataReadFailed": "Metatietojen lukeminen epäonnistui",
-  "minimizedMiniplayer": "Minimoitu minisoitin",
-  "minimum": "Minimum",
-  "minimumOneFolderSubtitle": "Pitäisi olla vähintään yksi. Lisää kansioita, jos haluat poistaa tämän",
-  "minimumOneItem": "Ei voinut poista kohde",
-  "minimumOneItemSubtitle": "{number, plural, other{Vähintään {number} kohdetta pitäisi olla jäljellä}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "miniplayerCustomization": "Minisoittimen mukauttaminen",
-  "minutes": "minuuttia",
   "minFileDuration": "Raidan vähimmäiskesto",
   "minFileSize": "Minimi tiedostokoko",
   "minTrackDurationToRestoreLastPosition": "Raidan vähimmäiskesto viimeksi toistetun sijainnin palauttamiseksi",
   "minValueCantBeMoreThanMax": "Minimiarvo ei voi olla suurempi kuin enimmäisarvo",
   "minValueToCountTrackListen": "Laske kuuntelu jälkeen: ",
+  "minimizedMiniplayer": "Minimoitu minisoitin",
+  "minimum": "Minimum",
+  "minimumOneFolderSubtitle": "Pitäisi olla vähintään yksi. Lisää kansioita, jos haluat poistaa tämän",
+  "minimumOneItem": "Ei voinut poista kohde",
+  "minimumOneItemSubtitle": "{number, plural, other{Vähintään {number} kohdetta pitäisi olla jäljellä}}",
+  "miniplayerCustomization": "Minisoittimen mukauttaminen",
+  "minutes": "minuuttia",
   "missingEntries": "Puuttuvat merkinnät",
   "missingTracks": "Puuttuvat kappaleet",
   "mix": "sekoita",
-  "mixes": "sekoitus",
   "mixPlaylistGeneratedByYoutube": "YouTuben tuottama sekoitussoittolista",
+  "mixes": "sekoitus",
   "month": "Kuukausi",
   "months": "Kuukausia",
   "mood": "Tunne",
@@ -541,7 +610,6 @@
   "name": "Nimi",
   "nameContainsBadCharacter": "Nimissä on paha Merkki",
   "never": "Ei koskaan",
-  "newest": "Uusin",
   "newDirectory": "Uusi hakemisto",
   "newTracksAdd": "Lisää kappaleita",
   "newTracksMoods": "Tunne",
@@ -552,34 +620,12 @@
   "newTracksRatingsSubtitle": "Luo kappaleita, joilla on tietty luokitus",
   "newTracksRecommended": "Suositella",
   "newTracksRecommendedSubtitle": "Luo kappaleita, joita kuuntelit tavallisesti kappaleella {currentTrack}",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "Samanlainen julkaisupäivä",
   "newTracksSimilarrReleaseDateSubtitle": "Luo kappaleita, jotka julkaistiin suunnilleen samaan aikaan kuin {currentTrack}",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "Kappaleen vuosiluku on tuntematon",
+  "newest": "Uusin",
   "next": "Ensin",
   "no": "Ei",
-  "none": "Ei mitään",
-  "nonActive": "Ei-aktiivinen",
-  "nonFavourites": "Ei-suosikit",
-  "normalizeAudio": "Normalisoi ääni",
-  "normalizeAudioSubtitle": "Normalisoi äänenvoimakkuuden lukemalla toiston vahvistustunnisteen tai youtuben antaman infon mukaan",
-  "note": "Huomautus",
-  "notification": "Tiedote",
-  "notifications": "Tiedotteet",
-  "notAvailableForYourDevice": "Ei saatavilla laitteellasi",
   "noChangesFound": "Muutoksia ei löytynyt.",
   "noEnoughTracks": "Sinulla ei ole paljon säikeitä...",
   "noExcludedFolders": "Sinulla ei ole poissuljettuja kansioita",
@@ -590,19 +636,28 @@
   "noTracksFoundBetweenDates": "Tällä aikavälillä ei ole yhtään säiettä.",
   "noTracksFoundInDirectory": "Tästä hakemistosta ei löytynyt säikeitä",
   "noTracksInHistory": "Sinulla ei ole tarpeeksi säikeitä historiassa",
+  "nonActive": "Ei-aktiivinen",
+  "nonFavourites": "Ei-suosikit",
+  "none": "Ei mitään",
+  "normalizeAudio": "Normalisoi ääni",
+  "normalizeAudioSubtitle": "Normalisoi äänenvoimakkuuden lukemalla toiston vahvistustunnisteen tai youtuben antaman infon mukaan",
+  "notAvailableForYourDevice": "Ei saatavilla laitteellasi",
+  "note": "Huomautus",
+  "notification": "Tiedote",
+  "notifications": "Tiedotteet",
   "numberOfTracks": "Säikeiden lukumäärä",
   "ofLabel": "josta",
   "offlineSearch": "Ei-verkkohaku",
   "offset": "Ylityksen määrä",
-  "oldestWatch": "Vanhin Kello",
   "oldDirectory": "Vanha hakemisto",
   "oldDirectoryStillHasTracks": "Vanhassa hakemistossa on vielä joitain säikeitä; vahvistetaanko?",
-  "ongoing": "Meneillään",
+  "oldestWatch": "Vanhin Kello",
   "onInterruption": "Keskeytyksestä",
   "onNotificationTap": "Ilmoitusta Painaessa",
   "onOpeningYoutubeLink": "Youtube linkin avaamisen yhteydessä",
   "onSwiping": "Pyyhkäistessä",
   "onVolumeZero": "Äänenvoimakkuuden ollessa 0",
+  "ongoing": "Meneillään",
   "open": "Avaa",
   "openApp": "Avaa sovellus",
   "openInFileExplorer": "Avaa tiedostoissa",
@@ -611,24 +666,7 @@
   "openQueue": "Avaa jono",
   "openYoutubeLink": "Avaa Youtube-linkki",
   "operationRequiresAccount": "Toiminto {name} vaatii tilin. Jatka kirjautumalla sisään",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "Toiminto {operation} edellyttää vähintään jäsenyyttä {name}",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "tai",
   "others": "Muut",
   "output": "Lähtö",
@@ -656,6 +694,12 @@
   "pitch": "Piki",
   "plain": "Pelkkä",
   "play": "Toista",
+  "playAfter": "Toista sen jälkeen",
+  "playAfterNextPrev": "Automaattinen toisto Seuraavasta/Edellisestä",
+  "playAll": "Toista kaikki",
+  "playFadeDuration": "Toiston häivytyksen kesto",
+  "playLast": "Toista viimeinen",
+  "playNext": "Toista seuraava",
   "playbackSetting": "Toisto",
   "playbackSettingSubtitle": "Pääsee suoraan soittimesta painamalla audiopainiketta pitkään",
   "playlist": "Soittolista",
@@ -663,12 +707,6 @@
   "playlistsImportM3uNative": "Tämä tuo M3U-soittolistoja vain namidan käyttöön. käytä, jos olet siirtymässä",
   "playlistsImportM3uSynced": "Tämä tuo automaattisesti M3U-soittolistat indeksointikansioista ja pitää ne synkronoituna alkuperäisen M3U-tiedoston kanssa. ota käyttöön, jos käytät tai muokkaat soittolistoja muista sovelluksista",
   "playlistsImportM3uSyncedAutoImport": "Tuo M3U-soittolistat automaattisesti",
-  "playAfter": "Toista sen jälkeen",
-  "playAfterNextPrev": "Automaattinen toisto Seuraavasta/Edellisestä",
-  "playAll": "Toista kaikki",
-  "playFadeDuration": "Toiston häivytyksen kesto",
-  "playLast": "Toista viimeinen",
-  "playNext": "Toista seuraava",
   "pleaseEnterADifferentName": "Tämä nimi on jo olemassa :(\nkokeile toista mielikuvituksellista nimeä",
   "pleaseEnterALink": "Syötä linkki",
   "pleaseEnterALinkSubtitle": "hmm,. onko tämä youtube-linkki?",
@@ -684,16 +722,6 @@
   "private": "Yksityinen",
   "progress": "Edistyminen",
   "promptIndexingRefresh": "{newFiles} uutta tiedostoa on löydettiin ja {deletedFiles} poistettiin tai suodatettiin; haluatko virkistää?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "Yleensä näin tapahtuu, kun poistat/siirrät/nimeät uudelleen tiedoston namidan ulkopuolelle. Haluatko päivittää nykyisen polun?",
   "public": "Julkinen",
   "queue": "Jono",
@@ -701,10 +729,13 @@
   "random": "Satunnainen",
   "randomPicks": "Satunnaiset valinnat",
   "rating": "Luokitus",
-  "recentlyAdded": "Äskettäin lisätty",
+  "reIndex": "Uudelleen indexoi",
+  "reIndexSubtitle": "Uudelleen rakenna musiikki kirjastosi alusta asti",
+  "reIndexWarning": "Tämä prosessi voi viedä hetken, riippuen kirjastosi koosta\n\nTeoksia ei uudelleen indexoida niin kauan kuin ne ovat vielä olemassa",
   "recentAlbums": "Viimeaikaiset albumit",
   "recentArtists": "Viimeaikaiset taiteilijat",
   "recentListens": "Viimeaikaiset kuuntelut",
+  "recentlyAdded": "Äskettäin lisätty",
   "recordLabel": "Levy-yhtiö",
   "refresh": "Virkistä",
   "refreshLibrary": "Virkistä kirjasto",
@@ -714,7 +745,6 @@
   "rememberAudioOnlyMode": "Muista vain ääni -tila",
   "remixer": "Uudelleensekoitin",
   "remove": "Poista",
-  "removed": "Poistettu",
   "removeDuplicates": "Poista kaksoiskappaleet",
   "removeFromFavourites": "Poista suosikeista",
   "removeFromLibrary": "Poista kirjastosta",
@@ -722,17 +752,11 @@
   "removeQueue": "Poista jono",
   "removeSourceFromHistory": "Poista lähde historiasta",
   "removeWhitespaces": "Poista välilyönnit",
+  "removed": "Poistettu",
   "rename": "Nimeä uudelleen",
   "renamePlaylist": "Nimeä soittolista uudelleen",
   "reorderable": "Uudelleen järjestettävissä",
   "repeatForNTimes": "{number, plural, other{Toista vielä {number} kertaa}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "Uudelleentoisto moodi",
   "repeatModeAll": "Toista kaikki jonossa",
   "repeatModeNone": "Pysähdy viimeisellä kappaleella",
@@ -747,47 +771,35 @@
   "respectNoMedia": "Kunnioita .nomediaa",
   "respectNoMediaSubtitle": "Älä sisällytä kansioita, joissa on .nomedia",
   "restart": "Käynnistä uudelleen",
-  "restoredBackupSuccessfully": "Palautettu varmuuskopio",
-  "restoredBackupSuccessfullySub": "Varmuuskopiotiedosto palautettiin onnistuneesti",
   "restoreBackup": "Palauta varmuuskopio",
   "restoreDefaults": "Palauta oletukset",
+  "restoredBackupSuccessfully": "Palautettu varmuuskopio",
+  "restoredBackupSuccessfullySub": "Varmuuskopiotiedosto palautettiin onnistuneesti",
   "resume": "Jatka",
   "resumeIfWasInterrupted": "Jatka, jos se keskeytettiin keskeytyksen vuoksi",
   "resumeIfWasPausedByVolume": "Jatka toistoa jos toisto pysäytettiin äänenvoimakkuudella",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{Jatka toistoa, jos toisto pysäytettiin alle {number} minuutiksi}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "reverseOrder": "Käänteinen Järjestys",
-  "reIndex": "Uudelleen indexoi",
-  "reIndexSubtitle": "Uudelleen rakenna musiikki kirjastosi alusta asti",
-  "reIndexWarning": "Tämä prosessi voi viedä hetken, riippuen kirjastosi koosta\n\nTeoksia ei uudelleen indexoida niin kauan kuin ne ovat vielä olemassa",
   "ringtone": "Soittoääni",
   "sameDirectoryOnly": "Vain samassa tiedosto osoitteessa",
   "sample": "Esimerkki",
   "sampleRate": "Näyteiden määrä",
   "save": "Tallenna",
-  "savedIn": "Tallennettu",
   "saveToLibrary": "Tallenna kirjastoon",
+  "savedIn": "Tallennettu",
   "scaleMultiplier": "Skaalauksen kerroin",
   "search": "Haku",
   "searchYoutube": "Hae YouTubesta",
   "seconds": "Sekunteja",
-  "seekbar": "Aikajana",
   "seekDurationInfo": "Voit painaa nykyisestä kestosta kelataksesi taaksepäin & kokonaiskestosta kelataksesi eteenpäin",
-  "selectedTracks": "Valitut Kappaleet",
+  "seekbar": "Aikajana",
   "selectAll": "Valitse Kaikki",
   "selectFilesAlreadyInLocalLibrary": "Valtise jo paikallisesti olemassa olevat tiedostot",
+  "selectedTracks": "Valitut Kappaleet",
   "selfPromotion": "Itse-promootio",
   "separatorsBlacklistSubtitle": "Näitä sanoja ei tulla halkaisemaan",
   "separatorsMessage": "Ei tarvetta käyttää välilyöntiä, ellet halua käyttää kirjainta/symbolia joka voidaan löytää koko sanassa (kuten x ja ft.)",
   "serverAddress": "Palvelimen osoite",
-  "settings": "Asetukset",
-  "setupFirstStartup": "Ensikerran aloitus asetukset",
   "setAs": "Asetettuna",
   "setAsDefault": "Asetettuna oletusarvoon",
   "setFileLastModifiedAsVideoUploadDate": "Aseta tiedoston viimeisin muokkauspäivä videon latauspäiväksi",
@@ -796,6 +808,8 @@
   "setRating": "Aseta arvostelu",
   "setTags": "Aseta tunnisteet",
   "setYoutubeLink": "Aseta Youtube linkki",
+  "settings": "Asetukset",
+  "setupFirstStartup": "Ensikerran aloitus asetukset",
   "share": "Jaa",
   "shortcuts": "Lyhenteet",
   "shouldDuckNote": "Ilmaisee että äänenvoimakkuutta pitäisi alentaa. Esim. Ilmoitus",
@@ -814,8 +828,6 @@
   "shuffle": "Sekoitus",
   "shuffleAll": "Sekoita kaikki",
   "shuffleNext": "Sekoita seuraava",
-  "signingInAllowsBasicUsage": "Sisään kirjautumalla saat perustason käytön",
-  "signingInAllowsBasicUsageSubtitle": "Hanki aikainen pääsy patreonin kautta tai käyttämällä kuponki",
   "signIn": "Kirjaudu sisään",
   "signInCanceled": "Kirjautuminen peruutettiin",
   "signInFailed": "Kirjautuminen on epäonnistunut",
@@ -824,13 +836,8 @@
   "signInYouNeedAccountToViewPage": "Tarvitset käyttäjätilin nähdäksesi tämän sivun",
   "signOut": "Kirjaudu ulos",
   "signOutFromName": "Kirjaudu ulos käyttäjältä {name}",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "Sisään kirjautumalla saat perustason käytön",
+  "signingInAllowsBasicUsageSubtitle": "Hanki aikainen pääsy patreonin kautta tai käyttämällä kuponki",
   "singles": "Singlet",
   "size": "Koko",
   "skip": "Ohita",
@@ -861,8 +868,8 @@
   "swipeToOpenDrawer": "Kelaa avataksesi vetolaatikko",
   "synced": "Synkattu",
   "synopsis": "Yleiskatsaus",
-  "tags": "Tunnisteet",
   "tagFields": "Tunniste kentät",
+  "tags": "Tunnisteet",
   "tapToSeek": "Paina kelataksesi",
   "themeMode": "Teema moodi",
   "themeModeDark": "Tumma",
@@ -876,11 +883,9 @@
   "top": "Ylä",
   "topComments": "Ylä kommenttit",
   "topCommentsSubtitle": "Näytä kommentit ylhäällä, alhaan sijasta",
-  "totalListens": "Kokonaiskuuntelut",
   "totalListenTime": "Kokonaiskuuntelu aika",
+  "totalListens": "Kokonaiskuuntelut",
   "track": "Kappale",
-  "tracks": "Kappaleet",
-  "tracksInfo": "Kappaleiden Info",
   "trackArtistsSeparator": "Artistien erittäjä",
   "trackGenresSeparator": "Genrejen erittäjä",
   "trackInfo": "Kappale Info",
@@ -892,6 +897,8 @@
   "trackPlayModeTrackAlbum": "Kappaleen albumi",
   "trackPlayModeTrackArtist": "Kappaleen pääartisti",
   "trackPlayModeTrackGenre": "Kappaleen genre",
+  "tracks": "Kappaleet",
+  "tracksInfo": "Kappaleiden Info",
   "underrated": "Aliarvostettu",
   "undo": "Peru",
   "undoChanges": "Peru muutokset?",
@@ -905,16 +912,15 @@
   "updateDirectoryPath": "Päivitä tiedosto sijantia",
   "updateMissingTracksOnly": "Päivitä vain puuttuvat kappaleet",
   "updating": "Päivitetään",
-  "used": "Käytetty",
   "useMediaStore": "Käytä median varastointia",
   "usePitchBlack": "Käytä piki mustaa",
   "usePitchBlackSubtitle": "Hyödynnöllinen AMOLED näytöille.. ja näytää Hienomalle",
+  "used": "Käytetty",
   "value": "Arvo",
   "valueBetween50200": "Arvon pitäisi olla 50% ja 200% välillä",
   "vibration": "Tärinä",
   "vibrationType": "Tärinän tyyppi",
   "video": "Video",
-  "videos": "Videoita",
   "videoOnly": "Vain video",
   "videoPlaybackSource": "Video lähde",
   "videoPlaybackSourceAutoSubtitle": "Antaa prioriteetin paikallisille videoille, jos ei löydy, hakee youtubesta",
@@ -922,9 +928,10 @@
   "videoPlaybackSourceYoutube": "Youtubesta",
   "videoQuality": "Video laatu",
   "videoQualitySubtitle": "Ottaa parhaan saatavilla olevan laadun",
+  "videos": "Videoita",
   "view": "Näytä",
-  "views": "Näyttökerrat",
   "viewAll": "Näytä Kaikki",
+  "views": "Näyttökerrat",
   "volume": "Äänenvoimakkuus",
   "warning": "Varoitus",
   "waveformBarsCount": "Aallonmuodon palkkien määrä",
@@ -933,13 +940,6 @@
   "year": "Vuosi",
   "yes": "Kyllä",
   "yourCurrentMembershipIs": "Tämänhetkinen jäsenyytesi on {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "youtube": "Youtube",
   "youtubeMusic": "Youtube musiikki",
   "youtubeSettingsSubtitle": "Kustomisoi Youtube käyttökokemusta",
