@@ -1,9 +1,246 @@
 {
   "@@locale": "uk",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Про додаток",
   "active": "Активний",
   "add": "Додати",
-  "added": "додано",
   "addAccount": "Додати обліковий запис",
   "addAll": "Додати все",
   "addAllAndRemoveOldOnes": "Додати все та видалити старе",
@@ -17,29 +254,23 @@
   "addMoreFromThisArtist": "Додати ще від цього виконавця в чергу",
   "addMoreFromThisFolder": "Додати ще з цієї теки в чергу",
   "addMoreFromToQueue": "Додати ще з {media} в чергу",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Додати тільки відсутні",
   "addToFavourites": "Додати до обраного",
   "addToPlaylist": "Додати в плейлист",
   "addTracksAtTheBeginning": "Додати треки на початку",
+  "added": "додано",
   "advanced": "Просунуте",
   "advancedSettings": "Просунуті",
   "advancedSettingsSubtitle": "Просунуті налаштування, не чіпати",
   "alarm": "Будильник",
   "album": "Альбом",
-  "albums": "Альбоми",
-  "albumsCount": "Кількість альбомів",
   "albumArtist": "Виконавець альбому",
   "albumArtists": "Виконавці альбому",
   "albumIdentifiers": "Ідентифікатори альбому",
   "albumThumbnailSizeInList": "Розмір мініатюр альбому",
   "albumTileCustomization": "Налаштування плитки альбому",
+  "albums": "Альбоми",
+  "albumsCount": "Кількість альбомів",
   "all": "Усі",
   "allTime": "За весь час",
   "alreadyExists": "Вже існує",
@@ -57,14 +288,12 @@
   "artist": "Виконавець",
   "artists": "Виконавці",
   "artwork": "Обкладинка",
-  "artworks": "Обкладинки",
   "artworkGestures": "Жести обкладинок",
+  "artworks": "Обкладинки",
   "audio": "Аудіо",
   "audioCache": "Кеш аудіо",
   "audioOnly": "Тільки аудіо",
   "auto": "Автоматично",
-  "automaticBackup": "Автоматичний",
-  "automaticBackupSubtitle": "Автоматично застосовує останній файл резервної копії, знайдений у місці їх зберігання",
   "autoBackupInterval": "Інтервал автоматичних резервних копій",
   "autoColoring": "Автоколір",
   "autoColoringSubtitle": "Автоматичний вибір кольорів плеєра на основі обкладинок",
@@ -75,6 +304,8 @@
   "autoSkipOnce": "Автопропуск один раз",
   "autoStartRadio": "Автозапуск радіо",
   "autoStartRadioSubtitle": "Автоматично додає плейлист «Мікс» під час відтворення одного треку",
+  "automaticBackup": "Автоматичний",
+  "automaticBackupSubtitle": "Автоматично застосовує останній файл резервної копії, знайдений у місці їх зберігання",
   "backupAndRestore": "Резервне копіювання та відновлення",
   "backupAndRestoreSubtitle": "Резервне копіювання бази даних та налаштувань",
   "balanced": "Збалансований",
@@ -103,26 +334,19 @@
   "clearImageCacheWarning": "Попередження: буде створена бібліотека без зображень. Використовуйте тільки для перебудови кешу зображень.",
   "clearTrackItem": "Видалити у треку",
   "clearTrackItemMultiple": "{number, plural, other{Очистити {number} у треків}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "Очистити кеш відео",
   "clearVideoCacheNote": "Ви можете обрати, що видалити.",
   "clock": "Годинник",
   "colorPalette": "Кольорова палітра",
-  "colorPalettes": "Кольорові палітри",
   "colorPaletteNote1": "Натисніть і утримуйте колір, щоб прибрати його",
   "colorPaletteNote2": "Натисніть на мікс, щоб використовувати його як колір за замовчуванням",
+  "colorPalettes": "Кольорові палітри",
   "comment": "Коментар",
   "comments": "Коментарі",
   "composer": "Композитор",
   "compress": "Стиснути",
-  "compressionPercentage": "Відсоток стиснення",
   "compressImages": "Стиснути зображення",
+  "compressionPercentage": "Відсоток стиснення",
   "configure": "Налаштувати",
   "confirm": "ОК",
   "copiedArtwork": "Обкладинку скопійовано",
@@ -137,35 +361,21 @@
   "country": "Країна",
   "coupon": "Купон",
   "create": "Створити",
-  "createdBackupSuccessfully": "Резервну копію створено",
-  "createdBackupSuccessfullySub": "Резервну копію успішно створено",
   "createBackup": "Створити резервну копію",
   "createNewPlaylist": "Створити новий плейлист",
+  "createdBackupSuccessfully": "Резервну копію створено",
+  "createdBackupSuccessfullySub": "Резервну копію успішно створено",
+  "crossPlatformSync": "Синхронізація між платформами",
   "crossfadeDuration": "Тривалість згасаючого переходу",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Автоматично вмикати згасаючий перехід в останні {seconds} секунд}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "Не запускати згасаючий перехід автоматично",
-  "crossPlatformSync": "Синхронізація між платформами",
   "custom": "Користувацький",
   "customizations": "Персоналізація",
   "customizationsSubtitle": "Налаштуйте зовнішній вигляд свого плеєра під себе",
-  "database": "База даних",
   "dataIsProvidedByName": "Дані надано: {name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "Заощадження трафіку",
   "dataSaverMode": "Режим заощадження трафіку",
+  "database": "База даних",
   "date": "Дата",
   "dateAdded": "Дата додавання",
   "dateCreated": "Дата створення",
@@ -173,32 +383,15 @@
   "dateTimeFormat": "Формат дати і часу",
   "day": "День",
   "days": "Днів",
-  "defaultLabel": "За замовчуванням",
   "defaultBackupLocation": "Розташування резервних копій за замовчуванням",
   "defaultColor": "Тема за замовчуванням",
   "defaultColorSubtitle": "Встановлення кольору, що буде використовуватись плеєром",
   "defaultDownloadLocation": "Папка для завантаження за замовчуванням",
+  "defaultLabel": "За замовчуванням",
   "defaultLibraryTab": "Бібліотека за замовчуванням",
   "delete": "Видалити",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{Видалити {filesCount} файлів, які займають {totalSize}?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{Назавжди видалити {number} треків зі сховища}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "Видалити плейлист",
   "deleteTempFiles": "Видалити тимчасові файли",
   "description": "Опис",
@@ -207,13 +400,6 @@
   "didYouMean": "Можливо, Ви мали на увазі",
   "dimIntensity": "Інтенсивність затемнення",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{Затемнення мініплеєра через {seconds} секунд бездіяльності}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "Каталог не існує",
   "disable": "Вимкнути",
   "disableAll": "Вимкнути всі",
@@ -229,15 +415,16 @@
   "displayArtistBeforeTitle": "Відображати виконавця перед назвою",
   "displayArtworkOnLockscreen": "Відображати обкладинку на екрані блокування",
   "displayAudioInfoInMiniplayer": "Відображати інформацію про аудіо",
-  "displayFavouriteIconInTrackTile": "Відображати кнопку «Обране»",
   "displayFavButtonInNotification": "Відображати кнопку «Обране» в сповіщеннях",
   "displayFavButtonInNotificationSubtitle": "Мініатюра може бути зміщена.",
+  "displayFavouriteIconInTrackTile": "Відображати кнопку «Обране»",
   "displayRemainingDurationInsteadOfTotal": "Відображати тривалість що залишилася, замість загальної",
   "displayStopButtonInNotification": "Показувати кнопку «Стоп» у сповіщеннях",
   "displayThirdItemInRowInTrackTile": "Відображати третій елемент у кожному рядку",
   "displayThirdRowInTrackTile": "Відображати третій рядок",
   "displayTrackNumberInAlbumPage": "Відображати номер треку на сторінці альбому",
   "displayTrackNumberInAlbumPageSubtitle": "Відображати невелике поле з номером треку на сторінці альбому",
+  "doNothing": "Нічого не робити",
   "donate": "Пожертвуйте",
   "donateSubtitle": "Якщо вважаєте, що це того варте",
   "done": "Готово",
@@ -251,7 +438,6 @@
   "downloads": "Завантаження",
   "downloadsMetadataTags": "Завантажити теги метаданих",
   "downloadsMetadataTagsSubtitle": "За замовчуванням витягувати виконавця, назву та альбом з інформації про відео",
-  "doNothing": "Нічого не робити",
   "dragToSeek": "Перетягуйте для перемотування",
   "duckAudio": "Приглушувати аудіо",
   "duplicatedItemsAdding": "Ви намагаєтеся додати елементи, що вже є в плейлисті",
@@ -278,13 +464,6 @@
   "enableM3uSync": "Увімкнути синхронізацію M3U",
   "enableM3uSyncNote1": "Синхронізація M3U дозволяє зберігати зміни плейлиста в оригінальному M3U-файлі",
   "enableM3uSyncNote2": "Якщо щось пішло не так, резервну копію цього плейлиста можна буде знайти в {playlistsBackupPath}",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "У випадку відмови всі зміни, зроблені в цьому плейлисті, будуть втрачені при перезавантаженні",
   "enableMiniplayerParticles": "Увімкнути рухливі частинки",
   "enableParallaxEffect": "Увімкнути ефект паралаксу",
@@ -309,18 +488,11 @@
   "extension": "Розширення",
   "externalFiles": "Зовнішні файли",
   "extract": "Витягти",
-  "extractingInfo": "Витяг інформації",
   "extractAllColorPalettes": "Витягти всі кольорові палітри",
   "extractAllColorPalettesSubtitle": "{number, plural, other{Витягти решту {remainingColorPalettes}?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "Витягти виконавців з назви",
   "extractFeatArtistSubtitle": "Витягти (feat. X) та (ft. X) виконавців у вигляді запису нового виконавця.",
+  "extractingInfo": "Витяг інформації",
   "extras": "Додатково",
   "extrasSubtitle": "Додаткові налаштування для покращення Вашого досвіду",
   "extreme": "Екстремальний",
@@ -331,28 +503,28 @@
   "fetching": "Витягти",
   "fetchingOfAllVideos": "Отримання всіх відео",
   "file": "Файл",
-  "filenameShouldntStartWith": "Назва файлу не повинна починатися з",
-  "files": "Файли",
   "fileAlreadyExists": "Файл уже існує",
   "fileBasedServerWarning": "Файли будуть тимчасово завантажені для індексації. Переконайтеся, що з’єднання стабільне.\nРекомендується використовувати Wi-Fi, щоб уникнути значного використання даних.",
   "fileName": "Назва файлу",
   "fileNameWoExt": "Назва файлу без розширення",
+  "filenameShouldntStartWith": "Назва файлу не повинна починатися з",
+  "files": "Файли",
   "filler": "Філер",
-  "filteredBySizeAndDuration": "Треки, відфільтровані за розміром і тривалістю",
   "filterAlbums": "Відфільтрувати альбоми",
   "filterArtists": "Відфільтрувати виконавців",
   "filterGenres": "Відфільтрувати жанри",
   "filterPlaylists": "Відфільтрувати плейлисти",
   "filterTracks": "Відфільтрувати треки",
   "filterTracksBy": "Відфільтрувати треки в списках пошуку за",
+  "filteredBySizeAndDuration": "Треки, відфільтровані за розміром і тривалістю",
   "finished": "Завершено",
   "finishedUpdatingLibrary": "Оновлення бібліотеки завершено",
   "firstListen": "Перше прослуховування",
   "fixYtdlpBigThumbnailSize": "Виправити великий розмір мініатюри yt-dlp",
   "floatingActionButton": "Плаваюча кнопка дії",
   "folder": "Тека",
-  "folders": "Теки",
   "folderName": "Назва теки",
+  "folders": "Теки",
   "fontScale": "Розмір шрифту",
   "forceMiniplayerFollowTrackColors": "Змусити мініплеєр використовувати кольори треку",
   "forceSquaredAlbumThumbnail": "Примусово зробити мініатюру альбому квадратною",
@@ -368,11 +540,11 @@
   "generateRandomPlaylist": "Згенерувати випадковий плейлист",
   "genre": "Жанр",
   "genres": "Жанри",
-  "goodLooking": "Виглядає добре",
   "goToAlbum": "Перейти до альбому",
   "goToArtist": "Перейти до виконавця",
   "goToChannel": "Перейти на канал",
   "goToFolder": "Перейти до теки",
+  "goodLooking": "Виглядає добре",
   "grantStoragePermission": "Надати дозвіл на використання сховища",
   "group": "Група",
   "groupArtworksByAlbum": "Групувати обкладинки за альбомом",
@@ -381,79 +553,39 @@
   "heightOfAlbumTile": "Висота альбомної плитки",
   "heightOfTrackTile": "Висота плиток для треків",
   "hideSkipButtonAfter": "Прибирати кнопку «Пропустити» через",
-  "highlight": "Рекомендована сцена",
   "highMatches": "Високі показники відповідності",
   "highPerformance": "Висока продуктивність",
+  "highlight": "Рекомендована сцена",
   "history": "Історія",
   "historyImportMissingEntriesNote": "Не вдалося знайти такі записи в бібліотеці. Якщо Ви вважаєте, що вони існують, будь ласка, додайте їх вручну",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} прослуховувань {oldTrackInfo} буде змінено на {newTrackInfo}. Підтвердити?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "Головна",
   "hook": "Захопливий початок",
   "host": "Хост",
-  "hours": "Годин",
   "hourFormat12": "12-годинний формат",
+  "hours": "Годин",
+  "iReadAndAgree": "Я прочитав та погоджуюсь",
   "ifNotPlaying": "Якщо не відтворюється",
-  "ignores": "Ігнорує",
   "ignoreBatteryOptimizationsSubtitle": "Завантаження може бути обмежено, якщо для додатка обмежено споживання заряду акумулятора",
   "ignoreCommonPrefixesWhileSorting": "Ігнорувати поширені префікси під час сортування",
+  "ignores": "Ігнорує",
   "imageSource": "Джерело зображень",
   "immersiveMode": "Режим занурення",
   "immersiveModeSubtitle": "Приховує статусну та навігаційну панелі при розгорнутому мініплеєрі",
   "import": "Імпорт",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number} каналів імпортовано успішно}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} плейлистів імпортовано успішно}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "Імпортувати все",
   "importLastFmHistory": "Імпорт історії LastFm",
   "importLastFmHistoryGuide": "1. Перейдіть на сторінку {lastfmCsvLink}\n\n2. Уведіть своє ім’я користувача, отримайте та завантажте файл CSV.\n\n3. Оберіть файл на наступному екрані.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "Імпортувати діапазон часу",
   "importYoutubeHistory": "Імпорт історії YouTube",
   "importYoutubeHistoryGuide": "1. Перейдіть за посиланням {takeoutLink}\n\n2. Натисніть «Декілька форматів» та навпроти «Історія» оберіть «JSON».\n\n3. Натисніть кнопку «Обрані всі дані YouTube», натисніть на «Скасувати вибір» та оберіть «Тільки історію».\n\n4. Створіть Експорт, завантажте та розархівуйте.\n\n5. На наступному екрані оберіть «watch-history.json».",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{{number} каналів імпортовано успішно}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} плейлистів імпортовано успішно}}",
   "includeVideos": "Включити відео",
+  "indexRefreshRequired": "Виконайте оновлення після зміни цього параметра",
   "indexer": "Індексатор",
   "indexerNote": "Примітка: неповна кількість обкладинок відноситься до дубльованих та незнайдених обкладинок",
   "indexerSubtitle": "Керування музичною бібліотекою",
-  "indexRefreshRequired": "Виконайте оновлення після зміни цього параметра",
   "infinityQueueOnNextPrev": "Безкінечна черга на наступний/попередній",
   "infinityQueueOnNextPrevSubtitle": "При натисканні кнопки «Наступний» під час відтворення останнього елемента відбувається перехід до першого, та навпаки",
   "info": "Інформація",
@@ -464,7 +596,6 @@
   "invertSelection": "Інвертувати виділення",
   "issues": "Проблеми",
   "item": "Елемент",
-  "iReadAndAgree": "Я прочитав та погоджуюсь",
   "jump": "Перейти",
   "jumpToDay": "Перейти до дня",
   "jumpToFirstTrackAfterQueueFinish": "Перейти до першого треку після завершення черги",
@@ -487,8 +618,8 @@
   "liked": "Вподобані",
   "link": "Посилання",
   "listOfFolders": "Список тек",
-  "loadingFile": "Завантаження файлу",
   "loadAll": "Завантажити все",
+  "loadingFile": "Завантаження файлу",
   "local": "Локально",
   "localVideoMatching": "Локальне зіставлення відео",
   "login": "Логін",
@@ -496,13 +627,6 @@
   "longPressTheLyricsToEnterFullscreen": "Натисніть і утримуйте текст пісні для переходу в повноекранний режим",
   "lostMemories": "Давно прослухане",
   "lostMemoriesSubtitle": "{number, plural, other{приблизно в цей час, {number} років тому}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "loudnessEnhancer": "Підсилення гучності",
   "lyricist": "Автор тексту",
   "lyrics": "Текст пісні",
@@ -514,13 +638,13 @@
   "manualBackup": "Ручний",
   "manualBackupSubtitle": "оберіть конкретний файл",
   "markAsRead": "Позначити як прочитане",
-  "matchingType": "Тип відповідності",
   "matchAllTracks": "Співставити всі треки",
   "matchAllTracksNote": "Це може вплинути на швидкість співставлення, оскільки при цьому будуть перевірятись усі треки у Вашій бібліотеці",
-  "maximum": "Максимум",
+  "matchingType": "Тип відповідності",
   "maxAudioCacheSize": "Максимальний розмір кешу аудіо",
   "maxImageCacheSize": "Максимальний розмір кешу зображень",
   "maxVideoCacheSize": "Максимальний розмір кешу відео",
+  "maximum": "Максимум",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Увімкнено сховище медіафайлів, тому це налаштування не діятиме",
   "medium": "Помірний",
   "membershipCode": "Код",
@@ -533,45 +657,28 @@
   "membershipSignInToPatreonAccount": "Увійдіть у свій обліковий запис Patreon",
   "membershipUnknown": "Невідома участь",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "Щоб додати кілька облікових записів, Вам потрібно бути учасником {name1} або {name2}",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "Об’єднати",
   "metadataCache": "Кеш метаданих",
   "metadataEditFailed": "Не вдалося відредагувати метадані",
   "metadataReadFailed": "Не вдалося прочитати метадані",
-  "minimizedMiniplayer": "Мінімізований мініплеєр",
-  "minimum": "Мінімум",
-  "minimumOneFolderSubtitle": "Повинна бути хоча б одна тека. Додайте ще теки, якщо хочете видалити цю",
-  "minimumOneItem": "Не вдалося видалити елемент",
-  "minimumOneItemSubtitle": "{number, plural, other{Повинно залишатися не менше {number} елементів}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "minimumSegmentDuration": "Мінімальна тривалість фрагмента",
-  "miniplayerCustomization": "Налаштування мініплеєра",
-  "minutes": "хвилин",
   "minFileDuration": "Мінімальна тривалість треку",
   "minFileSize": "Мінімальний розмір файлу",
   "minTrackDurationToRestoreLastPosition": "Мінімальна тривалість треку для продовження відтворення з минулого момента",
   "minValueCantBeMoreThanMax": "Мінімальне значення не може бути більше максимального",
   "minValueToCountTrackListen": "Вважати, що трек прослуханий через: ",
+  "minimizedMiniplayer": "Мінімізований мініплеєр",
+  "minimum": "Мінімум",
+  "minimumOneFolderSubtitle": "Повинна бути хоча б одна тека. Додайте ще теки, якщо хочете видалити цю",
+  "minimumOneItem": "Не вдалося видалити елемент",
+  "minimumOneItemSubtitle": "{number, plural, other{Повинно залишатися не менше {number} елементів}}",
+  "minimumSegmentDuration": "Мінімальна тривалість фрагмента",
+  "miniplayerCustomization": "Налаштування мініплеєра",
+  "minutes": "хвилин",
   "missingEntries": "Відсутні записи",
   "missingTracks": "Відсутні треки",
   "mix": "Мікс",
-  "mixes": "Мікси",
   "mixPlaylistGeneratedByYoutube": "Плейлист «Мікс», згенерований на YouTube",
+  "mixes": "Мікси",
   "mobile": "Мобільний",
   "month": "Місяць",
   "months": "Місяці",
@@ -584,7 +691,6 @@
   "name": "Назва",
   "nameContainsBadCharacter": "Назва містить недопустимий символ",
   "never": "Ніколи",
-  "newest": "Нові",
   "newDirectory": "Новий каталог",
   "newTracksAdd": "Додати треки",
   "newTracksMoods": "Настрій",
@@ -595,35 +701,12 @@
   "newTracksRatingsSubtitle": "Згенерувати треки з певним рейтингом",
   "newTracksRecommended": "Рекомендовані",
   "newTracksRecommendedSubtitle": "Згенерувати треки, котрі Ви зазвичай слухаєте з {currentTrack}",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "Схожа дата виходу",
   "newTracksSimilarrReleaseDateSubtitle": "Згенерувати треки, котрі були випущені приблизно в той же час, що й {currentTrack}",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "Рік випуску треку невідомий",
+  "newest": "Нові",
   "next": "Далі",
   "no": "ні",
-  "none": "Нічого",
-  "nonActive": "Неактивний",
-  "nonFavourites": "Необране",
-  "normalizeAudio": "Нормалізація звуку",
-  "normalizeAudioSubtitle": "Нормалізує гучність, зчитуючи тег посилення відтворення або інформацію, надану YouTube",
-  "note": "Примітка",
-  "notification": "Сповіщення",
-  "notifications": "Сповіщення",
-  "notAvailableForYourDevice": "Недоступно для Вашого пристрою",
-  "notSupportedForNetworkFiles": "Не підтримується для мережевих файлів",
   "noChangesFound": "Змін не знайдено.",
   "noEnoughTracks": "У Вас не так багато треків.",
   "noExcludedFolders": "У Вас немає виключених тек",
@@ -634,19 +717,29 @@
   "noTracksFoundBetweenDates": "Цей часовий проміжок не має треків.",
   "noTracksFoundInDirectory": "У цьому каталозі не знайдено жодного треку",
   "noTracksInHistory": "У Вас недостатньо треків в історії",
+  "nonActive": "Неактивний",
+  "nonFavourites": "Необране",
+  "none": "Нічого",
+  "normalizeAudio": "Нормалізація звуку",
+  "normalizeAudioSubtitle": "Нормалізує гучність, зчитуючи тег посилення відтворення або інформацію, надану YouTube",
+  "notAvailableForYourDevice": "Недоступно для Вашого пристрою",
+  "notSupportedForNetworkFiles": "Не підтримується для мережевих файлів",
+  "note": "Примітка",
+  "notification": "Сповіщення",
+  "notifications": "Сповіщення",
   "numberOfTracks": "Кількість треків",
   "ofLabel": "з",
   "offlineSearch": "Офлайн-пошук",
   "offset": "Зміщення звуку",
-  "oldestWatch": "Переглянуті найдавніше",
   "oldDirectory": "Старий каталог",
   "oldDirectoryStillHasTracks": "У старому каталозі все ще є треки. Підтвердити?",
-  "ongoing": "У процесі",
+  "oldestWatch": "Переглянуті найдавніше",
   "onInterruption": "При перериванні",
   "onNotificationTap": "При натисканні на сповіщення",
   "onOpeningYoutubeLink": "При відкритті YouTube-посилання",
   "onSwiping": "Дії гортанням",
   "onVolumeZero": "При гучності 0",
+  "ongoing": "У процесі",
   "open": "Відкрити",
   "openApp": "Відкрити додаток",
   "openInFileExplorer": "Відкрити у файловому менеджері",
@@ -655,24 +748,7 @@
   "openQueue": "Відкрити чергу",
   "openYoutubeLink": "Відкрити посилання YouTube",
   "operationRequiresAccount": "Для виконання {name} потрібен обліковий запис. Увійдіть, щоб продовжити",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "Для виконання {operation} необхідна принаймні участь {name}",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "або",
   "others": "Інші",
   "output": "Вивід",
@@ -701,6 +777,12 @@
   "pitch": "Висота",
   "plain": "Звичайний",
   "play": "Відтворити",
+  "playAfter": "Відтворити після",
+  "playAfterNextPrev": "Автовідтворення при наступному/попередньому",
+  "playAll": "Відтворити все",
+  "playFadeDuration": "Тривалість згасання відтворення",
+  "playLast": "Відтворити останнім",
+  "playNext": "Відтворити наступним",
   "playbackSetting": "Відтворення",
   "playbackSettingSubtitle": "Доступ до них можливий безпосередньо в плеєрі шляхом тривалого натискання кнопки аудіо",
   "playlist": "Плейлист",
@@ -708,12 +790,6 @@
   "playlistsImportM3uNative": "Імпорт плейлистів M3U для використання тільки в Namida. Використовуйте, якщо мігруєте",
   "playlistsImportM3uSynced": "Автоматичний імпорт плейлистів M3U з тек індексатора та синхронізація їх з оригінальним файлом M3U. Використовуйте, якщо отримуєте доступ/модифікуєте плейлисти з інших додатків",
   "playlistsImportM3uSyncedAutoImport": "Автоматичний імпорт плейлистів M3U",
-  "playAfter": "Відтворити після",
-  "playAfterNextPrev": "Автовідтворення при наступному/попередньому",
-  "playAll": "Відтворити все",
-  "playFadeDuration": "Тривалість згасання відтворення",
-  "playLast": "Відтворити останнім",
-  "playNext": "Відтворити наступним",
   "pleaseEnterADifferentName": "Така назва вже існує :(\nБудь ласка, спробуйте іншу, незвичну назву",
   "pleaseEnterALink": "Будь ласка, введіть посилання",
   "pleaseEnterALinkSubtitle": "Емм... Це точно посилання на YouTube?",
@@ -730,16 +806,6 @@
   "private": "Приватний",
   "progress": "Прогрес",
   "promptIndexingRefresh": "Знайдено {newFiles} нових файлів, а {deletedFiles} видалено або відфільтровано, хочете оновити?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "Зазвичай це відбувається, коли Ви видаляєте / переміщуєте / перейменовуєте файл поза Namida. Хочете оновити поточний шлях?",
   "public": "Публічний",
   "queue": "Черга",
@@ -747,10 +813,13 @@
   "random": "Випадково",
   "randomPicks": "Випадковий вибір",
   "rating": "Оцінка",
-  "recentlyAdded": "Нещодавно додані",
+  "reIndex": "Переіндексувати",
+  "reIndexSubtitle": "Перезбирає музичну бібліотеку з нуля",
+  "reIndexWarning": "Цей процес може зайняти певний час, в залежності від розміру Вашої бібліотеки.\n\nОбкладинки не будуть переіндексовані, поки вони існують",
   "recentAlbums": "Нещодавні альбоми",
   "recentArtists": "Нещодавні виконавці",
   "recentListens": "Нещодавно прослухане",
+  "recentlyAdded": "Нещодавно додані",
   "recordLabel": "Студія звукозапису",
   "refresh": "Оновити",
   "refreshLibrary": "Оновити бібліотеку",
@@ -760,7 +829,6 @@
   "rememberAudioOnlyMode": "Запам’ятати режим «Тільки аудіо»",
   "remixer": "Реміксер",
   "remove": "Видалити",
-  "removed": "Видалено",
   "removeDuplicates": "Видалити дублікати",
   "removeFromFavourites": "Видалити з обраного",
   "removeFromLibrary": "Видалити з бібліотеки",
@@ -768,17 +836,11 @@
   "removeQueue": "Видалити чергу",
   "removeSourceFromHistory": "Видалити джерело з історії",
   "removeWhitespaces": "Видалити пробіли",
+  "removed": "Видалено",
   "rename": "Перейменувати",
   "renamePlaylist": "Перейменувати плейлист",
   "reorderable": "Впорядкувати",
   "repeatForNTimes": "{number, plural, other{Повторити ще {number} разів}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "Режим повтору",
   "repeatModeAll": "Повторити всю чергу",
   "repeatModeNone": "Зупинитись на останньому треку",
@@ -793,59 +855,40 @@
   "respectNoMedia": "Дотримуватися .nomedia",
   "respectNoMediaSubtitle": "Виключає теки, що містять .nomedia",
   "restart": "Перезавантажити",
-  "restoredBackupSuccessfully": "Резервну копію відновлено",
-  "restoredBackupSuccessfullySub": "Файл резервної копії успішно відновлено",
   "restoreBackup": "Відновити резервну копію",
   "restoreDefaults": "Відновити значення за замовчуванням",
+  "restoredBackupSuccessfully": "Резервну копію відновлено",
+  "restoredBackupSuccessfullySub": "Файл резервної копії успішно відновлено",
   "resume": "Продовжити",
   "resumeIfWasInterrupted": "Продовжити відтворення, якщо було призупинено через преривання",
   "resumeIfWasPausedByVolume": "Продовжити відтворення, якщо було призупинено через гучність",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{Продовжити відтворення, якщо був на паузі менше, ніж {number} хвилин}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "returnYoutubeDislike": "Кнопка «Не подобається» на YouTube",
   "reverseOrder": "Зворотний порядок",
-  "reIndex": "Переіндексувати",
-  "reIndexSubtitle": "Перезбирає музичну бібліотеку з нуля",
-  "reIndexWarning": "Цей процес може зайняти певний час, в залежності від розміру Вашої бібліотеки.\n\nОбкладинки не будуть переіндексовані, поки вони існують",
   "rightAction": "Провести праворуч",
   "ringtone": "Рингтон",
   "sameDirectoryOnly": "Тільки в тому ж каталозі",
   "sample": "Зразок",
   "sampleRate": "Частота дискретизації",
   "save": "Зберегти",
-  "savedIn": "Збережено в",
   "saveToLibrary": "Зберегти в бібліотеку",
+  "savedIn": "Збережено в",
   "scaleMultiplier": "Множник розміру",
   "search": "Пошук",
   "searchYoutube": "Пошук на YouTube",
   "seconds": "секунд",
-  "seekbar": "Смуга перемотки",
+  "seeProjectCodeOnSite": "Переглянути код проєкту на {site}",
   "seekDuration": "Тривалість пошуку",
   "seekDurationInfo": "Можна натискати на поточну тривалість для перемотки назад та загальну тривалість для перемотки вперед",
-  "seeProjectCodeOnSite": "Переглянути код проєкту на {site}",
-  "@seeProjectCodeOnSite": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
-  "selectedTracks": "Обрані треки",
+  "seekbar": "Смуга перемотки",
   "selectAll": "Обрати все",
   "selectFilesAlreadyInLocalLibrary": "Вибрати файли, копії яких є в локальній бібліотеці",
+  "selectedTracks": "Обрані треки",
   "selfPromotion": "Саморозкручування",
   "semitones": "Напівтони",
   "separatorsBlacklistSubtitle": "Ці слова не будуть розділені",
   "separatorsMessage": "Пробіли вставляти не потрібно, якщо тільки Ви не хочете використовувати літеру/символ, котрий зустрічається в цілому слові (наприклад, x та ft.)",
   "serverAddress": "Адреса сервера",
-  "settings": "Налаштування",
-  "setupFirstStartup": "Налаштування першого запуску",
   "setAs": "Встановити як",
   "setAsDefault": "Встановити як значення за замовчуванням",
   "setFileLastModifiedAsVideoUploadDate": "Встановити дату зміни файлу датою завантаження відео",
@@ -854,6 +897,8 @@
   "setRating": "Встановити оцінку",
   "setTags": "Встановити теги",
   "setYoutubeLink": "Встановити посилання на YouTube",
+  "settings": "Налаштування",
+  "setupFirstStartup": "Налаштування першого запуску",
   "share": "Поділитися",
   "shareLogs": "Надсилати журнали",
   "shortcuts": "Скорочення",
@@ -875,8 +920,6 @@
   "shuffle": "Перемішати",
   "shuffleAll": "Перемішати все",
   "shuffleNext": "Перемішати наступне",
-  "signingInAllowsBasicUsage": "Увійшовши, Ви зможете користуватися основними функціями",
-  "signingInAllowsBasicUsageSubtitle": "Отримайте ранній доступ через Patreon або використавши купон",
   "signIn": "Увійти",
   "signInCanceled": "Вхід скасовано",
   "signInFailed": "Не вдалося увійти",
@@ -885,31 +928,12 @@
   "signInYouNeedAccountToViewPage": "Щоб переглянути цю сторінку, Вам потрібен обліковий запис",
   "signOut": "Вийти",
   "signOutFromName": "Вийти з {name}",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "Увійшовши, Ви зможете користуватися основними функціями",
+  "signingInAllowsBasicUsageSubtitle": "Отримайте ранній доступ через Patreon або використавши купон",
   "similarDiscoverDate": "Схожа дата виявлення",
   "similarDiscoverDateSubtitle": "Згенерувати треки, виявлені приблизно в той самий час, що й {currentTrack}",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "Схожий часовий діапазон",
   "similarTimeRangeSubtitle": "Згенерувати треки, прослухані приблизно в той самий час, що й {currentTrack}",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "Сингли",
   "size": "Розмір",
   "skip": "Пропустити",
@@ -944,13 +968,6 @@
   "subscribers": "Підписники",
   "succeeded": "Успішно",
   "suggestionSubtitle": "Маєте пропозицію чи зіткнулися з проблемою? Відкрийте задачу на {site}",
-  "@suggestionSubtitle": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
   "support": "Підтримати",
   "supremacy": "Перевага",
   "sussyBaka": "Дідько, немає треків",
@@ -958,8 +975,8 @@
   "swipeToOpenDrawer": "Проведіть пальцем, щоб відкрити панель",
   "synced": "Синхронізований",
   "synopsis": "Синопсис",
-  "tags": "Теги",
   "tagFields": "Поля для тегів",
+  "tags": "Теги",
   "tapAction": "Дія при натисканні",
   "tapToSeek": "Тапнути для перемотки",
   "themeMode": "Тема",
@@ -975,17 +992,14 @@
   "top": "Найкращі",
   "topComments": "Коментарі зверху",
   "topCommentsSubtitle": "Відображати коментарі зверху, а не знизу",
-  "topRecents": "Найкращі нещодавні",
   "topRecentAlbums": "Найкращі нещодавні альбоми",
   "topRecentArtists": "Найкращі нещодавні виконавці",
-  "totalListens": "Усього прослуховувань",
+  "topRecents": "Найкращі нещодавні",
   "totalListenTime": "Загальний час прослуховування",
+  "totalListens": "Усього прослуховувань",
   "totalTracks": "Усього треків",
   "totalTracksDuration": "Загальна тривалість треків",
   "track": "Трек",
-  "tracks": "Треки",
-  "tracksExcludedByNomedia": "Треки, виключені через .nomedia",
-  "tracksInfo": "Інформація про треки",
   "trackArtistsSeparator": "Роздільник виконавців",
   "trackGenresSeparator": "Роздільник жанрів",
   "trackInfo": "Інформація про трек",
@@ -993,16 +1007,6 @@
   "trackNumber": "Номер треку",
   "trackNumberTotal": "Усього треків",
   "trackPathOldNew": "Стара назва: «{oldName}»\n\nНова назва: «{newName}»\n\nВи впевнені?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "Режим відтворення",
   "trackPlayModeSearchResults": "Результати пошуку",
   "trackPlayModeSelectedOnly": "Тільки обрані треки",
@@ -1012,6 +1016,9 @@
   "trackThumbnailSizeInList": "Розмір мініатюри треку",
   "trackTileCustomization": "Налаштування плитки треків",
   "trackTileItemsSeparator": "Роздільник елементів",
+  "tracks": "Треки",
+  "tracksExcludedByNomedia": "Треки, виключені через .nomedia",
+  "tracksInfo": "Інформація про треки",
   "underrated": "Недооцінене",
   "undo": "Скасувати",
   "undoChanges": "Скасувати зміни?",
@@ -1026,18 +1033,17 @@
   "updateDirectoryPath": "Оновити шлях до каталогу",
   "updateMissingTracksOnly": "Оновити тільки відсутні треки",
   "updating": "Оновлення",
-  "used": "Використовується",
   "useCollapsedSettingTiles": "Використовувати згорнуті плитки налаштувань",
   "useMediaStore": "Використовувати сховище медіафайлів",
   "useMediaStoreSubtitle": "✓ моментальна індексація\nx дотримання .nomedia буде примусово ввімкнено\nx деякі теги метаданих будуть відсутні\nx інтеграція YouTube для локальної бібліотеки не буде працювати",
   "usePitchBlack": "Використовувати вугільно-чорний колір",
   "usePitchBlackSubtitle": "Корисно для AMOLED-екранів... і виглядає крутіше",
+  "used": "Використовується",
   "value": "Значення",
   "valueBetween50200": "Значення повинно бути від 50% до 200%",
   "vibration": "Вібрація",
   "vibrationType": "Тип вібрації",
   "video": "Відео",
-  "videos": "Відео",
   "videoCache": "Кеш відео",
   "videoCacheFile": "Кешований відеофайл",
   "videoCacheFiles": "Кешовані відеофайли",
@@ -1052,9 +1058,10 @@
   "videoQuality": "Якість відео",
   "videoQualitySubtitle": "Буде обрана найкраща доступна якість.",
   "videoQualitySubtitleNote": "Завжди корисно мати більше альтернатив на випадок, якщо якість не буде знайдено, інакше відбудеться відкат до гіршої якості",
+  "videos": "Відео",
   "view": "перегляд",
-  "views": "переглядів",
   "viewAll": "Переглянути все",
+  "views": "переглядів",
   "volume": "Гучність",
   "warning": "Попередження",
   "waveformBarsCount": "Кількість смуг хвиль гучності",
@@ -1063,13 +1070,6 @@
   "year": "Рік",
   "yes": "так",
   "yourCurrentMembershipIs": "Наразі Ваша участь {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "Ваше впорядкування буде втрачено. Ви впевнені?",
   "youtube": "YouTube",
   "youtubeMusic": "YouTube Music",
