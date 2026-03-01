@@ -1,9 +1,246 @@
 {
   "@@locale": "tr",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "filesCount": {
+        "type": "int"
+      },
+      "totalSize": {
+        "type": "int"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "remainingColorPalettes": {
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "int"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "type": "int"
+      },
+      "newFiles": {
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "int"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Hakkında",
   "active": "Aktif",
   "add": "Ekle",
-  "added": "Eklendi",
   "addAccount": "Hesap ekle",
   "addAll": "Tümünü ekle",
   "addAllAndRemoveOldOnes": "Tümünü ekle ve eskilerini kaldır",
@@ -17,29 +254,23 @@
   "addMoreFromThisArtist": "Bu Sanatçıdan daha fazlasını sıraya ekle",
   "addMoreFromThisFolder": "Bu Klasörden daha fazlasını sıraya ekle",
   "addMoreFromToQueue": "{media}'dan daha fazlasını sıraya ekle",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Sadece eksik olanları ekle",
   "addToFavourites": "Favorilere ekle",
   "addToPlaylist": "Çalma Listesine ekle",
   "addTracksAtTheBeginning": "Parçaları başa ekle",
+  "added": "Eklendi",
   "advanced": "Gelişmiş",
   "advancedSettings": "Gelişmiş Ayarlar",
   "advancedSettingsSubtitle": "Gelişmiş Ayarlar, dokunmayın",
   "alarm": "Alarm",
   "album": "Albüm",
-  "albums": "Albümler",
-  "albumsCount": "Albüm Sayısı",
   "albumArtist": "Albüm Sanatçısı",
   "albumArtists": "Albüm Sanatçıları",
   "albumIdentifiers": "Albüm Tanımlayıcıları",
   "albumThumbnailSizeInList": "Albüm Küçük Resim Boyutu",
   "albumTileCustomization": "Albüm Kutucuğu Özelleştirme",
+  "albums": "Albümler",
+  "albumsCount": "Albüm Sayısı",
   "all": "Tümü",
   "allTime": "Tüm zamanlar",
   "alreadyExists": "Zaten mevcut",
@@ -57,14 +288,12 @@
   "artist": "Sanatçı",
   "artists": "Sanatçılar",
   "artwork": "Görsel",
-  "artworks": "Görseller",
   "artworkGestures": "Görsel Hareketleri",
+  "artworks": "Görseller",
   "audio": "Ses",
   "audioCache": "Ses Önbelleği",
   "audioOnly": "Yalnızca Ses",
   "auto": "Otomatik",
-  "automaticBackup": "Otomatik",
-  "automaticBackupSubtitle": "Yedekleme konumunda bulunan en son yedek dosyasını otomatik olarak uygular",
   "autoBackupInterval": "Otomatik yedekleme aralığı",
   "autoColoring": "Otomatik Renklendirme",
   "autoColoringSubtitle": "Mevcut görselden otomatik olarak oynatıcı renklerini seç",
@@ -75,6 +304,8 @@
   "autoSkipOnce": "Bir Kez Oto Geç",
   "autoStartRadio": "Radyoyu otomatik başlat",
   "autoStartRadioSubtitle": "Tek bir parça çalındığında karışık çalma listesi otomatik eklenir",
+  "automaticBackup": "Otomatik",
+  "automaticBackupSubtitle": "Yedekleme konumunda bulunan en son yedek dosyasını otomatik olarak uygular",
   "backupAndRestore": "Yedekleme ve Geri Yükleme",
   "backupAndRestoreSubtitle": "Veritabanınızı ve ayarlarınızı yedekleyin",
   "balanced": "Dengeli",
@@ -103,26 +334,19 @@
   "clearImageCacheWarning": "Uyarı: Görseller olmadan bir kütüphane oluşacaktır. Sadece görsel önbelleğini yeniden oluşturmak için kullanın.",
   "clearTrackItem": "Parçayı Temizle",
   "clearTrackItemMultiple": "{number, plural, other{{number} Parçayı Temizle}}",
-  "@clearTrackItemMultiple": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "clearVideoCache": "Video Önbelleğini Temizle",
   "clearVideoCacheNote": "Ne sileceğinizi seçebilirsiniz.",
   "clock": "Saat",
   "colorPalette": "Renk Paleti",
-  "colorPalettes": "Renk Paletleri",
   "colorPaletteNote1": "Bir rengi kaldırmak için uzun basın",
   "colorPaletteNote2": "Varsayılan renk olarak kullanmak için bir karışıma dokunun",
+  "colorPalettes": "Renk Paletleri",
   "comment": "Yorum",
   "comments": "Yorumlar",
   "composer": "Besteci",
   "compress": "Sıkıştır",
-  "compressionPercentage": "Sıkıştırma yüzdesi",
   "compressImages": "Görselleri Sıkıştır",
+  "compressionPercentage": "Sıkıştırma yüzdesi",
   "configure": "Yapılandır",
   "confirm": "Onayla",
   "copiedArtwork": "Görsel Kopyalandı",
@@ -137,35 +361,21 @@
   "country": "Ülke",
   "coupon": "Kupon",
   "create": "Oluştur",
-  "createdBackupSuccessfully": "Yedekleme Oluşturuldu",
-  "createdBackupSuccessfullySub": "Yedekleme dosyası başarıyla oluşturuldu",
   "createBackup": "Yedekleme Oluştur",
   "createNewPlaylist": "Yeni Çalma Listesi Oluştur",
+  "createdBackupSuccessfully": "Yedekleme Oluşturuldu",
+  "createdBackupSuccessfullySub": "Yedekleme dosyası başarıyla oluşturuldu",
+  "crossPlatformSync": "Platformlar Arası Eşitleme",
   "crossfadeDuration": "Crossfade süresi",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Son {seconds} saniyede Crossfade otomatik olarak tetiklenir}}",
-  "@crossfadeTriggerSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "crossfadeTriggerSecondsDisabled": "Crossfade otomatik olarak tetiklenmesin",
-  "crossPlatformSync": "Platformlar Arası Eşitleme",
   "custom": "Özel",
   "customizations": "Özelleştirmeler",
   "customizationsSubtitle": "Oynatıcınızı nasıl görüneceğini özelleştirin, kendi tarzınızı yaratın",
-  "database": "Veritabanı",
   "dataIsProvidedByName": "Veri sağlayıcısı: {name}",
-  "@dataIsProvidedByName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "dataSaver": "Veri Tasarrufu",
   "dataSaverMode": "Veri Tasarrufu Modu",
+  "database": "Veritabanı",
   "date": "Tarih",
   "dateAdded": "Eklenme Tarihi",
   "dateCreated": "Oluşturulma Tarihi",
@@ -173,32 +383,15 @@
   "dateTimeFormat": "Tarih ve Saat Formatı",
   "day": "Gün",
   "days": "Günler",
-  "defaultLabel": "Varsayılan",
   "defaultBackupLocation": "Varsayılan Yedekleme Konumu",
   "defaultColor": "Varsayılan Renk",
   "defaultColorSubtitle": "Oynatıcı tarafından kullanılacak bir renk ayarla",
   "defaultDownloadLocation": "Varsayılan İndirme Konumu",
+  "defaultLabel": "Varsayılan",
   "defaultLibraryTab": "Varsayılan Kütüphane Sekmesi",
   "delete": "Sil",
   "deleteFileCacheSubtitle": "{filesCount, plural, other{{filesCount} dosya temsil eden {totalSize} silinsin mi?}}",
-  "@deleteFileCacheSubtitle": {
-    "placeholders": {
-      "filesCount": {
-        "type": "int"
-      },
-      "totalSize": {
-        "type": "int"
-      }
-    }
-  },
   "deleteNTracksFromStorage": "{number, plural, other{{number} öğeyi cihaz depolamasından kalıcı olarak sil}}",
-  "@deleteNTracksFromStorage": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "deletePlaylist": "Çalma Listesini Sil",
   "deleteTempFiles": "Geçici dosyaları sil",
   "description": "Açıklama",
@@ -207,21 +400,14 @@
   "didYouMean": "Bunu mu demek istediniz",
   "dimIntensity": "Karanlık Yoğunluğu",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{Miniplayer'ı {seconds} saniye hareketsizlikten sonra karart}}",
-  "@dimMiniplayerAfterSeconds": {
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
   "directoryDoesntExist": "Dizin mevcut değil",
   "disable": "Devre Dışı Bırak",
   "disableAll": "Tümünü Devre Dışı Bırak",
   "disableReordering": "Sıralamayı Devre Dışı Bırak",
   "disableSearchCleanup": "Arama Temizliğini Devre Dışı Bırak",
-  "discover": "Keşfet",
   "discNumber": "Disk Numarası",
   "discNumberTotal": "Toplam Disk",
+  "discover": "Keşfet",
   "dislike": "Beğenmedim",
   "dismissibleMiniplayer": "Kapatılabilir Miniplayer",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "Sarıyorken fark yerine gerçek konumu göster",
@@ -230,15 +416,16 @@
   "displayArtistBeforeTitle": "Başlıktan önce sanatçıyı göster",
   "displayArtworkOnLockscreen": "Kilit ekranında görseli göster",
   "displayAudioInfoInMiniplayer": "Ses Bilgisini Göster",
-  "displayFavouriteIconInTrackTile": "Favori Butonunu Göster",
   "displayFavButtonInNotification": "Bildirimde Favori Butonunu Göster",
   "displayFavButtonInNotificationSubtitle": "Küçük resim yer değiştirebilir.",
+  "displayFavouriteIconInTrackTile": "Favori Butonunu Göster",
   "displayRemainingDurationInsteadOfTotal": "Toplam süre yerine kalan süreyi göster",
   "displayStopButtonInNotification": "Bildirimde Durdur Butonunu Göster",
   "displayThirdItemInRowInTrackTile": "Satırdaki Üçüncü Öğeyi Göster",
   "displayThirdRowInTrackTile": "Üçüncü Satırı Göster",
   "displayTrackNumberInAlbumPage": "Albüm Sayfasında Parça Numarasını Göster",
   "displayTrackNumberInAlbumPageSubtitle": "Albüm sayfasında küçük bir kutuda parça numarasını göster",
+  "doNothing": "Hiçbir şey yapma",
   "donate": "Bağış",
   "donateSubtitle": "Buna değer diyorsanız",
   "done": "Tamamlandı",
@@ -252,7 +439,6 @@
   "downloads": "İndirilenler",
   "downloadsMetadataTags": "İndirilenler Meta Etiketleri",
   "downloadsMetadataTagsSubtitle": "Sanatçı, başlık ve albümü varsayılan olarak video bilgisinden çıkarır",
-  "doNothing": "Hiçbir şey yapma",
   "dragToSeek": "Araştırmak için sürükle",
   "duckAudio": "Sesi alçalt",
   "duplicatedItemsAdding": "Bu çalma listesine zaten eklenmiş bazı öğeleri eklemeye çalışıyorsunuz",
@@ -279,13 +465,6 @@
   "enableM3uSync": "M3U Eşitlemeyi Etkinleştir",
   "enableM3uSyncNote1": "M3U Eşitleme, çalma listesi değişikliklerini orijinal M3U dosyasına kaydetmenize olanak tanır",
   "enableM3uSyncNote2": "Bir şeyler ters giderse, bu çalma listesinin bir yedeği {playlistsBackupPath} içinde bulunacaktır",
-  "@enableM3uSyncNote2": {
-    "placeholders": {
-      "playlistsBackupPath": {
-        "type": "String"
-      }
-    }
-  },
   "enableM3uSyncSubtitle": "Reddedilirse, bu çalma listesinde yapılan tüm değişiklikler yeniden başlatıldığında kaybolur",
   "enableMiniplayerParticles": "Hareketli Parçacıkları Etkinleştir",
   "enableParallaxEffect": "Paralaks Efektini Etkinleştir",
@@ -310,18 +489,11 @@
   "extension": "Uzantı",
   "externalFiles": "Harici Dosyalar",
   "extract": "Çıkar",
-  "extractingInfo": "Bilgi Çıkarılıyor",
   "extractAllColorPalettes": "Tüm Renk Paletlerini Çıkar",
   "extractAllColorPalettesSubtitle": "{number, plural, other{Kalan {remainingColorPalettes} palet çıkarılsın mı?}}",
-  "@extractAllColorPalettesSubtitle": {
-    "placeholders": {
-      "remainingColorPalettes": {
-        "type": "int"
-      }
-    }
-  },
   "extractFeatArtist": "feat. sanatçılarını başlıktan çıkar",
   "extractFeatArtistSubtitle": "(feat. X) ve (ft. X) sanatçılarını yeni bir sanatçı girişi olarak çıkarır.",
+  "extractingInfo": "Bilgi Çıkarılıyor",
   "extras": "Ekstralar",
   "extrasSubtitle": "Deneyiminizi ince ayarlarla kişiselleştirin",
   "extreme": "Ekstrem",
@@ -332,28 +504,28 @@
   "fetching": "Getiriliyor",
   "fetchingOfAllVideos": "Tüm videolar getiriliyor",
   "file": "Dosya",
-  "filenameShouldntStartWith": "Dosya adı ile başlamamalıdır",
-  "files": "Dosyalar",
   "fileAlreadyExists": "Dosya zaten mevcut",
   "fileBasedServerWarning": "Dosyalar, indeksleme için geçici olarak indirilecektir.\nBağlantınızın stabil olduğundan emin olun.",
   "fileName": "Dosya Adı",
   "fileNameWoExt": "Uzantısız Dosya Adı",
+  "filenameShouldntStartWith": "Dosya adı ile başlamamalıdır",
+  "files": "Dosyalar",
   "filler": "Dolgu bölümler",
-  "filteredBySizeAndDuration": "Boyut ve süreye göre filtrelenmiş parçalar",
   "filterAlbums": "Albümleri Filtrele",
   "filterArtists": "Sanatçıları Filtrele",
   "filterGenres": "Türleri Filtrele",
   "filterPlaylists": "Çalma Listelerini Filtrele",
   "filterTracks": "Parçaları Filtrele",
   "filterTracksBy": "Arama Listelerinde Parçaları Şuna Göre Filtrele",
+  "filteredBySizeAndDuration": "Boyut ve süreye göre filtrelenmiş parçalar",
   "finished": "Tamamlandı",
   "finishedUpdatingLibrary": "Kütüphane Güncellemesi Tamamlandı",
   "firstListen": "İlk dinleme",
   "fixYtdlpBigThumbnailSize": "yt-dlp büyük küçük resim boyutunu düzelt",
   "floatingActionButton": "Yüzen Eylem Düğmesi",
   "folder": "Klasör",
-  "folders": "Klasörler",
   "folderName": "Klasör Adı",
+  "folders": "Klasörler",
   "fontScale": "Yazı Tipi Ölçeği",
   "forceMiniplayerFollowTrackColors": "Mini oynatıcının parça renklerini takip etmesini zorla",
   "forceSquaredAlbumThumbnail": "Kare Albüm Küçük Resmini Zorla",
@@ -369,11 +541,11 @@
   "generateRandomPlaylist": "Rastgele Çalma Listesi Oluştur",
   "genre": "Tür",
   "genres": "Türler",
-  "goodLooking": "Şık görünüm",
   "goToAlbum": "Albümüne Git",
   "goToArtist": "Sanatçısına Git",
   "goToChannel": "Kanala Git",
   "goToFolder": "Klasöre Git",
+  "goodLooking": "Şık görünüm",
   "grantStoragePermission": "Depolama İznini Ver",
   "group": "Grup",
   "groupArtworksByAlbum": "Sanat eserlerini albüme göre grupla",
@@ -382,79 +554,39 @@
   "heightOfAlbumTile": "Albüm Karosu Yüksekliği",
   "heightOfTrackTile": "Parça Karosu Yüksekliği",
   "hideSkipButtonAfter": "Atla butonunu gizle",
-  "highlight": "Öne çıkanlar",
   "highMatches": "Yüksek eşleşmeler",
   "highPerformance": "Yüksek performans",
+  "highlight": "Öne çıkanlar",
   "history": "Geçmiş",
   "historyImportMissingEntriesNote": "Bu girişler kütüphanede bulunamadı, var olduklarına inanıyorsanız, lütfen manuel olarak eklemeyi düşünün",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} dinlenme {oldTrackInfo} yerine {newTrackInfo} ile değiştirilecek, onaylıyor musunuz?}}",
-  "@historyListensReplaceWarning": {
-    "placeholders": {
-      "listensCount": {
-        "type": "int"
-      },
-      "oldTrackInfo": {
-        "type": "String"
-      },
-      "newTrackInfo": {
-        "type": "int"
-      }
-    }
-  },
   "home": "Ana Sayfa",
   "hook": "Kanca",
   "host": "Barındırıcı",
-  "hours": "Saatler",
   "hourFormat12": "12 Saat Formatı",
+  "hours": "Saatler",
+  "iReadAndAgree": "Okudum ve kabul ediyorum",
   "ifNotPlaying": "Oynatılmıyorsa",
-  "ignores": "Görmezden Gel",
   "ignoreBatteryOptimizationsSubtitle": "Uygulama pil kısıtlaması altındayken indirmeler yavaşlatılabilir",
   "ignoreCommonPrefixesWhileSorting": "Sıralarken yaygın örnekleri yok say",
+  "ignores": "Görmezden Gel",
   "imageSource": "Resim kaynağı",
   "immersiveMode": "Tam Ekran Modu",
   "immersiveModeSubtitle": "Mini oynatıcı genişletildiğinde Durum ve Navigasyon çubuklarını gizle",
   "import": "İçe Aktar",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number} kanal başarıyla içe aktarıldı}}",
-  "@importedNChannelsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} çalma listesi başarıyla içe aktarıldı}}",
-  "@importedNPlaylistsSuccessfully": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "importAll": "Tümünü İçe Aktar",
   "importLastFmHistory": "LastFm Geçmişini İçe Aktar",
   "importLastFmHistoryGuide": "1. {lastfmCsvLink} adresine gidin\n\n2. Kullanıcı adınızı girin, verileri alın ve CSV dosyasını indirin.\n\n3. Bir sonraki ekrandan dosyayı seçin.",
-  "@importLastFmHistoryGuide": {
-    "placeholders": {
-      "lastfmCsvLink": {
-        "type": "String"
-      }
-    }
-  },
   "importTimeRange": "Zaman Aralığını İçe Aktar",
   "importYoutubeHistory": "YouTube Geçmişini İçe Aktar",
   "importYoutubeHistoryGuide": "1. {takeoutLink} adresine gidin\n\n2. \"Çoklu Formatlar\"a tıklayın ve \"Geçmiş\"in yanında \"JSON\"u seçin.\n\n3. \"Tüm YouTube verileri dahil\" seçeneğine tıklayın, Tümünü Kaldır seçeneğini işaretleyin ve sadece geçmişi seçin.\n\n4. Dışa Aktar oluşturun, indirin ve çıkarın.\n\n5. Bir sonraki ekrandan \"watch-history.json\" dosyasını seçin.",
-  "@importYoutubeHistoryGuide": {
-    "placeholders": {
-      "takeoutLink": {
-        "type": "String"
-      }
-    }
-  },
+  "importedNChannelsSuccessfully": "{number, plural, other{{number} kanal başarıyla içe aktarıldı}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} çalma listesi başarıyla içe aktarıldı}}",
   "includeVideos": "Videoları Dahil Et",
+  "indexRefreshRequired": "Bu değişiklikten sonra bir yenileme yapın",
   "indexer": "Dizinleyici",
   "indexerNote": "Not: Eksik Sanat Eserleri, yinelenen ve bulunamayan sanat eserlerini ifade eder",
   "indexerSubtitle": "Müzik Kitaplığınızı Yönetin",
-  "indexRefreshRequired": "Bu değişiklikten sonra bir yenileme yapın",
   "infinityQueueOnNextPrev": "Sonraki/Önceki'de Sonsuz Kuyruk",
   "infinityQueueOnNextPrevSubtitle": "son öğe çalarken sonraki düğmesine basıldığında ilk öğeye geçer ve tersi",
   "info": "Bilgi",
@@ -465,7 +597,6 @@
   "invertSelection": "Seçimi Ters Çevir",
   "issues": "Sorunlar",
   "item": "Öğe",
-  "iReadAndAgree": "Okudum ve kabul ediyorum",
   "jump": "Atla",
   "jumpToDay": "Güne Atla",
   "jumpToFirstTrackAfterQueueFinish": "Kuyruk tamamlandıktan sonra ilk parçaya atla",
@@ -488,8 +619,8 @@
   "liked": "Beğenildi",
   "link": "Bağlantı",
   "listOfFolders": "Klasör Listesi",
-  "loadingFile": "Dosya Yükleniyor",
   "loadAll": "Tümünü Yükle",
+  "loadingFile": "Dosya Yükleniyor",
   "local": "Yerel",
   "localVideoMatching": "Yerel Video Eşleştirme",
   "login": "Giriş Yap",
@@ -497,13 +628,6 @@
   "longPressTheLyricsToEnterFullscreen": "Tam ekran için şarkı sözlerine uzun basın",
   "lostMemories": "Kayıp Anılar",
   "lostMemoriesSubtitle": "{number, plural, other{bu zamanlarda, {number} yıl önce}}",
-  "@lostMemoriesSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "lostPartners": "Bağlantısız İçerikler",
   "loudnessEnhancer": "Ses Güçlendirici",
   "lyricist": "Söz Yazarı",
@@ -516,13 +640,13 @@
   "manualBackup": "Manuel",
   "manualBackupSubtitle": "belirli bir dosya seçin",
   "markAsRead": "Okundu Olarak İşaretle",
-  "matchingType": "Eşleştirme Türü",
   "matchAllTracks": "Tüm Parçaları Eşleştir",
   "matchAllTracksNote": "bu, eşleştirme hızını etkileyebilir, çünkü kitaplığınızdaki tüm parçaları kontrol eder",
-  "maximum": "Maksimum",
+  "matchingType": "Eşleştirme Türü",
   "maxAudioCacheSize": "Maksimum ses önbellek boyutu",
   "maxImageCacheSize": "Maksimum görsel önbellek boyutu",
   "maxVideoCacheSize": "Maksimum video önbellek boyutu",
+  "maximum": "Maksimum",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Ortam Deposu etkin, bu ayarın bir etkisi olmayacak",
   "medium": "Orta",
   "membershipCode": "Kod",
@@ -535,45 +659,28 @@
   "membershipSignInToPatreonAccount": "Patreon hesabınıza giriş yapın",
   "membershipUnknown": "Bilinmeyen Üyelik",
   "membershipYouNeedMembershipOfToAddMultipleAccounts": "Birden fazla hesap eklemek için {name1} veya {name2} üyeliğine ihtiyacınız var",
-  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
-    "placeholders": {
-      "name1": {
-        "type": "String"
-      },
-      "name2": {
-        "type": "String"
-      }
-    }
-  },
   "merge": "Birleştir",
   "metadataCache": "Meta Veri Önbelleği",
   "metadataEditFailed": "Meta veriyi düzenleme başarısız oldu",
   "metadataReadFailed": "Meta veriyi okuma başarısız oldu",
-  "minimizedMiniplayer": "Küçültülmüş Mini Oynatıcı",
-  "minimum": "Minimum",
-  "minimumOneFolderSubtitle": "En az 1 klasör olmalı, bu klasörü kaldırmak istiyorsanız daha fazla klasör ekleyin",
-  "minimumOneItem": "Öğe kaldırılamadı",
-  "minimumOneItemSubtitle": "{number, plural, other{En az {number} öğe kalmalıdır}}",
-  "@minimumOneItemSubtitle": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
-  "minimumSegmentDuration": "Minimum bölüm süresi",
-  "miniplayerCustomization": "Mini Oynatıcı Özelleştirme",
-  "minutes": "dakika",
   "minFileDuration": "Minimum Parça Süresi",
   "minFileSize": "Minimum Dosya Boyutu",
   "minTrackDurationToRestoreLastPosition": "Son oynatma konumunu geri yüklemek için minimum parça süresi",
   "minValueCantBeMoreThanMax": "Minimum değer, maksimumdan fazla olamaz",
   "minValueToCountTrackListen": "Bir dinleme olarak saymak için gereken süre: ",
+  "minimizedMiniplayer": "Küçültülmüş Mini Oynatıcı",
+  "minimum": "Minimum",
+  "minimumOneFolderSubtitle": "En az 1 klasör olmalı, bu klasörü kaldırmak istiyorsanız daha fazla klasör ekleyin",
+  "minimumOneItem": "Öğe kaldırılamadı",
+  "minimumOneItemSubtitle": "{number, plural, other{En az {number} öğe kalmalıdır}}",
+  "minimumSegmentDuration": "Minimum bölüm süresi",
+  "miniplayerCustomization": "Mini Oynatıcı Özelleştirme",
+  "minutes": "dakika",
   "missingEntries": "Eksik Kayıtlar",
   "missingTracks": "Eksik Parçalar",
   "mix": "Karıştır",
-  "mixes": "Karışımlar",
   "mixPlaylistGeneratedByYoutube": "YouTube tarafından oluşturulan karışım çalma listesi",
+  "mixes": "Karışımlar",
   "mobile": "Mobil",
   "month": "Ay",
   "months": "Aylar",
@@ -586,7 +693,6 @@
   "name": "Ad",
   "nameContainsBadCharacter": "Ad geçersiz bir karakter içeriyor",
   "never": "Asla",
-  "newest": "En Yeni",
   "newDirectory": "Yeni dizin",
   "newTracksAdd": "Parça Ekle",
   "newTracksMoods": "Ruh Hali",
@@ -597,35 +703,12 @@
   "newTracksRatingsSubtitle": "Belirli bir değerlendirmeye sahip parçalar oluştur",
   "newTracksRecommended": "Önerilen",
   "newTracksRecommendedSubtitle": "{currentTrack} ile genellikle dinlediğiniz parçaları oluştur",
-  "@newTracksRecommendedSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksSimilarrReleaseDate": "Benzer Çıkış Tarihi",
   "newTracksSimilarrReleaseDateSubtitle": "{currentTrack} ile aynı zamanlarda yayınlanan parçaları oluştur",
-  "@newTracksSimilarrReleaseDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "newTracksUnknownYear": "Yılı bilinmeyen parça",
+  "newest": "En Yeni",
   "next": "Sonraki",
   "no": "hayır",
-  "none": "Hiçbiri",
-  "nonActive": "Aktif Olmayan",
-  "nonFavourites": "Favori Olmayanlar",
-  "normalizeAudio": "Sesi normalize et",
-  "normalizeAudioSubtitle": "Ses seviyesini tekrar kazanç etiketi veya YouTube tarafından sağlanan bilgilerle normalize eder",
-  "note": "Not",
-  "notification": "Bildirim",
-  "notifications": "Bildirimler",
-  "notAvailableForYourDevice": "Senin Cihazın için Uygun Değil",
-  "notSupportedForNetworkFiles": "Ağ Dosyaları Desteklenmiyor",
   "noChangesFound": "Hiçbir değişiklik bulunamadı.",
   "noEnoughTracks": "Yeterli parçanız yok..",
   "noExcludedFolders": "Hariç tutulan klasörünüz yok",
@@ -636,19 +719,29 @@
   "noTracksFoundBetweenDates": "Bu zaman aralığında hiçbir parça yok.",
   "noTracksFoundInDirectory": "Bu dizinde hiçbir parça bulunamadı",
   "noTracksInHistory": "Geçmişte yeterli parçanız yok",
+  "nonActive": "Aktif Olmayan",
+  "nonFavourites": "Favori Olmayanlar",
+  "none": "Hiçbiri",
+  "normalizeAudio": "Sesi normalize et",
+  "normalizeAudioSubtitle": "Ses seviyesini tekrar kazanç etiketi veya YouTube tarafından sağlanan bilgilerle normalize eder",
+  "notAvailableForYourDevice": "Senin Cihazın için Uygun Değil",
+  "notSupportedForNetworkFiles": "Ağ Dosyaları Desteklenmiyor",
+  "note": "Not",
+  "notification": "Bildirim",
+  "notifications": "Bildirimler",
   "numberOfTracks": "Parça Sayısı",
   "ofLabel": "of",
   "offlineSearch": "Çevrimdışı Arama",
   "offset": "Ofset",
-  "oldestWatch": "En Eski İzleme",
   "oldDirectory": "Eski dizin",
   "oldDirectoryStillHasTracks": "Eski Dizin hala bazı parçalara sahip, onaylıyor musunuz?",
-  "ongoing": "Devam Ediyor",
+  "oldestWatch": "En Eski İzleme",
   "onInterruption": "Kesintide",
   "onNotificationTap": "Bildirime Tıklama",
   "onOpeningYoutubeLink": "YouTube bağlantısı açıldığında",
   "onSwiping": "Kaydırmada",
   "onVolumeZero": "Ses 0 olduğunda",
+  "ongoing": "Devam Ediyor",
   "open": "Aç",
   "openApp": "Uygulamayı Aç",
   "openInFileExplorer": "Dosya Gezgininde Aç",
@@ -657,24 +750,7 @@
   "openQueue": "Sırayı Aç",
   "openYoutubeLink": "YouTube Bağlantısını Aç",
   "operationRequiresAccount": "{name} işlemi hesap gerektiriyor, devam etmek için oturum açın",
-  "@operationRequiresAccount": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "operationRequiresMembership": "{operation} işlemi en az {name} üyelik gerektirir",
-  "@operationRequiresMembership": {
-    "placeholders": {
-      "operation": {
-        "type": "String"
-      },
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "or": "veya",
   "others": "Diğerleri",
   "output": "Çıktı",
@@ -703,6 +779,12 @@
   "pitch": "Perde",
   "plain": "Düz",
   "play": "Oynat",
+  "playAfter": "Sonra Oynat",
+  "playAfterNextPrev": "Sonraki/Önceki Oynatma",
+  "playAll": "Tümünü Oynat",
+  "playFadeDuration": "Oynatma Geçiş Süresi",
+  "playLast": "Sonuncuyu Oynat",
+  "playNext": "Sonrakini Oynat",
   "playbackSetting": "Oynatma",
   "playbackSettingSubtitle": "Doğrudan oynatıcıda ses düğmesine uzun basarak erişilebilir",
   "playlist": "Çalma Listesi",
@@ -710,12 +792,6 @@
   "playlistsImportM3uNative": "Bu, M3U çalma listelerini yalnızca Namida tarafından kullanılmak üzere içe aktarır, geçiş yapıyorsanız kullanın",
   "playlistsImportM3uSynced": "Bu, dizin klasörlerinden M3U çalma listelerini otomatik olarak içe aktarır ve orijinal M3U dosyasıyla senkronize tutar. Çalma listelerine diğer uygulamalardan erişiyorsanız/düzenliyorsanız etkinleştirin",
   "playlistsImportM3uSyncedAutoImport": "M3U Çalma Listelerini Otomatik İçe Aktar",
-  "playAfter": "Sonra Oynat",
-  "playAfterNextPrev": "Sonraki/Önceki Oynatma",
-  "playAll": "Tümünü Oynat",
-  "playFadeDuration": "Oynatma Geçiş Süresi",
-  "playLast": "Sonuncuyu Oynat",
-  "playNext": "Sonrakini Oynat",
   "pleaseEnterADifferentName": "Bu isim zaten mevcut :(\nLütfen başka bir hoş isim deneyin",
   "pleaseEnterALink": "Lütfen bir bağlantı girin",
   "pleaseEnterALinkSubtitle": "umm.. bu bir YouTube bağlantısı mı?",
@@ -732,16 +808,6 @@
   "private": "Özel",
   "progress": "İlerleme",
   "promptIndexingRefresh": "{newFiles} yeni dosya bulundu ve {deletedFiles} silindi veya filtrelendi, yenilemek ister misiniz?",
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "newFiles": {
-        "type": "int"
-      },
-      "deletedFiles": {
-        "type": "int"
-      }
-    }
-  },
   "promptToChangeTrackPath": "Genellikle bu, dosyayı Namida dışında sildiğiniz/taşıdığınız/yeni adlandırdığınız zaman olur, Mevcut yolu güncellemek ister misiniz?",
   "public": "Herkese Açık",
   "queue": "Kuyruk",
@@ -749,10 +815,13 @@
   "random": "Rastgele",
   "randomPicks": "Rastgele Seçimler",
   "rating": "Derecelendirme",
-  "recentlyAdded": "Son Eklenenler",
+  "reIndex": "Yeniden İndeksle",
+  "reIndexSubtitle": "Müzik kütüphanenizi sıfırdan yeniden oluşturun",
+  "reIndexWarning": "Bu işlem kütüphanenizin boyutuna bağlı olarak biraz zaman alabilir.\n\nGörseller var olduğu sürece yeniden indekslenmeyecek",
   "recentAlbums": "Son Albümler",
   "recentArtists": "Son Sanatçılar",
   "recentListens": "Son Dinlemeler",
+  "recentlyAdded": "Son Eklenenler",
   "recordLabel": "Plak Şirketi",
   "refresh": "Yenile",
   "refreshLibrary": "Kütüphaneyi Yenile",
@@ -762,7 +831,6 @@
   "rememberAudioOnlyMode": "Yalnızca ses modunu hatırla",
   "remixer": "Remiks Yapan",
   "remove": "Kaldır",
-  "removed": "Kaldırıldı",
   "removeDuplicates": "Yinelenenleri Kaldır",
   "removeFromFavourites": "Favorilerden kaldır",
   "removeFromLibrary": "Kütüphaneden kaldır",
@@ -770,17 +838,11 @@
   "removeQueue": "Kuyruğu Kaldır",
   "removeSourceFromHistory": "Kaynağı geçmişten kaldır",
   "removeWhitespaces": "Boşlukları Kaldır",
+  "removed": "Kaldırıldı",
   "rename": "Yeniden Adlandır",
   "renamePlaylist": "Çalma Listesini Yeniden Adlandır",
   "reorderable": "Yeniden sıralanabilir",
   "repeatForNTimes": "{number, plural, other{{number} kez daha tekrarla}}",
-  "@repeatForNTimes": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "repeatMode": "Tekrar Modu",
   "repeatModeAll": "Tüm Kuyruğu Tekrarla",
   "repeatModeNone": "Son Parçada Durdur",
@@ -795,58 +857,39 @@
   "respectNoMedia": ".nomedia'ya saygı göster",
   "respectNoMediaSubtitle": ".nomedia dosyası bulunan klasörleri dahil etme",
   "restart": "Yeniden başlat",
-  "restoredBackupSuccessfully": "Yedek Başarıyla Geri Yüklendi",
-  "restoredBackupSuccessfullySub": "Yedek dosyası başarıyla geri yüklendi",
   "restoreBackup": "Yedeği Geri Yükle",
   "restoreDefaults": "Varsayılanları Geri Yükle",
+  "restoredBackupSuccessfully": "Yedek Başarıyla Geri Yüklendi",
+  "restoredBackupSuccessfullySub": "Yedek dosyası başarıyla geri yüklendi",
   "resume": "Devam Et",
   "resumeIfWasInterrupted": "Kesintiye uğradıysa devam et",
   "resumeIfWasPausedByVolume": "Ses nedeniyle duraklatıldıysa devam et",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{{number} dakikadan az duraklatıldıysa devam et}}",
-  "@resumeIfWasPausedForLessThanNMin": {
-    "placeholders": {
-      "number": {
-        "type": "int"
-      }
-    }
-  },
   "returnYoutubeDislike": "Beğenmemeleri Göster",
   "reverseOrder": "Sıralamayı Ters Çevir",
-  "reIndex": "Yeniden İndeksle",
-  "reIndexSubtitle": "Müzik kütüphanenizi sıfırdan yeniden oluşturun",
-  "reIndexWarning": "Bu işlem kütüphanenizin boyutuna bağlı olarak biraz zaman alabilir.\n\nGörseller var olduğu sürece yeniden indekslenmeyecek",
   "rightAction": "Sağ Eylem",
   "ringtone": "Zil Sesi",
   "sameDirectoryOnly": "Yalnızca aynı dizin",
   "sample": "Örnek",
   "sampleRate": "Örnekleme Hızı",
   "save": "Kaydet",
-  "savedIn": "Kaydedildiği yer",
   "saveToLibrary": "Kütüphaneye Kaydet",
+  "savedIn": "Kaydedildiği yer",
   "scaleMultiplier": "Ölçek Çarpanı",
   "search": "Ara",
   "searchYoutube": "YouTube'da Ara",
   "seconds": "saniye",
-  "seekbar": "Kaydırma Çubuğu",
+  "seeProjectCodeOnSite": "Proje Kodunu {site} de görün",
   "seekDuration": "Kaydırma Süresi",
   "seekDurationInfo": "Geri almak için mevcut süreye, ileri almak için toplam süreye dokunabilirsiniz",
-  "seeProjectCodeOnSite": "Proje Kodunu {site} de görün",
-  "@seeProjectCodeOnSite": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
-  "selectedTracks": "Seçilen Parçalar",
+  "seekbar": "Kaydırma Çubuğu",
   "selectAll": "Tümünü Seç",
   "selectFilesAlreadyInLocalLibrary": "Yerel kütüphanede zaten mevcut olan dosyaları seç",
+  "selectedTracks": "Seçilen Parçalar",
   "selfPromotion": "Kendi Reklamı",
   "separatorsBlacklistSubtitle": "Bu kelimeler ayrılmaz",
   "separatorsMessage": "Boşluk eklemenize gerek yok, yalnızca bir kelimenin içinde bulunabilecek bir harf/simge kullanmak istiyorsanız (ör. x ve ft.) kullanabilirsiniz",
   "serverAddress": "Sunucu Adresi",
-  "settings": "Ayarlar",
-  "setupFirstStartup": "İlk başlangıç ayarı",
   "setAs": "Olarak ayarla",
   "setAsDefault": "Varsayılan olarak ayarla",
   "setFileLastModifiedAsVideoUploadDate": "Son düzenleme tarihini video yükleme tarihi olarak ayarla",
@@ -855,6 +898,8 @@
   "setRating": "Puan Ver",
   "setTags": "Etiketleri Ayarla",
   "setYoutubeLink": "YouTube Bağlantısını Ayarla",
+  "settings": "Ayarlar",
+  "setupFirstStartup": "İlk başlangıç ayarı",
   "share": "Paylaş",
   "shareLogs": "Logları Paylaş",
   "shortcuts": "Kısayollar",
@@ -876,8 +921,6 @@
   "shuffle": "Karıştır",
   "shuffleAll": "Hepsini Karıştır",
   "shuffleNext": "Sonraki Karıştır",
-  "signingInAllowsBasicUsage": "Oturum açmak temel kullanıma izin verir",
-  "signingInAllowsBasicUsageSubtitle": "Patreon üzerinden erken erişim sağlayın veya kupon kullanın",
   "signIn": "Giriş Yap",
   "signInCanceled": "Giriş iptal edildi",
   "signInFailed": "Giriş başarısız oldu",
@@ -886,31 +929,12 @@
   "signInYouNeedAccountToViewPage": "Bu sayfayı görmek için bir hesaba ihtiyacınız var",
   "signOut": "Çıkış Yap",
   "signOutFromName": "{name} hesabından çıkış yap",
-  "@signOutFromName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
+  "signingInAllowsBasicUsage": "Oturum açmak temel kullanıma izin verir",
+  "signingInAllowsBasicUsageSubtitle": "Patreon üzerinden erken erişim sağlayın veya kupon kullanın",
   "similarDiscoverDate": "Benzer Keşif Tarihi",
   "similarDiscoverDateSubtitle": "{currentTrack} ile yakın tarihlerde keşfedilen parçaları oluştur",
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "similarTimeRange": "Benzer Zaman Aralığı",
   "similarTimeRangeSubtitle": "{currentTrack} ile yakın zamanlarda dinlediğin parçaları oluştur",
-  "@similarTimeRangeSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "singles": "Tekliler",
   "size": "Boyut",
   "skip": "Atla",
@@ -945,13 +969,6 @@
   "subscribers": "Aboneler",
   "succeeded": "Başarılı",
   "suggestionSubtitle": "Sorunun veya Önerin mi var? {site} de bir sorun bildirin",
-  "@suggestionSubtitle": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
   "support": "Destek",
   "supremacy": "Üstünlük",
   "sussyBaka": "Bruh, parça yok",
@@ -959,8 +976,8 @@
   "swipeToOpenDrawer": "Çekmeceyi açmak için kaydırın",
   "synced": "Eşitlendi",
   "synopsis": "Özet",
-  "tags": "Etiketler",
   "tagFields": "Etiket Alanları",
+  "tags": "Etiketler",
   "tapAction": "Dokunma Eylemi",
   "tapToSeek": "Gitmek için dokunun",
   "themeMode": "Tema Modu",
@@ -976,17 +993,14 @@
   "top": "En Üst",
   "topComments": "En İyi Yorumlar",
   "topCommentsSubtitle": "Yorumları altta yerine üstte göster",
-  "topRecents": "En Sonlar",
   "topRecentAlbums": "En Son Albümler",
   "topRecentArtists": "En Son Sanatçılar",
-  "totalListens": "Toplam Dinlenme",
+  "topRecents": "En Sonlar",
   "totalListenTime": "Toplam Dinleme Süresi",
+  "totalListens": "Toplam Dinlenme",
   "totalTracks": "Toplam Parçalar",
   "totalTracksDuration": "Toplam Parça Süresi",
   "track": "Parça",
-  "tracks": "Parçalar",
-  "tracksExcludedByNomedia": ".nomedia ile Hariç Tutulan Parçalar",
-  "tracksInfo": "Parçalar Bilgisi",
   "trackArtistsSeparator": "Sanatçı Ayırıcıları",
   "trackGenresSeparator": "Tür Ayırıcıları",
   "trackInfo": "Parça Bilgisi",
@@ -994,16 +1008,6 @@
   "trackNumber": "Parça Numarası",
   "trackNumberTotal": "Toplam Parça",
   "trackPathOldNew": "Eski adı: \"{oldName}\"\n\nYeni adı: \"{newName}\"\n\nEmin misiniz?",
-  "@trackPathOldNew": {
-    "placeholders": {
-      "oldName": {
-        "type": "String"
-      },
-      "newName": {
-        "type": "int"
-      }
-    }
-  },
   "trackPlayMode": "Oynatma Modu",
   "trackPlayModeSearchResults": "Arama Sonuçları",
   "trackPlayModeSelectedOnly": "Sadece seçilen parça",
@@ -1013,6 +1017,9 @@
   "trackThumbnailSizeInList": "Parça Küçük Resim Boyutu",
   "trackTileCustomization": "Parça Karo Özelleştirme",
   "trackTileItemsSeparator": "Öğeler Ayırıcı",
+  "tracks": "Parçalar",
+  "tracksExcludedByNomedia": ".nomedia ile Hariç Tutulan Parçalar",
+  "tracksInfo": "Parçalar Bilgisi",
   "underrated": "Bilinmeyen Cevherler",
   "undo": "Geri Al",
   "undoChanges": "Değişiklikleri Geri Al?",
@@ -1027,18 +1034,17 @@
   "updateDirectoryPath": "Dizin yolunu güncelle",
   "updateMissingTracksOnly": "Sadece eksik parçaları güncelle",
   "updating": "Güncelleniyor",
-  "used": "Kullanılan",
   "useCollapsedSettingTiles": "Daraltılmış Ayar Karolarını Kullan",
   "useMediaStore": "Ortam Deposu Kullan",
   "useMediaStoreSubtitle": "✓ anında indeksleme süresi\nx .nomedia zorunlu olarak etkin olacak\nx bazı meta veri etiketleri eksik olacak\nx yerel kütüphane için YouTube entegrasyonu çalışmayacak",
   "usePitchBlack": "Siyah Arka Plan Kullan",
   "usePitchBlackSubtitle": "AMOLED ekranlar için faydalı... ve daha havalı görünüyor",
+  "used": "Kullanılan",
   "value": "Değer",
   "valueBetween50200": "Değer %50 ile %200 arasında olmalı",
   "vibration": "Titreşim",
   "vibrationType": "Titreşim türü",
   "video": "Video",
-  "videos": "Videolar",
   "videoCache": "Video Önbelleği",
   "videoCacheFile": "Önbelleğe Alınmış Video Dosyası",
   "videoCacheFiles": "Önbelleğe Alınmış Video Dosyaları",
@@ -1053,9 +1059,10 @@
   "videoQuality": "Video Kalitesi",
   "videoQualitySubtitle": "Mevcut olan en yüksek kalite seçilecektir.",
   "videoQualitySubtitleNote": "Bir kalite bulunamazsa en kötü kaliteye geçiş yapacağı için daha fazla alternatif bulundurmak her zaman iyidir",
+  "videos": "Videolar",
   "view": "Görüntüle",
-  "views": "Görüntüleme",
   "viewAll": "Hepsini Gör",
+  "views": "Görüntüleme",
   "volume": "Ses",
   "warning": "Uyarı",
   "waveformBarsCount": "Dalga Çubuğu Sayısı",
@@ -1064,13 +1071,6 @@
   "year": "Yıl",
   "yes": "Evet",
   "yourCurrentMembershipIs": "Mevcut üyeliğiniz {name}",
-  "@yourCurrentMembershipIs": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "yourCustomOrderWillBeLost": "Özel sıranız kaybolacak, emin misiniz?",
   "youtube": "YouTube",
   "youtubeMusic": "YouTube Müzik",
