@@ -333,7 +333,7 @@
   "clearImageCache": "Clear Image cache",
   "clearImageCacheWarning": "Warning: will result in a library without images, Use only to rebuild image cache.",
   "clearTrackItem": "Clear Track's",
-  "clearTrackItemMultiple": "{number, plural, one{Clear Track''s} other{Clear {number} Tracks''}}",
+  "clearTrackItemMultiple": "{number, plural, one{Clear Track's} other{Clear {number} Tracks'}}",
   "clearVideoCache": "Clear Video Cache",
   "clearVideoCacheNote": "You can choose what to delete.",
   "clock": "Clock",
