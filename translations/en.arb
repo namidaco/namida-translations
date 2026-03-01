@@ -14,6 +14,90 @@
       }
     }
   },
+  "@countAlbums": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countDays": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countFiles": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countFolders": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countGenres": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countMonths": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countPlaylists": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribers": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countTracks": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@countViews": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -358,6 +442,18 @@
   "couldntPlayFile": "Couldn't play file",
   "couldntRenamePlaylist": "Couldn't rename playlist",
   "couldntSaveImage": "Couldn't save image",
+  "countAlbums": "{number, plural, one{{number} Album} other{{number} Albums}}",
+  "countArtists": "{number, plural, one{{number} Artist} other{{number} Artists}}",
+  "countDays": "{number, plural, one{{number} Day} other{{number} Days}}",
+  "countFiles": "{number, plural, one{{number} File} other{{number} Files}}",
+  "countFolders": "{number, plural, one{{number} Folder} other{{number} Folders}}",
+  "countGenres": "{number, plural, one{{number} Genre} other{{number} Genres}}",
+  "countMonths": "{number, plural, one{{number} Month} other{{number} Months}}",
+  "countPlaylists": "{number, plural, one{{number} Playlist} other{{number} Playlists}}",
+  "countSubscribers": "{number, plural, one{{number} Subscriber} other{{number} Subscribers}}",
+  "countTracks": "{number, plural, one{{number} Track} other{{number} Tracks}}",
+  "countVideos": "{number, plural, one{{number} Video} other{{number} Videos}}",
+  "countViews": "{number, plural, one{{number} View} other{{number} Views}}",
   "country": "Country",
   "coupon": "Coupon",
   "create": "Create",
