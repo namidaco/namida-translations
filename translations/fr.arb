@@ -15,6 +15,14 @@
       }
     }
   },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -348,7 +356,7 @@
   "clearImageCache": "Effacer le cache d'images",
   "clearImageCacheWarning": "Avertissement : cette opération entraînera la création d’une bibliothèque sans images. À utiliser uniquement pour reconstruire le cache d’images.",
   "clearTrackItem": "Effacer la piste de lecture",
-  "clearTrackItemMultiple": "{number, plural, other{Effacer la piste de lecture {number}}}",
+  "clearTrackItemMultiple": "{number, plural, one{Clear Track's} other{Clear {number} Tracks'}}",
   "clearVideoCache": "Effacer le cache de la vidéo",
   "clearVideoCacheNote": "Vous pouvez choisir les éléments à supprimer.",
   "clock": "Horloge",
@@ -373,6 +381,7 @@
   "couldntPlayFile": "Impossible de lire le fichier",
   "couldntRenamePlaylist": "Impossible de renommer la playlist",
   "couldntSaveImage": "Impossible d'enregistrer l'image",
+  "countAlbumArtists": "{count, plural, one{{count} Album Artist} other{{count} Album Artists}}",
   "country": "Pays",
   "coupon": "Coupon",
   "create": "Créer",
