@@ -15,10 +15,130 @@
       }
     }
   },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countAlbums": {
     "placeholders": {
       "count": {
         "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countDays": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFolders": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countGenres": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countMonths": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countPlaylists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribersShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTracks": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViews": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
         "type": "int"
       }
     }
@@ -341,7 +461,7 @@
   "clearImageCache": "Очистить Кэш изображений",
   "clearImageCacheWarning": "Предупреждение: будет создана библиотека без изображений. Используй только для перестройки кэша изображений.",
   "clearTrackItem": "Удаление у Трека",
-  "clearTrackItemMultiple": "Очистить {number, plural, one{# трек} few{# трека} other{# треков}}",
+  "clearTrackItemMultiple": "Очистить {number, plural, one{{number} трек} few{{number} трека} other{{number} треков}}",
   "clearVideoCache": "Очистить Кэш Видео",
   "clearVideoCacheNote": "Ты можешь выбрать, что удалить.",
   "clock": "Часы",
@@ -366,7 +486,22 @@
   "couldntPlayFile": "Не удалось воспроизвести файл",
   "couldntRenamePlaylist": "Не удалось переименовать плейлист",
   "couldntSaveImage": "Не удалось сохранить изображение",
-  "countAlbums": "{count, plural, one{# Альбом} few{# Альбома} other{# Albums}}",
+  "countAlbumArtists": "{count, plural, one{# Исполнитель} few{# Исполнителя} other{# Исполнителей}} Альбома",
+  "countAlbums": "{count, plural, one{# Альбом} few{# Альбома} other{# Альбомов}}",
+  "countArtists": "{count, plural, one{# Исполнитель} few{# Исполнителя} other{# Исполнителей}}",
+  "countComposers": "{count, plural, one{# Композитор} few{# Композитора} other{# Композиторов}}",
+  "countDays": "{count, plural, one{# день} few{# дня} many{# дней} other{# дня}}",
+  "countFiles": "{count, plural, one{# файл} few{# файла} other{# файлов}}",
+  "countFolders": "{count, plural, one{# папка} few{# папки} other{# папок}}",
+  "countGenres": "{count, plural, one{# жанр} few{# жанра} other{# жанров}}",
+  "countMonths": "{count, plural, one{# месяц} few{# месяца} many{# месяцев} other{# месяца}}",
+  "countPlaylists": "{count, plural, one{# плейлист} few{# плейлиста} other{# плейлистов}}",
+  "countSubscribers": "{count, plural, one{# подписчик} few{# подписчика} other{# подписчиков}}",
+  "countSubscribersShort": "{count, plural, one{{count} подписчик} few{{count} подписчика} other{{count} подписчиков}}",
+  "countTracks": "{count, plural, one{{count} трек} few{{count} трека} other{{count} треков}}",
+  "countVideos": "{count, plural, other{{count} видео}}",
+  "countViews": "{count, plural, one{{count} просмотр} few{{count} просмотра} other{{count} просмотров}}",
+  "countViewsShort": "{count, plural, one{{count} просмотр} few{{count} просмотра} other{{count} просмотров}}",
   "country": "Страна",
   "create": "Создать",
   "createBackup": "Создать Резервную копию",
