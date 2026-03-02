@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,14 +66,16 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "track": {
         "type": "String"
@@ -93,7 +99,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -101,11 +108,19 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
-    "placeholders": {}
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
   },
   "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
     "placeholders": {
@@ -118,7 +133,12 @@
     }
   },
   "@minimumOneItemSubtitle": {
-    "placeholders": {}
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
   },
   "@newTracksRecommendedSubtitle": {
     "placeholders": {
@@ -154,10 +174,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -171,7 +193,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -185,7 +208,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -348,8 +371,8 @@
   "defaultLabel": "डिफ़ॉल्ट",
   "defaultLibraryTab": "डिफ़ॉल्ट लाइब्रेरी टैब",
   "delete": "हटाएँ",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{{filesCount} दिखाने वाले {totalSize} को रद करें?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{अपने स्टोरेज से {number} को स्थायी रूप से हटाएं}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{{count} दिखाने वाले {totalSizeText} को रद करें?}}",
+  "deleteNTracksFromStorage": "अपने स्टोरेज से {numberText} को स्थायी रूप से हटाएं",
   "deletePlaylist": "प्लेलिस्ट हटाएं",
   "deleteTempFiles": "अस्थायी फ़ाइलें हटाएँ",
   "description": "विवरण",
@@ -531,7 +554,7 @@
   "importYoutubeHistory": "यूट्यूब इतिहास आयात करें",
   "importYoutubeHistoryGuide": "1. {takeoutLink} पर जाएं\n\n2. \"कई प्रारूप\" दबाएं और \"इतिहास\" के बगल में \"JSON\" चुनें।\n\n3. \"सभी यूट्यूब डेटा शामिल\" दबाएं, सभी का चयन रद्द करें और केवल इतिहास चुनें।\n\n4. निर्यात बनाएं, डाउनलोड करें और अनज़िप करें।\n\n5. अगली स्क्रीन से \"watch-history.json\" चुनें।",
   "importedNChannelsSuccessfully": "{number, plural, other{{number} को चैनल से प्राप्त करना सफल हुआ}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} प्लेलिस्ट की प्राप्ति सफल हुई}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} प्लेलिस्ट की प्राप्ति सफल हुई}}",
   "includeVideos": "वीडियो शामिल करें",
   "indexRefreshRequired": "इसे बदलने के बाद रिफ्रेश करें",
   "indexer": "अनुक्रमक",
@@ -568,7 +591,7 @@
   "local": "स्थानीय",
   "localVideoMatching": "स्थानीय वीडियो मिलान",
   "lostMemories": "खोई यादें",
-  "lostMemoriesSubtitle": "{number, plural, other{इस समय के आसपास, साल पहले}}",
+  "lostMemoriesSubtitle": "{number, plural, other{इस समय के आसपास, {number} साल पहले}}",
   "loudnessEnhancer": "प्रबलता बढ़ाने वाला",
   "lyricist": "Lyricist(रचयिता)",
   "lyrics": "लिरिक्स",
@@ -610,7 +633,7 @@
   "minimum": "न्यूनतम",
   "minimumOneFolderSubtitle": "कम से कम 1 फ़ोल्डर होना चाहिए, यदि आप इसे निकालना चाहते हैं तो अधिक फ़ोल्डर जोड़ें",
   "minimumOneItem": "आइटम नहीं हटा सका",
-  "minimumOneItemSubtitle": "{number, plural, other{कम से कम NUM आइटम रहना चाहिए}}",
+  "minimumOneItemSubtitle": "{number, plural, other{कम से कम {number} आइटम रहना चाहिए}}",
   "miniplayerCustomization": "मिनिप्लेयर अनुकूलन",
   "minutes": "मिनट",
   "missingEntries": "गायब प्रविष्टियाँ",

@@ -10,38 +10,42 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -55,17 +59,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -89,7 +95,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -97,13 +104,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -120,7 +131,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -158,10 +170,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -175,7 +189,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -189,7 +204,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -346,8 +361,8 @@
   "defaultLabel": "الإفتراضي",
   "defaultLibraryTab": "تبويب المكتبة الافتراضي",
   "delete": "حذف",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{هل تريد حذف {filesCount} ملف يمثل {totalSize}؟}}",
-  "deleteNTracksFromStorage": "{number, plural, other{احذف {number}نهائيًا من ذاكرة التخزين}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{هل تريد حذف {count} ملف يمثل {totalSizeText}؟}}",
+  "deleteNTracksFromStorage": "احذف {numberText}نهائيًا من ذاكرة التخزين",
   "deletePlaylist": "حذف قائمة التشغيل",
   "deleteTempFiles": "حذف الملفات المؤقتة",
   "description": "الوصف",
@@ -518,7 +533,7 @@
   "importYoutubeHistory": "استيراد سجل اليوتيوب",
   "importYoutubeHistoryGuide": "1. انتقل إلى {takeoutLink}\n\n2. اضغط على \"تنسيقات متعددة\" وبجانب \"السجل\" اختر \"JSON\".\n\n3. اضغط على \"جميع بيانات يوتيوب متضمنة\"، وقم بإلغاء تحديد الكل واختر السجل فقط.\n\n4. إنشاء التصدير والتنزيل وفك الضغط.\n\n5. اختر \"watch-history.json\" من الشاشة التالية.",
   "importedNChannelsSuccessfully": "{number, plural, other{تم استيراد {number} من القنوات بنجاح}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{تم استيراد {number} من قوائم التشغيل بنجاح}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{تم استيراد {numberText} من قوائم التشغيل بنجاح}}",
   "includeVideos": "تضمين مقاطع الفيديو",
   "indexRefreshRequired": "قم بالتحديث بعد تغيير هذا",
   "indexer": "المفهرس",

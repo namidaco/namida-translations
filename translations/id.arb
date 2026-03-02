@@ -10,38 +10,42 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -55,17 +59,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -89,7 +95,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -97,13 +104,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -120,7 +131,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -158,10 +170,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -175,7 +189,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -196,7 +211,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -357,8 +372,8 @@
   "defaultLabel": "Default",
   "defaultLibraryTab": "Tab Pustaka Default",
   "delete": "Hapus",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Hapus {filesCount} dari total {totalSize} file?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Hapus {number} secara permanen dari penyimpanan Anda}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Hapus {count} dari total {totalSizeText} file?}}",
+  "deleteNTracksFromStorage": "Hapus {numberText} secara permanen dari penyimpanan Anda",
   "deletePlaylist": "Hapus Daftar Putar",
   "deleteTempFiles": "Hapus file sementara",
   "description": "Deskripsi",
@@ -528,7 +543,7 @@
   "importYoutubeHistory": "Impor Riwayat Youtube",
   "importYoutubeHistoryGuide": "1. Buka {takeoutLink}\n\n2. Tekan \"Beberapa Format\" dan di samping \"Riwayat\" pilih \"JSON\".\n\n3. Tekan \"Semua data Youtube disertakan\", Batalkan pilihan Semua dan pilih hanya riwayat.\n\n4. Buat Ekspor, Unduh & Buka zip.\n\n5. Pilih \"watch-history.json\" dari layar berikutnya.",
   "importedNChannelsSuccessfully": "{number, plural, other{{number} channel berhasil diimpor}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} daftar putar berhasil diimpor}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} daftar putar berhasil diimpor}}",
   "includeVideos": "Termasuk video",
   "indexRefreshRequired": "Lakukan Refresh setelah mengubah ini",
   "indexer": "Pengindeks",

@@ -10,38 +10,42 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -55,17 +59,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -89,7 +95,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -97,13 +104,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -120,7 +131,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -158,10 +170,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -175,7 +189,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -340,8 +355,8 @@
   "defaultLabel": "Oletus",
   "defaultLibraryTab": "Oletuskirjasto välilehti",
   "delete": "Poista",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Poistetaanko {filesCount} tiedostoa, jotka edustavat kokoa {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Poista pysyvästi {number} tallennustilastasi}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Poistetaanko {count} tiedostoa, jotka edustavat kokoa {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Poista pysyvästi {numberText} tallennustilastasi",
   "deletePlaylist": "Poista soittolista",
   "deleteTempFiles": "Poista väliaikaiset tiedostot",
   "description": "Kuvaus",
@@ -511,7 +526,7 @@
   "importYoutubeHistory": "Tuo Youtube-historia",
   "importYoutubeHistoryGuide": "1. Siirry osoitteeseen {takeoutLink}\n\n 2. Paina \"Multiple Formats\" ja valitse \"Historia\"-kohdan vierestä \"JSON\". \n\n3. Paina \"Kaikki Youtube-tiedot sisältyvät\", poista kaikkien valinta ja valitse vain historia. \n\n4. Luo Vie, lataa ja pura. \n\n5. Valitse seuraavasta näytöstä \"watch-history.json\".",
   "importedNChannelsSuccessfully": "{number, plural, other{{number} kanavat tuotu onnistuneesti}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} soittolistan tuonti onnistuneesti}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} soittolistan tuonti onnistuneesti}}",
   "includeVideos": "Sisällytä videot",
   "indexRefreshRequired": "Tee Refresh tämän muuttamisen jälkeen",
   "indexer": "Indeksoija",

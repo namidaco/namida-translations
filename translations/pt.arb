@@ -10,38 +10,42 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -186,8 +190,8 @@
   "defaultLabel": "Padrão",
   "defaultLibraryTab": "Aba de Biblioteca Padrão",
   "delete": "Apagar",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Apagar {filesCount} ficheiros que representam {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Elimine permanentemente {number} do seu armazenamento}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Apagar {count} ficheiros que representam {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Elimine permanentemente {numberText} do seu armazenamento",
   "deletePlaylist": "Eliminar lista de reprodução",
   "deleteTempFiles": "Eliminar ficheiros temporários",
   "description": "Descrição",

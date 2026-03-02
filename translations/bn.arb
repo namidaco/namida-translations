@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -96,7 +102,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -104,13 +111,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -127,7 +138,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,10 +177,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -182,7 +196,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -224,7 +239,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -333,7 +348,7 @@
   "clearImageCache": "ছবির ক্যাশ সাফ করুন",
   "clearImageCacheWarning": "সতর্কতা: লাইব্রেরি ট্র্যাকে কোনো আর্টওয়ার্ক থাকবে না! শুধুমাত্র ইমেজ ক্যাশ পুনরায় তৈরি করার জন্য এটি ব্যবহার করুন।",
   "clearTrackItem": "ট্র্যাকের বিষয়বস্তু সাফ করুন",
-  "clearTrackItemMultiple": "{count, plural, one{টি ট্র্যাকের বিষয়বস্তু সাফ করুন} other{{count} টি ট্র্যাকের বিষয়বস্তু সাফ করুন}}",
+  "clearTrackItemMultiple": "{number, plural, one{টি ট্র্যাকের বিষয়বস্তু সাফ করুন} other{{number} টি ট্র্যাকের বিষয়বস্তু সাফ করুন}}",
   "clearVideoCache": "ভিডিওর ক্যাশ সাফ করুন",
   "clearVideoCacheNote": "আপনি চাইলে নির্দিষ্ট ফাইল বেছে নিতে পারেন।",
   "clock": "ঘড়ি",
@@ -390,8 +405,8 @@
   "defaultLabel": "ডিফল্ট",
   "defaultLibraryTab": "ডিফল্ট লাইব্রেরি ট্যাব",
   "delete": "ডিলিট করুন",
-  "deleteFileCacheSubtitle": "{filesCount, plural, one {{totalSize} টি ফাইল, যার মোট সাইজ {totalSize}, ডিলিট করবেন?} other {{filesCount} টি ফাইল, যার মোট সাইজ {totalSize}, ডিলিট করবেন?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{নিশ্চিত করুন, আপনি কি স্থায়ীভাবে {number} ডিলিট করতে চান}}",
+  "deleteFileCacheSubtitle": "{count, plural, one {{totalSizeText} টি ফাইল, যার মোট সাইজ {totalSizeText}, ডিলিট করবেন?} other {{count} টি ফাইল, যার মোট সাইজ {totalSizeText}, ডিলিট করবেন?}}",
+  "deleteNTracksFromStorage": "নিশ্চিত করুন, আপনি কি স্থায়ীভাবে {numberText} ডিলিট করতে চান",
   "deletePlaylist": "প্লেলিস্ট ডিলিট করুন",
   "deleteTempFiles": "অস্থায়ী ফাইল ডিলিট করুন",
   "description": "বর্ণনা",
@@ -581,7 +596,7 @@
   "importYoutubeHistory": "ইউটিউব ইতিহাস ইম্পোর্ট করুন",
   "importYoutubeHistoryGuide": "1. {takeoutLink} -এ যান।\n\n2. \"Multiple Formats\" -এ ক্লিক করুন এবং \"History\"-এর পাশে \"JSON\" অপশনটি বেছে নিন।\n\n3. \"All Youtube data included\" -এ ক্লিক করে সব ডি-সিলেক্ট (Deselect) করুন এবং শুধু \"history\" সিলেক্ট করুন।\n\n4. এক্সপোর্ট তৈরি করে ফাইলটি ডাউনলোড এবং আনজিপ (Unzip) করুন।\n\n5. পরবর্তী স্ক্রিন থেকে \"watch-history.json\" ফাইলটি বেছে নিন।",
   "importedNChannelsSuccessfully": "{number, plural, other{{number} টি চ্যানেল সফলভাবে ইম্পোর্ট করা হয়েছে}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} টি প্লেলিস্ট সফলভাবে ইম্পোর্ট করা হয়েছে}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} টি প্লেলিস্ট সফলভাবে ইম্পোর্ট করা হয়েছে}}",
   "includeVideos": "ভিডিও অন্তর্ভুক্ত করুন",
   "indexRefreshRequired": "পরিবর্তনের পর একবার রিফ্রেশ করুন",
   "indexer": "ইনডেক্সার",

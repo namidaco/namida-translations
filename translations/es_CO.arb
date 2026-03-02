@@ -10,107 +10,88 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@countAlbumArtists": {
     "placeholders": {
       "count": {
-        "type": "int"
-      },
-      "numberText": {
-        "type": "String"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@countAlbums": {
     "placeholders": {
       "count": {
-        "type": "int"
-      },
-      "numberText": {
-        "type": "String"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@countArtists": {
     "placeholders": {
       "count": {
-        "type": "int"
-      },
-      "numberText": {
-        "type": "String"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@countComposers": {
     "placeholders": {
       "count": {
-        "type": "int"
-      },
-      "numberText": {
-        "type": "String"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@countDays": {
     "placeholders": {
       "count": {
-        "type": "int"
-      },
-      "numberText": {
-        "type": "String"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@countFiles": {
     "placeholders": {
       "count": {
-        "type": "int"
-      },
-      "numberText": {
-        "type": "String"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@countFolders": {
     "placeholders": {
       "count": {
-        "type": "int"
-      },
-      "numberText": {
-        "type": "String"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@countGenres": {
     "placeholders": {
       "count": {
-        "type": "int"
-      },
-      "numberText": {
-        "type": "String"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@countMonths": {
     "placeholders": {
       "count": {
-        "type": "int"
-      },
-      "numberText": {
-        "type": "String"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@countPlaylists": {
     "placeholders": {
       "count": {
-        "type": "int"
-      },
-      "numberText": {
-        "type": "String"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -157,7 +138,8 @@
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -170,25 +152,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -202,17 +186,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -236,7 +222,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -244,13 +231,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -267,7 +258,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -305,10 +297,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -322,7 +316,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -364,7 +359,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -498,20 +493,20 @@
   "couldntPlayFile": "No se pudo reproducir el archivo",
   "couldntRenamePlaylist": "No se pudo cambiar el nombre de la lista de reproducción",
   "couldntSaveImage": "No se pudo guardar la imagen",
-  "countAlbumArtists": "{count, plural, one{{numberText} Artista del Album} other{{numberText} Artistas del Album}}",
-  "countAlbums": "{count, plural, one{{numberText} Album} other{{numberText} Albumes}}",
-  "countArtists": "{count, plural, one{{numberText} Artista} other{{numberText} Artistas}}",
-  "countComposers": "{count, plural, one{{numberText} Compositor} other{{numberText} Compositores}}",
-  "countDays": "{count, plural, one{{numberText} Día} other{{numberText} Días}}",
-  "countFiles": "{count, plural, one{{numberText} Archivo} other{{numberText} Archivos}}",
-  "countFolders": "{count, plural, one{{numberText} Carpeta} other{{numberText} Carpetas}}",
-  "countGenres": "{count, plural, one{{numberText} Genero} other{{numberText} Generos}}",
-  "countMonths": "{count, plural, one{{numberText} Mes} other{{numberText} Meses}}",
-  "countPlaylists": "{count, plural, one{{numberText} Lista de reproducción} other{{numberText} Listas de reproducción}}",
-  "countSubscribers": "{count, plural, one{{numberText} Suscriptor} other{{numberText} Subscriptores}}",
-  "countTracks": "{count, plural, one{{numberText} Pista} other{{numberText} Pistas}}",
-  "countVideos": "{count, plural, one{{numberText} Video} other{{numberText} Videos}}",
-  "countViews": "{count, plural, one{{numberText} Vista} other{{numberText} Vistas}}",
+  "countAlbumArtists": "{count, plural, one{{count} Artista del Album} other{{count} Artistas del Album}}",
+  "countAlbums": "{count, plural, one{{count} Album} other{{count} Albumes}}",
+  "countArtists": "{count, plural, one{{count} Artista} other{{count} Artistas}}",
+  "countComposers": "{count, plural, one{{count} Compositor} other{{count} Compositores}}",
+  "countDays": "{count, plural, one{{count} Día} other{{count} Días}}",
+  "countFiles": "{count, plural, one{{count} Archivo} other{{count} Archivos}}",
+  "countFolders": "{count, plural, one{{count} Carpeta} other{{count} Carpetas}}",
+  "countGenres": "{count, plural, one{{count} Genero} other{{count} Generos}}",
+  "countMonths": "{count, plural, one{{count} Mes} other{{count} Meses}}",
+  "countPlaylists": "{count, plural, one{{count} Lista de reproducción} other{{count} Listas de reproducción}}",
+  "countSubscribers": "{count, plural, one{{count} Suscriptor} other{{count} Subscriptores}}",
+  "countTracks": "{count, plural, one{{count} Pista} other{{count} Pistas}}",
+  "countVideos": "{count, plural, one{{count} Video} other{{count} Videos}}",
+  "countViews": "{count, plural, one{{count} Vista} other{{count} Vistas}}",
   "country": "País",
   "coupon": "Cupón",
   "create": "Crear",
@@ -544,8 +539,8 @@
   "defaultLabel": "Por defecto",
   "defaultLibraryTab": "Pestaña Biblioteca predeterminada",
   "delete": "Borrar",
-  "deleteFileCacheSubtitle": "{filesCount, plural, one{Eliminar {filesCount} archivo liberará {totalSize} ¿Borrar?} other{Eliminar {filesCount} archivos liberará {totalSize} ¿Borrar?}}",
-  "deleteNTracksFromStorage": "{number, plural, one{Eliminar permanentemente {number} pista del almacenamiento} other{Eliminar permanentemente {number} pistas de tu almacenamiento}}",
+  "deleteFileCacheSubtitle": "{count, plural, one{Eliminar {count} archivo liberará {totalSizeText} ¿Borrar?} other{Eliminar {count} archivos liberará {totalSizeText} ¿Borrar?}}",
+  "deleteNTracksFromStorage": "Eliminar permanentemente {numberText} de tu almacenamiento",
   "deletePlaylist": "Eliminar lista de reproducción",
   "deleteTempFiles": "Borrar archivos temporales",
   "description": "Descripción",
@@ -735,7 +730,7 @@
   "importYoutubeHistory": "Importar historial de Youtube",
   "importYoutubeHistoryGuide": "1. Vaya a {takeoutLink}\n\n2. Presione \"Múltiples formatos\" y al lado de \"Historial\", elija \"JSON\".\n\n3. Presione \"Todos los datos de Youtube incluidos\", deseleccione Todo y elija solo historial.\n\n4. Crear Exportar, Descargar y Descomprimir.\n\n5. Elija \"watch-history.json\" en la siguiente pantalla.",
   "importedNChannelsSuccessfully": "{number, plural, one{{number} canal importado correctamente} other{{number} canales importados correctamente}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, one{{number} playlist importada correctamente} other{{number} playlists importadas correctamente}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, one{{numberText} playlist importada correctamente} other{{numberText} playlists importadas correctamente}}",
   "includeVideos": "Incluye videos",
   "indexRefreshRequired": "Hace una actualización después de cambiarlo",
   "indexer": "Indexador",

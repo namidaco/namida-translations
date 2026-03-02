@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -249,8 +255,8 @@
   "defaultLabel": "Standart",
   "defaultLibraryTab": "Standart kutubxona sahifasi",
   "delete": "O‘chirish",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{{totalSize}ni ko‘rsatuvchi {filesCount} ta fayl o‘chirilsinmi?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{{number} ta faylni xotiradan butunlay o‘chirish}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{{totalSizeText}ni ko‘rsatuvchi {count} ta fayl o‘chirilsinmi?}}",
+  "deleteNTracksFromStorage": "{numberText} ta faylni xotiradan butunlay o‘chirish",
   "deletePlaylist": "Pleylistni o‘chirish",
   "deleteTempFiles": "Temp fayllarini o‘chirish",
   "description": "Tavsif",

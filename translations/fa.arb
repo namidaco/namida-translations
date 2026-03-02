@@ -10,38 +10,42 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -55,17 +59,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -89,7 +95,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -97,20 +104,25 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -148,10 +160,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,7 +179,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -179,7 +194,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -330,8 +345,8 @@
   "defaultLabel": "پیش فرض",
   "defaultLibraryTab": "سربرگ پیش فرض",
   "delete": "حذف",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Delete {filesCount} file representing {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{{number} را برای همیشه از حافظه خود پاک کنید}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Delete {count} file representing {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "{numberText} را برای همیشه از حافظه خود پاک کنید",
   "deletePlaylist": "حذف لیست پخش",
   "deleteTempFiles": "پاک سازی فایل های موقت",
   "description": "شرح",
@@ -493,7 +508,7 @@
   "importYoutubeHistory": "بارگذاری تاریخچه یوتیوب",
   "importYoutubeHistoryGuide": "1. برو به {takeoutLink}\n\n2. بزن رو \"Multiple Formats\" و کنار \"History\" انتخاب کن \"JSON\".\n\n3. بزن رو \"All Youtube data included\", همه را غیر فعال کن و بزن رو تنها تاریخچه\n\n4. استخراج را درست کن، دانلود و آنزیپ کن\n\n5. \"watch-history.json\" را در صفحه بعدی انتخاب کن",
   "importedNChannelsSuccessfully": "{number, plural, other{{number} کانال با موفقیت وارد شدند}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} لیست پخش با موفقیت اضافه شدن}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} لیست پخش با موفقیت اضافه شدن}}",
   "indexRefreshRequired": "پس از تغییر این گزینه، بروزرسانی انجام شود",
   "indexer": "جستجوگر",
   "indexerNote": "توجه: منظور از شمار ناکامل کاور ها، کاور های یکسان و ناپیدا است",

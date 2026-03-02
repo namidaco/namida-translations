@@ -10,31 +10,35 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -169,7 +173,7 @@
   "defaultLabel": "Προεπιλεγμένο",
   "defaultLibraryTab": "Προεπιλεγμένη Καρτέλα Βιβλιοθήκης",
   "delete": "Διαγραφή",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Διαγραφή {filesCount} αρχείων, τα οποία καταλαμβάνουν {totalSize};}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Διαγραφή {count} αρχείων, τα οποία καταλαμβάνουν {totalSizeText};}}",
   "deletePlaylist": "Διαγραφή Playlist",
   "deleteTempFiles": "Διαγραφή προσωρινών αρχείων",
   "description": "Περιγραφή",

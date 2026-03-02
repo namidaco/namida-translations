@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -96,7 +102,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -104,13 +111,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -127,7 +138,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,10 +177,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -182,7 +196,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -224,7 +239,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -390,8 +405,8 @@
   "defaultLabel": "Varsayılan",
   "defaultLibraryTab": "Varsayılan Kütüphane Sekmesi",
   "delete": "Sil",
-  "deleteFileCacheSubtitle": "{filesCount, plural, one{Toplam boyutu {totalSize} olan {filesCount} dosya silinsin mi?} other{Toplam boyutu {totalSize} olan {filesCount} dosya silinsin mi?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{{number} öğeyi cihaz depolamasından kalıcı olarak sil}}",
+  "deleteFileCacheSubtitle": "{count, plural, one{Toplam boyutu {totalSizeText} olan {count} dosya silinsin mi?} other{Toplam boyutu {totalSizeText} olan {count} dosya silinsin mi?}}",
+  "deleteNTracksFromStorage": "{numberText} öğeyi cihaz depolamasından kalıcı olarak sil",
   "deletePlaylist": "Çalma Listesini Sil",
   "deleteTempFiles": "Geçici dosyaları sil",
   "description": "Açıklama",
@@ -581,7 +596,7 @@
   "importYoutubeHistory": "YouTube Geçmişini İçe Aktar",
   "importYoutubeHistoryGuide": "1. {takeoutLink} adresine gidin\n\n2. \"Çoklu Formatlar\"a tıklayın ve \"Geçmiş\"in yanında \"JSON\"u seçin.\n\n3. \"Tüm YouTube verileri dahil\" seçeneğine tıklayın, Tümünü Kaldır seçeneğini işaretleyin ve sadece geçmişi seçin.\n\n4. Dışa Aktar oluşturun, indirin ve çıkarın.\n\n5. Bir sonraki ekrandan \"watch-history.json\" dosyasını seçin.",
   "importedNChannelsSuccessfully": "{number, plural, other{{number} kanal başarıyla içe aktarıldı}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} çalma listesi başarıyla içe aktarıldı}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} çalma listesi başarıyla içe aktarıldı}}",
   "includeVideos": "Videoları Dahil Et",
   "indexRefreshRequired": "Bu değişiklikten sonra bir yenileme yapın",
   "indexer": "Dizinleyici",

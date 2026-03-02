@@ -10,38 +10,42 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -55,17 +59,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -89,7 +95,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -97,13 +104,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -120,7 +131,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -158,10 +170,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -175,7 +189,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -189,7 +204,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -342,8 +357,8 @@
   "defaultLabel": "기본",
   "defaultLibraryTab": "기본 라이브러리 탭",
   "delete": "삭제",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{{totalSize}에 해당하는 {filesCount}개의 파일을 삭제할까요?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{저장소에서 {number}개 영구 삭제}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{{totalSizeText}에 해당하는 {count}개의 파일을 삭제할까요?}}",
+  "deleteNTracksFromStorage": "저장소에서 {numberText}개 영구 삭제",
   "deletePlaylist": "재생목록 삭제",
   "deleteTempFiles": "임시파일 삭제",
   "description": "설명",
@@ -507,7 +522,7 @@
   "importYoutubeHistory": "Youtube 시청 기록 가져오기",
   "importYoutubeHistoryGuide": "1. {takeoutLink}로 이동합니다.\n\n2. 「여러 형식」을 누르고 「기록」옆에 있는 「JSON」을 선택합니다.\n\n3. 「모든 Youtube 데이터 포함됨」을 눌러 모두 선택을 해제하고 시청 기록만 선택합니다.\n\n4. 내보내기, 다운로드, 압축 해제를 생성합니다.\n\n5. 다음 화면에서 「시청 기록.json」을 선택합니다.",
   "importedNChannelsSuccessfully": "{number, plural, other{{number}개의 채널을 성공적으로 가져왔습니다}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number}개의 재생목록을 성공적으로 가져왔습니다}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText}개의 재생목록을 성공적으로 가져왔습니다}}",
   "indexRefreshRequired": "이 옵션을 변경한 후 새로고침",
   "indexer": "인덱싱",
   "indexerNote": "참고: 작품 수가 불완전합니다. 중복되거나 누락된 작품이 있습니다",

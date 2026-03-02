@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,7 +66,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -218,8 +222,8 @@
   "defaultLabel": "ค่าเริ่มต้น",
   "defaultLibraryTab": "ค่าเริ่มต้นปุ่มของคลัง",
   "delete": "ลบ",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{ลบไฟล์จำนวน {filesCount} ไฟล์ ขนาดทั้งหมด {totalSize} เลยไหม?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{ลบ {number} จากพื้นที่จัดเก็บถาวร}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{ลบไฟล์จำนวน {count} ไฟล์ ขนาดทั้งหมด {totalSizeText} เลยไหม?}}",
+  "deleteNTracksFromStorage": "ลบ {numberText} จากพื้นที่จัดเก็บถาวร",
   "deletePlaylist": "ลบเพลย์ลิสต์",
   "deleteTempFiles": "ลบไฟล์ชั่วคราว",
   "description": "คำอธิบาย",

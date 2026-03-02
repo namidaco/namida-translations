@@ -8,36 +8,44 @@
     }
   },
   "@clearTrackItemMultiple": {
-    "placeholders": {}
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -129,7 +137,7 @@
   "clearImageCache": "Vymazat mezipamět obrázků",
   "clearImageCacheWarning": "Varování: bude mít za následek knihovnu bez obrázků. Používejte pouze k obnovení mezipaměti obrázků.",
   "clearTrackItem": "Vymazat skladby",
-  "clearTrackItemMultiple": "{number, plural, other{Vymazat počet skladeb}}",
+  "clearTrackItemMultiple": "{number, plural, other{Vymazat {number} skladeb}}",
   "clearVideoCache": "Vymazat mezipamět videa",
   "clearVideoCacheNote": "Vyberte co odstranit",
   "clock": "Hodiny",
@@ -181,8 +189,8 @@
   "defaultLabel": "Výchozí",
   "defaultLibraryTab": "Výchozí karta knihovna",
   "delete": "Odstranit",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Smazat {filesCount} soubory představující {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Trvalé odstranění {number} z úložiště}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Smazat {count} soubory představující {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Trvalé odstranění {numberText} z úložiště",
   "deletePlaylist": "Odstranit playlist",
   "deleteTempFiles": "Odstranění dočasných souborů",
   "description": "Popisek",

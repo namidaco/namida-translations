@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -96,7 +102,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -104,13 +111,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -127,7 +138,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,10 +177,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -182,7 +196,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -224,7 +239,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -390,8 +405,8 @@
   "defaultLabel": "默认",
   "defaultLibraryTab": "默认媒体库标签页",
   "delete": "删除",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{是否删除 {number} 个文件（占用 {totalSize}）？}}",
-  "deleteNTracksFromStorage": "{number, plural, other{从存储中永久删除 {number}}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{是否删除 {count} 个文件（占用 {totalSizeText}）？}}",
+  "deleteNTracksFromStorage": "从存储中永久删除 {numberText}",
   "deletePlaylist": "删除播放列表",
   "deleteTempFiles": "删除临时文件",
   "description": "描述",
@@ -581,7 +596,7 @@
   "importYoutubeHistory": "导入 YouTube 历史记录",
   "importYoutubeHistoryGuide": "1. 转到{takeoutLink}\n\n2.点击“多种格式”，然后在“历史记录”旁选择“JSON”。\n\n3.反选“包含所有 Youtube 数据”，仅勾选历史记录。\n\n4.创建导出任务，之后下载并解压得到的文件。\n\n5.从下一个屏幕中选择“watch-history.json”。",
   "importedNChannelsSuccessfully": "{number, plural, other{成功导入 {number} 个频道}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{成功导入 {number} 个播放列表}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{成功导入 {numberText} 个播放列表}}",
   "includeVideos": "包括视频",
   "indexRefreshRequired": "更改后执行刷新",
   "indexer": "索引器",

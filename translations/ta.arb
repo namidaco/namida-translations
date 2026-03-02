@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -96,7 +102,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -104,13 +111,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -127,7 +138,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,10 +177,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -182,7 +196,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -224,7 +239,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -390,8 +405,8 @@
   "defaultLabel": "இயல்புநிலை",
   "defaultLibraryTab": "இயல்புநிலை நூலக தாவல்",
   "delete": "நீக்க",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{{totalSize} ஐக் குறிக்கும் {filesCount} கோப்பை நீக்கவா?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{உங்கள் சேமிப்பகத்திலிருந்து {number} ஐ நிரந்தரமாக நீக்கவும்}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{{totalSizeText} ஐக் குறிக்கும் {count} கோப்பை நீக்கவா?}}",
+  "deleteNTracksFromStorage": "உங்கள் சேமிப்பகத்திலிருந்து {numberText} ஐ நிரந்தரமாக நீக்கவும்",
   "deletePlaylist": "பிளேலிஸ்ட்டை நீக்கு",
   "deleteTempFiles": "தற்காலிக கோப்புகளை நீக்கு",
   "description": "விவரிக்க",
@@ -581,7 +596,7 @@
   "importYoutubeHistory": "YouTube வரலாற்றை இறக்குமதி செய்",
   "importYoutubeHistoryGuide": "1. {takeoutLink} க்குச் செல்லவும்\n\n2. \"பல வடிவங்கள்\" என்பதை அழுத்தி, \"வரலாறு\" என்பதற்கு அருகில் \"JSON\" என்பதைத் தேர்ந்தெடுக்கவும்.\n\n3. \"அனைத்து YouTube தரவும் சேர்க்கப்பட்டுள்ளது\" என்பதை அழுத்தி, அனைத்தையும் தேர்வுநீக்கி வரலாற்றை மட்டும் தேர்வு செய்யவும்.\n\n4. ஏற்றுமதியை உருவாக்கு, பதிவிறக்கு & அன்சிப் செய்யவும்.\n\n5. அடுத்த திரையில் இருந்து \"watch-history.json\" என்பதைத் தேர்ந்தெடுக்கவும்.",
   "importedNChannelsSuccessfully": "{number, plural, other{{number} சேனல்கள் வெற்றிகரமாக இறக்குமதி செய்யப்பட்டன}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} சேனல்கள் வெற்றிகரமாக இறக்குமதி செய்யப்பட்டது}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} சேனல்கள் வெற்றிகரமாக இறக்குமதி செய்யப்பட்டது}}",
   "includeVideos": "வீடியோக்களைச் சேர்க்கவும்",
   "indexRefreshRequired": "இதை மாற்றிய பின் புதுப்பிக்கவும்",
   "indexer": "குறியீட்டாளர்",

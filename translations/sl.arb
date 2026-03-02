@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -96,7 +102,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -104,13 +111,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -127,7 +138,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,10 +177,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -182,7 +196,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -210,7 +225,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -372,8 +387,8 @@
   "defaultLabel": "Privzeto",
   "defaultLibraryTab": "Privzeti zavihek knjižnice",
   "delete": "Izbriši",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Izbriši {filesCount} datoteko/e v skupni velikosti {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Trajno izbriši {number} iz shrambe}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Izbriši {count} datoteko/e v skupni velikosti {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Trajno izbriši {numberText} iz shrambe",
   "deletePlaylist": "Izbriši seznam predvajanja",
   "deleteTempFiles": "Izbriši začasne datoteke",
   "description": "Opis",
@@ -553,7 +568,7 @@
   "importYoutubeHistory": "Uvozi zgodovino YouTube",
   "importYoutubeHistoryGuide": "1. Pojdite na {takeoutLink}\n\n2. Pritisnite \"Multiple Formats\" in poleg \"History\" izberite \"JSON\".\n\n3. Pritisnite \"All Youtube data included\", prekličite izbor vsega in izberite samo zgodovino.\n\n4. Ustvarite izvoz, prenesite in razširite.\n\n5. Izberite \"watch-history.json\" na naslednjem zaslonu.",
   "importedNChannelsSuccessfully": "{number, plural, other{Uspešno uvoženih {number} kanalov}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{Uspešno uvoženih {number} seznamov predvajanja}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{Uspešno uvoženih {numberText} seznamov predvajanja}}",
   "includeVideos": "Vključi videe",
   "indexRefreshRequired": "Po spremembi osvežite knjižnico",
   "indexer": "Indeksirnik",

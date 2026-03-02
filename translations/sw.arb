@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -204,8 +208,8 @@
   "defaultLabel": "Chaguo la msingi",
   "defaultLibraryTab": "App ifunguke kwa",
   "delete": "Futa",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Futa {filesCount} file representing {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Futa kabisa {number} kutoka kwa simu yako}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Futa {count} file representing {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Futa kabisa {numberText} kutoka kwa simu yako",
   "deletePlaylist": "Futa Playlist",
   "deleteTempFiles": "Futa files temp",
   "description": "Maelezo",

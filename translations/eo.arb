@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -96,7 +102,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -104,13 +111,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -127,7 +138,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,10 +177,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -182,7 +196,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -210,7 +225,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -372,8 +387,8 @@
   "defaultLabel": "Defaŭlta",
   "defaultLibraryTab": "Defaŭlta biblioteka langeto",
   "delete": "Forigi",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Ĉu forigi {filesCount} dosieron reprezentantan {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Konstante forigi {number} el via stokado}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Ĉu forigi {count} dosieron reprezentantan {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Konstante forigi {numberText} el via stokado",
   "deletePlaylist": "Forigi ludliston",
   "deleteTempFiles": "Forigi tempajn dosierojn",
   "description": "Priskribo",
@@ -553,7 +568,7 @@
   "importYoutubeHistory": "Imposti Youtube Historion",
   "importYoutubeHistoryGuide": "1. Iru al {takeoutLink}\n\n2. Premu \"Multiple Formats\" kaj apud \"History\" elektu \"JSON\".\n\n3. Premu \"All Youtube data included\", Malelektu Ĉion kaj elektu nur historion.\n\n4. Kreu Eksporton, Elŝutu & Malzipigu.\n\n5. Elektu \"watch-history.json\" de la sekva ekrano.",
   "importedNChannelsSuccessfully": "{number, plural, other{Importis {number} kanalojn sukcese}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{Importis {number} ludlistojn sukcese}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{Importis {numberText} ludlistojn sukcese}}",
   "includeVideos": "Inkluzivi videojn",
   "indexRefreshRequired": "Faru refreŝigon post ŝanĝo de tio",
   "indexer": "Indeksilo",

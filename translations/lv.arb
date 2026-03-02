@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,7 +66,8 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -223,8 +228,8 @@
   "defaultLabel": "Noklusējuma",
   "defaultLibraryTab": "Noklusējuma bibliotēkas logs",
   "delete": "Izdzēst",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Izdzēst {filesCount} failu, kas satur {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Neatgriezeniski dzēst {number} no ierīces}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Izdzēst {count} failu, kas satur {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Neatgriezeniski dzēst {numberText} no ierīces",
   "deletePlaylist": "Izdēst sarakstu",
   "deleteTempFiles": "Izdēst pagaidu datu kopu",
   "description": "Apraksts",

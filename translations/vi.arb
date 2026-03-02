@@ -10,38 +10,42 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -55,17 +59,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -89,7 +95,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -97,13 +104,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -120,7 +131,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -158,10 +170,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -175,7 +189,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -203,7 +218,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -359,8 +374,8 @@
   "defaultLabel": "Mặc định",
   "defaultLibraryTab": "Thư viện mặc định",
   "delete": "Xoá",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Xóa {filesCount} tập tin để giải phóng {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Xóa vĩnh viễn {number} bài hát}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Xóa {count} tập tin để giải phóng {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Xóa vĩnh viễn {numberText} bài hát",
   "deletePlaylist": "Xoá danh sách phát",
   "deleteTempFiles": "Xóa tập tin tạm thời",
   "description": "Mô tả",
@@ -529,7 +544,7 @@
   "importYoutubeHistory": "Nhập lịch sử Youtube",
   "importYoutubeHistoryGuide": "1. Đi tới {takeoutLink}\n\n2. Nhấn \"Nhiều định dạng\" và bên cạnh \"Lịch sử\" chọn \"JSON\".\n\n3. nhấn \"Bao gồm tất cả dữ liệu trên Youtube\", Bỏ chọn Tất cả và chỉ chọn lịch sử.\n\n4. Tạo bản xuất, Tải xuống và giải nén.\n\n5. Chọn \"watch-history.json\" từ màn hình tiếp theo.",
   "importedNChannelsSuccessfully": "{number, plural, other{Đã nhập {number} kênh thành công}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{Đã nhập {number} danh sách phát thành công}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{Đã nhập {numberText} danh sách phát thành công}}",
   "includeVideos": "Bao gồm video",
   "indexRefreshRequired": "Thực hiện Làm mới sau khi thay đổi",
   "indexer": "Lập chỉ mục",

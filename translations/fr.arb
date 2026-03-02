@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -96,7 +102,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -104,13 +111,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -127,7 +138,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,10 +177,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -182,7 +196,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -224,7 +239,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -390,8 +405,8 @@
   "defaultLabel": "Par défaut",
   "defaultLibraryTab": "Onglet Bibliothèque par défaut",
   "delete": "Supprimer",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Supprimer {filesCount} fichier(s) d'une taille totale de {totalSize} ?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Supprimer définitivement {number} de votre stockage}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Supprimer {count} fichier(s) d'une taille totale de {totalSizeText} ?}}",
+  "deleteNTracksFromStorage": "Supprimer définitivement {numberText} de votre stockage",
   "deletePlaylist": "Supprimer la playlist",
   "deleteTempFiles": "Supprimer les fichiers temporaires",
   "description": "Description",
@@ -581,7 +596,7 @@
   "importYoutubeHistory": "Importer l'historique YouTube",
   "importYoutubeHistoryGuide": "1. Aller sur {takeoutLink}\n\n2. Appuyez sur \"Formats multiples\" et à côté de \"Historique\" choisissez \"JSON\".\n\n3. Appuyez sur \"Toutes les données YouTube incluses\", Désélectionnez tout et choisissez uniquement l'historique.\n\n4. Créez l'Exportation, Téléchargez et Décompressez\n\n5. Choisissez \"watch-history.json\" dans l'écran suivant.",
   "importedNChannelsSuccessfully": "{number, plural, other{{number} canaux importés avec succès}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} playlists importées avec succès}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} playlists importées avec succès}}",
   "includeVideos": "Inclure des vidéos",
   "indexRefreshRequired": "Actualisez la page après avoir modifié ceci",
   "indexer": "Indexeur",

@@ -10,38 +10,42 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -55,17 +59,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -89,7 +95,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -97,13 +104,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -120,7 +131,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -158,10 +170,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -175,7 +189,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -196,7 +211,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -355,8 +370,8 @@
   "defaultLabel": "Predefinito",
   "defaultLibraryTab": "Scheda libreria predefinita",
   "delete": "Elimina",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Delete {filesCount} file representing {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Cancella in modo permanente {number} dalla tua archiviazione}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Delete {count} file representing {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Cancella in modo permanente {numberText} dalla tua archiviazione",
   "deletePlaylist": "Elimina playlist",
   "deleteTempFiles": "Cancella file temporanei",
   "description": "Descrizione",
@@ -524,7 +539,7 @@
   "importYoutubeHistory": "Importa cronologia Youtube",
   "importYoutubeHistoryGuide": "1. Vai a {takeoutLink}\n\n2. Premi \"Multiple Formats\" e accanto a \"History\" scegli \"JSON\".\n\n3. Premi \"All Youtube data included\", deseleziona Tutto e scegli solo la cronologia.\n\n4. Crea esportazione, scarica e decomprimi.\n\n5. Scegli \"watch-history.json\" dalla prossima schermata.",
   "importedNChannelsSuccessfully": "{number, plural, other{Importo {number} canali correttamente}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{Imported {number} playlists successfully}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{Imported {numberText} playlists successfully}}",
   "includeVideos": "Includi video",
   "indexRefreshRequired": "Esegui un aggiornamento dopo aver cambiato questa impostazione",
   "indexer": "Indicizzatore",

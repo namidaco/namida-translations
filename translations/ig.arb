@@ -10,38 +10,42 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -55,17 +59,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -89,7 +95,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -97,6 +104,9 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
@@ -230,8 +240,8 @@
   "defaultLabel": "Ọdabara",
   "defaultLibraryTab": "Taabụ Ọba Egwu nke Ndabara",
   "delete": "Hichapụ",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Hichapụ {filesCount} faịlụ na-anọchi anya {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Hichapụ {number} na nchekwa gị kpamkpam}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Hichapụ {count} faịlụ na-anọchi anya {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Hichapụ {numberText} na nchekwa gị kpamkpam",
   "deletePlaylist": "Hichapụ Ndepụta Ọkpụkpọ",
   "deleteTempFiles": "Hichapụ faịlụ nwa oge",
   "description": "Nkọwa",
@@ -384,7 +394,7 @@
   "importYoutubeHistory": "Bubata Akụkọ Youtube",
   "importYoutubeHistoryGuide": "1. Gaa na {takeoutLink}\n\n2. Pịa \"Ọtụtụ Usoro\" na n'akụkụ \"Akụkọ\" họrọ \"JSON\".\n\n3. Pịa \"YouTube data niile ka agụnyere\", họpụta ha niile na họrọ naanị akụkọ.\n\n4. Mepụta mbupụ, mbudata & nwepụ.\n\n5. Họrọ \"watch-history.json\" site na ihuenyo dị n'ihu.",
   "importedNChannelsSuccessfully": "{number, plural, other{EBubatachago ọwa {number} nke ọma}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{EBubatachago ndepụta ọkpụkpọ {number} nke ọma}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{EBubatachago ndepụta ọkpụkpọ {numberText} nke ọma}}",
   "indexRefreshRequired": "Mee ume Ọhụrụ mgbe ịgbanwere nke a",
   "indexer": "Indexer",
   "indexerNote": "Mara: Ọnụọgụ Ọrụ Nka ezughị ezu na-ezo aka na nke emegharịrị & ahụghị Ọrụ Nka",

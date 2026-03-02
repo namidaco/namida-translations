@@ -10,38 +10,42 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -55,17 +59,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -89,7 +95,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -97,13 +104,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -120,7 +131,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -158,10 +170,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -175,7 +189,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -189,7 +204,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -343,8 +358,8 @@
   "defaultLabel": "Подразумевано",
   "defaultLibraryTab": "Подразумевана картица збирке",
   "delete": "Избриши",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Избрисати {filesCount} фајлова који представљају {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Трајно брисање {number} из своје меморије}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Избрисати {count} фајлова који представљају {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Трајно брисање {numberText} из своје меморије",
   "deletePlaylist": "Брисање плејлисте",
   "deleteTempFiles": "Избриши привремене фајлове",
   "description": "Опис",
@@ -510,7 +525,7 @@
   "importYoutubeHistory": "Увези YouTube историју",
   "importYoutubeHistoryGuide": "1. Идите на {takeoutLink}\n\n2. Притисните „Више формата“ и поред „Историја“ изаберите „JSON“.\n\n3. Притисните „Сви подаци са YouTube-а укључени“, опозовите избор свих и изаберите само историју.\n\n4. Направите извоз, преузмите и распакујте.\n\n5. Изаберите „watch-history.json“ са следећег екрана.",
   "importedNChannelsSuccessfully": "{number, plural, other{Увезено {number} канала успешно}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{Увезено {number} плејлиста успешно}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{Увезено {numberText} плејлиста успешно}}",
   "includeVideos": "Укључи видео снимке",
   "indexRefreshRequired": "Обавите освежавање након промене овога",
   "indexer": "Индексер",

@@ -10,21 +10,24 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -32,13 +35,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -196,7 +203,7 @@
   "highPerformance": "Hög prestanda",
   "home": "Hem",
   "importedNChannelsSuccessfully": "{number, plural, other{Importerade {number} kanaler utan problem}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{Importerade {number} spellistor utan proble,}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{Importerade {numberText} spellistor utan proble,}}",
   "indexer": "Indexerare",
   "indexerSubtitle": "Hantera ditt musikbibliotek",
   "libraryTabs": "Biblioteksflikar",

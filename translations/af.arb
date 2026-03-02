@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -96,7 +102,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -104,13 +111,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -127,7 +138,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,10 +177,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -182,7 +196,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -224,7 +239,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -389,8 +404,8 @@
   "defaultLabel": "Verstek",
   "defaultLibraryTab": "Verstek biblioteektab",
   "delete": "Verwyder",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{Verwyder {filesCount} lêer wat {totalSize} verteenwoordig?}}",
-  "deleteNTracksFromStorage": "{number, plural, other{Verwyder {number} permanent van jou stoor}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{Verwyder {count} lêer wat {totalSizeText} verteenwoordig?}}",
+  "deleteNTracksFromStorage": "Verwyder {numberText} permanent van jou stoor",
   "deletePlaylist": "Verwyder snitlys",
   "deleteTempFiles": "Verwyder tydelike lêers",
   "description": "Beskrywing",
@@ -578,7 +593,7 @@
   "importYoutubeHistory": "Voer Youtube-geskiedenis in",
   "importYoutubeHistoryGuide": "1. Gaan na {takeoutLink}\n\n2. Druk \"Multiple Formats\" en kies \"JSON\" langs \"History\".\n\n3. Druk \"All Youtube data included\", Ontkies Alles en kies slegs geskiedenis.\n\n4. Skep Uitvoer, Laai af & Pak uit.\n\n5. Kies \"watch-history.json\" op die volgende skerm.",
   "importedNChannelsSuccessfully": "{number, plural, other{{number} kanale suksesvol ingevoer}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} snitlyste suksesvol ingevoer}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} snitlyste suksesvol ingevoer}}",
   "includeVideos": "Sluit video's in",
   "indexRefreshRequired": "Doen 'n verfris na verandering hiervan",
   "indexer": "Indekseerder",

@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -96,7 +102,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -104,13 +111,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -127,7 +138,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,10 +177,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -182,7 +196,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -224,7 +239,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -390,8 +405,8 @@
   "defaultLabel": "За замовчуванням",
   "defaultLibraryTab": "Бібліотека за замовчуванням",
   "delete": "Видалити",
-  "deleteFileCacheSubtitle": "{filesCount, plural, one{Видалити {filesCount} файл, який займає {totalSize}?} other{Видалити {filesCount} файлів, які займають {totalSize}?}}",
-  "deleteNTracksFromStorage": "{number, plural, one{Назавжди видалити {number} трек зі сховища} other{Назавжди видалити {number} треків зі сховища}}",
+  "deleteFileCacheSubtitle": "{count, plural, one{Видалити {count} файл, який займає {totalSizeText}?} other{Видалити {count} файлів, які займають {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Назавжди видалити {numberText} зі сховища",
   "deletePlaylist": "Видалити плейлист",
   "deleteTempFiles": "Видалити тимчасові файли",
   "description": "Опис",
@@ -580,7 +595,7 @@
   "importYoutubeHistory": "Імпорт історії YouTube",
   "importYoutubeHistoryGuide": "1. Перейдіть за посиланням {takeoutLink}\n\n2. Натисніть «Декілька форматів» та навпроти «Історія» оберіть «JSON».\n\n3. Натисніть кнопку «Обрані всі дані YouTube», натисніть на «Скасувати вибір» та оберіть «Тільки історію».\n\n4. Створіть Експорт, завантажте та розархівуйте.\n\n5. На наступному екрані оберіть «watch-history.json».",
   "importedNChannelsSuccessfully": "{number, plural, one{{number} канал імпортовано успішно} other{{number} каналів імпортовано успішно}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, one{{number} плейлист імпортовано успішно} other{{number} плейлистів імпортовано успішно}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, one{{numberText} плейлист імпортовано успішно} other{{numberText} плейлистів імпортовано успішно}}",
   "includeVideos": "Включити відео",
   "indexRefreshRequired": "Виконайте оновлення після зміни цього параметра",
   "indexer": "Індексатор",

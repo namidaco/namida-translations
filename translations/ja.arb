@@ -10,14 +10,16 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -30,25 +32,27 @@
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
-      "filesCount": {
-        "type": "int"
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
       },
-      "totalSize": {
-        "type": "int"
+      "totalSizeText": {
+        "type": "String"
       }
     }
   },
   "@deleteNTracksFromStorage": {
     "placeholders": {
-      "number": {
-        "type": "int"
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -62,17 +66,19 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newTrackInfo": {
-        "type": "int"
+        "type": "String"
       },
       "oldTrackInfo": {
         "type": "String"
@@ -96,7 +102,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -104,13 +111,17 @@
     "placeholders": {
       "number": {
         "type": "int"
+      },
+      "numberText": {
+        "type": "String"
       }
     }
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -127,7 +138,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -165,10 +177,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       },
       "newFiles": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -182,7 +196,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int"
+        "type": "int",
+        "format": "decimalPattern"
       }
     }
   },
@@ -224,7 +239,7 @@
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
-        "type": "int"
+        "type": "String"
       },
       "oldName": {
         "type": "String"
@@ -333,7 +348,7 @@
   "clearImageCache": "画像キャッシュをクリア",
   "clearImageCacheWarning": "警告：画像のないライブラリが作成されます。画像キャッシュを再構築する場合にのみ使用してください。",
   "clearTrackItem": "トラックをクリア",
-  "clearTrackItemMultiple": "{count, plural, other{{count} 個のトラックをクリア}}",
+  "clearTrackItemMultiple": "{number, plural, other{{number} 個のトラックをクリア}}",
   "clearVideoCache": "映像キャッシュをクリア",
   "clearVideoCacheNote": "削除するものを選択してください。",
   "clock": "時計",
@@ -390,8 +405,8 @@
   "defaultLabel": "既定",
   "defaultLibraryTab": "既定のライブラリタブ",
   "delete": "削除",
-  "deleteFileCacheSubtitle": "{filesCount, plural, other{{totalSize}相当の、{filesCount}個のファイルを削除しますか？}}",
-  "deleteNTracksFromStorage": "{number, plural, other{ストレージから {number} を完全に削除}}",
+  "deleteFileCacheSubtitle": "{count, plural, other{{totalSizeText}相当の、{count}個のファイルを削除しますか？}}",
+  "deleteNTracksFromStorage": "ストレージから {numberText} を完全に削除",
   "deletePlaylist": "プレイリストを削除",
   "deleteTempFiles": "tempファイルを削除",
   "description": "説明",
@@ -581,7 +596,7 @@
   "importYoutubeHistory": "YouTubeの履歴をインポート",
   "importYoutubeHistoryGuide": "1. {takeoutLink} に移動します。\n\n2. 「複数の形式」を押して、「履歴」の横にある「JSON」を選択します。\n\n3. 「すべての YouTube データを含む」を押して、すべて選択を解除し、履歴のみを選択します。\n\n4. エクスポート、ダウンロード、解凍を作成します。\n\n5. 次の画面から「watch-history.json」を選択します。",
   "importedNChannelsSuccessfully": "{number, plural, other{{number} 個のチャンネルを正常にインポートしました}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, other{{number} 個のプレイリストを正常にインポートしました}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} 個のプレイリストを正常にインポートしました}}",
   "includeVideos": "動画を含める",
   "indexRefreshRequired": "このオプションを変更した後に更新が必要です",
   "indexer": "索引作成",
