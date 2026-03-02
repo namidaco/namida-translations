@@ -47,7 +47,31 @@
       }
     }
   },
+  "@countDays": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFolders": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countGenres": {
     "placeholders": {
       "count": {
         "format": "decimalPattern",
@@ -417,7 +441,10 @@
   "countAlbums": "{count, plural, one{{count} альбом} other{{count} альбомів}}",
   "countArtists": "{count, plural, one{{count} виконавець} other{{count} виконавців}}",
   "countComposers": "{count, plural, one{{count} композитор} other{{count} композиторів}}",
+  "countDays": "{count, plural, one{{count} день} other{{count} днів}}",
   "countFiles": "{count, plural, one{{count} файл} other{{count} файлів}}",
+  "countFolders": "{count, plural, one{{count} тека} other{{count} тек}}",
+  "countGenres": "{count, plural, one{{count} жанр} other{{count} жанрів}}",
   "country": "Країна",
   "coupon": "Купон",
   "create": "Створити",
