@@ -15,6 +15,46 @@
       }
     }
   },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countDays": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -373,6 +413,11 @@
   "couldntPlayFile": "ফাইল চালানো যায়নি",
   "couldntRenamePlaylist": "প্লেলিস্টের নাম পরিবর্তন করা যায়নি",
   "couldntSaveImage": "ছবি সংরক্ষণ করা যায়নি",
+  "countAlbumArtists": "{count, plural, one{{count} টি অ্যালবাম শিল্পী} other{{count} টি অ্যালবাম শিল্পী}}",
+  "countAlbums": "{count, plural, one{{count} টি অ্যালবাম} other{{count} টি অ্যালবাম}}",
+  "countArtists": "{count, plural, one{{count} জন শিল্পী} other{{count} জন শিল্পী}}",
+  "countComposers": "{count, plural, one{{count} জন সুরকার} other{{count} জন সুরকার}}",
+  "countDays": "{count, plural, one{{count} দিন} other{{count} দিন}}",
   "country": "দেশ",
   "coupon": "কুপন",
   "create": "তৈরি করুন",
