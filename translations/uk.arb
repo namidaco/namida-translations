@@ -873,7 +873,7 @@
   "noMoodsAvailable": "Настрої відсутні",
   "noNetworkAvailableToFetchData": "Немає доступу до мережі, щоб отримати дані",
   "noTracksFound": "Треки не знайдено",
-  "noTracksFoundBetweenDates": "Цей часовий проміжок не має треків.",
+  "noTracksFoundBetweenDates": "У цьому часовому діапазоні немає треків.",
   "noTracksFoundInDirectory": "У цьому каталозі не знайдено жодного треку",
   "noTracksInHistory": "У Вас недостатньо треків в історії",
   "nonActive": "Неактивний",
