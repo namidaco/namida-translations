@@ -79,6 +79,14 @@
       }
     }
   },
+  "@countMonths": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -445,6 +453,7 @@
   "countFiles": "{count, plural, one{{count} файл} other{{count} файлів}}",
   "countFolders": "{count, plural, one{{count} тека} other{{count} тек}}",
   "countGenres": "{count, plural, one{{count} жанр} other{{count} жанрів}}",
+  "countMonths": "{count, plural, one{{count} місяць} other{{count} місяців}}",
   "country": "Країна",
   "coupon": "Купон",
   "create": "Створити",
