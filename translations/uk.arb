@@ -95,6 +95,38 @@
       }
     }
   },
+  "@countSubscribers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribersShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTracks": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -463,6 +495,10 @@
   "countGenres": "{count, plural, one{{count} жанр} other{{count} жанрів}}",
   "countMonths": "{count, plural, one{{count} місяць} other{{count} місяців}}",
   "countPlaylists": "{count, plural, one{{count} плейлист} other{{count} плейлистів}}",
+  "countSubscribers": "{count, plural, one{{count} підписник} other{{count} підписників}}",
+  "countSubscribersShort": "{count, plural, one{{count} підписник} other{{count} підписників}}",
+  "countTracks": "{count, plural, one{{count} трек} other{{count} треків}}",
+  "countVideos": "{count, plural, one{{count} відео} other{{count} відео}}",
   "country": "Країна",
   "coupon": "Купон",
   "create": "Створити",
