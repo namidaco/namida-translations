@@ -510,7 +510,7 @@
   "createdBackupSuccessfullySub": "Резервная копия была создана успешно",
   "crossPlatformSync": "Кроссплатформенная синхронизация",
   "crossfadeDuration": "Длительность Затухающего перехода",
-  "crossfadeTriggerSeconds": "{seconds, plural, other{Автоматическое включение Затухающего перехода в последние {seconds} секунд}}",
+  "crossfadeTriggerSeconds": "Автоматическое включение Затухающего перехода за {seconds, plural, one{последнюю {seconds} секунду} few{последние {seconds} секунды} other{последние {seconds} секунд}}",
   "crossfadeTriggerSecondsDisabled": "Не запускать затухающий переход автоматически",
   "custom": "Пользовательский",
   "customizations": "Персонализация",
