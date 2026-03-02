@@ -639,6 +639,7 @@
   "enterSymbol": "Please Enter a Symbol",
   "equalizer": "Equalizer",
   "error": "Error",
+  "errorFetchingVideoList": "Error fetching video list",
   "errorPlayingTrack": "Error playing track",
   "excludedFodlers": "Excluded Folders",
   "exit": "Exit",
