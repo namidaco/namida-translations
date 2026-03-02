@@ -10,144 +10,144 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countAlbumArtists": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countAlbums": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countArtists": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countComposers": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countDays": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countFiles": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countFolders": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countGenres": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countMonths": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countPlaylists": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countSubscribers": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countSubscribersShort": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "compact"
+        "format": "compact",
+        "type": "int"
       }
     }
   },
   "@countTracks": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countVideos": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countViews": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@countViewsShort": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "compact"
+        "format": "compact",
+        "type": "int"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
@@ -161,8 +161,8 @@
   "@deleteFileCacheSubtitle": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       },
       "totalSizeText": {
         "type": "String"
@@ -179,8 +179,8 @@
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
@@ -194,16 +194,16 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       },
       "newTrackInfo": {
         "type": "String"
@@ -230,8 +230,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
@@ -248,8 +248,8 @@
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
@@ -266,8 +266,8 @@
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
@@ -305,12 +305,12 @@
   "@promptIndexingRefresh": {
     "placeholders": {
       "deletedFiles": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       },
       "newFiles": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
@@ -324,8 +324,8 @@
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
