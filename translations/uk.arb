@@ -15,6 +15,46 @@
       }
     }
   },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -373,6 +413,11 @@
   "couldntPlayFile": "Не вдалося відтворити файл",
   "couldntRenamePlaylist": "Не вдалося перейменувати плейлист",
   "couldntSaveImage": "Не вдалося зберегти зображення",
+  "countAlbumArtists": "{count, plural, one{{count} виконавець альбому} other{{count} виконавців альбому}}",
+  "countAlbums": "{count, plural, one{{count} альбом} other{{count} альбомів}}",
+  "countArtists": "{count, plural, one{{count} виконавець} other{{count} виконавців}}",
+  "countComposers": "{count, plural, one{{count} композитор} other{{count} композиторів}}",
+  "countFiles": "{count, plural, one{{count} файл} other{{count} файлів}}",
   "country": "Країна",
   "coupon": "Купон",
   "create": "Створити",
