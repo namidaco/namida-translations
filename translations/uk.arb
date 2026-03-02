@@ -135,6 +135,14 @@
       }
     }
   },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -508,6 +516,7 @@
   "countTracks": "{count, plural, one{{count} трек} other{{count} треків}}",
   "countVideos": "{count, plural, one{{count} відео} other{{count} відео}}",
   "countViews": "{count, plural, one{{count} перегляд} other{{count} переглядів}}",
+  "countViewsShort": "{count, plural, one{{count} перегляд} other{{count} переглядів}}",
   "country": "Країна",
   "coupon": "Купон",
   "create": "Створити",
