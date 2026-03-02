@@ -394,7 +394,7 @@
   "description": "Описание",
   "didYouMean": "Может, ты имел ввиду",
   "dimIntensity": "Интенсивность Затемнения",
-  "dimMiniplayerAfterSeconds": "Затемнять миниплеер после {seconds, plural, one {# секунду} few {# секунды} many {# секунд} other {# секунд}} бездействия",
+  "dimMiniplayerAfterSeconds": "Затемнять миниплеер после {seconds, plural, one{# секунды} other{# секунд}} бездействия",
   "directoryDoesntExist": "Каталог не существует",
   "disable": "Отключить",
   "disableAll": "Отключить все",
