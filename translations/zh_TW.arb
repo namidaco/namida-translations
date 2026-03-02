@@ -23,6 +23,13 @@
       }
     }
   },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
       "count": {
@@ -30,6 +37,13 @@
         "type": "int"
       },
       "totalSizeText": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "numberText": {
         "type": "String"
       }
     }
@@ -93,6 +107,16 @@
       }
     }
   },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
   "@minimumOneItemSubtitle": {
     "placeholders": {
       "number": {
@@ -142,6 +166,20 @@
       }
     }
   },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
@@ -160,13 +198,13 @@
     }
   },
   "about": "關於",
-  "active": "積極的",
+  "active": "啟用",
   "add": "新增",
   "addAccount": "新增帳號",
   "addAll": "新增全部",
-  "addAllAndRemoveOldOnes": "Add all and remove old ones",
+  "addAllAndRemoveOldOnes": "全部加入並移除舊曲目",
   "addAsANewPlaylist": "新增為新的播放清單",
-  "addAudioToLocalLibrary": "將音訊新增至本地庫",
+  "addAudioToLocalLibrary": "將音訊新增至媒體庫",
   "addFolder": "新增資料夾",
   "addLanguage": "新增語言",
   "addLanguageSubtitle": "協助將 Namida 翻譯成您的語言",
@@ -292,6 +330,9 @@
   "custom": "風俗",
   "customizations": "客製化",
   "customizationsSubtitle": "自訂您的播放器外觀,讓它成為您的",
+  "dataIsProvidedByName": "數據由 {name} 提供",
+  "dataSaver": "數據節省",
+  "dataSaverMode": "數據節省模式",
   "database": "資料庫",
   "date": "日期",
   "dateAdded": "新增日期",
@@ -308,18 +349,23 @@
   "defaultLibraryTab": "預設庫選項卡",
   "delete": "刪除",
   "deleteFileCacheSubtitle": "{count, plural, other{Delete {count} file representing {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "將從您的儲存空間中永久刪除 {numberText}",
   "deletePlaylist": "刪除播放清單",
   "deleteTempFiles": "Delete temp files",
   "description": "描述",
   "developer": "開發者",
   "development": "開發",
+  "didYouMean": "您是不是要找",
   "dimIntensity": "暗淡強度",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{不活動 {seconds} 秒後迷你播放器變暗}}",
   "directoryDoesntExist": "目錄不存在",
+  "disable": "停用",
+  "disableAll": "全部停用",
   "disableReordering": "禁用重新排序",
   "disableSearchCleanup": "停用搜尋清理",
   "discNumber": "光碟編號",
   "discNumberTotal": "光碟總數",
+  "discover": "發現",
   "dislike": "不喜歡",
   "dismissibleMiniplayer": "可關閉的迷你玩家",
   "displayAlbumCardTopRightDate": "專輯卡右上角日期",
@@ -401,13 +447,16 @@
   "failed": "失敗的",
   "failedEdits": "編輯失敗",
   "favourites": "收藏夾",
+  "features": "功能",
   "fetching": "抓取",
+  "fetchingOfAllVideos": "全部影片的快取",
   "file": "文件",
   "fileAlreadyExists": "文件已存在",
   "fileName": "檔案名稱",
   "fileNameWoExt": "不含副檔名的檔名",
   "filenameShouldntStartWith": "檔案名稱不應以",
   "files": "文件",
+  "filler": "湊數歌曲",
   "filterAlbums": "過濾相簿",
   "filterArtists": "篩選藝術家",
   "filterGenres": "過濾流派",
@@ -417,6 +466,7 @@
   "filteredBySizeAndDuration": "按大小和持續時間過濾的曲目",
   "finished": "完成的",
   "finishedUpdatingLibrary": "庫更新完成",
+  "firstListen": "初次聆聽",
   "fixYtdlpBigThumbnailSize": "修復 yt-dlp 大縮圖大小",
   "floatingActionButton": "浮動操作按鈕",
   "folder": "資料夾",
@@ -440,30 +490,38 @@
   "goToFolder": "轉到資料夾",
   "goodLooking": "好看",
   "grantStoragePermission": "授予儲存權限",
+  "group": "群組",
   "groupArtworksByAlbum": "按專輯分組藝術品",
   "guide": "指導",
   "heightOfAlbumTile": "相簿圖塊的高度",
   "heightOfTrackTile": "軌道瓦高度",
   "highMatches": "高比賽",
   "highPerformance": "高效能",
+  "highlight": "精華",
   "history": "歷史",
   "historyImportMissingEntriesNote": "這些條目在庫中找不到,如果您認為它們存在​​,請考慮手動添加它們",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} 監聽的 {oldTrackInfo} 將會替換為 {newTrackInfo},確認嗎?}}",
   "home": "家",
+  "hook": "鉤子",
+  "host": "主機",
   "hourFormat12": "12 小時制",
   "hours": "Hours",
   "iReadAndAgree": "我已閱讀並同意",
   "ifNotPlaying": "如果不玩的話",
   "ignoreBatteryOptimizationsSubtitle": "當應用程式電池受限時,下載可能會受到限制",
+  "ignoreCommonPrefixesWhileSorting": "排序時忽略常見前綴",
   "ignores": "忽略",
+  "imageSource": "影像來源",
   "immersiveMode": "沉浸式模式",
   "immersiveModeSubtitle": "迷你播放器展開時隱藏狀態與導覽列",
+  "import": "匯入",
   "importAll": "全部導入",
   "importLastFmHistory": "導入 LastFm 歷史記錄",
   "importLastFmHistoryGuide": "1. 前往{lastfmCsvLink}\n\n2.輸入您的用戶名,取得並下載 csv 檔案。\n\n3.從下一個畫面中選擇檔案。",
   "importTimeRange": "導入時間範圍",
   "importYoutubeHistory": "導入 YouTube 歷史記錄",
   "importYoutubeHistoryGuide": "1. 轉到{takeoutLink}\n\n2.按下“多種格式”,然後在“歷史記錄”旁選擇“JSON”。\n\n3.按“包含所有 Youtube 資料”,取消選擇全部並僅選擇歷史記錄。\n\n4.建立導出、下載和解壓縮。\n\n5.從下一個畫面中選擇“watch-history.json”。",
+  "includeVideos": "包含影片",
   "indexRefreshRequired": "更改後執行刷新",
   "indexer": "索引器",
   "indexerNote": "註:作品數量不全是指重複且未找到的作品",
@@ -473,6 +531,7 @@
   "info": "資訊",
   "inserted": "插入",
   "instantlyApplies": "立即適用",
+  "intro": "前奏",
   "invertSelection": "反轉選擇",
   "item": "物品",
   "jump": "跳",
@@ -486,8 +545,10 @@
   "keepScreenAwakeWhen": "保持螢幕喚醒時",
   "killPlayerAfterDismissingApp": "關閉應用程式後殺死玩家",
   "language": "語言",
+  "learnMore": "了解更多",
   "libraryTabs": "庫選項卡",
   "libraryTabsReorder": "您可以對已啟動的選項卡重新排序。",
+  "license": "執照",
   "like": "喜歡",
   "liked": "喜歡",
   "link": "關聯",
@@ -496,6 +557,9 @@
   "loadingFile": "載入文件",
   "local": "當地的",
   "localVideoMatching": "本地視訊匹配",
+  "login": "登錄",
+  "longPressAction": "長按動作",
+  "longPressTheLyricsToEnterFullscreen": "長按歌詞鍵以進入全螢幕",
   "lostMemories": "失去的記憶",
   "lostMemoriesSubtitle": "{number, plural, other{大約在 {number} 年前的這個時候}}",
   "loudnessEnhancer": "Loudness Enhancer",
@@ -504,8 +568,11 @@
   "lyricsSource": "Lyrics source",
   "m3uPlaylist": "M3U 播放列表",
   "makeYourFirstListen": "第一次聽！",
+  "manage": "管理",
+  "manageYourAccounts": "管理您的帳號",
   "manualBackup": "手動的",
   "manualBackupSubtitle": "選取一個特定的文件",
+  "markAsRead": "標示為以讀",
   "matchAllTracks": "匹配所有曲目",
   "matchAllTracksNote": "這可能會影響匹配速度,因為它將檢查您庫中的所有曲目",
   "matchingType": "配套類型",
@@ -513,6 +580,16 @@
   "maxImageCacheSize": "最大圖像快取大小",
   "maxVideoCacheSize": "最大視訊快取大小",
   "maximum": "最大限度",
+  "membershipCode": "驗證碼",
+  "membershipCodeSentToEmail": "驗證碼已送至您的 email",
+  "membershipDidntChange": "會員",
+  "membershipEnjoyNew": "享受您的新會員身分",
+  "membershipFreeCoupon": "免費折價券",
+  "membershipManage": "管理您的會員身分",
+  "membershipNoSubscriptionsFoundForUser": "沒在此用戶找到訂閱",
+  "membershipUnknown": "未知會員身分",
+  "membershipYouNeedMembershipOfToAddMultipleAccounts": "您需要 {name1} 或 {name2} 等級的會員身分來新增多個帳號",
+  "merge": "合併",
   "metadataCache": "元資料快取",
   "metadataEditFailed": "無法編輯元數​​據",
   "metadataReadFailed": "無法讀取元數據",
@@ -530,7 +607,10 @@
   "minutes": "分分鐘",
   "missingEntries": "缺少條目",
   "missingTracks": "Missing Tracks",
+  "mix": "合輯",
+  "mixPlaylistGeneratedByYoutube": "YouTube 生成的合輯播放清單",
   "mixes": "混合",
+  "mobile": "手機",
   "month": "月",
   "months": "幾個月",
   "mood": "情緒",
@@ -554,6 +634,7 @@
   "newTracksSimilarrReleaseDate": "類似的發布日期",
   "newTracksSimilarrReleaseDateSubtitle": "產生與 {currentTrack} 大約同時發布的曲目",
   "newTracksUnknownYear": "軌道年份未知",
+  "newest": "最新",
   "next": "Next",
   "no": "不",
   "noChangesFound": "沒有發現任何變化。",
@@ -568,10 +649,13 @@
   "nonActive": "不活躍",
   "nonFavourites": "Non-Favourites",
   "none": "沒有任何",
+  "normalizeAudio": "標準化音訊",
   "note": "筆記",
   "notification": "Notification",
+  "notifications": "通知",
   "numberOfTracks": "曲目數量",
   "ofLabel": "的",
+  "offlineSearch": "離線搜尋",
   "offset": "抵銷",
   "oldDirectory": "舊目錄",
   "oldDirectoryStillHasTracks": "舊目錄仍然有一些曲目,確認嗎?",
@@ -590,6 +674,7 @@
   "or": "或者",
   "others": "其他的",
   "output": "輸出",
+  "outro": "尾奏",
   "overrideOldFilesInTheSameFolder": "覆蓋同一資料夾中的舊文件",
   "palette": "調色盤",
   "paletteMix": "混合",
@@ -597,6 +682,7 @@
   "paletteSelectedMix": "精選組合",
   "parallelDownloads": "平行下載",
   "parsed": "解析的",
+  "password": "密碼",
   "path": "文件完整路徑",
   "pause": "暫停",
   "pauseFadeDuration": "暫停淡入淡出持續時間",
@@ -604,6 +690,8 @@
   "percentage": "百分比",
   "performanceMode": "性能模式",
   "performanceNote": "可能會影響性能",
+  "personalized": "個人化",
+  "personalizedRelatedVideosSubtitle": "停用這個會增加數據使用量",
   "pickColorsFromDeviceWallpaper": "從設備壁紙中選擇顏色",
   "pickFromStorage": "從倉庫中挑選",
   "pinned": "已固定",
@@ -620,6 +708,7 @@
   "playbackSettingSubtitle": "可以透過長按音訊按鈕直接在播放器中存取",
   "playlist": "播放清單",
   "playlists": "播放清單",
+  "playlistsImportM3uSyncedAutoImport": "自動匯入 M3U 播放清單",
   "pleaseEnterADifferentName": "該名稱已存在:(\n請嘗試另一個奇特的名稱",
   "pleaseEnterALink": "請輸入連結",
   "pleaseEnterALinkSubtitle": "嗯..這是一個 youtube 連結嗎?",
@@ -630,9 +719,11 @@
   "previousButtonReplays": "Previous button replays",
   "previousButtonReplaysSubtitle": "if pressed while current position was more than seek duration",
   "prioritizeEmbeddedLyrics": "優先考慮嵌入歌詞",
+  "private": "私人",
   "progress": "進步",
   "promptIndexingRefresh": "{newFiles} 已找到新檔案且 {deletedFiles} 已被刪除或過濾,想要刷新嗎?",
   "promptToChangeTrackPath": "通常當您刪除/移動/重命名 namida 以外的檔案時會發生這種情況,您想更新目前路徑嗎?",
+  "public": "公開",
   "queue": "佇列",
   "queues": "佇列",
   "random": "隨機的",
@@ -650,10 +741,13 @@
   "refreshLibrary": "重新整理庫",
   "refreshLibrarySubtitle": "檢查新新增或刪除的音樂",
   "refreshOnStartup": "Refresh on startup",
+  "relatedVideos": "相關影片",
   "rememberAudioOnlyMode": "記住純音訊模式",
   "remixer": "混音器",
   "remove": "消除",
   "removeDuplicates": "刪除重複項",
+  "removeFromFavourites": "從最愛中移除",
+  "removeFromLibrary": "從媒體庫中移除",
   "removeFromPlaylist": "從播放清單中刪除",
   "removeQueue": "刪除佇列",
   "removeSourceFromHistory": "從歷史記錄中刪除來源",
@@ -663,11 +757,13 @@
   "renamePlaylist": "重新命名播放列表",
   "reorderable": "可重新訂購",
   "repeatForNTimes": "{number, plural, other{再重複 {number} 次}}",
+  "repeatMode": "重複模式",
   "repeatModeAll": "重複所有隊列",
   "repeatModeNone": "停在最後一首曲目上",
   "repeatModeOne": "重複當前曲目",
   "replaceAllListensWithAnotherTrack": "將所有聆聽替換為另一首曲目",
   "replies": "回覆",
+  "reply": "回復",
   "requiresClearingImageCacheAndReIndexing": "需要清除圖像快取並重新索引",
   "rescanVideos": "重新掃描視頻",
   "resetBrightness": "重設亮度",
@@ -683,23 +779,29 @@
   "resumeIfWasInterrupted": "如果因中斷而暫停則恢復",
   "resumeIfWasPausedByVolume": "如果按音量暫停則恢復",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{Resume if was paused for less than {number} minutes}}",
+  "returnYoutubeDislike": "",
   "reverseOrder": "相反的順序",
   "ringtone": "Ringtone",
   "sameDirectoryOnly": "僅同一目錄",
+  "sample": "樣本",
   "sampleRate": "取樣率",
   "save": "節省",
+  "saveToLibrary": "存至媒體庫",
   "savedIn": "保存於",
   "scaleMultiplier": "規模乘數",
   "search": "搜尋",
   "searchYoutube": "搜尋 YouTube",
   "seconds": "秒",
+  "seeProjectCodeOnSite": "在 {site} 上查看專案程式碼",
   "seekDuration": "尋找持續時間",
   "seekDurationInfo": "您可以點擊當前持續時間向後搜索,點擊總持續時間向前搜索",
   "seekbar": "Seekbar",
   "selectAll": "全選",
   "selectedTracks": "精選曲目",
+  "selfPromotion": "自我推薦",
   "separatorsBlacklistSubtitle": "這些詞不會被分割",
   "separatorsMessage": "不需要插入空格,除非您想使用可以在整個單字中找到的字母/符號（例如 x 和 ft)。",
+  "serverAddress": "伺服器位置",
   "setAs": "Set as",
   "setAsDefault": "設為預設",
   "setFileLastModifiedAsVideoUploadDate": "將檔案上次修改日期設定為影片上傳日期",
@@ -711,16 +813,28 @@
   "settings": "設定",
   "setupFirstStartup": "設定首次啟動",
   "share": "分享",
+  "shortcuts": "捷徑",
   "shouldDuck": "應該躲避",
   "shouldDuckNote": "指示應降低音量。例如:通知",
   "shouldPause": "應該暫停",
   "shouldPauseNote": "表示應該暫停播放。例如:打電話",
+  "showAll": "顯示全部",
+  "showChannelWatermarkInFullscreen": "在全螢幕中顯示頻道浮水印",
   "showHideUnknownFields": "顯示/隱藏未知字段",
   "showMore": "展示更多",
+  "showSkipButton": "顯示跳過按鍵",
   "showWebm": "顯示 webm",
   "shuffle": "隨機播放",
   "shuffleAll": "全部隨機播放",
   "shuffleNext": "隨機播放下一個",
+  "signIn": "登錄",
+  "signInCanceled": "登錄被取消",
+  "signInFailed": "登入失敗",
+  "signInToYourAccount": "登錄您的帳號",
+  "signInYouDontHaveAccount": "您沒有已登錄的帳號",
+  "signInYouNeedAccountToViewPage": "您需要帳號來瀏覽此頁面",
+  "signOut": "登出",
+  "signOutFromName": "登出 {name}",
   "size": "尺寸",
   "skip": "跳過",
   "skipSilence": "跳過沉默",
