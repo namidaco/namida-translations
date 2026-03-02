@@ -10,7 +10,7 @@
 </a>
 
 ## 🧾 Steps:
-1. **head over [namida weblate](https://translate.codeberg.org/projects/namida-translations/namicomp/)**
+1. **head over [namida weblate](https://translate.codeberg.org/projects/namida-translations)**
 2. **start translating!**
 3. **after finishing, open an issue here with ur language details so it gets added to the final app**
 
