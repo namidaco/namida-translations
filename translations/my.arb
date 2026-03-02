@@ -3,7 +3,6 @@
   "about": "အကြောင်းအရာ",
   "active": "တည်ရှိမှု",
   "add": "ပေါင်းထည့်ခြင်း",
-  "added": "ပေါင်းထည့်ပြီး",
   "addAccount": "အကောင့်ဝင်ရန်",
   "addAll": "အကုန်‌ထည့်ရန်",
   "addAllAndRemoveOldOnes": "အကုန်ထည့်၍ရှိပြီးသားဟာများဖယ်ရှားရန်",
@@ -20,15 +19,16 @@
   "addOnlyMissing": "ပျောက်နေသောအရာများကိုထည့်ရန်",
   "addToFavourites": "နှစ်သက်မှုများထဲသို့ထည့်ရန်",
   "addToPlaylist": "သီချင်းအစီအစဉ်ထဲသို့ထည့်ရန်",
+  "added": "ပေါင်းထည့်ပြီး",
   "advanced": "အဆင့်မြင့်သောအရာများ",
   "advancedSettings": "အဆင့်မြှင့်ခြင်း",
   "advancedSettingsSubtitle": "အဆင့်မြင့်သောဆက်တင် (မဝင်ပါနှင့်)",
   "alarm": "နှိုးစက်",
   "album": "အယ်လ်ဘမ်",
-  "albums": "အယ်လ်ဘမ်များ",
-  "albumsCount": "အယ်လ်ဘမ်အရေအတွက်",
   "albumArtist": "အယ်လ်ဘမ်အဆိုတော်",
   "albumArtists": "အယ်လ်ဘမ်အဆိုတော်များ",
   "albumIdentifiers": "အယ်လ်ဘမ်များကိုခွဲခြားပေးသောအရာများ",
-  "albumThumbnailSizeInList": "အယ်လ်ဘမ်ရုပ်ပုံ၏အရွယ်အစား"
+  "albumThumbnailSizeInList": "အယ်လ်ဘမ်ရုပ်ပုံ၏အရွယ်အစား",
+  "albums": "အယ်လ်ဘမ်များ",
+  "albumsCount": "အယ်လ်ဘမ်အရေအတွက်"
 }
