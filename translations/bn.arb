@@ -639,6 +639,7 @@
   "enterSymbol": "দয়া করে একটি চিহ্ন দিন",
   "equalizer": "ইকুয়ালাইজার",
   "error": "ত্রুটি",
+  "errorFetchingVideoList": "ভিডিও তালিকা আনতে সমস্যা হচ্ছে",
   "errorPlayingTrack": "ট্র্যাক চালাতে ত্রুটি",
   "excludedFodlers": "বর্জিত ফোল্ডার",
   "exit": "প্রস্থান",
