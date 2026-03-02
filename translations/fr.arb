@@ -23,6 +23,22 @@
       }
     }
   },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -382,6 +398,8 @@
   "couldntRenamePlaylist": "Impossible de renommer la playlist",
   "couldntSaveImage": "Impossible d'enregistrer l'image",
   "countAlbumArtists": "{count, plural, one{{count} Album Artist} other{{count} Album Artists}}",
+  "countAlbums": "{count, plural, one{{count} Album} other{{count} Albums}}",
+  "countArtists": "{count, plural, one{{count} Artist} other{{count} Artists}}",
   "country": "Pays",
   "coupon": "Coupon",
   "create": "Créer",
