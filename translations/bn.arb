@@ -55,6 +55,14 @@
       }
     }
   },
+  "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -418,6 +426,7 @@
   "countArtists": "{count, plural, one{{count} জন শিল্পী} other{{count} জন শিল্পী}}",
   "countComposers": "{count, plural, one{{count} জন সুরকার} other{{count} জন সুরকার}}",
   "countDays": "{count, plural, one{{count} দিন} other{{count} দিন}}",
+  "countFiles": "{count, plural, one{{count} টি ফাইল} other{{count} টি ফাইল}}",
   "country": "দেশ",
   "coupon": "কুপন",
   "create": "তৈরি করুন",
