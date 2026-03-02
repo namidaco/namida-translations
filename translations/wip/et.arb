@@ -1,9 +1,15 @@
 {
   "@@locale": "et",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Rakenduse teave",
   "active": "Aktiivne",
   "add": "Lisa",
-  "added": "lisatud",
   "addAccount": "Lisa kasutajakonto",
   "addAll": "Lisa kõik",
   "addAllAndRemoveOldOnes": "Lisa kõik ja eemalda vanad",
@@ -17,28 +23,22 @@
   "addMoreFromThisArtist": "Lisa selle esitaja teisi palasid esitusjärjekorda",
   "addMoreFromThisFolder": "Lisa selle kausta teisi palasid esitusjärjekorda",
   "addMoreFromToQueue": "Lisa andmekandjalt {media} teisi palasid esitusjärjekorda",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Lisa vaid puuduolevad",
   "addToFavourites": "Lisa lemmikuks",
   "addToPlaylist": "Lisa esitusloendisse",
+  "added": "lisatud",
   "advanced": "Täiendavad seadistused",
   "advancedSettings": "Täiendavad seadistused",
   "advancedSettingsSubtitle": "Täiendavad seadistused, ära klõpsi",
   "alarm": "Äratuskell",
   "album": "Album",
-  "albums": "Albumid",
-  "albumsCount": "Albumite arv",
   "albumArtist": "Albumi esitaja",
   "albumArtists": "Albumi esitajad",
   "albumIdentifiers": "Albumi tunnused",
   "albumThumbnailSizeInList": "Albumi pisipildi suurus",
   "albumTileCustomization": "Albumiruutude kohendamine",
+  "albums": "Albumid",
+  "albumsCount": "Albumite arv",
   "all": "Kõik",
   "allTime": "Kogu ajavahemik",
   "always": "Alati",
@@ -71,8 +71,8 @@
   "comments": "Kommentaarid",
   "composer": "Helilooja",
   "compress": "Paki kokku",
-  "compressionPercentage": "Kokkupakkimise suhtarv",
   "compressImages": "Paki pildid kokku",
+  "compressionPercentage": "Kokkupakkimise suhtarv",
   "configure": "Seadista",
   "confirm": "Kinnita",
   "priority": "Prioriteet",
