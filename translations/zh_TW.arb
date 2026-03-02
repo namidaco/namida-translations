@@ -224,6 +224,7 @@
   "autoSkip": "自動略過",
   "autoSkipOnce": "自動略過一次",
   "autoStartRadio": "自動開始廣播",
+  "autoStartRadioSubtitle": "播放單曲後，自動建立混合推薦清單",
   "automaticBackup": "自動的",
   "automaticBackupSubtitle": "自動套用在備份位置中找到的最新備份文件",
   "backupAndRestore": "備份與復原",
