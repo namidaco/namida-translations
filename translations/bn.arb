@@ -111,6 +111,38 @@
       }
     }
   },
+  "@countTracks": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViews": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -481,6 +513,10 @@
   "countPlaylists": "{count, plural, one{{count} টি প্লেলিস্ট} other{{count} টি প্লেলিস্ট}}",
   "countSubscribers": "{count, plural, one{{count} জন সাবস্ক্রাইবার} other{{count} জন সাবস্ক্রাইবার}}",
   "countSubscribersShort": "{count, plural, one{{count} জন সাবস্ক্রাইবার} other{{count} জন সাবস্ক্রাইবার}}",
+  "countTracks": "{count, plural, one{{count} টি ট্র্যাক} other{{count} টি ট্র্যাক}}",
+  "countVideos": "{count, plural, one{{count} টি ভিডিও} other{{count} টি ভিডিও}}",
+  "countViews": "{count, plural, one{{count} বার দেখা হয়েছে} other{{count} বার দেখা হয়েছে}}",
+  "countViewsShort": "{count, plural, one{{count} বার দেখা হয়েছে} other{{count} বার দেখা হয়েছে}}",
   "country": "দেশ",
   "coupon": "কুপন",
   "create": "তৈরি করুন",
@@ -490,7 +526,7 @@
   "createdBackupSuccessfullySub": "ব্যাকআপ ফাইল সফলভাবে তৈরি করা হয়েছে",
   "crossPlatformSync": "ক্রস-প্ল্যাটফর্ম সিঙ্ক",
   "crossfadeDuration": "ক্রসফেড সময়কাল",
-  "crossfadeTriggerSeconds": "{seconds, plural, other{স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করুন শেষ {seconds} সেকেন্ডে}}",
+  "crossfadeTriggerSeconds": "{seconds, plural, one{শেষ {seconds} সেকেন্ডে স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করুন} other{শেষ {seconds} সেকেন্ডে স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করুন}}",
   "crossfadeTriggerSecondsDisabled": "স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করবেন না",
   "custom": "কাস্টম",
   "customizations": "কাস্টমাইজেশন",
@@ -522,7 +558,7 @@
   "development": "ডেভেলপমেন্ট",
   "didYouMean": "আপনি কি বোঝাতে চেয়েছেন",
   "dimIntensity": "ম্লান করার তীব্রতা",
-  "dimMiniplayerAfterSeconds": "{seconds, plural, other{নিষ্ক্রিয়তা থাকার {seconds} সেকেন্ড পর মিনিপ্লেয়ার ম্লান করুন}}",
+  "dimMiniplayerAfterSeconds": "{seconds, plural, one{{seconds} সেকেন্ড নিষ্ক্রিয় থাকার পর মিনিপ্লেয়ার ম্লান করুন} other{{seconds} সেকেন্ড নিষ্ক্রিয় থাকার পর মিনিপ্লেয়ার ম্লান করুন}}",
   "directoryDoesntExist": "ডিরেক্টরির অস্তিত্ব নেই",
   "disable": "নিষ্ক্রিয় করুন",
   "disableAll": "সব নিষ্ক্রিয় করুন",
@@ -703,7 +739,7 @@
   "importTimeRange": "ইম্পোর্ট সময় পরিসীমা",
   "importYoutubeHistory": "ইউটিউব ইতিহাস ইম্পোর্ট করুন",
   "importYoutubeHistoryGuide": "1. {takeoutLink} -এ যান।\n\n2. \"Multiple Formats\" -এ ক্লিক করুন এবং \"History\"-এর পাশে \"JSON\" অপশনটি বেছে নিন।\n\n3. \"All Youtube data included\" -এ ক্লিক করে সব ডি-সিলেক্ট (Deselect) করুন এবং শুধু \"history\" সিলেক্ট করুন।\n\n4. এক্সপোর্ট তৈরি করে ফাইলটি ডাউনলোড এবং আনজিপ (Unzip) করুন।\n\n5. পরবর্তী স্ক্রিন থেকে \"watch-history.json\" ফাইলটি বেছে নিন।",
-  "importedNChannelsSuccessfully": "{number, plural, other{{number} টি চ্যানেল সফলভাবে ইম্পোর্ট করা হয়েছে}}",
+  "importedNChannelsSuccessfully": "{number, plural, one{{number} টি চ্যানেল সফলভাবে ইম্পোর্ট করা হয়েছে} other{{number} টি চ্যানেল সফলভাবে ইম্পোর্ট করা হয়েছে}}",
   "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} টি প্লেলিস্ট সফলভাবে ইম্পোর্ট করা হয়েছে}}",
   "includeVideos": "ভিডিও অন্তর্ভুক্ত করুন",
   "indexRefreshRequired": "পরিবর্তনের পর একবার রিফ্রেশ করুন",
