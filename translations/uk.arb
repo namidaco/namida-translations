@@ -639,6 +639,7 @@
   "enterSymbol": "Будь ласка, введіть символ",
   "equalizer": "Еквалайзер",
   "error": "Помилка",
+  "errorFetchingVideoList": "Помилка при отриманні списку відео",
   "errorPlayingTrack": "Помилка відтворення треку",
   "excludedFodlers": "Виключені теки",
   "exit": "Вихід",
