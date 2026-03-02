@@ -1,9 +1,15 @@
 {
   "@@locale": "hu",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Namidáról",
   "active": "Aktív",
   "add": "Hozzáadás",
-  "added": "Hozzáadva",
   "addAccount": "Fiók hozzáadása",
   "addAll": "Összes hozzáadása",
   "addAllAndRemoveOldOnes": "Összes hozzáadása és a régiek kitörlése",
@@ -17,28 +23,22 @@
   "addMoreFromThisArtist": "Több hozzáadása ettől az előadótól a várólistához",
   "addMoreFromThisFolder": "Több hozzáadása ebből a mappából a várólistához",
   "addMoreFromToQueue": "Több hozzáadása ebből a(z) {media}-ból/ből a várólistához",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Csak a hiányzók hozzáadása",
   "addToFavourites": "Hozzáadás a kedvencekhez",
   "addToPlaylist": "Hozzáadás lejátszási listához",
+  "added": "Hozzáadva",
   "advanced": "Haladó",
   "advancedSettings": "Haladó beállítások",
   "advancedSettingsSubtitle": "Haladó beállítások, ne piszkáld",
   "alarm": "Ébresztő",
   "album": "Album",
-  "albums": "Albumok",
-  "albumsCount": "Albumok száma",
   "albumArtist": "Album előadója",
   "albumArtists": "Album előadói",
   "albumIdentifiers": "Album azonosítói",
   "albumThumbnailSizeInList": "Albumkép mérete",
   "albumTileCustomization": "Album panel szerkesztése",
+  "albums": "Albumok",
+  "albumsCount": "Albumok száma",
   "all": "Összes",
   "allTime": "Mindenkori",
   "always": "Mindig",
@@ -50,8 +50,8 @@
   "artist": "Előadó",
   "artists": "Előadók",
   "artwork": "Albumborító",
-  "artworks": "Albumborítók",
   "artworkGestures": "Albumborító interakciók",
+  "artworks": "Albumborítók",
   "audio": "Hang",
   "audioCache": "Hang cache",
   "audioOnly": "Csak hang",
