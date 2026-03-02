@@ -786,7 +786,7 @@
   "longPressAction": "লং-প্রেস অ্যাকশন",
   "longPressTheLyricsToEnterFullscreen": "ফুলস্ক্রিনে লিরিক্স দেখতে লং-প্রেস করুন",
   "lostMemories": "হারানো স্মৃতিসমূহ",
-  "lostMemoriesSubtitle": "{number, plural, other{{number} বছরের কাছাকাছি সময় আগের}}",
+  "lostMemoriesSubtitle": "{number, plural, one{{number} বছর আগে, প্রায় এই সময়ে} other{{number} বছর আগে, প্রায় এই সময়ে}}",
   "lostPartners": "পুরনো সাথী",
   "loudnessEnhancer": "লাউডনেস এনহ্যান্সার",
   "lyricist": "গীতিকার",
