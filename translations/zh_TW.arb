@@ -779,7 +779,6 @@
   "resumeIfWasInterrupted": "如果因中斷而暫停則恢復",
   "resumeIfWasPausedByVolume": "如果按音量暫停則恢復",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{Resume if was paused for less than {number} minutes}}",
-  "returnYoutubeDislike": "",
   "reverseOrder": "相反的順序",
   "ringtone": "Ringtone",
   "sameDirectoryOnly": "僅同一目錄",
