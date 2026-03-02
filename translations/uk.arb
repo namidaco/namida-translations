@@ -87,6 +87,14 @@
       }
     }
   },
+  "@countPlaylists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -454,6 +462,7 @@
   "countFolders": "{count, plural, one{{count} тека} other{{count} тек}}",
   "countGenres": "{count, plural, one{{count} жанр} other{{count} жанрів}}",
   "countMonths": "{count, plural, one{{count} місяць} other{{count} місяців}}",
+  "countPlaylists": "{count, plural, one{{count} плейлист} other{{count} плейлистів}}",
   "country": "Країна",
   "coupon": "Купон",
   "create": "Створити",
