@@ -15,6 +15,14 @@
       }
     }
   },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -358,6 +366,7 @@
   "couldntPlayFile": "Не удалось воспроизвести файл",
   "couldntRenamePlaylist": "Не удалось переименовать плейлист",
   "couldntSaveImage": "Не удалось сохранить изображение",
+  "countAlbums": "{count, plural, one{# Альбом} few{# Альбома} other{# Albums}}",
   "country": "Страна",
   "create": "Создать",
   "createBackup": "Создать Резервную копию",
