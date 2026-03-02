@@ -1,9 +1,15 @@
 {
   "@@locale": "sq",
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Rreth",
   "active": "Aktiv",
   "add": "Shto",
-  "added": "Shtuar",
   "addAccount": "Shto llogari",
   "addAll": "Shto të gjitha",
   "addAllAndRemoveOldOnes": "Shto të gjitha dhe hiq të vjetrat",
@@ -17,29 +23,23 @@
   "addMoreFromThisArtist": "Shto më shumë nga ky artist në radhë",
   "addMoreFromThisFolder": "Shto më shumë nga kjo dosje në radhë",
   "addMoreFromToQueue": "Shto më shumë nga {media} në radhë",
-  "@addMoreFromToQueue": {
-    "placeholders": {
-      "media": {
-        "type": "String"
-      }
-    }
-  },
   "addOnlyMissing": "Shto vetëm ato që mungojnë",
   "addToFavourites": "Shto te të preferuarat",
   "addToPlaylist": "Shto në listë dëgjimi",
   "addTracksAtTheBeginning": "Shto këngët në fillim",
+  "added": "Shtuar",
   "advanced": "Të avancuara",
   "advancedSettings": "Të avancuara",
   "advancedSettingsSubtitle": "Cilësimit e avancuara, mos i prekni",
   "alarm": "Alarm",
   "album": "Album",
-  "albums": "Albume",
-  "albumsCount": "Numri i albumeve",
   "albumArtist": "Artisti i albumit",
   "albumArtists": "Artistët e albumit",
   "albumIdentifiers": "Identifikuesit e albumit",
   "albumThumbnailSizeInList": "Madhësia e memories së albumit miniatura",
   "albumTileCustomization": "Personalizimi i pllakave të albumit",
+  "albums": "Albume",
+  "albumsCount": "Numri i albumeve",
   "all": "Të gjitha",
   "allTime": "Gjatë gjithë kohës",
   "alreadyExists": "Ekziston tashmë",
