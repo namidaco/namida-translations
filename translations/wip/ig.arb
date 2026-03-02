@@ -10,24 +10,24 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
       "count": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       },
       "totalSizeText": {
         "type": "String"
@@ -44,8 +44,8 @@
   "@dimMiniplayerAfterSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
@@ -59,16 +59,16 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       },
       "newTrackInfo": {
         "type": "String"
@@ -95,8 +95,8 @@
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
