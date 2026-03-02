@@ -10,24 +10,24 @@
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
   "@importedNChannelsSuccessfully": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
@@ -44,8 +44,8 @@
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
-        "type": "int",
-        "format": "decimalPattern"
+        "format": "decimalPattern",
+        "type": "int"
       }
     }
   },
