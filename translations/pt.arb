@@ -167,18 +167,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -750,7 +738,6 @@
   "priority": "Prioridade",
   "private": "Privado",
   "progress": "Progresso",
-  "promptIndexingRefresh": "{newFiles} arquivos novos encontrados e {deletedFiles} foram removidos ou filtrados, deseja atualizar?",
   "promptToChangeTrackPath": "Geralmente isto acontece quando você remove/move/renomeia o arquivo fora do Namida, você gostaria de atualizar caminho atual?",
   "public": "Público",
   "queue": "Fila",
