@@ -174,18 +174,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -785,7 +773,6 @@
   "priority": "Prioritato",
   "private": "Privata",
   "progress": "Progreso",
-  "promptIndexingRefresh": "{newFiles} novaj dosieroj estis trovitaj & {deletedFiles} estis forigitaj aŭ filtritaj, ĉu fari refreŝigon?",
   "promptToChangeTrackPath": "Kutime tio okazas kiam vi forigas/movas/alinomas la dosieron ekster namida, Ĉu vi volas ĝisdatigi nunan vojon?",
   "public": "Publika",
   "queue": "Vico",
