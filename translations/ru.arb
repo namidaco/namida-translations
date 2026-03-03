@@ -788,7 +788,7 @@
   "longPressTheLyricsToEnterFullscreen": "Долгое нажатие на текст песни активирует полноэкранный режим",
   "lostMemories": "Давно Прослушанное",
   "lostMemoriesSubtitle": "примерно в это время, {number, plural, one{{number} год} few{{number} года} other{{number} лет}} назад",
-  "lostPartners": "Потерянные Партнёры",
+  "lostPartners": "Архивный Микс",
   "loudnessEnhancer": "Усиление громкости",
   "lyricist": "Лирик",
   "lyrics": "Текст песни",
