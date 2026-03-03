@@ -167,18 +167,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -739,7 +727,6 @@
   "priority": "أولوية",
   "private": "خاص",
   "progress": "التقدم",
-  "promptIndexingRefresh": "تم العثور على {newFiles} من الملفات الجديدة وتم حذف {deletedFiles} أو تصفيته، هل تريد إجراء تحديث؟",
   "promptToChangeTrackPath": "يحدث هذا عادةً عند حذف/نقل/إعادة تسمية الملف خارج namida، هل ترغب في انعاش المسار الحالي؟",
   "public": "عام",
   "queue": "الانتظار",
