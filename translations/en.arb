@@ -302,18 +302,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -971,7 +959,6 @@
   "priority": "Priority",
   "private": "Private",
   "progress": "Progress",
-  "promptIndexingRefresh": "{newFiles} new files has been found & {deletedFiles} was deleted or filtered, wanna do a refresh?",
   "promptToChangeTrackPath": "Usually this happens when you delete/move/rename the file outside namida, Would you like to update current path?",
   "public": "Public",
   "queue": "Queue",
