@@ -167,18 +167,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -750,7 +738,6 @@
   "priority": "Prioritate",
   "private": "Privat",
   "progress": "Progres",
-  "promptIndexingRefresh": "{newFiles} fișiere noi au fost găsite și {deletedFiles} au fost șterse sau filtrate, vrei să faci o reîmprospătare?",
   "promptToChangeTrackPath": "De obicei asta se întâmplă când ștergi/muți/redenumești fișierul în afara namida. Vrei să actualizezi calea curentă?",
   "public": "Public",
   "queue": "Coadă",
