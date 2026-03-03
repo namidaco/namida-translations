@@ -167,18 +167,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -752,7 +740,6 @@
   "priority": "Prioritas",
   "private": "Pribadi",
   "progress": "Kemajuan",
-  "promptIndexingRefresh": "{newFiles} file baru telah ditemukan & {deletedFiles} telah dihapus atau difilter, ingin melakukan penyegaran?",
   "promptToChangeTrackPath": "Biasanya ini terjadi ketika Anda menghapus/memindahkan/mengganti nama file di luar namida, Apakah Anda ingin memperbarui jalur saat ini?",
   "public": "Publik",
   "queue": "Antrean",
