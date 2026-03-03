@@ -174,18 +174,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -822,7 +810,6 @@
   "priority": "Prioriteit",
   "private": "Privé",
   "progress": "Voortgang",
-  "promptIndexingRefresh": "Er zijn {newFiles} nieuwe bestanden aangetroffen en {deletedFiles} verwijderd of gefilterd. Wil je alles herladen?",
   "promptToChangeTrackPath": "Dit gebeurt meestal zodra je een bestand buiten Namida verwijdert, verplaatst of van naam wijzigt. Wil je de locatie bijwerken?",
   "public": "Openbaar",
   "queue": "Wachtrij",
