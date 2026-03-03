@@ -167,18 +167,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -730,7 +718,6 @@
   "priority": "Приоритет",
   "private": "Приватно",
   "progress": "Напредак",
-  "promptIndexingRefresh": "Пронађено је {newFiles} нових фајлова, а {deletedFiles} је избрисано или филтрирано, желите да освежите?",
   "promptToChangeTrackPath": "Обично се ово дешава када избришете/преместите/преименујете фајл ван апликације namida. Желите ли да ажурирате тренутну путању?",
   "public": "Јавно",
   "queue": "Редослед",
