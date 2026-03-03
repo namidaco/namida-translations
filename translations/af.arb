@@ -174,18 +174,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -818,7 +806,6 @@
   "priority": "Prioriteit",
   "private": "Privaat",
   "progress": "Vordering",
-  "promptIndexingRefresh": "{newFiles} nuwe lêers is gevind & {deletedFiles} is verwyder of gefiltreer, wil jy 'n verfris doen?",
   "promptToChangeTrackPath": "Gewoonlik gebeur dit wanneer jy die lêer buite namida verwyder/skuif/hernoem, Wil jy die huidige pad opdateer?",
   "public": "Publiek",
   "queue": "Tou",
