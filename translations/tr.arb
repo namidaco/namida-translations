@@ -174,18 +174,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -822,7 +810,6 @@
   "priority": "Öncelik",
   "private": "Özel",
   "progress": "İlerleme",
-  "promptIndexingRefresh": "{newFiles} yeni dosya bulundu ve {deletedFiles} silindi veya filtrelendi, yenilemek ister misiniz?",
   "promptToChangeTrackPath": "Genellikle bu, dosyayı Namida dışında sildiğiniz/taşıdığınız/yeni adlandırdığınız zaman olur, Mevcut yolu güncellemek ister misiniz?",
   "public": "Herkese Açık",
   "queue": "Kuyruk",
