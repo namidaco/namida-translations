@@ -167,18 +167,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -722,7 +710,6 @@
   "prioritizeEmbeddedLyrics": "내장된 가사 우선",
   "private": "비공개",
   "progress": "진행",
-  "promptIndexingRefresh": "{newFiles}개의 새 파일이 발견되었고 {deletedFiles}개가 삭제 또는 필터링되었습니다. 업데이트하시겠습니까?",
   "promptToChangeTrackPath": "일반적으로 이것은 namida 외부에서 파일을 삭제/이동/이름을 변경했을 때 발생합니다. 현재 경로를 업데이트 하시겠습니까?",
   "public": "공개",
   "queue": "대기열",
