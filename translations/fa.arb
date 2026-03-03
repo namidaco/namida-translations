@@ -157,18 +157,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -696,7 +684,6 @@
   "prioritizeEmbeddedLyrics": "به نمایش متن های درون خود فایل آهنگ اولویت بده",
   "private": "خصوصی",
   "progress": "پیشرفت",
-  "promptIndexingRefresh": "{newFiles} فایل جدید پیدا شد و {deletedFiles} حذف یا مرتب شد، میخوای بروزرسانی کنی؟",
   "promptToChangeTrackPath": "معمولاً زمانی اتفاق می اُفتد که فایل خارج از برنامه حذف/ویرایش نام/جابه جا میشود، مایل به بروزرسانی محل کنونی هستید؟",
   "public": "عمومی",
   "queue": "صف پخش",
