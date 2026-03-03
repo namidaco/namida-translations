@@ -167,18 +167,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -736,7 +724,6 @@
   "priority": "Ensisijaisuus",
   "private": "Yksityinen",
   "progress": "Edistyminen",
-  "promptIndexingRefresh": "{newFiles} uutta tiedostoa on löydettiin ja {deletedFiles} poistettiin tai suodatettiin; haluatko virkistää?",
   "promptToChangeTrackPath": "Yleensä näin tapahtuu, kun poistat/siirrät/nimeät uudelleen tiedoston namidan ulkopuolelle. Haluatko päivittää nykyisen polun?",
   "public": "Julkinen",
   "queue": "Jono",
