@@ -167,18 +167,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -749,7 +737,6 @@
   "priority": "Ưu tiên",
   "private": "Riêng tư",
   "progress": "Tiến độ",
-  "promptIndexingRefresh": "{newFiles} tệp mới đã được tìm thấy & {deletedFiles} đã bị xóa hoặc lọc, bạn có muốn làm mới không?",
   "promptToChangeTrackPath": "Thông thường điều này xảy ra khi bạn xóa/di chuyển/đổi tên tệp bên ngoài Namida. Bạn có muốn cập nhật đường dẫn hiện tại không?",
   "public": "Công khai",
   "queue": "Hàng đợi",
