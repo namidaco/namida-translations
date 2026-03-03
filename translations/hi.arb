@@ -171,18 +171,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -757,7 +745,6 @@
   "prioritizeEmbeddedLyrics": "Embedded गीतों को प्राथमिकता दें",
   "private": "निजी",
   "progress": "प्रगति",
-  "promptIndexingRefresh": "{newFiles} नई फ़ाइलें मिली हैं और {deletedFiles} हटा दी गई थीं या फ़िल्टर की गई थीं, क्या आप रीफ़्रेश करना चाहते हैं?",
   "promptToChangeTrackPath": "आमतौर पर ऐसा तब होता है जब आप फ़ाइल को Namida से बाहर निकालते हैं/स्थानांतरित करते हैं/नाम बदलते हैं, क्या आप वर्तमान पथ को अपडेट करना चाहते हैं?",
   "public": "जनता",
   "queue": "Queue",
