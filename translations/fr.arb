@@ -198,18 +198,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -849,7 +837,6 @@
   "priority": "Priorité",
   "private": "Privé",
   "progress": "Progression",
-  "promptIndexingRefresh": "{newFiles} de nouveaux fichiers ont été trouvés & {deletedFiles} a été supprimé ou filtré, voulez-vous faire une mise à jour ?",
   "promptToChangeTrackPath": "Cela se produit généralement lorsque vous supprimez/déplacez/renommez le fichier en dehors de namida, souhaitez-vous mettre à jour le chemin d'accès actuel ?",
   "public": "Publique",
   "queue": "File d'attente",
