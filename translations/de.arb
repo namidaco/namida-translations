@@ -174,18 +174,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -801,7 +789,6 @@
   "priority": "Priorität",
   "private": "Privat",
   "progress": "Fortschritt",
-  "promptIndexingRefresh": "{newFiles} neue Dateien wurden gefunden & {deletedFiles} wurde gelöscht oder gefiltert, willste eine Aktualisierung durchführen?",
   "promptToChangeTrackPath": "Normalerweise passiert dies, wenn du die Datei außerhalb von namida löscht/verschiebst/umbenennst. Möchtest du den aktuellen Pfad aktualisieren?",
   "public": "Öffentlich",
   "queue": "Warteschlange",
