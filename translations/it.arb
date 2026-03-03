@@ -167,18 +167,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -744,7 +732,6 @@
   "priority": "Priorità",
   "private": "Privato",
   "progress": "Progresso",
-  "promptIndexingRefresh": "Trovati {newFiles} nuovi file e {deletedFiles} eliminati o filtrati, vuoi aggiornare?",
   "promptToChangeTrackPath": "Di solito accade quando elimini/sposti/rinomini il file al di fuori di namida, vuoi aggiornare il percorso corrente?",
   "public": "Pubblico",
   "queue": "Coda",
