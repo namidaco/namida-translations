@@ -174,18 +174,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -822,7 +810,6 @@
   "priority": "优先级",
   "private": "私享",
   "progress": "进度",
-  "promptIndexingRefresh": "{newFiles} 个新文件已找到且 {deletedFiles} 个文件已被删除或过滤，您想要刷新吗？",
   "promptToChangeTrackPath": "通常，当您绕过 namida 删除、移动或重命名文件时会发生这种情况，您想更新当前路径吗？",
   "public": "公开",
   "queue": "队列",
