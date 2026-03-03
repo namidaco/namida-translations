@@ -174,18 +174,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -785,7 +773,6 @@
   "priority": "Prioriteta",
   "private": "Zasebno",
   "progress": "Napredek",
-  "promptIndexingRefresh": "Najdenih je {newFiles} novih datotek & {deletedFiles} je izbrisanih ali filtriranih, želite osvežiti?",
   "promptToChangeTrackPath": "Običajno se to zgodi, ko izbrišete/premaknete/preimenujete datoteko zunaj Namide. Želite posodobiti trenutno pot?",
   "public": "Javno",
   "queue": "Čakalna vrsta",
