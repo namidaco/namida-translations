@@ -302,18 +302,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -967,7 +955,6 @@
   "priority": "Пріоритет",
   "private": "Приватний",
   "progress": "Прогрес",
-  "promptIndexingRefresh": "Знайдено {newFiles} нових файлів, а {deletedFiles} видалено або відфільтровано, хочете оновити?",
   "promptToChangeTrackPath": "Зазвичай це відбувається, коли Ви видаляєте / переміщуєте / перейменовуєте файл поза Namida. Хочете оновити поточний шлях?",
   "public": "Публічний",
   "queue": "Черга",
