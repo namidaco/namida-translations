@@ -167,18 +167,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -750,7 +738,6 @@
   "priority": "Priorytet",
   "private": "Prywatny",
   "progress": "Postęp",
-  "promptIndexingRefresh": "{newFiles} nowych plików znaleziono i {deletedFiles} zostało usuniętych lub odfiltrowanych. Chcesz odświeżyć?",
   "promptToChangeTrackPath": "Zwykle dzieje się tak, gdy usuniesz/przeniesiesz/zmienisz nazwę pliku poza namida. Czy chcesz zaktualizować aktualną ścieżkę?",
   "public": "Publiczny",
   "queue": "Kolejka",
