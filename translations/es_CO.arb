@@ -105,6 +105,14 @@
       }
     }
   },
+  "@countSubscribersShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
   "@countTracks": {
     "placeholders": {
       "count": {
@@ -132,6 +140,14 @@
       },
       "numberText": {
         "type": "String"
+      }
+    }
+  },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
       }
     }
   },
@@ -504,9 +520,11 @@
   "countMonths": "{count, plural, one{{count} Mes} other{{count} Meses}}",
   "countPlaylists": "{count, plural, one{{count} Lista de reproducción} other{{count} Listas de reproducción}}",
   "countSubscribers": "{count, plural, one{{count} Suscriptor} other{{count} Subscriptores}}",
+  "countSubscribersShort": "{count, plural, one{{count} Suscriptor} other{{count} Suscriptores}}",
   "countTracks": "{count, plural, one{{count} Pista} other{{count} Pistas}}",
   "countVideos": "{count, plural, one{{count} Video} other{{count} Videos}}",
   "countViews": "{count, plural, one{{count} Vista} other{{count} Vistas}}",
+  "countViewsShort": "{count, plural, one{{count} Vista} other{{count} Vistas}}",
   "country": "País",
   "coupon": "Cupón",
   "create": "Crear",
@@ -516,7 +534,7 @@
   "createdBackupSuccessfullySub": "El archivo de copia de seguridad se ha creado correctamente",
   "crossPlatformSync": "Sincronización entre plataformas",
   "crossfadeDuration": "Duración del fundido cruzado",
-  "crossfadeTriggerSeconds": "{seconds, plural, one{Enciende el crossfade en el ultimo {seconds} segundo} other{Enciende el crossfade en los ultimos {seconds} segundos}}",
+  "crossfadeTriggerSeconds": "{seconds, plural, one{Enciende el crossfade en el ultimo {seconds} segundo} other{Enciende el crossfade en los últimos {seconds} segundos}}",
   "crossfadeTriggerSecondsDisabled": "No activar el crossfade entre canciones automáticamente",
   "custom": "A medida",
   "customizations": "Personalizaciones",
@@ -576,7 +594,7 @@
   "displayTrackNumberInAlbumPageSubtitle": "Mostrar un pequeño cuadro conteniendo el número de pista en la página del álbum",
   "doNothing": "No hacer nada",
   "donate": "Donar",
-  "donateSubtitle": "Si piensas apoyar al proyecto",
+  "donateSubtitle": "Por si deseas apoyar al proyecto^^",
   "done": "Hecho",
   "dontAskAgain": "no vuelvas a preguntar",
   "dontDim": "No oscurecer",
@@ -629,6 +647,7 @@
   "enterSymbol": "Por favor ingrese un símbolo",
   "equalizer": "Ecualizador",
   "error": "Error",
+  "errorFetchingVideoList": "Error al cargar la lista de vídeos",
   "errorPlayingTrack": "Error al reproducir la pista",
   "excludedFodlers": "Carpetas excluidas",
   "exit": "Salida",
@@ -654,12 +673,12 @@
   "fetchingOfAllVideos": "Recuperación de todos los vídeos",
   "file": "Archivo",
   "fileAlreadyExists": "El archivo ya existe",
-  "fileBasedServerWarning": "Los archivos se descargarán para indexarlos. Asegurate de tener una red estable.\nUsa redes Wi-Fi para evitar un alto uso de datos móviles.",
+  "fileBasedServerWarning": "Los archivos se descargarán temporalmente para indexar. Asegurate de tener una red estable.\nUsa redes Wi-Fi para evitar un alto uso de datos móviles.",
   "fileName": "Nombre del archivo",
   "fileNameWoExt": "Nombre de archivo sin extensión",
   "filenameShouldntStartWith": "El nombre del archivo no debería comenzar con",
   "files": "Archivos",
-  "filler": "Rellenar",
+  "filler": "Relleno",
   "filterAlbums": "Filtrar álbumes",
   "filterArtists": "Filtrar artistas",
   "filterGenres": "Filtrar géneros",
@@ -711,7 +730,7 @@
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} escuchas de {oldTrackInfo} será reemplazada por {newTrackInfo}, ¿Continuar?} other{{listensCount} escuchas {oldTrackInfo} será reemplazadas por {newTrackInfo}, ¿Continuar?}}",
   "home": "Inicio",
   "hook": "Enganche",
-  "host": "Anfitrion",
+  "host": "Host",
   "hourFormat12": "Formato de 12 horas",
   "hours": "Horas",
   "iReadAndAgree": "Leí y acepto",
@@ -777,7 +796,7 @@
   "longPressTheLyricsToEnterFullscreen": "Mantén presionada la letra para entrar en la pantalla completa",
   "lostMemories": "Recuerdos perdidos",
   "lostMemoriesSubtitle": "{number, plural, one{Hace {number} año, por estas horas} other{Hace {number} años, por estas horas}}",
-  "lostPartners": "Tus viejos aliados",
+  "lostPartners": "Tus aliados perdidos",
   "loudnessEnhancer": "Mejora de ganancia",
   "lyricist": "Letrista",
   "lyrics": "Letra",
@@ -865,7 +884,7 @@
   "noMoodsAvailable": "No hay estados de ánimo disponibles",
   "noNetworkAvailableToFetchData": "No hay conexión al internet para coleccionar los datos",
   "noTracksFound": "No se encontraron pistas",
-  "noTracksFoundBetweenDates": "Este rango de tiempo no tiene pistas.",
+  "noTracksFoundBetweenDates": "No hay pistas dentro de este rango de tiempo.",
   "noTracksFoundInDirectory": "No se encontraron canciones en este directorio",
   "noTracksInHistory": "No tienes suficientes canciones en el historial",
   "nonActive": "Inactivo",
