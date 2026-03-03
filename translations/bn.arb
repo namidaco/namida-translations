@@ -302,18 +302,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -967,7 +955,6 @@
   "priority": "অগ্রাধিকার",
   "private": "ব্যক্তিগত",
   "progress": "অগ্রগতি",
-  "promptIndexingRefresh": "{newFiles} টি নতুন ফাইল পাওয়া গেছে এবং {deletedFiles} টি ফাইল ফিল্টার/ডিলিট করা হয়েছে, আপনি কী রিফ্রেশ করতে চান?",
   "promptToChangeTrackPath": "সাধারণত এটি ঘটে যখন আপনি এই অ্যাপের বাইরে ফাইলটি ডিলিট, স্থানান্তর বা নাম পরিবর্তন করেন। আপনি কি বর্তমান পাথ (Path) আপডেট করতে চান?",
   "public": "সাধারণ",
   "queue": "কিউ",
