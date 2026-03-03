@@ -139,18 +139,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -717,7 +705,6 @@
   "prioritizeEmbeddedLyrics": "優先考慮嵌入歌詞",
   "private": "私人",
   "progress": "進步",
-  "promptIndexingRefresh": "{newFiles} 已找到新檔案且 {deletedFiles} 已被刪除或過濾,想要刷新嗎?",
   "promptToChangeTrackPath": "通常當您刪除/移動/重命名 namida 以外的檔案時會發生這種情況,您想更新目前路徑嗎?",
   "public": "公開",
   "queue": "佇列",
