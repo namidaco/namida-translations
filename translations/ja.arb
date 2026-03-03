@@ -174,18 +174,6 @@
       }
     }
   },
-  "@promptIndexingRefresh": {
-    "placeholders": {
-      "deletedFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      },
-      "newFiles": {
-        "format": "decimalPattern",
-        "type": "int"
-      }
-    }
-  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -820,7 +808,6 @@
   "priority": "優先度",
   "private": "プライベート",
   "progress": "進捗",
-  "promptIndexingRefresh": "{newFiles} 個の新しいファイルが見つかり、{deletedFiles} 個が削除またはフィルタリングされました。更新しますか?",
   "promptToChangeTrackPath": "通常、これは namida の外部でファイルを削除/移動/名前変更したときに発生します。現在のパスを更新しますか?",
   "public": "公開",
   "queue": "キュー",
