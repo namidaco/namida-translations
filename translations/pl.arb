@@ -360,6 +360,7 @@
   "customizations": "Dostosowanie",
   "customizationsSubtitle": "Dostosuj wygląd odtwarzacza, według własnego uznania",
   "dataIsProvidedByName": "Dane dostarcza: {name}",
+  "dataSaverMode": "Tryb oszczędzania danych",
   "database": "Baza danych",
   "date": "Data",
   "dateAdded": "Data dodania",
