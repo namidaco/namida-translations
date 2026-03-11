@@ -86,7 +86,7 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Language | Country | Contributors | Translation |
 |---|---|---|---|
 | Afrikaans | South Africa | [@BosnianPrince97](https://github.com/BosnianPrince97) | [`af.json`](translations/af.json) |
-| Afrikaans  | South Africa | [@BosnianPrince97](https://github.com/BosnianPrince97) | [`af.json`](translations/af.json) |
+| Arabic | Saudi Arabia | [@rex07](https://github.com/rex07), [@zakbnou](https://github.com/zakbnou) | [`ar.json`](translations/ar.json) |
 | Bangla  | Bangladesh | [@chayanforyou](https://github.com/chayanforyou), [@sagorxzx](https://github.com/sagorxzx) | [`bn.json`](translations/bn.json) |
 | Bosnian  | Bosnia | [@BosnianPrince97](https://github.com/BosnianPrince97) | [`bs.json`](translations/bs.json) |
 | Dutch  | Netherlands | [@Vistaus](https://github.com/Vistaus) | [`nl_NL.json`](translations/nl_NL.json) |
