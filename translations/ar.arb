@@ -15,11 +15,146 @@
       }
     }
   },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countDays": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFolders": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countGenres": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countMonths": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countPlaylists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribersShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTracks": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViews": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
         "format": "decimalPattern",
         "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -182,9 +317,23 @@
       }
     }
   },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
   "@signOutFromName": {
     "placeholders": {
       "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
         "type": "String"
       }
     }
@@ -241,7 +390,7 @@
   "albumsCount": "عدد الألبومات",
   "all": "الكل",
   "allTime": "كل الأوقات",
-  "alreadyExists": "موجود مسبقاً",
+  "alreadyExists": "موجود بالفعل",
   "always": "دائمًا",
   "alwaysAsk": "اسأل دائمًا",
   "alwaysDim": "خافت دائما",
@@ -273,7 +422,7 @@
   "autoStartRadio": "تشغيل تلقائي لليوتيوب",
   "autoStartRadioSubtitle": "يضيف قائمة تشغيل مختلطة تلقائيًا عند تشغيل مقطع واحد",
   "automaticBackup": "تلقائي",
-  "automaticBackupSubtitle": "يُطبِّق تلقائيًا أحدث ملف نسخ احتياطي موجود داخل موقع النسخ الاحتياطي.",
+  "automaticBackupSubtitle": "يُطبِّق تلقائيًا أحدث ملف نسخ احتياطي موجود داخل موقع النسخ الاحتياطي",
   "backupAndRestore": "النسخ الاحتياطي والاستعادة",
   "backupAndRestoreSubtitle": "النسخ الاحتياطي لقاعدة البيانات والإعدادات الخاصة بك",
   "balanced": "متوازن",
@@ -301,7 +450,7 @@
   "clearImageCache": "مسح ذاكرة التخزين المؤقت للصور",
   "clearImageCacheWarning": "تحذير: سيؤدي إلى مكتبة بدون صور، استخدمها فقط لإعادة بناء ذاكرة التخزين المؤقت للصور.",
   "clearTrackItem": "مسح المقاطع",
-  "clearTrackItemMultiple": "{number, plural, other{مسح {number} من المقاطع}}",
+  "clearTrackItemMultiple": "{number, plural, one{مسح المقطع} other{مسح {number} المقاطع}}",
   "clearVideoCache": "مسح ذاكرة التخزين المؤقت للفيديو",
   "clearVideoCacheNote": "يمكنك اختيار ما تريد حذفه.",
   "clock": "الساعة",
@@ -327,7 +476,24 @@
   "couldntPlayFile": "تعذر تشغيل الملف",
   "couldntRenamePlaylist": "تعذرت إعادة تسمية قائمة التشغيل",
   "couldntSaveImage": "تعذر حفظ الصورة",
+  "countAlbumArtists": "{count, plural, one{{count} فنان الألبوم} other{{count} فنانو الألبوم}}",
+  "countAlbums": "{count, plural, one{{count} ألبوم} other{{count} ألبومات}}",
+  "countArtists": "{count, plural, one{{count} فنان} other{{count} فنانون}}",
+  "countComposers": "{count, plural, one{{count} مؤلف} other{{count} مؤلفون}}",
+  "countDays": "{count, plural, one{{count} يوم} other{{count} أيام}}",
+  "countFiles": "{count, plural, one{{count} ملف} other{{count} ملفات}}",
+  "countFolders": "{count, plural, one{{count} سجل} other{{count} سجلات}}",
+  "countGenres": "{count, plural, one{{count} نوع} other{{count} أنواع}}",
+  "countMonths": "{count, plural, one{{count} شهر} other{{count} أشهر}}",
+  "countPlaylists": "{count, plural, one{{count} قائمة الموسيقى} other{{count} قوائم الموسيقى}}",
+  "countSubscribers": "{count, plural, one{{count} مشترك} other{{count} مشتركون}}",
+  "countSubscribersShort": "{count, plural, one{{count} مشترك} other{{count} مشتركون}}",
+  "countTracks": "{count, plural, one{{count} مقطع} other{{count} مقاطع}}",
+  "countVideos": "{count, plural, one{{count} فيديو} other{{count} فيديوهات}}",
+  "countViews": "{count, plural, one{{count} مشاهدة} other{{count} مشاهدات}}",
+  "countViewsShort": "{count, plural, one{{count} عرض} other{{count} عروض}}",
   "country": "البلد",
+  "coupon": "قسيمة",
   "create": "إنشاﺀ",
   "createBackup": "إنشاء نسخة احتياطية",
   "createNewPlaylist": "إنشاء قائمة تشغيل جديدة",
@@ -335,11 +501,14 @@
   "createdBackupSuccessfullySub": "تم إنشاء ملف النسخ الاحتياطي بنجاح",
   "crossPlatformSync": "مزامنة بين المنصات",
   "crossfadeDuration": "مدة التلاشي",
-  "crossfadeTriggerSeconds": "{seconds, plural, other{قم بتشغيل تأثير التلاشي المتقاطع تلقائيًا خلال {seconds} ثانية}}",
+  "crossfadeTriggerSeconds": "{seconds, plural, one{تفعيل الدمج التلقائي في آخر {seconds} ثانية} other{تفعيل الدمج التلقائي في آخر {seconds} ثوان}}",
   "crossfadeTriggerSecondsDisabled": "لا تقم بتشغيل التلاشي المتقاطع تلقائيًا",
   "custom": "مخصّص",
   "customizations": "تخصيصات",
   "customizationsSubtitle": "قم بتخصيص الشكل الذي يبدو عليه المشغل، اجعله خاصًا بك",
+  "dataIsProvidedByName": "يتم توفير البيانات من قبل:{name}",
+  "dataSaver": "موفر البيانات",
+  "dataSaverMode": "وضع توفير البيانات",
   "database": "قاعدة البيانات",
   "date": "التاريخ",
   "dateAdded": "تاريخ الاضافة",
@@ -359,16 +528,21 @@
   "deleteNTracksFromStorage": "احذف {numberText}نهائيًا من ذاكرة التخزين",
   "deletePlaylist": "حذف قائمة التشغيل",
   "deleteTempFiles": "حذف الملفات المؤقتة",
+  "deleted": "محذوف",
   "description": "الوصف",
+  "developer": "مطور",
+  "development": "تطوير",
   "didYouMean": "هل تقصد",
   "dimIntensity": "شدة التعتيم",
-  "dimMiniplayerAfterSeconds": "{seconds, plural, other{يتم تعتيم المشغل الصغير بعد {seconds} ثانية من عدم النشاط}}",
+  "dimMiniplayerAfterSeconds": "{seconds, plural, one{تعتيم المشغل الصغير بعد {seconds} ثانية من عدم النشاط} other{تعتيم المشغل الصغير بعد {seconds} ثوان من عدم النشاط}}",
   "directoryDoesntExist": "الدليل غير موجود",
+  "disable": "تعطيل",
   "disableAll": "تعطيل الكل",
   "disableReordering": "تعطيل إعادة الترتيب",
   "disableSearchCleanup": "تعطيل تنظيف البحث",
   "discNumber": "رقم القرص",
   "discNumberTotal": "اجمالي الأقراص",
+  "discover": "اكتشاف",
   "dislike": "لم يعجبني",
   "dismissibleMiniplayer": "مشغل صغير قابل للرفض",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "عرض الزمن الحالي بدلا من عرض الفرق الزمني",
@@ -378,14 +552,17 @@
   "displayArtworkOnLockscreen": "عرض العمل الفني على شاشة القفل",
   "displayAudioInfoInMiniplayer": "عرض معلومات الصوت",
   "displayFavButtonInNotification": "عرض زر المفضلة في شريط الإشعارات",
-  "displayFavButtonInNotificationSubtitle": "قد يتم ازاحة الصورة المصغرة",
+  "displayFavButtonInNotificationSubtitle": "قد يتم ازاحة الصورة المصغرة.",
   "displayFavouriteIconInTrackTile": "عرض زر المفضلة",
   "displayRemainingDurationInsteadOfTotal": "عرض المدة المتبقية بدلاً من الإجمالي",
+  "displayStopButtonInNotification": "عرض زر الإيقاف في الإشعار",
   "displayThirdItemInRowInTrackTile": "عرض العنصر الثالث في كل صف",
   "displayThirdRowInTrackTile": "عرض الصف الثالث",
   "displayTrackNumberInAlbumPage": "عرض رقم المقطع في صفحة الألبوم",
   "displayTrackNumberInAlbumPageSubtitle": "قم بعرض مربع صغير يحتوي على رقم المقطع في صفحة الألبوم",
   "doNothing": "لا تفعل شيئا",
+  "donate": "تبرع",
+  "donateSubtitle": "إذا كنت تعتقد أنه يستحق",
   "done": "تم",
   "dontAskAgain": "لا تسأل مرة اخرى",
   "dontDim": "لا تقم بالتعتيم",
@@ -409,6 +586,8 @@
   "email": "الإيميل",
   "emptyNonMeaningfulTagFields": "لديك حقول ذات قيم فارغة/ليست ذات معنى، تأكد من أنك تريد حقًا تعديلها",
   "emptyValue": "قيمة فارغة",
+  "enableArtworkCache": "تفعيل ذاكرة التخزين المؤقت للصور",
+  "enableArtworkCacheSubtitle": "تحميل أسرع وأداء محسّن، لكن يستخدم مساحة تخزين أكثر",
   "enableBlurEffect": "تفعيل تأثير الضبابية",
   "enableBottomNavBar": "تمكين شريط التنقل السفلي",
   "enableBottomNavBarSubtitle": "العناصر موجودة داخل الدرج في كلا الاتجاهين",
@@ -428,12 +607,15 @@
   "enablePartyModeSubtitle": "تطبيق تأثير التنفس للحافة",
   "enablePictureInPicture": "تمكين صورة داخل صورة",
   "enableReordering": "تمكين اعادة الترتيب",
+  "enableReturnYoutubeDislike": "تفعيل إرجاع زر عدم الإعجاب في يوتيوب",
   "enableSearchCleanup": "تمكين تنظيف البحث",
   "enableSearchCleanupSubtitle": "سيتم تجاهل كافة الرموز والمسافات",
+  "enableSponsorblock": "تفعيل SponsorBlock",
   "enableVideoPlayback": "تمكين تشغيل الفيديو",
   "enterSymbol": "الرجاء إدخال رمز",
   "equalizer": "معادل الصوت",
   "error": "خطأ",
+  "errorFetchingVideoList": "خلل في جلب قائمة الفيديوهات",
   "errorPlayingTrack": "خطأ أثناء تشغيل المسار",
   "excludedFodlers": "المجلدات المستبعدة",
   "exit": "خروج",
@@ -450,23 +632,28 @@
   "extractingInfo": "استخراج المعلومات",
   "extras": "إضافات",
   "extrasSubtitle": "إعدادات إضافية لتحسين تجربتك",
+  "extreme": "شديد",
   "failed": "فشل",
   "failedEdits": "تعديلات فاشلة",
   "favourites": "المفضلات",
+  "features": "ميزات",
   "fetching": "جلب",
   "fetchingOfAllVideos": "جلب جميع مقاطع الفيديو",
   "file": "ملف",
   "fileAlreadyExists": "الملف موجود بالفعل",
+  "fileBasedServerWarning": "سيتم تحميل الملفات مؤقتاً للفهرسة، تأكد من استقرار اتصالك.\nيُنصح باستخدام Wi-Fi لتجنب استهلاك البيانات العالي.",
   "fileName": "اسم الملف",
   "fileNameWoExt": "اسم الملف بدون امتداد",
   "filenameShouldntStartWith": "لا ينبغي أن يبدأ اسم الملف بـ",
   "files": "ملفات",
+  "filler": "ملء",
   "filterAlbums": "تصفية الألبومات",
   "filterArtists": "تصفية الفنانون",
   "filterGenres": "تصفية الأنواع",
   "filterPlaylists": "تصفية قوائم التشغيل",
   "filterTracks": "تصفية المقاطع",
   "filterTracksBy": "تصفية المقاطع في قوائم البحث حسب",
+  "filtered": "مُصفّى",
   "filteredBySizeAndDuration": "المسارات التي تمت تصفيتها حسب الحجم والمدة",
   "finished": "منتهي",
   "finishedUpdatingLibrary": "تم الانتهاء من تحديث المكتبة",
@@ -503,12 +690,16 @@
   "hapticFeedback": "رد الفعل بالأهتزاز",
   "heightOfAlbumTile": "ارتفاع بلاط الألبوم",
   "heightOfTrackTile": "ارتفاع بلاط المقطع",
+  "hideSkipButtonAfter": "إخفاء زر التخطي بعد",
   "highMatches": "مطابقات عالية",
   "highPerformance": "اداء عال",
+  "highlight": "تمييز",
   "history": "السجل",
   "historyImportMissingEntriesNote": "لا يمكن العثور على هذه الإدخالات داخل المكتبة، إذا كنت تعتقد أنها موجودة، فيرجى التفكير في إضافتها يدويًا",
-  "historyListensReplaceWarning": "{listensCount, plural, other{سيتم استبدال {listensCount} من عمليات الاستماع لـ {oldTrackInfo} بـ {newTrackInfo}، هل تؤكد ذلك؟}}",
+  "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} استماعة لـ {oldTrackInfo} سيتم استبدالها بـ {newTrackInfo}، هل تؤكد؟} other{{listensCount} استماعات لـ {oldTrackInfo} سيتم استبدالها بـ {newTrackInfo}، هل تؤكد؟}}",
   "home": "الرئيسية",
+  "hook": "خطاف",
+  "host": "مضيف",
   "hourFormat12": "صيغة ١٢ ساعة",
   "hours": "ساعات",
   "iReadAndAgree": "قرأت و أوافق",
@@ -526,7 +717,7 @@
   "importTimeRange": "استيراد النطاق الزمني",
   "importYoutubeHistory": "استيراد سجل اليوتيوب",
   "importYoutubeHistoryGuide": "1. انتقل إلى {takeoutLink}\n\n2. اضغط على \"تنسيقات متعددة\" وبجانب \"السجل\" اختر \"JSON\".\n\n3. اضغط على \"جميع بيانات يوتيوب متضمنة\"، وقم بإلغاء تحديد الكل واختر السجل فقط.\n\n4. إنشاء التصدير والتنزيل وفك الضغط.\n\n5. اختر \"watch-history.json\" من الشاشة التالية.",
-  "importedNChannelsSuccessfully": "{number, plural, other{تم استيراد {number} من القنوات بنجاح}}",
+  "importedNChannelsSuccessfully": "{number, plural, one{تم استيراد {number} قناة بنجاح} other{تم استيراد {number} قنوات بنجاح}}",
   "importedNPlaylistsSuccessfully": "{number, plural, other{تم استيراد {numberText} من قوائم التشغيل بنجاح}}",
   "includeVideos": "تضمين مقاطع الفيديو",
   "indexRefreshRequired": "قم بالتحديث بعد تغيير هذا",
@@ -538,7 +729,10 @@
   "info": "معلومات",
   "inserted": "تم إدراجها",
   "instantlyApplies": "تطبق على الفور",
+  "interactionReminder": "تذكير التفاعل",
+  "intro": "مقدمة",
   "invertSelection": "عكس التحديد",
+  "issues": "مشاكل",
   "item": "عنصر",
   "jump": "قفز",
   "jumpToDay": "اقفز الى اليوم",
@@ -551,8 +745,13 @@
   "keepScreenAwakeWhen": "إبقاء الشاشة مستيقظة عندما",
   "killPlayerAfterDismissingApp": "إغلاق المشغل بعد رفض التطبيق",
   "language": "اللغة",
+  "learnMore": "تعرّف على المزيد",
+  "leftAction": "الإجراء الأيسر",
+  "legacyAuthentication": "طريقة التسجيل القديمة",
   "libraryTabs": "تبويبات المكتبة",
   "libraryTabsReorder": "يمكنك إعادة ترتيب علامات التبويب النشطة.",
+  "license": "رخصة",
+  "licenseSubtitle": "الرخص والاتفاقيات المستخدمة من قبل Namida",
   "like": "إعجاب",
   "liked": "معجب",
   "link": "رابط",
@@ -561,9 +760,12 @@
   "loadingFile": "تجهيز الملف",
   "local": "محلي",
   "localVideoMatching": "مطابقة الفيديو المحلية",
+  "login": "الدخول",
+  "longPressAction": "فعل الضغط المطول",
   "longPressTheLyricsToEnterFullscreen": "اضغط مطولا على كلمات الاغنية للدخول على عرض الشاشة الكامل",
   "lostMemories": "ذكريات ضائعة",
-  "lostMemoriesSubtitle": "{number, plural, other{في مثل هذا الوقت تقريبًا، منذ {number} سنة}}",
+  "lostMemoriesSubtitle": "{number, plural, one{في هذا الوقت تقريباً، منذ {number} سنة} other{في هذا الوقت تقريباً، منذ {number} سنوات}}",
+  "lostPartners": "الشركاء المفقودون",
   "loudnessEnhancer": "محسن جهارة الصوت",
   "lyricist": "شاعر غنائي",
   "lyrics": "كلمات الاغنية",
@@ -583,6 +785,7 @@
   "maxVideoCacheSize": "الحد الأقصى لحجم ذاكرة التخزين المؤقت للفيديو",
   "maximum": "الأقصى",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "متجر الوسائط مفعل لن يكون له اي تاثير",
+  "medium": "متوسط",
   "membershipCode": "الرمز",
   "membershipCodeSentToEmail": "تم إرسال الرمز إلى بريدك الإلكتروني",
   "membershipDidntChange": "العضوية لم تتغير",
@@ -606,7 +809,8 @@
   "minimum": "الأدنى",
   "minimumOneFolderSubtitle": "يجب أن يكون هناك مجلد واحد على الأقل، أضف المزيد من المجلدات إذا كنت تريد إزالة هذا المجلد",
   "minimumOneItem": "تعذرت إزالة العنصر",
-  "minimumOneItemSubtitle": "{number, plural, other{يجب أن يبقى على الأقل {number} من العناصر}}",
+  "minimumOneItemSubtitle": "{number, plural, one{يجب أن يبقى على الأقل {number} عنصر} other{يجب أن يبقى على الأقل {number} من العناصر}}",
+  "minimumSegmentDuration": "الحد الأدنى لمدة القطعة",
   "miniplayerCustomization": "تخصيص المشغل الصغير",
   "minutes": "دقائق",
   "missingEntries": "مدخلات مفقودة",
@@ -614,6 +818,7 @@
   "mix": "خلط",
   "mixPlaylistGeneratedByYoutube": "خلط قائمة التشغيل التي تم إنشاؤها بواسطة يوتيوب",
   "mixes": "المخلوطة",
+  "mobile": "محمول",
   "month": "شهر",
   "months": "شهور",
   "mood": "مزاج",
@@ -621,10 +826,12 @@
   "more": "المزيد",
   "mostPlayed": "الأكثر تشغيلا",
   "multipleTracksTagsEditNote": "أنت على وشك تعديل هذه المقاطع،\nالمعطيات التي لم تتغير ستبقى دون تغيير.",
+  "musicOfftopic": "الموسيقى خارج الموضوع",
   "name": "الاسم",
   "nameContainsBadCharacter": "الاسم يحتوي على حرف غير صالح",
   "never": "ابداً",
   "newDirectory": "دليل جديد",
+  "newLabel": "جديد",
   "newTracksAdd": "إضافة المقاطع",
   "newTracksMoods": "مزاج",
   "newTracksMoodsSubtitle": "إنشاء المقاطع على أساس الحالة المزاجية المتاحة",
@@ -655,6 +862,8 @@
   "none": "لاشيء",
   "normalizeAudio": "موازنة الصوت",
   "normalizeAudioSubtitle": "موازنة مستوى الصوت من خلال قراءة علامة كسب الإعادة أو المعلومات المقدمة من يوتيوب",
+  "notAvailableForYourDevice": "غير متوفر على جهازك",
+  "notSupportedForNetworkFiles": "غير مدعوم للملفات الشبكية",
   "note": "ملاحظة",
   "notification": "الإشعارات",
   "notifications": "الإشعارات",
@@ -683,6 +892,7 @@
   "or": "او",
   "others": "أخرى",
   "output": "المخرجات",
+  "outro": "الخاتمة",
   "overrideOldFilesInTheSameFolder": "تجاوز الملفات القديمة في نفس المجلد",
   "palette": "مجموعة الألوان",
   "paletteMix": "مزج",
@@ -690,6 +900,7 @@
   "paletteSelectedMix": "المزيج المختار",
   "parallelDownloads": "التنزيلات الموازية",
   "parsed": "تحليل",
+  "password": "كلمة المرور",
   "path": "المسار الكامل للملف",
   "pause": "إيقاف مؤقت",
   "pauseFadeDuration": "مدة الإيقاف المؤقت للتلاشي",
@@ -723,6 +934,7 @@
   "pleaseEnterALink": "الرجاء إدخال الرابط",
   "pleaseEnterALinkSubtitle": "تخمين.. هل هذا رابط اليوتيوب؟",
   "pleaseEnterAName": "الرجاء إدخال اسم",
+  "port": "منفذ",
   "preventDuplicatedTracks": "منع المقاطع المكررة",
   "preventDuplicatedTracksSubtitle": "يستخدم اسم الملف لتحديد المقاطع بشكل فريد",
   "preview": "معاينة",
@@ -767,7 +979,7 @@
   "rename": "إعادة تسمية",
   "renamePlaylist": "إعادة تسمية قائمة التشغيل",
   "reorderable": "قابل لإعادة الترتيب",
-  "repeatForNTimes": "{number, plural, other{كرر ذلك لمدة {number} مرات أخرى}}",
+  "repeatForNTimes": "{number, plural, one{كرر لمدة {number} مرة أخرى} other{كرر لمدة {number} مرات أخرى}}",
   "repeatMode": "وضع التكرار",
   "repeatModeAll": "كرر كل قائمة الانتظار",
   "repeatModeNone": "توقف عند المقطع الأخير",
@@ -789,8 +1001,10 @@
   "resume": "استكمال",
   "resumeIfWasInterrupted": "استئناف إذا تم إيقافه مؤقتًا بسبب المقاطعة",
   "resumeIfWasPausedByVolume": "استئناف إذا تم إيقافه مؤقتًا حسب مستوى الصوت",
-  "resumeIfWasPausedForLessThanNMin": "{number, plural, other{استئناف إذا تم إيقافه مؤقتًا لمدة تقل عن {number} دقيقة}}",
+  "resumeIfWasPausedForLessThanNMin": "{number, plural, one{استئنف إذا تم الإيقاف المؤقت لأقل من {number} دقيقة} other{استئنف إذا تم الإيقاف المؤقت لأقل من {number} دقائق}}",
+  "returnYoutubeDislike": "استرجاع عدم الإعجاب على يوتيوب",
   "reverseOrder": "عكس الترتيب",
+  "rightAction": "فعل اليمين",
   "ringtone": "نغمة الرنين",
   "sameDirectoryOnly": "نفس الدليل فقط",
   "sample": "نموذج",
@@ -802,14 +1016,18 @@
   "search": "بحث",
   "searchYoutube": "ابحث في يوتيوب",
   "seconds": "ثواني",
+  "seeProjectCodeOnSite": "عرض كود المشروع على {site}",
   "seekDuration": "البحث عن المدة",
   "seekDurationInfo": "يمكنك النقر على المدة الحالية للبحث إلى الوراء والمدة الإجمالية للبحث إلى الأمام",
   "seekbar": "شريط التقدم",
   "selectAll": "تحديد الكل",
   "selectFilesAlreadyInLocalLibrary": "حدد الملفات الموجودة بالفعل في المكتبة المحلية",
   "selectedTracks": "المقاطع المختارة",
+  "selfPromotion": "الترويج الذاتي",
+  "semitones": "أنصاف النغمات",
   "separatorsBlacklistSubtitle": "لن يتم تقسيم هذه الكلمات",
   "separatorsMessage": "لا داعي لإدراج مسافات، إلا إذا كنت تريد استخدام حرف/رمز يمكن العثور عليه في كلمة كاملة (مثل x وft.)",
+  "serverAddress": "عنوان الخادم",
   "setAs": "تعيين كـ",
   "setAsDefault": "تعيين كافتراضي",
   "setFileLastModifiedAsVideoUploadDate": "قم بتعيين الملف الذي تم تعديله مؤخرًا كتاريخ تحميل الفيديو",
@@ -821,6 +1039,7 @@
   "settings": "الإعدادات",
   "setupFirstStartup": "إعداد أول بدء التشغيل",
   "share": "مشاركة",
+  "shareLogs": "مشاركة السجلات",
   "shortcuts": "اختصارات",
   "shouldDuck": "ينبغي بطة",
   "shouldDuckNote": "يشير إلى أنه ينبغي خفض مستوى الصوت. على سبيل المثال: الإشعار",
@@ -830,9 +1049,11 @@
   "showChannelWatermarkInFullscreen": "عرض العلامة المائية للقناة في وضع ملء الشاشة",
   "showFailedOnly": "اظهار المعطل فقط",
   "showHideUnknownFields": "إظهار/إخفاء الحقول غير المعروفة",
+  "showInSeekbar": "عرض في شريط البحث",
   "showMixPlaylistsIn": "عرض الخلط في",
   "showMore": "إظهار المزيد",
   "showShortVideosIn": "عرض الفيديوهات القصيرة في",
+  "showSkipButton": "إظهار زر التخطي",
   "showVideoEndcards": "عرض بطاقات نهاية الفيديو",
   "showWebm": "عرض webm",
   "shuffle": "خلط",
@@ -849,18 +1070,26 @@
   "signingInAllowsBasicUsage": "تسجيل الدخول يسمح بالاستخدام الأساسي",
   "signingInAllowsBasicUsageSubtitle": "احصل على الوصول المبكر من خلال باتريون أو باستخدام القسيمة",
   "similarDiscoverDate": "تاريخ أكتشاف مشابه",
-  "similarDiscoverDateSubtitle": "إنشاء مسارات صوتية أكتشفت في نفس وقت_المسار_الحالي",
+  "similarDiscoverDateSubtitle": "نشاء مقاطع تم اكتشافها في نفس الوقت تقريباً مثل {currentTrack}",
   "similarTimeRange": "مدة زمنية متشابهة",
-  "similarTimeRangeSubtitle": "إنشاء مسارات أستمعت إليها في نفس وقت_المسار_الحالي_",
+  "similarTimeRangeSubtitle": "إنشاء مسارات أستمعت إليها في نفس {currentTrack}",
   "singles": "اغانٍ فردية",
   "size": "الحجم",
   "skip": "تخط",
+  "skipCountTracking": "تتبع عدد القفزات",
   "skipSilence": "تخط الصمت",
+  "skipSponsorSegmentsInVideos": "تخطي فقرات الرعاة في الفيديوهات",
   "sleepAfter": "النوم بعد",
   "sleepTimer": "مؤقت النوم",
+  "socials": "وسائل التواصل",
+  "socialsSubtitle": "انضم إلينا على منصاتنا للحصول على آخر التحديثات والنصائح والمناقشات والأفكار",
+  "someWebServersRequireAuthentication": "تتطلب بعض خوادم الويب المصادقة. يرجى تحديث بيانات الاعتماد للحفاظ على إمكانية الوصول إلى مكتبتك.",
   "sortBy": "فرز حسب",
   "source": "المصدر",
   "speed": "السرعة",
+  "sponsor": "راعي",
+  "sponsorblock": "SponsorBlock",
+  "sponsorblockLeaderboard": "لوحة الصدارة لـ SponsorBlock",
   "staggeredAlbumGridView": "عرض الشبكة للألبوم المتداخل",
   "start": "بدء",
   "stats": "الإحصائيات",
@@ -871,20 +1100,25 @@
   "storagePermissionDenied": "تم رفض الإذن",
   "storagePermissionDeniedSubtitle": "يرجى السماح بالوصول لتتمكن من تنفيذ هذا الإجراء",
   "stretchLyricsDuration": "تمديد مدة كلمات الأغنية",
+  "subdirectory": "دليل فرعي",
   "subscribe": "اشتراك",
   "subscribed": "تم الإشتراك",
   "subscriber": "مُشترك",
   "subscribers": "مشتركون",
   "succeeded": "نجح",
+  "suggestionSubtitle": "هل لديك مشكلة أو اقتراح؟ افتح مشكلة على {site}",
   "support": "الدعم",
   "supremacy": "سيادة",
   "sussyBaka": "لا توجد مقاطع",
+  "swipeActions": "أفعال السحب",
   "swipeToOpenDrawer": "اسحب لفتح الدرج",
   "synced": "متزامن",
   "synopsis": "ملخص",
   "tagFields": "حقول العلامات",
   "tags": "العلامات",
+  "tapAction": "فعل النقر",
   "tapToSeek": "انقر للبحث",
+  "theFollowingChangesWereDetected": "تم الكشف عن التغييرات التالية",
   "themeMode": "وضع السمة",
   "themeModeDark": "غامق",
   "themeModeLight": "مضيء",
@@ -925,11 +1159,13 @@
   "tracks": "مقاطع",
   "tracksExcludedByNomedia": "المقاطع المستبعدة بواسطة .nomedia",
   "tracksInfo": "معلومات المقاطع",
+  "underrated": "مُقلَّل التقدير",
   "undo": "تراجع",
   "undoChanges": "تراجع عن التغييرات؟",
   "undoChangesDeletedPlaylist": "تراجع عن حذف قائمة التشغيل",
   "undoChangesDeletedQueue": "تراجع عن حذف قائمة الانتظار",
   "undoChangesDeletedTrack": "تراجع عن حذف المقطع",
+  "uniqueArtworkHash": "بصمة الفن الفريدة",
   "unlimited": "غير محدود",
   "unlisted": "غير مدرج",
   "unlock": "فتح القفل",
