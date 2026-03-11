@@ -361,7 +361,7 @@
   "couldntPlayFile": "Impossibile riprodurre il file",
   "couldntRenamePlaylist": "Impossibile rinominare la playlist",
   "couldntSaveImage": "Impossibile salvare l'immagine",
-  "countAlbums": "{conteggio, plurale, un{{conteggio} Album} altro{{conteggio} Album}",
+  "countAlbums": "{count, plural, one{{count} Album} other{{count} Album}}",
   "country": "Paese",
   "coupon": "Buono",
   "create": "Crea",
