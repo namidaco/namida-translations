@@ -1,1 +1,20 @@
-{}
+{
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "about": "حول",
+  "active": "نشط",
+  "add": "إضافة",
+  "addAccount": "إضافة حساب",
+  "addAll": "أضف الكل",
+  "addAllAndRemoveOldOnes": "أضف الكل وأحذف القديم",
+  "addAsANewPlaylist": "أضف كقائمة تشغيل جديدة",
+  "addAudioToLocalLibrary": "إضافة الصوت إلى المكتبة المحلية",
+  "addFolder": "إضافة مجلد",
+  "addLanguage": "إضافة لغة",
+  "addMoreFromToQueue": "أضف المزيد من الوسائط إلى قائمة الانتظار"
+}
