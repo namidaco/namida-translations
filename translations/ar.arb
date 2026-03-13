@@ -355,9 +355,9 @@
       }
     }
   },
-  "about": "عن",
+  "about": "حول",
   "active": "نشط",
-  "add": "اضافة",
+  "add": "إضافة",
   "addAccount": "إضافة حساب",
   "addAll": "أضف الكل",
   "addAllAndRemoveOldOnes": "أضف الكل وأحذف القديم",
@@ -370,7 +370,7 @@
   "addMoreFromThisAlbum": "أضف المزيد من هذا الألبوم إلى قائمة الانتظار",
   "addMoreFromThisArtist": "أضف المزيد من هذا الفنان إلى قائمة الانتظار",
   "addMoreFromThisFolder": "أضف المزيد من هذا المجلد إلى قائمة الانتظار",
-  "addMoreFromToQueue": "أضف المزيد من {media} إلى قائمة الانتظار",
+  "addMoreFromToQueue": "أضف المزيد من الوسائط إلى قائمة الانتظار",
   "addOnlyMissing": "أضف المفقودة فقط",
   "addToFavourites": "أضف إلى المفضلة",
   "addToPlaylist": "أضف إلى قائمة التشغيل",
