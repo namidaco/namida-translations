@@ -217,6 +217,13 @@
       }
     }
   },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
@@ -545,6 +552,7 @@
   "hideSkipButtonAfter": "Überspringen-Schaltfläche ausblenden nach",
   "highMatches": "Hohe Übereinstimmung",
   "highPerformance": "Hohe Leistung",
+  "highlight": "Markierung",
   "history": "Verlauf",
   "historyImportMissingEntriesNote": "Diese Einträge konnten in der Bibliothek nicht gefunden werden, füge sie bitte manuell hinzu, wenn du glaubst, dass sie existieren",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} hört auf {oldTrackInfo} wird durch {newTrackInfo} ersetzt, bestätigen?}}",
@@ -677,6 +685,7 @@
   "nameContainsBadCharacter": "Name enthält schlechtes Zeichen",
   "never": "Nie",
   "newDirectory": "Neues Verzeichnis",
+  "newLabel": "Neu",
   "newTracksAdd": "Titel hinzufügen",
   "newTracksMoods": "Stimmung",
   "newTracksMoodsSubtitle": "Titel basierend auf verfügbaren Stimmungen generieren",
@@ -922,6 +931,8 @@
   "skipSponsorSegmentsInVideos": "Sponsor-Segmente in Videos überspringen",
   "sleepAfter": "Danach schlafen",
   "sleepTimer": "Schlaftimer",
+  "socials": "Sozialen",
+  "socialsSubtitle": "Besuchen Sie uns auf Unseren Plattformen für Updates, Tipps, Diskussionen & Ideen",
   "sortBy": "Sortieren nach",
   "source": "Quelle",
   "speed": "Geschwindigkeit",
@@ -943,6 +954,7 @@
   "subscriber": "Abonnent",
   "subscribers": "Abonnenten",
   "succeeded": "Erfolgreich",
+  "suggestionSubtitle": "Haben Sie ein Problem oder einen Vorschlag? Öffnen Sie einen Problem auf {site}",
   "support": "Unterstützung",
   "supremacy": "Vorherrschaft",
   "sussyBaka": "Bruder, keine Titel",
@@ -1004,6 +1016,7 @@
   "unlimited": "Unendlich",
   "unlisted": "Ungelistet",
   "unlock": "Freischalten",
+  "unsubscribe": "Abmelden",
   "update": "Update",
   "updateDirectoryPath": "Verzeichnispfad updaten",
   "updateMissingTracksOnly": "Nur fehlende Titel aktualisieren",
