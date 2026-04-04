@@ -190,13 +190,6 @@
       }
     }
   },
-  "@seeProjectCodeOnSite": {
-    "placeholders": {
-      "site": {
-        "type": "String"
-      }
-    }
-  },
   "@signOutFromName": {
     "placeholders": {
       "name": {
@@ -204,23 +197,9 @@
       }
     }
   },
-  "@similarDiscoverDateSubtitle": {
-    "placeholders": {
-      "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
   "@similarTimeRangeSubtitle": {
     "placeholders": {
       "currentTrack": {
-        "type": "String"
-      }
-    }
-  },
-  "@suggestionSubtitle": {
-    "placeholders": {
-      "site": {
         "type": "String"
       }
     }
