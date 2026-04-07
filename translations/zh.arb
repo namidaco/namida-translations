@@ -481,6 +481,8 @@
   "configure": "配置",
   "confirm": "确认",
   "confirmRefresh": "确认刷新？",
+  "convertToM3UPlaylist": "转换为 M3U 播放列表",
+  "convertToNormalPlaylist": "转换为普通播放列表",
   "copiedArtwork": "已复制专辑封面",
   "copiedToClipboard": "已复制到剪贴板",
   "copy": "复制",
