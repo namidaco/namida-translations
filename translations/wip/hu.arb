@@ -7,6 +7,20 @@
       }
     }
   },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "numberText": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Namidáról",
   "active": "Aktív",
   "add": "Hozzáadás",
@@ -104,5 +118,36 @@
   "days": "Napok",
   "defaultColor": "Alapértelmezett szín",
   "defaultDownloadLocation": "Alapértelmezett letöltési hely",
-  "defaultLabel": "Alapértelmezett"
+  "defaultLabel": "Alapértelmezett",
+  "delete": "Törlés",
+  "deleteNTracksFromStorage": "{numberText} végleges törlése",
+  "deletePlaylist": "Lejátszási lista törlése",
+  "description": "Leírás",
+  "developer": "Fejlesztő",
+  "didYouMean": "Erre gondoltál",
+  "directoryDoesntExist": "Elérési út nem létezik",
+  "disable": "Kikapcsolás",
+  "discNumber": "Lemez szám",
+  "discNumberTotal": "Lemez összes",
+  "discover": "Felfedez",
+  "dislike": "Dislike",
+  "donate": "Adomány",
+  "done": "Kész",
+  "dontAskAgain": "Ne kérdezze többet",
+  "download": "Letöltés",
+  "downloadingWillOverrideIt": "Letöltés felül fogja írni",
+  "downloads": "Letöltések",
+  "duplicatedItemsAdding": "Olyan dolgot próbálsz hozzáadni a lejátszási listához ami már szerepel benne",
+  "edit": "Szerkesztés",
+  "email": "E-mail",
+  "emptyValue": "Üres Érték",
+  "views": "Megtekintések",
+  "volume": "Hangerő",
+  "warning": "Figyelem",
+  "week": "Hét",
+  "year": "Év",
+  "yes": "Igen",
+  "yourCurrentMembershipIs": "A jelenlegi tagságod {name}",
+  "youtube": "Youtube",
+  "youtubeMusic": "Youtube Music"
 }
