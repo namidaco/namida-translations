@@ -1214,7 +1214,7 @@
   "videoPlaybackSourceAutoSubtitle": "Esto dará prioridad a los videos locales, si no los encuentra, los buscará en YouTube",
   "videoPlaybackSourceLocal": "Videos locales",
   "videoPlaybackSourceLocalExampleSubtitle": "Alan Walker - Faded.m4a\nVideo Alan Walker - Faded (720p).mp4",
-  "videoPlaybackSourceLocalSubtitle": "Comprueba si algún archivo de vídeo (que se encuentra dentro de la lista de carpetas elegidas) tiene un nombre de archivo que contenga el nombre de archivo de la pista",
+  "videoPlaybackSourceLocalSubtitle": "Comprueba si algún archivo de vídeo (que se encuentre en la lista de carpetas seleccionadas) tiene un nombre de archivo que contenga el nombre de la pista",
   "videoPlaybackSourceYoutube": "De YouTube",
   "videoPlaybackSourceYoutubeSubtitle": "Comprueba el nombre del archivo y el comentario de la pista para ver si hay algún enlace de YouTube coincidente. Los videos se almacenan en caché para su uso posterior.",
   "videoQuality": "Calidad del video",
