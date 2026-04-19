@@ -1,1 +1,1177 @@
-{}
+{
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countDays": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFolders": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countGenres": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countMonths": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countPlaylists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribersShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTracks": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "totalSizeText": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "numberText": {
+        "type": "String"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "String"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "numberText": {
+        "type": "String"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "newFiles": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "about": "ስለ",
+  "active": "የሚሰራ",
+  "add": "ጨምር",
+  "addAccount": "አካውንት ጨምር",
+  "addAll": "ሁሉንም ጨምር",
+  "addAllAndRemoveOldOnes": "ሁሉንም ጨምርና አሮጌዎቹን አጥፋ",
+  "addAsANewPlaylist": "እንደ አዲስ ፕሌይሊስት ጨምር",
+  "addAudioToLocalLibrary": "ሙዚቃውን ስልክህ ውስጥ ጨምረው",
+  "addFolder": "ፎልደር ጨምር",
+  "addLanguage": "ቋንቋ ጨምር",
+  "addLanguageSubtitle": "Namida-ን ለመተርጎም እርዳን",
+  "addLrcFile": "LRC ፋይል ጨምር",
+  "addMoreFromThisAlbum": "ከዚህ አልበም ጨምር",
+  "addMoreFromThisArtist": "ከዚህ አርቲስት ጨምር",
+  "addMoreFromThisFolder": "ከዚህ ፎልደር ጨምር",
+  "addMoreFromToQueue": "ከ {media} ጨምር",
+  "addOnlyMissing": "የሌሉትን ብቻ ጨምር",
+  "addToFavourites": "ወደ ምርጦች ጨምር",
+  "addToPlaylist": "ወደ ፕሌይሊስት ጨምር",
+  "addTracksAtTheBeginning": "መጀመሪያ ላይ ጨምር",
+  "added": "ተጨምሯል",
+  "advancedSettings": "ዝርዝር",
+  "advancedSettingsSubtitle": "ዝርዝር ቅንብሮች (ባይነኩ ይሻላል)",
+  "alarm": "አላርም",
+  "album": "አልበም",
+  "albumArtist": "የአልበሙ አርቲስት",
+  "albumArtists": "የአልበም አርቲስቶች",
+  "albumIdentifiers": "የአልበም መለያዎች",
+  "albumThumbnailSizeInList": "የአልበም ምስል መጠን",
+  "albumTileCustomization": "የአልበም አቀራረብ ማስተካከያ",
+  "albums": "አልበሞች",
+  "albumsCount": "የአልበሞች ብዛት",
+  "all": "ሁሉንም",
+  "allTime": "ሁልጊዜ",
+  "alreadyExists": "ቀድሞም አለ",
+  "always": "ሁልጊዜ",
+  "alwaysAsk": "ሁልጊዜ ጠይቀኝ",
+  "alwaysDim": "ሁልጊዜ ደብዝዝ",
+  "alwaysExpandedSearchbar": "የፍለጋ ቦታው ሁሌ ክፍት ይሁን",
+  "alwaysRestore": "ሁልጊዜ መልስ",
+  "animatingThumbnailIntensity": "የምስል እንቅስቃሴ መጠን",
+  "animatingThumbnailInversed": "እንቅስቃሴውን ገልብጥ",
+  "animatingThumbnailInversedSubtitle": "ከፍተኛ ድምፅ ሲኖር ምስሉ ያንሳል",
+  "anotherProcessIsRunning": "ሌላ ስራ እየተሰራ ነው",
+  "appIcon": "የአፑ ምልክት",
+  "appVersion": "የአፑ ስሪት",
+  "artist": "አርቲስት",
+  "artists": "አርቲስቶች",
+  "artwork": "ምስል",
+  "artworkGestures": "በምስሉ ላይ የሚደረጉ ምልክቶች",
+  "artworks": "ምስሎች",
+  "audio": "ኦዲዮ",
+  "audioCache": "የኦዲዮ ካሽ",
+  "audioOnly": "ኦዲዮ ብቻ",
+  "auto": "ኦቶ",
+  "autoBackupInterval": "የኦቶ ባካፕ ጊዜ",
+  "autoColoring": "በራሱ ቀለም ቀይር",
+  "autoColoringSubtitle": "ከሙዚቃው ምስል ላይ ቀለሞችን መርጠህ ተጠቀም",
+  "autoExtractTagsFromFilename": "ከፋይሉ ስም መረጃ አውጣ",
+  "autoExtractTitleAndArtistFromVideoTitle": "ከቪዲዮው ስም አርቲስትና ርዕስ አውጣ",
+  "autoGenerated": "በራሱ የተፈጠረ",
+  "autoSkip": "በራሱ ዝለል",
+  "autoSkipOnce": "አንዴ ብቻ ዝለል",
+  "autoStartRadio": "ሬዲዮ በራሱ ይጀምር",
+  "autoStartRadioSubtitle": "አንድ ሙዚቃ ሲከፈት ተመሳሳይ ፕሌይሊስት ይፈጥራል",
+  "automaticBackup": "ኦቶማቲክ",
+  "automaticBackupSubtitle": "የመጨረሻውን ባካፕ በራሱ ይጠቀማል",
+  "backupAndRestore": "ባካፕ እና መመለሻ",
+  "backupAndRestoreSubtitle": "መረጃህንና ቅንብሮችህን ባካፕ አድርግ",
+  "balanced": "መካከለኛ",
+  "beta": "ቤታ",
+  "betweenDates": "በቀኖቹ መሃል",
+  "bitrate": "ቢትሬት",
+  "blacklist": "ጥቁር መዝገብ",
+  "borderRadiusMultiplier": "የጠርዙ ቅርጽ ማሳያ",
+  "cache": "ካሽ",
+  "cancel": "ተወው",
+  "canceled": "ተትቷል",
+  "changed": "ተቀይሯል",
+  "changelog": "የለውጥ መዝገብ",
+  "changelogSubtitle": "በአዲሱ Namida ውስጥ ምን እንደተጨመረ እይ",
+  "channel": "ቻናል",
+  "channels": "ቻናሎች",
+  "check": "አረጋግጥ",
+  "checkForMore": "ተጨማሪ ፈልግ",
+  "checkList": "ዝርዝሩን አረጋግጥ",
+  "choose": "ምረጥ",
+  "chooseWhatToClear": "ምን እንዲጠፋ ትፈልጋለህ?",
+  "claim": "ጠይቅ",
+  "clear": "አጽዳ",
+  "clearAudioCache": "የኦዲዮ ካሽ አጽዳ",
+  "clearImageCache": "የምስል ካሽ አጽዳ",
+  "clearImageCacheWarning": "ማስጠንቀቂያ፦ ምስሎችን በሙሉ ያጠፋል",
+  "clearTrackItem": "ሙዚቃውን አጽዳ",
+  "clearTrackItemMultiple": "{number} ሙዚቃዎችን አጽዳ",
+  "clearVideoCache": "የቪዲዮ ካሽ አጽዳ",
+  "clearVideoCacheNote": "የምትፈልገውን መርጠህ ማጥፋት ትችላለህ",
+  "clock": "ሰዓት",
+  "colorPalette": "የቀለም ምርጫ",
+  "colorPaletteNote1": "ቀለሙን ለማጥፋት ጫን አድርገህ ያዘው",
+  "colorPaletteNote2": "ለተለመደው ቀለም ሚክሱን ንካው",
+  "colorPalettes": "የቀለም ምርጫዎች",
+  "comment": "አስተያየት",
+  "comments": "አስተያየቶች",
+  "composer": "አቀናባሪ",
+  "compress": "አሳንስ",
+  "compressImages": "ምስሎችን አሳንስ",
+  "compressionPercentage": "የማሳነሻ ፐርሰንት",
+  "configure": "አስተካክል",
+  "confirm": "አረጋግጥ",
+  "copiedArtwork": "ምስሉ ኮፒ ተደርጓል",
+  "copiedToClipboard": "ኮፒ ተደርጓል",
+  "copy": "ኮፒ",
+  "corruptedFile": "ፋይሉን ማንበብ አልተቻለም፤ ተበላሽቶ ሊሆን ይችላል",
+  "couldntOpen": "መክፈት አልተቻለም :(",
+  "couldntOpenYtLink": "ለዚህ ሙዚቃ የዩቲዩብ ሊንክ የለም",
+  "couldntPlayFile": "ፋይሉን ማጫወት አልተቻለም",
+  "couldntRenamePlaylist": "የፕሌይሊስቱን ስም መቀየር አልተቻለም",
+  "couldntSaveImage": "ምስሉን ማስቀመጥ አልተቻለም",
+  "countAlbumArtists": "{count} የአልበም አርቲስቶች",
+  "countAlbums": "{count} አልበሞች",
+  "countArtists": "{count} አርቲስቶች",
+  "countComposers": "{count} አቀናባሪዎች",
+  "countDays": "{count} ቀናት",
+  "countFiles": "{count} ፋይሎች",
+  "countFolders": "{count} ፎልደሮች",
+  "countGenres": "{count} አይነቶች",
+  "countMonths": "{count} ወራት",
+  "countPlaylists": "{count} ፕሌይሊስቶች",
+  "countSubscribersShort": "{count} ሰብስክራይበሮች",
+  "countTracks": "{count} ሙዚቃዎች",
+  "countVideos": "{count} ቪዲዮዎች",
+  "countViewsShort": "{count} እይታዎች",
+  "country": "ሀገር",
+  "coupon": "ኩፖን",
+  "create": "ፍጠር",
+  "createBackup": "ባካፕ ፍጠር",
+  "createNewPlaylist": "አዲስ ፕሌይሊስት ፍጠር",
+  "createdBackupSuccessfully": "ባካፕ ተፈጥሯል",
+  "createdBackupSuccessfullySub": "ባካፕ ፋይሉ በደንብ ተፈጥሯል",
+  "crossPlatformSync": "በተለያዩ መሳሪያዎች ማመሳሰል",
+  "crossfadeDuration": "የማመሳሰያ ጊዜ",
+  "crossfadeTriggerSeconds": "በመጨረሻዎቹ {seconds} ሰከንዶች ውስጥ አመሳስል",
+  "crossfadeTriggerSecondsDisabled": "በራሱ አታመሳስል",
+  "custom": "ምርጫዬ",
+  "customizations": "ማስተካከያዎች",
+  "customizationsSubtitle": "የፕሌየሩን መልክ እንደፈለግክ አድርገው",
+  "dataIsProvidedByName": "መረጃው የቀረበው በ {name} ነው",
+  "dataSaver": "ዳታ ቆጣቢ",
+  "dataSaverMode": "ዳታ ቆጣቢ ሞድ",
+  "database": "ዳታቤዝ",
+  "date": "ቀን",
+  "dateAdded": "የተጨመረበት ቀን",
+  "dateCreated": "የተፈጠረበት ቀን",
+  "dateModified": "የተቀየረበት ቀን",
+  "dateTimeFormat": "የቀንና ሰዓት አቀራረብ",
+  "day": "ቀን",
+  "days": "ቀናት",
+  "defaultBackupLocation": "የባካፕ ቦታ",
+  "defaultColor": "የተለመደው ቀለም",
+  "defaultColorSubtitle": "ለፕሌየሩ የሚሆን ቀለም ምረጥ",
+  "defaultDownloadLocation": "የዳውንሎድ ቦታ",
+  "defaultLabel": "የተለመደው",
+  "defaultLibraryTab": "የመጀመሪያው ገጽ",
+  "delete": "አጥፋ",
+  "deleteFileCacheSubtitle": "{totalSizeText} የሚመዝኑ {count} ፋይሎችን ላጥፋ?",
+  "deleteNTracksFromStorage": "{numberText}-ን ከስልኩ ላይ ለዘላለም አጥፋ",
+  "deletePlaylist": "ፕሌይሊስቱን አጥፋ",
+  "deleteTempFiles": "ጊዜያዊ ፋይሎችን አጥፋ",
+  "description": "መግለጫ",
+  "developer": "ዴቨሎፐር",
+  "development": "ልማት",
+  "didYouMean": "ይህንን ፈልገህ ነው?",
+  "dimIntensity": "የድብዘዛው መጠን",
+  "dimMiniplayerAfterSeconds": "ስራ ከሌለ ከ {seconds} ሰከንዶች በኋላ ደብዝዝ",
+  "directoryDoesntExist": "ፎልደሩ የለም",
+  "disable": "አጥፋ",
+  "disableAll": "ሁሉንም አጥፋ",
+  "disableReordering": "ቅደም ተከተል መቀየር አቁም",
+  "disableSearchCleanup": "የፍለጋ ማጽጃውን አጥፋ",
+  "discNumber": "የዲስክ ቁጥር",
+  "discNumberTotal": "ጠቅላላ ዲስክ",
+  "discover": "አዳዲስ ነገሮች",
+  "dislike": "አልወደድኩትም",
+  "dismissibleMiniplayer": "ሊጠፋ የሚችል ሚኒ-ፕሌየር",
+  "displayActualPositionInsteadOfDifferenceWhileSeeking": "ሲፈለግ ትክክለኛውን ቦታ አሳይ",
+  "displayAlbumCardTopRightDate": "የአልበም ቀን ከላይ በስተቀኝ",
+  "displayAlbumCardTopRightDateSubtitle": "አልበሙ የተሰራበትን ቀን አሳይ",
+  "displayArtistBeforeTitle": "ከሙዚቃው ስም በፊት አርቲስቱን አሳይ",
+  "displayArtworkOnLockscreen": "ስልኩ ተቆልፎ ምስሉን አሳይ",
+  "displayAudioInfoInMiniplayer": "የኦዲዮ መረጃን አሳይ",
+  "displayFavButtonInNotification": "በኖቲፊኬሽን ላይ የልብ ምልክት አሳይ",
+  "displayFavButtonInNotificationSubtitle": "ምስሉ ሊዛባ ይችላል",
+  "displayFavouriteIconInTrackTile": "የምርጦች ምልክት አሳይ",
+  "displayRemainingDurationInsteadOfTotal": "የቀረውን ጊዜ አሳይ",
+  "displayStopButtonInNotification": "በኖቲፊኬሽን ላይ ማቆሚያ አሳይ",
+  "displayThirdItemInRowInTrackTile": "በየረድፉ ሶስተኛውን ነገር አሳይ",
+  "displayThirdRowInTrackTile": "ሶስተኛ ረድፍ አሳይ",
+  "displayTrackNumberInAlbumPage": "በአልበሙ ገጽ ላይ የሙዚቃ ቁጥር አሳይ",
+  "displayTrackNumberInAlbumPageSubtitle": "በአልበም ገጽ ላይ የሙዚቃ ቁጥር ሳጥን አሳይ",
+  "doNothing": "ምንም አታድርግ",
+  "donate": "እርዳታ አድርግ",
+  "donateSubtitle": "የሚገባው ከመሰለህ እርዳን",
+  "done": "ተጠናቀቀ",
+  "dontAskAgain": "ዳግመኛ አትጠይቀኝ",
+  "dontDim": "አትደብዝዝ",
+  "dontRestorePosition": "አትመልስ",
+  "dontResume": "አትቀጥል",
+  "doubleTapToToggleLyrics": "ግጥሙን ለማምጣት ሁለት ጊዜ ንካ",
+  "download": "አውርድ",
+  "downloadingWillOverrideIt": "ዳውንሎድ ካደረግክ የድሮውን ይተካል",
+  "downloads": "ዳውንሎዶች",
+  "downloadsMetadataTags": "የሜታዳታ ታጎችን አውርድ",
+  "downloadsMetadataTagsSubtitle": "ከቪዲዮው መረጃ አርቲስትና አልበም አውጣ",
+  "dragToSeek": "ለመፈለግ ጎትት",
+  "duckAudio": "ድምፅ ቀንስ",
+  "duplicatedItemsAdding": "ቀድሞም ያሉትን ለመጨመር እየሞከርክ ነው",
+  "duplicatedTracks": "የተደገሙ ሙዚቃዎች",
+  "duration": "ቆይታ",
+  "edgeColorsSwitching": "የጠርዝ ቀለሞች መቀያየሪያ",
+  "edit": "ቀይር",
+  "editArtwork": "ምስሉን ቀይር",
+  "editTags": "ታጎችን ቀይር",
+  "email": "ኢሜይል",
+  "emptyNonMeaningfulTagFields": "ባዶ ቦታዎች አሉ፤ እርግጠኛ ነህ?",
+  "emptyValue": "ባዶ ነው",
+  "enableArtworkCache": "የምስል ካሽን አብራ",
+  "enableArtworkCacheSubtitle": "ፈጥኖ እንዲከፍት ያደርጋል ግን ዳታ ይበላል",
+  "enableBlurEffect": "የብለር ኢፌክትን አብራ",
+  "enableBottomNavBar": "የታችኛውን ሜኑ አብራ",
+  "enableBottomNavBarSubtitle": "በሁለቱም መንገድ ማግኘት ይቻላል",
+  "enableClipboardMonitoring": "ሊንክ ኮፒ ሲደረግ ተከታተል",
+  "enableClipboardMonitoringSubtitle": "ሊንኮችን በቀጥታ በፍለጋ ቦታው ለመጠቀም ይረዳል",
+  "enableCrossfadeEffect": "የማመሳሰያ ኢፌክትን አብራ",
+  "enableFadeEffectOnPlayPause": "ሙዚቃው ሲቆም/ሲጀምር ለስለስ ይበል",
+  "enableFoldersHierarchy": "የፎልደር ዝርዝር አሳይ",
+  "enableGlowEffect": "የብርሃን ኢፌክትን አብራ",
+  "enableM3uSync": "ከ M3U ጋር አመሳስል",
+  "enableM3uSyncNote1": "ለውጦችን በ M3U ፋይል ላይ ያስቀምጣል",
+  "enableM3uSyncNote2": "ችግር ካጋጠመ ባካፑን {playlistsBackupPath} ውስጥ ታገኘዋለህ",
+  "enableM3uSyncSubtitle": "ፈቃድ ካልተሰጠ ለውጦቹ ይጠፋሉ",
+  "enableMiniplayerParticles": "ተንቀሳቃሽ ነገሮችን አሳይ",
+  "enableParallaxEffect": "ፓራላክስ ኢፌክትን አብራ",
+  "enablePartyMode": "የፓርቲ ሞድን አብራ",
+  "enablePartyModeSubtitle": "የሚያምር የጠርዝ ኢፌክት ተጠቀም",
+  "enablePictureInPicture": "ትንሽ ቪዲዮ አሳይ",
+  "enableReordering": "ቅደም ተከተል መቀየር ፍቀድ",
+  "enableReturnYoutubeDislike": "የዩቲዩብ ዲስላይክን አሳይ",
+  "enableSearchCleanup": "የፍለጋ ማጽጃውን አብራ",
+  "enableSearchCleanupSubtitle": "ምልክቶችና ክፍት ቦታዎች አይቆጠሩም",
+  "enableSponsorblock": "ማስታወቂያዎችን ዝለል",
+  "enableVideoPlayback": "ቪዲዮ ማጫወቻውን አብራ",
+  "enterSymbol": "እባክህ ምልክት አስገባ",
+  "equalizer": "ኢኳላይዘር",
+  "error": "ችግር ተፈጥሯል",
+  "errorPlayingTrack": "ሙዚቃውን ማጫወት አልተቻለም",
+  "excludedFodlers": "የተገለሉ ፎልደሮች",
+  "exit": "ውጣ",
+  "exitAppSubtitle": "ለመውጣት ድጋሚ ንካ",
+  "expandedMiniplayer": "የተለቀቀ ሚኒ-ፕሌየር",
+  "exportAsM3u": "በ M3U መልክ አውጣ",
+  "extension": "ኤክስቴንሽን",
+  "externalFiles": "የውጪ ፋይሎች",
+  "extract": "አውጣ",
+  "extractAllColorPalettes": "ቀለሞችን በሙሉ አውጣ",
+  "extractAllColorPalettesSubtitle": "ቀሪዎቹን {number} ላውጣቸው?",
+  "extractFeatArtist": "ረዳት አርቲስቶችን ከርዕሱ አውጣ",
+  "extractFeatArtistSubtitle": "ተባባሪ አርቲስቶችን ለይቶ ያወጣል",
+  "extractingInfo": "መረጃ እያወጣሁ ነው",
+  "extras": "ተጨማሪዎች",
+  "extrasSubtitle": "አጠቃቀምህን ለማሳመር የሚረዱ ቅንብሮች",
+  "extreme": "በጣም ከፍተኛ",
+  "failed": "አልተሳካም",
+  "failedEdits": "ያልተሳኩ ለውጦች",
+  "favourites": "ምርጦች",
+  "features": "አዳዲስ ነገሮች",
+  "fetching": "እያመጣሁ ነው",
+  "fetchingOfAllVideos": "ቪዲዮዎችን በሙሉ እያመጣሁ ነው",
+  "file": "ፋይል",
+  "fileAlreadyExists": "ፋይሉ ቀድሞም አለ",
+  "fileBasedServerWarning": "ለአጭር ጊዜ ፋይሎች ይወርዳሉ፤ ዋይፋይ ቢኖርህ ይመረጣል",
+  "fileName": "የፋይል ስም",
+  "fileNameWoExt": "ያለ ኤክስቴንሽን ያለ ስም",
+  "filenameShouldntStartWith": "የፋይል ስም በዚህ መጀመር የለበትም",
+  "files": "ፋይሎች",
+  "filler": "መሙያ",
+  "filterAlbums": "አልበሞችን ለይ",
+  "filterArtists": "አርቲስቶችን ለይ",
+  "filterGenres": "አይነቶችን ለይ",
+  "filterPlaylists": "ፕሌይሊስቶችን ለይ",
+  "filterTracks": "ሙዚቃዎችን ለይ",
+  "filterTracksBy": "ሙዚቃዎችን በዚህ ለይ",
+  "filteredBySizeAndDuration": "ሙዚቃዎች በመጠንና በቆይታ ተለይተዋል",
+  "finished": "ተጠናቀቀ",
+  "finishedUpdatingLibrary": "የሙዚቃ ማህደሩ ታድሷል",
+  "firstListen": "የመጀመሪያ ስማ",
+  "fixYtdlpBigThumbnailSize": "የምስል መጠን አስተካክል",
+  "floatingActionButton": "ተንሳፋፊ ቁልፍ",
+  "folder": "ፎልደር",
+  "folderName": "የፎልደር ስም",
+  "folders": "ፎልደሮች",
+  "fontScale": "የፊደል መጠን",
+  "forceMiniplayerFollowTrackColors": "ሚኒ-ፕሌየሩ የሙዚቃውን ቀለም ይከተል",
+  "forceSquaredAlbumThumbnail": "የአልበም ምስል ካሬ ይሁን",
+  "forceSquaredThumbnailNote": "መጠኖቹ እኩል አይደሉም፤ [cite_start]እኩል ላድርጋቸው?",
+  "forceSquaredTrackThumbnail": "የሙዚቃ ምስል ካሬ ይሁን",
+  "forceStopColorPaletteGeneration": "ቀለም ማውጣቱን ላቁመው? [cite_start]በኋላ መቀጠል ትችላለህ",
+  "format": "ፎርማት",
+  "fullscreen": "ሙሉ ስክሪን",
+  "gaplessPlayback": "ያለ እረፍት አጫውት",
+  "generate": "ፍጠር",
+  "generateFromDates": "የጊዜ ገደብ",
+  "generateFromDatesSubtitle": "በተወሰነ ጊዜ የሰማሃቸውን ሙዚቃዎች ፍጠር",
+  "generateRandomPlaylist": "የዘፈቀደ ፕሌይሊስት ፍጠር",
+  "genre": "አይነት",
+  "genres": "አይነቶች",
+  "goToAlbum": "ወደ አልበሙ ሂድ",
+  "goToArtist": "ወደ አርቲስቱ ሂድ",
+  "goToChannel": "ወደ ቻናሉ ሂድ",
+  "goToFolder": "ወደ ፎልደሩ ሂድ",
+  "goodLooking": "የሚያምር",
+  "grantStoragePermission": "የማከማቻ ፈቃድ ስጥ",
+  "group": "መድብ",
+  "groupArtworksByAlbum": "ምስሎችን በአልበም መድብ",
+  "guide": "መመሪያ",
+  "hapticFeedback": "የንዝረት መልስ",
+  "heightOfAlbumTile": "የአልበም ሳጥን ቁመት",
+  "heightOfTrackTile": "የሙዚቃ ሳጥን ቁመት",
+  "hideSkipButtonAfter": "የመዝለያ ቁልፍን ከዚህ በኋላ ደብቅ",
+  "highMatches": "በጣም ተመሳሳይ",
+  "highPerformance": "ከፍተኛ ብቃት",
+  "highlight": "አድምቅ",
+  "history": "ታሪክ",
+  "historyImportMissingEntriesNote": "እነዚህ ሙዚቃዎች አልተገኙም፤ እራስህ ጨምራቸው",
+  "historyListensReplaceWarning": "የ {oldTrackInfo} ስም በ {newTrackInfo} ይተካ?",
+  "home": "ቤት",
+  "hook": "ሁክ",
+  "host": "ሆስት",
+  "hourFormat12": "የ12 ሰዓት አቆጣጠር",
+  "hours": "ሰዓታት",
+  "iReadAndAgree": "አንብቤ ተስማምቻለሁ",
+  "ifNotPlaying": "ሙዚቃ ካልቆመ",
+  "ignoreBatteryOptimizationsSubtitle": "ባትሪ ለመቆጠብ ዳውንሎድ ሊዘገይ ይችላል",
+  "ignoreCommonPrefixesWhileSorting": "ሲደረደር የተለመዱ ቃላትን ተወው",
+  "ignores": "የተተው ነገሮች",
+  "imageSource": "የምስል ምንጭ",
+  "immersiveMode": "ኢመርሲቭ ሞድ",
+  "immersiveModeSubtitle": "ሚኒ-ፕሌየሩ ሲከፈት ሌላውን ደብቅ",
+  "import": "አምጣ",
+  "importAll": "ሁሉንም አምጣ",
+  "importLastFmHistory": "የ LastFm ታሪክህን አምጣ",
+  "importTimeRange": "የጊዜ ገደብ መርጠህ አምጣ",
+  "importYoutubeHistory": "የዩቲዩብ ታሪክህን አምጣ",
+  "importedNChannelsSuccessfully": "{number} ቻናሎች ገብተዋል",
+  "importedNPlaylistsSuccessfully": "{numberText} ፕሌይሊስቶች ገብተዋል",
+  "includeVideos": "ቪዲዮዎችን ጨምር",
+  "indexRefreshRequired": "ከቀየርክ በኋላ ሪፍሬሽ አድርግ",
+  "indexer": "ኢንዴክሰር",
+  "indexerNote": "ያልተሟሉ ምስሎች የተደገሙ ወይም ያልተገኙ ናቸው",
+  "indexerSubtitle": "የሙዚቃ ማህደርህን አስተዳድር",
+  "infinityQueueOnNextPrev": "ያለ መጨረሻ አጫውት",
+  "infinityQueueOnNextPrevSubtitle": "መጨረሻው ላይ ሲደርስ ወደ መጀመሪያው ይዘልላል",
+  "info": "መረጃ",
+  "inserted": "ገብቷል",
+  "instantlyApplies": "ወዲያውኑ ይሰራል",
+  "interactionReminder": "የእንቅስቃሴ ማሳሰቢያ",
+  "intro": "መግቢያ",
+  "invertSelection": "ምርጫውን ገልብጥ",
+  "issues": "ችግሮች",
+  "item": "ነገር",
+  "jump": "ዝለል",
+  "jumpToDay": "ወደ ቀኑ ዝለል",
+  "jumpToFirstTrackAfterQueueFinish": "ፕሌይሊስቱ ሲያልቅ ወደ መጀመሪያው ተመለስ",
+  "keepCachedVersions": "ካሽ የተደረጉትን አትደምስስ",
+  "keepFileDates": "የፋይሉን ቀናት አታጥፋ",
+  "keepScreenAwakeMiniplayerExpanded": "ሚኒ-ፕሌየሩ ሲከፈት",
+  "keepScreenAwakeMiniplayerExpandedAndVideo": "ሚኒ-ፕሌየሩ ተከፍቶ ቪዲዮ ሲታይ",
+  "keepScreenAwakeNone": "ስክሪኑ አይብራ",
+  "keepScreenAwakeWhen": "ስክሪኑ እንዲበራ በነዚህ ሁኔታዎች",
+  "killPlayerAfterDismissingApp": "አፑ ሲዘጋ ፕሌየሩንም አጥፋ",
+  "language": "ቋንቋ",
+  "learnMore": "ተጨማሪ እወቅ",
+  "leftAction": "የግራ እንቅስቃሴ",
+  "legacyAuthentication": "የድሮ አረጋጋጭ",
+  "libraryTabs": "የማህደር ክፍሎች",
+  "libraryTabsReorder": "ክፍሎቹን ማቀያየር ትችላለህ",
+  "license": "ፈቃድ",
+  "licenseSubtitle": "Namida የሚጠቀምባቸው ፈቃዶች",
+  "like": "ወድጄዋለሁ",
+  "liked": "የተወደዱ",
+  "link": "ሊንክ",
+  "listOfFolders": "የፎልደሮች ዝርዝር",
+  "loadAll": "ሁሉንም ጫን",
+  "loadingFile": "ፋይሉ እየጫነ ነው",
+  "local": "የስልክ",
+  "localVideoMatching": "የስልክ ቪዲዮ ማመሳሰያ",
+  "login": "ግባ",
+  "longPressAction": "ጫን አድርጎ የመያዝ ስራ",
+  "longPressTheLyricsToEnterFullscreen": "ግጥሙን ሙሉ ስክሪን ለማየት ጫን አድርገህ ያዘው",
+  "lostMemories": "የረሱ ትዝታዎች",
+  "lostMemoriesSubtitle": "ከ {number} አመታት በፊት በዚህ ሰዓት",
+  "lostPartners": "የጠፉ ጓደኞች",
+  "loudnessEnhancer": "ድምፅ ማሳደጊያ",
+  "lyricist": "ግጥም ጸሃፊ",
+  "lyrics": "ግጥሞች",
+  "lyricsSource": "የግጥም ምንጭ",
+  "m3uPlaylist": "M3U ፕሌይሊስት",
+  "makeYourFirstListen": "የመጀመሪያ ሙዚቃህን ስማ!",
+  "manage": "አስተዳድር",
+  "manageYourAccounts": "አካውንቶችህን አስተዳድር",
+  "manualBackup": "በእጅ",
+  "manualBackupSubtitle": "የምትፈልገውን ፋይል ምረጥ",
+  "markAsRead": "እንደተነበበ ቁጠር",
+  "matchAllTracks": "ሁሉንም ሙዚቃዎች አመሳስል",
+  "matchAllTracksNote": "ይህ ፍጥነቱን ሊቀንስ ይችላል",
+  "matchingType": "የማመሳሰያ አይነት",
+  "maxAudioCacheSize": "ከፍተኛ የኦዲዮ ካሽ መጠን",
+  "maxImageCacheSize": "ከፍተኛ የምስል ካሽ መጠን",
+  "maxVideoCacheSize": "ከፍተኛ የቪዲዮ ካሽ መጠን",
+  "maximum": "ከፍተኛ",
+  "mediaStoreIsEnabledThisWillHaveNoEffect": "ሚዲያ ስቶር ስለበራ ይህ አይሰራም",
+  "medium": "መካከለኛ",
+  "membershipCode": "ኮድ",
+  "membershipCodeSentToEmail": "ኮድ ወደ ኢሜይልህ ተልኳል",
+  "membershipDidntChange": "ደረጃህ አልተቀየረም",
+  "membershipEnjoyNew": "በአዲሱ ደረጃህ ተደሰት",
+  "membershipFreeCoupon": "ነፃ ኩፖን",
+  "membershipManage": "ደረጃህን አስተዳድር",
+  "membershipNoSubscriptionsFoundForUser": "ምንም ክፍያ አልተገኘም",
+  "membershipSignInToPatreonAccount": "ወደ patreon አካውንትህ ግባ",
+  "membershipUnknown": "ያልታወቀ ደረጃ",
+  "membershipYouNeedMembershipOfToAddMultipleAccounts": "ብዙ አካውንት ለመጠቀም የ {name1} ወይም {name2} ደረጃ ያስፈልግሃል",
+  "merge": "ቀላቅል",
+  "metadataCache": "የሜታዳታ ካሽ",
+  "metadataEditFailed": "መረጃውን መቀየር አልተቻለም",
+  "metadataReadFailed": "መረጃውን ማንበብ አልተቻለም",
+  "minFileDuration": "አጭር የሙዚቃ ቆይታ",
+  "minFileSize": "ትንሹ የፋይል መጠን",
+  "minTrackDurationToRestoreLastPosition": "የቆመበትን ለመመለስ የሚያስፈልግ ቆይታ",
+  "minValueCantBeMoreThanMax": "ትንሹ መጠን ከትልቁ ሊበልጥ አይችልም",
+  "minimizedMiniplayer": "የታነሰ ሚኒ-ፕሌየር",
+  "minimum": "ትንሹ",
+  "minimumOneFolderSubtitle": "ቢያንስ አንድ ፎልደር መኖር አለበት",
+  "minimumOneItem": "ነገሩን ማጥፋት አልተቻለም",
+  "minimumOneItemSubtitle": "ቢያንስ {number} ነገሮች መቅረት አለባቸው",
+  "minimumSegmentDuration": "አጭሩ የክፍል ቆይታ",
+  "miniplayerCustomization": "ሚኒ-ፕሌየር ማስተካከያ",
+  "minutes": "ደቂቃዎች",
+  "missingEntries": "የጠፉ መረጃዎች",
+  "missingTracks": "የጠፉ ሙዚቃዎች",
+  "mixPlaylistGeneratedByYoutube": "በዩቲዩብ የተፈጠረ ፕሌይሊስት",
+  "mixes": "ሚክሶች",
+  "mobile": "ሞባይል",
+  "month": "ወር",
+  "months": "ወራት",
+  "moods": "ሙዶች",
+  "more": "ተጨማሪ",
+  "mostPlayed": "ብዙ የተሰሙ",
+  "musicOfftopic": "የሙዚቃ ያልሆኑ ነገሮች",
+  "name": "ስም",
+  "nameContainsBadCharacter": "ስሙ ያልተፈቀዱ ፊደላት አሉት",
+  "never": "በፍጹም",
+  "newDirectory": "አዲስ ፎልደር",
+  "newTracksAdd": "ሙዚቃዎችን ጨምር",
+  "newTracksMoods": "ሙድ",
+  "newTracksMoodsSubtitle": "ባሉህ ሙዶች መሰረት ሙዚቃዎችን ፍጠር",
+  "newTracksRandomSubtitle": "ከማህደርህ በዘፈቀደ ሙዚቃዎችን ምረጥ",
+  "newTracksRatings": "ደረጃዎች",
+  "newTracksRatingsSubtitle": "የተወሰነ ደረጃ ያላቸውን ሙዚቃዎች ፍጠር",
+  "newTracksRecommended": "የሚመከሩ",
+  "newTracksRecommendedSubtitle": "ከ {currentTrack} ጋር አብረው የሚሰሙትን ፍጠር",
+  "newTracksSimilarrReleaseDate": "ተመሳሳይ የወጡበት ቀን",
+  "newTracksSimilarrReleaseDateSubtitle": "ከ {currentTrack} ጋር በተመሳሳይ ጊዜ የወጡትን ፍጠር",
+  "newTracksUnknownYear": "የሙዚቃው ዘመን አይታወቅም",
+  "newest": "አዳዲስ",
+  "next": "ቀጣይ",
+  "no": "አይ",
+  "noChangesFound": "ምንም ለውጥ አልተገኘም",
+  "noEnoughTracks": "ብዙ ሙዚቃ የለህም..",
+  "noExcludedFolders": "የተገለሉ ፎልደሮች የሉህም",
+  "noFolderChosen": "ምንም ፎልደር አልመረጥክም",
+  "noMoodsAvailable": "ምንም ሙዶች የሉም",
+  "noNetworkAvailableToFetchData": "መረጃ ለማምጣት ኮኔክሽን የለም",
+  "noTracksFound": "ምንም ሙዚቃ አልተገኘም",
+  "noTracksFoundBetweenDates": "በዚህ ጊዜ ውስጥ ምንም ሙዚቃ የለም",
+  "noTracksFoundInDirectory": "በዚህ ፎልደር ውስጥ ምንም ሙዚቃ የለም",
+  "noTracksInHistory": "በታሪክህ ውስጥ በቂ ሙዚቃ የለም",
+  "nonActive": "የማይሰሩ",
+  "nonFavourites": "ምርጥ ያልሆኑ",
+  "none": "ምንም",
+  "normalizeAudio": "ድምፅ አስተካክል",
+  "normalizeAudioSubtitle": "ከዩቲዩብ በሚገኝ መረጃ ድምፅን ያስተካክላል",
+  "notAvailableForYourDevice": "ለአንተ ስልክ አይሰራም",
+  "notSupportedForNetworkFiles": "ለኔትወርክ ፋይሎች አይሰራም",
+  "note": "ማሳሰቢያ",
+  "notification": "ኖቲፊኬሽን",
+  "notifications": "ኖቲፊኬሽኖች",
+  "numberOfTracks": "የሙዚቃዎች ብዛት",
+  "ofLabel": "ከ",
+  "offlineSearch": "ያለ ኮኔክሽን ፈልግ",
+  "offset": "ኦፍሴት",
+  "oldDirectory": "የድሮ ፎልደር",
+  "oldDirectoryStillHasTracks": "የድሮው ፎልደር አሁንም ሙዚቃ አለው፤ እርግጠኛ ነህ?",
+  "oldestWatch": "የድሮ እይታ",
+  "onInterruption": "መሃል ላይ ሲቋረጥ",
+  "onNotificationTap": "ኖቲፊኬሽኑ ሲነካ",
+  "onOpeningYoutubeLink": "የዩቲዩብ ሊንክ ሲከፈት",
+  "onSwiping": "ሲገፋ",
+  "onVolumeZero": "ድምፅ ዜሮ ሲሆን",
+  "ongoing": "እየተሰራ ያለ",
+  "open": "ክፈት",
+  "openApp": "አፑን ክፈት",
+  "openInFileExplorer": "በፋይል ማውጫ ክፈት",
+  "openInYoutubeView": "በዩቲዩብ እይታ ክፈት",
+  "openMiniplayer": "ሚኒ-ፕሌየሩን ክፈት",
+  "openQueue": "ዝርዝሩን ክፈት",
+  "openYoutubeLink": "የዩቲዩብ ሊንኩን ክፈት",
+  "operationRequiresAccount": "ይህንን ለማድረግ አካውንት ያስፈልጋል",
+  "operationRequiresMembership": "ይህንን ለማድረግ የ {name} ደረጃ ያስፈልጋል",
+  "or": "ወይም",
+  "others": "ሌሎች",
+  "output": "ውጤት",
+  "outro": "መውጫ",
+  "overrideOldFilesInTheSameFolder": "በድሮዎቹ ፋይሎች ላይ ደርብ",
+  "palette": "ቀለም",
+  "paletteMix": "ሚክስ",
+  "paletteNewMix": "አዲስ ሚክስ",
+  "paletteSelectedMix": "የተመረጠ ሚክስ",
+  "parallelDownloads": "ብዙ ዳውንሎድ በአንድ ጊዜ",
+  "parsed": "ተነቧል",
+  "password": "ፓስዎርድ",
+  "path": "ትክክለኛ ቦታው",
+  "pause": "አቁም",
+  "pauseFadeDuration": "ሲቆም የመለስለሻ ጊዜ",
+  "pausePlayback": "ማጫወት አቁም",
+  "percentage": "ፐርሰንት",
+  "performanceMode": "የብቃት ሞድ",
+  "performanceNote": "ብቃቱን ሊነካው ይችላል",
+  "personalized": "የእኔ ምርጫ",
+  "personalizedRelatedVideos": "ከእኔ ጋር የሚሄዱ ቪዲዮዎች",
+  "personalizedRelatedVideosSubtitle": "ይህንን ማጥፋት ዳታ ይበላል",
+  "pickColorsFromDeviceWallpaper": "ከስልኩ ዎልፔፐር ቀለሞችን ውሰድ",
+  "pickFromStorage": "ከስልኩ ምረጥ",
+  "pinned": "የተሰኩ",
+  "pitch": "ፒች",
+  "plain": "ቀላል",
+  "play": "አጫውት",
+  "playAfter": "ከዚህ በኋላ አጫውት",
+  "playAfterNextPrev": "በራሱ ቀጣዩን አጫውት",
+  "playAll": "ሁሉንም አጫውት",
+  "playFadeDuration": "ሲጀምር የመለስለሻ ጊዜ",
+  "playLast": "መጨረሻ ላይ አጫውት",
+  "playNext": "ቀጥሎ አጫውት",
+  "playbackSetting": "አጫዋች",
+  "playbackSettingSubtitle": "በፕሌየሩ ላይ ድምፅን ጫን ብለህ ማግኘት ትችላለህ",
+  "playlist": "ፕሌይሊስት",
+  "playlists": "ፕሌይሊስቶች",
+  "playlistsImportM3uNative": "M3U ፕሌይሊስቶችን ወደ Namida ለማምጣት ይጠቅማል",
+  "playlistsImportM3uSynced": "ከሌላ አፕ የምትጠቀመውን M3U ፕሌይሊስት ያመሳስላል",
+  "playlistsImportM3uSyncedAutoImport": "M3U ፕሌይሊስቶችን በራሱ አምጣ",
+  "pleaseEnterALink": "እባክህ ሊንክ አስገባ",
+  "pleaseEnterALinkSubtitle": "ይህ የዩቲዩብ ሊንክ ነው?",
+  "pleaseEnterAName": "እባክህ ስም አስገባ",
+  "port": "ፖርት",
+  "preventDuplicatedTracks": "ድግግሞሽ ከልክል",
+  "preventDuplicatedTracksSubtitle": "የፋይል ስምን በመጠቀም ሙዚቃዎችን ይለያል",
+  "preview": "ቅድመ እይታ",
+  "previous": "ቀዳሚ",
+  "previousButtonReplays": "የበፊቱ ቁልፍ ድጋሚ ያጫውታል",
+  "previousButtonReplaysSubtitle": "ከተወሰነ ጊዜ በኋላ ከተነካ ሙዚቃውን ይደግመዋል",
+  "prioritizeEmbeddedLyrics": "የሙዚቃው ውስጥ ግጥም ይቅደም",
+  "priority": "ቅድሚያ",
+  "private": "የግል",
+  "progress": "ሂደት",
+  "promptIndexingRefresh": "{newFiles} አዲስ ፋይሎች ተገኝተዋል፤ ሪፍሬሽ ላድርገው?",
+  "promptToChangeTrackPath": "የሙዚቃውን ቦታ መቀየር ትፈልጋለህ?",
+  "public": "የህዝብ",
+  "queue": "ዝርዝር",
+  "queues": "ዝርዝሮች",
+  "random": "የዘፈቀደ",
+  "randomPicks": "የዘፈቀደ ምርጫዎች",
+  "rating": "ደረጃ",
+  "reIndex": "ድጋሚ ኢንዴክስ አድርግ",
+  "reIndexSubtitle": "ማህደሩን ከዜሮ ጀምረህ አደራጅ",
+  "recentAlbums": "የቅርብ አልበሞች",
+  "recentArtists": "የቅርብ አርቲስቶች",
+  "recentListens": "የቅርብ ጊዜ ስምምቶች",
+  "recentlyAdded": "በቅርብ የተጨመሩ",
+  "recordLabel": "ሪከርድ ሌብል",
+  "refresh": "አድስ",
+  "refreshLibrary": "ማህደሩን አድስ",
+  "refreshLibrarySubtitle": "አዲስ ወይም የጠፉ ሙዚቃዎችን ፈልግ",
+  "refreshOnStartup": "ሲጀምር አድስ",
+  "relatedVideos": "ተመሳሳይ ቪዲዮዎች",
+  "rememberAudioOnlyMode": "ኦዲዮ ብቻ ሞድን አስታውስ",
+  "remixer": "ሪሚክሰር",
+  "remove": "አጥፋ",
+  "removeDuplicates": "ድግግሞሾችን አጥፋ",
+  "removeFromFavourites": "ከምርጦች አጥፋ",
+  "removeFromLibrary": "ከማህደሩ አጥፋ",
+  "removeFromPlaylist": "ከፕሌይሊስቱ አጥፋ",
+  "removeQueue": "ዝርዝሩን አጥፋ",
+  "removeSourceFromHistory": "ምንጩን ከታሪክ አጥፋ",
+  "removeWhitespaces": "ባዶ ቦታዎችን አጥፋ",
+  "removed": "ጠፍቷል",
+  "rename": "ስም ቀይር",
+  "renamePlaylist": "የፕሌይሊስት ስም ቀይር",
+  "reorderable": "ሊቀያየር የሚችል",
+  "repeatForNTimes": "ለ {number} ጊዜ ድገም",
+  "repeatMode": "የድግግሞሽ አይነት",
+  "repeatModeAll": "ሁሉንም ድገም",
+  "repeatModeNone": "መጨረሻ ላይ አቁም",
+  "repeatModeOne": "ይህንን ብቻ ድገም",
+  "replaceAllListensWithAnotherTrack": "ሁሉንም በሌላ ሙዚቃ ተካ",
+  "replies": "መልሶች",
+  "reply": "መልስ",
+  "requiresClearingImageCacheAndReIndexing": "ካሽን ማጽዳትና ድጋሚ ኢንዴክስ ማድረግ ይጠይቃል",
+  "rescanVideos": "ቪዲዮዎችን ድጋሚ ፈልግ",
+  "resetBrightness": "ብርሃኑን መልስ",
+  "resetToDefault": "ወደዚህ ቀይር",
+  "respectNoMedia": "ለ .nomedia እውቅና ስጥ",
+  "respectNoMediaSubtitle": ".nomedia ያላቸውን ፎልደሮች አትጨምር",
+  "restart": "ድጋሚ ጀምር",
+  "restoreBackup": "ባካፕ መልስ",
+  "restoreDefaults": "ሁሉንም ወደ ነበረበት መልስ",
+  "restoredBackupSuccessfully": "ባካፑ ተመልሷል",
+  "restoredBackupSuccessfullySub": "ባካፕ ፋይሉ በደንብ ተመልሷል",
+  "resume": "ቀጥል",
+  "resumeIfWasInterrupted": "በመሃል ተቋርጦ ከሆነ ቀጥል",
+  "resumeIfWasPausedByVolume": "በድምፅ ምክንያት ቆሞ ከሆነ ቀጥል",
+  "resumeIfWasPausedForLessThanNMin": "ከ {number} ደቂቃ በታች ቆሞ ከሆነ ቀጥል",
+  "returnYoutubeDislike": "የዩቲዩብ ዲስላይክ ተመለስ",
+  "reverseOrder": "ቅደም ተከተሉን ገልብጥ",
+  "rightAction": "የቀኝ እንቅስቃሴ",
+  "ringtone": "ሪንግቶን",
+  "sameDirectoryOnly": "ከዚህ ፎልደር ብቻ",
+  "sample": "ሳምፕል",
+  "sampleRate": "ሳምፕል ሬት",
+  "save": "አስቀምጥ",
+  "saveToLibrary": "ማህደሩ ውስጥ አስቀምጥ",
+  "savedIn": "እዚህ ተቀምጧል፦",
+  "scaleMultiplier": "የመጠን ማሳደጊያ",
+  "search": "ፈልግ",
+  "searchYoutube": "ዩቲዩብ ላይ ፈልግ",
+  "seconds": "ሰከንዶች",
+  "seeProjectCodeOnSite": "የፕሮጀክቱን ኮድ በ {site} እይ",
+  "seekDuration": "የፍለጋ ቆይታ",
+  "seekDurationInfo": "የቆይታ ጊዜውን በመንካት ወደፊትና ወደኋላ መፈለግ ትችላለህ",
+  "seekbar": "መፈለጊያ",
+  "selectAll": "ሁሉንም ምረጥ",
+  "selectFilesAlreadyInLocalLibrary": "ማህደሩ ውስጥ ያሉትን ፋይሎች ምረጥ",
+  "selectedTracks": "የተመረጡ ሙዚቃዎች",
+  "selfPromotion": "ራስን ማስተዋወቅ",
+  "semitones": "ሰሚቶን",
+  "separatorsBlacklistSubtitle": "እነዚህ ቃላት አይከፋፈሉም",
+  "separatorsMessage": "ክፍት ቦታ መጠቀም አያስፈልግህም",
+  "serverAddress": "የሰርቨር አድራሻ",
+  "setAs": "እንደዚህ አድርግ",
+  "setAsDefault": "እንደ ተለመደው አድርግ",
+  "setFileLastModifiedAsVideoUploadDate": "የፋይሉን ቀን ወደ ቪዲዮው ቀን ቀይር",
+  "setMoods": "ሙዶችን አስተካክል",
+  "setMoodsSubtitle": "በኮማ (",
+  "setRating": "ደረጃ ስጥ",
+  "setTags": "ታጎችን አስተካክል",
+  "setYoutubeLink": "የዩቲዩብ ሊንክ አስገባ",
+  "settings": "ቅንብሮች",
+  "setupFirstStartup": "የመጀመሪያ አጀማመርን አስተካክል",
+  "share": "አጋራ",
+  "shareLogs": "መዝገቦችን አጋራ",
+  "shortcuts": "አቋራጮች",
+  "shouldDuck": "ድምፅ መቀነስ አለበት",
+  "shouldDuckNote": "ድምፅ መቀነስ እንዳለበት ያሳያል (ለምሳሌ ኖቲፊኬሽን)",
+  "shouldPause": "መቆም አለበት",
+  "shouldPauseNote": "መቆም እንዳለበት ያሳያል (ለምሳሌ ስልክ ሲደወል)",
+  "showAll": "ሁሉንም አሳይ",
+  "showChannelWatermarkInFullscreen": "በሙሉ ስክሪን የቻናሉን ምልክት አሳይ",
+  "showFailedOnly": "ያልተሳኩትን ብቻ አሳይ",
+  "showHideUnknownFields": "ያልታወቁ ቦታዎችን አሳይ/ደብቅ",
+  "showInSeekbar": "በመፈለጊያው ላይ አሳይ",
+  "showMixPlaylistsIn": "ሚክሶችን እዚህ አሳይ፦",
+  "showMore": "ተጨማሪ አሳይ",
+  "showShortVideosIn": "ሾርትሶችን እዚህ አሳይ፦",
+  "showSkipButton": "የመዝለያ ቁልፍ አሳይ",
+  "showVideoEndcards": "የቪዲዮ ማብቂያዎችን አሳይ",
+  "showWebm": "webm አሳይ",
+  "shuffle": "ቀላቅል",
+  "shuffleAll": "ሁሉንም ቀላቅል",
+  "shuffleNext": "ቀጥሎ ያለውን ቀላቅል",
+  "signIn": "ግባ",
+  "signInCanceled": "መግባት ተትቷል",
+  "signInFailed": "መግባት አልተሳካም",
+  "signInToYourAccount": "ወደ አካውንትህ ግባ",
+  "signInYouDontHaveAccount": "ምንም የገባ አካውንት የለም",
+  "signInYouNeedAccountToViewPage": "ይህንን ለማየት አካውንት ያስፈልጋል",
+  "signOut": "ውጣ",
+  "signOutFromName": "ከ {name} ውጣ",
+  "signingInAllowsBasicUsage": "መግባት መሰረታዊ ነገሮችን ለመጠቀም ይረዳል",
+  "signingInAllowsBasicUsageSubtitle": "በ patreon ወይም በኩፖን ቀድመህ ተጠቀም",
+  "similarDiscoverDate": "ተመሳሳይ የተገኘበት ቀን",
+  "similarDiscoverDateSubtitle": "ከ {currentTrack} ጋር በተመሳሳይ ጊዜ የተገኙትን ፍጠር",
+  "similarTimeRange": "ተመሳሳይ የጊዜ ገደብ",
+  "similarTimeRangeSubtitle": "ከ {currentTrack} ጋር በተመሳሳይ ሰዓት የሰማሃቸውን ፍጠር",
+  "singles": "ነጠላዎች",
+  "size": "መጠን",
+  "skip": "ዝለል",
+  "skipCountTracking": "የመዝለል ብዛት መከታተያ",
+  "skipSilence": "ጸጥታን ዝለል",
+  "skipSponsorSegmentsInVideos": "ማስታወቂያዎችን ዝለል",
+  "sleepAfter": "ከዚህ በኋላ አጥፋ",
+  "sleepTimer": "የመኝታ ሰዓት",
+  "socials": "ማህበራዊ ገጾች",
+  "socialsSubtitle": "ለአዳዲስ ነገሮች ማህበራዊ ገጾቻችንን ተቀላቀል",
+  "someWebServersRequireAuthentication": "አንዳንድ ሰርቨሮች ፈቃድ ይጠይቃሉ፤ መረጃህን አድስ",
+  "sortBy": "በዚህ ደርድር",
+  "source": "ምንጭ",
+  "speed": "ፍጥነት",
+  "sponsor": "ስፖንሰር",
+  "sponsorblock": "ማስታወቂያ ማገጃ",
+  "sponsorblockLeaderboard": "የማስታወቂያ ማገጃ ደረጃ",
+  "staggeredAlbumGridView": "ተለዋዋጭ የአልበም እይታ",
+  "start": "ጀምር",
+  "stats": "ስታቲስቲክስ",
+  "statsSubtitle": "ስለ ማህደርህ አንዳንድ መረጃዎች እዚህ አሉ",
+  "stop": "አቁም",
+  "stopAfterThisTrack": "ከዚህ ሙዚቃ በኋላ አቁም",
+  "stopAfterThisVideo": "ከዚህ ቪዲዮ በኋላ አቁም",
+  "storagePermissionDenied": "ፈቃድ ተከልክሏል",
+  "storagePermissionDeniedSubtitle": "ይህንን ለማድረግ እባክህ ፈቃድ ስጥ",
+  "stretchLyricsDuration": "የግጥም ቆይታን አስፋ",
+  "subdirectory": "ንዑስ ፎልደር",
+  "subscribe": "ሰብስክራይብ",
+  "subscribed": "ሰብስክራይብ ተደርጓል",
+  "subscriber": "ሰብስክራይበር",
+  "subscribers": "ሰብስክራይበሮች",
+  "succeeded": "ተሳክቷል",
+  "support": "እርዳታ",
+  "supremacy": "ሱፕሪማሲ",
+  "sussyBaka": "ኧረ ሙዚቃ የለም",
+  "swipeActions": "በመንካት የሚሰሩ ነገሮች",
+  "swipeToOpenDrawer": "ጎትተህ ሜኑውን ክፈት",
+  "synced": "ተመሳስሏል",
+  "synopsis": "ታሪክ",
+  "tagFields": "የታግ ቦታዎች",
+  "tags": "ታጎች",
+  "tapAction": "የመንካት ስራ",
+  "tapToSeek": "ነክተህ ፈልግ",
+  "themeMode": "የቲም ሞድ",
+  "themeModeDark": "ጨለማ",
+  "themeModeLight": "ብርሃን",
+  "themeModeSystem": "የስልኩ",
+  "themeSettings": "ቲም",
+  "themeSettingsSubtitle": "የፕሌየሩ አጠቃላይ መልክ",
+  "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "ይህ ፕሌይሊስት አደራዳሪ ስላለው መጀመሪያ አጥፋው",
+  "thisVideoIsLikelyDeletedOrSetToPrivate": "ቪዲዮው የጠፋ ወይም የግል ሳይሆን አይቀርም",
+  "thumbnails": "ምስሎች",
+  "title": "ርዕስ",
+  "top": "ከላይ",
+  "topComments": "ዋና ዋና አስተያየቶች",
+  "topCommentsSubtitle": "አስተያየቶችን ከታች ይልቅ ከላይ አሳይ",
+  "topRecentAlbums": "የቅርብ ምርጥ አልበሞች",
+  "topRecentArtists": "የቅርብ ምርጥ አርቲስቶች",
+  "topRecents": "የቅርብ ምርጦች",
+  "totalListenTime": "ጠቅላላ የሰማህበት ጊዜ",
+  "totalListens": "ጠቅላላ ስምምቶች",
+  "totalTracks": "ጠቅላላ ሙዚቃዎች",
+  "totalTracksDuration": "የሙዚቃዎች ጠቅላላ ቆይታ",
+  "track": "ሙዚቃ",
+  "trackArtistsSeparator": "የአርቲስቶች መለያዎች",
+  "trackGenresSeparator": "የአይነቶች መለያዎች",
+  "trackInfo": "የሙዚቃ መረጃ",
+  "trackNotFound": "ሙዚቃው አልተገኘም",
+  "trackNumber": "የሙዚቃ ቁጥር",
+  "trackNumberTotal": "ጠቅላላ ሙዚቃ",
+  "trackPlayMode": "የአጫዋች ሞድ",
+  "trackPlayModeSearchResults": "የፍለጋ ውጤቶች",
+  "trackPlayModeSelectedOnly": "የተመረጠውን ብቻ",
+  "trackPlayModeTrackAlbum": "የሙዚቃው አልበም",
+  "trackPlayModeTrackArtist": "የሙዚቃው ዋና አርቲስት",
+  "trackPlayModeTrackGenre": "የሙዚቃው አይነት",
+  "trackThumbnailSizeInList": "የሙዚቃ ምስል መጠን",
+  "trackTileCustomization": "የሙዚቃ ሳጥን ማስተካከያ",
+  "trackTileItemsSeparator": "የነገሮች መለያ",
+  "tracks": "ሙዚቃዎች",
+  "tracksExcludedByNomedia": "በ .nomedia የተገለሉ ሙዚቃዎች",
+  "tracksInfo": "የሙዚቃዎች መረጃ",
+  "underrated": "ያልተገመቱ",
+  "undo": "ተመለስ",
+  "undoChanges": "ለውጦቹን ልመልሳቸው?",
+  "undoChangesDeletedPlaylist": "የጠፋውን ፕሌይሊስት መልስ",
+  "undoChangesDeletedQueue": "የጠፋውን ዝርዝር መልስ",
+  "undoChangesDeletedTrack": "የጠፋውን ሙዚቃ መልስ",
+  "uniqueArtworkHash": "ልዩ የምስል መለያ",
+  "unlimited": "ያልተገደበ",
+  "unlisted": "ያልተመዘገቡ",
+  "unlock": "ክፈት",
+  "update": "አድስ",
+  "updateDirectoryPath": "የፎልደሩን ቦታ አድስ",
+  "updateMissingTracksOnly": "የጠፉትን ብቻ አድስ",
+  "updating": "እያደስኩ ነው",
+  "useCollapsedSettingTiles": "የታጠፉ የቅንብር ሳጥኖችን ተጠቀም",
+  "useMediaStore": "ሚዲያ ስቶርን ተጠቀም",
+  "usePitchBlack": "ጡዘት ጥቁር ተጠቀም",
+  "usePitchBlackSubtitle": "ለ AMOLED ስክሪን አሪፍ ነው፤ ደግሞም ያምራል",
+  "used": "ጥቅም ላይ የዋለ",
+  "value": "ዋጋ",
+  "valueBetween50200": "ዋጋው በ 50% እና 200% መሃል መሆን አለበት",
+  "vibration": "ንዝረት",
+  "vibrationType": "የንዝረት አይነት",
+  "video": "ቪዲዮ",
+  "videoCache": "የቪዲዮ ካሽ",
+  "videoCacheFile": "ካሽ የተደረገ ቪዲዮ",
+  "videoCacheFiles": "ካሽ የተደረጉ ቪዲዮዎች",
+  "videoOnly": "ቪዲዮ ብቻ",
+  "videoPlaybackSource": "የቪዲዮ ምንጭ",
+  "videoPlaybackSourceAutoSubtitle": "ለስልክ ቪዲዮዎች ቅድሚያ ይሰጣል",
+  "videoPlaybackSourceLocal": "የስልክ ቪዲዮዎች",
+  "videoPlaybackSourceLocalSubtitle": "ቪዲዮው ከሙዚቃው ጋር መመሳሰሉን ያረጋግጣል",
+  "videoPlaybackSourceYoutube": "ከዩቲዩብ",
+  "videoPlaybackSourceYoutubeSubtitle": "ከዩቲዩብ ጋር የሚመሳሰል ሊንክ ይፈልጋል",
+  "videoQuality": "የቪዲዮ ጥራት",
+  "videoQualitySubtitle": "ምርጡ ጥራት ይመረጣል",
+  "videoQualitySubtitleNote": "ጥራቱ ካልተገኘ ወደ ዝቅተኛው ይወርዳል",
+  "videos": "ቪዲዮዎች",
+  "view": "እይታ",
+  "viewAll": "ሁሉንም እይ",
+  "views": "እይታዎች",
+  "volume": "ድምፅ",
+  "warning": "ማስጠንቀቂያ",
+  "waveformBarsCount": "የሞገድ ባሮች ብዛት",
+  "webmNoEditTagsSupport": "WEBM ታግ መቀየር አይፈቅድም",
+  "week": "ሳምንት",
+  "year": "አመት",
+  "yes": "አዎ",
+  "yourCurrentMembershipIs": "ያለህበት ደረጃ {name} ነው",
+  "yourCustomOrderWillBeLost": "ያስተካከልከው ቅደም ተከተል ይጠፋል፤ እርግጠኛ ነህ?",
+  "youtube": "ዩቲዩብ",
+  "youtubeMusic": "ዩቲዩብ ሙዚቃ",
+  "youtubeSettingsSubtitle": "የዩቲዩብ አጠቃቀምህን አስተካክል",
+  "youtubeStyleMiniplayer": "የዩቲዩብ አይነት ሚኒ-ፕሌየር",
+  "ytPreferNewComments": "አዲስ አስተያየቶችን አስቀድም",
+  "ytPreferNewCommentsSubtitle": "ኮኔክሽን ከሌለ ብቻ የተቀመጠው ጥቅም ላይ ይውላል"
+}
