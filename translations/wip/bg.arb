@@ -1,1 +1,57 @@
-{}
+{
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "about": "За Нас",
+  "active": "Активно",
+  "add": "Добави",
+  "addAccount": "Добави профил",
+  "addAll": "Добави всички",
+  "addAllAndRemoveOldOnes": "Добави вс. и премахни старите",
+  "addAsANewPlaylist": "Добави като нов плейлист",
+  "addAudioToLocalLibrary": "Добави аудио към местната библиотека",
+  "addFolder": "Добави папка",
+  "addLanguage": "Добави език",
+  "addLanguageSubtitle": "Помогни с превеждането на Namida към своя език",
+  "addLrcFile": "Добави .LRC файл",
+  "addMoreFromThisAlbum": "Добави още от този албум към реда",
+  "addMoreFromThisArtist": "Добави още от този автор към реда",
+  "addMoreFromThisFolder": "Добави още от тази папка към реда",
+  "addMoreFromToQueue": "Добави още от {media} към реда",
+  "addOnlyMissing": "Добави само липсващи",
+  "addToFavourites": "Добави към любими",
+  "addToPlaylist": "Добави към плейлист",
+  "addTracksAtTheBeginning": "Добави песни в началото",
+  "added": "добавено",
+  "advanced": "Разширено",
+  "advancedSettings": "Разширени опции",
+  "advancedSettingsSubtitle": "Разширени опции, не променяй",
+  "alarm": "Аларма",
+  "album": "Албум",
+  "albumArtist": "Автор на Албум",
+  "albumArtists": "Автори на Албум",
+  "albumIdentifiers": "Характеристики на албума",
+  "albumThumbnailSizeInList": "Размер на изображението на албум",
+  "albumTileCustomization": "Персонализация на панелите с албуми",
+  "albums": "Албуми",
+  "albumsCount": "Брой албуми",
+  "all": "Всичко",
+  "alreadyExists": "Вече съществува",
+  "always": "Винаги",
+  "alwaysAsk": "Винаги питай",
+  "alwaysDim": "Винаги затъмни",
+  "alwaysExpandedSearchbar": "Винаги разширена търсачка",
+  "alwaysRestore": "Винаги върни",
+  "animatingThumbnailIntensity": "Интензивност на анимацията на изображението",
+  "animatingThumbnailInversed": "Инвестирани анимации",
+  "animatingThumbnailInversedSubtitle": "Високи пикове ще доведат до по-малко изображение",
+  "anotherProcessIsRunning": "Има съществуващ протичащ процес.",
+  "appIcon": "Икона на приложението",
+  "appVersion": "Версия на приложението",
+  "artist": "Автор",
+  "artists": "Автори"
+}
