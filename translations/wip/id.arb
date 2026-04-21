@@ -1,1 +1,1240 @@
-{}
+{
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countDays": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFolders": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countGenres": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countMonths": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countPlaylists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribersShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTracks": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViews": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "totalSizeText": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "numberText": {
+        "type": "String"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "String"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "numberText": {
+        "type": "String"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@promptIndexingRefresh": {
+    "placeholders": {
+      "deletedFiles": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "newFiles": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@repeatForNTimes": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarDiscoverDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@similarTimeRangeSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@suggestionSubtitle": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "String"
+      },
+      "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourCurrentMembershipIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "about": "Tentang",
+  "active": "Aktif",
+  "add": "Tambah",
+  "addAccount": "Tambah akun",
+  "addAll": "Tambah semua",
+  "addAllAndRemoveOldOnes": "Tambah semua dan hapus yang lama",
+  "addAsANewPlaylist": "Tambah sebagai Playlist baru",
+  "addAudioToLocalLibrary": "Tambah audio ke pustaka lokal",
+  "addFolder": "Tambah Folder",
+  "addLanguage": "Tambah Bahasa",
+  "addLanguageSubtitle": "Bantu menerjemahkan Namida ke bahasa Anda sendiri",
+  "addLrcFile": "Tambah file LRC",
+  "addMoreFromThisAlbum": "Tambah lebih banyak dari Album ini ke antrean",
+  "addMoreFromThisArtist": "Tambah lebih banyak dari Artis ini ke antrean",
+  "addMoreFromThisFolder": "Tambah lebih banyak dari Folder ini ke antrean",
+  "addMoreFromToQueue": "Tambah lebih banyak dari {media} ke antrean",
+  "addOnlyMissing": "Tambah hanya yang belum ada",
+  "addToFavourites": "Tambah ke favorit",
+  "addToPlaylist": "Tambah ke Playlist",
+  "addTracksAtTheBeginning": "Tambahkan trek di awal",
+  "added": "ditambahkan",
+  "advanced": "Lanjutan",
+  "advancedSettings": "Lanjutan",
+  "advancedSettingsSubtitle": "Pengaturan Lanjutan, jangan diubah",
+  "alarm": "Alarm",
+  "album": "Album",
+  "albumArtist": "Artis Album",
+  "albumArtists": "Artis Album",
+  "albumIdentifiers": "Pengenal Album",
+  "albumThumbnailSizeInList": "Ukuran Thumbnail Album",
+  "albumTileCustomization": "Kustomisasi Ubin Album",
+  "albums": "Album",
+  "albumsCount": "Jumlah Album",
+  "all": "Semua",
+  "allTime": "Sepanjang waktu",
+  "alreadyExists": "Sudah Ada",
+  "always": "Selalu",
+  "alwaysAsk": "Selalu tanya",
+  "alwaysDim": "Selalu Redup",
+  "alwaysExpandedSearchbar": "Bilah Pencarian Selalu Diperluas",
+  "alwaysRestore": "Selalu pulihkan",
+  "animatingThumbnailIntensity": "Intensitas Animasi Thumbnail",
+  "animatingThumbnailInversed": "Animasi Terbalik",
+  "animatingThumbnailInversedSubtitle": "Puncak tinggi akan membuat thumbnail menjadi lebih kecil",
+  "anotherProcessIsRunning": "Proses lain sedang berjalan.",
+  "appIcon": "Ikon Aplikasi",
+  "appVersion": "Versi Aplikasi",
+  "artist": "Artis",
+  "artists": "Artis",
+  "artwork": "Karya Seni",
+  "artworkGestures": "Gestur Karya Seni",
+  "artworks": "Karya Seni",
+  "audio": "Audio",
+  "audioCache": "Cache Audio",
+  "audioOnly": "Hanya Audio",
+  "auto": "Otomatis",
+  "autoBackupInterval": "Interval pencadangan otomatis",
+  "autoColoring": "Pewarnaan Otomatis",
+  "autoColoringSubtitle": "Pilih warna pemutar secara otomatis dari karya seni saat ini",
+  "autoExtractTagsFromFilename": "Ekstrak otomatis dari nama file",
+  "autoExtractTitleAndArtistFromVideoTitle": "Ekstrak Judul & Artis secara otomatis dari judul video",
+  "autoGenerated": "Dibuat Otomatis",
+  "autoSkip": "Lewati Otomatis",
+  "autoSkipOnce": "Lewati Otomatis Sekali",
+  "autoStartRadio": "Mulai radio otomatis",
+  "autoStartRadioSubtitle": "Otomatis menambahkan playlist campuran saat memutar satu trek",
+  "automaticBackup": "Otomatis",
+  "automaticBackupSubtitle": "Otomatis menerapkan file cadangan terbaru yang ditemukan di lokasi cadangan",
+  "backupAndRestore": "Cadangan & Pulihkan",
+  "backupAndRestoreSubtitle": "Cadangkan basis data dan pengaturan Anda",
+  "balanced": "Seimbang",
+  "beta": "Beta",
+  "betweenDates": "Antara Tanggal",
+  "bitrate": "Bitrate",
+  "blacklist": "Daftar Hitam",
+  "borderRadiusMultiplier": "Pengali Radius Sudut",
+  "cache": "Cache",
+  "cancel": "Batal",
+  "canceled": "Dibatalkan",
+  "changed": "Diubah",
+  "changelog": "Catatan Perubahan",
+  "changelogSubtitle": "Lihat apa yang baru ditambahkan/diperbaiki di Namida",
+  "channel": "Saluran",
+  "channels": "Saluran",
+  "check": "Periksa",
+  "checkForMore": "Periksa lebih banyak",
+  "checkList": "Daftar Periksa",
+  "choose": "Pilih",
+  "chooseWhatToClear": "Pilih apa yang akan dihapus",
+  "claim": "Klaim",
+  "clear": "Hapus",
+  "clearAudioCache": "Hapus Cache Audio",
+  "clearImageCache": "Hapus Cache Gambar",
+  "clearImageCacheWarning": "Peringatan: akan menghasilkan pustaka tanpa gambar. Gunakan hanya untuk membangun ulang cache gambar.",
+  "clearTrackItem": "Hapus Trek's",
+  "clearTrackItemMultiple": "{number, plural, one{Hapus Trek's} other{Hapus {number} Trek'}}",
+  "clearVideoCache": "Hapus Cache Video",
+  "clearVideoCacheNote": "Anda dapat memilih apa yang akan dihapus.",
+  "clock": "Jam",
+  "colorPalette": "Palet Warna",
+  "colorPaletteNote1": "Tekan lama warna untuk menghapusnya",
+  "colorPaletteNote2": "Ketuk campuran untuk menggunakannya sebagai warna default",
+  "colorPalettes": "Palet Warna",
+  "comment": "Komentar",
+  "comments": "Komentar",
+  "composer": "Komposer",
+  "compress": "Kompres",
+  "compressImages": "Kompres Gambar",
+  "compressionPercentage": "Persentase kompresi",
+  "configure": "Konfigurasikan",
+  "confirm": "Konfirmasi",
+  "copiedArtwork": "Karya Seni Disalin",
+  "copiedToClipboard": "Disalin ke Clipboard",
+  "copy": "Salin",
+  "corruptedFile": "Tidak dapat mengurai file, mungkin rusak",
+  "couldntOpen": "Tidak dapat dibuka :(",
+  "couldntOpenYtLink": "Tidak ada Tautan Youtube untuk trek ini",
+  "couldntPlayFile": "Tidak dapat memutar file",
+  "couldntRenamePlaylist": "Tidak dapat mengganti nama playlist",
+  "couldntSaveImage": "Tidak dapat menyimpan gambar",
+  "countAlbumArtists": "{count, plural, one{{count} Artis Album} other{{count} Artis Album}}",
+  "countAlbums": "{count, plural, one{{count} Album} other{{count} Album}}",
+  "countArtists": "{count, plural, one{{count} Artis} other{{count} Artis}}",
+  "countComposers": "{count, plural, one{{count} Komposer} other{{count} Komposer}}",
+  "countDays": "{count, plural, one{{count} Hari} other{{count} Hari}}",
+  "countFiles": "{count, plural, one{{count} File} other{{count} File}}",
+  "countFolders": "{count, plural, one{{count} Folder} other{{count} Folder}}",
+  "countGenres": "{count, plural, one{{count} Genre} other{{count} Genre}}",
+  "countMonths": "{count, plural, one{{count} Bulan} other{{count} Bulan}}",
+  "countPlaylists": "{count, plural, one{{count} Playlist} other{{count} Playlist}}",
+  "countSubscribers": "{count, plural, one{{count} Pelanggan} other{{count} Pelanggan}}",
+  "countSubscribersShort": "{count, plural, one{{count} Pelanggan} other{{count} Pelanggan}}",
+  "countTracks": "{count, plural, one{{count} Trek} other{{count} Trek}}",
+  "countVideos": "{count, plural, one{{count} Video} other{{count} Video}}",
+  "countViews": "{count, plural, one{{count} Tampilan} other{{count} Tampilan}}",
+  "countViewsShort": "{count, plural, one{{count} Tampilan} other{{count} Tampilan}}",
+  "country": "Negara",
+  "coupon": "Kupon",
+  "create": "Buat",
+  "createBackup": "Buat Cadangan",
+  "createNewPlaylist": "Buat Playlist baru",
+  "createdBackupSuccessfully": "Cadangan Dibuat",
+  "createdBackupSuccessfullySub": "File cadangan berhasil dibuat",
+  "crossPlatformSync": "Sinkronisasi Lintas Platform",
+  "crossfadeDuration": "Durasi crossfade",
+  "crossfadeTriggerSeconds": "{seconds, plural, one{Aktifkan Crossfade secara otomatis dalam {seconds} detik terakhir} other{Aktifkan Crossfade secara otomatis dalam {seconds} detik terakhir}}",
+  "crossfadeTriggerSecondsDisabled": "Jangan aktifkan crossfade secara otomatis",
+  "custom": "Kustom",
+  "customizations": "Kustomisasi",
+  "customizationsSubtitle": "Sesuaikan tampilan pemutar Anda, jadikan milik Anda",
+  "dataIsProvidedByName": "Data disediakan oleh: {name}",
+  "dataSaver": "Penghemat Data",
+  "dataSaverMode": "Mode Penghemat Data",
+  "database": "Basis Data",
+  "date": "Tanggal",
+  "dateAdded": "Tanggal Ditambahkan",
+  "dateCreated": "Tanggal Dibuat",
+  "dateModified": "Tanggal Dimodifikasi",
+  "dateTimeFormat": "Format Tanggal Waktu",
+  "day": "Hari",
+  "days": "Hari",
+  "defaultBackupLocation": "Lokasi Cadangan Default",
+  "defaultColor": "Warna Default",
+  "defaultColorSubtitle": "Atur warna yang akan digunakan oleh pemutar",
+  "defaultDownloadLocation": "Lokasi Unduhan Default",
+  "defaultLabel": "Default",
+  "defaultLibraryTab": "Tab Pustaka Default",
+  "delete": "Hapus",
+  "deleteFileCacheSubtitle": "{count, plural, one{Hapus {count} file yang mewakili {totalSizeText}?} other{Hapus {count} file yang mewakili {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Hapus permanen {numberText} dari penyimpanan Anda",
+  "deletePlaylist": "Hapus Playlist",
+  "deleteTempFiles": "Hapus file sementara",
+  "description": "Deskripsi",
+  "developer": "Pengembang",
+  "development": "Pengembangan",
+  "didYouMean": "Maksud Anda",
+  "dimIntensity": "Intensitas Redupan",
+  "dimMiniplayerAfterSeconds": "{seconds, plural, one{Redupkan miniplayer setelah {seconds} detik tidak aktif} other{Redupkan miniplayer setelah {seconds} detik tidak aktif}}",
+  "directoryDoesntExist": "Direktori tidak ada",
+  "disable": "Nonaktifkan",
+  "disableAll": "Nonaktifkan Semua",
+  "disableReordering": "Nonaktifkan Pengurutan Ulang",
+  "disableSearchCleanup": "Nonaktifkan Pembersihan Pencarian",
+  "discNumber": "Nomor Disc",
+  "discNumberTotal": "Total Disc",
+  "discover": "Temukan",
+  "dislike": "Tidak Suka",
+  "dismissibleMiniplayer": "Miniplayer yang Dapat Ditutup",
+  "displayActualPositionInsteadOfDifferenceWhileSeeking": "Tampilkan posisi aktual alih-alih selisih saat mencari",
+  "displayAlbumCardTopRightDate": "Tanggal di kanan atas Kartu Album",
+  "displayAlbumCardTopRightDateSubtitle": "Tampilkan tanggal Album di kanan atas Kartu Album",
+  "displayArtistBeforeTitle": "Tampilkan artis sebelum judul",
+  "displayArtworkOnLockscreen": "Tampilkan karya seni di layar kunci",
+  "displayAudioInfoInMiniplayer": "Tampilkan Info Audio",
+  "displayFavButtonInNotification": "Tampilkan Tombol Favorit di Notifikasi",
+  "displayFavButtonInNotificationSubtitle": "Thumbnail mungkin bergeser.",
+  "displayFavouriteIconInTrackTile": "Tampilkan Tombol Favorit",
+  "displayRemainingDurationInsteadOfTotal": "Tampilkan durasi tersisa alih-alih total",
+  "displayStopButtonInNotification": "Tampilkan Tombol Stop di Notifikasi",
+  "displayThirdItemInRowInTrackTile": "Tampilkan Item Ketiga di Setiap Baris",
+  "displayThirdRowInTrackTile": "Tampilkan Baris Ketiga",
+  "displayTrackNumberInAlbumPage": "Tampilkan nomor trek di Halaman Album",
+  "displayTrackNumberInAlbumPageSubtitle": "Tampilkan kotak kecil berisi nomor trek di halaman album",
+  "doNothing": "Tidak melakukan apa-apa",
+  "donate": "Donasi",
+  "donateSubtitle": "Jika Anda merasa itu layak",
+  "done": "Selesai",
+  "dontAskAgain": "Jangan tanya lagi",
+  "dontDim": "Jangan Redup",
+  "dontRestorePosition": "Jangan pulihkan",
+  "dontResume": "Jangan lanjutkan",
+  "doubleTapToToggleLyrics": "Ketuk dua kali untuk mengaktifkan/menonaktifkan lirik",
+  "download": "Unduh",
+  "downloadingWillOverrideIt": "Mengunduh akan menimpanya",
+  "downloads": "Unduhan",
+  "downloadsMetadataTags": "Tag metadata Unduhan",
+  "downloadsMetadataTagsSubtitle": "Ekstrak artis, judul & album dari info video secara default",
+  "dragToSeek": "Seret untuk mencari",
+  "duckAudio": "Kurangi volume audio",
+  "duplicatedItemsAdding": "Anda mencoba menambahkan beberapa item yang sudah ada di playlist ini",
+  "duplicatedTracks": "Trek Duplikat",
+  "duration": "Durasi",
+  "edgeColorsSwitching": "Pergantian Warna Tepi",
+  "edit": "Edit",
+  "editArtwork": "Edit Karya Seni",
+  "editTags": "Edit Tag",
+  "email": "Email",
+  "emptyNonMeaningfulTagFields": "Anda memiliki kolom dengan nilai kosong/tidak bermakna, pastikan Anda benar-benar ingin mengeditnya",
+  "emptyValue": "Nilai Kosong",
+  "enableArtworkCache": "Aktifkan Cache Karya Seni",
+  "enableArtworkCacheSubtitle": "Pemuatan lebih cepat dan performa lebih baik, tetapi menggunakan lebih banyak penyimpanan",
+  "enableBlurEffect": "Aktifkan Efek Blur",
+  "enableBottomNavBar": "Aktifkan Bilah Navigasi Bawah",
+  "enableBottomNavBarSubtitle": "Item berada di dalam laci di kedua arah",
+  "enableClipboardMonitoring": "Aktifkan Pemantauan Clipboard",
+  "enableClipboardMonitoringSubtitle": "Memungkinkan menempelkan tautan dan teks di dalam bilah pencarian secara langsung",
+  "enableCrossfadeEffect": "Aktifkan Efek Crossfade",
+  "enableFadeEffectOnPlayPause": "Aktifkan Efek Fade saat Putar/Jeda",
+  "enableFoldersHierarchy": "Aktifkan Hierarki Folder",
+  "enableGlowEffect": "Aktifkan Efek Cahaya",
+  "enableM3uSync": "Aktifkan Sinkronisasi M3U",
+  "enableM3uSyncNote1": "Sinkronisasi M3U memungkinkan penyimpanan perubahan playlist ke file M3U asli",
+  "enableM3uSyncNote2": "Jika terjadi kesalahan, cadangan playlist ini dapat ditemukan di {playlistsBackupPath}",
+  "enableM3uSyncSubtitle": "Jika Ditolak, semua perubahan yang dilakukan di playlist ini akan hilang saat dimulai ulang",
+  "enableMiniplayerParticles": "Aktifkan partikel bergerak",
+  "enableParallaxEffect": "Aktifkan Efek Paralaks",
+  "enablePartyMode": "Aktifkan Mode Pesta",
+  "enablePartyModeSubtitle": "Terapkan efek napas tepi yang mewah",
+  "enablePictureInPicture": "Aktifkan Picture-in-Picture",
+  "enableReordering": "Aktifkan Pengurutan Ulang",
+  "enableReturnYoutubeDislike": "Aktifkan Return Youtube Dislike",
+  "enableSearchCleanup": "Aktifkan Pembersihan Pencarian",
+  "enableSearchCleanupSubtitle": "Semua Simbol dan Spasi akan diabaikan",
+  "enableSponsorblock": "Aktifkan SponsorBlock",
+  "enableVideoPlayback": "Aktifkan Pemutaran Video",
+  "enterSymbol": "Silakan Masukkan Simbol",
+  "equalizer": "Ekualizer",
+  "error": "Kesalahan",
+  "errorPlayingTrack": "Kesalahan saat memutar trek",
+  "excludedFodlers": "Folder yang Dikecualikan",
+  "exit": "Keluar",
+  "exitAppSubtitle": "Ketuk lagi untuk keluar",
+  "expandedMiniplayer": "Miniplayer Diperluas",
+  "exportAsM3u": "Ekspor sebagai M3U",
+  "extension": "Ekstensi",
+  "externalFiles": "File Eksternal",
+  "extract": "Ekstrak",
+  "extractAllColorPalettes": "Ekstrak Semua Palet Warna",
+  "extractAllColorPalettesSubtitle": "{number, plural, one{Ekstrak Sisa {number}?} other{Ekstrak Sisa {number}?}}",
+  "extractFeatArtist": "Ekstrak artis feat. dari judul",
+  "extractFeatArtistSubtitle": "Mengekstrak artis (feat. X) dan (ft. X) sebagai entri artis baru.",
+  "extractingInfo": "Mengekstrak Info",
+  "extras": "Ekstra",
+  "extrasSubtitle": "Pengaturan Ekstra untuk menyempurnakan pengalaman Anda",
+  "extreme": "Ekstrem",
+  "failed": "Gagal",
+  "failedEdits": "Pengeditan Gagal",
+  "favourites": "Favorit",
+  "features": "Fitur",
+  "fetching": "Mengambil",
+  "fetchingOfAllVideos": "Pengambilan semua video",
+  "file": "File",
+  "fileAlreadyExists": "File sudah ada",
+  "fileBasedServerWarning": "File akan diunduh sementara untuk pengindeksan. Pastikan koneksi Anda stabil.\nWi-Fi disarankan untuk menghindari penggunaan data yang tinggi.",
+  "fileName": "Nama File",
+  "fileNameWoExt": "Nama file tanpa ekstensi",
+  "filenameShouldntStartWith": "Nama file tidak boleh dimulai dengan",
+  "files": "File",
+  "filler": "Pengisi",
+  "filterAlbums": "Filter Album",
+  "filterArtists": "Filter Artis",
+  "filterGenres": "Filter Genre",
+  "filterPlaylists": "Filter Playlist",
+  "filterTracks": "Filter Trek",
+  "filterTracksBy": "Filter Trek di Daftar Pencarian Berdasarkan",
+  "filteredBySizeAndDuration": "Trek Difilter berdasarkan ukuran dan durasi",
+  "finished": "Selesai",
+  "finishedUpdatingLibrary": "Selesai Memperbarui Pustaka",
+  "firstListen": "Pertama kali didengarkan",
+  "fixYtdlpBigThumbnailSize": "Perbaiki ukuran thumbnail besar yt-dlp",
+  "floatingActionButton": "Tombol Aksi Mengambang",
+  "folder": "Folder",
+  "folderName": "Nama Folder",
+  "folders": "Folder",
+  "fontScale": "Skala Font",
+  "forceMiniplayerFollowTrackColors": "Paksa miniplayer mengikuti warna trek",
+  "forceSquaredAlbumThumbnail": "Paksa Thumbnail Album Berbentuk Kotak",
+  "forceSquaredThumbnailNote": "Ukuran Thumbnail & Tinggi Ubin TIDAK sama, tampilan persegi tidak akan sesuai harapan. Apakah Anda ingin menyamakannya?",
+  "forceSquaredTrackThumbnail": "Paksa Thumbnail Trek Berbentuk Kotak",
+  "forceStopColorPaletteGeneration": "Paksa berhenti mengekstrak palet warna? Anda masih dapat melanjutkannya nanti",
+  "format": "Format",
+  "fullscreen": "Layar Penuh",
+  "gaplessPlayback": "Pemutaran Tanpa Jeda",
+  "generate": "Buat",
+  "generateFromDates": "Rentang Waktu",
+  "generateFromDatesSubtitle": "Buat trek yang Anda dengarkan dalam rentang waktu tertentu",
+  "generateRandomPlaylist": "Buat Playlist acak",
+  "genre": "Genre",
+  "genres": "Genre",
+  "goToAlbum": "Buka Album",
+  "goToArtist": "Buka Artis",
+  "goToChannel": "Buka saluran",
+  "goToFolder": "Buka Folder",
+  "goodLooking": "Tampilan menarik",
+  "grantStoragePermission": "Berikan Izin Penyimpanan",
+  "group": "Kelompok",
+  "groupArtworksByAlbum": "Kelompokkan Karya Seni berdasarkan Album",
+  "guide": "Panduan",
+  "hapticFeedback": "Umpan Balik Haptic",
+  "heightOfAlbumTile": "Tinggi Ubin Album",
+  "heightOfTrackTile": "Tinggi Ubin Trek",
+  "hideSkipButtonAfter": "Sembunyikan tombol lewati setelah",
+  "highMatches": "Kecocokan tinggi",
+  "highPerformance": "Performa tinggi",
+  "highlight": "Sorot",
+  "history": "Riwayat",
+  "historyImportMissingEntriesNote": "Entri-entri ini tidak dapat ditemukan di dalam pustaka. Jika Anda yakin mereka ada, harap pertimbangkan untuk menambahkannya secara manual",
+  "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} dengarkan untuk {oldTrackInfo} akan diganti dengan {newTrackInfo}, konfirmasi?} other{{listensCount} dengarkan untuk {oldTrackInfo} akan diganti dengan {newTrackInfo}, konfirmasi?}}",
+  "home": "Beranda",
+  "hook": "Kait",
+  "host": "Host",
+  "hourFormat12": "Format 12 Jam",
+  "hours": "Jam",
+  "iReadAndAgree": "Saya telah membaca & menyetujui",
+  "ifNotPlaying": "Jika tidak diputar",
+  "ignoreBatteryOptimizationsSubtitle": "Unduhan dapat dibatasi kecepatannya saat aplikasi dibatasi baterai",
+  "ignoreCommonPrefixesWhileSorting": "Abaikan awalan umum saat mengurutkan",
+  "ignores": "Diabaikan",
+  "imageSource": "Sumber gambar",
+  "immersiveMode": "Mode Imersif",
+  "immersiveModeSubtitle": "Sembunyikan bilah Status & Navigasi saat Miniplayer diperluas",
+  "import": "Impor",
+  "importAll": "Impor semua",
+  "importLastFmHistory": "Impor Riwayat LastFm",
+  "importLastFmHistoryGuide": "1. Buka {lastfmCsvLink}\n\n2. Ketik nama pengguna Anda, ambil dan unduh file csv.\n\n3. Pilih file dari layar berikutnya.",
+  "importTimeRange": "Impor rentang waktu",
+  "importYoutubeHistory": "Impor Riwayat Youtube",
+  "importYoutubeHistoryGuide": "1. Buka {takeoutLink}\n\n2. Tekan \"Multiple Formats\" dan di samping \"History\" pilih \"JSON\".\n\n3. Tekan \"All Youtube data included\", Batalkan Pilih Semua dan pilih riwayat saja.\n\n4. Buat Ekspor, Unduh & Unzip.\n\n5. Pilih \"watch-history.json\" dari layar berikutnya.",
+  "importedNChannelsSuccessfully": "{number, plural, one{Berhasil mengimpor {number} saluran} other{Berhasil mengimpor {number} saluran}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, one{Berhasil mengimpor {numberText} playlist} other{Berhasil mengimpor {numberText} playlist}}",
+  "includeVideos": "Sertakan video",
+  "indexRefreshRequired": "Lakukan Segarkan setelah mengubah ini",
+  "indexer": "Pengindeks",
+  "indexerNote": "Catatan: Jumlah Karya Seni yang Tidak Lengkap mengacu pada Karya Seni yang duplikat & tidak ditemukan",
+  "indexerSubtitle": "Kelola pustaka musik Anda",
+  "infinityQueueOnNextPrev": "Antrean Tak Terbatas pada Berikutnya/Sebelumnya",
+  "infinityQueueOnNextPrevSubtitle": "menekan berikutnya saat memutar item terakhir akan melompat ke yang pertama, dan sebaliknya",
+  "info": "Info",
+  "inserted": "disisipkan",
+  "instantlyApplies": "Langsung Diterapkan",
+  "interactionReminder": "Pengingat Interaksi",
+  "intro": "Intro",
+  "invertSelection": "Balik Pilihan",
+  "issues": "Masalah",
+  "item": "Item",
+  "jump": "Lompat",
+  "jumpToDay": "Lompat ke Hari",
+  "jumpToFirstTrackAfterQueueFinish": "Lompat ke trek pertama setelah antrean selesai",
+  "keepCachedVersions": "Simpan versi yang di-cache",
+  "keepFileDates": "Pertahankan tanggal file",
+  "keepScreenAwakeMiniplayerExpanded": "Miniplayer Diperluas",
+  "keepScreenAwakeMiniplayerExpandedAndVideo": "Miniplayer Diperluas dan Video Sedang Diputar",
+  "keepScreenAwakeNone": "Jangan jaga layar tetap menyala",
+  "keepScreenAwakeWhen": "Jaga layar tetap menyala saat",
+  "killPlayerAfterDismissingApp": "Matikan pemutar setelah menutup aplikasi",
+  "language": "Bahasa",
+  "learnMore": "Pelajari lebih lanjut",
+  "leftAction": "Aksi Kiri",
+  "legacyAuthentication": "Autentikasi Lama",
+  "libraryTabs": "Tab Pustaka",
+  "libraryTabsReorder": "Anda dapat mengurutkan ulang tab yang diaktifkan.",
+  "license": "Lisensi",
+  "licenseSubtitle": "Lisensi & Perjanjian yang Digunakan oleh Namida",
+  "like": "Suka",
+  "liked": "Disukai",
+  "link": "Tautan",
+  "listOfFolders": "Daftar Folder",
+  "loadAll": "Muat semua",
+  "loadingFile": "Memuat File",
+  "local": "Lokal",
+  "localVideoMatching": "Pencocokan Video Lokal",
+  "login": "Masuk",
+  "longPressAction": "Aksi Tekan Lama",
+  "longPressTheLyricsToEnterFullscreen": "Tekan lama lirik untuk masuk ke layar penuh",
+  "lostMemories": "Kenangan yang Hilang",
+  "lostMemoriesSubtitle": "{number, plural, one{sekitar waktu ini, {number} tahun yang lalu} other{sekitar waktu ini, {number} tahun yang lalu}}",
+  "lostPartners": "Mitra yang Hilang",
+  "loudnessEnhancer": "Penguat Kenyaringan",
+  "lyricist": "Penulis Lirik",
+  "lyrics": "Lirik",
+  "lyricsSource": "Sumber lirik",
+  "m3uPlaylist": "Playlist M3U",
+  "makeYourFirstListen": "Mulai dengarkan pertama Anda!",
+  "manage": "Kelola",
+  "manageYourAccounts": "Kelola akun Anda",
+  "manualBackup": "Manual",
+  "manualBackupSubtitle": "pilih file tertentu",
+  "markAsRead": "Tandai sebagai telah dibaca",
+  "matchAllTracks": "Cocokkan Semua Trek",
+  "matchAllTracksNote": "ini dapat berdampak pada kecepatan pencocokan, karena akan memeriksa semua trek di pustaka Anda",
+  "matchingType": "Jenis pencocokan",
+  "maxAudioCacheSize": "Ukuran maksimum cache audio",
+  "maxImageCacheSize": "Ukuran maksimum cache gambar",
+  "maxVideoCacheSize": "Ukuran maksimum cache video",
+  "maximum": "Maksimum",
+  "mediaStoreIsEnabledThisWillHaveNoEffect": "Media Store diaktifkan, ini tidak akan berpengaruh",
+  "medium": "Sedang",
+  "membershipCode": "Kode",
+  "membershipCodeSentToEmail": "Kode dikirim ke email Anda",
+  "membershipDidntChange": "Keanggotaan tidak berubah",
+  "membershipEnjoyNew": "Nikmati keanggotaan baru Anda",
+  "membershipFreeCoupon": "Kupon Gratis",
+  "membershipManage": "Kelola keanggotaan Anda",
+  "membershipNoSubscriptionsFoundForUser": "Tidak ada langganan yang ditemukan untuk pengguna ini",
+  "membershipSignInToPatreonAccount": "Masuk ke akun patreon Anda",
+  "membershipUnknown": "Keanggotaan Tidak Diketahui",
+  "membershipYouNeedMembershipOfToAddMultipleAccounts": "Anda memerlukan keanggotaan {name1} atau {name2} untuk menambahkan beberapa akun",
+  "merge": "Gabung",
+  "metadataCache": "Cache Metadata",
+  "metadataEditFailed": "Gagal mengedit metadata",
+  "metadataReadFailed": "Gagal membaca metadata",
+  "minFileDuration": "Durasi Trek Minimum",
+  "minFileSize": "Ukuran File Minimum",
+  "minTrackDurationToRestoreLastPosition": "Durasi trek minimum untuk memulihkan posisi terakhir yang diputar",
+  "minValueCantBeMoreThanMax": "Nilai minimum tidak boleh lebih dari maksimum",
+  "minValueToCountTrackListen": "Hitung dengarkan setelah: ",
+  "minimizedMiniplayer": "Miniplayer Diminimalkan",
+  "minimum": "Minimum",
+  "minimumOneFolderSubtitle": "Harus ada setidaknya 1 folder, tambahkan lebih banyak folder jika Anda ingin menghapus yang ini",
+  "minimumOneItem": "Tidak dapat menghapus item",
+  "minimumOneItemSubtitle": "{number, plural, one{Setidaknya {number} item harus tersisa} other{Setidaknya {number} item harus tersisa}}",
+  "minimumSegmentDuration": "Durasi Segmen Minimum",
+  "miniplayerCustomization": "Kustomisasi Miniplayer",
+  "minutes": "menit",
+  "missingEntries": "Entri yang Hilang",
+  "missingTracks": "Trek yang Hilang",
+  "mix": "Campuran",
+  "mixPlaylistGeneratedByYoutube": "Playlist campuran yang dibuat oleh youtube",
+  "mixes": "Campuran",
+  "mobile": "Ponsel",
+  "month": "Bulan",
+  "months": "Bulan",
+  "mood": "Suasana Hati",
+  "moods": "Suasana Hati",
+  "more": "Lainnya",
+  "mostPlayed": "Paling Sering Diputar",
+  "multipleTracksTagsEditNote": "Anda akan mengedit trek-trek ini,\nKolom yang tidak diubah akan tetap sama.",
+  "musicOfftopic": "Musik Offtopik",
+  "name": "Nama",
+  "nameContainsBadCharacter": "Nama mengandung karakter yang tidak valid",
+  "never": "Tidak pernah",
+  "newDirectory": "Direktori baru",
+  "newTracksAdd": "Tambah Trek",
+  "newTracksMoods": "Suasana Hati",
+  "newTracksMoodsSubtitle": "Buat trek berdasarkan suasana hati yang tersedia",
+  "newTracksRandom": "Acak",
+  "newTracksRandomSubtitle": "Ambil trek acak dari pustaka Anda",
+  "newTracksRatings": "Penilaian",
+  "newTracksRatingsSubtitle": "Buat trek yang memiliki penilaian tertentu",
+  "newTracksRecommended": "Direkomendasikan",
+  "newTracksRecommendedSubtitle": "Buat trek yang biasa Anda dengarkan bersama {currentTrack}",
+  "newTracksSimilarrReleaseDate": "Tanggal Rilis Serupa",
+  "newTracksSimilarrReleaseDateSubtitle": "Buat trek yang dirilis sekitar waktu yang sama dengan {currentTrack}",
+  "newTracksUnknownYear": "Trek memiliki tahun yang tidak diketahui",
+  "newest": "Terbaru",
+  "next": "Berikutnya",
+  "no": "tidak",
+  "noChangesFound": "Tidak ada perubahan yang ditemukan.",
+  "noEnoughTracks": "Anda tidak memiliki banyak trek..",
+  "noExcludedFolders": "Anda tidak memiliki folder yang dikecualikan",
+  "noFolderChosen": "Anda belum memilih folder apa pun",
+  "noMoodsAvailable": "Tidak ada suasana hati yang tersedia",
+  "noNetworkAvailableToFetchData": "Tidak ada jaringan tersedia untuk mengambil data",
+  "noTracksFound": "Tidak ada trek yang ditemukan",
+  "noTracksFoundBetweenDates": "Rentang waktu ini tidak memiliki trek apa pun.",
+  "noTracksFoundInDirectory": "Tidak ada trek yang ditemukan di direktori ini",
+  "noTracksInHistory": "Anda tidak memiliki cukup trek dalam riwayat",
+  "nonActive": "Tidak Aktif",
+  "nonFavourites": "Bukan Favorit",
+  "none": "Tidak ada",
+  "normalizeAudio": "Normalkan audio",
+  "normalizeAudioSubtitle": "Menormalkan volume dengan membaca tag replay gain atau info yang disediakan oleh youtube",
+  "notAvailableForYourDevice": "Tidak Tersedia untuk Perangkat Anda",
+  "notSupportedForNetworkFiles": "Tidak Didukung untuk File Jaringan",
+  "note": "Catatan",
+  "notification": "Notifikasi",
+  "notifications": "Notifikasi",
+  "numberOfTracks": "Jumlah Trek",
+  "ofLabel": "dari",
+  "offlineSearch": "Pencarian Luring",
+  "offset": "Offset",
+  "oldDirectory": "Direktori lama",
+  "oldDirectoryStillHasTracks": "Direktori Lama masih memiliki beberapa trek, konfirmasi?",
+  "oldestWatch": "Tontonan Terlama",
+  "onInterruption": "Saat Gangguan",
+  "onNotificationTap": "Saat Mengetuk Notifikasi",
+  "onOpeningYoutubeLink": "Saat membuka tautan youtube",
+  "onSwiping": "Saat Menggeser",
+  "onVolumeZero": "Pada volume 0",
+  "ongoing": "Berlangsung",
+  "open": "Buka",
+  "openApp": "Buka Aplikasi",
+  "openInFileExplorer": "Buka di File Explorer",
+  "openInYoutubeView": "Buka di tampilan Youtube",
+  "openMiniplayer": "Buka Miniplayer",
+  "openQueue": "Buka Antrean",
+  "openYoutubeLink": "Buka Tautan Youtube",
+  "operationRequiresAccount": "Operasi {name} memerlukan akun, Masuk untuk melanjutkan",
+  "operationRequiresMembership": "Operasi {operation} memerlukan setidaknya keanggotaan {name}",
+  "or": "atau",
+  "others": "Lainnya",
+  "output": "Keluaran",
+  "outro": "Outro",
+  "overrideOldFilesInTheSameFolder": "Timpa file lama di folder yang sama",
+  "palette": "Palet",
+  "paletteMix": "Campuran",
+  "paletteNewMix": "Campuran Baru",
+  "paletteSelectedMix": "Campuran Terpilih",
+  "parallelDownloads": "Unduhan Paralel",
+  "parsed": "diurai",
+  "password": "Kata Sandi",
+  "path": "Jalur Lengkap File",
+  "pause": "Jeda",
+  "pauseFadeDuration": "Durasi Fade Jeda",
+  "pausePlayback": "Jeda pemutaran",
+  "percentage": "Persentase",
+  "performanceMode": "Mode performa",
+  "performanceNote": "Mungkin memengaruhi performa",
+  "personalized": "Dipersonalisasi",
+  "personalizedRelatedVideos": "Video Terkait yang Dipersonalisasi",
+  "personalizedRelatedVideosSubtitle": "Menonaktifkan ini akan meningkatkan penggunaan data",
+  "pickColorsFromDeviceWallpaper": "Ambil Warna dari Wallpaper Perangkat",
+  "pickFromStorage": "Pilih dari penyimpanan",
+  "pinned": "Disematkan",
+  "pitch": "Nada",
+  "plain": "Biasa",
+  "play": "Putar",
+  "playAfter": "Putar Setelah",
+  "playAfterNextPrev": "Putar Otomatis pada Berikutnya/Sebelumnya",
+  "playAll": "Putar Semua",
+  "playFadeDuration": "Durasi Fade Putar",
+  "playLast": "Putar Terakhir",
+  "playNext": "Putar Berikutnya",
+  "playbackSetting": "Pemutaran",
+  "playbackSettingSubtitle": "Dapat diakses langsung di pemutar dengan menekan lama tombol audio",
+  "playlist": "Playlist",
+  "playlists": "Playlist",
+  "playlistsImportM3uNative": "Ini akan mengimpor playlist M3U untuk digunakan hanya oleh namida, gunakan jika Anda sedang migrasi",
+  "playlistsImportM3uSynced": "Ini akan secara otomatis mengimpor playlist M3U dari folder pengindeks dan menjaganya tetap tersinkronisasi dengan file M3U asli. Aktifkan jika Anda mengakses/mengubah playlist dari aplikasi lain",
+  "playlistsImportM3uSyncedAutoImport": "Impor Otomatis Playlist M3U",
+  "pleaseEnterADifferentName": "Nama ini sudah ada :(\nsilakan coba nama lain yang menarik",
+  "pleaseEnterALink": "Harap masukkan tautan",
+  "pleaseEnterALinkSubtitle": "umm.. apakah ini tautan youtube?",
+  "pleaseEnterAName": "Harap masukkan nama",
+  "port": "Port",
+  "preventDuplicatedTracks": "Cegah trek Duplikat",
+  "preventDuplicatedTracksSubtitle": "Menggunakan nama file untuk mengidentifikasi trek secara unik",
+  "preview": "Pratinjau",
+  "previous": "Sebelumnya",
+  "previousButtonReplays": "Tombol sebelumnya memutar ulang",
+  "previousButtonReplaysSubtitle": "jika ditekan saat posisi saat ini lebih dari durasi pencarian",
+  "prioritizeEmbeddedLyrics": "Prioritaskan lirik yang disematkan",
+  "priority": "Prioritas",
+  "private": "Pribadi",
+  "progress": "Progres",
+  "promptIndexingRefresh": "{newFiles} file baru telah ditemukan & {deletedFiles} telah dihapus atau difilter, ingin melakukan segarkan?",
+  "promptToChangeTrackPath": "Biasanya ini terjadi saat Anda menghapus/memindahkan/mengganti nama file di luar namida. Apakah Anda ingin memperbarui jalur saat ini?",
+  "public": "Publik",
+  "queue": "Antrean",
+  "queues": "Antrean",
+  "random": "Acak",
+  "randomPicks": "Pilihan Acak",
+  "rating": "Penilaian",
+  "reIndex": "Indeks Ulang",
+  "reIndexSubtitle": "Bangun ulang pustaka musik Anda dari awal",
+  "reIndexWarning": "Proses ini mungkin memerlukan waktu, tergantung pada ukuran pustaka Anda.\n\nKarya seni tidak akan diindeks ulang selama masih ada",
+  "recentAlbums": "Album Terkini",
+  "recentArtists": "Artis Terkini",
+  "recentListens": "Dengarkan Terkini",
+  "recentlyAdded": "Baru Ditambahkan",
+  "recordLabel": "Label Rekaman",
+  "refresh": "Segarkan",
+  "refreshLibrary": "Segarkan Pustaka",
+  "refreshLibrarySubtitle": "Periksa musik yang baru ditambahkan atau dihapus",
+  "refreshOnStartup": "Segarkan saat mulai",
+  "relatedVideos": "Video terkait",
+  "rememberAudioOnlyMode": "Ingat mode hanya audio",
+  "remixer": "Remixer",
+  "remove": "Hapus",
+  "removeDuplicates": "Hapus Duplikat",
+  "removeFromFavourites": "Hapus dari favorit",
+  "removeFromLibrary": "Hapus dari pustaka",
+  "removeFromPlaylist": "Hapus Dari Playlist",
+  "removeQueue": "Hapus Antrean",
+  "removeSourceFromHistory": "Hapus sumber dari riwayat",
+  "removeWhitespaces": "Hapus Spasi",
+  "removed": "Dihapus",
+  "rename": "Ganti Nama",
+  "renamePlaylist": "Ganti Nama Playlist",
+  "reorderable": "Dapat Diurutkan Ulang",
+  "repeatForNTimes": "{number, plural, one{Ulangi {number} kali lagi} other{Ulangi {number} kali lagi}}",
+  "repeatMode": "Mode ulangi",
+  "repeatModeAll": "Ulangi Semua Antrean",
+  "repeatModeNone": "Berhenti di Trek Terakhir",
+  "repeatModeOne": "Ulangi Trek Saat Ini",
+  "replaceAllListensWithAnotherTrack": "Ganti semua dengarkan dengan trek lain",
+  "replies": "Balasan",
+  "reply": "Balas",
+  "requiresClearingImageCacheAndReIndexing": "Memerlukan penghapusan cache gambar dan pengindeksan ulang",
+  "rescanVideos": "Pindai ulang video",
+  "resetBrightness": "Atur ulang kecerahan",
+  "resetToDefault": "Atur ke",
+  "respectNoMedia": "Hormati .nomedia",
+  "respectNoMediaSubtitle": "Jangan sertakan folder yang memiliki .nomedia",
+  "restart": "Mulai Ulang",
+  "restoreBackup": "Pulihkan Cadangan",
+  "restoreDefaults": "Pulihkan Default",
+  "restoredBackupSuccessfully": "Cadangan Dipulihkan",
+  "restoredBackupSuccessfullySub": "File cadangan telah berhasil dipulihkan",
+  "resume": "Lanjutkan",
+  "resumeIfWasInterrupted": "Lanjutkan jika dijeda oleh gangguan",
+  "resumeIfWasPausedByVolume": "Lanjutkan jika dijeda oleh volume",
+  "resumeIfWasPausedForLessThanNMin": "{number, plural, one{Lanjutkan jika dijeda kurang dari {number} menit} other{Lanjutkan jika dijeda kurang dari {number} menit}}",
+  "returnYoutubeDislike": "Return Youtube Dislike",
+  "reverseOrder": "Urutan Terbalik",
+  "rightAction": "Aksi Kanan",
+  "ringtone": "Nada Dering",
+  "sameDirectoryOnly": "Direktori yang sama saja",
+  "sample": "Sampel",
+  "sampleRate": "Laju Sampel",
+  "save": "Simpan",
+  "saveToLibrary": "Simpan ke pustaka",
+  "savedIn": "Tersimpan di",
+  "scaleMultiplier": "Pengali Skala",
+  "search": "Cari",
+  "searchYoutube": "Cari di YouTube",
+  "seconds": "detik",
+  "seeProjectCodeOnSite": "Lihat Kode Proyek di {site}",
+  "seekDuration": "Durasi Pencarian",
+  "seekDurationInfo": "Anda dapat mengetuk durasi saat ini untuk mencari mundur & durasi total untuk mencari maju",
+  "seekbar": "Seekbar",
+  "selectAll": "Pilih Semua",
+  "selectFilesAlreadyInLocalLibrary": "Pilih file yang sudah ada di pustaka lokal",
+  "selectedTracks": "Trek Terpilih",
+  "selfPromotion": "Promosi Diri",
+  "semitones": "Seminada",
+  "separatorsBlacklistSubtitle": "Kata-kata ini tidak akan dipecah",
+  "separatorsMessage": "Tidak perlu menyisipkan spasi, kecuali Anda ingin menggunakan huruf/simbol yang dapat ditemukan dalam kata utuh (seperti x dan ft.)",
+  "serverAddress": "Alamat Server",
+  "setAs": "Atur sebagai",
+  "setAsDefault": "Atur sebagai Default",
+  "setFileLastModifiedAsVideoUploadDate": "Atur tanggal terakhir diubah file sebagai tanggal unggahan video",
+  "setMoods": "Atur suasana hati",
+  "setMoodsSubtitle": "Gunakan koma (,) untuk memisahkan di antaranya",
+  "setRating": "Atur Penilaian",
+  "setTags": "Atur tag",
+  "setYoutubeLink": "Atur Tautan Youtube",
+  "settings": "Pengaturan",
+  "setupFirstStartup": "Atur mulai pertama kali",
+  "share": "Bagikan",
+  "shareLogs": "Bagikan Log",
+  "shortcuts": "Pintasan",
+  "shouldDuck": "Harus dikurangi",
+  "shouldDuckNote": "Menunjukkan bahwa volume harus diturunkan. contoh: notifikasi",
+  "shouldPause": "Harus dijeda",
+  "shouldPauseNote": "Menunjukkan bahwa pemutaran harus dijeda. contoh: panggilan",
+  "showAll": "Tampilkan Semua",
+  "showChannelWatermarkInFullscreen": "Tampilkan watermark saluran di layar penuh",
+  "showFailedOnly": "Tampilkan yang Gagal saja",
+  "showHideUnknownFields": "Tampilkan/sembunyikan Kolom Tidak Diketahui",
+  "showInSeekbar": "Tampilkan di Seekbar",
+  "showMixPlaylistsIn": "Tampilkan Campuran di",
+  "showMore": "Tampilkan lebih banyak",
+  "showShortVideosIn": "Tampilkan Shorts di",
+  "showSkipButton": "Tampilkan Tombol Lewati",
+  "showVideoEndcards": "Tampilkan endcard video",
+  "showWebm": "Tampilkan webm",
+  "shuffle": "Acak",
+  "shuffleAll": "Acak Semua",
+  "shuffleNext": "Acak Berikutnya",
+  "signIn": "Masuk",
+  "signInCanceled": "Masuk dibatalkan",
+  "signInFailed": "Masuk gagal",
+  "signInToYourAccount": "Masuk ke akun Anda",
+  "signInYouDontHaveAccount": "Anda tidak memiliki akun yang masuk",
+  "signInYouNeedAccountToViewPage": "Anda memerlukan akun untuk melihat halaman ini",
+  "signOut": "Keluar",
+  "signOutFromName": "Keluar dari {name}",
+  "signingInAllowsBasicUsage": "Masuk memungkinkan penggunaan dasar",
+  "signingInAllowsBasicUsageSubtitle": "Dapatkan akses awal melalui patreon atau dengan menggunakan kupon",
+  "similarDiscoverDate": "Tanggal Temukan Serupa",
+  "similarDiscoverDateSubtitle": "Buat trek yang ditemukan sekitar waktu yang sama dengan {currentTrack}",
+  "similarTimeRange": "Rentang Waktu Serupa",
+  "similarTimeRangeSubtitle": "Buat trek yang Anda dengarkan sekitar waktu yang sama dengan {currentTrack}",
+  "singles": "Single",
+  "size": "Ukuran",
+  "skip": "Lewati",
+  "skipCountTracking": "Pelacakan Jumlah Lewati",
+  "skipSilence": "Lewati Keheningan",
+  "skipSponsorSegmentsInVideos": "Lewati Segmen Sponsor di Video",
+  "sleepAfter": "Tidur Setelah",
+  "sleepTimer": "Pengatur waktu tidur",
+  "socials": "Media Sosial",
+  "socialsSubtitle": "Bergabunglah dengan kami di platform kami untuk Pembaruan, Tips, Diskusi & Ide",
+  "someWebServersRequireAuthentication": "Beberapa server web memerlukan autentikasi. Harap perbarui kredensial untuk mempertahankan akses ke pustaka Anda.",
+  "sortBy": "Urutkan berdasarkan",
+  "source": "Sumber",
+  "speed": "Kecepatan",
+  "sponsor": "Sponsor",
+  "sponsorblock": "SponsorBlock",
+  "sponsorblockLeaderboard": "Papan Peringkat SponsorBlock",
+  "staggeredAlbumGridView": "Tampilan Grid Album Bertingkat",
+  "start": "Mulai",
+  "stats": "Statistik",
+  "statsSubtitle": "Berikut beberapa info tentang pustaka Anda",
+  "stop": "Berhenti",
+  "stopAfterThisTrack": "Berhenti setelah trek ini",
+  "stopAfterThisVideo": "Berhenti setelah video ini",
+  "storagePermissionDenied": "Izin Ditolak",
+  "storagePermissionDeniedSubtitle": "Harap izinkan akses untuk dapat melakukan tindakan ini",
+  "stretchLyricsDuration": "Rentangkan Durasi Lirik",
+  "subdirectory": "Subdirektori",
+  "subscribe": "Langganan",
+  "subscribed": "Berlangganan",
+  "subscriber": "Pelanggan",
+  "subscribers": "Pelanggan",
+  "succeeded": "Berhasil",
+  "suggestionSubtitle": "Ada Masalah atau Saran? Buka isu di {site}",
+  "support": "Dukungan",
+  "supremacy": "Supremasi",
+  "sussyBaka": "Bro tidak ada trek",
+  "swipeActions": "Aksi Geser",
+  "swipeToOpenDrawer": "Geser untuk membuka laci",
+  "synced": "Tersinkronisasi",
+  "synopsis": "Sinopsis",
+  "tagFields": "Kolom Tag",
+  "tags": "Tag",
+  "tapAction": "Aksi Ketuk",
+  "tapToSeek": "Ketuk untuk mencari",
+  "themeMode": "Mode Tema",
+  "themeModeDark": "Gelap",
+  "themeModeLight": "Terang",
+  "themeModeSystem": "Sistem",
+  "themeSettings": "Tema",
+  "themeSettingsSubtitle": "Nuansa keseluruhan pemutar Anda",
+  "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "Playlist ini memiliki penyortir aktif, harap nonaktifkan sebelum mengurutkan ulang.",
+  "thisVideoIsLikelyDeletedOrSetToPrivate": "Video ini kemungkinan telah dihapus atau diatur ke pribadi.",
+  "thumbnails": "Thumbnail",
+  "title": "Judul",
+  "top": "Atas",
+  "topComments": "Komentar teratas",
+  "topCommentsSubtitle": "Tampilkan komentar di atas alih-alih di bawah",
+  "topRecentAlbums": "Album Terkini Teratas",
+  "topRecentArtists": "Artis Terkini Teratas",
+  "topRecents": "Terkini Teratas",
+  "totalListenTime": "Total Waktu Dengar",
+  "totalListens": "Total Dengarkan",
+  "totalTracks": "Total Trek",
+  "totalTracksDuration": "Total Durasi Trek",
+  "track": "Trek",
+  "trackArtistsSeparator": "Pemisah Artis",
+  "trackGenresSeparator": "Pemisah Genre",
+  "trackInfo": "Info Trek",
+  "trackNotFound": "Trek tidak ditemukan",
+  "trackNumber": "Nomor Trek",
+  "trackNumberTotal": "Total Trek",
+  "trackPathOldNew": "Nama lama: \"{oldName}\"\n\nNama baru: \"{newName}\"\n\nApakah Anda yakin?",
+  "trackPlayMode": "Mode Putar",
+  "trackPlayModeSearchResults": "Hasil Pencarian",
+  "trackPlayModeSelectedOnly": "Hanya trek terpilih",
+  "trackPlayModeTrackAlbum": "Album Trek",
+  "trackPlayModeTrackArtist": "Artis Utama Trek",
+  "trackPlayModeTrackGenre": "Genre Trek",
+  "trackThumbnailSizeInList": "Ukuran Thumbnail Trek",
+  "trackTileCustomization": "Kustomisasi Ubin Trek",
+  "trackTileItemsSeparator": "Pemisah Item",
+  "tracks": "Trek",
+  "tracksExcludedByNomedia": "Trek Dikecualikan oleh .nomedia",
+  "tracksInfo": "Info Trek",
+  "underrated": "Kurang Diapresiasi",
+  "undo": "Batalkan",
+  "undoChanges": "Batalkan Perubahan?",
+  "undoChangesDeletedPlaylist": "Batalkan penghapusan playlist",
+  "undoChangesDeletedQueue": "Batalkan penghapusan Antrean",
+  "undoChangesDeletedTrack": "Batalkan penghapusan trek",
+  "uniqueArtworkHash": "Hash Karya Seni Unik",
+  "unlimited": "Tidak Terbatas",
+  "unlisted": "Tidak Terdaftar",
+  "unlock": "Buka Kunci",
+  "update": "Perbarui",
+  "updateDirectoryPath": "Perbarui jalur direktori",
+  "updateMissingTracksOnly": "Perbarui hanya trek yang hilang",
+  "updating": "Memperbarui",
+  "useCollapsedSettingTiles": "Gunakan Ubin Pengaturan yang Diciutkan",
+  "useMediaStore": "Gunakan Media Store",
+  "useMediaStoreSubtitle": "✓ waktu pengindeksan instan\nx hormati .nomedia akan diaktifkan secara paksa\nx beberapa tag metadata akan hilang\nx integrasi youtube untuk pustaka lokal tidak akan berfungsi",
+  "usePitchBlack": "Gunakan Pitch Black",
+  "usePitchBlackSubtitle": "Berguna untuk layar AMOLED.. dan terlihat lebih keren",
+  "used": "Digunakan",
+  "value": "Nilai",
+  "valueBetween50200": "Nilai harus antara 50% dan 200%",
+  "vibration": "Getaran",
+  "vibrationType": "Jenis getaran",
+  "video": "Video",
+  "videoCache": "Cache Video",
+  "videoCacheFile": "File Video yang Di-cache",
+  "videoCacheFiles": "File-file Video yang Di-cache",
+  "videoOnly": "Hanya Video",
+  "videoPlaybackSource": "Sumber Video",
+  "videoPlaybackSourceAutoSubtitle": "Ini akan memberikan prioritas pada video lokal, jika tidak ditemukan maka akan mengambil dari youtube",
+  "videoPlaybackSourceLocal": "Video Lokal",
+  "videoPlaybackSourceLocalExampleSubtitle": "Alan Walker - Faded.m4a\nVideo Alan Walker - Faded (480p).mp4",
+  "videoPlaybackSourceLocalSubtitle": "Memeriksa apakah ada file video (yang ditemukan di dalam daftar folder yang dipilih) yang memiliki nama file yang mengandung nama file trek",
+  "videoPlaybackSourceYoutube": "Dari Youtube",
+  "videoPlaybackSourceYoutubeSubtitle": "Memeriksa nama file & komentar trek untuk tautan youtube yang cocok, video di-cache untuk penggunaan selanjutnya.",
+  "videoQuality": "Kualitas Video",
+  "videoQualitySubtitle": "Kualitas tertinggi yang tersedia akan dipilih.",
+  "videoQualitySubtitleNote": "Selalu baik untuk menyimpan lebih banyak alternatif jika suatu kualitas tidak ditemukan, jika tidak maka akan beralih ke kualitas terburuk",
+  "videos": "Video",
+  "view": "tampilan",
+  "viewAll": "Lihat Semua",
+  "views": "tampilan",
+  "volume": "Volume",
+  "warning": "Peringatan",
+  "waveformBarsCount": "Jumlah Batang Gelombang",
+  "webmNoEditTagsSupport": "Format WEBM tidak mendukung pengeditan tag",
+  "week": "Minggu",
+  "year": "Tahun",
+  "yes": "ya",
+  "yourCurrentMembershipIs": "Keanggotaan Anda saat ini adalah {name}",
+  "yourCustomOrderWillBeLost": "Urutan kustom Anda akan hilang, Apakah Anda yakin?",
+  "youtube": "Youtube",
+  "youtubeMusic": "Youtube Music",
+  "youtubeSettingsSubtitle": "Sesuaikan pengalaman Youtube",
+  "youtubeStyleMiniplayer": "Miniplayer bergaya Youtube",
+  "ytPreferNewComments": "Utamakan komentar baru jika memungkinkan",
+  "ytPreferNewCommentsSubtitle": "Versi yang di-cache hanya akan digunakan saat tidak ada koneksi"
+}
