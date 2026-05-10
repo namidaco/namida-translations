@@ -97,7 +97,7 @@ By translating, you are implying that you are a nice, great and specialito perso
 | Finnish  | Finland | [@Cocobo1](https://translate.codeberg.org/user/Cocobo1), [BorisB82](https://translate.codeberg.org/user/BorisB82), [Ricky-Tigg](https://translate.codeberg.org/user/Ricky-Tigg) | [`fi.arb`](translations/fi.arb) |
 | Français  | France | [@yannouuuu](https://github.com/yannouuuu) | [`fr.arb`](translations/fr.arb) |
 | German  | Germany | [@Maxitendo1](https://github.com/Maxitendo1) | [`de.arb`](translations/de.arb) |
-| Hindi  | India | [@Debu72](https://github.com/Debu72) | [`hi.arb`](translations/hi.arb) |
+| Hindi  | India | [@Debu72](https://github.com/Debu72), [@virexnocturne](https://github.com/virexnocturne) | [`hi.arb`](translations/hi.arb) |
 | Indonesian  | Indonesia | [@firmw4](https://github.com/firmw4) | [`id.arb`](translations/id.arb) |
 | Italian  | Italy | [@LegendaryITA](https://github.com/LegendaryITA) | [`it.arb`](translations/it.arb) |
 | Japanese  | Japan | [@taxi13245](https://github.com/taxi13245) | [`ja.arb`](translations/ja.arb) |
