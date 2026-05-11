@@ -15,6 +15,293 @@
       }
     }
   },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countDays": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFolders": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countGenres": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countMonths": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countPlaylists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribersShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTracks": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViews": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteFileCacheSubtitle": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "totalSizeText": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteNTracksFromStorage": {
+    "placeholders": {
+      "numberText": {
+        "type": "String"
+      }
+    }
+  },
+  "@dimMiniplayerAfterSeconds": {
+    "placeholders": {
+      "seconds": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "String"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importYoutubeHistoryGuide": {
+    "placeholders": {
+      "takeoutLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "numberText": {
+        "type": "String"
+      }
+    }
+  },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@membershipYouNeedMembershipOfToAddMultipleAccounts": {
+    "placeholders": {
+      "name1": {
+        "type": "String"
+      },
+      "name2": {
+        "type": "String"
+      }
+    }
+  },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarrReleaseDateSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@operationRequiresMembership": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "operation": {
+        "type": "String"
+      }
+    }
+  },
   "about": "O",
   "active": "Aktívny",
   "add": "pridať",
@@ -134,5 +421,419 @@
   "couldntOpenYtLink": "Pre túto skladbu nie je k dispozícii žiadny odkaz na YouTube",
   "couldntPlayFile": "Súbor sa nepodarilo prehrať",
   "couldntRenamePlaylist": "Nepodarilo sa premenovať zoznam skladieb",
-  "couldntSaveImage": "Nepodarilo sa uložiť obrázok"
+  "couldntSaveImage": "Nepodarilo sa uložiť obrázok",
+  "countAlbumArtists": "{count, plural, one{{count} umelec albumu} other{{count} umelci albumov}}",
+  "countAlbums": "{count, plural, one{{count} album} other{{count} albumy}}",
+  "countArtists": "{count, plural, one{{count} umelec} other{{count} umelci}}",
+  "countComposers": "{count, plural, one{{count} skladateľ} other{{count} skladatelia}}",
+  "countDays": "{count, plural, one{{count} deň} other{{count} dní}}",
+  "countFiles": "{count, plural, one{{count} súbor} other{{count} súborov}}",
+  "countFolders": "{count, plural, one{{count} priečinok} other{{count} priečinkov}}",
+  "countGenres": "{count, plural, one{{count} žáner} other{{count} žánre}}",
+  "countMonths": "{count, plural, one{{count} mesiac} other{{count} mesiacov}}",
+  "countPlaylists": "{count, plural, one{{count} zoznam skladieb} other{{count} zoznamy skladieb}}",
+  "countSubscribers": "{count, plural, one{{count} odberateľ} other{{count} odberatelia}}",
+  "countSubscribersShort": "{count, plural, one{{count} odberateľ} other{{count} odberatelia}}",
+  "countTracks": "{count, plural, one{{count} skladba} other{{count} skladby}}",
+  "countVideos": "{count, plural, one{{count} video} other{{count} videá}}",
+  "countViews": "{count, plural, one{{count} zhliadnutie} other{{count} zhliadnutia}}",
+  "countViewsShort": "{count, plural, one{{count} zhliadnutie} few{{count} zhliadnutia} other{{count} zhliadnutí}}",
+  "country": "Krajina",
+  "coupon": "Kupón",
+  "create": "Vytvoriť",
+  "createBackup": "Vytvoriť zálohu",
+  "createNewPlaylist": "Vytvoriť nový zoznam skladieb",
+  "createdBackupSuccessfully": "Záloha bola vytvorená",
+  "createdBackupSuccessfullySub": "Súbor zálohy bol úspešne vytvorený",
+  "crossPlatformSync": "Synchronizácia naprieč platformami",
+  "crossfadeDuration": "Dĺžka prelínania",
+  "crossfadeTriggerSeconds": "{seconds, plural, one{Automaticky spustiť prelínanie v poslednej {seconds} sekunde} few{Automaticky spustiť prelínanie v posledných {seconds} sekundách} other{Automaticky spustiť prelínanie v posledných {seconds} sekundách}}",
+  "crossfadeTriggerSecondsDisabled": "Nespúšťať prelínanie automaticky",
+  "custom": "Vlastné",
+  "customizations": "‘Prispôsobenia",
+  "customizationsSubtitle": "Prispôsobte si vzhľad prehrávača podľa seba",
+  "dataIsProvidedByName": "Údaje poskytuje: {name}",
+  "dataSaver": "Šetrič dát",
+  "dataSaverMode": "Režim šetriča dát",
+  "database": "Databáza",
+  "date": "Dátum",
+  "dateAdded": "Dátum pridaný",
+  "dateCreated": "Dátum vytvorenia",
+  "dateModified": "Dátum zmeny",
+  "dateTimeFormat": "Formát dátumu a času",
+  "day": "Deň",
+  "days": "Dni",
+  "defaultBackupLocation": "Predvolené umiestnenie zálohy",
+  "defaultColor": "Predvolená farba",
+  "defaultColorSubtitle": "Nastavte farbu, ktorú bude prehrávač používať",
+  "defaultDownloadLocation": "Predvolené umiestnenie sťahovania",
+  "defaultLabel": "Predvolené",
+  "defaultLibraryTab": "Predvolená karta knižnice",
+  "delete": "Odstrániť",
+  "deleteFileCacheSubtitle": "{count, plural, one{Odstrániť {count} súbor o veľkosti {totalSizeText}?} other{Odstrániť {count} súborov o veľkosti {totalSizeText}?}}",
+  "deleteNTracksFromStorage": "Natrvalo odstrániť {numberText} z vášho úložiska",
+  "deletePlaylist": "Odstrániť zoznam skladieb",
+  "deleteTempFiles": "Odstrániť dočasné súbory",
+  "description": "Popis",
+  "developer": "Vývojár",
+  "development": "Vývoj",
+  "didYouMean": "Mali ste na mysli",
+  "dimIntensity": "Intenzita stlmenia",
+  "dimMiniplayerAfterSeconds": "{seconds, plural, one{Stlmiť mini prehrávač po {seconds} sekunde nečinnosti} few{Stlmiť mini prehrávač po {seconds} sekundách nečinnosti} other{Stlmiť mini prehrávač po {seconds} sekundách nečinnosti}}",
+  "directoryDoesntExist": "Adresár neexistuje",
+  "disable": "Zakázať",
+  "disableAll": "Zakázať všetko",
+  "disableReordering": "Zakázať zmenu poradia",
+  "disableSearchCleanup": "Zakázať čistenie vyhľadávania",
+  "discNumber": "Číslo disku",
+  "discNumberTotal": "Celkový počet diskov",
+  "discover": "Objavovať",
+  "dislike": "Nepáči sa mi",
+  "dismissibleMiniplayer": "Zatvárateľný mini prehrávač",
+  "displayActualPositionInsteadOfDifferenceWhileSeeking": "Zobraziť aktuálnu polohu namiesto rozdielu počas posúvania",
+  "displayAlbumCardTopRightDate": "Dátum vpravo hore na karte albumu",
+  "displayAlbumCardTopRightDateSubtitle": "Zobraziť dátum albumu vpravo hore na karte albumu",
+  "displayArtistBeforeTitle": "Zobraziť interpreta pred názvom",
+  "displayArtworkOnLockscreen": "Zobraziť obal albumu na uzamknutej obrazovke",
+  "displayAudioInfoInMiniplayer": "Zobraziť informácie o zvuku",
+  "displayFavButtonInNotification": "Zobraziť tlačidlo Obľúbené v upozornení",
+  "displayFavButtonInNotificationSubtitle": "Miniatúra sa môže posunúť.",
+  "displayFavouriteIconInTrackTile": "Zobraziť tlačidlo Obľúbené",
+  "displayRemainingDurationInsteadOfTotal": "Zobraziť zostávajúci čas namiesto celkového",
+  "displayStopButtonInNotification": "Zobraziť tlačidlo Zastaviť v upozornení",
+  "displayThirdItemInRowInTrackTile": "Zobraziť tretiu položku v každom riadku",
+  "displayThirdRowInTrackTile": "Zobraziť tretí riadok",
+  "displayTrackNumberInAlbumPage": "Zobraziť číslo skladby na stránke albumu",
+  "displayTrackNumberInAlbumPageSubtitle": "Zobraziť malý rámček s číslom skladby na stránke albumu",
+  "doNothing": "Nič nevykonávať",
+  "donate": "Prispieť",
+  "donateSubtitle": "Ak si myslíte, že si to zaslúži",
+  "done": "Hotovo",
+  "dontAskAgain": "Znova sa nepýtať",
+  "dontDim": "Nestmievat",
+  "dontRestorePosition": "Neobnovovať",
+  "dontResume": "Nepokračovať",
+  "doubleTapToToggleLyrics": "Dvojitým klepnutím prepnúť texty skladby",
+  "download": "Stiahnuť",
+  "downloadingWillOverrideIt": "Stiahnutie ho prepíše",
+  "downloads": "Stiahnuté",
+  "downloadsMetadataTags": "Stiahnuť štítky metadát",
+  "downloadsMetadataTagsSubtitle": "Predvolene extrahovať interpreta, názov a album z informácií o videu",
+  "dragToSeek": "Potiahnutím posúvať",
+  "duckAudio": "Stlmiť zvuk",
+  "duplicatedItemsAdding": "Pokúšate sa pridať položky, ktoré sa už v tomto zozname skladieb nachádzajú",
+  "duplicatedTracks": "Duplicitné skladby",
+  "duration": "Trvanie",
+  "edgeColorsSwitching": "Prepínanie farieb okrajov",
+  "edit": "Upraviť",
+  "editArtwork": "Upraviť obal albumu",
+  "editTags": "Upraviť štítky",
+  "email": "E-mail",
+  "emptyNonMeaningfulTagFields": "Obsahujú polia s prázdnymi alebo nevýznamnými hodnotami, uistite sa, že ich naozaj chcete upraviť",
+  "emptyValue": "Prázdna hodnota",
+  "enableArtworkCache": "Povoliť vyrovnávaciu pamäť obalov albumov",
+  "enableArtworkCacheSubtitle": "Rýchlejšie načítavanie a lepší výkon, ale spotrebúva viac ukladacieho priestoru",
+  "enableBlurEffect": "Povoliť efekt rozmazania",
+  "enableBottomNavBar": "Povoliť dolný navigačný panel",
+  "enableBottomNavBarSubtitle": "Položky sa nachádzajú v bočnom paneli v oboch prípadoch",
+  "enableClipboardMonitoring": "Povoliť sledovanie schránky",
+  "enableClipboardMonitoringSubtitle": "Umožňuje priebežné vkladanie odkazov a textu do vyhľadávacieho panela",
+  "enableCrossfadeEffect": "Povoliť efekt prelínania",
+  "enableFadeEffectOnPlayPause": "Povoliť efekt vytratenia pri spustení/pozastavení",
+  "enableFoldersHierarchy": "Povoliť hierarchiu priečinkov",
+  "enableGlowEffect": "Povoliť efekt žiary🌟",
+  "enableM3uSync": "Povoliť synchronizáciu M3U",
+  "enableM3uSyncNote1": "Povolenie synchronizácie M3U umožňuje ukladať zmeny v zozname skladieb do pôvodného súboru M3U",
+  "enableM3uSyncNote2": "V prípade, že sa niečo pokazí, zálohu tohto zoznamu skladieb nájdete v {playlistsBackupPath}",
+  "enableM3uSyncSubtitle": "Ak bude zakázané, všetky zmeny vykonané v tomto zozname skladieb sa po reštarte stratia",
+  "enableMiniplayerParticles": "Povoliť pohyblivé častice 🌌",
+  "enableParallaxEffect": "Povoliť paralaxný efekt",
+  "enablePartyMode": "Povoliť párty režim🥳",
+  "enablePartyModeSubtitle": "Použiť efektné pulzovanie okrajov🔥",
+  "enablePictureInPicture": "Povoliť obraz v obraze",
+  "enableReordering": "Povoliť zmenu poradia",
+  "enableReturnYoutubeDislike": "Povoliť Return YouTube Dislike",
+  "enableSearchCleanup": "Povoliť čistenie vyhľadávania",
+  "enableSearchCleanupSubtitle": "Všetky symboly a medzery budú ignorované",
+  "enableSponsorblock": "Povoliť SponsorBlock",
+  "enableVideoPlayback": "Povoliť prehrávanie videa na pozadí",
+  "enterSymbol": "Zadajte symbol",
+  "equalizer": "Ekvalizér",
+  "error": "Chyba",
+  "errorPlayingTrack": "Chyba pri prehrávaní skladby 🤨",
+  "excludedFodlers": "Vylúčené priečinky",
+  "exit": "Ukončiť",
+  "exitAppSubtitle": "Opätovným klepnutím ukončíte",
+  "expandedMiniplayer": "Rozšírený miniprehrávač",
+  "exportAsM3u": "Exportovať ako M3U",
+  "extension": "Rozšírenie",
+  "externalFiles": "Externé súbory",
+  "extract": "Extrahovať",
+  "extractAllColorPalettes": "Extrahovať všetky palety farieb",
+  "extractAllColorPalettesSubtitle": "{number, plural, one{Extrahovať zostávajúci {number}?} few{Extrahovať zostávajúce {number}?} other{Extrahovať zostávajúcich {number}?}}",
+  "extractFeatArtist": "Extrahovať hosťujúcich interpretov z názvu",
+  "extractFeatArtistSubtitle": "Extrahuje interpretov (feat. X) a (ft. X) ako nový záznam interpreta.",
+  "extractingInfo": "Extrahovanie informácií",
+  "extras": "Extra",
+  "extrasSubtitle": "Extra nastavenia na doladenie vášho zážitku 🤓",
+  "extreme": "Extrémne",
+  "failed": "Zlyhalo",
+  "failedEdits": "Neúspešné úpravy",
+  "favourites": "Obľúbené ❤️",
+  "features": "Funkcie 🥹",
+  "fetching": "Získavanie",
+  "fetchingOfAllVideos": "Získavanie všetkých videí",
+  "file": "Súbor",
+  "fileAlreadyExists": "Súbor už existuje 😄",
+  "fileBasedServerWarning": "Súbory sa dočasne stiahnu na účely indexovania. Uistite sa, že je vaše pripojenie stabilné.\nOdporúčame použiť Wi-Fi, aby ste sa vyhli vysokej spotrebe dát.",
+  "fileName": "Názov súboru 😊",
+  "fileNameWoExt": "Názov súboru bez prípony",
+  "filenameShouldntStartWith": "Názov súboru by nemal začínať na",
+  "files": "Súbory ☺️",
+  "filler": "Výplň",
+  "filterAlbums": "Filtrovať albumy",
+  "filterArtists": "Filtrovať interpretov",
+  "filterGenres": "Filtrovať žánre",
+  "filterPlaylists": "Filtrovať zoznamy skladieb",
+  "filterTracks": "Filtrovať skladby",
+  "filterTracksBy": "Filtrovať skladby vo výsledkoch vyhľadávania podľa",
+  "filteredBySizeAndDuration": "Skladby filtrované podľa veľkosti a dĺžky 🤓",
+  "finished": "Dokončené 🙂‍↕️",
+  "finishedUpdatingLibrary": "Knižnica bola aktualizovaná",
+  "firstListen": "Prvé vypočutie",
+  "fixYtdlpBigThumbnailSize": "Opraviť veľkosť veľkých miniatúr v yt-dlp",
+  "floatingActionButton": "Plávajúce akčné tlačidlo",
+  "folder": "Priečinok",
+  "folderName": "Názov priečinka",
+  "folders": "Priečinky",
+  "fontScale": "Mierka písma",
+  "forceMiniplayerFollowTrackColors": "Vynútiť prispôsobenie farieb miniprehrávača podľa skladby",
+  "forceSquaredAlbumThumbnail": "Vynútiť štvorcový formát miniatúry albumu",
+  "forceSquaredThumbnailNote": "Veľkosť miniatúry a výška dlaždice nie sú rovnaké, štvorcový vzhľad nemusí zodpovedať očakávaniam. Chcete ich zjednotiť?",
+  "forceSquaredTrackThumbnail": "Vynútiť štvorcový formát miniatúry skladby",
+  "forceStopColorPaletteGeneration": "Vynútiť zastavenie extrahovania farebných paliet? Môžete v tom pokračovať neskôr",
+  "format": "Formát",
+  "fullscreen": "Celá obrazovka",
+  "gaplessPlayback": "Prehrávanie bez medzier",
+  "generate": "Generovať",
+  "generateFromDates": "Časový rozsah",
+  "generateFromDatesSubtitle": "Generovať zoznam skladieb, ktoré ste počúvali v danom časovom rozsahu",
+  "generateRandomPlaylist": "Generovať náhodný zoznam skladieb",
+  "genre": "Žáner",
+  "genres": "Žánre",
+  "goToAlbum": "Prejsť na album",
+  "goToArtist": "Prejsť na interpreta",
+  "goToChannel": "Prejsť na kanál",
+  "goToFolder": "Prejsť do priečinka",
+  "goodLooking": "Dobrý vzhľad 😘",
+  "grantStoragePermission": "Udeliť povolenie na prístup k úložisku",
+  "group": "Zoskupiť",
+  "groupArtworksByAlbum": "Zoskupiť obaly podľa albumu",
+  "guide": "Sprievodca",
+  "hapticFeedback": "Hmatová odozva 💢",
+  "heightOfAlbumTile": "Výška dlaždice albumu",
+  "heightOfTrackTile": "Výška dlaždice albumu",
+  "hideSkipButtonAfter": "Skryť tlačidlo preskočenia po",
+  "highMatches": "Vysoká zhoda",
+  "highPerformance": "Vysoký výkon 🤌",
+  "highlight": "Zvýrazniť",
+  "history": "História",
+  "historyImportMissingEntriesNote": "Tieto položky sa v knižnici nenašli. Ak si myslíte, že existujú, zvážte ich manuálne pridanie. 😓",
+  "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} prehratie pre {oldTrackInfo} bude nahradené {newTrackInfo}, potvrdiť?} few{{listensCount} prehratia pre {oldTrackInfo} budú nahradené {newTrackInfo}, potvrdiť?} other{{listensCount} prehratí pre {oldTrackInfo} bude nahradených {newTrackInfo}, potvrdiť?}}",
+  "home": "Domov",
+  "hook": "Háčik 😭",
+  "host": "Hostiteľ",
+  "hourFormat12": "12-hodinový formát",
+  "hours": "Hodiny",
+  "iReadAndAgree": "Prečítal som si a súhlasím 😂",
+  "ifNotPlaying": "Ak sa neprehráva",
+  "ignoreBatteryOptimizationsSubtitle": "Sťahovanie môže byť obmedzené, ak je aplikácia limitovaná šetrením batérie.",
+  "ignoreCommonPrefixesWhileSorting": "Pri zoradení ignorovať bežné predpony",
+  "ignores": "Ignorovať",
+  "imageSource": "Zdroj obrázka",
+  "immersiveMode": "Imerzný režim",
+  "immersiveModeSubtitle": "Skryť stavový riadok a navigačný panel, keď je miniprehrávač rozbalený",
+  "import": "Importovať",
+  "importAll": "Importovať všetko",
+  "importLastFmHistory": "Importovať históriu z Last.fm",
+  "importLastFmHistoryGuide": "1. Prejdite na {lastfmCsvLink}\n1. Zadajte svoje používateľské meno, načítajte a stiahnite súbor CSV.\n1. Na ďalšej obrazovke vyberte tento súbor.",
+  "importTimeRange": "Časový rozsah importu",
+  "importYoutubeHistory": "Importovať históriu z YouTube",
+  "importYoutubeHistoryGuide": "1. Prejdite na {takeoutLink}\n2. Kliknite na „Viaceré formáty“ a vedľa položky „História“ vyberte „JSON“.\n3. Kliknite na „Vrátane všetkých údajov z YouTube“, zrušte výber všetkých položiek a vyberte iba históriu.\n4. Vytvorte export, stiahnite ho a rozbaľte.\n5. Na ďalšej obrazovke vyberte súbor „watch-history.json“.",
+  "importedNChannelsSuccessfully": "{number, plural, one{Úspešne importovaný {number} kanál} few{Úspešne importované {number} kanály} other{Úspešne importovaných {number} kanálov}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, one{Úspešne importovaný {numberText} zoznam skladieb} few{Úspešne importované {numberText} zoznamy skladieb} other{Úspešne importovaných {numberText} zoznamov skladieb}}",
+  "includeVideos": "Zahrnúť videá",
+  "indexRefreshRequired": "Po zmene tohto nastavenia vykonajte obnovenie",
+  "indexer": "Indexátor",
+  "indexerNote": "Poznámka: Neúplný počet umeleckých diel (Artworks) označuje duplicitné a nenájdené diela",
+  "indexerSubtitle": "Spravujte svoju hudobnú knižnicu",
+  "infinityQueueOnNextPrev": "Nekonečný rad pri nasledujúcej/predchádzajúcej skladbe",
+  "infinityQueueOnNextPrevSubtitle": "Pri stlačení tlačidla dopredu na poslednej položke sa prehrávanie prepne na prvú a naopak",
+  "info": "Informácie",
+  "inserted": "Vložené",
+  "instantlyApplies": "Okamžite sa aplikuje",
+  "interactionReminder": "Pripomienka interakcie",
+  "intro": "Úvod",
+  "invertSelection": "Invertovať výber",
+  "issues": "Problémy",
+  "item": "Položka",
+  "jump": "Skočiť",
+  "jumpToDay": "Skočiť na deň",
+  "jumpToFirstTrackAfterQueueFinish": "Po dokončení radu skočiť na prvú skladbu",
+  "keepCachedVersions": "Ponechať verzie vo vyrovnávacej pamäti",
+  "keepFileDates": "Ponechať dátumy súborov",
+  "keepScreenAwakeMiniplayerExpanded": "Miniprehrávač je rozbalený",
+  "keepScreenAwakeMiniplayerExpandedAndVideo": "Miniprehrávač je rozbalený a video sa prehráva",
+  "keepScreenAwakeNone": "Nenechávať obrazovku zapnutú",
+  "keepScreenAwakeWhen": "Ponechať obrazovku zapnutú, keď",
+  "killPlayerAfterDismissingApp": "Ukončiť prehrávač po zatvorení aplikácie",
+  "language": "Jazyk",
+  "learnMore": "Dozvedieť sa viac",
+  "leftAction": "Akcia vľavo",
+  "legacyAuthentication": "Staršie overenie",
+  "libraryTabs": "Karty knižnice",
+  "libraryTabsReorder": "Aktivované karty môžete usporiadať.",
+  "license": "Licencia",
+  "licenseSubtitle": "Licencie a zmluvy používané aplikáciou Namida",
+  "like": "Páči sa mi ❤️",
+  "liked": "Obľúbené 🩵",
+  "link": "Odkaz",
+  "listOfFolders": "Zoznam priečinkov",
+  "loadAll": "Načítať všetko",
+  "loadingFile": "Načítava sa súbor",
+  "local": "Lokálne",
+  "localVideoMatching": "Priraďovanie lokálnych videí",
+  "login": "Prihlásiť sa",
+  "longPressAction": "Akcia pri dlhom stlačení",
+  "longPressTheLyricsToEnterFullscreen": "Dlhým stlačením textu piesne prejdete na celú obrazovku",
+  "lostMemories": "Stratené spomienky",
+  "lostMemoriesSubtitle": "{number, plural, one{približne v tomto čase pred {number} rokom} few{približne v tomto čase pred {number} rokmi} other{približne v tomto čase pred {number} rokmi}}",
+  "lostPartners": "Stratení partneri",
+  "loudnessEnhancer": "Zosilňovač hlasitosti",
+  "lyricist": "Autor textu",
+  "lyrics": "Texty piesní",
+  "lyricsSource": "Zdroj textov",
+  "m3uPlaylist": "Playlist M3U",
+  "makeYourFirstListen": "Vypočujte si svoj prvý výber!",
+  "manage": "Spravovať",
+  "manageYourAccounts": "Spravujte svoje účty",
+  "manualBackup": "Manuálne",
+  "manualBackupSubtitle": "Vybrať konkrétny súbor",
+  "markAsRead": "Označiť ako prečítané",
+  "matchAllTracks": "Zhoda všetkých skladieb",
+  "matchAllTracksNote": "Môže to ovplyvniť rýchlosť priraďovania, pretože sa skontrolujú všetky skladby vo vašej knižnici",
+  "matchingType": "Typ priraďovania",
+  "maxAudioCacheSize": "Maximálna veľkosť vyrovnávacej pamäte zvuku",
+  "maxImageCacheSize": "Maximálna veľkosť vyrovnávacej pamäte obrázkov",
+  "maxVideoCacheSize": "Maximálna veľkosť vyrovnávacej pamäte videa",
+  "maximum": "Maximum",
+  "mediaStoreIsEnabledThisWillHaveNoEffect": "Úložisko médií je povolené, toto nebude mať žiadny vplyv",
+  "medium": "Stredné",
+  "membershipCode": "Kód",
+  "membershipCodeSentToEmail": "Kód bol odoslaný na váš e-mail 🥱",
+  "membershipDidntChange": "Členstvo sa nezmenilo",
+  "membershipEnjoyNew": "Užite si svoje nové členstvo 🤭",
+  "membershipFreeCoupon": "Kupón zdarma",
+  "membershipManage": "Spravovať svoje členstvo",
+  "membershipNoSubscriptionsFoundForUser": "Pre tohto používateľa sa nenašli žiadne odbery",
+  "membershipSignInToPatreonAccount": "Prihláste sa do svojho účtu Patreon",
+  "membershipUnknown": "Neznáme členstv",
+  "membershipYouNeedMembershipOfToAddMultipleAccounts": "Pre pridanie viacerých účtov potrebujete členstvo úrovne {name1} alebo {name2}",
+  "merge": "Spojiť",
+  "metadataCache": "Vyrovnávacia pamäť metadát",
+  "metadataEditFailed": "Úprava metadát zlyhala",
+  "metadataReadFailed": "Čítanie metadát zlyhalo",
+  "minFileDuration": "Minimálne trvanie skladby",
+  "minFileSize": "Minimálna veľkosť súboru",
+  "minTrackDurationToRestoreLastPosition": "Minimálne trvanie skladby pre obnovenie poslednej hranej pozície",
+  "minValueCantBeMoreThanMax": "Minimálna hodnota nemôže byť vyššia ako maximálna",
+  "minValueToCountTrackListen": "Započítať vypočutie po: ",
+  "minimizedMiniplayer": "Minimalizovaný miniprehrávač",
+  "minimum": "Minimum",
+  "minimumOneFolderSubtitle": "Musí existovať aspoň 1 priečinok. Ak chcete tento odstrániť, najprv pridajte ďalšie priečinky.",
+  "minimumOneItem": "Položku sa nepodarilo odstrániť",
+  "minimumOneItemSubtitle": "{number, plural, one{Musí zostať aspoň {number} položka} few{Musia zostať aspoň {number} položky} other{Musí zostať aspoň {number} položiek}}",
+  "minimumSegmentDuration": "Minimálne trvanie segmentu",
+  "miniplayerCustomization": "Prispôsobenie miniprehrávača",
+  "minutes": "Minúty",
+  "missingEntries": "Chýbajúce položky",
+  "missingTracks": "Chýbajúce skladby",
+  "mix": "Mix",
+  "mixPlaylistGeneratedByYoutube": "Mix vygenerovaný službou YouTube",
+  "mixes": "Mixy",
+  "mobile": "Mobilné zariadenie",
+  "month": "Mesiac",
+  "months": "Mesiace",
+  "mood": "Nálada",
+  "moods": "Nálady",
+  "more": "Viac",
+  "mostPlayed": "Najhranejšie",
+  "multipleTracksTagsEditNote": "Chystáte sa upraviť tieto skladby.\nNezmenené polia zostanú nedotknuté.",
+  "musicOfftopic": "Mimohudobný obsah",
+  "name": "Názov",
+  "nameContainsBadCharacter": "Meno obsahuje nepovolený znak (alebo Názov obsahuje nepovolený znak)",
+  "never": "Nikdy",
+  "newDirectory": "Nový priečinok",
+  "newTracksAdd": "Pridať skladby",
+  "newTracksMoods": "Nálada",
+  "newTracksMoodsSubtitle": "Generovať skladby na základe dostupných nálad",
+  "newTracksRandom": "Náhodne",
+  "newTracksRandomSubtitle": "Vybrať náhodné skladby z knižnice",
+  "newTracksRatings": "Hodnotenia 💯",
+  "newTracksRatingsSubtitle": "Generovať skladby s konkrétnym hodnotením",
+  "newTracksRecommended": "Odporúčané",
+  "newTracksRecommendedSubtitle": "Generovať skladby, ktoré zvyčajne počúvate s {currentTrack}",
+  "newTracksSimilarrReleaseDate": "Podobný dátum vydania",
+  "newTracksSimilarrReleaseDateSubtitle": "Generovať skladby vydané v podobnom čase ako {currentTrack}",
+  "newTracksUnknownYear": "Skladba má neznámy rok",
+  "newest": "Najnovšie",
+  "next": "Ďalšie",
+  "no": "Nie",
+  "noChangesFound": "Neboli nájdené žiadne zmeny.",
+  "noEnoughTracks": "Nemáte veľa skladieb...",
+  "noExcludedFolders": "Nemáte žiadne vylúčené priečinky",
+  "noFolderChosen": "Nevybrali ste žiadny priečinok",
+  "noMoodsAvailable": "Nie sú k dispozícii žiadne nálady",
+  "noNetworkAvailableToFetchData": "Sieť nie je dostupná",
+  "noTracksFound": "Neboli nájdené žiadne skladby",
+  "noTracksFoundBetweenDates": "Tento časový rozsah neobsahuje žiadne skladby.",
+  "noTracksFoundInDirectory": "V tomto priečinku sa nenašli žiadne skladby",
+  "noTracksInHistory": "V histórii nemáte dostatok skladieb",
+  "nonActive": "Neaktívne",
+  "nonFavourites": "Nie sú medzi obľúbenými",
+  "none": "Žiadne/a",
+  "normalizeAudio": "Normalizácia zvuku",
+  "normalizeAudioSubtitle": "Normalizuje hlasitosť načítaním tagu ReplayGain alebo informácií poskytnutých službou YouTube",
+  "notAvailableForYourDevice": "Nie je k dispozícii pre vaše zariadenie 🤷",
+  "notSupportedForNetworkFiles": "Nepodporované pre sieťové súbory",
+  "note": "Poznámka",
+  "notification": "Oznámenie",
+  "notifications": "Oznámenia",
+  "numberOfTracks": "Počet skladieb",
+  "ofLabel": "Vypnuté",
+  "offlineSearch": "Offline vyhľadávanie",
+  "offset": "Posun",
+  "oldDirectory": "Starý priečinok",
+  "oldDirectoryStillHasTracks": "V starom priečinku sa stále nachádzajú nejaké skladby, potvrdiť?",
+  "oldestWatch": "Najstaršie zhliadnuté",
+  "onInterruption": "Pri prerušení",
+  "onNotificationTap": "Pri klepnutí na upozornenie",
+  "onOpeningYoutubeLink": "Pri otvorení odkazu YouTube",
+  "onSwiping": "Pri potiahnutí",
+  "onVolumeZero": "Pri hlasitosti 0",
+  "ongoing": "Prebiehajúce",
+  "open": "Otvoriť",
+  "openApp": "Otvoriť aplikáciu",
+  "openInFileExplorer": "Otvoriť v prieskumníkovi súborov",
+  "openInYoutubeView": "Otvoriť v zobrazení YouTube",
+  "openMiniplayer": "Otvoriť miniprehrávač",
+  "openQueue": "Otvoriť poradie",
+  "openYoutubeLink": "Otvoriť odkaz YouTube",
+  "operationRequiresAccount": "Operácia {name} vyžaduje účet, pre pokračovanie sa prihláste",
+  "operationRequiresMembership": "Operácia {operation} vyžaduje aspoň členstvo {name}",
+  "or": "alebo",
+  "others": "Ostatné",
+  "output": "Výstup",
+  "outro": "Záverečná znelka",
+  "overrideOldFilesInTheSameFolder": "Prepísať staré súbory v tom istom priečinku"
 }
