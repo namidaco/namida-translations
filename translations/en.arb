@@ -971,6 +971,7 @@
   "performanceMode": "Performance mode",
   "performanceNote": "Might affect performance",
   "personalized": "Personalized",
+  "personalizedMixPlaylists": "Personalized Mix Playlists",
   "personalizedRelatedVideos": "Personalized Related Videos",
   "personalizedRelatedVideosSubtitle": "Disabling this will increase data usage",
   "pickColorsFromDeviceWallpaper": "Pick Colors from Device Wallpaper",
