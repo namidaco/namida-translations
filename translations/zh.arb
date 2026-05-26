@@ -971,6 +971,7 @@
   "performanceMode": "性能模式",
   "performanceNote": "可能会影响手机性能",
   "personalized": "个性化",
+  "personalizedMixPlaylists": "个性化合辑播放列表",
   "personalizedRelatedVideos": "个性化相关视频",
   "personalizedRelatedVideosSubtitle": "禁用此选项将增加数据使用量",
   "pickColorsFromDeviceWallpaper": "从设备壁纸中选取颜色",
