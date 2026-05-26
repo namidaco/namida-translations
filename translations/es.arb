@@ -971,6 +971,7 @@
   "performanceMode": "Modo alto rendimiento",
   "performanceNote": "Podría afectar el rendimiento",
   "personalized": "Personalizado",
+  "personalizedMixPlaylists": "Listas de reproducción personalizadas",
   "personalizedRelatedVideos": "Vídeos relacionados personalizados",
   "personalizedRelatedVideosSubtitle": "Deshabilitar esto aumentará el uso de datos",
   "pickColorsFromDeviceWallpaper": "Elige colores desde el fondo de pantalla del dispositivo",
