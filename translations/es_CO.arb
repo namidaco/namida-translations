@@ -485,7 +485,6 @@
   "clearTrackItemMultiple": "{number, plural, one{Eliminar Cancion} other{Eliminar {number} Canciones}}",
   "clearVideoCache": "Borrar caché de vídeo",
   "clearVideoCacheNote": "Puedes elegir qué eliminar.",
-  "clock": "",
   "colorPalette": "Paleta de color",
   "colorPaletteNote1": "Mantenga presionado un color para eliminarlo",
   "colorPaletteNote2": "Toque una mezcla para usarla como color predeterminado",
