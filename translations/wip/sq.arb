@@ -50,8 +50,10 @@
   "alwaysRestore": "Rikooperat gjithmonë",
   "animatingThumbnailIntensity": "Intensiteti i animacionit të memories miniatura",
   "animatingThumbnailInversed": "Inverto animacionet",
+  "animatingThumbnailInversedSubtitle": "Majat e larta do të bëjnë që miniatura të zvogëlohet",
   "anotherProcessIsRunning": "Një proces tjetër është duke u ekzekutuar",
   "appIcon": "Ikona e aplikacionit",
   "appVersion": "Versioni i aplicazionit",
-  "artist": "Artist"
+  "artist": "Artist",
+  "artists": "Artistët"
 }
