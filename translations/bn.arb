@@ -576,7 +576,7 @@
   "dislike": "ডিসলাইক",
   "dismissibleMiniplayer": "খারিজযোগ্য মিনিপ্লেয়ার",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "সিক করার সময় পার্থক্যের পরিবর্তে প্রকৃত অবস্থান প্রদর্শন করুন",
-  "displayAlbumCardTopRightDate": "অ্যালবাম কার্ডের উপরের ডানদিকের তারিখ",
+  "displayAlbumCardTopRightDate": "অ্যালবাম কার্ডে তারিখ প্রদর্শন",
   "displayAlbumCardTopRightDateSubtitle": "অ্যালবাম কার্ডের উপরে ডানদিকে অ্যালবামের তারিখ প্রদর্শন করুন",
   "displayArtistBeforeTitle": "শিরোনামের উপরে শিল্পী প্রদর্শন করুন",
   "displayArtworkOnLockscreen": "লকস্ক্রিনে আর্টওয়ার্ক প্রদর্শন করুন",
