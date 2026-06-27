@@ -1,1 +1,29 @@
-{}
+{
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "about": "sona",
+  "add": "o pana e toki kalama",
+  "addLanguage": "o pali e toki",
+  "addLanguageSubtitle": "o ante toki e ilo Namita",
+  "addLrcFile": "o pana tan lipu (LRC)",
+  "addMoreFromThisAlbum": "o kama e kalama pi sike ni",
+  "addMoreFromThisArtist": "o kama e kalama pi mama ni",
+  "addMoreFromThisFolder": "o kama e kalama pi poki ni",
+  "addMoreFromToQueue": "o kama e kalama tan {media}",
+  "album": "sike",
+  "albumArtist": "mama sike",
+  "albumArtists": "mama sike",
+  "albumThumbnailSizeInList": "suli pi sitelen sike",
+  "appIcon": "sitelen ilo",
+  "appVersion": "sin ilo",
+  "artist": "mama",
+  "artists": "mama",
+  "artwork": "sitelen",
+  "autoColoring": "kule sitelen",
+  "autoColoringSubtitle": "mi ken kepeken kule tan sitelen kalama"
+}
