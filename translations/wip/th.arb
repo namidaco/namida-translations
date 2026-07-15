@@ -15,6 +15,126 @@
       }
     }
   },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countDays": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFolders": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countGenres": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countMonths": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countPlaylists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribersShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTracks": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViews": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -63,6 +183,14 @@
       }
     }
   },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
@@ -73,8 +201,8 @@
       }
     }
   },
-  "about": "เกี่ยวกับ",
-  "active": "ใช้งานอยู่",
+  "about": "เกี่ยวกับแอปนี้",
+  "active": "ใช้งาน",
   "add": "เพิ่ม",
   "addAccount": "เพิ่มบัญชี",
   "addAll": "เพิ่มทั้งหมด",
@@ -119,6 +247,7 @@
   "animatingThumbnailInversedSubtitle": "เสียงที่หนักขึ้นจะทำให้ภาพปกเล็กลง",
   "anotherProcessIsRunning": "กำลังยุ่งกับอีกงานอยู่",
   "appIcon": "ไอคอนของแอป",
+  "appVersion": "เวอร์ชั่นของแอพ",
   "artist": "ศิลปิน",
   "artists": "ศิลปิน",
   "artwork": "งานภาพ",
@@ -153,6 +282,7 @@
   "canceled": "ยกเลิก",
   "changed": "เปลี่ยน",
   "changelog": "บันทึกความเปลี่ยนแปลง",
+  "changelogSubtitle": "ดูว่ามีอะไรใหม่เพิ่มเข้ามาหรือแก้ไขอะไรบ้างใน Namida",
   "channel": "ช่อง",
   "channels": "ช่อง",
   "check": "เช็ค",
@@ -191,7 +321,23 @@
   "couldntPlayFile": "เล่นไฟล์ไม่ได้",
   "couldntRenamePlaylist": "เปลี่ยนชื่อเพลย์ลิสต์ไม่สำเร็จ",
   "couldntSaveImage": "บันทึกภาพไม่สำเร็จ",
+  "countAlbums": "{count, plural, one{{count} อัลบั้ม} other{{count} อัลบั้ม}}",
+  "countArtists": "{count, plural, one{{count} ศิลปิน} other{{count} ศิลปิน}}",
+  "countComposers": "{count, plural, one{{count} นักแต่งเพลง} other{{count} นักแต่งเพลง}}",
+  "countDays": "{count, plural, one{{count} วัน} other{{count} วัน}}",
+  "countFiles": "{count, plural, one{{count} ไฟล์} other{{count} ไฟล์}}",
+  "countFolders": "{count, plural, one{{count} โฟลเดอร์} other{{count} โฟลเดอร์}}",
+  "countGenres": "{count, plural, one{{count} ประเภท} other{{count} ประเภท}}",
+  "countMonths": "{count, plural, one{{count} เดือน} other{{count} เดือน}}",
+  "countPlaylists": "{count, plural, one{{count} เพลย์ลิสต์} other{{count} เพลย์ลิสต์}}",
+  "countSubscribers": "{count, plural, one{{count} ผู้ติดตาม} other{{count} ผู้ติดตาม}}",
+  "countSubscribersShort": "{count, plural, one{{count} ผู้ติดตาม} other{{count} ผู้ติดตาม}}",
+  "countTracks": "{count, plural, one{{count} แทร็ก} other{{count} แทร็ก}}",
+  "countVideos": "{count, plural, one{{count} วิดีโอ} other{{count} วีดีโอ}}",
+  "countViews": "{count, plural, one{{count} การรับชม} other{{count} การรับชม}}",
+  "countViewsShort": "{count, plural, one{{count} การรับชม} other{{count} การรับชม}}",
   "country": "ประเทศ",
+  "coupon": "คูปอง",
   "create": "สร้าง",
   "createBackup": "สร้างไฟล์สำรอง",
   "createNewPlaylist": "สร้างเพลย์ลิสต์ใหม่",
@@ -227,6 +373,8 @@
   "deletePlaylist": "ลบเพลย์ลิสต์",
   "deleteTempFiles": "ลบไฟล์ชั่วคราว",
   "description": "คำอธิบาย",
+  "developer": "ผู้พัฒนา",
+  "development": "การพัฒนา",
   "didYouMean": "คุณหมายถึง",
   "dimIntensity": "ความเข้มข้นของความจาง",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{หรี่เครื่องเล่นขนาดเล็กหลังจากไม่ใช้งานมา {seconds} วินาที}}",
@@ -237,6 +385,7 @@
   "disableSearchCleanup": "ปิดการล้างคำค้นหา",
   "discNumber": "แผ่นที่",
   "discNumberTotal": "รวมแผ่นทั้งหมด",
+  "discover": "ค้นพบ",
   "dislike": "ไม่ชอบ",
   "dismissibleMiniplayer": "ทำให้เครื่องเล่นขนาดเล็กหายได้",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "แสดงเวลาปัจจุบันแทนระยะเวลาที่ข้ามขณะเลื่อนแถบเวลา",
@@ -255,6 +404,8 @@
   "displayTrackNumberInAlbumPage": "แสดงลำดับเพลงในหน้าอัลบั้ม",
   "displayTrackNumberInAlbumPageSubtitle": "แสดงกล่องหมายเลขลำดับเพลงในหน้าอัลบั้ม",
   "doNothing": "ไม่ทำอะไร",
+  "donate": "บริจาค",
+  "donateSubtitle": "ถ้าคุณคิดว่ามันคู่ควร",
   "done": "เสร็จสิ้น",
   "dontAskAgain": "ไม่ต้องถามอีก",
   "dontDim": "ไม่จาง",
@@ -303,7 +454,44 @@
   "enableSearchCleanup": "เปิดใช้งานการล้างประวัติค้นหา",
   "enableSearchCleanupSubtitle": "ตัวอักษรพิเศษทั้งหมด จะถูกเพิกเฉย",
   "enableSponsorblock": "เปิดฝช้งานการบล็อกสปอนเซอร์",
+  "enableVideoPlayback": "เปิดใช้งานการเล่นวิดีโอ",
+  "enterSymbol": "กรุณาป้อนสัญลักษณ์",
+  "equalizer": "อีควอไลเซอร์",
+  "error": "ข้อผิดพลาด",
+  "errorPlayingTrack": "เกิดข้อผิดพลาดในการเล่นแทร็ก",
+  "excludedFodlers": "โฟลเดอร์ที่ยกเว้น",
+  "exit": "ออก",
   "exitAppSubtitle": "แตะอีกครั้งเพื่อออก",
+  "expandedMiniplayer": "ขยายมินิเพลเยอร์",
+  "exportAsM3u": "ส่งออกเป็นไฟล์ M3U",
+  "extension": "ส่วนเสริม",
+  "externalFiles": "ไฟล์ภายนอก",
+  "extract": "แยก",
+  "extractAllColorPalettes": "แยกชุดสีทั้งหมด",
+  "extractAllColorPalettesSubtitle": "{number, plural, one{แยกส่วนที่เหลือ {number}?} other{แยกส่วนที่เหลือ {number}?}}",
+  "extractFeatArtist": "แยกชื่อศิลปินรับเชิญออกจากชื่อเพลง",
+  "extractFeatArtistSubtitle": "แยกศิลปินจาก (feat. X) และ (ft. X) เป็นรายการศิลปินใหม่",
+  "extractingInfo": "กำลังดึงข้อมูล",
+  "extras": "เพิ่มเติม",
+  "extrasSubtitle": "การตั้งค่าเพิ่มเติมเพื่อปรับแต่งประสบการณ์การใช้งาน",
+  "extreme": "ตึงเกินหัวหน้า",
+  "failed": "ล้มเหลว",
+  "failedEdits": "แก้ไขไม่สำเร็จ",
+  "favourites": "รายการโปรด",
+  "features": "ฟีเจอร์",
+  "fetching": "รอแป๊บ กำลังดึงข้อมูล",
+  "fetchingOfAllVideos": "กำลังดึงวิดีโอทั้งหมด",
+  "file": "ไฟล์",
+  "fileAlreadyExists": "ไฟล์นี้มันอยู่แล้วน่ะ bro :3",
+  "fileBasedServerWarning": "ไฟล์จะถูกดาวน์โหลดชั่วคราวเพื่อเตรียมข้อมูลสำหรับการค้นหา\nโปรดตรวจสอบให้แน่ใจว่าการเชื่อมต่อของคุณเสถียร แนะนำให้ใช้ Wi-Fi เพื่อหลีกเลี่ยงการใช้ข้อมูลมือถือในปริมาณมาก UwU",
+  "fileName": "ชื่อไฟล์",
+  "fileNameWoExt": "ชื่อไฟล์ที่ไม่มีนามสกุล",
+  "filenameShouldntStartWith": "ชื่อไฟล์ไม่ควรขึ้นต้นด้วย",
+  "files": "ไฟล์",
+  "filler": "ส่วนเติมเต็ม",
+  "filterAlbums": "กรองอัลบั้ม",
+  "filterArtists": "กรองศิลปิน",
+  "forceMiniplayerFollowTrackColors": "บังคับให้มินิเพลเยอร์ติดตามสีของแทร็ก",
   "import": "นำเข้า",
   "importLastFmHistory": "นำเข้าประวัติจาก LastFm",
   "importYoutubeHistory": "นำเข้าประวัติจาก Youtube",
