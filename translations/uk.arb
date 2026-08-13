@@ -1,5 +1,12 @@
 {
   "@@locale": "uk",
+  "@acceptConnectionFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@addMoreFromToQueue": {
     "placeholders": {
       "media": {
@@ -370,6 +377,8 @@
     }
   },
   "about": "Про додаток",
+  "accept": "Дозволити",
+  "acceptConnectionFromName": "Дозволити з’єднання з {name}?",
   "active": "Активний",
   "add": "Додати",
   "addAccount": "Додати обліковий запис",
@@ -430,7 +439,8 @@
   "artworks": "Обкладинки",
   "audio": "Аудіо",
   "audioCache": "Кеш аудіо",
-  "audioOnly": "Тільки аудіо",
+  "audioConfigs": "Налаштування звуку",
+  "audioOnly": "Тільки звук",
   "auto": "Автоматично",
   "autoBackupInterval": "Інтервал автоматичних резервних копій",
   "autoColoring": "Автоколір",
@@ -442,8 +452,10 @@
   "autoSkipOnce": "Автопропуск один раз",
   "autoStartRadio": "Автозапуск радіо",
   "autoStartRadioSubtitle": "Автоматично додає плейлист «Мікс» під час відтворення одного треку",
+  "autoSyncInterval": "Інтервал автоматичної синхронізації",
   "automaticBackup": "Автоматичний",
   "automaticBackupSubtitle": "Автоматично застосовує останній файл резервної копії, знайдений у місці їх зберігання",
+  "availableDevices": "Доступні пристрої",
   "backupAndRestore": "Резервне копіювання та відновлення",
   "backupAndRestoreSubtitle": "Резервне копіювання бази даних та налаштувань",
   "balanced": "Збалансований",
@@ -453,6 +465,8 @@
   "bitrate": "Бітрейт",
   "bits": "біт",
   "blacklist": "Чорний список",
+  "block": "Заблокувати",
+  "blockedDevices": "Заблоковані пристрої",
   "borderRadiusMultiplier": "Множник радіуса меж",
   "cache": "Кеш",
   "cancel": "Скасувати",
@@ -477,6 +491,7 @@
   "clearTrackItemMultiple": "Очистити у {number, plural, one{{number} треку} few{{number} треках} other{{number} треках}}",
   "clearVideoCache": "Очистити кеш відео",
   "clearVideoCacheNote": "Ви можете обрати, що видалити.",
+  "client": "Клієнт",
   "clock": "Годинник",
   "clockOnly": "Тільки годинник",
   "colorPalette": "Кольорова палітра",
@@ -493,6 +508,7 @@
   "configure": "Налаштувати",
   "confirm": "ОК",
   "confirmRefresh": "Підтвердити оновлення?",
+  "connectionAccepted": "З’єднання прийнято",
   "contains": "Містить",
   "convertToM3UPlaylist": "Конвертувати у плейлист M3U",
   "convertToNormalPlaylist": "Конвертувати у звичайний плейлист",
@@ -605,7 +621,7 @@
   "downloadsMetadataTags": "Завантажити теги метаданих",
   "downloadsMetadataTagsSubtitle": "За замовчуванням витягувати виконавця, назву та альбом з інформації про відео",
   "dragToSeek": "Перетягуйте для перемотування",
-  "duckAudio": "Приглушувати аудіо",
+  "duckAudio": "Приглушувати звук",
   "duplicatedItemsAdding": "Ви намагаєтеся додати елементи, що вже є в плейлисті",
   "duplicatedTracks": "Дубльовані треки",
   "duration": "Тривалість",
@@ -1029,7 +1045,7 @@
   "refreshLibrarySubtitle": "Перевірити наявність нових доданих або видалених треків",
   "refreshOnStartup": "Оновити при запуску",
   "relatedVideos": "Схожі відео",
-  "rememberAudioOnlyMode": "Запам’ятати режим «Тільки аудіо»",
+  "rememberAudioOnlyMode": "Запам’ятати режим «Тільки звук»",
   "remixer": "Реміксер",
   "remove": "Видалити",
   "removeDuplicates": "Видалити дублікати",
@@ -1095,6 +1111,7 @@
   "separatorsBlacklistSubtitle": "Ці слова не будуть розділені",
   "separatorsMessage": "Пробіли вставляти не потрібно, якщо тільки Ви не хочете використовувати літеру/символ, котрий зустрічається в цілому слові (наприклад, x та ft.)",
   "serverAddress": "Адреса сервера",
+  "serverBlockedThisDevice": "Сервер заблокував цей пристрій",
   "setAs": "Встановити як",
   "setAsDefault": "Встановити як значення за замовчуванням",
   "setFileLastModifiedAsVideoUploadDate": "Встановити дату зміни файлу датою завантаження відео",
@@ -1232,6 +1249,7 @@
   "tracks": "Треки",
   "tracksExcludedByNomedia": "Треки, виключені через .nomedia",
   "tracksInfo": "Інформація про треки",
+  "unblock": "Розблокувати",
   "underrated": "Недооцінене",
   "undo": "Скасувати",
   "undoChanges": "Скасувати зміни?",
