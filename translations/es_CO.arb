@@ -535,7 +535,6 @@
   "createNewSmartPlaylist": "Crear nueva Playlist inteligente",
   "createdBackupSuccessfully": "Copia de seguridad creada",
   "createdBackupSuccessfullySub": "El archivo de copia de seguridad se ha creado correctamente",
-  "crossPlatformSync": "Sincronización entre plataformas",
   "crossfadeDuration": "Duración del fundido cruzado",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Enciende el crossfade en el ultimo {seconds} segundo} other{Enciende el crossfade en los últimos {seconds} segundos}}",
   "crossfadeTriggerSecondsDisabled": "No activar el crossfade entre canciones automáticamente",

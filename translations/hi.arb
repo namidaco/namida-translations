@@ -342,7 +342,6 @@
   "createNewPlaylist": "नई playlist बनाएं",
   "createdBackupSuccessfully": "बैकअप बनाया",
   "createdBackupSuccessfullySub": "बैकअप फ़ाइल सफलतापूर्वक बनाई गई है",
-  "crossPlatformSync": "क्रॉस-प्लेटफ़ॉर्म सिंक",
   "crossfadeDuration": "Crossfade अवधि",
   "crossfadeTriggerSeconds": "{seconds, plural, other{अंतिम {seconds} सेकंडों में स्वचालित रूप से crossfade को trigger करे}}",
   "crossfadeTriggerSecondsDisabled": "Crossfade को स्वचालित रूप से trigger न करें",

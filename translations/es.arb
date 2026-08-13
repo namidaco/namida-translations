@@ -529,7 +529,6 @@
   "createNewSmartPlaylist": "Crear una nueva lista de reproducción inteligente",
   "createdBackupSuccessfully": "Copia de seguridad creada",
   "createdBackupSuccessfullySub": "La copia de seguridad se creó correctamente",
-  "crossPlatformSync": "Sincronización multiplataforma",
   "crossfadeDuration": "Duración de crossfade",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Activar Crossfade automáticamente en el último {seconds} segundo} other{Activar Crossfade automáticamente en los últimos {seconds} segundos}}",
   "crossfadeTriggerSecondsDisabled": "No activar crossfade automáticamente",

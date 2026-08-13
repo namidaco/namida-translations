@@ -350,7 +350,6 @@
   "createNewPlaylist": "Ustvari nov seznam predvajanja",
   "createdBackupSuccessfully": "Varnostna kopija ustvarjena",
   "createdBackupSuccessfullySub": "Datoteka varnostne kopije je bila uspešno ustvarjena",
-  "crossPlatformSync": "Medplatformska sinhronizacija",
   "crossfadeDuration": "Trajanje prelivanja",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Samodejno sproži prelivanje v zadnjih {seconds} sekundah}}",
   "crossfadeTriggerSecondsDisabled": "Ne sproži samodejnega prelivanja",

@@ -350,7 +350,6 @@
   "createNewPlaylist": "Krei novan ludliston",
   "createdBackupSuccessfully": "Savkopio kreita",
   "createdBackupSuccessfullySub": "Savkopia dosiero estis sukcese kreita",
-  "crossPlatformSync": "Interplatforma sinkronigo",
   "crossfadeDuration": "Daŭro de miksfando",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Aŭtomate aktivigi miksfandon en la lastaj {seconds} sekundoj}}",
   "crossfadeTriggerSecondsDisabled": "Ne aktivigi miksfandon aŭtomate",

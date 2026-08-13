@@ -353,7 +353,6 @@
   "createNewPlaylist": "Utwórz nową playlistę",
   "createdBackupSuccessfully": "Utworzono kopię zapasową",
   "createdBackupSuccessfullySub": "Plik kopii zapasowej został pomyślnie utworzony",
-  "crossPlatformSync": "Synchronizacja międzyplatformowa",
   "crossfadeDuration": "Czas przejścia",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Włącz funkcję przejścia automatycznie w ciągu ostatnich {seconds} sekund}}",
   "crossfadeTriggerSecondsDisabled": "Nie włączaj przejścia automatycznie",

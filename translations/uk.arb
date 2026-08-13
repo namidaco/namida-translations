@@ -529,7 +529,6 @@
   "createNewSmartPlaylist": "Створити новий смарт-плейлист",
   "createdBackupSuccessfully": "Резервну копію створено",
   "createdBackupSuccessfullySub": "Резервну копію успішно створено",
-  "crossPlatformSync": "Синхронізація між платформами",
   "crossfadeDuration": "Тривалість згасаючого переходу",
   "crossfadeTriggerSeconds": "Автоматично вмикати згасаючий перехід за {seconds, plural, one{{seconds} останню секунду} few{{seconds} останні секунди} other{{seconds} останні секунд}}",
   "crossfadeTriggerSecondsDisabled": "Не запускати згасаючий перехід автоматично",

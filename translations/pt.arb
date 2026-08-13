@@ -341,7 +341,6 @@
   "createNewPlaylist": "Criar nova Playlist",
   "createdBackupSuccessfully": "Backup criado",
   "createdBackupSuccessfullySub": "Arquivo de backup criado com sucesso",
-  "crossPlatformSync": "Sincronização entre plataformas",
   "crossfadeDuration": "Duração da Transição Gradual",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Ativar transição gradual automaticamente nos últimos {seconds} segundos}}",
   "crossfadeTriggerSecondsDisabled": "Não ativar transição gradual automaticamente",

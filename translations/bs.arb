@@ -367,7 +367,6 @@
   "createNewPlaylist": "Kreiraj novu listu numera",
   "createdBackupSuccessfully": "Rezervna kopija kreirana",
   "createdBackupSuccessfullySub": "Datoteka rezervne kopije je uspješno kreirana",
-  "crossPlatformSync": "Međuplatformskl usklađivanje",
   "crossfadeDuration": "Trajanje pretapanja",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Automatski pokreni pretapanje u posljednjih {seconds} sekundi}}",
   "crossfadeTriggerSecondsDisabled": "Ne pokreći pretapanje automatski",

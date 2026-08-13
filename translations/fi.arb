@@ -319,7 +319,6 @@
   "createNewPlaylist": "Luoda uusi Soittolista",
   "createdBackupSuccessfully": "Luotu Varmuuskopio",
   "createdBackupSuccessfullySub": "Varmuuskopiotiedosto on luotu onnistuneesti",
-  "crossPlatformSync": "Alustojen välinen Sync",
   "crossfadeDuration": "Ristihäivytyksen kesto",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Käynnistä Crossfade automaattisesti viimeisen {seconds} sekunnin aikana}}",
   "crossfadeTriggerSecondsDisabled": "Älä käynnistä ristihäivytystä automaattisesti",

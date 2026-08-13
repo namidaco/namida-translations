@@ -368,7 +368,6 @@
   "createNewPlaylist": "Nieuwe afspeellijst",
   "createdBackupSuccessfully": "Reservekopie gemaakt",
   "createdBackupSuccessfullySub": "Er is een reservekopie gemaakt",
-  "crossPlatformSync": "Synchronisatie tussen platformen",
   "crossfadeDuration": "Overgangsduur",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Automatisch een vloeiende overgang verzorgen in de laatste {seconds} seconden}}",
   "crossfadeTriggerSecondsDisabled": "Geen automatische vloeiende overgang",

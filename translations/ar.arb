@@ -499,7 +499,6 @@
   "createNewPlaylist": "إنشاء قائمة تشغيل جديدة",
   "createdBackupSuccessfully": "تم إنشاء نسخة احتياطية",
   "createdBackupSuccessfullySub": "تم إنشاء ملف النسخ الاحتياطي بنجاح",
-  "crossPlatformSync": "مزامنة بين المنصات",
   "crossfadeDuration": "مدة التلاشي",
   "crossfadeTriggerSeconds": "{seconds, plural, one{تفعيل الدمج التلقائي في آخر {seconds} ثانية} other{تفعيل الدمج التلقائي في آخر {seconds} ثوان}}",
   "crossfadeTriggerSecondsDisabled": "لا تقم بتشغيل التلاشي المتقاطع تلقائيًا",

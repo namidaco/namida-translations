@@ -360,7 +360,6 @@
   "createNewPlaylist": "Crea nuova playlist",
   "createdBackupSuccessfully": "Backup creato",
   "createdBackupSuccessfullySub": "Il file di backup è stato creato con successo",
-  "crossPlatformSync": "Sincronizzazione Cross-Platform",
   "crossfadeDuration": "Durata dissolvenza",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Attiva dissolvenza incrociata automaticamente negli ultimi {seconds} secondi}}",
   "crossfadeTriggerSecondsDisabled": "Non attivare dissolvenza incrociata automaticamente",

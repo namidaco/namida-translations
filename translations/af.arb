@@ -367,7 +367,6 @@
   "createNewPlaylist": "Skep nuwe snitlys",
   "createdBackupSuccessfully": "Rugsteun geskep",
   "createdBackupSuccessfullySub": "Rugsteunlêer is suksesvol geskep",
-  "crossPlatformSync": "Kruisplatform-sinchronisasie",
   "crossfadeDuration": "Kruisfadeduur",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Aktiveer kruisfade outomaties in die laaste {seconds} sekondes}}",
   "crossfadeTriggerSecondsDisabled": "Moenie kruisfade outomaties aktiveer nie",

@@ -311,7 +311,6 @@
   "createNewPlaylist": "建立新的播放清單",
   "createdBackupSuccessfully": "建立備份",
   "createdBackupSuccessfullySub": "備份檔案已成功建立",
-  "crossPlatformSync": "跨平台同步",
   "crossfadeDuration": "交叉淡入淡出持續時間",
   "crossfadeTriggerSeconds": "{seconds, plural, other{在最後 {seconds} 秒內自動觸發交叉淡入淡出}}",
   "crossfadeTriggerSecondsDisabled": "不自動觸發交叉淡入淡出",

@@ -529,7 +529,6 @@
   "createNewSmartPlaylist": "Neue smarte Playlist erstellen",
   "createdBackupSuccessfully": "Sicherung erstellt",
   "createdBackupSuccessfullySub": "Sicherungsdatei wurde erfolgreich erstellt",
-  "crossPlatformSync": "Plattformübergreifende Synchronisierung",
   "crossfadeDuration": "Dauer der Überblendung",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Überblendung automatisch in den letzten {seconds} Sekunden auslösen} other{Überblendung automatisch in den letzten {seconds} Sekunden auslösen}}",
   "crossfadeTriggerSecondsDisabled": "Überblendung nicht automatisch auslösen",

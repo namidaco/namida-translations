@@ -341,7 +341,6 @@
   "createNewPlaylist": "Creează playlist nou",
   "createdBackupSuccessfully": "Backup creat",
   "createdBackupSuccessfullySub": "Fișierul de backup a fost creat cu succes",
-  "crossPlatformSync": "Sincronizare cross-platform",
   "crossfadeDuration": "Durată crossfade",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Activează crossfade automat în ultimele {seconds} secunde}}",
   "crossfadeTriggerSecondsDisabled": "Nu activa crossfade automat",

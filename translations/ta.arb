@@ -368,7 +368,6 @@
   "createNewPlaylist": "புதிய பட்டியலை உருவாக்கவும்",
   "createdBackupSuccessfully": "காப்புப்பிரதி உருவாக்கப்பட்டது",
   "createdBackupSuccessfullySub": "காப்பு கோப்பு வெற்றிகரமாக உருவாக்கப்பட்டது",
-  "crossPlatformSync": "குறுக்கு-தளம் ஒத்திசைவு",
   "crossfadeDuration": "கிராஸ்ஃபேட் கால அளவு",
   "crossfadeTriggerSeconds": "{seconds, plural, other{கடைசி {seconds} வினாடிகளில் தானாகவே கிராஸ்ஃபேடை இயக்கு}}",
   "crossfadeTriggerSecondsDisabled": "கிராஸ்ஃபேடை தானாகத் தூண்ட வேண்டாம்",

@@ -515,7 +515,6 @@
   "createNewPlaylist": "Buat Playlist baru",
   "createdBackupSuccessfully": "Cadangan Dibuat",
   "createdBackupSuccessfullySub": "File cadangan berhasil dibuat",
-  "crossPlatformSync": "Sinkronisasi Lintas Platform",
   "crossfadeDuration": "Durasi crossfade",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Aktifkan Crossfade secara otomatis dalam {seconds} detik terakhir} other{Aktifkan Crossfade secara otomatis dalam {seconds} detik terakhir}}",
   "crossfadeTriggerSecondsDisabled": "Jangan aktifkan crossfade secara otomatis",

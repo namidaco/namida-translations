@@ -344,7 +344,6 @@
   "createNewPlaylist": "Tạo danh sách phát mới",
   "createdBackupSuccessfully": "Đã tạo bản sao lưu",
   "createdBackupSuccessfullySub": "Tập tin sao lưu đã được tạo thành công",
-  "crossPlatformSync": "Đồng bộ hóa đa thiết bị",
   "crossfadeDuration": "Thời lượng Chuyển đổi mượt",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Tự động bật Chuyển tiếp mượt sau{seconds} giây}}",
   "crossfadeTriggerSecondsDisabled": "Không tự động bật Chuyển tiếp mượt",

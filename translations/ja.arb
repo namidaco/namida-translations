@@ -385,7 +385,6 @@
   "createNewSmartPlaylist": "新しいスマートプレイリストを作成",
   "createdBackupSuccessfully": "作成されたバックアップ",
   "createdBackupSuccessfullySub": "バックアップファイルの作成に成功しました",
-  "crossPlatformSync": "クロスプラットフォーム間での同期",
   "crossfadeDuration": "クロスフェード時間",
   "crossfadeTriggerSeconds": "{seconds, plural, other{終わる {seconds} 秒前からクロスフェードを自動的に開始}}",
   "crossfadeTriggerSecondsDisabled": "クロスフェードを自動的に開始しない",

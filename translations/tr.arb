@@ -373,7 +373,6 @@
   "createNewPlaylist": "Yeni Çalma Listesi Oluştur",
   "createdBackupSuccessfully": "Yedekleme Oluşturuldu",
   "createdBackupSuccessfullySub": "Yedekleme dosyası başarıyla oluşturuldu",
-  "crossPlatformSync": "Platformlar Arası Eşitleme",
   "crossfadeDuration": "Crossfade süresi",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Son {seconds} saniyede Crossfade otomatik olarak tetiklenir}}",
   "crossfadeTriggerSecondsDisabled": "Crossfade otomatik olarak tetiklenmesin",

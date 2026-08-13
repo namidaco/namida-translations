@@ -529,7 +529,6 @@
   "createNewSmartPlaylist": "创建新的智能播放列表",
   "createdBackupSuccessfully": "已创建备份",
   "createdBackupSuccessfullySub": "建立备份文件成功",
-  "crossPlatformSync": "跨平台同步",
   "crossfadeDuration": "淡入淡出时长",
   "crossfadeTriggerSeconds": "{seconds, plural, one{在最后 {seconds} 秒自动触发淡入淡出} other{在最后 {seconds} 秒自动触发淡入淡出}}",
   "crossfadeTriggerSecondsDisabled": "不自动触发淡入淡出",

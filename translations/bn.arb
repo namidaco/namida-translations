@@ -529,7 +529,6 @@
   "createNewSmartPlaylist": "নতুন স্মার্ট প্লেলিস্ট তৈরি করুন",
   "createdBackupSuccessfully": "ব্যাকআপ তৈরি করা হয়েছে",
   "createdBackupSuccessfullySub": "ব্যাকআপ ফাইল সফলভাবে তৈরি করা হয়েছে",
-  "crossPlatformSync": "ক্রস-প্ল্যাটফর্ম সিঙ্ক",
   "crossfadeDuration": "ক্রসফেড সময়কাল",
   "crossfadeTriggerSeconds": "{seconds, plural, one{শেষ {seconds} সেকেন্ডে স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করুন} other{শেষ {seconds} সেকেন্ডে স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করুন}}",
   "crossfadeTriggerSecondsDisabled": "স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করবেন না",

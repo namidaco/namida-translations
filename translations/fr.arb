@@ -529,7 +529,6 @@
   "createNewSmartPlaylist": "Créer une nouvelle playlist intelligente",
   "createdBackupSuccessfully": "Sauvegarde créée",
   "createdBackupSuccessfullySub": "Le fichier de sauvegarde a été créé avec succès",
-  "crossPlatformSync": "Synchronisation Multi-platforme",
   "crossfadeDuration": "Durée du fondu enchaîné",
   "crossfadeTriggerSeconds": "{seconds, plural, other{Déclenchement automatique du fondu enchaîné dans les {seconds} dernières secondes}}",
   "crossfadeTriggerSecondsDisabled": "Ne pas déclencher automatiquement le fondu enchaîné",

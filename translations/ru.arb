@@ -527,7 +527,6 @@
   "createNewSmartPlaylist": "Создать новый Умный Плейлист",
   "createdBackupSuccessfully": "Резервная копия создана",
   "createdBackupSuccessfullySub": "Резервная копия была создана успешно",
-  "crossPlatformSync": "Кроссплатформенная синхронизация",
   "crossfadeDuration": "Длительность Затухающего перехода",
   "crossfadeTriggerSeconds": "Автоматическое включение Затухающего перехода за {seconds, plural, one{последнюю {seconds} секунду} few{последние {seconds} секунды} other{последние {seconds} секунд}}",
   "crossfadeTriggerSecondsDisabled": "Не запускать затухающий переход автоматически",
