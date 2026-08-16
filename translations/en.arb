@@ -102,6 +102,14 @@
       }
     }
   },
+  "@countStyles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countSubscribers": {
     "placeholders": {
       "count": {
@@ -535,6 +543,7 @@
   "countGenres": "{count, plural, one{{count} Genre} other{{count} Genres}}",
   "countMonths": "{count, plural, one{{count} Month} other{{count} Months}}",
   "countPlaylists": "{count, plural, one{{count} Playlist} other{{count} Playlists}}",
+  "countStyles": "{count, plural, one{{count} Style} other{{count} Styles}}",
   "countSubscribers": "{count, plural, one{{count} Subscriber} other{{count} Subscribers}}",
   "countSubscribersShort": "{count, plural, one{{count} Subscriber} other{{count} Subscribers}}",
   "countTracks": "{count, plural, one{{count} Track} other{{count} Tracks}}",
@@ -1018,6 +1027,8 @@
   "playlistsImportM3uNative": "This will import M3U playlists to be used only by namida, use if you are migrating",
   "playlistsImportM3uSynced": "This will automatically import M3U playlists from indexer folders and keep them synced with the original M3U file. enable if you access/modify the playlists from other apps",
   "playlistsImportM3uSyncedAutoImport": "Auto import M3U Playlists",
+  "playlistsImportServer": "This will automatically import playlists from configured music web servers (Jellyfin, Subsonic/Navidrome, etc) on library refresh",
+  "playlistsImportServerAutoImport": "Auto import Server Playlists",
   "pleaseEnterADifferentName": "This name already exists :(\nplease try another fancy name",
   "pleaseEnterALink": "Please enter a link",
   "pleaseEnterALinkSubtitle": "umm.. is this a youtube link?",
@@ -1043,6 +1054,7 @@
   "reIndex": "Re-index",
   "reIndexSubtitle": "Rebuild your music library from scratch",
   "reIndexWarning": "This process might take a while, depending on your library size.\n\nArtworks will not get re-indexed as long as they still exist",
+  "readOnlyPlaylist": "Read-only Playlist",
   "reason": "Reason",
   "receive": "Receive",
   "recentActions": "Recent Actions",
@@ -1209,6 +1221,8 @@
   "storagePermissionDenied": "Permission Denied",
   "storagePermissionDeniedSubtitle": "Please allow access to be able to perform this action",
   "stretchLyricsDuration": "Stretch Lyrics Duration",
+  "style": "Style",
+  "styles": "Styles",
   "subdirectory": "Subdirectory",
   "subscribe": "Subscribe",
   "subscribed": "Subscribed",
@@ -1266,6 +1280,7 @@
   "trackPlayModeTrackAlbum": "Track's Album",
   "trackPlayModeTrackArtist": "Track's Main Artist",
   "trackPlayModeTrackGenre": "Track's Genre",
+  "trackPlayModeTrackStyle": "Track's Style",
   "trackThumbnailSizeInList": "Size of Track Thumbnail",
   "trackTileCustomization": "Track Tile Customization",
   "trackTileItemsSeparator": "Items Separator",
