@@ -102,6 +102,14 @@
       }
     }
   },
+  "@countStyles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countSubscribers": {
     "placeholders": {
       "count": {
@@ -535,6 +543,7 @@
   "countGenres": "{count, plural, one{{count} жанр} few{{count} жанри} other{{count} жанрів}}",
   "countMonths": "{count, plural, one{{count} місяць} few{{count} місяці} other{{count} місяців}}",
   "countPlaylists": "{count, plural, one{{count} плейлист} few{{count} плейлисти} other{{count} плейлистів}}",
+  "countStyles": "{count, plural, one{{count} стиль} few{{count} стилі} other{{count} стилів}}",
   "countSubscribers": "{count, plural, one{{count} підписник} few{{count} підписники} other{{count} підписників}}",
   "countSubscribersShort": "{count, plural, one{{count} підписник} few{{count} підписники} other{{count} підписників}}",
   "countTracks": "{count, plural, one{{count} трек} few{{count} треки} other{{count} треків}}",
@@ -1018,6 +1027,8 @@
   "playlistsImportM3uNative": "Імпорт плейлистів M3U для використання тільки в Namida. Використовуйте, якщо мігруєте",
   "playlistsImportM3uSynced": "Автоматичний імпорт плейлистів M3U з тек індексатора та синхронізація їх з оригінальним файлом M3U. Використовуйте, якщо отримуєте доступ/модифікуєте плейлисти з інших додатків",
   "playlistsImportM3uSyncedAutoImport": "Автоматичний імпорт плейлистів M3U",
+  "playlistsImportServer": "Автоматичний імпорт плейлистів із налаштованих музичних веб-серверів (Jellyfin, Subsonic/Navidrome тощо) при оновленні бібліотеки",
+  "playlistsImportServerAutoImport": "Автоматичний імпорт серверних плейлистів",
   "pleaseEnterADifferentName": "Така назва вже існує :(\nБудь ласка, спробуйте іншу, незвичну назву",
   "pleaseEnterALink": "Будь ласка, введіть посилання",
   "pleaseEnterALinkSubtitle": "Емм... Це точно посилання на YouTube?",
@@ -1043,6 +1054,7 @@
   "reIndex": "Переіндексувати",
   "reIndexSubtitle": "Перезбирає музичну бібліотеку з нуля",
   "reIndexWarning": "Цей процес може зайняти певний час, в залежності від розміру Вашої бібліотеки.\n\nОбкладинки не будуть переіндексовані, поки вони існують",
+  "readOnlyPlaylist": "Плейлист тільки для читання",
   "reason": "Причина",
   "receive": "Отримати",
   "recentActions": "Нещодавні дії",
@@ -1209,6 +1221,8 @@
   "storagePermissionDenied": "Дозвіл відхилено",
   "storagePermissionDeniedSubtitle": "Будь ласка, дозвольте доступ для виконання цієї дії",
   "stretchLyricsDuration": "Розтягувати тривалість показу тексту",
+  "style": "Стиль",
+  "styles": "Стилі",
   "subdirectory": "Підкаталог",
   "subscribe": "Підписатися",
   "subscribed": "Підписаний",
@@ -1266,6 +1280,7 @@
   "trackPlayModeTrackAlbum": "Альбом треку",
   "trackPlayModeTrackArtist": "Основний виконавець треку",
   "trackPlayModeTrackGenre": "Жанр треку",
+  "trackPlayModeTrackStyle": "Стиль треку",
   "trackThumbnailSizeInList": "Розмір мініатюри треку",
   "trackTileCustomization": "Налаштування плитки треків",
   "trackTileItemsSeparator": "Роздільник елементів",
