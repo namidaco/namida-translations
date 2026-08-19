@@ -102,6 +102,14 @@
       }
     }
   },
+  "@countStyles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countSubscribers": {
     "placeholders": {
       "count": {
@@ -535,6 +543,7 @@
   "countGenres": "{count, plural, one{{count} género} other{{count} géneros}}",
   "countMonths": "{count, plural, one{{count} mes} other{{count} meses}}",
   "countPlaylists": "{count, plural, one{{count} lista de reproducción} other{{count} listas de reproducción}}",
+  "countStyles": "{count, plural, one{{count} estilo} other{{count} estilos}}",
   "countSubscribers": "{count, plural, one{{count} suscriptor} other{{count} suscriptores}}",
   "countSubscribersShort": "{count, plural, one{{count} suscriptor} other{{count} suscriptores}}",
   "countTracks": "{count, plural, one{{count} pista} other{{count} pistas}}",
@@ -1018,6 +1027,8 @@
   "playlistsImportM3uNative": "Esto importará listas de reproducción M3U para ser utilizadas únicamente por namida, úselo si está migrando",
   "playlistsImportM3uSynced": "Esto importa automáticamente las listas de reproducción M3U desde las carpetas del indexador y las sincroniza con el archivo M3U original. Habilítelo si desea acceder o modificar las listas de reproducción desde otras aplicaciones",
   "playlistsImportM3uSyncedAutoImport": "Importar automáticamente listas de reproducción M3U",
+  "playlistsImportServer": "Al actualizar la biblioteca, se importarán automáticamente las listas de reproducción de tus servidores de música configurados (Jellyfin, Subsonic/Navidrome, etc.)",
+  "playlistsImportServerAutoImport": "Importar automáticamente listas de reproducción del servidor",
   "pleaseEnterADifferentName": "Este nombre ya existe :(\nporfavor intente otro nombre elegante",
   "pleaseEnterALink": "Porfavor ingrese un link",
   "pleaseEnterALinkSubtitle": "umm... ¿esto es un link de YouTube?",
@@ -1043,6 +1054,7 @@
   "reIndex": "Re indexar",
   "reIndexSubtitle": "Reconstruye tu biblioteca de música desde cero",
   "reIndexWarning": "Este proceso puede demorar, dependiendo del tamaño de tu biblioteca.\n\nLas carátulas no se volverán a indexar mientras sigan existiendo",
+  "readOnlyPlaylist": "Lista de reproducción no editable",
   "reason": "Razón",
   "receive": "Recibir",
   "recentActions": "Últimas acciones",
@@ -1209,6 +1221,8 @@
   "storagePermissionDenied": "Permiso denegado",
   "storagePermissionDeniedSubtitle": "Por favor permita el acceso para poder realizar esta acción",
   "stretchLyricsDuration": "Estirar la duración de las letras",
+  "style": "Estilo",
+  "styles": "Estilos",
   "subdirectory": "Subdirectorio",
   "subscribe": "Subscribirse",
   "subscribed": "Subscrito",
@@ -1266,6 +1280,7 @@
   "trackPlayModeTrackAlbum": "Pistas del álbum",
   "trackPlayModeTrackArtist": "Artista principal de las pistas",
   "trackPlayModeTrackGenre": "Genero de las pistas",
+  "trackPlayModeTrackStyle": "Estilo de la pista",
   "trackThumbnailSizeInList": "Tamaño de la miniatura de la pista",
   "trackTileCustomization": "Personalización del titulo de la pista",
   "trackTileItemsSeparator": "Separador de elementos",
