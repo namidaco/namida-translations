@@ -15,6 +15,14 @@
       }
     }
   },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -336,6 +344,7 @@
   "couldntPlayFile": "फ़ाइल नहीं चला सका",
   "couldntRenamePlaylist": "प्लेलिस्ट का नाम नहीं बदल सका",
   "couldntSaveImage": "छवि सहेज नहीं सका",
+  "countAlbumArtists": "{count, plural, one{{count} Album कलाकार} other{{count} Album कलाकार}}",
   "country": "देश",
   "create": "बनाएं",
   "createBackup": "बैकअप बनाएं",
@@ -381,6 +390,7 @@
   "disableSearchCleanup": "खोज सफाई अक्षम करें",
   "discNumber": "डिस्क नंबर",
   "discNumberTotal": "कुल डिस्क",
+  "discover": "खोज करें",
   "dislike": "नापसंद",
   "dismissibleMiniplayer": "खारिज करने योग्य मिनिप्लेयर",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "सीक करते समय अंतर की जगह वास्तविक स्थिति दिखाएँ",
@@ -399,6 +409,8 @@
   "displayTrackNumberInAlbumPage": "एल्बम पृष्ठ में ट्रैक नंबर प्रदर्शित करें",
   "displayTrackNumberInAlbumPageSubtitle": "एल्बम पृष्ठ में ट्रैक नंबर वाला एक छोटा बॉक्स प्रदर्शित करें",
   "doNothing": "कुछ मत करो",
+  "donate": "दान करें",
+  "donateSubtitle": "यदि आप सोचते है कि ये काबिल है",
   "done": "किया हुआ",
   "dontAskAgain": "फिर पूछना मत",
   "dontDim": "धुंधला न करें",
@@ -448,11 +460,14 @@
   "enableSearchCleanupSubtitle": "सभी प्रतीकों और रिक्त स्थानों को अनदेखा कर दिया जाएगा",
   "enableSponsorblock": "SponsorBlock सक्षम करें",
   "enableVideoPlayback": "वीडियो प्लेबैक सक्षम करें",
+  "endsWith": "से अंत होता है",
   "enterSymbol": "कृपया एक प्रतीक दर्ज करें",
   "equalizer": "Equalizer",
   "error": "त्रुटि",
+  "errorFetchingVideoList": "वीडियो की सूची प्राप्त करने में रुकावट",
   "errorPlayingTrack": "ट्रैक चलाने में त्रुटि",
   "excludedFodlers": "बहिष्कृत फ़ोल्डर",
+  "exists": "उपलब्ध है",
   "exit": "बाहर जाएं",
   "exitAppSubtitle": "बाहर निकलने के लिए फिर से टैप करें",
   "expandedMiniplayer": "विस्तारित मिनीप्लेयर",
@@ -470,7 +485,10 @@
   "extreme": "अत्यधिक",
   "failed": "विफल",
   "failedEdits": "विफल संपादन",
+  "favourite": "पसंदीदा",
+  "favouritedDate": "पसंदीदा तिथि",
   "favourites": "पसंदीदा",
+  "features": "विशेषताएँ",
   "fetching": "प्राप्त कर रहा है",
   "fetchingOfAllVideos": "सारे वीडियो को प्राप्त कर रहा",
   "file": "फ़ाइल",
