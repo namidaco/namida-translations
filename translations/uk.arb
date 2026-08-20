@@ -235,6 +235,13 @@
       }
     }
   },
+  "@importSpotifyHistoryGuide": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
   "@importYoutubeHistoryGuide": {
     "placeholders": {
       "takeoutLink": {
@@ -786,6 +793,8 @@
   "importAll": "Імпортувати все",
   "importLastFmHistory": "Імпорт історії LastFm",
   "importLastFmHistoryGuide": "1. Перейдіть на сторінку {lastfmCsvLink}\n\n2. Уведіть своє ім’я користувача, отримайте та завантажте файл CSV.\n\n3. Оберіть файл на наступному екрані.",
+  "importSpotifyHistory": "Імпорт історії Spotify",
+  "importSpotifyHistoryGuide": "1. Перейдіть за посиланням {link}\n\n2. Поставте позначку «Розширена історія потокового передавання».\n\n3. Запитайте дані та завантажте їх.\n\n4. На наступному екрані виберіть формат файлів ZIP або JSON.",
   "importTimeRange": "Імпортувати діапазон часу",
   "importYoutubeHistory": "Імпорт історії YouTube",
   "importYoutubeHistoryGuide": "1. Перейдіть за посиланням {takeoutLink}\n\n2. Натисніть «Декілька форматів» та навпроти «Історія» оберіть «JSON».\n\n3. Натисніть кнопку «Обрані всі дані YouTube», натисніть на «Скасувати вибір» та оберіть «Тільки історію».\n\n4. Створіть Експорт, завантажте та розархівуйте.\n\n5. На наступному екрані оберіть «watch-history.json».",
