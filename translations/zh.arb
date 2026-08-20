@@ -102,6 +102,14 @@
       }
     }
   },
+  "@countStyles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countSubscribers": {
     "placeholders": {
       "count": {
@@ -485,8 +493,8 @@
   "cleanup": "清理",
   "clear": "清除",
   "clearAudioCache": "清除音频缓存",
-  "clearImageCache": "清除图像缓存",
-  "clearImageCacheWarning": "警告: 此操作将导致媒体库中的图像丢失，仅应在需要重建图像缓存时使用。",
+  "clearImageCache": "清除图片缓存",
+  "clearImageCacheWarning": "警告：此操作将导致音乐库中的图片丢失，仅应在需要重建图片缓存时使用。",
   "clearTrackItem": "清除曲目",
   "clearTrackItemMultiple": "{number, plural, one{清除曲目} other{清除 {number} 首曲目}}",
   "clearVideoCache": "清除视频缓存",
@@ -502,7 +510,7 @@
   "comments": "评论",
   "composer": "作曲者",
   "compress": "压缩",
-  "compressImages": "压缩图像",
+  "compressImages": "压缩图片",
   "compressionPercentage": "压缩比",
   "condition": "条件",
   "configure": "配置",
@@ -524,7 +532,7 @@
   "couldntOpenYtLink": "此曲目没有可用的 YouTube 链接",
   "couldntPlayFile": "无法播放文件",
   "couldntRenamePlaylist": "无法重命名播放列表",
-  "couldntSaveImage": "无法保存图像",
+  "couldntSaveImage": "无法保存图片",
   "countAlbumArtists": "{count, plural, one{{count} 位专辑音乐人} other{{count} 位专辑音乐人}}",
   "countAlbums": "{count, plural, one{{count} 张专辑} other{{count} 张专辑}}",
   "countArtists": "{count, plural, one{{count} 位音乐人} other{{count} 位音乐人}}",
@@ -535,6 +543,7 @@
   "countGenres": "{count, plural, one{{count} 个流派} other{{count} 个流派}}",
   "countMonths": "{count, plural, one{{count} 个月} other{{count} 个月}}",
   "countPlaylists": "{count, plural, one{{count} 个播放列表} other{{count} 个播放列表}}",
+  "countStyles": "{count, plural, one{{count} 种风格} other{{count} 种风格}}",
   "countSubscribers": "{count, plural, one{{count} 位订阅者} other{{count} 位订阅者}}",
   "countSubscribersShort": "{count, plural, one{{count} 位订阅者} other{{count} 位订阅者}}",
   "countTracks": "{count, plural, one{{count} 首曲目} other{{count} 首曲目}}",
@@ -862,7 +871,7 @@
   "matchAllTracksNote": "这可能会影响匹配速度,因为它将检查您库中的所有曲目",
   "matchingType": "匹配类型",
   "maxAudioCacheSize": "最大音频缓存大小",
-  "maxImageCacheSize": "最大图像缓存大小",
+  "maxImageCacheSize": "最大图片缓存大小",
   "maxVideoCacheSize": "最大视频缓存大小",
   "maximum": "最大",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "已启用媒体存储，这将无效",
@@ -1018,6 +1027,8 @@
   "playlistsImportM3uNative": "这将导入仅供 namida 使用的 M3U 播放列表，如果您正在迁移，请使用",
   "playlistsImportM3uSynced": "这将自动从索引器文件夹导入 M3U 播放列表，并使其与原始 M3U 文件保持同步。如果您从其他应用访问/修改播放列表，请启用",
   "playlistsImportM3uSyncedAutoImport": "自动导入 M3U 播放列表",
+  "playlistsImportServer": "这将在刷新音乐库时自动从已配置的音乐网络服务器（Jellyfin、Subsonic/Navidrome 等）导入播放列表",
+  "playlistsImportServerAutoImport": "自动导入服务器播放列表",
   "pleaseEnterADifferentName": "该名称已存在 :(\n请尝试另一个独特名称",
   "pleaseEnterALink": "请输入链接",
   "pleaseEnterALinkSubtitle": "嗯…这是 YouTube 链接吗？",
@@ -1043,6 +1054,7 @@
   "reIndex": "重新索引",
   "reIndexSubtitle": "重建您的音乐库",
   "reIndexWarning": "此过程可能需要一段时间，具体取决于您的库大小。\n\n仍然存在的专辑封面不会被重新索引",
+  "readOnlyPlaylist": "只读播放列表",
   "reason": "原因",
   "receive": "接收",
   "recentActions": "最近操作",
@@ -1081,7 +1093,7 @@
   "replaceAllListensWithAnotherTrack": "使用另一首曲目替换该曲目所有聆听记录",
   "replies": "回复",
   "reply": "回复",
-  "requiresClearingImageCacheAndReIndexing": "需要清除图像缓存并重新索引",
+  "requiresClearingImageCacheAndReIndexing": "需要清除图片缓存并重新索引",
   "rescanVideos": "重新扫描视频",
   "resetBrightness": "重置亮度",
   "resetToDefault": "设置",
@@ -1202,13 +1214,15 @@
   "startServerToLetOtherDevicesConnectToThisDevice": "启动服务器以允许其他设备连接到此设备",
   "startsWith": "开头为",
   "stats": "统计数据",
-  "statsSubtitle": "以下是有关您的曲库的一些信息",
+  "statsSubtitle": "以下是关于您的音乐库的一些信息",
   "stop": "停止",
   "stopAfterThisTrack": "此曲目结束之后停止播放",
   "stopAfterThisVideo": "此视频结束后停止播放",
   "storagePermissionDenied": "没有权限",
   "storagePermissionDeniedSubtitle": "请允许访问才能执行此操作",
   "stretchLyricsDuration": "拉伸歌词时长",
+  "style": "风格",
+  "styles": "风格",
   "subdirectory": "子目录",
   "subscribe": "订阅",
   "subscribed": "已订阅",
@@ -1266,6 +1280,7 @@
   "trackPlayModeTrackAlbum": "曲目专辑",
   "trackPlayModeTrackArtist": "曲目的主音乐人",
   "trackPlayModeTrackGenre": "曲目的流派",
+  "trackPlayModeTrackStyle": "曲目的风格",
   "trackThumbnailSizeInList": "曲目缩略图的大小",
   "trackTileCustomization": "曲目图块定制",
   "trackTileItemsSeparator": "项目分隔符",
