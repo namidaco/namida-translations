@@ -102,6 +102,14 @@
       }
     }
   },
+  "@countStyles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countSubscribers": {
     "placeholders": {
       "count": {
@@ -223,6 +231,13 @@
   "@importLastFmHistoryGuide": {
     "placeholders": {
       "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importSpotifyHistoryGuide": {
+    "placeholders": {
+      "link": {
         "type": "String"
       }
     }
@@ -535,6 +550,7 @@
   "countGenres": "{count, plural, one{{count} genre} other{{count} genres}}",
   "countMonths": "{count, plural, one{{count} mois} other{{count} mois}}",
   "countPlaylists": "{count, plural, one{{count}playlist} other{{count} playlists}}",
+  "countStyles": "{count, plural, one{{count} Style} other{{count} Styles}}",
   "countSubscribers": "{count, plural, one{{count} abonné} other{{count} abonnés}}",
   "countSubscribersShort": "{count, plural, one{{count} abonné} other{{count} abonnés}}",
   "countTracks": "{count, plural, one{{count} titre} other{{count} titres}}",
@@ -777,6 +793,8 @@
   "importAll": "Tout importer",
   "importLastFmHistory": "Importer l'historique de LastFm",
   "importLastFmHistoryGuide": "1. Aller sur {lastfmCsvLink}\n\n2. Tapez votre nom d'utilisateur, récupérez et téléchargez le fichier csv.\n\n3. Choisissez le fichier dans l'écran suivant.",
+  "importSpotifyHistory": "Importer l'historique Spotify",
+  "importSpotifyHistoryGuide": "1. Rendez-vous sur {link}\n\n2. Cochez la case « Historique de streaming étendu »\n\n3. Demandez les données et téléchargez-les\n\n4. Choisissez des fichiers zip ou json sur l'écran suivant.",
   "importTimeRange": "Période d'importation",
   "importYoutubeHistory": "Importer l'historique YouTube",
   "importYoutubeHistoryGuide": "1. Aller sur {takeoutLink}\n\n2. Appuyez sur \"Formats multiples\" et à côté de \"Historique\" choisissez \"JSON\".\n\n3. Appuyez sur \"Toutes les données YouTube incluses\", Désélectionnez tout et choisissez uniquement l'historique.\n\n4. Créez l'Exportation, Téléchargez et Décompressez\n\n5. Choisissez \"watch-history.json\" dans l'écran suivant.",
@@ -1018,6 +1036,8 @@
   "playlistsImportM3uNative": "Cela importera les playlists M3U à utiliser uniquement par namida, à utiliser si vous effectuez une migration.",
   "playlistsImportM3uSynced": "Cela permet d'importer automatiquement les playlists M3U à partir des dossiers d'indexation et de les synchroniser avec le fichier M3U d'origine. à activer si vous accédez aux playlists ou les modifiez à partir d'autres applications.",
   "playlistsImportM3uSyncedAutoImport": "Importation automatique de playlists M3U",
+  "playlistsImportServer": "Cela importera automatiquement les playlists depuis les serveurs Web de musique configurés (Jellyfin, Subsonic/Navidrome, etc.) lors de l'actualisation de la bibliothèque",
+  "playlistsImportServerAutoImport": "Importer automatiquement les playlists du serveur",
   "pleaseEnterADifferentName": "Ce nom existe déjà :(\nveuillez essayer un autre nom fantaisiste.",
   "pleaseEnterALink": "Veuillez saisir un lien",
   "pleaseEnterALinkSubtitle": "umm... est-ce un lien youtube ?",
@@ -1043,6 +1063,7 @@
   "reIndex": "Ré-indexation",
   "reIndexSubtitle": "Reconstituez votre bibliothèque musicale à partir de zéro",
   "reIndexWarning": "Ce processus peut prendre un certain temps, en fonction de la taille de votre bibliothèque.\n\nLes œuvres ne seront pas réindexées tant qu'elles existeront.",
+  "readOnlyPlaylist": "Playlist en lecture seule",
   "reason": "Raison",
   "receive": "Recevoir",
   "recentActions": "Actions récentes",
@@ -1209,6 +1230,8 @@
   "storagePermissionDenied": "Permission refusée",
   "storagePermissionDeniedSubtitle": "Veuillez autoriser l'accès pour pouvoir effectuer cette action",
   "stretchLyricsDuration": "Durée des paroles extensibles",
+  "style": "Style",
+  "styles": "Styles",
   "subdirectory": "Sous-répertoire",
   "subscribe": "S'abonner",
   "subscribed": "Abonné",
@@ -1266,6 +1289,7 @@
   "trackPlayModeTrackAlbum": "Album de la piste",
   "trackPlayModeTrackArtist": "Artiste principal de la piste",
   "trackPlayModeTrackGenre": "Genre de la piste",
+  "trackPlayModeTrackStyle": "Style du morceau",
   "trackThumbnailSizeInList": "Taille de la vignette de la piste",
   "trackTileCustomization": "Personnalisation des tuiles de piste",
   "trackTileItemsSeparator": "Séparateur d'éléments",
