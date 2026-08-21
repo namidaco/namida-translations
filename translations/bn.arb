@@ -102,6 +102,14 @@
       }
     }
   },
+  "@countStyles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countSubscribers": {
     "placeholders": {
       "count": {
@@ -223,6 +231,13 @@
   "@importLastFmHistoryGuide": {
     "placeholders": {
       "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importSpotifyHistoryGuide": {
+    "placeholders": {
+      "link": {
         "type": "String"
       }
     }
@@ -535,6 +550,7 @@
   "countGenres": "{count, plural, one{{count}টি জনরা} other{{count}টি জনরা}}",
   "countMonths": "{count, plural, one{{count} মাস} other{{count} মাস}}",
   "countPlaylists": "{count, plural, one{{count}টি প্লেলিস্ট} other{{count}টি প্লেলিস্ট}}",
+  "countStyles": "{count, plural, one{{count} টি স্টাইল} other{{count} টি স্টাইল}}",
   "countSubscribers": "{count, plural, one{{count} সাবস্ক্রাইবার} other{{count} সাবস্ক্রাইবার}}",
   "countSubscribersShort": "{count, plural, one{{count} সাবস্ক্রাইবার} other{{count} সাবস্ক্রাইবার}}",
   "countTracks": "{count, plural, one{{count}টি ট্র্যাক} other{{count}টি ট্র্যাক}}",
@@ -777,6 +793,8 @@
   "importAll": "সব ইম্পোর্ট করুন",
   "importLastFmHistory": "Last.fm ইতিহাস ইম্পোর্ট করুন",
   "importLastFmHistoryGuide": "1. {lastfmCsvLink} -এ যান।\n\n2. আপনার ইউজারনেম লিখুন, তথ্যগুলো সংগ্রহ করুন এবং সিএসভি (csv) ফাইলটি ডাউনলোড করুন।\n\n3. পরবর্তী স্ক্রিন থেকে ফাইলটি নির্বাচন করুন।",
+  "importSpotifyHistory": "Spotify হিস্ট্রি ইমপোর্ট করুন",
+  "importSpotifyHistoryGuide": "১. {link}-এ যান\n\n২. \"Extended streaming history\" অপশনটি সিলেক্ট করুন\n\n৩. Request Data & Download-এ ক্লিক করুন\n\n৪. পরবর্তী স্ক্রিন থেকে zip অথবা json ফাইল বাছাই করুন।",
   "importTimeRange": "সময়সীমা ইমপোর্ট করুন",
   "importYoutubeHistory": "YouTube ইতিহাস ইম্পোর্ট করুন",
   "importYoutubeHistoryGuide": "1. {takeoutLink} -এ যান।\n\n2. \"Multiple Formats\" -এ ক্লিক করুন এবং \"History\"-এর পাশে \"JSON\" অপশনটি বেছে নিন।\n\n3. \"All Youtube data included\" -এ ক্লিক করে সব ডি-সিলেক্ট (Deselect) করুন এবং শুধু \"history\" সিলেক্ট করুন।\n\n4. এক্সপোর্ট তৈরি করে ফাইলটি ডাউনলোড এবং আনজিপ (Unzip) করুন।\n\n5. পরবর্তী স্ক্রিন থেকে \"watch-history.json\" ফাইলটি বেছে নিন।",
@@ -1018,6 +1036,8 @@
   "playlistsImportM3uNative": "এটি শুধুমাত্র Namida-তে ব্যবহারের জন্য M3U প্লেলিস্ট ইম্পোর্ট করবে। মাইগ্রেট করলে এটি ব্যবহার করুন",
   "playlistsImportM3uSynced": "এটি স্বয়ংক্রিয়ভাবে ইনডেক্সার ফোল্ডার থেকে M3U প্লেলিস্ট ইম্পোর্ট করবে এবং মূল M3U ফাইলের সাথে সিঙ্ক রাখবে। আপনি যদি অন্যান্য অ্যাপ থেকে প্লেলিস্ট অ্যাক্সেস/পরিবর্তন করেন তবে সক্রিয় করুন",
   "playlistsImportM3uSyncedAutoImport": "স্বয়ংক্রিয়ভাবে M3U প্লেলিস্ট ইম্পোর্ট করুন",
+  "playlistsImportServer": "লাইব্রেরি রিফ্রেশ করার সময় কনফিগার করা মিউজিক ওয়েব সার্ভার (Jellyfin, Subsonic/Navidrome ইত্যাদি) থেকে প্লেলিস্ট স্বয়ংক্রিয়ভাবে ইমপোর্ট হয়ে যাবে",
+  "playlistsImportServerAutoImport": "সার্ভার প্লেলিস্ট স্বয়ংক্রিয়ভাবে ইমপোর্ট করুন",
   "pleaseEnterADifferentName": "এই নামটি ইতিমধ্যে বিদ্যমান\nদয়া করে অন্য একটি নাম চেষ্টা করুন",
   "pleaseEnterALink": "দয়া করে একটি লিঙ্ক দিন",
   "pleaseEnterALinkSubtitle": "উম্ম.. এটি কি একটি ইউটিউব লিঙ্ক?",
@@ -1043,6 +1063,7 @@
   "reIndex": "রি-ইনডেক্স",
   "reIndexSubtitle": "আপনার মিউজিক লাইব্রেরি শুরু থেকে নতুন করে সাজান",
   "reIndexWarning": "এই প্রক্রিয়াটি সম্পন্ন হতে কিছুটা সময় নিতে পারে, যা আপনার লাইব্রেরির আকারের উপর নির্ভর করবে।\n\nযতক্ষণ আর্টওয়ার্ক বিদ্যমান ততক্ষণ সেগুলো পুনঃইনডেক্স করা হবে না",
+  "readOnlyPlaylist": "রিড-অনলি প্লেলিস্ট",
   "reason": "কারণ",
   "receive": "গ্রহণ করুন",
   "recentActions": "সাম্প্রতিক কার্যক্রম",
@@ -1209,6 +1230,8 @@
   "storagePermissionDenied": "অনুমতি অস্বীকৃত",
   "storagePermissionDeniedSubtitle": "এই ক্রিয়া সম্পাদন করতে দয়া করে অ্যাক্সেস অনুমতি দিন",
   "stretchLyricsDuration": "লিরিক্সের সময়কাল প্রসারিত করুন",
+  "style": "স্টাইল",
+  "styles": "স্টাইলসমূহ",
   "subdirectory": "সাবডিরেক্টরি",
   "subscribe": "সাবস্ক্রাইব",
   "subscribed": "সাবস্ক্রাইবকৃত",
@@ -1266,6 +1289,7 @@
   "trackPlayModeTrackAlbum": "ট্র্যাকের অ্যালবাম",
   "trackPlayModeTrackArtist": "ট্র্যাকের প্রধান শিল্পী",
   "trackPlayModeTrackGenre": "ট্র্যাকের জনরা",
+  "trackPlayModeTrackStyle": "ট্র্যাকের স্টাইল",
   "trackThumbnailSizeInList": "ট্র্যাক থাম্বনেইলের আকার",
   "trackTileCustomization": "ট্র্যাক টাইল কাস্টমাইজেশন",
   "trackTileItemsSeparator": "আইটেম বিভাজক",
