@@ -235,6 +235,13 @@
       }
     }
   },
+  "@importListenBrainzHistoryGuide": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -796,6 +803,7 @@
   "importListenBrainzHistory": "Import ListenBrainz History",
   "importSpotifyHistory": "Import Spotify History",
   "importSpotifyHistoryGuide": "1. Go to {link}\n\n2. Check \"Extended streaming history\"\n\n3. Request Data & Download\n\n4. Choose zip or json files from the next screen.",
+  "importListenBrainzHistoryGuide": "1. Go to {link}\n\n2. Request Data & Download\n\n3. Choose zip or json files from the next screen.",
   "importTimeRange": "Import time range",
   "importYoutubeHistory": "Import Youtube History",
   "importYoutubeHistoryGuide": "1. Go to {takeoutLink}\n\n2. Press \"Multiple Formats\" and beside \"History\" choose \"JSON\".\n\n3. Press \"All Youtube data included\", Deselect All and choose history only.\n\n4. Create Export, Download & Unzip.\n\n5. Choose \"watch-history.json\" from the next screen.",
