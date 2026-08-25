@@ -793,6 +793,7 @@
   "importAll": "Import all",
   "importLastFmHistory": "Import LastFm History",
   "importLastFmHistoryGuide": "1. Go to {lastfmCsvLink}\n\n2. Type your username, fetch and download csv file.\n\n3. Choose the file from the next screen.",
+  "importListenBrainzHistory": "Import ListenBrainz History",
   "importSpotifyHistory": "Import Spotify History",
   "importSpotifyHistoryGuide": "1. Go to {link}\n\n2. Check \"Extended streaming history\"\n\n3. Request Data & Download\n\n4. Choose zip or json files from the next screen.",
   "importTimeRange": "Import time range",
