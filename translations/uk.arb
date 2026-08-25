@@ -793,6 +793,7 @@
   "importAll": "Імпортувати все",
   "importLastFmHistory": "Імпорт історії LastFm",
   "importLastFmHistoryGuide": "1. Перейдіть на сторінку {lastfmCsvLink}\n\n2. Уведіть своє ім’я користувача, отримайте та завантажте файл CSV.\n\n3. Оберіть файл на наступному екрані.",
+  "importListenBrainzHistory": "Імпорт історії ListenBrainz",
   "importSpotifyHistory": "Імпорт історії Spotify",
   "importSpotifyHistoryGuide": "1. Перейдіть за посиланням {link}\n\n2. Поставте позначку «Розширена історія потокового передавання».\n\n3. Запитайте дані та завантажте їх.\n\n4. На наступному екрані виберіть формат файлів ZIP або JSON.",
   "importTimeRange": "Імпортувати діапазон часу",
