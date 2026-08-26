@@ -235,6 +235,13 @@
       }
     }
   },
+  "@importListenBrainzHistoryGuide": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -793,6 +800,8 @@
   "importAll": "Tout importer",
   "importLastFmHistory": "Importer l'historique de LastFm",
   "importLastFmHistoryGuide": "1. Aller sur {lastfmCsvLink}\n\n2. Tapez votre nom d'utilisateur, récupérez et téléchargez le fichier csv.\n\n3. Choisissez le fichier dans l'écran suivant.",
+  "importListenBrainzHistory": "Importer l'historique de ListenBrainz",
+  "importListenBrainzHistoryGuide": "1. Rendez-vous sur {link}\n\n2. Demandez les données et téléchargez-les\n\n3. Choisissez des fichiers zip ou json sur l'écran suivant.",
   "importSpotifyHistory": "Importer l'historique Spotify",
   "importSpotifyHistoryGuide": "1. Rendez-vous sur {link}\n\n2. Cochez la case « Historique de streaming étendu »\n\n3. Demandez les données et téléchargez-les\n\n4. Choisissez des fichiers zip ou json sur l'écran suivant.",
   "importTimeRange": "Période d'importation",
