@@ -235,6 +235,13 @@
       }
     }
   },
+  "@importListenBrainzHistoryGuide": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -793,6 +800,8 @@
   "importAll": "全部导入",
   "importLastFmHistory": "导入 Last.Fm 历史记录",
   "importLastFmHistoryGuide": "1. 转到 {lastfmCsvLink}\n\n2. 输入您的用户名，获取并下载 csv 文件。\n\n3. 从下一个屏幕中选择文件。",
+  "importListenBrainzHistory": "导入 ListenBrainz 历史记录",
+  "importListenBrainzHistoryGuide": "1. 转到 {link}\n\n2. 请求数据并下载\n\n3. 在下一个屏幕中选择 zip 或 json 文件。",
   "importSpotifyHistory": "导入 Spotify 历史记录",
   "importSpotifyHistoryGuide": "1. 转到 {link}\n\n2. 勾选“Extended streaming history”\n\n3. 请求数据并下载\n\n4. 在下一个屏幕中选择 zip 或 json 文件。",
   "importTimeRange": "导入时间范围",
