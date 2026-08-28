@@ -235,6 +235,13 @@
       }
     }
   },
+  "@importListenBrainzHistoryGuide": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -794,6 +801,7 @@
   "importLastFmHistory": "Importar historial de LastFm",
   "importLastFmHistoryGuide": "1. Ve a {lastfmCsvLink}\n\n2. Introduce tu nombre de usuario, recupera y descarga el archivo csv.\n\n3. Selecciona el archivo en la siguiente pantalla.",
   "importListenBrainzHistory": "Importar historial de ListenBrainz",
+  "importListenBrainzHistoryGuide": "1. Ve a {link}\n\n2. Solicitar datos y descargar\n\n3. Elige los archivos zip o json en la siguiente pantalla.",
   "importSpotifyHistory": "Importar historial de Spotify",
   "importSpotifyHistoryGuide": "1. Ve a {link}\n\n2. Marca \"Historial de reproducción extendido\"\n\n3. Solicita los datos y descárgalos\n\n4. Elige los archivos zip o json en la siguiente pantalla.",
   "importTimeRange": "Importar un rango de tiempo",
