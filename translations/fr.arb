@@ -1206,6 +1206,8 @@
   "similarDiscoverDateSubtitle": "Générer des pistes qui ont été découvertes à peu près au même moment que {currentTrack}",
   "similarTimeRange": "Plage de temps similaire",
   "similarTimeRangeSubtitle": "Générer les pistes que vous avez écoutées à peu près au même moment que {currentTrack}",
+  "simpleLyricsLine": "Paroles simples",
+  "simpleLyricsLineSubtitle": "Afficher la ligne actuelle des paroles sous l'illustration",
   "single": "Seul",
   "singles": "Singles",
   "size": "Taille",
