@@ -1206,6 +1206,8 @@
   "similarDiscoverDateSubtitle": "Згенерувати треки, виявлені приблизно в той самий час, що й {currentTrack}",
   "similarTimeRange": "Схожий часовий діапазон",
   "similarTimeRangeSubtitle": "Згенерувати треки, прослухані приблизно в той самий час, що й {currentTrack}",
+  "simpleLyricsLine": "Простий рядок тексту",
+  "simpleLyricsLineSubtitle": "Відображати поточний рядок тексту пісні під обкладинкою",
   "single": "Сингл",
   "singles": "Сингли",
   "size": "Розмір",
