@@ -913,6 +913,7 @@
   "minTrackDurationToRestoreLastPosition": "Мінімальна тривалість треку для продовження відтворення з попереднього місця",
   "minValueCantBeMoreThanMax": "Мінімальне значення не може бути більше максимального",
   "minValueToCountTrackListen": "Вважати, що трек прослуханий через: ",
+  "miniLyricsWindow": "Мінівікно з текстом",
   "minimizedMiniplayer": "Мінімізований мініплеєр",
   "minimum": "Мінімум",
   "minimumOneFolderSubtitle": "Повинна бути хоча б одна тека. Додайте ще теки, якщо хочете видалити цю",
