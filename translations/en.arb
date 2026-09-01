@@ -913,6 +913,7 @@
   "minTrackDurationToRestoreLastPosition": "Minimum track duration to restore last played position",
   "minValueCantBeMoreThanMax": "Minimum value can't be more than the maximum",
   "minValueToCountTrackListen": "Count a listen after: ",
+  "miniLyricsWindow": "Mini lyrics window",
   "minimizedMiniplayer": "Minimized Miniplayer",
   "minimum": "Minimum",
   "minimumOneFolderSubtitle": "There should be at least 1 folder, add more folders if you want to remove this one",
