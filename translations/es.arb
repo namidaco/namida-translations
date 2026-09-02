@@ -913,7 +913,7 @@
   "minTrackDurationToRestoreLastPosition": "Duración mínima de pista para restaurar la última posición reproducida",
   "minValueCantBeMoreThanMax": "El valor mínimo no puede ser más que el máximo",
   "minValueToCountTrackListen": "Contar una reproducción después: ",
-  "miniLyricsWindow": "Mini reproductor con letras",
+  "miniLyricsWindow": "Ventana con miniletras",
   "minimizedMiniplayer": "Mini reproductor minimizado",
   "minimum": "Mínimo",
   "minimumOneFolderSubtitle": "Deben ser al menos una carpeta, añade más carpetas si quieres eliminar esta",
