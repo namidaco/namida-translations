@@ -235,6 +235,13 @@
       }
     }
   },
+  "@importListenBrainzHistoryGuide": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -773,7 +780,7 @@
   "highMatches": "সর্বোচ্চ মিল",
   "highPerformance": "সর্বোচ্চ কার্যক্ষমতা",
   "highlight": "হাইলাইট",
-  "history": "ইতিহাস",
+  "history": "হিস্ট্রি",
   "historyImportMissingEntriesNote": "এই এন্ট্রিগুলো লাইব্রেরিতে খুঁজে পাওয়া যায়নি। যদি নিশ্চিত হন যে এগুলো বিদ্যমান, তবে দয়া করে ম্যানুয়ালি যোগ করুন",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?} other{{listensCount} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?}}",
   "home": "হোম",
@@ -791,12 +798,14 @@
   "immersiveModeSubtitle": "মিনিপ্লেয়ার প্রসারিত থাকাকালীন স্ট্যাটাস এবং নেভিগেশন বার লুকান",
   "import": "ইম্পোর্ট",
   "importAll": "সব ইম্পোর্ট করুন",
-  "importLastFmHistory": "Last.fm ইতিহাস ইম্পোর্ট করুন",
+  "importLastFmHistory": "Last.fm হিস্ট্রি ইম্পোর্ট করুন",
   "importLastFmHistoryGuide": "1. {lastfmCsvLink} -এ যান।\n\n2. আপনার ইউজারনেম লিখুন, তথ্যগুলো সংগ্রহ করুন এবং সিএসভি (csv) ফাইলটি ডাউনলোড করুন।\n\n3. পরবর্তী স্ক্রিন থেকে ফাইলটি নির্বাচন করুন।",
+  "importListenBrainzHistory": "ListenBrainz হিস্ট্রি ইম্পোর্ট করুন",
+  "importListenBrainzHistoryGuide": "১. {link}-এ যান\n\n২. Request Data & Download অপশনে ক্লিক করুন\n\n৩. পরবর্তী স্ক্রিন থেকে zip বা json ফাইল নির্বাচন করুন।",
   "importSpotifyHistory": "Spotify হিস্ট্রি ইমপোর্ট করুন",
   "importSpotifyHistoryGuide": "১. {link}-এ যান\n\n২. \"Extended streaming history\" অপশনটি সিলেক্ট করুন\n\n৩. Request Data & Download-এ ক্লিক করুন\n\n৪. পরবর্তী স্ক্রিন থেকে zip অথবা json ফাইল বাছাই করুন।",
   "importTimeRange": "সময়সীমা ইমপোর্ট করুন",
-  "importYoutubeHistory": "YouTube ইতিহাস ইম্পোর্ট করুন",
+  "importYoutubeHistory": "YouTube হিস্ট্রি ইম্পোর্ট করুন",
   "importYoutubeHistoryGuide": "1. {takeoutLink} -এ যান।\n\n2. \"Multiple Formats\" -এ ক্লিক করুন এবং \"History\"-এর পাশে \"JSON\" অপশনটি বেছে নিন।\n\n3. \"All Youtube data included\" -এ ক্লিক করে সব ডি-সিলেক্ট (Deselect) করুন এবং শুধু \"history\" সিলেক্ট করুন।\n\n4. এক্সপোর্ট তৈরি করে ফাইলটি ডাউনলোড এবং আনজিপ (Unzip) করুন।\n\n5. পরবর্তী স্ক্রিন থেকে \"watch-history.json\" ফাইলটি বেছে নিন।",
   "importedNChannelsSuccessfully": "{number, plural, one{{number}টি চ্যানেল সফলভাবে ইম্পোর্ট করা হয়েছে} other{{number}টি চ্যানেল সফলভাবে ইম্পোর্ট করা হয়েছে}}",
   "importedNPlaylistsSuccessfully": "{number, plural, one{সফলভাবে {numberText}টি প্লেলিস্ট ইম্পোর্ট করা হয়েছে} other{সফলভাবে {numberText}টি প্লেলিস্ট ইম্পোর্ট করা হয়েছে}}",
@@ -904,6 +913,7 @@
   "minTrackDurationToRestoreLastPosition": "শেষবার শ্রবণের অবস্থান পুনরুদ্ধার করতে সর্বনিম্ন ট্র্যাক সময়কাল",
   "minValueCantBeMoreThanMax": "সর্বনিম্ন মান সর্বোচ্চ মানের চেয়ে বেশি হতে পারে না",
   "minValueToCountTrackListen": "কতটুকু শুনলে শ্রবণ হিসেবে গণনা করা হবে: ",
+  "miniLyricsWindow": "মিনি লিরিক্স উইন্ডো",
   "minimizedMiniplayer": "সংকুচিত মিনিপ্লেয়ার",
   "minimum": "সর্বনিম্ন",
   "minimumOneFolderSubtitle": "কমপক্ষে একটি ফোল্ডার থাকা উচিত, আপনি যদি এটি সরাতে চান তবে আরও ফোল্ডার যোগ করুন",
@@ -1029,7 +1039,7 @@
   "playLast": "শেষে শুনুন",
   "playNext": "পরে শুনুন",
   "playbackSetting": "প্লেব্যাক",
-  "playbackSettingSubtitle": "‘অডিও’ বাটনে লং-প্রেস করে সরাসরি এই সেটিংস অ্যাক্সেস করুন",
+  "playbackSettingSubtitle": "অডিও বাটনে লং-প্রেস করে সরাসরি এই সেটিংস অ্যাক্সেস করুন",
   "playedPercentage": "শ্রবণের শতাংশ",
   "playlist": "প্লেলিস্ট",
   "playlists": "প্লেলিস্ট",
@@ -1088,7 +1098,7 @@
   "removeFromLibrary": "লাইব্রেরি থেকে সরান",
   "removeFromPlaylist": "প্লেলিস্ট থেকে সরান",
   "removeQueue": "কিউ সরান",
-  "removeSourceFromHistory": "ইতিহাস থেকে উৎস সরান",
+  "removeSourceFromHistory": "হিস্ট্রি থেকে উৎস সরান",
   "removeWhitespaces": "হোয়াইটস্পেস সরান",
   "removed": "সরানো হয়েছে",
   "rename": "নাম পরিবর্তন করুন",
@@ -1197,6 +1207,8 @@
   "similarDiscoverDateSubtitle": "{currentTrack} এর কাছাকাছি সময়ে আবিষ্কৃত ট্র্যাকগুলো যোগ করুন",
   "similarTimeRange": "একই সময়সীমা",
   "similarTimeRangeSubtitle": "{currentTrack} এর কাছাকাছি সময়ে শোনা ট্র্যাকগুলো যোগ করুন",
+  "simpleLyricsLine": "সাধারণ লিরিক্স লাইন",
+  "simpleLyricsLineSubtitle": "আর্টওয়ার্কের নিচে চলমান লিরিক্স লাইন প্রদর্শন করুন",
   "single": "একক",
   "singles": "একক গান",
   "size": "সাইজ",
