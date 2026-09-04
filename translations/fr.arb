@@ -913,6 +913,7 @@
   "minTrackDurationToRestoreLastPosition": "Durée minimale de la piste pour rétablir la dernière position jouée",
   "minValueCantBeMoreThanMax": "La valeur minimale ne peut être supérieure à la valeur maximale",
   "minValueToCountTrackListen": "Compter une écoute après : ",
+  "miniLyricsWindow": "Mini-fenêtre de paroles",
   "minimizedMiniplayer": "Minimisation du mini-lecteur",
   "minimum": "Minimum",
   "minimumOneFolderSubtitle": "Il doit y avoir au moins un dossier, ajoutez d'autres dossiers si vous souhaitez supprimer celui-ci.",
