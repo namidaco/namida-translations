@@ -1,5 +1,12 @@
 {
   "@@locale": "vi",
+  "@acceptConnectionFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@addMoreFromToQueue": {
     "placeholders": {
       "media": {
@@ -81,6 +88,13 @@
   "@importLastFmHistoryGuide": {
     "placeholders": {
       "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importSpotifyHistoryGuide": {
+    "placeholders": {
+      "link": {
         "type": "String"
       }
     }
@@ -221,6 +235,8 @@
     }
   },
   "about": "Thông tin",
+  "accept": "Chấp nhận",
+  "acceptConnectionFromName": "Chấp nhận kết nối từ {name}?",
   "active": "Hoạt động",
   "add": "Thêm",
   "addAccount": "Thêm tài khoản",
@@ -229,6 +245,7 @@
   "addAsANewPlaylist": "Thêm dưới dạng danh sách phát mới",
   "addAudioToLocalLibrary": "Thêm nhạc vào thư viện của máy",
   "addFolder": "Thêm thư mục",
+  "addGroup": "Thêm nhóm",
   "addLanguage": "Thêm ngôn ngữ",
   "addLanguageSubtitle": "Hỗ trợ dịch Namida sang ngôn ngữ của bạn",
   "addLrcFile": "Thêm tập tin LRC",
@@ -237,6 +254,7 @@
   "addMoreFromThisFolder": "Thêm nhiều hơn từ thư mục này vào hàng đợi",
   "addMoreFromToQueue": "Thêm nội dung khác từ {media} vào hàng đợi",
   "addOnlyMissing": "Chỉ thêm khi thiếu",
+  "addRule": "Thêm quy tắc",
   "addToFavourites": "Thêm vào mục ưa thích",
   "addToPlaylist": "Thêm vào danh sách phát",
   "addTracksAtTheBeginning": "Thêm những bài hát ở đầu",
@@ -439,10 +457,12 @@
   "enableReordering": "Sắp xếp lại",
   "enableSearchCleanup": "Xóa lịch sử tìm kiếm",
   "enableSearchCleanupSubtitle": "Tất cả các Biểu tượng và Dấu cách sẽ bị bỏ qua",
+  "enableSponsorblock": "Mở khóa Người đóng góp",
   "enableVideoPlayback": "Kích hoạt tính năng phát lại Video",
   "enterSymbol": "Xin vui lòng nhập một biểu tượng",
   "equalizer": "Bộ chỉnh cân bằng âm thanh",
   "error": "Lỗi",
+  "errorFetchingVideoList": "Không thể lấy danh sách phát",
   "errorPlayingTrack": "Lỗi khi phát bài hát",
   "excludedFodlers": "Loại trừ Thư mục",
   "exit": "Thoát ra",
@@ -461,11 +481,13 @@
   "extrasSubtitle": "Cài đặt bổ sung để cải thiện trải nghiệm",
   "failed": "Thất bại",
   "failedEdits": "Chỉnh sửa thất bại",
+  "favourite": "Yêu thích",
   "favourites": "Yêu Thích",
   "fetching": "Đang tải",
   "fetchingOfAllVideos": "Tìm nạp tất cả video",
   "file": "Tập tin",
   "fileAlreadyExists": "Tập tin đã tồn tại",
+  "fileBasedServerWarning": "Tập tin sẽ được tải xuống thiết bị của bạn, hãy đảm bảo kết nối luôn ổn định.\nNên sử dụng Wi-fi để tránh quá tải mạng dữ liệu.",
   "fileName": "Tên tập tin",
   "fileNameWoExt": "Tên tệp không có phần mở rộng",
   "filenameShouldntStartWith": "Tên tệp không được bắt đầu bằng",
@@ -491,6 +513,7 @@
   "forceSquaredThumbnailNote": "Kích thước hình thu nhỏ & Chiều cao của ô KHÔNG bằng nhau, Giao diện hình vuông sẽ không như mong đợi, Bạn có muốn làm cho chúng bằng nhau không?",
   "forceSquaredTrackThumbnail": "Buộc hình thu nhỏ của bài hát phải vuông góc",
   "forceStopColorPaletteGeneration": "Buộc ngừng trích xuất bảng màu ? bạn vẫn có thể tiếp tục nó sau",
+  "forceUseGlobalConfig": "Buộc sử dụng cấu hình chung",
   "format": "Định dạng",
   "fullscreen": "Toàn màn hình",
   "generate": "Tạo ra",
@@ -531,6 +554,7 @@
   "importAll": "Nhập tất cả",
   "importLastFmHistory": "Nhập lịch sử LastFM",
   "importLastFmHistoryGuide": "1. Đi tới {lastfmCsvLink}\n\n2. Nhập tên tài khoản, tìm nạp và tải xuống tệp csv.\n\n3. Chọn tệp tin từ màn hình tiếp theo.",
+  "importSpotifyHistoryGuide": "1. Truy cập {link}\n\n2. Chọn \"Lịch sử phát trực tuyến mở rộng\"\n\n3. Yêu cầu dữ liệu & Tải xuống\n\n4. Chọn tệp zip hoặc json từ màn hình tiếp theo.",
   "importTimeRange": "Nhập phạm vi thời gian",
   "importYoutubeHistory": "Nhập lịch sử Youtube",
   "importYoutubeHistoryGuide": "1. Đi tới {takeoutLink}\n\n2. Nhấn \"Nhiều định dạng\" và bên cạnh \"Lịch sử\" chọn \"JSON\".\n\n3. nhấn \"Bao gồm tất cả dữ liệu trên Youtube\", Bỏ chọn Tất cả và chỉ chọn lịch sử.\n\n4. Tạo bản xuất, Tải xuống và giải nén.\n\n5. Chọn \"watch-history.json\" từ màn hình tiếp theo.",
@@ -559,6 +583,7 @@
   "keepScreenAwakeWhen": "Chỉ để màn hình sáng khi",
   "killPlayerAfterDismissingApp": "Tắt trình phát sau khi ứng dụng bị tắt",
   "language": "Ngôn ngữ",
+  "lastListen": "Nghe lần cuối",
   "libraryTabs": "Trang Thư viện",
   "libraryTabsReorder": "Bạn có thể sắp xếp lại các trang khi đã kích hoạt..",
   "like": "Thích",
@@ -569,6 +594,7 @@
   "loadingFile": "Đang tải tập tin",
   "local": "Cục bộ",
   "localVideoMatching": "Video cục bộ trùng khớp",
+  "longPressAction": "Nhấn giữ",
   "longPressTheLyricsToEnterFullscreen": "Ấn giữ lời bài hát để vào chế độ toàn màn hình",
   "lostMemories": "Ký ức đã mất",
   "lostMemoriesSubtitle": "{number, plural, other{Khoảng thời gian này, {number} năm trước}}",
@@ -750,6 +776,7 @@
   "reIndex": "Xây dựng lại chỉ mục",
   "reIndexSubtitle": "Xây dựng lại thư viện nhạc của bạn từ đầu",
   "reIndexWarning": "Quá trình này có thể mất một lúc, tùy thuộc vào kích thước thư viện của bạn.\n\nCác bìa sẽ không được lập chỉ mục lại miễn là chúng vẫn tồn tại",
+  "recentActions": "Hành động hiện tại",
   "recentAlbums": "Album gần đây",
   "recentArtists": "Nghệ sĩ gần đây",
   "recentListens": "Lượt nghe gần đây",
@@ -795,8 +822,10 @@
   "restoredBackupSuccessfullySub": "Tập tin sao lưu đã được khôi phục thành công",
   "resume": "Tiếp tục",
   "resumeIfWasInterrupted": "Tiếp tục nếu bị tạm dừng do gián đoạn",
+  "resumeIfWasPausedByDeviceDisconnect": "Tiếp tục nếu bị tạm dừng do thiết bị ngắt kết nối",
   "resumeIfWasPausedByVolume": "Tiếp tục nếu bị tạm dừng bởi âm lượng",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, other{Tiếp tục nếu bị tạm dừng dưới {number} phút}}",
+  "returnYoutubeDislike": "Trả lại nút không thích video",
   "reverseOrder": "Đảo ngược",
   "ringtone": "Nhạc chuông",
   "sameDirectoryOnly": "Chỉ cùng một thư mục",
