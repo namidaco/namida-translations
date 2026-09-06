@@ -784,6 +784,7 @@
   "historyImportMissingEntriesNote": "Estas entradas no pudieron ser encontradas en la biblioteca, si crees que existen, porfavor considera añadirlas manualmente",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} reproducciones de {oldTrackInfo} se sustituirán por {newTrackInfo}, ¿confirmar?} other{{listensCount} reproducción de {oldTrackInfo} se sustituirá por {newTrackInfo}, ¿confirmar?}}",
   "home": "Inicio",
+  "homeScreenWidget": "Widget de la pantalla de inicio",
   "hook": "Hook («Gancho»)",
   "host": "Host",
   "hourFormat12": "Formato de 12 horas",
