@@ -784,6 +784,7 @@
   "historyImportMissingEntriesNote": "Не вдалося знайти такі записи в бібліотеці. Якщо Ви вважаєте, що вони існують, будь ласка, додайте їх вручну",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} прослуховування {oldTrackInfo}} few{{listensCount} прослуховування {oldTrackInfo}} other{{listensCount} прослуховувань {oldTrackInfo}}} буде змінено на {newTrackInfo}. Продовжити?",
   "home": "Головна",
+  "homeScreenWidget": "Віджет на головному екрані",
   "hook": "Захопливий початок",
   "host": "Хост",
   "hourFormat12": "12-годинний формат",
