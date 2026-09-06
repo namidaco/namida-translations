@@ -784,6 +784,7 @@
   "historyImportMissingEntriesNote": "These entries couldn't be found inside library, if you believe they exist, please consider adding them manually",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} listen for {oldTrackInfo} will be replaced with {newTrackInfo}, confirm?} other{{listensCount} listens for {oldTrackInfo} will be replaced with {newTrackInfo}, confirm?}}",
   "home": "Home",
+  "homeScreenWidget": "Home Screen Widget",
   "hook": "Hook",
   "host": "Host",
   "hourFormat12": "12 Hour Format",
