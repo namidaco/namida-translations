@@ -784,6 +784,7 @@
   "historyImportMissingEntriesNote": "Ces entrées sont introuvables dans la bibliothèque. Si vous pensez qu'elles existent, veuillez les ajouter manuellement.",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} écoutes {oldTrackInfo} sera remplacé par {newTrackInfo}, confirmer ?}}",
   "home": "Accueil",
+  "homeScreenWidget": "Widget d'écran d'accueil",
   "hook": "Crochet",
   "host": "Hôte",
   "hourFormat12": "Format 12 heures",
