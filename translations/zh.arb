@@ -784,6 +784,7 @@
   "historyImportMissingEntriesNote": "在媒体库中找不到这些条目，如果您认为它们存在，请考虑手动添加它们",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} 次听过的 {oldTrackInfo} 将被 {newTrackInfo} 替换，确认吗？} other{{listensCount} 次听过的 {oldTrackInfo} 将被 {newTrackInfo} 替换，确认吗？}}",
   "home": "首页",
+  "homeScreenWidget": "主屏幕微件",
   "hook": "开场钩子",
   "host": "主机",
   "hourFormat12": "12 小时制",
