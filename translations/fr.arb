@@ -391,9 +391,24 @@
       }
     }
   },
+  "@yearInSongs": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@yourCurrentMembershipIs": {
     "placeholders": {
       "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourYear": {
+    "placeholders": {
+      "year": {
         "type": "String"
       }
     }
@@ -490,6 +505,7 @@
   "block": "Bloquer",
   "blockedDevices": "Appareils bloqués",
   "borderRadiusMultiplier": "Multiplicateur de rayon de bordure",
+  "busiestDay": "La journée la plus chargée",
   "cache": "Cache",
   "cancel": "Annuler",
   "canceled": "Annulé",
@@ -498,6 +514,7 @@
   "changelogSubtitle": "Découvrez les nouveautés et les corrections apportées à Namida",
   "channel": "Chaîne",
   "channels": "Chaînes",
+  "charts": "Classements",
   "check": "Vérifier",
   "checkForMore": "En savoir plus",
   "checkList": "Liste de contrôle",
@@ -522,6 +539,7 @@
   "colorPalettes": "Palettes de couleurs",
   "comment": "Commentaire",
   "comments": "Commentaires",
+  "completedAlbums": "Albums Complets",
   "composer": "Compositeur",
   "compress": "Compresser",
   "compressImages": "Images compressées",
@@ -618,6 +636,7 @@
   "discNumberTotal": "Disque total",
   "disconnect": "Déconnecter",
   "discover": "Découverte",
+  "discoveries": "Découvertes",
   "dislike": "Ne pas aimer",
   "dismissibleMiniplayer": "Mini-lecteur irrecevable",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "Afficher la position réelle au lieu de la différence lors de la recherche",
@@ -773,6 +792,7 @@
   "group": "Grouper",
   "groupArtworksByAlbum": "Regrouper les illustrations par album",
   "guide": "Guide",
+  "habits": "Habitudes",
   "hapticFeedback": "Retour Haptique",
   "heightOfAlbumTile": "Hauteur de la tuile de l'album",
   "heightOfTrackTile": "Hauteur de la tuile du titre",
@@ -849,6 +869,7 @@
   "keepScreenAwakeWhen": "Maintenir l'écran éveillé lorsque",
   "killPlayerAfterDismissingApp": "Tuer le lecteur après avoir quitté l'application",
   "language": "Langue",
+  "lastHour": "Dernière heure",
   "lastListen": "Dernière écoute",
   "lastPlayed": "Dernière lecture",
   "lastPlayedPosition": "Dernier endroit joué",
@@ -856,6 +877,7 @@
   "learnMore": "En savoir plus",
   "leftAction": "Action gauche",
   "legacyAuthentication": "Authentification héritée",
+  "libraryReach": "Portée de la bibliothèque",
   "libraryTabs": "Onglets de la bibliothèque",
   "libraryTabsReorder": "Vous pouvez réorganiser les onglets activés.",
   "license": "Licence",
@@ -864,6 +886,7 @@
   "liked": "Aimé(s)",
   "link": "Lien",
   "listOfFolders": "Liste des dossiers",
+  "listeningClock": "Horloge parlante",
   "loadAll": "Charger tout",
   "loadingFile": "Chargement du fichier",
   "local": "Local",
@@ -871,6 +894,8 @@
   "login": "Connexion",
   "longPressAction": "Action de pression prolongée",
   "longPressTheLyricsToEnterFullscreen": "Faites un appui long sur les paroles pour entrer en plein écran",
+  "longestSession": "La session la plus longue",
+  "longestStreak": "La plus longue série",
   "lossless": "Sans perte",
   "lostMemories": "Souvenirs perdus",
   "lostMemoriesSubtitle": "{number, plural, one{à cette époque, {number} an} other{à cette époque, {number} ans}}",
@@ -937,6 +962,7 @@
   "more": "Plus",
   "mostPlayed": "Les plus joués",
   "move": "Déplacé",
+  "movies": "Films",
   "multipleTracksTagsEditNote": "Vous êtes sur le point d'éditer ces pistes,\nLes champs non modifiés restent intacts.",
   "musicOfftopic": "Musique hors sujet",
   "name": "Nom",
@@ -982,11 +1008,13 @@
   "notifications": "Notifications",
   "number": "Nombre",
   "numberOfTracks": "Nombre de pistes",
+  "obsession": "Obsession",
   "ofLabel": "de",
   "offlineSearch": "Recherche hors ligne",
   "offset": "Décalage",
   "oldDirectory": "Ancien répertoire",
   "oldDirectoryStillHasTracks": "L'ancien répertoire a encore des traces, confirmez-vous ?",
+  "oldestFavorite": "Un grand classique",
   "oldestWatch": "La plus ancienne montre",
   "onDeviceConnect": "Connexion sur l'appareil",
   "onInterruption": "Sur l'interruption",
@@ -1085,12 +1113,14 @@
   "recentlyAdded": "Récemment ajouté",
   "reconnect": "Se reconnecter",
   "recordLabel": "Label d'enregistrement",
+  "rediscoveries": "Redécouvertes",
   "refresh": "Rafraîchir",
   "refreshLibrary": "Rafraîchir la bibliothèque",
   "refreshLibrarySubtitle": "Vérifier si de la musique a été ajoutée ou supprimée",
   "refreshOnStartup": "Actualiser au démarrage",
   "reject": "Refuser",
   "relatedVideos": "Vidéos associées",
+  "relevance": "Pertinence",
   "rememberAudioOnlyMode": "Se souvenir du mode audio uniquement",
   "remixer": "Remixer",
   "remove": "Retirer",
@@ -1110,6 +1140,7 @@
   "repeatModeAll": "Répétition de la file d'attente",
   "repeatModeNone": "Arrêt sur la dernière piste",
   "repeatModeOne": "Répéter la piste actuelle",
+  "repeatRate": "Taux de répétition",
   "replaceAllListensWithAnotherTrack": "Remplacer toutes les écoutes par une autre piste",
   "replies": "Réponses",
   "reply": "Répondre au commentaire",
@@ -1242,6 +1273,7 @@
   "stopAfterThisVideo": "Arrêter après cette vidéo",
   "storagePermissionDenied": "Permission refusée",
   "storagePermissionDeniedSubtitle": "Veuillez autoriser l'accès pour pouvoir effectuer cette action",
+  "streak": "Série",
   "stretchLyricsDuration": "Durée des paroles extensibles",
   "style": "Style",
   "styles": "Styles",
@@ -1274,10 +1306,14 @@
   "themeModeSystem": "Système",
   "themeSettings": "Theme",
   "themeSettingsSubtitle": "L'ambiance générale de votre lecteur",
+  "thisMonth": "Ce mois-ci",
   "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "Cette playlist a des filtres activés, veuillez les désactiver avant de réordonner.",
   "thisVideoIsLikelyDeletedOrSetToPrivate": "Cette vidéo a probablement été supprimée ou mise en privé.",
+  "thisWeek": "Cette semaine",
+  "thisYear": "Cette année",
   "thumbnails": "Vignettes",
   "title": "Titre",
+  "today": "Aujourd'hui",
   "top": "Haut",
   "topComments": "Top commentaires",
   "topCommentsSubtitle": "Afficher les commentaires en haut plutôt qu'en bas",
@@ -1309,6 +1345,7 @@
   "tracks": "Pistes",
   "tracksExcludedByNomedia": "Pistes exclues par .nomedia",
   "tracksInfo": "Informations sur les pistes",
+  "type": "Type",
   "unblock": "Débloquer",
   "underrated": "Sous-estimé",
   "undo": "Annuler",
@@ -1325,6 +1362,7 @@
   "updateDirectoryPath": "Mise à jour du chemin d'accès au répertoire",
   "updateMissingTracksOnly": "Mise à jour des pistes manquantes uniquement",
   "updating": "Mise à jour...",
+  "uploadDate": "Date de mise en ligne",
   "useCollapsedSettingTiles": "Utiliser des tuiles de réglage réduites",
   "useMediaStore": "Utiliser Media Store",
   "useMediaStoreSubtitle": "✓ le temps d'indexation instantané\nx le respect du temps .nomedia sera activé de force\nx certaines balises de métadonnées seront manquantes\nx l'intégration de youtube pour la bibliothèque locale ne fonctionnera pas",
@@ -1364,11 +1402,13 @@
   "wiredDevice": "Appareil filaire",
   "wirelessDevice": "Appareil sans fil",
   "year": "Année",
+  "yearInSongs": "{count, plural, one{Année en {count} Titre} other{Année en {count} Titres}}",
   "years": "Années",
   "yes": "oui",
   "youCanNowSendAndReceiveDataWithThisDevice": "Vous pouvez désormais envoyer et recevoir des données avec cet appareil",
   "yourCurrentMembershipIs": "Votre adhésion actuelle est {name}",
   "yourCustomOrderWillBeLost": "Votre commande personnalisée va être perdue, Êtes-vous sûr ?",
+  "yourYear": "Votre {year}",
   "youtube": "Youtube",
   "youtubeId": "Identifiant YouTube",
   "youtubeLink": "Lien Youtube",
