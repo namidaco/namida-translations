@@ -391,9 +391,24 @@
       }
     }
   },
+  "@yearInSongs": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@yourCurrentMembershipIs": {
     "placeholders": {
       "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourYear": {
+    "placeholders": {
+      "year": {
         "type": "String"
       }
     }
@@ -498,6 +513,7 @@
   "changelogSubtitle": "Переглянути, що нового додано/виправлено в Namida",
   "channel": "Канал",
   "channels": "Канали",
+  "charts": "Чарти",
   "check": "Перевірити",
   "checkForMore": "Детальніше",
   "checkList": "Контрольний список",
@@ -522,6 +538,7 @@
   "colorPalettes": "Кольорові палітри",
   "comment": "Коментар",
   "comments": "Коментарі",
+  "completedAlbums": "Завершені альбоми",
   "composer": "Композитор",
   "compress": "Стиснути",
   "compressImages": "Стиснути зображення",
@@ -987,6 +1004,7 @@
   "offset": "Зміщення звуку",
   "oldDirectory": "Старий каталог",
   "oldDirectoryStillHasTracks": "У старому каталозі все ще є треки. Продовжити?",
+  "oldestFavorite": "Найдавніше в обраному",
   "oldestWatch": "Переглянуті найдавніше",
   "onDeviceConnect": "При підключенні пристрою",
   "onInterruption": "При перериванні",
@@ -1110,6 +1128,7 @@
   "repeatModeAll": "Повторити всю чергу",
   "repeatModeNone": "Зупинитись на останньому треку",
   "repeatModeOne": "Повторити поточний трек",
+  "repeatRate": "Частота повторень",
   "replaceAllListensWithAnotherTrack": "Замінити всі прослухані іншим треком",
   "replies": "Відповіді",
   "reply": "Відповідь",
@@ -1274,10 +1293,14 @@
   "themeModeSystem": "Як у системі",
   "themeSettings": "Тема",
   "themeSettingsSubtitle": "Загальна атмосфера Вашого плеєра",
+  "thisMonth": "Цього місяця",
   "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "До цього плейлиста застосовується сортування, вимкніть його перед початком впорядкування.",
   "thisVideoIsLikelyDeletedOrSetToPrivate": "Це відео, ймовірно, видалено або позначено як приватне.",
+  "thisWeek": "Цього тижня",
+  "thisYear": "Цього року",
   "thumbnails": "Мініатюри",
   "title": "Назва",
+  "today": "Сьогодні",
   "top": "Найкращі",
   "topComments": "Коментарі зверху",
   "topCommentsSubtitle": "Відображати коментарі зверху, а не знизу",
@@ -1309,6 +1332,7 @@
   "tracks": "Треки",
   "tracksExcludedByNomedia": "Треки, виключені через .nomedia",
   "tracksInfo": "Інформація про треки",
+  "type": "Тип",
   "unblock": "Розблокувати",
   "underrated": "Недооцінене",
   "undo": "Скасувати",
@@ -1325,6 +1349,7 @@
   "updateDirectoryPath": "Оновити шлях до каталогу",
   "updateMissingTracksOnly": "Оновити тільки відсутні треки",
   "updating": "Оновлення",
+  "uploadDate": "Дата завантаження",
   "useCollapsedSettingTiles": "Використовувати згорнуті плитки налаштувань",
   "useMediaStore": "Використовувати сховище медіафайлів",
   "useMediaStoreSubtitle": "✓ моментальна індексація\nx дотримання .nomedia буде примусово ввімкнено\nx деякі теги метаданих будуть відсутні\nx інтеграція YouTube для локальної бібліотеки не буде працювати",
@@ -1364,11 +1389,13 @@
   "wiredDevice": "Підключення через кабель",
   "wirelessDevice": "Бездротове з’єднання",
   "year": "Рік",
+  "yearInSongs": "Рік у {count, plural, one{{count} пісні} few{{count} піснях} other{{count} піснях}}",
   "years": "років",
   "yes": "так",
   "youCanNowSendAndReceiveDataWithThisDevice": "Тепер Ви можете надсилати й отримувати дані за допомогою цього пристрою",
   "yourCurrentMembershipIs": "Наразі Ваша участь {name}",
   "yourCustomOrderWillBeLost": "Ваше впорядкування буде втрачено. Ви впевнені?",
+  "yourYear": "Ваш {year}",
   "youtube": "YouTube",
   "youtubeId": "YouTube ID",
   "youtubeLink": "Посилання YouTube",
