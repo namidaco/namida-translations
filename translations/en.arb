@@ -391,9 +391,24 @@
       }
     }
   },
+  "@yearInSongs": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@yourCurrentMembershipIs": {
     "placeholders": {
       "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourYear": {
+    "placeholders": {
+      "year": {
         "type": "String"
       }
     }
@@ -490,6 +505,7 @@
   "block": "Block",
   "blockedDevices": "Blocked Devices",
   "borderRadiusMultiplier": "Border Radius Multiplier",
+  "busiestDay": "Busiest Day",
   "cache": "Cache",
   "cancel": "Cancel",
   "canceled": "Canceled",
@@ -498,6 +514,7 @@
   "changelogSubtitle": "See what's newly added/fixed inside Namida",
   "channel": "Channel",
   "channels": "Channels",
+  "charts": "Charts",
   "check": "Check",
   "checkForMore": "Check for more",
   "checkList": "Check List",
@@ -522,6 +539,7 @@
   "colorPalettes": "Color Palettes",
   "comment": "Comment",
   "comments": "Comments",
+  "completedAlbums": "Completed Albums",
   "composer": "Composer",
   "compress": "Compress",
   "compressImages": "Compress Images",
@@ -618,6 +636,7 @@
   "discNumberTotal": "Disc Total",
   "disconnect": "Disconnect",
   "discover": "Discover",
+  "discoveries": "Discoveries",
   "dislike": "Dislike",
   "dismissibleMiniplayer": "Dismissible Miniplayer",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "Display actual position instead of difference while seeking",
@@ -773,6 +792,7 @@
   "group": "Group",
   "groupArtworksByAlbum": "Group Artworks by Album",
   "guide": "Guide",
+  "habits": "Habits",
   "hapticFeedback": "Haptic Feedback",
   "heightOfAlbumTile": "Height of Album Tile",
   "heightOfTrackTile": "Height of Track Tile",
@@ -849,6 +869,7 @@
   "keepScreenAwakeWhen": "Keep screen awake when",
   "killPlayerAfterDismissingApp": "Kill player after dismissing app",
   "language": "Language",
+  "lastHour": "Last hour",
   "lastListen": "Last Listen",
   "lastPlayed": "Last Played",
   "lastPlayedPosition": "Last Played Position",
@@ -856,6 +877,7 @@
   "learnMore": "Learn more",
   "leftAction": "Left Action",
   "legacyAuthentication": "Legacy Authentication",
+  "libraryReach": "Library Reach",
   "libraryTabs": "Library Tabs",
   "libraryTabsReorder": "You can reorder the activated tabs.",
   "license": "License",
@@ -864,6 +886,7 @@
   "liked": "Liked",
   "link": "Link",
   "listOfFolders": "List of Folders",
+  "listeningClock": "Listening Clock",
   "loadAll": "Load all",
   "loadingFile": "Loading File",
   "local": "Local",
@@ -871,6 +894,8 @@
   "login": "Login",
   "longPressAction": "Long-Press Action",
   "longPressTheLyricsToEnterFullscreen": "Long press the lyrics to enter fullscreen",
+  "longestSession": "Longest Session",
+  "longestStreak": "Longest Streak",
   "lossless": "Lossless",
   "lostMemories": "Lost Memories",
   "lostMemoriesSubtitle": "{number, plural, one{around this time, {number} year ago} other{around this time, {number} years ago}}",
@@ -937,6 +962,7 @@
   "more": "More",
   "mostPlayed": "Most Played",
   "move": "Move",
+  "movies": "Movies",
   "multipleTracksTagsEditNote": "You are about to edit these tracks,\nUnchanged fields remain untouched.",
   "musicOfftopic": "Music Offtopic",
   "name": "Name",
@@ -982,11 +1008,13 @@
   "notifications": "Notifications",
   "number": "Number",
   "numberOfTracks": "Number of Tracks",
+  "obsession": "Obsession",
   "ofLabel": "of",
   "offlineSearch": "Offline Search",
   "offset": "Offset",
   "oldDirectory": "Old directory",
   "oldDirectoryStillHasTracks": "Old Directory still have some tracks, confirm?",
+  "oldestFavorite": "Oldest Favorite",
   "oldestWatch": "Oldest Watch",
   "onDeviceConnect": "On Device Connect",
   "onInterruption": "On Interruption",
@@ -1085,12 +1113,14 @@
   "recentlyAdded": "Recently Added",
   "reconnect": "Reconnect",
   "recordLabel": "Record Label",
+  "rediscoveries": "Rediscoveries",
   "refresh": "Refresh",
   "refreshLibrary": "Refresh Library",
   "refreshLibrarySubtitle": "Check for newly added or deleted music",
   "refreshOnStartup": "Refresh on startup",
   "reject": "Reject",
   "relatedVideos": "Related videos",
+  "relevance": "Relevance",
   "rememberAudioOnlyMode": "Remember audio only mode",
   "remixer": "Remixer",
   "remove": "Remove",
@@ -1110,6 +1140,7 @@
   "repeatModeAll": "Repeat All Queue",
   "repeatModeNone": "Stop on Last Track",
   "repeatModeOne": "Repeat Current Track",
+  "repeatRate": "Repeat Rate",
   "replaceAllListensWithAnotherTrack": "Replace all listens with another track",
   "replies": "Replies",
   "reply": "Reply",
@@ -1242,6 +1273,7 @@
   "stopAfterThisVideo": "Stop after this video",
   "storagePermissionDenied": "Permission Denied",
   "storagePermissionDeniedSubtitle": "Please allow access to be able to perform this action",
+  "streak": "Streak",
   "stretchLyricsDuration": "Stretch Lyrics Duration",
   "style": "Style",
   "styles": "Styles",
@@ -1274,10 +1306,14 @@
   "themeModeSystem": "System",
   "themeSettings": "Theme",
   "themeSettingsSubtitle": "The overall vibe of your player",
+  "thisMonth": "This month",
   "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "This playlist has active sorters, please disable them before reordering.",
   "thisVideoIsLikelyDeletedOrSetToPrivate": "This video is likely deleted or set to private.",
+  "thisWeek": "This week",
+  "thisYear": "This year",
   "thumbnails": "Thumbnails",
   "title": "Title",
+  "today": "Today",
   "top": "Top",
   "topComments": "Top comments",
   "topCommentsSubtitle": "Display comments at top instead of bottom",
@@ -1309,6 +1345,7 @@
   "tracks": "Tracks",
   "tracksExcludedByNomedia": "Tracks Excluded by .nomedia",
   "tracksInfo": "Tracks Info",
+  "type": "Type",
   "unblock": "Unblock",
   "underrated": "Underrated",
   "undo": "Undo",
@@ -1325,6 +1362,7 @@
   "updateDirectoryPath": "Update directory path",
   "updateMissingTracksOnly": "Update missing tracks only",
   "updating": "Updating",
+  "uploadDate": "Upload date",
   "useCollapsedSettingTiles": "Use Collapsed Setting Tiles",
   "useMediaStore": "Use Media Store",
   "useMediaStoreSubtitle": "✓ instant indexing time\nx respect .nomedia will be forcely enabled\nx some metadata tags will be missing\nx youtube integration for local library will not work",
@@ -1364,11 +1402,13 @@
   "wiredDevice": "Wired Device",
   "wirelessDevice": "Wireless Device",
   "year": "Year",
+  "yearInSongs": "{count, plural, one{Year in {count} Song} other{Year in {count} Songs}}",
   "years": "Years",
   "yes": "yes",
   "youCanNowSendAndReceiveDataWithThisDevice": "You can now send and receive data with this device",
   "yourCurrentMembershipIs": "Your current membership is {name}",
   "yourCustomOrderWillBeLost": "Your custom order will be lost, Are you sure?",
+  "yourYear": "Your {year}",
   "youtube": "Youtube",
   "youtubeId": "Youtube ID",
   "youtubeLink": "Youtube Link",
