@@ -94,6 +94,14 @@
       }
     }
   },
+  "@countMoods": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countPlaylists": {
     "placeholders": {
       "count": {
@@ -122,6 +130,14 @@
     "placeholders": {
       "count": {
         "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTags": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
         "type": "int"
       }
     }
@@ -574,10 +590,12 @@
   "countFolders": "{count, plural, one{{count} carpeta} other{{count} carpetas}}",
   "countGenres": "{count, plural, one{{count} género} other{{count} géneros}}",
   "countMonths": "{count, plural, one{{count} mes} other{{count} meses}}",
+  "countMoods": "{count, plural, one{{count} Mood} other{{count} Moods}}",
   "countPlaylists": "{count, plural, one{{count} lista de reproducción} other{{count} listas de reproducción}}",
   "countStyles": "{count, plural, one{{count} estilo} other{{count} estilos}}",
   "countSubscribers": "{count, plural, one{{count} suscriptor} other{{count} suscriptores}}",
   "countSubscribersShort": "{count, plural, one{{count} suscriptor} other{{count} suscriptores}}",
+  "countTags": "{count, plural, one{{count} Etiqueta} other{{count} Etiquetas}}",
   "countTracks": "{count, plural, one{{count} pista} other{{count} pistas}}",
   "countVideos": "{count, plural, one{{count} vídeo} other{{count} vídeos}}",
   "countViews": "{count, plural, one{{count} visualización} other{{count} visualizaciones}}",
@@ -1416,5 +1434,6 @@
   "youtubeSettingsSubtitle": "Personaliza tu experiencia en Youtube",
   "youtubeStyleMiniplayer": "Minireproductor estilo Youtube",
   "ytPreferNewComments": "Prefiera comentarios nuevos cuando sea posible",
-  "ytPreferNewCommentsSubtitle": "La versión en caché solo se utilizará cuando no haya conexión"
+  "ytPreferNewCommentsSubtitle": "La versión en caché solo se utilizará cuando no haya conexión",
+  "zoom": "Zoom"
 }
