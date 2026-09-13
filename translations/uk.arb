@@ -94,6 +94,14 @@
       }
     }
   },
+  "@countMoods": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countPlaylists": {
     "placeholders": {
       "count": {
@@ -122,6 +130,14 @@
     "placeholders": {
       "count": {
         "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTags": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
         "type": "int"
       }
     }
@@ -574,10 +590,12 @@
   "countFolders": "{count, plural, one{{count} тека} few{{count} теки} other{{count} тек}}",
   "countGenres": "{count, plural, one{{count} жанр} few{{count} жанри} other{{count} жанрів}}",
   "countMonths": "{count, plural, one{{count} місяць} few{{count} місяці} other{{count} місяців}}",
+  "countMoods": "{count, plural, one{{count} настрій} few{{count} настрої} other{{count} настроїв}}",
   "countPlaylists": "{count, plural, one{{count} плейлист} few{{count} плейлисти} other{{count} плейлистів}}",
   "countStyles": "{count, plural, one{{count} стиль} few{{count} стилі} other{{count} стилів}}",
   "countSubscribers": "{count, plural, one{{count} підписник} few{{count} підписники} other{{count} підписників}}",
   "countSubscribersShort": "{count, plural, one{{count} підписник} few{{count} підписники} other{{count} підписників}}",
+  "countTags": "{count, plural, one{{count} тег} few{{count} теги} other{{count} тегів}}",
   "countTracks": "{count, plural, one{{count} трек} few{{count} треки} other{{count} треків}}",
   "countVideos": "{count, plural, one{{count} відео} few{{count} відео} other{{count} відео}}",
   "countViews": "{count, plural, one{{count} перегляд} few{{count} перегляди} other{{count} переглядів}}",
@@ -1262,7 +1280,7 @@
   "sponsor": "Спонсор",
   "sponsorblock": "SponsorBlock",
   "sponsorblockLeaderboard": "Рейтинг SponsorBlock",
-  "staggeredAlbumGridView": "Послідовне відображення сітки альбомів",
+  "staggeredAlbumGridView": "Ступінчастий вигляд сітки альбомів",
   "start": "Запустити",
   "startServerToLetOtherDevicesConnectToThisDevice": "Запустіть сервер, щоб інші пристрої могли підключитися до цього пристрою",
   "startsWith": "Починається з",
@@ -1416,5 +1434,6 @@
   "youtubeSettingsSubtitle": "Налаштування YouTube",
   "youtubeStyleMiniplayer": "YouTube-стиль мініплеєра",
   "ytPreferNewComments": "Завантаження нових коментарів по можливості",
-  "ytPreferNewCommentsSubtitle": "Кешована версія буде використана тільки при відсутності підключення до Інтернету"
+  "ytPreferNewCommentsSubtitle": "Кешована версія буде використана тільки при відсутності підключення до Інтернету",
+  "zoom": "Масштаб"
 }
