@@ -1132,6 +1132,7 @@
   "reconnect": "Reconectar",
   "recordLabel": "Registrar etiqueta",
   "rediscoveries": "Redescubrimientos",
+  "reflectInQueue": "Mostrar en la cola",
   "refresh": "Actualizar",
   "refreshLibrary": "Actualizar biblioteca",
   "refreshLibrarySubtitle": "Comprobar nueva musica añadida o eliminada",
