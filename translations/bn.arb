@@ -94,6 +94,14 @@
       }
     }
   },
+  "@countMoods": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countPlaylists": {
     "placeholders": {
       "count": {
@@ -122,6 +130,14 @@
     "placeholders": {
       "count": {
         "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTags": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
         "type": "int"
       }
     }
@@ -391,9 +407,24 @@
       }
     }
   },
+  "@yearInSongs": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@yourCurrentMembershipIs": {
     "placeholders": {
       "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourYear": {
+    "placeholders": {
+      "year": {
         "type": "String"
       }
     }
@@ -490,6 +521,7 @@
   "block": "ব্লক করুন",
   "blockedDevices": "ব্লক করা ডিভাইসসমূহ",
   "borderRadiusMultiplier": "বর্ডার রেডিয়াস",
+  "busiestDay": "ব্যস্ততম দিন",
   "cache": "ক্যাশ",
   "cancel": "বাতিল করুন",
   "canceled": "বাতিল করা হয়েছে",
@@ -498,6 +530,7 @@
   "changelogSubtitle": "Namida-তে নতুন কী যোগ বা ঠিক করা হয়েছে তা দেখুন",
   "channel": "চ্যানেল",
   "channels": "চ্যানেল",
+  "charts": "চার্ট",
   "check": "চেক করুন",
   "checkForMore": "আরও চেক করুন",
   "checkList": "চেকলিস্ট",
@@ -522,6 +555,7 @@
   "colorPalettes": "কালার প্যালেট",
   "comment": "কমেন্ট",
   "comments": "কমেন্ট",
+  "completedAlbums": "সম্পূর্ণ অ্যালবামসমূহ",
   "composer": "সুরকার",
   "compress": "কমপ্রেস করুন",
   "compressImages": "ছবি কমপ্রেস করুন",
@@ -556,10 +590,12 @@
   "countFolders": "{count, plural, one{{count}টি ফোল্ডার} other{{count}টি ফোল্ডার}}",
   "countGenres": "{count, plural, one{{count}টি জনরা} other{{count}টি জনরা}}",
   "countMonths": "{count, plural, one{{count} মাস} other{{count} মাস}}",
+  "countMoods": "{count, plural, one{{count}টি মুড} other{{count}টি মুড}}",
   "countPlaylists": "{count, plural, one{{count}টি প্লেলিস্ট} other{{count}টি প্লেলিস্ট}}",
   "countStyles": "{count, plural, one{{count} টি স্টাইল} other{{count} টি স্টাইল}}",
   "countSubscribers": "{count, plural, one{{count} সাবস্ক্রাইবার} other{{count} সাবস্ক্রাইবার}}",
   "countSubscribersShort": "{count, plural, one{{count} সাবস্ক্রাইবার} other{{count} সাবস্ক্রাইবার}}",
+  "countTags": "{count, plural, one{{count}টি ট্যাগ} other{{count}টি ট্যাগ}}",
   "countTracks": "{count, plural, one{{count}টি ট্র্যাক} other{{count}টি ট্র্যাক}}",
   "countVideos": "{count, plural, one{{count}টি ভিডিও} other{{count}টি ভিডিও}}",
   "countViews": "{count, plural, one{{count}টি ভিউ} other{{count} ভিউ}}",
@@ -618,6 +654,7 @@
   "discNumberTotal": "মোট ডিস্ক সংখ্যা",
   "disconnect": "ডিসকানেক্ট করুন",
   "discover": "ডিসকভার",
+  "discoveries": "ডিসকভার সমূহ",
   "dislike": "ডিসলাইক",
   "dismissibleMiniplayer": "খারিজযোগ্য মিনিপ্লেয়ার",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "সিক করার সময় পার্থক্যের পরিবর্তে প্রকৃত অবস্থান প্রদর্শন করুন",
@@ -773,6 +810,7 @@
   "group": "গ্রুপ",
   "groupArtworksByAlbum": "অ্যালবাম দ্বারা আর্টওয়ার্ক গ্রুপ করুন",
   "guide": "নির্দেশিকা",
+  "habits": "অভ্যাস",
   "hapticFeedback": "হ্যাপটিক ফিডব্যাক",
   "heightOfAlbumTile": "অ্যালবাম টাইলের উচ্চতা",
   "heightOfTrackTile": "ট্র্যাক টাইলের উচ্চতা",
@@ -784,6 +822,7 @@
   "historyImportMissingEntriesNote": "এই এন্ট্রিগুলো লাইব্রেরিতে খুঁজে পাওয়া যায়নি। যদি নিশ্চিত হন যে এগুলো বিদ্যমান, তবে দয়া করে ম্যানুয়ালি যোগ করুন",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?} other{{listensCount} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?}}",
   "home": "হোম",
+  "homeScreenWidget": "হোম স্ক্রিন উইজেট",
   "hook": "আকর্ষণ",
   "host": "হোস্ট",
   "hourFormat12": "১২ ঘণ্টার ফরম্যাট",
@@ -848,6 +887,7 @@
   "keepScreenAwakeWhen": "স্ক্রিন চালু রাখুন",
   "killPlayerAfterDismissingApp": "অ্যাপ খারিজ করার পর প্লেয়ার বন্ধ করুন",
   "language": "ভাষা",
+  "lastHour": "গত এক ঘন্টা",
   "lastListen": "শেষ শ্রবণ",
   "lastPlayed": "সর্বশেষ চালানো গান",
   "lastPlayedPosition": "সর্বশেষ শ্রবণের অবস্থান",
@@ -855,6 +895,7 @@
   "learnMore": "আরও জানুন",
   "leftAction": "বাম দিকের অ্যাকশন",
   "legacyAuthentication": "লিগ্যাসি অথেন্টিকেশন",
+  "libraryReach": "লাইব্রেরি রিচ",
   "libraryTabs": "লাইব্রেরি ট্যাব",
   "libraryTabsReorder": "আপনি সক্রিয় ট্যাবগুলো পুনর্বিন্যাস করতে পারেন।",
   "license": "লাইসেন্স",
@@ -863,6 +904,7 @@
   "liked": "লাইক করা হয়েছে",
   "link": "লিঙ্ক",
   "listOfFolders": "নির্বাচিত ফোল্ডার",
+  "listeningClock": "লিসেনিং ক্লক",
   "loadAll": "সব লোড করুন",
   "loadingFile": "ফাইল লোড হচ্ছে",
   "local": "স্থানীয়",
@@ -870,6 +912,8 @@
   "login": "লগইন",
   "longPressAction": "লং-প্রেস অ্যাকশন",
   "longPressTheLyricsToEnterFullscreen": "ফুলস্ক্রিনে লিরিক্স দেখতে লং-প্রেস করুন",
+  "longestSession": "দীর্ঘতম সেশন",
+  "longestStreak": "দীর্ঘতম ধারাবাহিকতা",
   "lossless": "লসলেস (Lossless)",
   "lostMemories": "হারানো স্মৃতি",
   "lostMemoriesSubtitle": "{number, plural, one{{number} বছর আগে, প্রায় এই সময়ে শোনা হয়েছে } other{{number} বছর আগে, প্রায় এই সময়ে শোনা হয়েছে }}",
@@ -936,6 +980,7 @@
   "more": "আরও",
   "mostPlayed": "শীর্ষ তালিকা",
   "move": "সরান",
+  "movies": "মুভি",
   "multipleTracksTagsEditNote": "আপনি এই ট্র্যাকগুলো সম্পাদনা করতে চলেছেন, \nঅপরিবর্তিত ক্ষেত্রগুলো একই থাকবে।",
   "musicOfftopic": "মিউজিক অফটপিক",
   "name": "নাম",
@@ -981,11 +1026,13 @@
   "notifications": "নোটিফিকেশন",
   "number": "সংখ্যা",
   "numberOfTracks": "ট্র্যাকের সংখ্যা",
+  "obsession": "প্রবল পছন্দ",
   "ofLabel": "এর",
   "offlineSearch": "অফলাইন সার্চ",
   "offset": "অফসেট",
   "oldDirectory": "পুরনো ডিরেক্টরি",
   "oldDirectoryStillHasTracks": "পুরনো ডিরেক্টরিতে এখনও কিছু ট্র্যাক রয়েছে, নিশ্চিত?",
+  "oldestFavorite": "প্রাচীনতম পছন্দ",
   "oldestWatch": "অনেক আগের দেখা",
   "onDeviceConnect": "ডিভাইস সংযোগ করলে",
   "onInterruption": "প্লেব্যাক বিঘ্নিত হলে করণীয়",
@@ -1066,7 +1113,7 @@
   "promptToChangeTrackPath": "সাধারণত এটি ঘটে যখন আপনি এই অ্যাপের বাইরে ফাইলটি ডিলিট, স্থানান্তর বা নাম পরিবর্তন করেন। আপনি কি বর্তমান পাথ (Path) আপডেট করতে চান?",
   "public": "সাধারণ",
   "queue": "কিউ",
-  "queues": "কিউ",
+  "queues": "কিউসমূহ",
   "random": "র‍্যান্ডম",
   "randomPicks": "এলোমেলো বাছাই",
   "rating": "রেটিং",
@@ -1084,12 +1131,15 @@
   "recentlyAdded": "সাম্প্রতিক সংযোজন",
   "reconnect": "পুনরায় কানেক্ট করুন",
   "recordLabel": "রেকর্ড লেবেল",
+  "rediscoveries": "রি-ডিসকভারি",
+  "reflectInQueue": "কিউ-তে প্রতিফলিত করুন",
   "refresh": "রিফ্রেশ",
   "refreshLibrary": "লাইব্রেরি রিফ্রেশ করুন",
   "refreshLibrarySubtitle": "নতুন যোগকৃত বা ডিলিট করা ট্র্যাকের জন্য চেক করুন",
   "refreshOnStartup": "অ্যাপ চালু করার সময় রিফ্রেশ করুন",
   "reject": "প্রত্যাখ্যান করুন",
   "relatedVideos": "সম্পর্কিত ভিডিও",
+  "relevance": "প্রাসঙ্গিকতা",
   "rememberAudioOnlyMode": "শুধুমাত্র অডিও মোড মনে রাখুন",
   "remixer": "রিমিক্সার",
   "remove": "সরান",
@@ -1109,6 +1159,7 @@
   "repeatModeAll": "সম্পূর্ণ কিউ পুনরাবৃত্তি করুন",
   "repeatModeNone": "শেষ ট্র্যাকে থামুন",
   "repeatModeOne": "বর্তমান ট্র্যাক পুনরাবৃত্তি করুন",
+  "repeatRate": "পুনরাবৃত্তির হার",
   "replaceAllListensWithAnotherTrack": "সব প্লে-হিস্ট্রি অন্য ট্র্যাক দিয়ে বদলে ফেলুন",
   "replies": "রিপ্লাই",
   "reply": "রিপ্লাই",
@@ -1241,6 +1292,7 @@
   "stopAfterThisVideo": "এই ভিডিওর পরে থামান",
   "storagePermissionDenied": "অনুমতি অস্বীকৃত",
   "storagePermissionDeniedSubtitle": "এই ক্রিয়া সম্পাদন করতে দয়া করে অ্যাক্সেস অনুমতি দিন",
+  "streak": "এর ধারাবাহিকতা",
   "stretchLyricsDuration": "লিরিক্সের সময়কাল প্রসারিত করুন",
   "style": "স্টাইল",
   "styles": "স্টাইলসমূহ",
@@ -1273,10 +1325,14 @@
   "themeModeSystem": "সিস্টেম",
   "themeSettings": "থিম",
   "themeSettingsSubtitle": "আপনার প্লেয়ারের সামগ্রিক আবহ",
+  "thisMonth": "এই মাসে",
   "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "এই প্লেলিস্টে সক্রিয় সর্টার রয়েছে, পুনর্বিন্যাস করার আগে দয়া করে সেগুলো নিষ্ক্রিয় করুন।",
   "thisVideoIsLikelyDeletedOrSetToPrivate": "এই ভিডিওটি সম্ভবত ডিলিট করা হয়েছে বা ব্যক্তিগত হিসেবে সেট করা হয়েছে।",
+  "thisWeek": "এই সপ্তাহে",
+  "thisYear": "এই বছরে",
   "thumbnails": "থাম্বনেইল",
   "title": "শিরোনাম",
+  "today": "আজ",
   "top": "শীর্ষ",
   "topComments": "শীর্ষ কমেন্ট",
   "topCommentsSubtitle": "নিচের পরিবর্তে উপরে কমেন্ট প্রদর্শন করুন",
@@ -1308,6 +1364,7 @@
   "tracks": "ট্র্যাক",
   "tracksExcludedByNomedia": ".nomedia দ্বারা বর্জিত ট্র্যাক",
   "tracksInfo": "ট্র্যাকের তথ্য",
+  "type": "ধরন",
   "unblock": "আনব্লক করুন",
   "underrated": "অবমূল্যায়িত",
   "undo": "পূর্বাবস্থায় আনুন",
@@ -1324,6 +1381,7 @@
   "updateDirectoryPath": "ডিরেক্টরি পাথ (Path) আপডেট করুন",
   "updateMissingTracksOnly": "শুধুমাত্র অনুপস্থিত ট্র্যাক আপডেট করুন",
   "updating": "আপডেট করা হচ্ছে",
+  "uploadDate": "আপলোডের তারিখ",
   "useCollapsedSettingTiles": "সংকুচিত সেটিংস টাইল ব্যবহার করুন",
   "useMediaStore": "মিডিয়া স্টোর ব্যবহার করুন",
   "useMediaStoreSubtitle": "✓ তাৎক্ষণিক ইনডেক্সিং\nx .nomedia মানা হবে\nx কিছু মেটাডেটা ট্যাগ অনুপস্থিত থাকবে\nx স্থানীয় লাইব্রেরির জন্য ইউটিউব ইন্টিগ্রেশন কাজ করবে না",
@@ -1363,11 +1421,13 @@
   "wiredDevice": "তারযুক্ত ডিভাইস",
   "wirelessDevice": "তারবিহীন ডিভাইস",
   "year": "বছর",
+  "yearInSongs": "{count, plural, one{{count}টি গানে পুরো বছর} other{{count}টি গানে পুরো বছর}}",
   "years": "বছর",
   "yes": "হ্যাঁ",
   "youCanNowSendAndReceiveDataWithThisDevice": "আপনি এখন এই ডিভাইসের সাথে ডাটা আদান-প্রদান করতে পারবেন",
   "yourCurrentMembershipIs": "আপনার বর্তমান সদস্যপদ {name}",
   "yourCustomOrderWillBeLost": "আপনার কাস্টম ক্রম হারিয়ে যাবে, আপনি কি নিশ্চিত?",
+  "yourYear": "আপনার {year}",
   "youtube": "ইউটিউব",
   "youtubeId": "ইউটিউব আইডি",
   "youtubeLink": "ইউটিউব লিংক",
@@ -1375,5 +1435,6 @@
   "youtubeSettingsSubtitle": "আপনার ইউটিউব অভিজ্ঞতা কাস্টমাইজ করুন",
   "youtubeStyleMiniplayer": "ইউটিউব-স্টাইল মিনিপ্লেয়ার",
   "ytPreferNewComments": "নতুন কমেন্ট অগ্রাধিকার দিন",
-  "ytPreferNewCommentsSubtitle": "ইন্টারনেট সংযোগ না থাকলে ক্যাশ সংস্করণ ব্যবহার করা হবে"
+  "ytPreferNewCommentsSubtitle": "ইন্টারনেট সংযোগ না থাকলে ক্যাশ সংস্করণ ব্যবহার করা হবে",
+  "zoom": "জুম"
 }
