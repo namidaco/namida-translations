@@ -94,6 +94,14 @@
       }
     }
   },
+  "@countMoods": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countPlaylists": {
     "placeholders": {
       "count": {
@@ -122,6 +130,14 @@
     "placeholders": {
       "count": {
         "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countTags": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
         "type": "int"
       }
     }
@@ -574,10 +590,12 @@
   "countFolders": "{count, plural, one{{count} fascikla} other{{count} fascikli}}",
   "countGenres": "{count, plural, one{{count} žanr} other{{count} žanrova}}",
   "countMonths": "{count, plural, one{{count} mjesec} other{{count} mjeseci}}",
+  "countMoods": "{count, plural, one{{count} raspoloženje} few{{count} raspoloženja} other{{count} raspoloženja}}",
   "countPlaylists": "{count, plural, one{{count} lista pjesama} other{{count} liste pjesama}}",
   "countStyles": "{count, plural, one{{count} stil} other{{count} stilova}}",
   "countSubscribers": "{count, plural, one{{count} pretplatnik} other{{count} pretplatnika}}",
   "countSubscribersShort": "Za ovaj ključ, prijevod je isti: {count, plural, one{{count} pretplatnik} other{{count} pretplatnika}}",
+  "countTags": "{count, plural, one{{count} oznaka} few{{count} oznake} other{{count} oznaka}}",
   "countTracks": "{count, plural, one{{count} pjesma} other{{count} pjesama}}",
   "countVideos": "{count, plural, one{{count} videozapis} other{{count} videozapisa}}",
   "countViews": "{count, plural, one{{count} pregled} other{{count} pregleda}}",
@@ -1416,5 +1434,6 @@
   "youtubeSettingsSubtitle": "Prilagodite YouTube iskustvo",
   "youtubeStyleMiniplayer": "Mini-plejer u YouTube stilu",
   "ytPreferNewComments": "Preferiraj nove komentare kada je moguće",
-  "ytPreferNewCommentsSubtitle": "Keširana verzija će se koristiti samo kada nema veze"
+  "ytPreferNewCommentsSubtitle": "Keširana verzija će se koristiti samo kada nema veze",
+  "zoom": "Uvećavanje"
 }
