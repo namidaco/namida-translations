@@ -30,6 +30,13 @@
       }
     }
   },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
       "count": {
@@ -347,6 +354,7 @@
   "block": "Chặn",
   "blockedDevices": "Các thiết bị đã bị chặn",
   "borderRadiusMultiplier": "Bán kính đường viền",
+  "busiestDay": "Ngày bận rộn nhất",
   "cache": "Bộ nhớ đệm",
   "cancel": "Hủy bỏ",
   "canceled": "Đã hủy",
@@ -355,6 +363,7 @@
   "changelogSubtitle": "Xem những gì đã được thêm và sửa lại trong Namida",
   "channel": "Kênh",
   "channels": "Kênh",
+  "charts": "Các biểu đồ",
   "check": "Kiểm tra",
   "checkForMore": "Kiểm tra thêm",
   "checkList": "Kiểm tra danh sách",
@@ -379,6 +388,7 @@
   "colorPalettes": "Bảng màu",
   "comment": "Bình luận",
   "comments": "Bình luận",
+  "completedAlbums": "Các album đã hoàn thành",
   "composer": "Nhà soạn nhạc",
   "compress": "Nén",
   "compressImages": "Nén hình ảnh",
@@ -405,9 +415,11 @@
   "couldntRenamePlaylist": "Không thể đổi tên danh sách phát",
   "couldntSaveImage": "Không thể lưu hình ảnh",
   "country": "Quốc gia",
+  "coupon": "Phiếu giảm giá",
   "create": "Tạo",
   "createBackup": "Tạo bản sao lưu",
   "createNewPlaylist": "Tạo danh sách phát mới",
+  "createNewSmartPlaylist": "Tạo danh sách phát thông minh mới",
   "createdBackupSuccessfully": "Đã tạo bản sao lưu",
   "createdBackupSuccessfullySub": "Tập tin sao lưu đã được tạo thành công",
   "crossfadeDuration": "Thời lượng Chuyển đổi mượt",
@@ -416,6 +428,7 @@
   "custom": "Tùy chỉnh",
   "customizations": "Tùy chỉnh",
   "customizationsSubtitle": "Tùy chỉnh giao diện trình phát đẹp như bạn :3",
+  "dataIsProvidedByName": "Dữ liệu được cung cấp bởi: {name}",
   "dataSaver": "Tiết kiệm dữ liệu",
   "dataSaverMode": "Chế độ tiết kiệm dữ liệu",
   "dataToSendAndReceive": "Dữ liệu để gửi & nhận",
@@ -443,6 +456,7 @@
   "developer": "Nhà phát triển",
   "development": "Phát triển",
   "deviceName": "Tên thiết bị",
+  "dictionary": "Từ điển",
   "didYouMean": "Ý bạn là",
   "dimIntensity": "Cường độ tối",
   "dimMiniplayerAfterSeconds": "{seconds, plural, other{Trình phát thu nhỏ sẽ tối đi sau {seconds} giây không hoạt động}}",
@@ -520,6 +534,7 @@
   "enablePartyModeSubtitle": "Áp dụng hiệu ứng thở cạnh lạ mắt",
   "enablePictureInPicture": "Bật tính năng Hình-trong-hình",
   "enableReordering": "Sắp xếp lại",
+  "enableReturnYoutubeDislike": "Bật trả về lượt không thích trên Youtube",
   "enableSearchCleanup": "Xóa lịch sử tìm kiếm",
   "enableSearchCleanupSubtitle": "Tất cả các Biểu tượng và Dấu cách sẽ bị bỏ qua",
   "enableSponsorblock": "Mở khóa Người đóng góp",
@@ -562,6 +577,7 @@
   "fileNameWoExt": "Tên tệp không có phần mở rộng",
   "filenameShouldntStartWith": "Tên tệp không được bắt đầu bằng",
   "files": "Tập tin",
+  "filler": "Độn",
   "filterAlbums": "Lọc Album",
   "filterArtists": "Lọc Nghệ sĩ",
   "filterGenres": "Lọc Thể loại",
@@ -608,12 +624,14 @@
   "group": "Nhóm",
   "groupArtworksByAlbum": "Nhóm bìa theo Album",
   "guide": "Hướng dẫn",
+  "habits": "Các thói quen",
   "hapticFeedback": "Rung",
   "heightOfAlbumTile": "Chiều cao của ô Album",
   "heightOfTrackTile": "Chiều cao của ô Bài hát",
   "hideSkipButtonAfter": "Ẩn nút bỏ qua sau",
   "highMatches": "Trùng khớp cao",
   "highPerformance": "Hiệu suất cao",
+  "highlight": "Nổi bật",
   "history": "Lịch sử",
   "historyImportMissingEntriesNote": "Những mục này không thể tìm thấy trong thư viện, nếu bạn cho rằng chúng tồn tại, vui lòng cân nhắc việc thêm chúng theo cách thủ công",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} lắng nghe {oldTrackInfo} sẽ được thay thế {newTrackInfo}, xác nhận ?}}",
