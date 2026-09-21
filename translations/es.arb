@@ -347,6 +347,13 @@
       }
     }
   },
+  "@partyAddedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -1063,6 +1070,7 @@
   "paletteSelectedMix": "Mix seleccionado",
   "parallelDownloads": "Descargas paralelas",
   "parsed": "Convertido",
+  "partyAddedBy": "Añadido por {name}",
   "password": "Contraseña",
   "path": "Ruta completa del archivo",
   "pause": "Pausa",
