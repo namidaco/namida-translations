@@ -347,6 +347,13 @@
       }
     }
   },
+  "@partyAddedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -1063,6 +1070,17 @@
   "paletteSelectedMix": "Обраний мікс",
   "parallelDownloads": "Паралельні завантаження",
   "parsed": "розібраний",
+  "partyAddedBy": "Створено {name}",
+  "partyChatHint": "Повідомлення",
+  "partyCloseRoom": "Закрити",
+  "partyMembers": "Учасники",
+  "partyPermEdit": "Редагувати чергу",
+  "partyReactions": "Реакції",
+  "partyRoleGuest": "Гість",
+  "partyScanToJoin": "Відскануйте, щоб приєднатися",
+  "partyServerPassword": "Пароль сервера",
+  "partySyncUnavailable": "Недоступно на цьому пристрої",
+  "partyYou": "Ви",
   "password": "Пароль",
   "path": "Повний шлях до файлу",
   "pause": "Зупинити",
@@ -1097,7 +1115,7 @@
   "playlistsImportM3uSyncedAutoImport": "Автоматичний імпорт плейлистів M3U",
   "playlistsImportServer": "Автоматичний імпорт плейлистів із налаштованих музичних веб-серверів (Jellyfin, Subsonic/Navidrome тощо) при оновленні бібліотеки",
   "playlistsImportServerAutoImport": "Автоматичний імпорт серверних плейлистів",
-  "pleaseEnterADifferentName": "Така назва вже існує :(\nБудь ласка, спробуйте іншу, незвичну назву",
+  "pleaseEnterADifferentName": "Така назва вже існує :(\nБудь ласка, придумайте іншу, незвичну назву",
   "pleaseEnterALink": "Будь ласка, введіть посилання",
   "pleaseEnterALinkSubtitle": "Емм... Це точно посилання на YouTube?",
   "pleaseEnterAName": "Будь ласка, введіть назву",
