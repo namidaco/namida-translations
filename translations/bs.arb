@@ -347,6 +347,45 @@
       }
     }
   },
+  "@partyAddedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partyInviteTextListeningTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partyMembershipRequired": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partySavedToPlaylist": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partyTransferHostConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -1063,6 +1102,111 @@
   "paletteSelectedMix": "Odabrani miks",
   "parallelDownloads": "Paralelna preuzimanja",
   "parsed": "parsirano",
+  "partyAddedBy": "Dodao/la {name}",
+  "partyApproximateMatch": "Upareno sa YouTube videom, možda nije pravi",
+  "partyBan": "Zabrana",
+  "partyBanned": "Izbačeni ste iz grupe",
+  "partyBannedMembers": "Izbačeni članovi",
+  "partyBrowse": "Javne sobe",
+  "partyBrowseSubtitle": "Sobe kojima se bilo ko može odmah pridružiti",
+  "partyBrowseUnsupported": "Ovaj pružatelj usluga ne prikazuje javne sobe",
+  "partyChat": "Razgovor",
+  "partyChatDisabled": "Razgovor je onemogućen za posjetitelje",
+  "partyChatHint": "Poruka",
+  "partyCloseForEveryone": "Zatvori sobu za sve",
+  "partyCloseRoom": "Zatvori",
+  "partyCloseRoomFailed": "Nije moguće zatvoriti sobu",
+  "partyClosed": "Soba je zatvorena",
+  "partyCode": "Ključ za sobu",
+  "partyCreate": "Stvori sobu",
+  "partyCreateSubtitle": "Budi domaćin sobe kojoj se drugi mogu pridružiti i slušati zajedno s tobom",
+  "partyCustomServer": "Prilagođeni server",
+  "partyDisplayName": "Tvoje ime",
+  "partyDisplayNameSubtitle": "Kako te drugi vide u sobi",
+  "partyFull": "Soba je puna",
+  "partyGuestPermissions": "Dozvole za goste",
+  "partyHideOwner": "Sakrij sobe od ovog domaćina",
+  "partyHistory": "Slušano u ovoj sobi",
+  "partyHostOffline": "Domaćin sobe je van mreže",
+  "partyHostOnThisDevice": "Domaćin na ovom uređaju",
+  "partyHostOnThisDeviceSubtitle": "Server nije potreban, samo za osobe na istoj mreži",
+  "partyHostSettings": "Postavke za domaćina",
+  "partyInvalidAction": "Ova radnja se nije mogla primijeniti na sobu",
+  "partyInvalidInvite": "Nevažeća poveznica ili kôd za poziv",
+  "partyInvalidServerUrl": "Nevažeći URL server",
+  "partyInviteLink": "Poveznica za pridruživanje",
+  "partyInviteLinkOrCode": "Poveznica za pridruživanje ili kôd",
+  "partyInviteTextListeningTo": "Slušam {name}, pridruži se",
+  "partyJoin": "Pridruži se sobi",
+  "partyJoinRejected": "Domaćin je odbio tvoj zahtjev za ulazak",
+  "partyJoinRequests": "Zahtjevi za pridruživanje",
+  "partyKick": "Izbaci",
+  "partyKicked": "Izbačen/a si iz sobe",
+  "partyLeave": "Napusti",
+  "partyLeaveSubtitle": "Soba ostaje aktivna dok drugi član postaje domaćin",
+  "partyListenOnThisDevice": "Slušaj na ovom uređaju",
+  "partyListenOnThisDeviceSubtitle": "Isključi kako bi se ovaj uređaj koristio kao upravljač",
+  "partyListeningParty": "Slušaonica",
+  "partyListeningPartySubtitle": "Slušaj s drugima, usklađeno",
+  "partyLockRoom": "Zaključaj sobu",
+  "partyLockRoomSubtitle": "Niko nov se ne može pridružiti",
+  "partyLocked": "Soba je zaključana",
+  "partyMakeAdmin": "Postavi za administratora",
+  "partyMembers": "Članovi",
+  "partyMembershipRequired": "Za pravljenje sobe na našem serveru treba {name} članstvo ili više, pridruživanje je uvijek besplatno",
+  "partyNoPermission": "Nemaš dozvolu da radiš ovo u sobi",
+  "partyNoPublicRooms": "Nema javnih soba za sada",
+  "partyNotFound": "Soba nije pronađena",
+  "partyOpenRoomsOtherDevices": "Sobe stvorene na drugom uređaju nisu prikazane ovdje",
+  "partyPermAdd": "Dodaj u red čekanja",
+  "partyPermChat": "Razgovor",
+  "partyPermControl": "Upravljanje reprodukcijom",
+  "partyPermEdit": "Uredi red čekanja",
+  "partyPrivacy": "Privatnost",
+  "partyPublicRoom": "Javna soba",
+  "partyPublicRoomSubtitle": "Svako može pronaći i pridružiti se dok je u pretrazi",
+  "partyQueueEmpty": "Red čekanja u sobi je prazan",
+  "partyQueueFull": "Red čekanja u sobi je pun",
+  "partyReactions": "Reakcije",
+  "partyRejoin": "Pridruži se ponovo",
+  "partyRemoteControl": "Daljinsko upravljanje",
+  "partyRemoveAdmin": "Ukloni administratora",
+  "partyRemovePassword": "Ukloni lozinku",
+  "partyRequireApproval": "Zahtjevaj dozvolu za pridruživanje",
+  "partyRoleAdmin": "Administrator",
+  "partyRoleGuest": "Gost",
+  "partyRoomName": "Naziv sobe",
+  "partyRoomPassword": "Ključ od sobe",
+  "partyRoomsLimit": "Dostigli ste maksimalan broj otvorenih soba",
+  "partySaveAsPlaylist": "Sačuvaj kao zbirku pjesama",
+  "partySavedToPlaylist": "Sačuvano {count} elemenata u \"{name}\"",
+  "partyScanToJoin": "Skeniraj da bi se pridružio/la",
+  "partyServerPassword": "Lozinka servera",
+  "partyServerPasswordSubtitle": "Samo za samostalno pokrenute servere",
+  "partyServerUrl": "URL servera",
+  "partySetPassword": "Postavi lozinku",
+  "partySharePlaying": "Podjeli šta se sluša",
+  "partySharePlayingSubtitle": "Javne sobe takođe prikazuju trenutačnu pjesmu",
+  "partyShowQrCode": "Prikaži QR kôd",
+  "partyStartWithCurrentQueue": "Započni s trenutnim redom čekanja",
+  "partyStatusConnected": "Povezano",
+  "partyStatusConnecting": "Povezujem",
+  "partyStatusPendingApproval": "Čekam na odobrenje domaćina",
+  "partyStatusReconnecting": "Ponovo povezujem",
+  "partySyncCatchingUp": "Sustižem",
+  "partySyncPausedLocally": "Pauziram ovdje, u sobi se već nešto vrti",
+  "partySyncUnavailable": "Nije dostupno na ovom uređaju",
+  "partyTabParty": "Soba",
+  "partyTransferHost": "Prenesi ulogu domaćina",
+  "partyTransferHostConfirm": "Postavi {name} domaćinom ove sobe?",
+  "partyTryAgain": "Pokušaj ponovo",
+  "partyUnavailableHere": "Nedostupno na ovom uređaju",
+  "partyUnban": "Odblokiraj člana",
+  "partyUnreachable": "Nije moguće pristupiti serveru sobe",
+  "partyWrongPassword": "To nije ključ od sobe",
+  "partyYou": "Ti",
+  "partyYouAreHostNow": "Ti si sada domaćin",
+  "partyYourOpenRooms": "Tvoje otvorene sobe",
   "password": "Lozinka",
   "path": "Puna putanja datoteke",
   "pause": "Pauza",
