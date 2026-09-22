@@ -354,8 +354,26 @@
       }
     }
   },
+  "@partyInviteTextListeningTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@partyMembershipRequired": {
     "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partySavedToPlaylist": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
       "name": {
         "type": "String"
       }
@@ -1085,6 +1103,7 @@
   "parallelDownloads": "Parallel Downloads",
   "parsed": "parsed",
   "partyAddedBy": "Added by {name}",
+  "partyApproximateMatch": "Matched with a YouTube video, might not be the right one",
   "partyBan": "Ban",
   "partyBanned": "You were banned from the party",
   "partyBannedMembers": "Banned members",
@@ -1095,6 +1114,8 @@
   "partyChatDisabled": "Chat is disabled for guests",
   "partyChatHint": "Message",
   "partyCloseForEveryone": "Close party for everyone",
+  "partyCloseRoom": "Close",
+  "partyCloseRoomFailed": "Couldn't close the party",
   "partyClosed": "The party was closed",
   "partyCode": "Party code",
   "partyCreate": "Create a party",
@@ -1105,6 +1126,7 @@
   "partyFull": "The party is full",
   "partyGuestPermissions": "Guest permissions",
   "partyHideOwner": "Hide rooms from this host",
+  "partyHistory": "Played in this party",
   "partyHostOffline": "The party host is offline",
   "partyHostOnThisDevice": "Host on this device",
   "partyHostOnThisDeviceSubtitle": "No server needed, only for people on the same network",
@@ -1114,6 +1136,7 @@
   "partyInvalidServerUrl": "Invalid server URL",
   "partyInviteLink": "Invite link",
   "partyInviteLinkOrCode": "Invite link or code",
+  "partyInviteTextListeningTo": "Listening to {name}, join me",
   "partyJoin": "Join a party",
   "partyJoinRejected": "The host rejected your join request",
   "partyJoinRequests": "Join requests",
@@ -1134,6 +1157,7 @@
   "partyNoPermission": "You don't have permission to do this in the party",
   "partyNoPublicRooms": "No public rooms at the moment",
   "partyNotFound": "Party not found",
+  "partyOpenRoomsOtherDevices": "Parties created on another device are not listed here",
   "partyPermAdd": "Add to queue",
   "partyPermChat": "Chat",
   "partyPermControl": "Control playback",
@@ -1143,6 +1167,8 @@
   "partyPublicRoomSubtitle": "Anyone can find and join it while browsing",
   "partyQueueEmpty": "The party queue is empty",
   "partyQueueFull": "The party queue is full",
+  "partyReactions": "Reactions",
+  "partyRejoin": "Rejoin",
   "partyRemoteControl": "Remote control",
   "partyRemoveAdmin": "Remove admin",
   "partyRemovePassword": "Remove password",
@@ -1152,6 +1178,8 @@
   "partyRoomName": "Party name",
   "partyRoomPassword": "Party password",
   "partyRoomsLimit": "You reached the maximum number of open parties",
+  "partySaveAsPlaylist": "Save as playlist",
+  "partySavedToPlaylist": "Saved {count} items to \"{name}\"",
   "partyScanToJoin": "Scan to join",
   "partyServerPassword": "Server password",
   "partyServerPasswordSubtitle": "Only for self-hosted servers",
@@ -1165,15 +1193,20 @@
   "partyStatusConnecting": "Connecting",
   "partyStatusPendingApproval": "Waiting for host approval",
   "partyStatusReconnecting": "Reconnecting",
+  "partySyncCatchingUp": "Catching up",
+  "partySyncPausedLocally": "Paused here, the party is playing",
+  "partySyncUnavailable": "Not available on this device",
   "partyTabParty": "Party",
   "partyTransferHost": "Transfer host",
   "partyTransferHostConfirm": "Make {name} the host of this party?",
+  "partyTryAgain": "Try again",
   "partyUnavailableHere": "Unavailable on this device",
   "partyUnban": "Unban",
   "partyUnreachable": "Couldn't reach the party server",
   "partyWrongPassword": "Wrong party password",
   "partyYou": "You",
   "partyYouAreHostNow": "You are the host now",
+  "partyYourOpenRooms": "Your open parties",
   "password": "Password",
   "path": "File Full Path",
   "pause": "Pause",
