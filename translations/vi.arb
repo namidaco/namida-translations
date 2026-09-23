@@ -22,6 +22,142 @@
       }
     }
   },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countDays": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFolders": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countGenres": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countMonths": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countMoods": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countPlaylists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countStyles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribersShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViews": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -414,6 +550,23 @@
   "couldntPlayFile": "Không thể phát tập tin",
   "couldntRenamePlaylist": "Không thể đổi tên danh sách phát",
   "couldntSaveImage": "Không thể lưu hình ảnh",
+  "countAlbumArtists": "{count} Nghệ sĩ album",
+  "countAlbums": "{count} Album",
+  "countArtists": "{count} Nghệ sĩ",
+  "countComposers": "{count} Nhà soạn nhạc",
+  "countDays": "{count} Ngày",
+  "countFiles": "{count} Tệp tin",
+  "countFolders": "{count} Thư mục",
+  "countGenres": "{count} Thể loại",
+  "countMonths": "{count} Tháng",
+  "countMoods": "{count} Tâm trạng",
+  "countPlaylists": "{count} Danh sách phát",
+  "countStyles": "{count} Kiểu",
+  "countSubscribers": "{count} Người đăng ký",
+  "countSubscribersShort": "{count} Người đăng ký",
+  "countVideos": "{count} Video",
+  "countViews": "{count} Lượt xem",
+  "countViewsShort": "{count} Lượt xem",
   "country": "Quốc gia",
   "coupon": "Phiếu giảm giá",
   "create": "Tạo",
@@ -735,6 +888,7 @@
   "maxVideoCacheSize": "Kích thước bộ nhớ đệm Video tối đa",
   "maximum": "Tối đa",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Không thể thực hiện do Media Store đang bật",
+  "medium": "Trung bình",
   "membershipCode": "Mật mã",
   "membershipCodeSentToEmail": "Mã gửi đến email của bạn",
   "membershipDidntChange": "Tư cách thành viên không thay đổi",
@@ -803,6 +957,7 @@
   "noFolderChosen": "Bạn chưa chọn thư mục nào",
   "noMoodsAvailable": "Không có tâm trạng nào có sẵn",
   "noNetworkAvailableToFetchData": "Không có mạng để tìm nạp dữ liệu",
+  "noResults": "Không có kết quả",
   "noTracksFound": "Không có bài hát nào được tìm thấy",
   "noTracksFoundBetweenDates": "Khoảng thời gian này không có bất kỳ bản nhạc nào.",
   "noTracksFoundInDirectory": "Không tìm thấy bài hát nào trong thư mục này",
@@ -813,10 +968,12 @@
   "normalizeAudio": "Chuẩn hóa âm thanh",
   "normalizeAudioSubtitle": "Chuẩn hóa âm lượng bằng cách đọc thẻ tag phát lại hoặc thông tin do youtube cung cấp",
   "notAvailableForYourDevice": "Không khả dụng cho thiết bị của bạn",
+  "notSupportedForNetworkFiles": "Không hỗ trợ cho các tệp mạng",
   "notSupportedForVideoFiles": "Không hỗ trợ cho tệp tin video",
   "note": "Lưu ý",
   "notification": "Thông báo",
   "notifications": "Thông báo",
+  "number": "Số",
   "numberOfTracks": "Số lượng bài hát",
   "ofLabel": "của",
   "offlineSearch": "Tìm kiếm ngoại tuyến",
@@ -850,6 +1007,7 @@
   "paletteSelectedMix": "Lựa chọn hỗn hợp",
   "parallelDownloads": "Tải xuống Song song",
   "parsed": "Đã phân tích cú pháp",
+  "partyBan": "Cấm",
   "password": "Mật khẩu",
   "path": "Đường dẫn đầy đủ của tập tin",
   "pause": "Tạm dừng",
