@@ -1,5 +1,12 @@
 {
   "@@locale": "ar",
+  "@acceptConnectionFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@addMoreFromToQueue": {
     "placeholders": {
       "media": {
@@ -356,6 +363,8 @@
     }
   },
   "about": "حول",
+  "accept": "قبول",
+  "acceptConnectionFromName": "هل تقبل الإتصال بـ {name}؟",
   "active": "نشط",
   "add": "إضافة",
   "addAccount": "إضافة حساب",
@@ -364,6 +373,7 @@
   "addAsANewPlaylist": "أضف كقائمة تشغيل جديدة",
   "addAudioToLocalLibrary": "إضافة الصوت إلى المكتبة المحلية",
   "addFolder": "إضافة مجلد",
+  "addGroup": "إضافة مجموعة",
   "addLanguage": "إضافة لغة",
   "addLanguageSubtitle": "ساعدنا في ترجمة Namida إلى لغتك",
   "addLrcFile": "أضف ملف LRC",
@@ -389,6 +399,7 @@
   "albums": "الألبومات",
   "albumsCount": "عدد الألبومات",
   "all": "الكل",
+  "allListens": "جميع المُستمعات",
   "allTime": "كل الأوقات",
   "alreadyExists": "موجود بالفعل",
   "always": "دائماً",
@@ -396,19 +407,25 @@
   "alwaysDim": "تعتيم دائم",
   "alwaysExpandedSearchbar": "شريط بحث موسّع دائماً",
   "alwaysRestore": "استعادة دائماً",
+  "and": "و",
   "animatingThumbnailIntensity": "كثافة حركة الصورة المصغرة",
   "animatingThumbnailInversed": "عكس الرسوم المتحركة",
   "animatingThumbnailInversedSubtitle": "ستؤدي القمم العالية إلى تصغير الصورة المصغرة",
   "anotherProcessIsRunning": "هناك عملية أخرى قيد التشغيل حالياً.",
+  "any": "أي",
+  "anyListen": "أي إستماع",
   "appIcon": "أيقونة التطبيق",
   "appVersion": "إصدار التطبيق",
+  "appearsOn": "سيظهر على",
   "artist": "الفنان",
   "artists": "فنانون",
+  "artistsMap": "خريطة الفنانين",
   "artwork": "عمل فني",
   "artworkGestures": "إيماءات العمل الفني",
   "artworks": "أعمال فنية",
   "audio": "صوتي",
   "audioCache": "ذاكرة التخزين المؤقت الصوتية",
+  "audioConfigs": "إعدادات الصوتيات",
   "audioOnly": "صوت فقط",
   "auto": "تلقائي",
   "autoBackupInterval": "الفاصل الزمني للنسخ الاحتياطي التلقائي",
@@ -421,16 +438,24 @@
   "autoSkipOnce": "تخطي تلقائي مرة",
   "autoStartRadio": "تشغيل تلقائي لليوتيوب",
   "autoStartRadioSubtitle": "يضيف قائمة تشغيل مختلطة تلقائيًا عند تشغيل مقطع واحد",
+  "autoSyncInterval": "فاصل المزامنة التلقائية",
   "automaticBackup": "تلقائي",
   "automaticBackupSubtitle": "يُطبِّق تلقائيًا أحدث ملف نسخ احتياطي موجود داخل موقع النسخ الاحتياطي",
+  "availableDevices": "الأجهزة المتوفرة",
   "backupAndRestore": "النسخ الاحتياطي والاستعادة",
   "backupAndRestoreSubtitle": "النسخ الاحتياطي لقاعدة البيانات والإعدادات الخاصة بك",
+  "backupHistoryBeforeImporting": "نسخ السجل إحتياطيًا قبل عملية الإسترداد",
   "balanced": "متوازن",
   "beta": "تجريبي",
   "betweenDates": "بين التواريخ",
+  "bitDepth": "عمق البت",
   "bitrate": "معدل البتّ",
+  "bits": "البتات",
   "blacklist": "القائمة السوداء",
+  "block": "حظر",
+  "blockedDevices": "حظر الأجهزة",
   "borderRadiusMultiplier": "مضاعف نصف قطر الحدود",
+  "busiestDay": "اليوم الأكثر إزدحامًا",
   "cache": "التخزين المؤقت",
   "cancel": "إلغاﺀ",
   "canceled": "ملغي",
