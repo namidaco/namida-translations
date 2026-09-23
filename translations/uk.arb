@@ -354,6 +354,13 @@
       }
     }
   },
+  "@partyInviteTextListeningTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -494,6 +501,7 @@
   "appearsOn": "З’являється в",
   "artist": "Виконавець",
   "artists": "Виконавці",
+  "artistsMap": "Мапа виконавців",
   "artwork": "Обкладинка",
   "artworkGestures": "Жести обкладинок",
   "artworks": "Обкладинки",
@@ -820,6 +828,7 @@
   "guide": "Посібник",
   "habits": "Звички",
   "hapticFeedback": "Тактильний відгук",
+  "hashtag": "Хештег",
   "heightOfAlbumTile": "Висота альбомної плитки",
   "heightOfTrackTile": "Висота плиток для треків",
   "hideSkipButtonAfter": "Прибирати кнопку «Пропустити» через",
@@ -1074,10 +1083,16 @@
   "partyChatHint": "Повідомлення",
   "partyCloseRoom": "Закрити",
   "partyClosed": "Вечірку закрито",
+  "partyDisplayName": "Ваше ім’я",
+  "partyDisplayNameSubtitle": "Як вас бачать інші в кімнаті",
   "partyInvalidInvite": "Неправильне посилання або код запрошення",
   "partyInvalidServerUrl": "Неправильна URL-адреса сервера",
+  "partyInviteLinkOrCode": "Посилання або код запрошення",
+  "partyInviteTextListeningTo": "Слухаю {name}, приєднуйтеся",
   "partyKick": "Вигнати",
   "partyKicked": "Вас вигнали з вечірки",
+  "partyLeave": "Вийти",
+  "partyLeaveSubtitle": "Вечірка триватиме, організатором стане інший учасник",
   "partyMakeAdmin": "Призначити адміністратором",
   "partyMembers": "Учасники",
   "partyPermEdit": "Редагувати чергу",
@@ -1090,6 +1105,8 @@
   "partyServerUrl": "URL-адреса сервера",
   "partySyncUnavailable": "Недоступно на цьому пристрої",
   "partyYou": "Ви",
+  "partyYouAreHostNow": "Тепер ви організатор",
+  "partyYourOpenRooms": "Ваші відкриті вечірки",
   "password": "Пароль",
   "path": "Повний шлях до файлу",
   "pause": "Зупинити",
@@ -1174,6 +1191,7 @@
   "remixer": "Реміксер",
   "remove": "Видалити",
   "removeDuplicates": "Видалити дублікати",
+  "removeFromDownloads": "Видалити із завантажень",
   "removeFromFavourites": "Видалити з обраного",
   "removeFromLibrary": "Видалити з бібліотеки",
   "removeFromPlaylist": "Видалити з плейлиста",
@@ -1222,6 +1240,7 @@
   "save": "Зберегти",
   "saveToLibrary": "Зберегти в бібліотеку",
   "savedIn": "Збережено в",
+  "saving": "Збереження",
   "scaleMultiplier": "Множник розміру",
   "search": "Пошук",
   "searchYoutube": "Пошук на YouTube",
@@ -1242,6 +1261,7 @@
   "server": "Сервер",
   "serverAddress": "Адреса сервера",
   "serverBlockedThisDevice": "Сервер заблокував цей пристрій",
+  "serverCache": "Кеш сервера",
   "serverRejectedTheConnectionRequest": "Сервер відхилив запит на з’єднання",
   "setAs": "Встановити як",
   "setAsDefault": "Встановити як значення за замовчуванням",
@@ -1309,6 +1329,8 @@
   "soundControl": "Керування звуком",
   "source": "Джерело",
   "speed": "Швидкість",
+  "splitByChapters": "Розбивати за розділами",
+  "splitByChaptersSubtitle": "Зберігати кожен розділ відео з YouTube як окремий файл",
   "sponsor": "Спонсор",
   "sponsorblock": "SponsorBlock",
   "sponsorblockLeaderboard": "Рейтинг SponsorBlock",
