@@ -347,6 +347,45 @@
       }
     }
   },
+  "@partyAddedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partyInviteTextListeningTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partyMembershipRequired": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partySavedToPlaylist": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partyTransferHostConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -642,6 +681,7 @@
   "developer": "ডেভেলপার",
   "development": "ডেভেলপমেন্ট",
   "deviceName": "ডিভাইসের নাম",
+  "dictionary": "ডিকশনারি",
   "didYouMean": "আপনি কি বোঝাতে চেয়েছেন",
   "dimIntensity": "ম্লান করার তীব্রতা",
   "dimMiniplayerAfterSeconds": "{seconds, plural, one{{seconds} সেকেন্ড নিষ্ক্রিয় থাকার পর মিনিপ্লেয়ার ম্লান করুন} other{{seconds} সেকেন্ড নিষ্ক্রিয় থাকার পর মিনিপ্লেয়ার ম্লান করুন}}",
@@ -1062,6 +1102,111 @@
   "paletteSelectedMix": "নির্বাচিত মিক্স",
   "parallelDownloads": "একযোগে ডাউনলোড",
   "parsed": "পার্স করা হয়েছে",
+  "partyAddedBy": "{name} যুক্ত করেছেন",
+  "partyApproximateMatch": "একটি ইউটিউব ভিডিওর সাথে মিলেছে, সঠিক নাও হতে পারে",
+  "partyBan": "ব্যান করুন",
+  "partyBanned": "আপনাকে পার্টি থেকে ব্যান করা হয়েছে",
+  "partyBannedMembers": "ব্যান হওয়া সদস্যরা",
+  "partyBrowse": "পাবলিক রুম",
+  "partyBrowseSubtitle": "যেসব রুমে যে কেউ এখনই যুক্ত হতে পারবে",
+  "partyBrowseUnsupported": "এই সার্ভারে পাবলিক রুমের তালিকা নেই",
+  "partyChat": "চ্যাট",
+  "partyChatDisabled": "অতিথিদের জন্য চ্যাট বন্ধ রাখা হয়েছে",
+  "partyChatHint": "মেসেজ লিখুন...",
+  "partyCloseForEveryone": "সবার জন্য পার্টি বন্ধ করুন",
+  "partyCloseRoom": "বন্ধ করুন",
+  "partyCloseRoomFailed": "পার্টি বন্ধ করা যায়নি",
+  "partyClosed": "পার্টি বন্ধ করা হয়েছে",
+  "partyCode": "পার্টি কোড",
+  "partyCreate": "পার্টি তৈরি করুন",
+  "partyCreateSubtitle": "একটি রুম হোস্ট করুন যেখানে অন্যরা যুক্ত হয়ে একসাথে গান শুনতে পারবে",
+  "partyCustomServer": "কাস্টম সার্ভার",
+  "partyDisplayName": "আপনার নাম",
+  "partyDisplayNameSubtitle": "রুমে অন্য ব্যবহারকারীরা আপনাকে যেভাবে দেখবেন",
+  "partyFull": "পার্টিতে আর জায়গা নেই",
+  "partyGuestPermissions": "অতিথিদের পারমিশন",
+  "partyHideOwner": "এই হোস্টের রুমগুলো লুকান",
+  "partyHistory": "এই পার্টিতে বাজানো হয়েছে",
+  "partyHostOffline": "পার্টির হোস্ট অফলাইনে আছেন",
+  "partyHostOnThisDevice": "এই ডিভাইসে হোস্ট করুন",
+  "partyHostOnThisDeviceSubtitle": "কোনো সার্ভারের প্রয়োজন নেই, কেবল একই নেটওয়ার্কে থাকা মানুষের জন্য",
+  "partyHostSettings": "হোস্ট সেটিংস",
+  "partyInvalidAction": "এই অ্যাকশনটি পার্টিতে প্রয়োগ করা যায়নি",
+  "partyInvalidInvite": "ইনভাইট লিংক বা কোডটি সঠিক নয়",
+  "partyInvalidServerUrl": "সার্ভার URL সঠিক নয়",
+  "partyInviteLink": "ইনভাইট লিংক",
+  "partyInviteLinkOrCode": "ইনভাইট লিংক বা কোড",
+  "partyInviteTextListeningTo": "{name}-এর সাথে শুনছি, আমার সাথে যুক্ত হন",
+  "partyJoin": "পার্টিতে যুক্ত হন",
+  "partyJoinRejected": "হোস্ট আপনার যুক্ত হওয়ার অনুরোধ প্রত্যাখ্যান করেছেন",
+  "partyJoinRequests": "যুক্ত হওয়ার অনুরোধ",
+  "partyKick": "কিক করুন",
+  "partyKicked": "আপনাকে পার্টি থেকে বের করে দেওয়া হয়েছে",
+  "partyLeave": "লিভ নিন",
+  "partyLeaveSubtitle": "পার্টি চালু থাকবে এবং অন্য একজন সদস্য হোস্ট হবেন",
+  "partyListenOnThisDevice": "এই ডিভাইসে শুনুন",
+  "partyListenOnThisDeviceSubtitle": "এই ডিভাইসটিকে রিমোট কন্ট্রোল হিসেবে ব্যবহার করতে এটি বন্ধ করুন",
+  "partyListeningParty": "লিসেনিং পার্টি",
+  "partyListeningPartySubtitle": "সবার সাথে সিঙ্ক করে একসাথে গান শুনুন",
+  "partyLockRoom": "পার্টি লক করুন",
+  "partyLockRoomSubtitle": "নতুন কেউ আর যুক্ত হতে পারবে না",
+  "partyLocked": "পার্টিটি লক করা আছে",
+  "partyMakeAdmin": "এডমিন করুন",
+  "partyMembers": "সদস্যরা",
+  "partyMembershipRequired": "আমাদের সার্ভারে রুম তৈরি করতে {name} বা তার ওপরের মেম্বারশিপ লাগবে, তবে যুক্ত হওয়া সবসময় ফ্রি",
+  "partyNoPermission": "পার্টিতে এই কাজটি করার আপনার অনুমতি নেই",
+  "partyNoPublicRooms": "এই মুহূর্তে কোনো পাবলিক রুম নেই",
+  "partyNotFound": "পার্টি পাওয়া যায়নি",
+  "partyOpenRoomsOtherDevices": "অন্য ডিভাইসে তৈরি করা পার্টিগুলো এখানে তালিকায় দেখানো হবে না",
+  "partyPermAdd": "কিউতে যুক্ত করুন",
+  "partyPermChat": "চ্যাট",
+  "partyPermControl": "প্লেব্যাক নিয়ন্ত্রণ",
+  "partyPermEdit": "কিউ এডিট করুন",
+  "partyPrivacy": "প্রাইভেসি",
+  "partyPublicRoom": "পাবলিক রুম",
+  "partyPublicRoomSubtitle": "ব্রাউজ করার সময় যে কেউ এটি খুঁজে পাবে এবং যুক্ত হতে পারবে",
+  "partyQueueEmpty": "পার্টি কিউ খালি আছে",
+  "partyQueueFull": "পার্টি কিউ ফুল হয়ে গেছে",
+  "partyReactions": "রিঅ্যাকশন",
+  "partyRejoin": "পুনরায় যুক্ত হন",
+  "partyRemoteControl": "রিমোট কন্ট্রোল",
+  "partyRemoveAdmin": "এডমিন সরান",
+  "partyRemovePassword": "পাসওয়ার্ড তুলে নিন",
+  "partyRequireApproval": "যুক্ত হতে অনুমোদনের প্রয়োজন",
+  "partyRoleAdmin": "এডমিন",
+  "partyRoleGuest": "অতিথি",
+  "partyRoomName": "পার্টির নাম",
+  "partyRoomPassword": "পার্টি পাসওয়ার্ড",
+  "partyRoomsLimit": "আপনি সর্বোচ্চ সংখ্যক চালুকৃত পার্টিতে পৌঁছে গেছেন",
+  "partySaveAsPlaylist": "প্লেলিস্ট হিসেবে সেভ করুন",
+  "partySavedToPlaylist": "\"{name}\" প্লেলিস্টে {count}টি আইটেম সেভ করা হয়েছে",
+  "partyScanToJoin": "যুক্ত হতে স্ক্যান করুন",
+  "partyServerPassword": "সার্ভার পাসওয়ার্ড",
+  "partyServerPasswordSubtitle": "কেবল সেলফ-হোস্টেড (Self-hosted) সার্ভারের জন্য",
+  "partyServerUrl": "সার্ভার URL",
+  "partySetPassword": "পাসওয়ার্ড সেট করুন",
+  "partySharePlaying": "যা বাজছে তা শেয়ার করুন",
+  "partySharePlayingSubtitle": "পাবলিক রুমেও বর্তমান গানটি দেখানো হবে",
+  "partyShowQrCode": "QR কোড দেখান",
+  "partyStartWithCurrentQueue": "বর্তমান কিউ নিয়েই শুরু করুন",
+  "partyStatusConnected": "কানেক্টেড",
+  "partyStatusConnecting": "কানেক্ট হচ্ছে...",
+  "partyStatusPendingApproval": "হোস্টের অনুমোদনের অপেক্ষায়",
+  "partyStatusReconnecting": "পুনরায় কানেক্ট হচ্ছে...",
+  "partySyncCatchingUp": "সিঙ্ক হচ্ছে...",
+  "partySyncPausedLocally": "এখানে পজ করা হয়েছে, তবে পার্টিতে গান বাজছে",
+  "partySyncUnavailable": "এই ডিভাইসে পাওয়া যাচ্ছে না",
+  "partyTabParty": "পার্টি",
+  "partyTransferHost": "হোস্টের দায়িত্ব হস্তান্তর করুন",
+  "partyTransferHostConfirm": "{name}-কে কি এই পার্টির হোস্ট করতে চান?",
+  "partyTryAgain": "আবার চেষ্টা করুন",
+  "partyUnavailableHere": "এই ডিভাইসে সহজলভ্য নয়",
+  "partyUnban": "আন-ব্যান করুন",
+  "partyUnreachable": "পার্টি সার্ভারের সাথে যোগাযোগ করা যায়নি",
+  "partyWrongPassword": "পার্টির পাসওয়ার্ড ভুল",
+  "partyYou": "আপনি",
+  "partyYouAreHostNow": "আপনি এখন হোস্ট",
+  "partyYourOpenRooms": "আপনার চালুকৃত পার্টিসমূহ",
   "password": "পাসওয়ার্ড",
   "path": "ফাইলের সম্পূর্ণ পাথ (Path)",
   "pause": "বিরতি",
@@ -1185,6 +1330,7 @@
   "reverseOrder": "উল্টো ক্রম",
   "rightAction": "ডান দিকের অ্যাকশন",
   "ringtone": "রিংটোন",
+  "romanization": "রোমানাইজেশন",
   "rule": "নিয়ম",
   "ruleAlreadyExists": "নিয়মটি ইতোমধ্যে রয়েছে",
   "sameDirectoryOnly": "শুধুমাত্র একই ডিরেক্টরি",
