@@ -361,6 +361,24 @@
       }
     }
   },
+  "@partySavedToPlaylist": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partyTransferHostConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -545,6 +563,7 @@
   "changelogSubtitle": "Переглянути, що нового додано/виправлено в Namida",
   "channel": "Канал",
   "channels": "Канали",
+  "chapters": "Розділи",
   "charts": "Чарти",
   "check": "Перевірити",
   "checkForMore": "Детальніше",
@@ -557,6 +576,7 @@
   "clearAudioCache": "Очистити кеш аудіо",
   "clearImageCache": "Очистити кеш зображень",
   "clearImageCacheWarning": "Попередження: буде створена бібліотека без зображень. Використовуйте тільки для перебудови кешу зображень.",
+  "clearServerCache": "Очистити кеш сервера",
   "clearTrackItem": "Видалити у треку",
   "clearTrackItemMultiple": "Очистити у {number, plural, one{{number} треку} few{{number} треках} other{{number} треках}}",
   "clearVideoCache": "Очистити кеш відео",
@@ -668,6 +688,8 @@
   "disableSearchCleanup": "Вимкнути очистку пошуку",
   "discNumber": "Номер диска",
   "discNumberTotal": "Усього дисків",
+  "discard": "Відхилити",
+  "discardChanges": "Відхилити зміни?",
   "disconnect": "Відключити",
   "discover": "Огляд",
   "discoveries": "Відкриття",
@@ -789,6 +811,8 @@
   "filterType": "Фільтрувати типи",
   "filtered": "Відфільтровані",
   "filteredBySizeAndDuration": "Треки, відфільтровані за розміром і тривалістю",
+  "find": "Знайти",
+  "findAndReplace": "Знайти і замінити",
   "finished": "Завершено",
   "finishedUpdatingLibrary": "Оновлення бібліотеки завершено",
   "firstListen": "Перше прослуховування",
@@ -858,6 +882,7 @@
   "importLastFmHistoryGuide": "1. Перейдіть на сторінку {lastfmCsvLink}\n\n2. Уведіть своє ім’я користувача, отримайте та завантажте файл CSV.\n\n3. Оберіть файл на наступному екрані.",
   "importListenBrainzHistory": "Імпорт історії ListenBrainz",
   "importListenBrainzHistoryGuide": "1. Перейдіть за посиланням {link}\n\n2. Запитайте дані та завантажте їх.\n\n3. На наступному екрані виберіть формат файлів ZIP або JSON.",
+  "importPlaylist": "Імпортувати плейлист",
   "importSpotifyHistory": "Імпорт історії Spotify",
   "importSpotifyHistoryGuide": "1. Перейдіть за посиланням {link}\n\n2. Поставте позначку «Розширена історія потокового передавання».\n\n3. Запитайте дані та завантажте їх.\n\n4. На наступному екрані виберіть формат файлів ZIP або JSON.",
   "importTimeRange": "Імпортувати діапазон часу",
@@ -951,6 +976,7 @@
   "matchingType": "Тип відповідності",
   "maxAudioCacheSize": "Максимальний розмір кешу аудіо",
   "maxImageCacheSize": "Максимальний розмір кешу зображень",
+  "maxServerCacheSize": "Максимальний розмір кешу сервера",
   "maxVideoCacheSize": "Максимальний розмір кешу відео",
   "maximum": "Максимум",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Увімкнено сховище медіафайлів, тому це налаштування не діятиме",
@@ -999,6 +1025,7 @@
   "move": "Перемістити",
   "movies": "Фільми",
   "multipleTracksTagsEditNote": "Ви збираєтеся редагувати ці треки,\nНезмінені поля залишаться недоторканими.",
+  "multipleValues": "Кілька значень",
   "musicOfftopic": "Музичний офтопік",
   "name": "Назва",
   "nameContainsBadCharacter": "Назва містить недопустимий символ",
@@ -1017,6 +1044,7 @@
   "newTracksSimilarrReleaseDate": "Схожа дата виходу",
   "newTracksSimilarrReleaseDateSubtitle": "Згенерувати треки, котрі були випущені приблизно в той же час, що й {currentTrack}",
   "newTracksUnknownYear": "Рік випуску треку невідомий",
+  "newVideosAtTop": "Додавати нові відео вгору",
   "newest": "Найновіші",
   "next": "Далі",
   "no": "ні",
@@ -1080,30 +1108,54 @@
   "parallelDownloads": "Паралельні завантаження",
   "parsed": "розібраний",
   "partyAddedBy": "Створено {name}",
+  "partyBanned": "Вам заборонили доступ до цієї вечірки",
+  "partyBannedMembers": "Заблоковані учасники",
+  "partyBrowse": "Загальнодоступні кімнати",
+  "partyBrowseUnsupported": "На цьому сервері немає загальнодоступних кімнат",
   "partyChatHint": "Повідомлення",
   "partyCloseRoom": "Закрити",
   "partyClosed": "Вечірку закрито",
+  "partyCode": "Код вечірки",
+  "partyCreate": "Створити вечірку",
   "partyDisplayName": "Ваше ім’я",
   "partyDisplayNameSubtitle": "Як вас бачать інші в кімнаті",
   "partyInvalidInvite": "Неправильне посилання або код запрошення",
   "partyInvalidServerUrl": "Неправильна URL-адреса сервера",
   "partyInviteLinkOrCode": "Посилання або код запрошення",
   "partyInviteTextListeningTo": "Слухаю {name}, приєднуйтеся",
+  "partyJoin": "Приєднатися до вечірки",
   "partyKick": "Вигнати",
   "partyKicked": "Вас вигнали з вечірки",
   "partyLeave": "Вийти",
   "partyLeaveSubtitle": "Вечірка триватиме, організатором стане інший учасник",
   "partyMakeAdmin": "Призначити адміністратором",
   "partyMembers": "Учасники",
+  "partyNotFound": "Вечірку не знайдено",
+  "partyPermAdd": "Додавати в чергу",
+  "partyPermChat": "Спілкуватися у чаті",
+  "partyPermControl": "Керувати відтворенням",
   "partyPermEdit": "Редагувати чергу",
+  "partyPublicRoom": "Загальнодоступна кімната",
   "partyReactions": "Реакції",
   "partyRemoveAdmin": "Вилучити з адміністраторів",
   "partyRoleAdmin": "Адміністратор",
   "partyRoleGuest": "Гість",
+  "partyRoomName": "Назва вечірки",
+  "partyRoomPassword": "Пароль вечірки",
+  "partySaveAsPlaylist": "Зберегти як плейлист",
+  "partySavedToPlaylist": "Збережено {count} елементів у «{name}»",
   "partyScanToJoin": "Відскануйте, щоб приєднатися",
   "partyServerPassword": "Пароль сервера",
   "partyServerUrl": "URL-адреса сервера",
+  "partyShowQrCode": "Показати QR-код",
+  "partyStartWithCurrentQueue": "Почати з поточної черги",
   "partySyncUnavailable": "Недоступно на цьому пристрої",
+  "partyTabParty": "Вечірка",
+  "partyTransferHost": "Передати організатора",
+  "partyTransferHostConfirm": "Зробити {name} організатором цієї вечірки?",
+  "partyTryAgain": "Повторити спробу",
+  "partyUnavailableHere": "Недоступно на цьому пристрої",
+  "partyWrongPassword": "Неправильний пароль для входу",
   "partyYou": "Ви",
   "partyYouAreHostNow": "Тепер ви організатор",
   "partyYourOpenRooms": "Ваші відкриті вечірки",
