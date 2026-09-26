@@ -638,7 +638,7 @@
   "countFolders": "{count, plural, one{{count} carpeta} other{{count} carpetas}}",
   "countGenres": "{count, plural, one{{count} género} other{{count} géneros}}",
   "countMonths": "{count, plural, one{{count} mes} other{{count} meses}}",
-  "countMoods": "{count, plural, one{{count} ambiente} other{{count} ambientes}}",
+  "countMoods": "{count, plural, one{{count} estado de ánimo} other{{count} estados de ánimo}}",
   "countPlaylists": "{count, plural, one{{count} lista de reproducción} other{{count} listas de reproducción}}",
   "countStyles": "{count, plural, one{{count} estilo} other{{count} estilos}}",
   "countSubscribers": "{count, plural, one{{count} suscriptor} other{{count} suscriptores}}",
