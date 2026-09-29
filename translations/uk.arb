@@ -14,6 +14,16 @@
       }
     }
   },
+  "@bitPerfectActiveOn": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "format": {
+        "type": "String"
+      }
+    }
+  },
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
@@ -174,6 +184,9 @@
       }
     }
   },
+  "@crossfade": {
+    "description": "Short name of the crossfade effect between tracks"
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -182,12 +195,18 @@
       }
     }
   },
+  "@curve": {
+    "description": "Shows the equalizer as a frequency response graph"
+  },
   "@dataIsProvidedByName": {
     "placeholders": {
       "name": {
         "type": "String"
       }
     }
+  },
+  "@decoder": {
+    "description": "The component that turns compressed audio (MP3, FLAC, ...) into raw samples"
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
@@ -215,6 +234,9 @@
       }
     }
   },
+  "@dither": {
+    "description": "Adding tiny noise when reducing bit depth, to avoid distortion"
+  },
   "@enableM3uSyncNote2": {
     "placeholders": {
       "playlistsBackupPath": {
@@ -225,6 +247,20 @@
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@fadeOnPlayPause": {
+    "description": "Short name of the volume fade when playing or pausing"
+  },
+  "@frequency": {
+    "description": "Center frequency of an equalizer band, in Hz"
+  },
+  "@graphicEqualizerBands": {
+    "placeholders": {
+      "count": {
         "format": "decimalPattern",
         "type": "int"
       }
@@ -316,6 +352,9 @@
       }
     }
   },
+  "@monoAudio": {
+    "description": "Mixes the left and right channels together, so both sides play the same sound"
+  },
   "@newTracksRecommendedSubtitle": {
     "placeholders": {
       "currentTrack": {
@@ -346,6 +385,9 @@
         "type": "String"
       }
     }
+  },
+  "@otherAppsSounds": {
+    "description": "Sounds of other apps and notifications, which a mode like bit-perfect keeps off the output device"
   },
   "@partyAddedBy": {
     "placeholders": {
@@ -415,6 +457,9 @@
       }
     }
   },
+  "@signalPath": {
+    "description": "Every step audio goes through, from the file to the output device"
+  },
   "@similarDiscoverDateSubtitle": {
     "placeholders": {
       "currentTrack": {
@@ -429,12 +474,31 @@
       }
     }
   },
+  "@sliders": {
+    "description": "Shows the equalizer as vertical gain sliders"
+  },
+  "@sourcePerScope": {
+    "placeholders": {
+      "scope": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
   "@suggestionSubtitle": {
     "placeholders": {
       "site": {
         "type": "String"
       }
     }
+  },
+  "@systemAudioEffects": {
+    "description": "Audio effects applied by Android or other apps system wide"
+  },
+  "@templates": {
+    "description": "Ready made equalizer layouts, like a flat 10 band graphic equalizer"
   },
   "@trackPathOldNew": {
     "placeholders": {
@@ -445,6 +509,48 @@
         "type": "String"
       }
     }
+  },
+  "@turnsOff": {
+    "description": "Label before a list of options that a mode (bit-perfect, USB direct) turns off"
+  },
+  "@usbDirectAwaitingPermission": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectFailed": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectPermissionDenied": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectUnsupportedDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@useForDevice": {
+    "description": "Applies this equalizer preset automatically whenever the given output device is used",
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@volumeKeys": {
+    "description": "The device's physical volume buttons"
   },
   "@yearInSongs": {
     "placeholders": {
@@ -535,6 +641,7 @@
   "audioCache": "Кеш аудіо",
   "audioConfigs": "Налаштування звуку",
   "audioOnly": "Тільки звук",
+  "aurora": "Полярне сяйво",
   "auto": "Автоматично",
   "autoBackupInterval": "Інтервал автоматичних резервних копій",
   "autoColoring": "Автоколір",
@@ -556,18 +663,22 @@
   "backupAndRestoreSubtitle": "Резервне копіювання бази даних та налаштувань",
   "backupHistoryBeforeImporting": "Створювати резервну копію історії перед імпортом",
   "balanced": "Збалансований",
+  "bars": "Смуги",
   "beta": "Бета",
   "betweenDates": "Між датами",
   "bitDepth": "Розрядність",
+  "bitPerfectActiveOn": "{format} на {device}",
   "bitrate": "Бітрейт",
   "bits": "біт",
   "blacklist": "Чорний список",
   "block": "Заблокувати",
   "blockedDevices": "Заблоковані пристрої",
+  "blur": "Розмиття",
   "borderRadiusMultiplier": "Множник радіуса меж",
   "bugReport": "Повідомлення про помилку",
   "busiestDay": "Найактивніший день",
   "cache": "Кеш",
+  "calculation": "Розрахунок",
   "cancel": "Скасувати",
   "canceled": "Скасовано",
   "changed": "Змінено",
@@ -582,6 +693,7 @@
   "checkList": "Контрольний список",
   "choose": "Обрати",
   "chooseWhatToClear": "Обрати, що очистити",
+  "christmas": "Різдво",
   "claim": "Подати заявку",
   "cleanup": "Очистка",
   "clear": "Очистити",
@@ -596,10 +708,11 @@
   "client": "Клієнт",
   "clock": "Годинник",
   "clockOnly": "Тільки годинник",
-  "colorPalette": "Кольорова палітра",
+  "color": "Колір",
+  "colorPalette": "Колірна палітра",
   "colorPaletteNote1": "Натисніть і утримуйте колір, щоб прибрати його",
   "colorPaletteNote2": "Натисніть на мікс, щоб використовувати його як колір за замовчуванням",
-  "colorPalettes": "Кольорові палітри",
+  "colorPalettes": "Колірні палітри",
   "comment": "Коментар",
   "comments": "Коментарі",
   "completedAlbums": "Завершені альбоми",
@@ -656,12 +769,15 @@
   "createNewSmartPlaylist": "Створити новий смарт-плейлист",
   "createdBackupSuccessfully": "Резервну копію створено",
   "createdBackupSuccessfullySub": "Резервну копію успішно створено",
+  "crossfade": "Згасаючий перехід",
   "crossfadeDuration": "Тривалість згасаючого переходу",
   "crossfadeTriggerSeconds": "Автоматично вмикати згасаючий перехід за {seconds, plural, one{{seconds} останню секунду} few{{seconds} останні секунди} other{{seconds} останні секунд}}",
   "crossfadeTriggerSecondsDisabled": "Не запускати згасаючий перехід автоматично",
+  "curve": "Крива",
   "custom": "Користувацький",
   "customizations": "Персоналізація",
   "customizationsSubtitle": "Налаштуйте зовнішній вигляд свого плеєра під себе",
+  "daily": "Щодня",
   "dataIsProvidedByName": "Дані надано: {name}",
   "dataSaver": "Заощадження трафіку",
   "dataSaverMode": "Режим заощадження трафіку",
@@ -674,6 +790,8 @@
   "dateTimeFormat": "Формат дати і часу",
   "day": "День",
   "days": "Днів",
+  "decoder": "Декодер",
+  "deepOcean": "Глибокий океан",
   "defaultBackupLocation": "Розташування резервних копій за замовчуванням",
   "defaultColor": "Тема за замовчуванням",
   "defaultColorSubtitle": "Встановлення кольору, що буде використовуватись плеєром",
@@ -725,6 +843,7 @@
   "displayThirdRowInTrackTile": "Відображати третій рядок",
   "displayTrackNumberInAlbumPage": "Відображати номер треку на сторінці альбому",
   "displayTrackNumberInAlbumPageSubtitle": "Відображати невелике поле з номером треку на сторінці альбому",
+  "dither": "Дизеринг",
   "doNothing": "Нічого не робити",
   "doesNotContain": "Не містить",
   "donate": "Пожертвуйте",
@@ -747,6 +866,7 @@
   "duplicatedTracks": "Дубльовані треки",
   "duration": "Тривалість",
   "edgeColorsSwitching": "Перемикання кольорів по краях",
+  "edgeLights": "Підсвічування країв",
   "edit": "Редагувати",
   "editArtwork": "Редагувати обкладинку",
   "editTags": "Редагувати теги",
@@ -783,19 +903,22 @@
   "enterSymbol": "Будь ласка, введіть символ",
   "enterTheAddressShownOnTheOtherDevice": "Уведіть адресу, вказану в полі «Сервер» на іншому пристрої",
   "equalizer": "Еквалайзер",
+  "equalizerImportFailed": "Фільтри еквалайзера не знайдено",
   "error": "Помилка",
   "errorFetchingVideoList": "Помилка при отриманні списку відео",
   "errorPlayingTrack": "Помилка відтворення треку",
+  "exclude": "Виключити",
   "excludedFodlers": "Виключені теки",
   "exists": "Існує",
   "exit": "Вихід",
   "exitAppSubtitle": "Натисніть ще раз, щоб вийти",
   "expandedMiniplayer": "Розгорнутий мініплеєр",
+  "export": "Експортувати",
   "exportAsM3u": "Експорт у форматі M3U",
   "extension": "Розширення",
   "externalFiles": "Зовнішні файли",
   "extract": "Витягти",
-  "extractAllColorPalettes": "Витягти всі кольорові палітри",
+  "extractAllColorPalettes": "Витягти всі колірні палітри",
   "extractAllColorPalettesSubtitle": "Витягти решту {number, plural, one{{number} палітру} few{{number} палітри} other{{number} палітр}}?",
   "extractFeatArtist": "Витягти виконавців з назви",
   "extractFeatArtistSubtitle": "Витягти (feat. X) та (ft. X) виконавців у вигляді запису нового виконавця.",
@@ -803,6 +926,7 @@
   "extras": "Додатково",
   "extrasSubtitle": "Додаткові налаштування для покращення Вашого досвіду",
   "extreme": "Екстремальний",
+  "fadeOnPlayPause": "Згасання при відтворенні/паузі",
   "failed": "Не вдалося",
   "failedEdits": "Невдалі зміни",
   "favourite": "Обране",
@@ -833,6 +957,8 @@
   "findAndReplace": "Знайти і замінити",
   "finished": "Завершено",
   "finishedUpdatingLibrary": "Оновлення бібліотеки завершено",
+  "fireflies": "Світлячки",
+  "fireworks": "Феєрверк",
   "firstListen": "Перше прослуховування",
   "fixYtdlpBigThumbnailSize": "Виправити великий розмір мініатюри yt-dlp",
   "floatingActionButton": "Плаваюча кнопка дії",
@@ -846,10 +972,13 @@
   "forceSquaredAlbumThumbnail": "Примусово зробити мініатюру альбому квадратною",
   "forceSquaredThumbnailNote": "Розмір мініатюри та висота плитки НЕ збігаються, квадратний вигляд може не відповідати очікуванням. Ви точно хочете зрівняти їх?",
   "forceSquaredTrackThumbnail": "Примусово зробити мініатюру треку квадратною",
-  "forceStopColorPaletteGeneration": "Примусово припинити витяг кольорових палітр? Ви можете продовжити це пізніше",
+  "forceStopColorPaletteGeneration": "Примусово припинити витяг колірних палітр? Ви можете продовжити це пізніше",
   "forceUseGlobalConfig": "Використовувати глобальні налаштування",
   "format": "Формат",
+  "frequency": "Частота",
+  "fromClipboard": "З буфера обміну",
   "fullscreen": "На весь екран",
+  "galaxy": "Галактика",
   "gaplessPlayback": "Відтворення без пауз",
   "generate": "Згенерувати",
   "generateFromDates": "Діапазон часу",
@@ -858,6 +987,7 @@
   "genre": "Жанр",
   "genres": "Жанри",
   "global": "Глобальні",
+  "glow": "Світіння",
   "goToAlbum": "Перейти до альбому",
   "goToArtist": "Перейти до виконавця",
   "goToChannel": "Перейти на канал",
@@ -865,10 +995,13 @@
   "goToTrack": "Перейти до треку",
   "goodLooking": "Виглядає добре",
   "grantStoragePermission": "Надати дозвіл на використання сховища",
+  "graphicEqualizerBands": "Графічний, {count} смуг",
   "group": "Група",
   "groupArtworksByAlbum": "Групувати обкладинки за альбомом",
+  "groupByTags": "Групувати за тегами",
   "guide": "Посібник",
   "habits": "Звички",
+  "halloween": "Хелловін",
   "hapticFeedback": "Тактильний відгук",
   "hashtag": "Хештег",
   "heightOfAlbumTile": "Висота альбомної плитки",
@@ -953,6 +1086,7 @@
   "lastPlayedPosition": "Попереднє місце відтворення",
   "latestQueue": "Остання черга",
   "learnMore": "Дізнатися більше",
+  "left": "Лівий",
   "leftAction": "Провести ліворуч",
   "legacyAuthentication": "Стара система автентифікації",
   "libraryReach": "Охоплення бібліотеки",
@@ -965,6 +1099,7 @@
   "link": "Посилання",
   "listOfFolders": "Список тек",
   "listeningClock": "Годинник прослуховування",
+  "listensPerMonth": "Прослуховувань за місяць",
   "loadAll": "Завантажити все",
   "loadingFile": "Завантаження файлу",
   "local": "Локально",
@@ -992,6 +1127,7 @@
   "m3uPlaylist": "Плейлист M3U",
   "makeYourFirstListen": "Послухай вперше!",
   "manage": "Керувати",
+  "manageTags": "Керувати тегами",
   "manageYourAccounts": "Керувати обліковими записами",
   "manualBackup": "Ручний",
   "manualBackupSubtitle": "оберіть конкретний файл",
@@ -1035,6 +1171,7 @@
   "minimumSegmentDuration": "Мінімальна тривалість фрагмента",
   "miniplayerCustomization": "Налаштування мініплеєра",
   "minutes": "хвилин",
+  "mirroredBars": "Дзеркальні смуги",
   "missing": "Відсутні",
   "missingEntries": "Відсутні записи",
   "missingTracks": "Відсутні треки",
@@ -1042,6 +1179,7 @@
   "mixPlaylistGeneratedByYoutube": "Плейлист «Мікс», згенерований на YouTube",
   "mixes": "Мікси",
   "mobile": "Мобільний",
+  "monoAudio": "Монозвук",
   "month": "Місяць",
   "months": "Місяці",
   "mood": "Настрій",
@@ -1123,9 +1261,12 @@
   "operationRequiresAccount": "Для виконання {name} потрібен обліковий запис. Увійдіть, щоб продовжити",
   "operationRequiresMembership": "Для виконання {operation} необхідна принаймні участь {name}",
   "or": "або",
+  "otherAppsSounds": "Звуки з інших додатків",
   "others": "Інші",
   "output": "Вивід",
+  "outputDevice": "Пристрій виводу",
   "outro": "Завершальні титри",
+  "overlayEffect": "Ефект накладання",
   "overrideOldFilesInTheSameFolder": "Перезаписати старі файли в тій самій теці",
   "palette": "Палітра",
   "paletteMix": "Мікс",
@@ -1133,6 +1274,7 @@
   "paletteSelectedMix": "Вибраний мікс",
   "parallelDownloads": "Паралельні завантаження",
   "parsed": "розібраний",
+  "particles": "Частинки",
   "partyAddedBy": "Створено {name}",
   "partyApproximateMatch": "Є збіг з відео на YouTube — можливо, це не те відео",
   "partyBan": "Заборонити доступ",
@@ -1252,6 +1394,7 @@
   "personalizedRelatedVideosSubtitle": "Якщо вимкнено, зростає використання даних",
   "pickColorsFromDeviceWallpaper": "Обрати колір зі шпалер на пристрої",
   "pickFromStorage": "Обрати зі сховища",
+  "pin": "Закріпити",
   "pinned": "Закріплено",
   "pitch": "Висота",
   "plain": "Звичайний",
@@ -1292,6 +1435,8 @@
   "question": "Запитання",
   "queue": "Черга",
   "queues": "Черги",
+  "rain": "Дощ",
+  "ramadan": "Рамадан",
   "random": "Випадково",
   "randomPicks": "Випадковий вибір",
   "rating": "Оцінка",
@@ -1365,15 +1510,19 @@
   "resumeIfWasPausedForLessThanNMin": "Продовжити відтворення, якщо пауза тривала менше {number, plural, one{{number} хвилини} few{{number} хвилин} other{{number} хвилин}}",
   "returnYoutubeDislike": "Кнопка «Не подобається» на YouTube",
   "reverseOrder": "Зворотний порядок",
+  "right": "Правий",
   "rightAction": "Провести праворуч",
   "ringtone": "Рингтон",
   "romanization": "Латинізація",
   "rule": "Правило",
   "ruleAlreadyExists": "Правило вже існує",
+  "sakura": "Сакура",
   "sameDirectoryOnly": "Тільки в тому ж каталозі",
   "sample": "Зразок",
   "sampleRate": "Частота дискретизації",
   "save": "Зберегти",
+  "saveAsPreset": "Зберегти як шаблон",
+  "saveFilter": "Зберегти фільтр",
   "saveToLibrary": "Зберегти в бібліотеку",
   "savedIn": "Збережено в",
   "saving": "Збереження",
@@ -1387,6 +1536,8 @@
   "seekbar": "Смуга перемотки",
   "selectAll": "Обрати все",
   "selectFilesAlreadyInLocalLibrary": "Вибрати файли, копії яких є в локальній бібліотеці",
+  "selectPlaylists": "Вибрати плейлисти",
+  "selectedBy": "Вибрано за",
   "selectedTracks": "Вибрані треки",
   "selfPromotion": "Саморозкручування",
   "semitones": "Напівтони",
@@ -1439,6 +1590,7 @@
   "signInYouNeedAccountToViewPage": "Щоб переглянути цю сторінку, Вам потрібен обліковий запис",
   "signOut": "Вийти",
   "signOutFromName": "Вийти з {name}",
+  "signalPath": "Аудіоканал",
   "signingInAllowsBasicUsage": "Увійшовши, Ви зможете користуватися основними функціями",
   "signingInAllowsBasicUsageSubtitle": "Отримайте ранній доступ через Patreon або використавши купон",
   "similarDiscoverDate": "Схожа дата виявлення",
@@ -1456,6 +1608,7 @@
   "skipSponsorSegmentsInVideos": "Пропускати спонсорські вставки в відео",
   "sleepAfter": "Заснути через",
   "sleepTimer": "Таймер сну",
+  "sliders": "Повзунки",
   "smartPlaylist": "Смарт-плейлист",
   "smartPlaylists": "Смарт-плейлисти",
   "socials": "Соцмережі",
@@ -1464,6 +1617,7 @@
   "sortBy": "Сортувати за",
   "soundControl": "Керування звуком",
   "source": "Джерело",
+  "sourcePerScope": "{source} на {scope}",
   "speed": "Швидкість",
   "splitByChapters": "Розбивати за розділами",
   "splitByChaptersSubtitle": "Зберігати кожен розділ відео з YouTube як окремий файл",
@@ -1471,6 +1625,7 @@
   "sponsorblock": "SponsorBlock",
   "sponsorblockLeaderboard": "Рейтинг SponsorBlock",
   "staggeredAlbumGridView": "Ступінчастий вигляд сітки альбомів",
+  "starfield": "Зоряне поле",
   "start": "Запустити",
   "startServerToLetOtherDevicesConnectToThisDevice": "Запустіть сервер, щоб інші пристрої могли підключитися до цього пристрою",
   "startsWith": "Починається з",
@@ -1493,6 +1648,7 @@
   "subscriptions": "Підписки",
   "succeeded": "Успішно",
   "suggestionSubtitle": "Маєте пропозицію чи зіткнулися з проблемою? Відкрийте задачу на {site}",
+  "sum": "Сума",
   "support": "Підтримати",
   "supremacy": "Перевага",
   "sussyBaka": "Дідько, немає треків",
@@ -1502,10 +1658,13 @@
   "syncAppDataBetweenYourDevices": "Синхронізуйте дані додатка між своїми пристроями",
   "synced": "Синхронізовано",
   "synopsis": "Синопсис",
+  "systemAudioEffects": "Системні звукові ефекти",
+  "systemDefault": "Як у системі",
   "tagFields": "Поля для тегів",
   "tags": "Теги",
   "tapAction": "Дія при натисканні",
   "tapToSeek": "Тапнути для перемотки",
+  "templates": "Шаблони",
   "text": "Текст",
   "theFollowingChangesWereDetected": "Виявлено такі зміни",
   "themeMode": "Тема",
@@ -1555,6 +1714,7 @@
   "tracks": "Треки",
   "tracksExcludedByNomedia": "Треки, виключені через .nomedia",
   "tracksInfo": "Інформація про треки",
+  "turnsOff": "Вимикає",
   "type": "Тип",
   "unblock": "Розблокувати",
   "underrated": "Недооцінене",
@@ -1567,13 +1727,20 @@
   "unlimited": "Необмежений",
   "unlisted": "Не вказано",
   "unlock": "Розблокувати",
+  "unpin": "Відкріпити",
   "unsubscribe": "Відписатися",
+  "untagged": "Без тегів",
   "update": "Оновити",
   "updateDirectoryPath": "Оновити шлях до каталогу",
   "updateMissingTracksOnly": "Оновити тільки відсутні треки",
   "updating": "Оновлення",
   "uploadDate": "Дата завантаження",
+  "usbDirectAwaitingPermission": "Надати доступ до {device}",
+  "usbDirectFailed": "{device} не відповідає",
+  "usbDirectPermissionDenied": "Доступ до {device} відхилено",
+  "usbDirectUnsupportedDevice": "{device} не підтримується",
   "useCollapsedSettingTiles": "Використовувати згорнуті плитки налаштувань",
+  "useForDevice": "Використовувати для {device}",
   "useMediaStore": "Використовувати сховище медіафайлів",
   "useMediaStoreSubtitle": "✓ моментальна індексація\nx дотримання .nomedia буде примусово ввімкнено\nx деякі теги метаданих будуть відсутні\nx інтеграція YouTube для локальної бібліотеки не буде працювати",
   "usePitchBlack": "Використовувати вугільно-чорний колір",
@@ -1603,10 +1770,15 @@
   "view": "перегляд",
   "viewAll": "Переглянути все",
   "views": "переглядів",
+  "vignette": "Віньєтка",
+  "visualizer": "Візуалізатор",
   "volume": "Гучність",
+  "volumeKeys": "Клавіші гучності",
   "waitingForTheOtherDeviceToAccept": "Очікування підтвердження від іншого пристрою",
+  "wallpaper": "Шпалери",
   "warning": "Попередження",
   "waveformBarsCount": "Кількість смуг хвиль гучності",
+  "waves": "Хвилі",
   "webmNoEditTagsSupport": "Формат WEBM не підтримує редагування тегів",
   "week": "Тиждень",
   "weeks": "тижнів",
