@@ -1,11 +1,27 @@
 {
   "@@locale": "ru",
+  "@acceptConnectionFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@addMoreFromToQueue": {
     "placeholders": {
       "media": {
         "type": "String"
       }
     }
+  },
+  "@androidMixer": {
+    "description": "Android's own audio mixer, which mixes all apps and applies system volume and effects"
+  },
+  "@bitPerfect": {
+    "description": "Audio reaches the output device exactly as stored in the file, without any processing"
+  },
+  "@bitPerfectSubtitle": {
+    "description": "Subtitle of the bit-perfect option"
   },
   "@clearTrackItemMultiple": {
     "placeholders": {
@@ -143,6 +159,9 @@
       }
     }
   },
+  "@crossfade": {
+    "description": "Short name of the crossfade effect between tracks"
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -157,6 +176,9 @@
         "type": "String"
       }
     }
+  },
+  "@decoder": {
+    "description": "The component that turns compressed audio (MP3, FLAC, ...) into raw samples"
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
@@ -184,12 +206,22 @@
       }
     }
   },
+  "@embeddedLyricsArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
+      }
+    }
+  },
   "@enableM3uSyncNote2": {
     "placeholders": {
       "playlistsBackupPath": {
         "type": "String"
       }
     }
+  },
+  "@exclusive": {
+    "description": "Exclusive output mode, where only this app can use the audio device"
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
@@ -198,6 +230,17 @@
         "type": "int"
       }
     }
+  },
+  "@forcedOffBy": {
+    "description": "Header above options disabled by a mode, {mode} is its name like Bit-perfect or USB direct access",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "@frequency": {
+    "description": "Center frequency of an equalizer band, in Hz"
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
@@ -250,6 +293,13 @@
       "number": {
         "format": "decimalPattern",
         "type": "int"
+      }
+    }
+  },
+  "@lyricsFilesArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
       }
     }
   },
@@ -380,6 +430,9 @@
       }
     }
   },
+  "@volumeKeys": {
+    "description": "The device's physical volume buttons"
+  },
   "@yourCurrentMembershipIs": {
     "placeholders": {
       "name": {
@@ -387,8 +440,16 @@
       }
     }
   },
+  "@yourYear": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
   "about": "О приложении",
   "accept": "Принять",
+  "acceptConnectionFromName": "Принять соединение от {name}?",
   "active": "Активный",
   "add": "Добавить",
   "addAccount": "Добавить аккаунт",
@@ -434,6 +495,7 @@
   "alwaysExpandedSearchbar": "Всегда Раскрытая Панель поиска",
   "alwaysRestore": "Всегда восстанавливать",
   "and": "и",
+  "androidMixer": "Микшер Android",
   "animatingThumbnailIntensity": "Интенсивность Анимации Миниатюр",
   "animatingThumbnailInversed": "Инверсия Анимации",
   "animatingThumbnailInversedSubtitle": "Высокие пики громкости приведут к уменьшению размера миниатюры",
@@ -473,14 +535,19 @@
   "beta": "Бета",
   "betweenDates": "Между Датами",
   "bitDepth": "Битовая глубина",
+  "bitPerfect": "Точь-в-точь (бит-пёрфект)",
+  "bitPerfectSubtitle": "Проигрывает аудио без каких-либо изменений",
+  "bitPerfectUnsupportedFormat": "Этот файл не может быть воспроизведён точь-в-точь",
   "bitrate": "Битрейт",
   "bits": "Бит",
   "blacklist": "Чёрный список",
   "block": "Заблокировать",
   "blockedDevices": "Заблокированные устройства",
+  "blur": "Размытие",
   "borderRadiusMultiplier": "Множитель Радиуса Границ",
   "bugReport": "Сообщение об ошибке",
   "cache": "Кэш",
+  "calculation": "Вычисление",
   "cancel": "Отмена",
   "canceled": "Отменено",
   "changed": "Изменено",
@@ -488,11 +555,14 @@
   "changelogSubtitle": "Посмотри, что нового добавили и исправили в Namida",
   "channel": "Канал",
   "channels": "Каналы",
+  "chapters": "Главы",
+  "charts": "Чарты",
   "check": "Проверить",
   "checkForMore": "Подробнее",
   "checkList": "Контрольный Список",
   "choose": "Выбрать",
   "chooseWhatToClear": "Выбери, что очистить",
+  "christmas": "Рождество",
   "claim": "Запросить",
   "clear": "Очистить",
   "clearAudioCache": "Очистить Кэш Аудио",
@@ -506,6 +576,7 @@
   "client": "Клиент",
   "clock": "Часы",
   "clockOnly": "Только Часы",
+  "color": "Цвет",
   "colorPalette": "Цветовая Палитра",
   "colorPaletteNote1": "Удерживайте по цвету, чтобы убрать его",
   "colorPaletteNote2": "Нажми на микс, чтобы использовать его в качестве цвета по умолчанию",
@@ -525,6 +596,7 @@
   "connectByIp": "Подключение по IP",
   "connectedDevices": "Подключённые устройства",
   "connectionAccepted": "Соединение установлено",
+  "connectionBlocked": "Соединение заблокированно",
   "connectionRejected": "Соединение отклонено",
   "contains": "Содержит",
   "convertToM3UPlaylist": "Конвертировать в M3U Плейлист",
@@ -562,6 +634,7 @@
   "createNewSmartPlaylist": "Создать новый Умный Плейлист",
   "createdBackupSuccessfully": "Резервная копия создана",
   "createdBackupSuccessfullySub": "Резервная копия была создана успешно",
+  "crossfade": "Плавный переход",
   "crossfadeDuration": "Длительность Затухающего перехода",
   "crossfadeTriggerSeconds": "Автоматическое включение Затухающего перехода за {seconds, plural, one{последнюю {seconds} секунду} few{последние {seconds} секунды} other{последние {seconds} секунд}}",
   "crossfadeTriggerSecondsDisabled": "Не запускать затухающий переход автоматически",
@@ -579,6 +652,7 @@
   "dateTimeFormat": "Формат даты и времени",
   "day": "День",
   "days": "Дня",
+  "decoder": "Декодер",
   "defaultBackupLocation": "Расположение Резервных копий по Умолчанию",
   "defaultColor": "Тема по Умолчанию",
   "defaultColorSubtitle": "Установка цвета, который будет использоваться плеером",
@@ -608,7 +682,9 @@
   "discNumber": "Номер Диска",
   "discNumberTotal": "Всего дисков",
   "discardChanges": "Отменить изменения?",
+  "disconnect": "Отключиться",
   "discover": "Найти",
+  "discoveries": "Открытия",
   "discoveryFailedTryReenablingNetworkAdapter": "Обнаружение не удалось. Попробуйте перезапустить сетевой адаптер или перезагрузить устройство",
   "dislike": "Не нравится",
   "dismissibleMiniplayer": "Закрываемый миниплеер",
@@ -653,6 +729,7 @@
   "editArtwork": "Редактировать Обложку",
   "editTags": "Редактировать Теги",
   "email": "Почта",
+  "embeddedLyricsArePrioritized": "Используется встроенный текст песни вместо файла с текстом. Выключите \"{setting}\" или встройте текст чтобы использовать его",
   "emptyNonMeaningfulTagFields": "у тебя есть поля с пустыми/незначительными значениями, убедись, что ты действительно хочешь их редактировать",
   "emptyValue": "Пустое Значение",
   "enableArtworkCache": "Включить кэш обложек",
@@ -687,11 +764,14 @@
   "error": "Ошибка",
   "errorFetchingVideoList": "Ошибка анализа списка видео",
   "errorPlayingTrack": "Ошибка воспроизведении трека",
+  "exclude": "Исключить",
   "excludedFodlers": "Исключённые Папки",
+  "exclusive": "Эксклюзивный",
   "exists": "Существует",
   "exit": "Выход",
   "exitAppSubtitle": "Нажми ещё раз, чтобы выйти",
   "expandedMiniplayer": "Раскрытый Миниплеер",
+  "export": "Экспортировать",
   "exportAsM3u": "Экспорт в формате M3U",
   "extension": "Расширение",
   "externalFiles": "Внешние Файлы",
@@ -748,7 +828,11 @@
   "forceSquaredThumbnailNote": "Размер Миниатюры и Высота Плитки НЕ совпадают, квадратный вид может не соответствовать ожиданиям. Ты точно хочешь уравнять их?",
   "forceSquaredTrackThumbnail": "Принудительно сделать Миниатюру Трека Квадратной",
   "forceStopColorPaletteGeneration": "Принудительно прекратить извлечение цветовых палитр? Ты можешь продолжить это позже",
+  "forceUseGlobalConfig": "Принудительное использование глобальной конфигурации",
+  "forcedOffBy": "Неактивные параметры выключены {mode}",
   "format": "Формат",
+  "frequency": "Частота",
+  "fromClipboard": "Из буфера обмена",
   "fullscreen": "На весь экран",
   "gaplessPlayback": "Проигрывание Без пауз",
   "generate": "Подобрать",
@@ -769,6 +853,7 @@
   "groupArtworksByAlbum": "Группировать обложки по альбому",
   "guide": "Руководство",
   "habits": "Привычки",
+  "halloween": "Хэллоуин",
   "hapticFeedback": "Тактильный отклик",
   "hashtag": "Хэштэг",
   "heightOfAlbumTile": "Высота альбомной плитки",
@@ -843,6 +928,7 @@
   "keepScreenAwakeWhen": "Держать экран включённым, когда",
   "killPlayerAfterDismissingApp": "Закрыть плеер после выхода из приложения",
   "language": "Язык",
+  "lastHour": "За последний час",
   "lastListen": "Последнее прослушивание",
   "lastPlayedPosition": "Последняя проигрываемая позиция",
   "learnMore": "Узнать больше",
@@ -856,6 +942,7 @@
   "liked": "Понравившиеся",
   "link": "Ссылка",
   "listOfFolders": "Список папок",
+  "listensPerMonth": "Прослушиваний в месяц",
   "loadAll": "Загрузить всё",
   "loadingFile": "Файл загружается",
   "local": "Локально",
@@ -873,6 +960,7 @@
   "lyricist": "Лирик",
   "lyrics": "Текст песни",
   "lyricsDeleteWithTrack": "Удалить текст вместе с треком",
+  "lyricsFilesArePrioritized": "Используются текстовые файлы вместо встроенного текста. Включите \"{setting}\" чтобы использовать их",
   "lyricsFolders": "Папки с текстами треков",
   "lyricsSource": "Источник текста",
   "m3uPlaylist": "M3U-плейлист",
@@ -1369,7 +1457,9 @@
   "view": "просмотр",
   "viewAll": "Посмотреть Всё",
   "views": "просмотра(ов)",
+  "visualizer": "Визуализатор",
   "volume": "Громкость",
+  "volumeKeys": "Кнопки громкости",
   "warning": "Предупреждение",
   "waveformBarsCount": "Количество полос волны громкости",
   "webmNoEditTagsSupport": "Формат WEBM не поддерживает редактирование тегов",
@@ -1381,6 +1471,7 @@
   "yes": "да",
   "yourCurrentMembershipIs": "Твоё текущее членство: {name}",
   "yourCustomOrderWillBeLost": "Текущая сортировка будет изменена. Продолжить?",
+  "yourYear": "Твой {year}",
   "youtube": "YouTube",
   "youtubeId": "Youtube ID",
   "youtubeMusic": "YouTube Music",
