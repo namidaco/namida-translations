@@ -1141,6 +1141,7 @@
   "ifNotPlaying": "If not playing",
   "ignoreBatteryOptimizationsSubtitle": "Downloads can be throttled when the app is battery restricted",
   "ignoreCommonPrefixesWhileSorting": "Ignore common prefixes while sorting",
+  "ignorePrefixes": "Ignore prefixes",
   "ignores": "Ignores",
   "imageSource": "Image source",
   "immersiveMode": "Immersive Mode",
