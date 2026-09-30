@@ -30,6 +30,9 @@
       }
     }
   },
+  "@bitPerfectSubtitle": {
+    "description": "Subtitle of the bit-perfect option"
+  },
   "@bitPerfectUpTo": {
     "placeholders": {
       "format": {
@@ -250,12 +253,22 @@
   "@dither": {
     "description": "Adding tiny noise when reducing bit depth, to avoid distortion"
   },
+  "@embeddedLyricsArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
+      }
+    }
+  },
   "@enableM3uSyncNote2": {
     "placeholders": {
       "playlistsBackupPath": {
         "type": "String"
       }
     }
+  },
+  "@exclusive": {
+    "description": "Exclusive output mode, where only this app can use the audio device"
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
@@ -267,6 +280,14 @@
   },
   "@fadeOnPlayPause": {
     "description": "Short name of the volume fade when playing or pausing"
+  },
+  "@forcedOffBy": {
+    "description": "Header above options disabled by a mode, {mode} is its name like Bit-perfect or USB direct access",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
   },
   "@frequency": {
     "description": "Center frequency of an equalizer band, in Hz"
@@ -344,6 +365,13 @@
       "number": {
         "format": "decimalPattern",
         "type": "int"
+      }
+    }
+  },
+  "@lyricsFilesArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
       }
     }
   },
@@ -688,6 +716,8 @@
   "bitPerfect": "Побітово точне",
   "bitPerfectActiveOn": "{format} на {device}",
   "bitPerfectNoDevice": "Недоступно для цього виходу, спробуйте прямий доступ через USB",
+  "bitPerfectSubtitle": "Відтворює аудіо без обробки",
+  "bitPerfectUnsupportedFormat": "Цей трек неможливо відтворити без змін на цьому виході",
   "bitPerfectUpTo": "Побітово точне до {format}",
   "bitrate": "Бітрейт",
   "bits": "біт",
@@ -734,6 +764,7 @@
   "colorPaletteNote1": "Натисніть і утримуйте колір, щоб прибрати його",
   "colorPaletteNote2": "Натисніть на мікс, щоб використовувати його як колір за замовчуванням",
   "colorPalettes": "Колірні палітри",
+  "colorWhenExpanded": "Колір, коли розгорнуто",
   "comment": "Коментар",
   "comments": "Коментарі",
   "completedAlbums": "Завершені альбоми",
@@ -892,6 +923,8 @@
   "editArtwork": "Редагувати обкладинку",
   "editTags": "Редагувати теги",
   "email": "Email",
+  "embed": "Вбудувати",
+  "embeddedLyricsArePrioritized": "Замість файлів із текстами пісень використовуються вбудовані тексти. Для використання вимкніть «{setting}» або вбудуйте такі тексти",
   "emptyNonMeaningfulTagFields": "Є поля з порожніми/незначними значеннями, переконайтеся, що Ви дійсно хочете їх редагувати",
   "emptyValue": "Порожнє значення",
   "enableArtworkCache": "Увімкнути кеш обкладинок",
@@ -930,6 +963,7 @@
   "errorPlayingTrack": "Помилка відтворення треку",
   "exclude": "Виключити",
   "excludedFodlers": "Виключені теки",
+  "exclusive": "Ексклюзивний",
   "exists": "Існує",
   "exit": "Вихід",
   "exitAppSubtitle": "Натисніть ще раз, щоб вийти",
@@ -995,6 +1029,7 @@
   "forceSquaredTrackThumbnail": "Примусово зробити мініатюру треку квадратною",
   "forceStopColorPaletteGeneration": "Примусово припинити витяг колірних палітр? Ви можете продовжити це пізніше",
   "forceUseGlobalConfig": "Використовувати глобальні налаштування",
+  "forcedOffBy": "Параметри, позначені сірим, вимкнено налаштуванням {mode}",
   "format": "Формат",
   "frequency": "Частота",
   "fromClipboard": "З буфера обміну",
@@ -1139,6 +1174,7 @@
   "lyrics": "Текст пісні",
   "lyricsDeleteWithTrack": "Видаляти текст пісні разом із треком",
   "lyricsDeleteWithTrackSubtitle": "Тексти пісень, використані в іншому треку, зберігаються",
+  "lyricsFilesArePrioritized": "Замість вбудованих текстів пісень використовуються файли з текстами. Для використання ввімкніть «{setting}»",
   "lyricsFolders": "Теки з текстами пісень",
   "lyricsFoldersSubtitle": "Відповідають назвам файлів треків",
   "lyricsSaveLocation": "Місце збереження текстів пісень",
@@ -1209,7 +1245,7 @@
   "mostPlayed": "Відтворювані найчастіше",
   "move": "Перемістити",
   "movies": "Фільми",
-  "multipleTracksTagsEditNote": "Ви збираєтеся редагувати ці треки,\nНезмінені поля залишаться недоторканими.",
+  "multipleTracksTagsEditNote": "Ви збираєтеся редагувати ці треки,\nНезмінені поля не оброблятимуться.",
   "multipleValues": "Кілька значень",
   "musicOfftopic": "Музичний офтопік",
   "name": "Назва",
@@ -1325,7 +1361,7 @@
   "partyHostOnThisDevice": "Хостинг на цьому пристрої",
   "partyHostOnThisDeviceSubtitle": "Сервер не потрібен; тільки для учасників у тій самій мережі",
   "partyHostSettings": "Налаштування хоста",
-  "partyInvalidAction": "Цю дію не можна застосувати до вечірки",
+  "partyInvalidAction": "Цю дію неможливо застосувати до вечірки",
   "partyInvalidInvite": "Неправильне посилання або код запрошення",
   "partyInvalidServerUrl": "Неправильна URL-адреса сервера",
   "partyInviteLink": "Посилання для запрошення",
