@@ -14,6 +14,32 @@
       }
     }
   },
+  "@androidMixer": {
+    "description": "অ্যান্ড্রয়েডের নিজস্ব অডিও মিক্সার, যা সব অ্যাপের অডিও মিশ্রিত করে এবং সিস্টেম ভলিউম ও ইফেক্ট প্রয়োগ করে"
+  },
+  "@bitPerfect": {
+    "description": "অডিও ফাইলে সংরক্ষিত অবস্থায় আউটপুট ডিভাইসে পৌঁছায়, কোনো প্রক্রিয়াকরণ ছাড়াই"
+  },
+  "@bitPerfectActiveOn": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      },
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@bitPerfectSubtitle": {
+    "description": "বিট-পারফেক্ট অপশনের সাবটাইটেল"
+  },
+  "@bitPerfectUpTo": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
@@ -174,6 +200,9 @@
       }
     }
   },
+  "@crossfade": {
+    "description": "ট্র্যাকের মধ্যে ক্রসফেড ইফেক্টের সংক্ষিপ্ত নাম"
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -182,12 +211,18 @@
       }
     }
   },
+  "@curve": {
+    "description": "ইকুয়ালাইজারকে ফ্রিকোয়েন্সি রেসপন্স গ্রাফ হিসেবে দেখায়"
+  },
   "@dataIsProvidedByName": {
     "placeholders": {
       "name": {
         "type": "String"
       }
     }
+  },
+  "@decoder": {
+    "description": "যে কম্পোনেন্ট কমপ্রেসড অডিও (MP3, FLAC, ...) কে র-স্যাম্পলে রূপান্তর করে"
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
@@ -215,6 +250,19 @@
       }
     }
   },
+  "@dither": {
+    "description": "বিট ডেপথ কমানোর সময় সামান্য নয়েজ যোগ করা, বিকৃতি এড়াতে"
+  },
+  "@downmix": {
+    "description": "একাধিক অডিও চ্যানেলকে কম চ্যানেলে মেশানো, যেমন 5.1 কে স্টেরিওতে"
+  },
+  "@embeddedLyricsArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
+      }
+    }
+  },
   "@enableM3uSyncNote2": {
     "placeholders": {
       "playlistsBackupPath": {
@@ -222,9 +270,61 @@
       }
     }
   },
+  "@eqAllPass": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের ধরন যা শুধু ফেজ পরিবর্তন করে, ভলিউম একই থাকে"
+  },
+  "@eqBandPass": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের ধরন যা একটি ফ্রিকোয়েন্সির চারপাশের একটি রেঞ্জ রাখে"
+  },
+  "@eqHighPass": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের ধরন যা একটি ফ্রিকোয়েন্সির নিচের সবকিছু সরিয়ে দেয়"
+  },
+  "@eqHighShelf": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের ধরন যা একটি ফ্রিকোয়েন্সির উপরের সবকিছু বুস্ট বা কাট করে"
+  },
+  "@eqLowPass": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের ধরন যা একটি ফ্রিকোয়েন্সির উপরের সবকিছু সরিয়ে দেয়"
+  },
+  "@eqLowShelf": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের ধরন যা একটি ফ্রিকোয়েন্সির নিচের সবকিছু বুস্ট বা কাট করে"
+  },
+  "@eqNotch": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের ধরন যা একটি ফ্রিকোয়েন্সির চারপাশের সংকীর্ণ রেঞ্জ সরিয়ে দেয়"
+  },
+  "@eqPeak": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের ধরন যা একটি ফ্রিকোয়েন্সির চারপাশে বুস্ট বা কাট করে (বেল আকৃতি)"
+  },
+  "@exclusive": {
+    "description": "এক্সক্লুসিভ আউটপুট মোড, যেখানে শুধু এই অ্যাপ অডিও ডিভাইস ব্যবহার করতে পারে"
+  },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
       "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@fadeOnPlayPause": {
+    "description": "প্লে বা পজ করার সময় ভলিউম ফেডের সংক্ষিপ্ত নাম"
+  },
+  "@forcedOffBy": {
+    "description": "একটি মোড দ্বারা নিষ্ক্রিয় করা অপশনগুলোর উপরে হেডার, {mode} হলো তার নাম যেমন বিট-পারফেক্ট বা USB ডিরেক্ট অ্যাক্সেস",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "@frequency": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের কেন্দ্র ফ্রিকোয়েন্সি, Hz-এ"
+  },
+  "@gain": {
+    "description": "একটি ইকুয়ালাইজার ব্যান্ড কতটা বুস্ট বা কাট করে, dB-এ"
+  },
+  "@graphicEqualizerBands": {
+    "placeholders": {
+      "count": {
         "format": "decimalPattern",
         "type": "int"
       }
@@ -290,11 +390,21 @@
       }
     }
   },
+  "@limiter": {
+    "description": "ইকুয়ালাইজার অপশন যা বুস্ট করা অডিও কখনো ক্লিপ না করার জন্য পিকগুলো softly ক্যাপ করে"
+  },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
         "format": "decimalPattern",
         "type": "int"
+      }
+    }
+  },
+  "@lyricsFilesArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
       }
     }
   },
@@ -315,6 +425,9 @@
         "type": "int"
       }
     }
+  },
+  "@monoAudio": {
+    "description": "বাম ও ডান চ্যানেল একসাথে মেশায়, যাতে দুই দিকেই একই শব্দ বাজে"
   },
   "@newTracksRecommendedSubtitle": {
     "placeholders": {
@@ -346,6 +459,9 @@
         "type": "String"
       }
     }
+  },
+  "@otherAppsSounds": {
+    "description": "অন্য অ্যাপ ও নোটিফিকেশনের শব্দ, যা বিট-পারফেক্টের মতো মোড আউটপুট ডিভাইস থেকে দূরে রাখে"
   },
   "@partyAddedBy": {
     "placeholders": {
@@ -386,12 +502,21 @@
       }
     }
   },
+  "@preamp": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের আগে প্রয়োগ করা গেইন, সাধারণত নেগেটিভ যাতে বুস্টের জন্য জায়গা থাকে"
+  },
+  "@qFactor": {
+    "description": "ইকুয়ালাইজার ব্যান্ডের Q ফ্যাক্টর: কতটা সংকীর্ণ, বেশি হলে আরও সংকীর্ণ"
+  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
         "type": "int"
       }
     }
+  },
+  "@resample": {
+    "description": "অডিওকে ভিন্ন স্যাম্পল রেটে রূপান্তর করা"
   },
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
@@ -415,6 +540,9 @@
       }
     }
   },
+  "@signalPath": {
+    "description": "ফাইল থেকে আউটপুট ডিভাইস পর্যন্ত অডিওর প্রতিটি ধাপ"
+  },
   "@similarDiscoverDateSubtitle": {
     "placeholders": {
       "currentTrack": {
@@ -429,12 +557,34 @@
       }
     }
   },
+  "@sliders": {
+    "description": "ইকুয়ালাইজারকে উল্লম্ব গেইন স্লাইডার হিসেবে দেখায়"
+  },
+  "@slope": {
+    "description": "লো/হাই পাস ফিল্টারের খাড়াই, dB per octave-এ"
+  },
+  "@sourcePerScope": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      },
+      "scope": {
+        "type": "String"
+      }
+    }
+  },
   "@suggestionSubtitle": {
     "placeholders": {
       "site": {
         "type": "String"
       }
     }
+  },
+  "@systemAudioEffects": {
+    "description": "অ্যান্ড্রয়েড বা অন্য অ্যাপ দ্বারা সিস্টেম-ওয়াইড প্রয়োগ করা অডিও ইফেক্ট"
+  },
+  "@templates": {
+    "description": "রেডিমেড ইকুয়ালাইজার লেআউট, যেমন একটি ফ্ল্যাট ১০ ব্যান্ড গ্রাফিক ইকুয়ালাইজার"
   },
   "@trackPathOldNew": {
     "placeholders": {
@@ -445,6 +595,54 @@
         "type": "String"
       }
     }
+  },
+  "@turnsOff": {
+    "description": "একটি মোড (বিট-পারফেক্ট, USB ডিরেক্ট) যে অপশনগুলো বন্ধ করে তার তালিকার আগে লেবেল"
+  },
+  "@usbDirect": {
+    "description": "অপশন যেখানে অ্যাপ সরাসরি USB DAC-এর সাথে কথা বলে, অ্যান্ড্রয়েডের অডিও সিস্টেমের মাধ্যমে না গিয়ে"
+  },
+  "@usbDirectAwaitingPermission": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectFailed": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectHardwareVolume": {
+    "description": "ভলিউম USB DAC-এর নিজস্ব ভলিউম কন্ট্রোল দ্বারা পরিবর্তিত হয়"
+  },
+  "@usbDirectPermissionDenied": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectUnsupportedDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@useForDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    },
+    "description": "প্রদত্ত আউটপুট ডিভাইস ব্যবহার করার সময় এই ইকুয়ালাইজার প্রিসেট স্বয়ংক্রিয়ভাবে প্রয়োগ করে"
+  },
+  "@volumeKeys": {
+    "description": "ডিভাইসের ফিজিক্যাল ভলিউম বাটন"
   },
   "@yearInSongs": {
     "placeholders": {
@@ -478,6 +676,7 @@
   "addAllAndRemoveOldOnes": "সব যোগ করুন এবং পুরনোগুলো সরিয়ে দিন",
   "addAsANewPlaylist": "একটি নতুন প্লেলিস্ট হিসেবে যোগ করুন",
   "addAudioToLocalLibrary": "স্থানীয় লাইব্রেরিতে অডিও যোগ করুন",
+  "addBand": "ব্যান্ড যোগ করুন",
   "addFolder": "ফোল্ডার যোগ করুন",
   "addGroup": "গ্রুপ যোগ করুন",
   "addLanguage": "ভাষা যোগ করুন",
@@ -493,6 +692,7 @@
   "addToPlaylist": "প্লেলিস্টে যোগ করুন",
   "addTracksAtTheBeginning": "তালিকার শুরুতে যোগ করুন",
   "added": "যোগ করা হয়েছে",
+  "address": "ঠিকানা",
   "advanced": "উন্নত",
   "advancedSettings": "উন্নত সেটিংস",
   "advancedSettingsSubtitle": "উন্নত সেটিংস, পরিবর্তন না করাই শ্রেয়",
@@ -515,6 +715,8 @@
   "alwaysExpandedSearchbar": "সর্বদা প্রসারিত সার্চবার",
   "alwaysRestore": "সর্বদা পুনরুদ্ধার করুন",
   "and": "এবং",
+  "androidMixer": "অ্যান্ড্রয়েড মিক্সার",
+  "animated": "অ্যানিমেটেড",
   "animatingThumbnailIntensity": "থাম্বনেইল অ্যানিমেশন তীব্রতা",
   "animatingThumbnailInversed": "বিপরীত অ্যানিমেশন",
   "animatingThumbnailInversedSubtitle": "উচ্চ বিটের সময় থাম্বনেইল ছোট হয়ে যাবে",
@@ -526,6 +728,7 @@
   "appearsOn": "অন্যান্য অ্যালবাম",
   "artist": "শিল্পী",
   "artists": "শিল্পী",
+  "artistsMap": "আর্টিস্ট ম্যাপ",
   "artwork": "আর্টওয়ার্ক",
   "artworkGestures": "আর্টওয়ার্ক নিয়ন্ত্রণ",
   "artworks": "আর্টওয়ার্ক",
@@ -533,6 +736,7 @@
   "audioCache": "অডিও ক্যাশ",
   "audioConfigs": "অডিও সেটিংস",
   "audioOnly": "শুধুমাত্র অডিও",
+  "aurora": "অরোরা",
   "auto": "স্বয়ংক্রিয়",
   "autoBackupInterval": "স্বয়ংক্রিয় ব্যাকআপ ব্যবধান",
   "autoColoring": "স্বয়ংক্রিয় রঙ নির্ধারণ",
@@ -544,24 +748,40 @@
   "autoSkipOnce": "স্বয়ংক্রিয়ভাবে একবার এড়িয়ে যান",
   "autoStartRadio": "অটো-রেডিও চালু করুন",
   "autoStartRadioSubtitle": "একটি একক ট্র্যাক চালানোর সময় স্বয়ংক্রিয়ভাবে একটি মিক্স প্লেলিস্ট যোগ করে",
-  "autoSyncInterval": "অটো সিঙ্ক এর সময়সীমা",
+  "autoSyncInterval": "অটো সিঙ্ক এর সময়সীমা",
+  "autoTrackNumbers": "স্বয়ংক্রিয় ট্র্যাক নম্বর",
+  "autoTrackNumbersSubtitle": "প্রতি ডিস্কে বর্তমান ক্রম অনুযায়ী ট্র্যাক নম্বর দিন",
   "automaticBackup": "স্বয়ংক্রিয় ব্যাকআপ",
   "automaticBackupSubtitle": "এটি ব্যাকআপ ফোল্ডারে থাকা সর্বশেষ ব্যাকআপ ফাইলটি স্বয়ংক্রিয়ভাবে রিস্টোর (Restore) করে",
   "availableDevices": "উপলব্ধ ডিভাইস",
+  "average": "গড়",
+  "backgroundEffect": "ব্যাকগ্রাউন্ড ইফেক্ট",
   "backupAndRestore": "ব্যাকআপ ও পুনরুদ্ধার",
   "backupAndRestoreSubtitle": "আপনার ডাটাবেস এবং সেটিংস ব্যাকআপ করুন",
+  "backupHistoryBeforeImporting": "ইমপোর্ট করার আগে হিস্ট্রি ব্যাকআপ করুন",
   "balanced": "ভারসাম্যপূর্ণ",
+  "bars": "বার",
+  "beatRings": "বিট রিং",
   "beta": "Beta",
   "betweenDates": "তারিখের মধ্যে",
   "bitDepth": "বিট ডেপথ (Bit Depth)",
+  "bitPerfect": "বিট-পারফেক্ট",
+  "bitPerfectActiveOn": "{device}-এ {format}",
+  "bitPerfectNoDevice": "এই আউটপুটে উপলব্ধ নয়, USB ডিরেক্ট অ্যাক্সেস চেষ্টা করুন",
+  "bitPerfectSubtitle": "অডিওকে অপরিবর্তিত অবস্থায় চালায়",
+  "bitPerfectUnsupportedFormat": "এই ট্র্যাকটি এই আউটপুটে অপরিবর্তিত অবস্থায় চলতে পারে না",
+  "bitPerfectUpTo": "{format} পর্যন্ত বিট-পারফেক্ট",
   "bitrate": "বিটরেট",
   "bits": "বিট",
   "blacklist": "ব্ল্যাকলিস্ট",
   "block": "ব্লক করুন",
   "blockedDevices": "ব্লক করা ডিভাইসসমূহ",
+  "blur": "ব্লার",
   "borderRadiusMultiplier": "বর্ডার রেডিয়াস",
+  "bugReport": "বাগ রিপোর্ট",
   "busiestDay": "ব্যস্ততম দিন",
   "cache": "ক্যাশ",
+  "calculation": "গণনা",
   "cancel": "বাতিল করুন",
   "canceled": "বাতিল করা হয়েছে",
   "changed": "পরিবর্তিত",
@@ -569,18 +789,21 @@
   "changelogSubtitle": "Namida-তে নতুন কী যোগ বা ঠিক করা হয়েছে তা দেখুন",
   "channel": "চ্যানেল",
   "channels": "চ্যানেল",
+  "chapters": "অধ্যায়",
   "charts": "চার্ট",
   "check": "চেক করুন",
   "checkForMore": "আরও চেক করুন",
   "checkList": "চেকলিস্ট",
   "choose": "বেছে নিন",
   "chooseWhatToClear": "কি সাফ করবেন তা বেছে নিন",
+  "christmas": "বড়দিন",
   "claim": "ক্লেইম করুন",
   "cleanup": "পরিষ্কার করুন",
   "clear": "সাফ করুন",
   "clearAudioCache": "অডিওর ক্যাশ সাফ করুন",
   "clearImageCache": "ছবির ক্যাশ সাফ করুন",
   "clearImageCacheWarning": "সতর্কতা: লাইব্রেরি ট্র্যাকে কোনো আর্টওয়ার্ক থাকবে না! শুধুমাত্র ইমেজ ক্যাশ পুনরায় তৈরি করার জন্য এটি ব্যবহার করুন।",
+  "clearServerCache": "সার্ভার ক্যাশ সাফ করুন",
   "clearTrackItem": "ট্র্যাকের বিষয়বস্তু সাফ করুন",
   "clearTrackItemMultiple": "{number, plural, one{ট্র্যাকের বিষয়বস্তু সাফ করুন} other{{number}টি ট্র্যাকের বিষয়বস্তু সাফ করুন}}",
   "clearVideoCache": "ভিডিওর ক্যাশ সাফ করুন",
@@ -588,10 +811,12 @@
   "client": "ক্লায়েন্ট",
   "clock": "ঘড়ি",
   "clockOnly": "শুধু ঘড়ি",
+  "color": "রঙ",
   "colorPalette": "কালার প্যালেট",
   "colorPaletteNote1": "চাইলে লং-প্রেস করে রঙ সরিয়ে ফেলতে পারেন",
   "colorPaletteNote2": "ডিফল্ট রঙ হিসেবে ব্যবহার করতে মিক্সে ট্যাপ করুন",
   "colorPalettes": "কালার প্যালেট",
+  "colorWhenExpanded": "প্রসারিত অবস্থায় রঙ",
   "comment": "কমেন্ট",
   "comments": "কমেন্ট",
   "completedAlbums": "সম্পূর্ণ অ্যালবামসমূহ",
@@ -604,6 +829,7 @@
   "confirm": "নিশ্চিত করুন",
   "confirmRefresh": "আপনি কি রিফ্রেশ করতে চান?",
   "connect": "কানেক্ট করুন",
+  "connectByIp": "IP দিয়ে কানেক্ট করুন",
   "connectedDevices": "সংযুক্ত ডিভাইসসমূহ",
   "connectionAccepted": "কানেকশন গৃহীত হয়েছে",
   "connectionBlocked": "কানেকশন ব্লক করা হয়েছে",
@@ -647,12 +873,15 @@
   "createNewSmartPlaylist": "নতুন স্মার্ট প্লেলিস্ট তৈরি করুন",
   "createdBackupSuccessfully": "ব্যাকআপ তৈরি করা হয়েছে",
   "createdBackupSuccessfullySub": "ব্যাকআপ ফাইল সফলভাবে তৈরি করা হয়েছে",
+  "crossfade": "ক্রসফেড",
   "crossfadeDuration": "ক্রসফেড সময়কাল",
   "crossfadeTriggerSeconds": "{seconds, plural, one{শেষ {seconds} সেকেন্ডে স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করুন} other{শেষ {seconds} সেকেন্ডে স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করুন}}",
   "crossfadeTriggerSecondsDisabled": "স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করবেন না",
+  "curve": "কার্ভ",
   "custom": "কাস্টম",
   "customizations": "কাস্টমাইজেশন",
   "customizationsSubtitle": "Namida-কে আপনার নিজের মতো করে কাস্টমাইজ করুন",
+  "daily": "দৈনিক",
   "dataIsProvidedByName": "ডেটা সরবরাহকারী: {name}",
   "dataSaver": "ডেটা সেভার",
   "dataSaverMode": "ডেটা সেভার মোড",
@@ -665,6 +894,8 @@
   "dateTimeFormat": "তারিখ ও সময়ের ফরম্যাট",
   "day": "দিন",
   "days": "দিন",
+  "decoder": "ডিকোডার",
+  "deepOcean": "গভীর সমুদ্র",
   "defaultBackupLocation": "ডিফল্ট ব্যাকআপ অবস্থান",
   "defaultColor": "ডিফল্ট রঙ",
   "defaultColorSubtitle": "প্লেয়ারে ব্যবহৃত হওয়ার জন্য একটি রঙ নির্ধারণ করুন",
@@ -681,6 +912,7 @@
   "developer": "ডেভেলপার",
   "development": "ডেভেলপমেন্ট",
   "deviceName": "ডিভাইসের নাম",
+  "diagnostics": "ডায়াগনস্টিকস",
   "dictionary": "ডিকশনারি",
   "didYouMean": "আপনি কি বোঝাতে চেয়েছেন",
   "dimIntensity": "ম্লান করার তীব্রতা",
@@ -692,9 +924,12 @@
   "disableSearchCleanup": "সার্চ ক্লিনআপ নিষ্ক্রিয় করুন",
   "discNumber": "ডিস্ক নম্বর",
   "discNumberTotal": "মোট ডিস্ক সংখ্যা",
+  "discard": "বাতিল করুন",
+  "discardChanges": "পরিবর্তন বাতিল করবেন?",
   "disconnect": "ডিসকানেক্ট করুন",
   "discover": "ডিসকভার",
   "discoveries": "ডিসকভার সমূহ",
+  "discoveryFailedTryReenablingNetworkAdapter": "ডিসকভারি ব্যর্থ হয়েছে, আপনার নেটওয়ার্ক অ্যাডাপ্টার পুনরায় চালু করুন বা ডিভাইস রিস্টার্ট করুন",
   "dislike": "ডিসলাইক",
   "dismissibleMiniplayer": "খারিজযোগ্য মিনিপ্লেয়ার",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "সিক করার সময় পার্থক্যের পরিবর্তে প্রকৃত অবস্থান প্রদর্শন করুন",
@@ -712,6 +947,7 @@
   "displayThirdRowInTrackTile": "ট্র্যাক বক্সে তৃতীয় সারি প্রদর্শন করুন",
   "displayTrackNumberInAlbumPage": "অ্যালবাম পেজে ট্র্যাক নম্বর প্রদর্শন করুন",
   "displayTrackNumberInAlbumPageSubtitle": "অ্যালবাম পেজে ট্র্যাক নম্বর সম্বলিত একটি ছোট বাক্স প্রদর্শন করুন",
+  "dither": "ডিদার",
   "doNothing": "কিছুই করবে না",
   "doesNotContain": "অন্তর্ভুক্ত নয়",
   "donate": "অনুদান দিন",
@@ -723,20 +959,25 @@
   "dontResume": "পুনরায় শুরু করবেন না",
   "doubleTapToToggleLyrics": "আর্টওয়ার্কে ডাবল ট্যাপ করে লিরিক্স দেখুন",
   "download": "ডাউনলোড",
+  "downloadingWillBeSkipped": "ডাউনলোড বাদ দেওয়া হবে",
   "downloadingWillOverrideIt": "ডাউনলোড করলে এটি ওভাররাইড করা হবে",
   "downloads": "ডাউনলোড",
   "downloadsMetadataTags": "মেটাডেটা ট্যাগ ডাউনলোড করুন",
   "downloadsMetadataTagsSubtitle": "ডিফল্টভাবে ভিডিও তথ্য থেকে শিল্পী, শিরোনাম ও অ্যালবাম বের করুন",
+  "downmix": "ডাউনমিক্স",
   "dragToSeek": "সিক করতে টেনে আনুন",
   "duckAudio": "অডিও ধীর করুন",
   "duplicatedItemsAdding": "আপনি এমন কিছু আইটেম যোগ করার চেষ্টা করছেন যা ইতিমধ্যে এই প্লেলিস্টে বিদ্যমান",
   "duplicatedTracks": "ডুপ্লিকেট ট্র্যাক",
   "duration": "সময়কাল",
   "edgeColorsSwitching": "এজ কালার সুইচিং",
+  "edgeLights": "এজ লাইট",
   "edit": "সম্পাদনা",
   "editArtwork": "আর্টওয়ার্ক সম্পাদনা করুন",
   "editTags": "ট্যাগ সম্পাদনা করুন",
   "email": "ইমেইল",
+  "embed": "এমবেড",
+  "embeddedLyricsArePrioritized": "লিরিক্স ফাইলের পরিবর্তে এমবেড করা লিরিক্স ব্যবহৃত হচ্ছে। সেগুলো ব্যবহার করতে \"{setting}\" বন্ধ করুন বা এই লিরিক্সগুলো এমবেড করুন",
   "emptyNonMeaningfulTagFields": "আপনার কাছে খালি মানসহ ফিল্ড রয়েছে, নিশ্চিত করুন যে আপনি সত্যিই সেগুলো সম্পাদনা করতে চান",
   "emptyValue": "খালি মান",
   "enableArtworkCache": "আর্টওয়ার্ক ক্যাশ সক্রিয় করুন",
@@ -767,15 +1008,28 @@
   "enableVideoPlayback": "ভিডিও প্লেব্যাক সক্রিয় করুন",
   "endsWith": "দিয়ে শেষ হয়",
   "enterSymbol": "দয়া করে একটি চিহ্ন দিন",
+  "enterTheAddressShownOnTheOtherDevice": "অন্য ডিভাইসে সার্ভারের নিচে দেখানো ঠিকানাটি লিখুন",
+  "eqAllPass": "অল পাস",
+  "eqBandPass": "ব্যান্ড পাস",
+  "eqHighPass": "হাই পাস",
+  "eqHighShelf": "হাই শেলফ",
+  "eqLowPass": "লো পাস",
+  "eqLowShelf": "লো শেলফ",
+  "eqNotch": "নচ",
+  "eqPeak": "পিক",
   "equalizer": "ইকুয়ালাইজার",
+  "equalizerImportFailed": "কোন ইকুয়ালাইজার ফিল্টার পাওয়া যায়নি",
   "error": "ত্রুটি",
   "errorFetchingVideoList": "ভিডিও তালিকা আনতে সমস্যা হচ্ছে",
   "errorPlayingTrack": "ট্র্যাক চালাতে ত্রুটি",
+  "exclude": "বাদ দিন",
   "excludedFodlers": "বর্জিত ফোল্ডার",
+  "exclusive": "এক্সক্লুসিভ",
   "exists": "বিদ্যমান",
   "exit": "প্রস্থান",
   "exitAppSubtitle": "প্রস্থান করতে আবার ট্যাপ করুন",
   "expandedMiniplayer": "প্রসারিত মিনিপ্লেয়ার",
+  "export": "এক্সপোর্ট",
   "exportAsM3u": "M3U হিসেবে এক্সপোর্ট করুন",
   "extension": "এক্সটেনশন",
   "externalFiles": "বাহ্যিক ফাইল",
@@ -788,11 +1042,13 @@
   "extras": "অতিরিক্ত",
   "extrasSubtitle": "আপনার অভিজ্ঞতা ঠিক করতে অতিরিক্ত সেটিংস",
   "extreme": "উচ্চ",
+  "fadeOnPlayPause": "প্লে/পজ ফেড",
   "failed": "ব্যর্থ হয়েছে",
   "failedEdits": "ব্যর্থ সম্পাদনাগুলো",
   "favourite": "ফেভারিট",
   "favouritedDate": "পছন্দের তারিখ",
   "favourites": "পছন্দের তালিকা",
+  "featureRequest": "ফিচার রিকোয়েস্ট",
   "features": "ফিচার",
   "fetching": "লোড হচ্ছে",
   "fetchingOfAllVideos": "সব ভিডিও লোড করা হচ্ছে",
@@ -813,8 +1069,12 @@
   "filterType": "ফিল্টারের ধরন",
   "filtered": "ফিল্টার করা হয়েছে",
   "filteredBySizeAndDuration": "সাইজ এবং সময়কাল দ্বারা ফিল্টার করা ট্র্যাক",
+  "find": "খুঁজুন",
+  "findAndReplace": "খুঁজুন ও প্রতিস্থাপন করুন",
   "finished": "সম্পন্ন হয়েছে",
   "finishedUpdatingLibrary": "লাইব্রেরি আপডেট সম্পন্ন হয়েছে",
+  "fireflies": "ফায়ারফ্লাই",
+  "fireworks": "আতশবাজি",
   "firstListen": "প্রথম শ্রবণ",
   "fixYtdlpBigThumbnailSize": "yt-dlp বড় থাম্বনেইল সাইজ ঠিক করুন",
   "floatingActionButton": "ভাসমান অ্যাকশন বাটন",
@@ -830,8 +1090,13 @@
   "forceSquaredTrackThumbnail": "সকল ট্র্যাক থাম্বনেইল বর্গাকার করুন",
   "forceStopColorPaletteGeneration": "কালার প্যালেট এক্সট্র্যাক্ট করা বন্ধ করবেন? আপনি পরে এটি আবার চালিয়ে যেতে পারবেন",
   "forceUseGlobalConfig": "গ্লোবাল কনফিগ ব্যবহার করুন",
+  "forcedOffBy": "ধূসর করা অপশনগুলো {mode} দ্বারা বন্ধ করা হয়েছে",
   "format": "ফরম্যাট",
+  "frequency": "ফ্রিকোয়েন্সি",
+  "fromClipboard": "ক্লিপবোর্ড থেকে",
   "fullscreen": "ফুলস্ক্রিন",
+  "gain": "গেইন",
+  "galaxy": "গ্যালাক্সি",
   "gaplessPlayback": "বিরতিহীন প্লেব্যাক",
   "generate": "তৈরি করুন",
   "generateFromDates": "সময় অনুযায়ী",
@@ -840,6 +1105,7 @@
   "genre": "জনরা",
   "genres": "জনরা",
   "global": "গ্লোবাল",
+  "glow": "গ্লো",
   "goToAlbum": "অ্যালবামে যান",
   "goToArtist": "শিল্পীতে যান",
   "goToChannel": "চ্যানেলে যান",
@@ -847,11 +1113,15 @@
   "goToTrack": "ট্র্যাকে যান",
   "goodLooking": "আকর্ষণীয়",
   "grantStoragePermission": "স্টোরেজ পারমিশন দিন",
+  "graphicEqualizerBands": "গ্রাফিক, {count} ব্যান্ড",
   "group": "গ্রুপ",
   "groupArtworksByAlbum": "অ্যালবাম দ্বারা আর্টওয়ার্ক গ্রুপ করুন",
+  "groupByTags": "ট্যাগ দ্বারা গ্রুপ করুন",
   "guide": "নির্দেশিকা",
   "habits": "অভ্যাস",
+  "halloween": "হ্যালোউইন",
   "hapticFeedback": "হ্যাপটিক ফিডব্যাক",
+  "hashtag": "হ্যাশট্যাগ",
   "heightOfAlbumTile": "অ্যালবাম টাইলের উচ্চতা",
   "heightOfTrackTile": "ট্র্যাক টাইলের উচ্চতা",
   "hideSkipButtonAfter": "‘স্কিপ’ বাটন লুকানোর সময়কাল",
@@ -881,6 +1151,7 @@
   "importLastFmHistoryGuide": "1. {lastfmCsvLink} -এ যান।\n\n2. আপনার ইউজারনেম লিখুন, তথ্যগুলো সংগ্রহ করুন এবং সিএসভি (csv) ফাইলটি ডাউনলোড করুন।\n\n3. পরবর্তী স্ক্রিন থেকে ফাইলটি নির্বাচন করুন।",
   "importListenBrainzHistory": "ListenBrainz হিস্ট্রি ইম্পোর্ট করুন",
   "importListenBrainzHistoryGuide": "১. {link}-এ যান\n\n২. Request Data & Download অপশনে ক্লিক করুন\n\n৩. পরবর্তী স্ক্রিন থেকে zip বা json ফাইল নির্বাচন করুন।",
+  "importPlaylist": "প্লেলিস্ট ইমপোর্ট করুন",
   "importSpotifyHistory": "Spotify হিস্ট্রি ইমপোর্ট করুন",
   "importSpotifyHistoryGuide": "১. {link}-এ যান\n\n২. \"Extended streaming history\" অপশনটি সিলেক্ট করুন\n\n৩. Request Data & Download-এ ক্লিক করুন\n\n৪. পরবর্তী স্ক্রিন থেকে zip অথবা json ফাইল বাছাই করুন।",
   "importTimeRange": "সময়সীমা ইমপোর্ট করুন",
@@ -933,6 +1204,7 @@
   "lastPlayedPosition": "সর্বশেষ শ্রবণের অবস্থান",
   "latestQueue": "সাম্প্রতিক কিউ",
   "learnMore": "আরও জানুন",
+  "left": "বাম",
   "leftAction": "বাম দিকের অ্যাকশন",
   "legacyAuthentication": "লিগ্যাসি অথেন্টিকেশন",
   "libraryReach": "লাইব্রেরি রিচ",
@@ -942,9 +1214,12 @@
   "licenseSubtitle": "Namida-তে ব্যবহৃত লাইসেন্স এবং চুক্তিসমূহ দেখুন",
   "like": "লাইক",
   "liked": "লাইক করা হয়েছে",
+  "limit": "সীমা",
+  "limiter": "লিমিটার",
   "link": "লিঙ্ক",
   "listOfFolders": "নির্বাচিত ফোল্ডার",
   "listeningClock": "লিসেনিং ক্লক",
+  "listensPerMonth": "মাসিক শ্রবণ",
   "loadAll": "সব লোড করুন",
   "loadingFile": "ফাইল লোড হচ্ছে",
   "local": "স্থানীয়",
@@ -961,19 +1236,30 @@
   "loudnessEnhancer": "লাউডনেস এনহ্যান্সার",
   "lyricist": "গীতিকার",
   "lyrics": "লিরিক্স",
+  "lyricsDeleteWithTrack": "ট্র্যাকের সাথে লিরিক্স মুছুন",
+  "lyricsDeleteWithTrackSubtitle": "অন্য ট্র্যাক যে লিরিক্স ব্যবহার করে সেগুলো রাখা হয়",
+  "lyricsFilesArePrioritized": "এমবেড করা লিরিক্সের পরিবর্তে লিরিক্স ফাইল ব্যবহৃত হচ্ছে। সেগুলো ব্যবহার করতে \"{setting}\" চালু করুন",
+  "lyricsFolders": "লিরিক্স ফোল্ডার",
+  "lyricsFoldersSubtitle": "ট্র্যাক ফাইলের নাম দ্বারা মেলানো হয়",
+  "lyricsSaveLocation": "লিরিক্স সংরক্ষণের অবস্থান",
+  "lyricsSaveLocationNotWritable": "লিরিক্স সংরক্ষণের অবস্থানে সংরক্ষণ করা যায়নি, ক্যাশ ব্যবহার করা হয়েছে",
+  "lyricsSaveLocationSubtitle": "অবস্থানে লেখা না গেলে ক্যাশ ব্যবহার করা হয়",
   "lyricsSource": "লিরিক্সের উৎস",
   "m3uPlaylist": "M3U প্লেলিস্ট",
   "makeYourFirstListen": "আপনার প্রথম শ্রবণে পরিণত করুন!",
   "manage": "পরিচালনা করুন",
+  "manageTags": "ট্যাগ পরিচালনা করুন",
   "manageYourAccounts": "আপনার অ্যাকাউন্ট পরিচালনা করুন",
   "manualBackup": "ম্যানুয়াল",
   "manualBackupSubtitle": "একটি নির্দিষ্ট ফাইল নির্বাচন করুন",
   "markAsRead": "পড়া হয়েছে হিসেবে চিহ্নিত করুন",
   "matchAllTracks": "সবগুলো ট্র্যাক ম্যাচ করুন",
   "matchAllTracksNote": "এটি ম্যাচিং গতিতে প্রভাব ফেলতে পারে, কারণ এটি আপনার লাইব্রেরির সব ট্র্যাক চেক করবে",
+  "matchCase": "কেস মিলান",
   "matchingType": "ম্যাচিং এর ধরন",
   "maxAudioCacheSize": "অডিওর ক্যাশ সীমা",
   "maxImageCacheSize": "ছবির ক্যাশ সীমা",
+  "maxServerCacheSize": "সার্ভার ক্যাশ সীমা",
   "maxVideoCacheSize": "ভিডিওর ক্যাশ সীমা",
   "maximum": "সর্বোচ্চ",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "মিডিয়া স্টোর সক্রিয়, এর কোন প্রভাব থাকবে না",
@@ -1006,6 +1292,7 @@
   "minimumSegmentDuration": "সর্বনিম্ন সেগমেন্ট সময়কাল",
   "miniplayerCustomization": "মিনিপ্লেয়ার কাস্টমাইজেশন",
   "minutes": "মিনিট",
+  "mirroredBars": "মিররড বার",
   "missing": "অনুপস্থিত",
   "missingEntries": "অনুপস্থিত এন্ট্রি",
   "missingTracks": "অনুপস্থিত ট্র্যাক",
@@ -1013,6 +1300,7 @@
   "mixPlaylistGeneratedByYoutube": "ইউটিউব দ্বারা তৈরি মিক্স প্লেলিস্ট",
   "mixes": "মিক্স",
   "mobile": "মোবাইল",
+  "monoAudio": "মোনো অডিও",
   "month": "মাস",
   "months": "মাস",
   "mood": "মুড",
@@ -1022,6 +1310,7 @@
   "move": "সরান",
   "movies": "মুভি",
   "multipleTracksTagsEditNote": "আপনি এই ট্র্যাকগুলো সম্পাদনা করতে চলেছেন, \nঅপরিবর্তিত ক্ষেত্রগুলো একই থাকবে।",
+  "multipleValues": "একাধিক মান",
   "musicOfftopic": "মিউজিক অফটপিক",
   "name": "নাম",
   "nameContainsBadCharacter": "নামে অগ্রহণযোগ্য অক্ষর রয়েছে",
@@ -1040,6 +1329,7 @@
   "newTracksSimilarrReleaseDate": "সমসাময়িক",
   "newTracksSimilarrReleaseDateSubtitle": "{currentTrack} এর কাছাকাছি সময়ে মুক্তিপ্রাপ্ত ট্র্যাকগুলো যোগ করুন",
   "newTracksUnknownYear": "ট্র্যাকের বছর অজানা",
+  "newVideosAtTop": "নতুন ভিডিও উপরে যোগ করুন",
   "newest": "নতুন",
   "next": "পরবর্তী",
   "no": "না",
@@ -1092,9 +1382,14 @@
   "operationRequiresAccount": "অপারেশন {name} এর জন্য অ্যাকাউন্ট প্রয়োজন, অগ্রসর হতে সাইন ইন করুন",
   "operationRequiresMembership": "অপারেশন {operation} এর জন্য কমপক্ষে {name} সদস্যপদ প্রয়োজন",
   "or": "বা",
+  "otherAppsSounds": "অন্য অ্যাপের শব্দ",
   "others": "অন্যান্য",
+  "outline": "আউটলাইন",
   "output": "আউটপুট",
+  "outputDevice": "আউটপুট ডিভাইস",
   "outro": "সমাপ্তি",
+  "overlayEffect": "ওভারলে ইফেক্ট",
+  "overlayEffectSubtitle": "পুরো অ্যাপ ঢেকে দেয়",
   "overrideOldFilesInTheSameFolder": "একই ফোল্ডারে পুরনো ফাইলগুলিকে ওভাররাইড করুন",
   "palette": "প্যালেট",
   "paletteMix": "মিক্স",
@@ -1102,6 +1397,7 @@
   "paletteSelectedMix": "নির্বাচিত মিক্স",
   "parallelDownloads": "একযোগে ডাউনলোড",
   "parsed": "পার্স করা হয়েছে",
+  "particles": "কণা",
   "partyAddedBy": "{name} যুক্ত করেছেন",
   "partyApproximateMatch": "একটি ইউটিউব ভিডিওর সাথে মিলেছে, সঠিক নাও হতে পারে",
   "partyBan": "ব্যান করুন",
@@ -1212,6 +1508,7 @@
   "pause": "বিরতি",
   "pauseFadeDuration": "পজ ফেড এর সময়কাল",
   "pausePlayback": "প্লেব্যাক বিরতি দিন",
+  "per": "প্রতি",
   "percentage": "শতাংশ",
   "performanceMode": "কার্যক্ষমতা মোড",
   "performanceNote": "কার্যক্ষমতায় প্রভাব ফেলতে পারে",
@@ -1221,6 +1518,7 @@
   "personalizedRelatedVideosSubtitle": "এটি নিষ্ক্রিয় করলে ডেটা ব্যবহার বৃদ্ধি পাবে",
   "pickColorsFromDeviceWallpaper": "ডিভাইস ওয়ালপেপারের রঙ ব্যবহার করুন",
   "pickFromStorage": "স্টোরেজ থেকে বাছাই করুন",
+  "pin": "পিন করুন",
   "pinned": "পিন করা",
   "pitch": "পিচ",
   "plain": "সাধারণ",
@@ -1234,8 +1532,11 @@
   "playbackSetting": "প্লেব্যাক",
   "playbackSettingSubtitle": "অডিও বাটনে লং-প্রেস করে সরাসরি এই সেটিংস অ্যাক্সেস করুন",
   "playedPercentage": "শ্রবণের শতাংশ",
+  "playerBackground": "প্লেয়ার ব্যাকগ্রাউন্ড",
   "playlist": "প্লেলিস্ট",
+  "playlistTags": "প্লেলিস্ট ট্যাগ",
   "playlists": "প্লেলিস্ট",
+  "playlistsCount": "প্লেলিস্ট সংখ্যা",
   "playlistsImportM3uNative": "এটি শুধুমাত্র Namida-তে ব্যবহারের জন্য M3U প্লেলিস্ট ইম্পোর্ট করবে। মাইগ্রেট করলে এটি ব্যবহার করুন",
   "playlistsImportM3uSynced": "এটি স্বয়ংক্রিয়ভাবে ইনডেক্সার ফোল্ডার থেকে M3U প্লেলিস্ট ইম্পোর্ট করবে এবং মূল M3U ফাইলের সাথে সিঙ্ক রাখবে। আপনি যদি অন্যান্য অ্যাপ থেকে প্লেলিস্ট অ্যাক্সেস/পরিবর্তন করেন তবে সক্রিয় করুন",
   "playlistsImportM3uSyncedAutoImport": "স্বয়ংক্রিয়ভাবে M3U প্লেলিস্ট ইম্পোর্ট করুন",
@@ -1246,6 +1547,7 @@
   "pleaseEnterALinkSubtitle": "উম্ম.. এটি কি একটি ইউটিউব লিঙ্ক?",
   "pleaseEnterAName": "দয়া করে একটি নাম দিন",
   "port": "পোর্ট",
+  "preamp": "প্রিঅ্যাম্প",
   "preventDuplicatedTracks": "ডুপ্লিকেট ট্র্যাক প্রতিরোধ করুন",
   "preventDuplicatedTracksSubtitle": "ট্র্যাক স্বতন্ত্রভাবে সনাক্ত করতে ফাইলের নাম ব্যবহার করে",
   "preview": "প্রিভিউ",
@@ -1258,14 +1560,19 @@
   "progress": "অগ্রগতি",
   "promptToChangeTrackPath": "সাধারণত এটি ঘটে যখন আপনি এই অ্যাপের বাইরে ফাইলটি ডিলিট, স্থানান্তর বা নাম পরিবর্তন করেন। আপনি কি বর্তমান পাথ (Path) আপডেট করতে চান?",
   "public": "সাধারণ",
+  "qFactor": "Q",
+  "question": "প্রশ্ন",
   "queue": "কিউ",
   "queues": "কিউসমূহ",
+  "rain": "বৃষ্টি",
+  "ramadan": "রমজান",
   "random": "র‍্যান্ডম",
   "randomPicks": "এলোমেলো বাছাই",
   "rating": "রেটিং",
   "reIndex": "রি-ইনডেক্স",
   "reIndexSubtitle": "আপনার মিউজিক লাইব্রেরি শুরু থেকে নতুন করে সাজান",
   "reIndexWarning": "এই প্রক্রিয়াটি সম্পন্ন হতে কিছুটা সময় নিতে পারে, যা আপনার লাইব্রেরির আকারের উপর নির্ভর করবে।\n\nযতক্ষণ আর্টওয়ার্ক বিদ্যমান ততক্ষণ সেগুলো পুনঃইনডেক্স করা হবে না",
+  "reactiveParticles": "রিঅ্যাকটিভ কণা",
   "readOnlyPlaylist": "রিড-অনলি প্লেলিস্ট",
   "reason": "কারণ",
   "receive": "গ্রহণ করুন",
@@ -1276,7 +1583,7 @@
   "recentQueues": "সাম্প্রতিক কিউ",
   "recentSearches": "সাম্প্রতিক অনুসন্ধানসমূহ",
   "recentlyAdded": "সাম্প্রতিক সংযোজন",
-  "reconnect": "পুনরায় কানেক্ট করুন",
+  "reconnect": "পুনরায় কানেক্ট করুন",
   "recordLabel": "রেকর্ড লেবেল",
   "rediscoveries": "রি-ডিসকভারি",
   "refresh": "রিফ্রেশ",
@@ -1291,11 +1598,14 @@
   "remixer": "রিমিক্সার",
   "remove": "সরান",
   "removeDuplicates": "ডুপ্লিকেটগুলো সরান",
+  "removeFromDownloads": "ডাউনলোড থেকে সরান",
   "removeFromFavourites": "পছন্দের তালিকা থেকে সরান",
   "removeFromLibrary": "লাইব্রেরি থেকে সরান",
   "removeFromPlaylist": "প্লেলিস্ট থেকে সরান",
   "removeQueue": "কিউ সরান",
   "removeSourceFromHistory": "হিস্ট্রি থেকে উৎস সরান",
+  "removeSponsorSegmentsFromDownloads": "ডাউনলোড থেকে স্পন্সর সেগমেন্ট সরান",
+  "removeSponsorSegmentsFromDownloadsSubtitle": "ডাউনলোড করা ফাইল থেকে নির্বাচিত ক্যাটাগরিগুলো কেটে বাদ দিন",
   "removeWhitespaces": "হোয়াইটস্পেস সরান",
   "removed": "সরানো হয়েছে",
   "rename": "নাম পরিবর্তন করুন",
@@ -1308,9 +1618,12 @@
   "repeatModeOne": "বর্তমান ট্র্যাক পুনরাবৃত্তি করুন",
   "repeatRate": "পুনরাবৃত্তির হার",
   "replaceAllListensWithAnotherTrack": "সব প্লে-হিস্ট্রি অন্য ট্র্যাক দিয়ে বদলে ফেলুন",
+  "replaceWith": "দিয়ে প্রতিস্থাপন করুন",
   "replies": "রিপ্লাই",
   "reply": "রিপ্লাই",
+  "reportAnIssue": "সমস্যা রিপোর্ট করুন",
   "requiresClearingImageCacheAndReIndexing": "ছবির ক্যাশ সাফ করা এবং পুনরায় ইনডেক্সিং করা প্রয়োজন",
+  "resample": "রিস্যাম্পল",
   "rescanVideos": "ভিডিও স্ক্যান করুন",
   "resetBrightness": "উজ্জ্বলতা রিসেট করুন",
   "resetToDefault": "ডিফল্ট মান পুনরুদ্ধার করা হয়েছে",
@@ -1328,20 +1641,26 @@
   "resumeIfWasPausedForLessThanNMin": "{number, plural, one{পুনরায় শুরু করুন যদি {number} মিনিটের কম সময়ের জন্য থামানো হয়ে থাকে} other{পুনরায় শুরু করুন যদি {number} মিনিটের কম সময়ের জন্য থামানো হয়ে থাকে}}",
   "returnYoutubeDislike": "রিটার্ন ইউটিউব ডিসলাইক",
   "reverseOrder": "উল্টো ক্রম",
+  "right": "ডান",
   "rightAction": "ডান দিকের অ্যাকশন",
   "ringtone": "রিংটোন",
   "romanization": "রোমানাইজেশন",
   "rule": "নিয়ম",
   "ruleAlreadyExists": "নিয়মটি ইতোমধ্যে রয়েছে",
+  "sakura": "সাকুরা",
   "sameDirectoryOnly": "শুধুমাত্র একই ডিরেক্টরি",
   "sample": "নমুনা",
   "sampleRate": "নমুনা হার",
   "save": "সংরক্ষণ করুন",
+  "saveAsPreset": "প্রিসেট হিসেবে সংরক্ষণ করুন",
+  "saveFilter": "ফিল্টার সংরক্ষণ করুন",
   "saveToLibrary": "লাইব্রেরিতে সংরক্ষণ করুন",
   "savedIn": "সংরক্ষিত হয়েছে",
+  "saving": "সংরক্ষণ করা হচ্ছে",
   "scaleMultiplier": "আর্টওয়ার্ক সাইজ",
   "search": "সার্চ করুন",
   "searchYoutube": "ইউটিউবে সার্চ করুন",
+  "seasonalEffectsSubtitle": "ঋতু অনুযায়ী স্বয়ংক্রিয়ভাবে পরিবর্তিত হয়",
   "seconds": "সেকেন্ড",
   "seeProjectCodeOnSite": "{site}-এ প্রজেক্ট কোড দেখুন",
   "seekDuration": "সিক সময়কাল",
@@ -1349,6 +1668,8 @@
   "seekbar": "সিকবার",
   "selectAll": "সব নির্বাচন করুন",
   "selectFilesAlreadyInLocalLibrary": "স্থানীয় লাইব্রেরিতে থাকা ফাইল",
+  "selectPlaylists": "প্লেলিস্ট নির্বাচন করুন",
+  "selectedBy": "নির্বাচন করেছেন",
   "selectedTracks": "নির্বাচিত ট্র্যাক",
   "selfPromotion": "স্ব-প্রচার",
   "semitones": "সেমিটোন",
@@ -1359,6 +1680,7 @@
   "server": "সার্ভার",
   "serverAddress": "সার্ভার ঠিকানা",
   "serverBlockedThisDevice": "সার্ভার এই ডিভাইসটি ব্লক করেছে",
+  "serverCache": "সার্ভার ক্যাশ",
   "serverRejectedTheConnectionRequest": "সার্ভার কানেকশনের অনুরোধটি প্রত্যাখ্যান করেছে",
   "setAs": "হিসেবে সেট করুন",
   "setAsDefault": "ডিফল্ট হিসেবে সেট করুন",
@@ -1368,6 +1690,7 @@
   "setMoodsSubtitle": "আলাদা করতে কমা (,) ব্যবহার করুন",
   "setRating": "রেটিং সেট করুন",
   "setTags": "ট্যাগ সেট করুন",
+  "setTagsNestedSubtitle": "নেস্ট করতে স্ল্যাশ (/) ব্যবহার করুন",
   "setYoutubeLink": "ইউটিউব লিঙ্ক সেট করুন",
   "settings": "সেটিংস",
   "setupFirstStartup": "প্রাথমিক সেটআপ সম্পন্ন করুন",
@@ -1400,6 +1723,7 @@
   "signInYouNeedAccountToViewPage": "এই পৃষ্ঠা দেখতে আপনার একটি অ্যাকাউন্ট প্রয়োজন",
   "signOut": "সাইন আউট",
   "signOutFromName": "{name} থেকে সাইন আউট করবেন",
+  "signalPath": "অডিও পাথ",
   "signingInAllowsBasicUsage": "সাইন ইন করলে মৌলিক সুবিধাগুলো পাবেন",
   "signingInAllowsBasicUsageSubtitle": "প্যাট্রিয়ন বা কুপন ব্যবহার করে প্রাথমিক অ্যাক্সেস পান",
   "similarDiscoverDate": "আবিষ্কারের সময়কাল",
@@ -1417,6 +1741,8 @@
   "skipSponsorSegmentsInVideos": "ভিডিওর স্পন্সর অংশগুলো বাদ দিন",
   "sleepAfter": "সময় বা ট্র্যাক সেট করুন",
   "sleepTimer": "স্লিপ টাইমার",
+  "sliders": "স্লাইডার",
+  "slope": "স্লোপ",
   "smartPlaylist": "স্মার্ট প্লেলিস্ট",
   "smartPlaylists": "স্মার্ট প্লেলিস্ট",
   "socials": "সোশ্যাল মিডিয়া",
@@ -1425,11 +1751,15 @@
   "sortBy": "দ্বারা সাজান",
   "soundControl": "শব্দ নিয়ন্ত্রণ",
   "source": "উৎস",
+  "sourcePerScope": "{scope} প্রতি {source}",
   "speed": "স্পিড",
+  "splitByChapters": "অধ্যায় অনুযায়ী ভাগ করুন",
+  "splitByChaptersSubtitle": "প্রতিটি ইউটিউব অধ্যায়কে একটি ফোল্ডারে আলাদা ফাইল হিসেবে সংরক্ষণ করুন",
   "sponsor": "বিজ্ঞাপন",
   "sponsorblock": "স্পন্সরব্লক",
   "sponsorblockLeaderboard": "স্পন্সরব্লক লিডারবোর্ড",
   "staggeredAlbumGridView": "স্ট্যাগার্ড অ্যালবাম গ্রিডভিউ",
+  "starfield": "স্টারফিল্ড",
   "start": "শুরু করুন",
   "startServerToLetOtherDevicesConnectToThisDevice": "অন্যান্য ডিভাইসকে কানেক্ট করার জন্য সার্ভার চালু করুন",
   "startsWith": "দিয়ে শুরু হয়",
@@ -1452,6 +1782,7 @@
   "subscriptions": "সাবস্ক্রিপশন",
   "succeeded": "সফল হয়েছে",
   "suggestionSubtitle": "কোনো সমস্যা বা পরামর্শ থাকলে {site}-এ আমাদের জানাতে পারেন",
+  "sum": "যোগফল",
   "support": "সহায়তা",
   "supremacy": "সর্বোচ্চতা",
   "sussyBaka": "কিছুই পাওয়া যায়নি",
@@ -1461,10 +1792,13 @@
   "syncAppDataBetweenYourDevices": "আপনার ডিভাইসগুলোর মধ্যে অ্যাপের ডাটা সিঙ্ক করুন",
   "synced": "সিঙ্ক করা হয়েছে",
   "synopsis": "সারসংক্ষেপ",
+  "systemAudioEffects": "সিস্টেম অডিও ইফেক্ট",
+  "systemDefault": "সিস্টেম ডিফল্ট",
   "tagFields": "ট্যাগ ক্ষেত্রসমূহ",
   "tags": "ট্যাগ",
   "tapAction": "ট্যাপ অ্যাকশন",
   "tapToSeek": "সিক করতে ট্যাপ করুন",
+  "templates": "টেমপ্লেট",
   "text": "টেক্সট",
   "theFollowingChangesWereDetected": "এই পরিবর্তনগুলো শনাক্ত করা হয়েছে",
   "themeMode": "থিম মোড",
@@ -1478,6 +1812,7 @@
   "thisVideoIsLikelyDeletedOrSetToPrivate": "এই ভিডিওটি সম্ভবত ডিলিট করা হয়েছে বা ব্যক্তিগত হিসেবে সেট করা হয়েছে।",
   "thisWeek": "এই সপ্তাহে",
   "thisYear": "এই বছরে",
+  "threadsPerDownload": "প্রতি ডাউনলোডে থ্রেড",
   "thumbnails": "থাম্বনেইল",
   "title": "শিরোনাম",
   "today": "আজ",
@@ -1493,6 +1828,7 @@
   "totalTracksDuration": "মোট ট্র্যাকের সময়কাল",
   "track": "ট্র্যাক",
   "trackArtistsSeparator": "শিল্পী বিভাজক",
+  "trackFolder": "ট্র্যাক ফোল্ডার",
   "trackGenresSeparator": "জনরা বিভাজক",
   "trackInfo": "ট্র্যাকের তথ্য",
   "trackNotFound": "ট্র্যাক পাওয়া যায়নি",
@@ -1512,6 +1848,7 @@
   "tracks": "ট্র্যাক",
   "tracksExcludedByNomedia": ".nomedia দ্বারা বর্জিত ট্র্যাক",
   "tracksInfo": "ট্র্যাকের তথ্য",
+  "turnsOff": "বন্ধ করে",
   "type": "ধরন",
   "unblock": "আনব্লক করুন",
   "underrated": "অবমূল্যায়িত",
@@ -1524,13 +1861,24 @@
   "unlimited": "সীমাহীন",
   "unlisted": "তালিকাভুক্ত নয়",
   "unlock": "আনলক",
+  "unpin": "আনপিন করুন",
   "unsubscribe": "আনসাবস্ক্রাইব",
+  "untagged": "আনট্যাগড",
   "update": "আপডেট",
   "updateDirectoryPath": "ডিরেক্টরি পাথ (Path) আপডেট করুন",
   "updateMissingTracksOnly": "শুধুমাত্র অনুপস্থিত ট্র্যাক আপডেট করুন",
   "updating": "আপডেট করা হচ্ছে",
   "uploadDate": "আপলোডের তারিখ",
+  "usbDirect": "USB ডিরেক্ট অ্যাক্সেস",
+  "usbDirectAwaitingPermission": "{device}-এ অ্যাক্সেসের অনুমতি দিন",
+  "usbDirectFailed": "{device} সাড়া দেওয়া বন্ধ করেছে",
+  "usbDirectHardwareVolume": "DAC ভলিউম",
+  "usbDirectNoDevice": "একটি USB DAC সংযুক্ত করুন",
+  "usbDirectPermissionDenied": "{device}-এ অ্যাক্সেস প্রত্যাখ্যান করা হয়েছে",
+  "usbDirectSubtitle": "অ্যান্ড্রয়েডের অডিও সিস্টেম বাইপাস করে সরাসরি আপনার USB DAC-এ অডিও পাঠায়",
+  "usbDirectUnsupportedDevice": "{device} সমর্থিত নয়",
   "useCollapsedSettingTiles": "সংকুচিত সেটিংস টাইল ব্যবহার করুন",
+  "useForDevice": "{device}-এর জন্য ব্যবহার করুন",
   "useMediaStore": "মিডিয়া স্টোর ব্যবহার করুন",
   "useMediaStoreSubtitle": "✓ তাৎক্ষণিক ইনডেক্সিং\nx .nomedia মানা হবে\nx কিছু মেটাডেটা ট্যাগ অনুপস্থিত থাকবে\nx স্থানীয় লাইব্রেরির জন্য ইউটিউব ইন্টিগ্রেশন কাজ করবে না",
   "usePitchBlack": "পিচ ব্ল্যাক মোড",
@@ -1538,7 +1886,7 @@
   "used": "ব্যবহৃত",
   "value": "মান",
   "valueBetween50200": "মান অবশ্যই ৫০% থেকে ২০০% এর মধ্যে হতে হবে",
-  "versionMismatchMakeSureBothAppsAreOnTheSameVersion": "ভার্সন মিলছে না! নিশ্চিত করুন যে উভয় অ্যাপ একই ভার্সনের",
+  "versionMismatchMakeSureBothAppsAreOnTheSameVersion": "ভার্সন মিলছে না! নিশ্চিত করুন যে উভয় অ্যাপ একই ভার্সনের",
   "vibration": "কম্পন",
   "vibrationType": "কম্পনের ধরন",
   "video": "ভিডিও",
@@ -1560,9 +1908,15 @@
   "view": "দেখুন",
   "viewAll": "সব দেখুন",
   "views": "ভিউ",
+  "vignette": "ভিনিয়েট",
+  "visualizer": "ভিজুয়ালাইজার",
   "volume": "ভলিউম",
+  "volumeKeys": "ভলিউম কী",
+  "waitingForTheOtherDeviceToAccept": "অন্য ডিভাইস গ্রহণ করার অপেক্ষায়",
+  "wallpaper": "ওয়ালপেপার",
   "warning": "সতর্কতা",
   "waveformBarsCount": "ওয়েভফর্ম বার সংখ্যা",
+  "waves": "তরঙ্গ",
   "webmNoEditTagsSupport": "WEBM ফরম্যাট ট্যাগ সম্পাদনা সমর্থন করে না",
   "week": "সপ্তাহ",
   "weeks": "সপ্তাহ",
