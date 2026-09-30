@@ -14,11 +14,24 @@
       }
     }
   },
+  "@androidMixer": {
+    "description": "Android's own audio mixer, which mixes all apps and applies system volume and effects"
+  },
+  "@bitPerfect": {
+    "description": "Audio reaches the output device exactly as stored in the file, without any processing"
+  },
   "@bitPerfectActiveOn": {
     "placeholders": {
       "device": {
         "type": "String"
       },
+      "format": {
+        "type": "String"
+      }
+    }
+  },
+  "@bitPerfectUpTo": {
+    "placeholders": {
       "format": {
         "type": "String"
       }
@@ -622,6 +635,8 @@
   "alwaysExpandedSearchbar": "Завжди розгорнута панель пошуку",
   "alwaysRestore": "Завжди відновлювати",
   "and": "і",
+  "androidMixer": "Мікшер Android",
+  "animated": "Анімація",
   "animatingThumbnailIntensity": "Інтенсивність анімації мініатюр",
   "animatingThumbnailInversed": "Інверсія анімації",
   "animatingThumbnailInversedSubtitle": "Високі піки призведуть до зменшення розміру мініатюри",
@@ -659,15 +674,21 @@
   "automaticBackup": "Автоматичний",
   "automaticBackupSubtitle": "Автоматично застосовує останній файл резервної копії, знайдений у місці їх зберігання",
   "availableDevices": "Доступні пристрої",
+  "average": "Середнє",
+  "backgroundEffect": "Фоновий ефект",
   "backupAndRestore": "Резервне копіювання та відновлення",
   "backupAndRestoreSubtitle": "Резервне копіювання бази даних та налаштувань",
   "backupHistoryBeforeImporting": "Створювати резервну копію історії перед імпортом",
   "balanced": "Збалансований",
   "bars": "Смуги",
+  "beatRings": "Ритми",
   "beta": "Бета",
   "betweenDates": "Між датами",
   "bitDepth": "Розрядність",
+  "bitPerfect": "Побітово точне",
   "bitPerfectActiveOn": "{format} на {device}",
+  "bitPerfectNoDevice": "Недоступно для цього виходу, спробуйте прямий доступ через USB",
+  "bitPerfectUpTo": "Побітово точне до {format}",
   "bitrate": "Бітрейт",
   "bits": "біт",
   "blacklist": "Чорний список",
