@@ -1324,6 +1324,7 @@
   "outputDevice": "Пристрій виводу",
   "outro": "Завершальні титри",
   "overlayEffect": "Ефект накладання",
+  "overlayEffectSubtitle": "Покриває весь додаток",
   "overrideOldFilesInTheSameFolder": "Перезаписати старі файли в тій самій теці",
   "palette": "Палітра",
   "paletteMix": "Мікс",
