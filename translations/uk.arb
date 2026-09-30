@@ -554,6 +554,9 @@
   "@turnsOff": {
     "description": "Label before a list of options that a mode (bit-perfect, USB direct) turns off"
   },
+  "@usbDirect": {
+    "description": "Option where the app talks to a USB DAC itself instead of going through Android's audio system"
+  },
   "@usbDirectAwaitingPermission": {
     "placeholders": {
       "device": {
@@ -567,6 +570,9 @@
         "type": "String"
       }
     }
+  },
+  "@usbDirectHardwareVolume": {
+    "description": "The volume is changed by the USB DAC's own volume control"
   },
   "@usbDirectPermissionDenied": {
     "placeholders": {
@@ -625,6 +631,7 @@
   "addAllAndRemoveOldOnes": "Додати все та видалити старе",
   "addAsANewPlaylist": "Додати як новий плейлист",
   "addAudioToLocalLibrary": "Додати аудіо в локальну бібліотеку",
+  "addBand": "Додати смугу",
   "addFolder": "Додати теку",
   "addGroup": "Додати групу",
   "addLanguage": "Додати мову",
@@ -1079,6 +1086,7 @@
   "ifNotPlaying": "Якщо не відтворюється",
   "ignoreBatteryOptimizationsSubtitle": "Завантаження може бути обмежено, якщо для додатка обмежено споживання заряду акумулятора",
   "ignoreCommonPrefixesWhileSorting": "Ігнорувати поширені префікси під час сортування",
+  "ignorePrefixes": "Ігнорувати префікси",
   "ignores": "Ігнорує",
   "imageSource": "Джерело зображень",
   "immersiveMode": "Режим занурення",
@@ -1152,6 +1160,7 @@
   "licenseSubtitle": "Ліцензії та угоди, що використовуються Namida",
   "like": "Подобається",
   "liked": "Вподобані",
+  "limit": "Обмеження",
   "link": "Посилання",
   "listOfFolders": "Список тек",
   "listeningClock": "Годинник прослуховування",
@@ -1443,6 +1452,7 @@
   "pause": "Зупинити",
   "pauseFadeDuration": "Продовжити згасання при паузі",
   "pausePlayback": "Призупинити відтворення",
+  "per": "На",
   "percentage": "Відсоток",
   "performanceMode": "Продуктивний режим",
   "performanceNote": "Може вплинути на продуктивність",
@@ -1466,8 +1476,11 @@
   "playbackSetting": "Відтворення",
   "playbackSettingSubtitle": "Доступ до них можливий безпосередньо в плеєрі шляхом тривалого натискання кнопки аудіо",
   "playedPercentage": "Відсоток відтворення",
+  "playerBackground": "Фон плеєра",
   "playlist": "Плейлист",
+  "playlistTags": "Теги плейлистів",
   "playlists": "Плейлисти",
+  "playlistsCount": "Кількість плейлистів",
   "playlistsImportM3uNative": "Імпорт плейлистів M3U для використання тільки в Namida. Використовуйте, якщо мігруєте",
   "playlistsImportM3uSynced": "Автоматичний імпорт плейлистів M3U з тек індексатора та синхронізація їх з оригінальним файлом M3U. Використовуйте, якщо отримуєте доступ/модифікуєте плейлисти з інших додатків",
   "playlistsImportM3uSyncedAutoImport": "Автоматичний імпорт плейлистів M3U",
@@ -1501,6 +1514,7 @@
   "reIndex": "Переіндексувати",
   "reIndexSubtitle": "Перезбирає музичну бібліотеку з нуля",
   "reIndexWarning": "Цей процес може зайняти певний час, в залежності від розміру Вашої бібліотеки.\n\nОбкладинки не будуть переіндексовані, поки вони існують",
+  "reactiveParticles": "Реактивні частинки",
   "readOnlyPlaylist": "Плейлист тільки для читання",
   "reason": "Причина",
   "receive": "Отримати",
@@ -1587,6 +1601,7 @@
   "scaleMultiplier": "Множник розміру",
   "search": "Пошук",
   "searchYoutube": "Пошук на YouTube",
+  "seasonalEffectsSubtitle": "Автоматично відстежувати пору року",
   "seconds": "секунд",
   "seeProjectCodeOnSite": "Переглянути код проєкту на {site}",
   "seekDuration": "Тривалість пошуку",
@@ -1616,6 +1631,7 @@
   "setMoodsSubtitle": "Для розділення використовуйте коми (,)",
   "setRating": "Встановити оцінку",
   "setTags": "Встановити теги",
+  "setTagsNestedSubtitle": "Для їх вкладеного розміщення використовуйте косі риски (/)",
   "setYoutubeLink": "Встановити посилання на YouTube",
   "settings": "Налаштування",
   "setupFirstStartup": "Налаштування першого запуску",
@@ -1793,9 +1809,13 @@
   "updateMissingTracksOnly": "Оновити тільки відсутні треки",
   "updating": "Оновлення",
   "uploadDate": "Дата завантаження",
+  "usbDirect": "Прямий доступ через USB",
   "usbDirectAwaitingPermission": "Надати доступ до {device}",
   "usbDirectFailed": "{device} не відповідає",
+  "usbDirectHardwareVolume": "Гучність DAC",
+  "usbDirectNoDevice": "Підключити USB DAC",
   "usbDirectPermissionDenied": "Доступ до {device} відхилено",
+  "usbDirectSubtitle": "Передає аудіосигнал безпосередньо на USB DAC, оминаючи аудіосистему Android",
   "usbDirectUnsupportedDevice": "{device} не підтримується",
   "useCollapsedSettingTiles": "Використовувати згорнуті плитки налаштувань",
   "useForDevice": "Використовувати для {device}",
