@@ -14,6 +14,32 @@
       }
     }
   },
+  "@androidMixer": {
+    "description": "Android's own audio mixer, which mixes all apps and applies system volume and effects"
+  },
+  "@bitPerfect": {
+    "description": "Audio reaches the output device exactly as stored in the file, without any processing"
+  },
+  "@bitPerfectActiveOn": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "format": {
+        "type": "String"
+      }
+    }
+  },
+  "@bitPerfectSubtitle": {
+    "description": "Subtitle of the bit-perfect option"
+  },
+  "@bitPerfectUpTo": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
@@ -174,6 +200,9 @@
       }
     }
   },
+  "@crossfade": {
+    "description": "Short name of the crossfade effect between tracks"
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -182,12 +211,18 @@
       }
     }
   },
+  "@curve": {
+    "description": "Shows the equalizer as a frequency response graph"
+  },
   "@dataIsProvidedByName": {
     "placeholders": {
       "name": {
         "type": "String"
       }
     }
+  },
+  "@decoder": {
+    "description": "The component that turns compressed audio (MP3, FLAC, ...) into raw samples"
   },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
@@ -214,6 +249,12 @@
         "type": "int"
       }
     }
+  },
+  "@dither": {
+    "description": "Adding tiny noise when reducing bit depth, to avoid distortion"
+  },
+  "@downmix": {
+    "description": "Combining more audio channels into fewer, for example 5.1 into stereo"
   },
   "@enableM3uSyncNote2": {
     "placeholders": {
@@ -478,6 +519,7 @@
   "addAllAndRemoveOldOnes": "Añadir todo y eliminar lo antiguo",
   "addAsANewPlaylist": "Añadir como nueva lista de reproducción",
   "addAudioToLocalLibrary": "Añadir audio a la biblioteca local",
+  "addBand": "Añadir grupo",
   "addFolder": "Añadir carpeta",
   "addGroup": "Añadir grupo",
   "addLanguage": "Añadir idioma",
@@ -516,6 +558,7 @@
   "alwaysExpandedSearchbar": "Barra de búsqueda siempre visible",
   "alwaysRestore": "Restaurar siempre",
   "and": "y",
+  "androidMixer": "Mezclador de volumen",
   "animated": "Animado",
   "animatingThumbnailIntensity": "Intensidad de animación de la miniatura",
   "animatingThumbnailInversed": "Animaciónes inversas",
@@ -554,15 +597,23 @@
   "automaticBackup": "Automático",
   "automaticBackupSubtitle": "Aplica automáticamente el archivo de copia de seguridad más reciente encontrado dentro de la ubicación de copia de seguridad",
   "availableDevices": "Dispositivos disponibles",
+  "average": "Promedio",
   "backgroundEffect": "Efecto de fondo",
   "backupAndRestore": "Respaldar y restaurar",
   "backupAndRestoreSubtitle": "Haz una copia de seguridad de tu base de datos y configuración",
   "backupHistoryBeforeImporting": "Hacer copia de seguridad antes de importar",
   "balanced": "Balanceado",
   "bars": "Barras",
+  "beatRings": "Ritmos",
   "beta": "Beta",
   "betweenDates": "Entre fechas",
   "bitDepth": "Profundidad de bits",
+  "bitPerfect": "Exactitud bit a bit",
+  "bitPerfectActiveOn": "{format} en {device}",
+  "bitPerfectNoDevice": "No disponible en esta salida. Utiliza el acceso directo USB",
+  "bitPerfectSubtitle": "Reproduce el audio sin procesamiento",
+  "bitPerfectUnsupportedFormat": "Esta pista no se puede reproducir sin alterar en esta salida",
+  "bitPerfectUpTo": "Fiel al bit hasta {format}",
   "bitrate": "Tasa de bits",
   "bits": "Bits",
   "blacklist": "Lista negra",
@@ -573,6 +624,7 @@
   "bugReport": "Informe de errores",
   "busiestDay": "Día de mayor actividad",
   "cache": "Caché",
+  "calculation": "Cálculo",
   "cancel": "Cancelar",
   "canceled": "Cancelado",
   "changed": "Cambiado",
@@ -602,6 +654,7 @@
   "client": "Cliente",
   "clock": "Reloj",
   "clockOnly": "Solo reloj",
+  "color": "Color",
   "colorPalette": "Paleta de colores",
   "colorPaletteNote1": "Manten presionado un color para eliminarlo",
   "colorPaletteNote2": "Toca una mezcla para usarla como color predeterminado",
@@ -663,12 +716,15 @@
   "createNewSmartPlaylist": "Crear una nueva lista de reproducción inteligente",
   "createdBackupSuccessfully": "Copia de seguridad creada",
   "createdBackupSuccessfullySub": "La copia de seguridad se creó correctamente",
+  "crossfade": "Solapamiento entre pistas",
   "crossfadeDuration": "Duración de crossfade",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Activar Crossfade automáticamente en el último {seconds} segundo} other{Activar Crossfade automáticamente en los últimos {seconds} segundos}}",
   "crossfadeTriggerSecondsDisabled": "No activar crossfade automáticamente",
+  "curve": "Curva",
   "custom": "Personalizar",
   "customizations": "Personalizaciones",
   "customizationsSubtitle": "Personaliza como se ve tu reproductor, hazlo tuyo",
+  "daily": "Diario",
   "dataIsProvidedByName": "Datos facilitados por: {name}",
   "dataSaver": "Ahorro de datos",
   "dataSaverMode": "Modo ahorro de datos",
@@ -681,6 +737,7 @@
   "dateTimeFormat": "Formato de fecha y hora",
   "day": "Día",
   "days": "Días",
+  "decoder": "Decodificador",
   "deepOcean": "Fondo del océano",
   "defaultBackupLocation": "Ubicación predeterminada de la copia de seguridad",
   "defaultColor": "Color predeterminado",
@@ -733,6 +790,7 @@
   "displayThirdRowInTrackTile": "Mostrar tercera fila",
   "displayTrackNumberInAlbumPage": "Mostrar el número de pista en la página del álbum",
   "displayTrackNumberInAlbumPageSubtitle": "Mostrar un pequeño recuadro con el número de pista en la página del álbum",
+  "dither": "Dither",
   "doNothing": "No hacer nada",
   "doesNotContain": "no contiene",
   "donate": "Donar",
@@ -749,16 +807,19 @@
   "downloads": "Descargas",
   "downloadsMetadataTags": "Descarga etiquetas de metadatos",
   "downloadsMetadataTagsSubtitle": "Extraer artista, título y álbum de la información del vídeo por defecto",
+  "downmix": "Downmix",
   "dragToSeek": "Arrastrar para buscar",
   "duckAudio": "Atenuación automática",
   "duplicatedItemsAdding": "Estás intentando añadir algunos elementos que ya existen en esta lista de reproducción",
   "duplicatedTracks": "Pistas duplicadas",
   "duration": "Duración",
   "edgeColorsSwitching": "Cambiar colores de los bordes",
+  "edgeLights": "Luz ambiente",
   "edit": "Editar",
   "editArtwork": "Editar carátula",
   "editTags": "Editar etiquetas",
   "email": "Correo electrónico",
+  "embed": "Integrado",
   "emptyNonMeaningfulTagFields": "Si hay campos con valores vacíos o sin sentido, asegúrate de que realmente quieres editarlos",
   "emptyValue": "Valor vacío",
   "enableArtworkCache": "Habilitar caché de imágenes",
