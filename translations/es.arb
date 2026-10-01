@@ -256,12 +256,22 @@
   "@downmix": {
     "description": "Combining more audio channels into fewer, for example 5.1 into stereo"
   },
+  "@embeddedLyricsArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
+      }
+    }
+  },
   "@enableM3uSyncNote2": {
     "placeholders": {
       "playlistsBackupPath": {
         "type": "String"
       }
     }
+  },
+  "@eqAllPass": {
+    "description": "Equalizer band type that only shifts phase, the volume stays the same"
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
@@ -519,7 +529,7 @@
   "addAllAndRemoveOldOnes": "Añadir todo y eliminar lo antiguo",
   "addAsANewPlaylist": "Añadir como nueva lista de reproducción",
   "addAudioToLocalLibrary": "Añadir audio a la biblioteca local",
-  "addBand": "Añadir grupo",
+  "addBand": "Añadir banda al ecualizador",
   "addFolder": "Añadir carpeta",
   "addGroup": "Añadir grupo",
   "addLanguage": "Añadir idioma",
@@ -820,6 +830,7 @@
   "editTags": "Editar etiquetas",
   "email": "Correo electrónico",
   "embed": "Integrado",
+  "embeddedLyricsArePrioritized": "Usando letras integradas. Desactiva \"{setting}\" o integra las letras para usarlas",
   "emptyNonMeaningfulTagFields": "Si hay campos con valores vacíos o sin sentido, asegúrate de que realmente quieres editarlos",
   "emptyValue": "Valor vacío",
   "enableArtworkCache": "Habilitar caché de imágenes",
@@ -851,6 +862,7 @@
   "endsWith": "Termina con",
   "enterSymbol": "Porfavor ingrese un símbolo",
   "enterTheAddressShownOnTheOtherDevice": "Introduce la dirección que aparece en \"Servidor\" en el otro dispositivo",
+  "eqAllPass": "Ecualizador de fase",
   "equalizer": "Ecualizador",
   "error": "Error",
   "errorFetchingVideoList": "Error al recuperar la lista de vídeos",
