@@ -30,6 +30,9 @@
       }
     }
   },
+  "@bitPerfectSubtitle": {
+    "description": "Subtitle of the bit-perfect option"
+  },
   "@bitPerfectUpTo": {
     "placeholders": {
       "format": {
@@ -250,12 +253,22 @@
   "@dither": {
     "description": "Adding tiny noise when reducing bit depth, to avoid distortion"
   },
+  "@embeddedLyricsArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
+      }
+    }
+  },
   "@enableM3uSyncNote2": {
     "placeholders": {
       "playlistsBackupPath": {
         "type": "String"
       }
     }
+  },
+  "@exclusive": {
+    "description": "Exclusive output mode, where only this app can use the audio device"
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
@@ -267,6 +280,14 @@
   },
   "@fadeOnPlayPause": {
     "description": "Short name of the volume fade when playing or pausing"
+  },
+  "@forcedOffBy": {
+    "description": "Header above options disabled by a mode, {mode} is its name like Bit-perfect or USB direct access",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
   },
   "@frequency": {
     "description": "Center frequency of an equalizer band, in Hz"
@@ -344,6 +365,13 @@
       "number": {
         "format": "decimalPattern",
         "type": "int"
+      }
+    }
+  },
+  "@lyricsFilesArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
       }
     }
   },
@@ -526,6 +554,9 @@
   "@turnsOff": {
     "description": "Label before a list of options that a mode (bit-perfect, USB direct) turns off"
   },
+  "@usbDirect": {
+    "description": "Option where the app talks to a USB DAC itself instead of going through Android's audio system"
+  },
   "@usbDirectAwaitingPermission": {
     "placeholders": {
       "device": {
@@ -539,6 +570,9 @@
         "type": "String"
       }
     }
+  },
+  "@usbDirectHardwareVolume": {
+    "description": "The volume is changed by the USB DAC's own volume control"
   },
   "@usbDirectPermissionDenied": {
     "placeholders": {
@@ -597,6 +631,7 @@
   "addAllAndRemoveOldOnes": "Додати все та видалити старе",
   "addAsANewPlaylist": "Додати як новий плейлист",
   "addAudioToLocalLibrary": "Додати аудіо в локальну бібліотеку",
+  "addBand": "Додати смугу",
   "addFolder": "Додати теку",
   "addGroup": "Додати групу",
   "addLanguage": "Додати мову",
@@ -688,6 +723,8 @@
   "bitPerfect": "Побітово точне",
   "bitPerfectActiveOn": "{format} на {device}",
   "bitPerfectNoDevice": "Недоступно для цього виходу, спробуйте прямий доступ через USB",
+  "bitPerfectSubtitle": "Відтворює аудіо без обробки",
+  "bitPerfectUnsupportedFormat": "Цей трек неможливо відтворити без змін на цьому виході",
   "bitPerfectUpTo": "Побітово точне до {format}",
   "bitrate": "Бітрейт",
   "bits": "біт",
@@ -734,6 +771,7 @@
   "colorPaletteNote1": "Натисніть і утримуйте колір, щоб прибрати його",
   "colorPaletteNote2": "Натисніть на мікс, щоб використовувати його як колір за замовчуванням",
   "colorPalettes": "Колірні палітри",
+  "colorWhenExpanded": "Колір, коли розгорнуто",
   "comment": "Коментар",
   "comments": "Коментарі",
   "completedAlbums": "Завершені альбоми",
@@ -892,6 +930,8 @@
   "editArtwork": "Редагувати обкладинку",
   "editTags": "Редагувати теги",
   "email": "Email",
+  "embed": "Вбудувати",
+  "embeddedLyricsArePrioritized": "Замість файлів із текстами пісень використовуються вбудовані тексти. Для використання вимкніть «{setting}» або вбудуйте такі тексти",
   "emptyNonMeaningfulTagFields": "Є поля з порожніми/незначними значеннями, переконайтеся, що Ви дійсно хочете їх редагувати",
   "emptyValue": "Порожнє значення",
   "enableArtworkCache": "Увімкнути кеш обкладинок",
@@ -930,6 +970,7 @@
   "errorPlayingTrack": "Помилка відтворення треку",
   "exclude": "Виключити",
   "excludedFodlers": "Виключені теки",
+  "exclusive": "Ексклюзивний",
   "exists": "Існує",
   "exit": "Вихід",
   "exitAppSubtitle": "Натисніть ще раз, щоб вийти",
@@ -995,6 +1036,7 @@
   "forceSquaredTrackThumbnail": "Примусово зробити мініатюру треку квадратною",
   "forceStopColorPaletteGeneration": "Примусово припинити витяг колірних палітр? Ви можете продовжити це пізніше",
   "forceUseGlobalConfig": "Використовувати глобальні налаштування",
+  "forcedOffBy": "Параметри, позначені сірим, вимкнено налаштуванням {mode}",
   "format": "Формат",
   "frequency": "Частота",
   "fromClipboard": "З буфера обміну",
@@ -1044,6 +1086,7 @@
   "ifNotPlaying": "Якщо не відтворюється",
   "ignoreBatteryOptimizationsSubtitle": "Завантаження може бути обмежено, якщо для додатка обмежено споживання заряду акумулятора",
   "ignoreCommonPrefixesWhileSorting": "Ігнорувати поширені префікси під час сортування",
+  "ignorePrefixes": "Ігнорувати префікси",
   "ignores": "Ігнорує",
   "imageSource": "Джерело зображень",
   "immersiveMode": "Режим занурення",
@@ -1117,6 +1160,7 @@
   "licenseSubtitle": "Ліцензії та угоди, що використовуються Namida",
   "like": "Подобається",
   "liked": "Вподобані",
+  "limit": "Обмеження",
   "link": "Посилання",
   "listOfFolders": "Список тек",
   "listeningClock": "Годинник прослуховування",
@@ -1139,6 +1183,7 @@
   "lyrics": "Текст пісні",
   "lyricsDeleteWithTrack": "Видаляти текст пісні разом із треком",
   "lyricsDeleteWithTrackSubtitle": "Тексти пісень, використані в іншому треку, зберігаються",
+  "lyricsFilesArePrioritized": "Замість вбудованих текстів пісень використовуються файли з текстами. Для використання ввімкніть «{setting}»",
   "lyricsFolders": "Теки з текстами пісень",
   "lyricsFoldersSubtitle": "Відповідають назвам файлів треків",
   "lyricsSaveLocation": "Місце збереження текстів пісень",
@@ -1209,7 +1254,7 @@
   "mostPlayed": "Відтворювані найчастіше",
   "move": "Перемістити",
   "movies": "Фільми",
-  "multipleTracksTagsEditNote": "Ви збираєтеся редагувати ці треки,\nНезмінені поля залишаться недоторканими.",
+  "multipleTracksTagsEditNote": "Ви збираєтеся редагувати ці треки,\nНезмінені поля не оброблятимуться.",
   "multipleValues": "Кілька значень",
   "musicOfftopic": "Музичний офтопік",
   "name": "Назва",
@@ -1288,6 +1333,7 @@
   "outputDevice": "Пристрій виводу",
   "outro": "Завершальні титри",
   "overlayEffect": "Ефект накладання",
+  "overlayEffectSubtitle": "Покриває весь додаток",
   "overrideOldFilesInTheSameFolder": "Перезаписати старі файли в тій самій теці",
   "palette": "Палітра",
   "paletteMix": "Мікс",
@@ -1325,7 +1371,7 @@
   "partyHostOnThisDevice": "Хостинг на цьому пристрої",
   "partyHostOnThisDeviceSubtitle": "Сервер не потрібен; тільки для учасників у тій самій мережі",
   "partyHostSettings": "Налаштування хоста",
-  "partyInvalidAction": "Цю дію не можна застосувати до вечірки",
+  "partyInvalidAction": "Цю дію неможливо застосувати до вечірки",
   "partyInvalidInvite": "Неправильне посилання або код запрошення",
   "partyInvalidServerUrl": "Неправильна URL-адреса сервера",
   "partyInviteLink": "Посилання для запрошення",
@@ -1406,6 +1452,7 @@
   "pause": "Зупинити",
   "pauseFadeDuration": "Продовжити згасання при паузі",
   "pausePlayback": "Призупинити відтворення",
+  "per": "На",
   "percentage": "Відсоток",
   "performanceMode": "Продуктивний режим",
   "performanceNote": "Може вплинути на продуктивність",
@@ -1429,8 +1476,11 @@
   "playbackSetting": "Відтворення",
   "playbackSettingSubtitle": "Доступ до них можливий безпосередньо в плеєрі шляхом тривалого натискання кнопки аудіо",
   "playedPercentage": "Відсоток відтворення",
+  "playerBackground": "Фон плеєра",
   "playlist": "Плейлист",
+  "playlistTags": "Теги плейлистів",
   "playlists": "Плейлисти",
+  "playlistsCount": "Кількість плейлистів",
   "playlistsImportM3uNative": "Імпорт плейлистів M3U для використання тільки в Namida. Використовуйте, якщо мігруєте",
   "playlistsImportM3uSynced": "Автоматичний імпорт плейлистів M3U з тек індексатора та синхронізація їх з оригінальним файлом M3U. Використовуйте, якщо отримуєте доступ/модифікуєте плейлисти з інших додатків",
   "playlistsImportM3uSyncedAutoImport": "Автоматичний імпорт плейлистів M3U",
@@ -1464,6 +1514,7 @@
   "reIndex": "Переіндексувати",
   "reIndexSubtitle": "Перезбирає музичну бібліотеку з нуля",
   "reIndexWarning": "Цей процес може зайняти певний час, в залежності від розміру Вашої бібліотеки.\n\nОбкладинки не будуть переіндексовані, поки вони існують",
+  "reactiveParticles": "Реактивні частинки",
   "readOnlyPlaylist": "Плейлист тільки для читання",
   "reason": "Причина",
   "receive": "Отримати",
@@ -1550,6 +1601,7 @@
   "scaleMultiplier": "Множник розміру",
   "search": "Пошук",
   "searchYoutube": "Пошук на YouTube",
+  "seasonalEffectsSubtitle": "Автоматично відстежувати пору року",
   "seconds": "секунд",
   "seeProjectCodeOnSite": "Переглянути код проєкту на {site}",
   "seekDuration": "Тривалість пошуку",
@@ -1579,6 +1631,7 @@
   "setMoodsSubtitle": "Для розділення використовуйте коми (,)",
   "setRating": "Встановити оцінку",
   "setTags": "Встановити теги",
+  "setTagsNestedSubtitle": "Для їх вкладеного розміщення використовуйте косі риски (/)",
   "setYoutubeLink": "Встановити посилання на YouTube",
   "settings": "Налаштування",
   "setupFirstStartup": "Налаштування першого запуску",
@@ -1756,9 +1809,13 @@
   "updateMissingTracksOnly": "Оновити тільки відсутні треки",
   "updating": "Оновлення",
   "uploadDate": "Дата завантаження",
+  "usbDirect": "Прямий доступ через USB",
   "usbDirectAwaitingPermission": "Надати доступ до {device}",
   "usbDirectFailed": "{device} не відповідає",
+  "usbDirectHardwareVolume": "Гучність DAC",
+  "usbDirectNoDevice": "Підключити USB DAC",
   "usbDirectPermissionDenied": "Доступ до {device} відхилено",
+  "usbDirectSubtitle": "Передає аудіосигнал безпосередньо на USB DAC, оминаючи аудіосистему Android",
   "usbDirectUnsupportedDevice": "{device} не підтримується",
   "useCollapsedSettingTiles": "Використовувати згорнуті плитки налаштувань",
   "useForDevice": "Використовувати для {device}",
