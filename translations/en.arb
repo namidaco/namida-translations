@@ -112,6 +112,14 @@
       }
     }
   },
+  "@countLanguages": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countMonths": {
     "placeholders": {
       "count": {
@@ -854,6 +862,7 @@
   "countFiles": "{count, plural, one{{count} File} other{{count} Files}}",
   "countFolders": "{count, plural, one{{count} Folder} other{{count} Folders}}",
   "countGenres": "{count, plural, one{{count} Genre} other{{count} Genres}}",
+  "countLanguages": "{count, plural, one{{count} Language} other{{count} Languages}}",
   "countMonths": "{count, plural, one{{count} Month} other{{count} Months}}",
   "countMoods": "{count, plural, one{{count} Mood} other{{count} Moods}}",
   "countPlaylists": "{count, plural, one{{count} Playlist} other{{count} Playlists}}",
@@ -1066,6 +1075,7 @@
   "filterArtists": "Filter Artists",
   "filterBy": "Filter by",
   "filterGenres": "Filter Genres",
+  "filterLanguages": "Filter Languages",
   "filterMoods": "Filter Moods",
   "filterPlaylists": "Filter Playlists",
   "filterTags": "Filter Tags",
@@ -1205,6 +1215,7 @@
   "keepScreenAwakeWhen": "Keep screen awake when",
   "killPlayerAfterDismissingApp": "Kill player after dismissing app",
   "language": "Language",
+  "languages": "Languages",
   "lastHour": "Last hour",
   "lastListen": "Last Listen",
   "lastPlayed": "Last Played",
