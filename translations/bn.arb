@@ -22,10 +22,10 @@
   },
   "@bitPerfectActiveOn": {
     "placeholders": {
-      "format": {
+      "device": {
         "type": "String"
       },
-      "device": {
+      "format": {
         "type": "String"
       }
     }
@@ -565,10 +565,10 @@
   },
   "@sourcePerScope": {
     "placeholders": {
-      "source": {
+      "scope": {
         "type": "String"
       },
-      "scope": {
+      "source": {
         "type": "String"
       }
     }
@@ -634,12 +634,12 @@
     }
   },
   "@useForDevice": {
+    "description": "প্রদত্ত আউটপুট ডিভাইস ব্যবহার করার সময় এই ইকুয়ালাইজার প্রিসেট স্বয়ংক্রিয়ভাবে প্রয়োগ করে",
     "placeholders": {
       "device": {
         "type": "String"
       }
-    },
-    "description": "প্রদত্ত আউটপুট ডিভাইস ব্যবহার করার সময় এই ইকুয়ালাইজার প্রিসেট স্বয়ংক্রিয়ভাবে প্রয়োগ করে"
+    }
   },
   "@volumeKeys": {
     "description": "ডিভাইসের ফিজিক্যাল ভলিউম বাটন"
@@ -1025,6 +1025,8 @@
   "exclude": "বাদ দিন",
   "excludedFodlers": "বর্জিত ফোল্ডার",
   "exclusive": "এক্সক্লুসিভ",
+  "exclusiveMode": "এক্সক্লুসিভ মোড",
+  "exclusiveModeSubtitle": "শুধুমাত্র namida-র জন্য ডিভাইসটি ব্যবহার করবে, অন্য কোনো অ্যাপস সাউন্ড চালাতে পারবে না",
   "exists": "বিদ্যমান",
   "exit": "প্রস্থান",
   "exitAppSubtitle": "প্রস্থান করতে আবার ট্যাপ করুন",
@@ -1062,8 +1064,11 @@
   "filler": "ফিলার",
   "filterAlbums": "অ্যালবাম ফিল্টার করুন",
   "filterArtists": "শিল্পী ফিল্টার করুন",
+  "filterBy": "ফিল্টারের পদ্ধতি",
   "filterGenres": "জনরা ফিল্টার করুন",
+  "filterMoods": "মুড ফিল্টার করুন",
   "filterPlaylists": "প্লেলিস্ট ফিল্টার করুন",
+  "filterTags": "ট্যাগ ফিল্টার করুন",
   "filterTracks": "ট্র্যাক ফিল্টার করুন",
   "filterTracksBy": "সার্চ তালিকায় ট্র্যাক ফিল্টার করুন",
   "filterType": "ফিল্টারের ধরন",
@@ -1139,8 +1144,10 @@
   "hours": "ঘণ্টা",
   "iReadAndAgree": "আমি পড়েছি এবং সম্মত",
   "ifNotPlaying": "যদি চালানো না হয়",
+  "ignore": "এড়িয়ে যান",
   "ignoreBatteryOptimizationsSubtitle": "অ্যাপ ব্যাটারি সীমাবদ্ধ থাকলে ডাউনলোড গতি কমে যেতে পারে",
   "ignoreCommonPrefixesWhileSorting": "সাধারণ উপসর্গগুলো উপেক্ষা করুন",
+  "ignorePrefixes": "শুরুর অংশ এড়িয়ে যান",
   "ignores": "উপেক্ষা",
   "imageSource": "ছবির উৎস",
   "immersiveMode": "ইমারসিভ মোড",
@@ -1520,6 +1527,7 @@
   "pickFromStorage": "স্টোরেজ থেকে বাছাই করুন",
   "pin": "পিন করুন",
   "pinned": "পিন করা",
+  "pinnedPlaylists": "পিন করা প্লেলিস্ট",
   "pitch": "পিচ",
   "plain": "সাধারণ",
   "play": "প্লে করুন",
@@ -1706,6 +1714,7 @@
   "showFailedOnly": "শুধুমাত্র ব্যর্থগুলো দেখান",
   "showHideUnknownFields": "অজানা ক্ষেত্রগুলো দেখুন/লুকান",
   "showInSeekbar": "সিকবারে দেখান",
+  "showLess": "কম দেখান",
   "showMixPlaylistsIn": "মিক্সগুলোতে দেখান",
   "showMore": "আরও দেখান",
   "showShortVideosIn": "শর্টগুলোতে দেখান",
@@ -1738,6 +1747,7 @@
   "skip": "স্কিপ",
   "skipCountTracking": "স্কিপ কাউন্ট ট্র্যাকিং",
   "skipSilence": "নীরবতা এড়িয়ে যান",
+  "skipSingleSubfolders": "একটিমাত্র সাবফোল্ডার থাকা ফোল্ডারগুলো এড়িয়ে যান",
   "skipSponsorSegmentsInVideos": "ভিডিওর স্পন্সর অংশগুলো বাদ দিন",
   "sleepAfter": "সময় বা ট্র্যাক সেট করুন",
   "sleepTimer": "স্লিপ টাইমার",
