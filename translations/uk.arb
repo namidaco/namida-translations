@@ -112,6 +112,14 @@
       }
     }
   },
+  "@countLanguages": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countMonths": {
     "placeholders": {
       "count": {
@@ -809,6 +817,7 @@
   "countFiles": "{count, plural, one{{count} файл} few{{count} файли} other{{count} файлів}}",
   "countFolders": "{count, plural, one{{count} тека} few{{count} теки} other{{count} тек}}",
   "countGenres": "{count, plural, one{{count} жанр} few{{count} жанри} other{{count} жанрів}}",
+  "countLanguages": "{count, plural, one{{count} мова} few{{count} мови} other{{count} мов}}",
   "countMonths": "{count, plural, one{{count} місяць} few{{count} місяці} other{{count} місяців}}",
   "countMoods": "{count, plural, one{{count} настрій} few{{count} настрої} other{{count} настроїв}}",
   "countPlaylists": "{count, plural, one{{count} плейлист} few{{count} плейлисти} other{{count} плейлистів}}",
@@ -1012,12 +1021,13 @@
   "filterArtists": "Фільтрувати виконавців",
   "filterBy": "Фільтрувати за",
   "filterGenres": "Фільтрувати жанри",
+  "filterLanguages": "Фільтрувати мови",
   "filterMoods": "Фільтрувати настрої",
   "filterPlaylists": "Фільтрувати плейлисти",
   "filterTags": "Фільтрувати теги",
   "filterTracks": "Фільтрувати треки",
   "filterTracksBy": "Фільтрувати треки в списках пошуку за",
-  "filterType": "Фільтрувати типи",
+  "filterType": "Тип фільтра",
   "filtered": "Відфільтровані",
   "filteredBySizeAndDuration": "Треки, відфільтровані за розміром і тривалістю",
   "find": "Знайти",
@@ -1150,6 +1160,7 @@
   "keepScreenAwakeWhen": "Тримати екран увімкненим, коли",
   "killPlayerAfterDismissingApp": "Закривати плеєр після виходу з додатка",
   "language": "Мова",
+  "languages": "Мови",
   "lastHour": "Остання година",
   "lastListen": "Останній прослуханий",
   "lastPlayed": "Останній відтворений",
