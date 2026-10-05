@@ -261,6 +261,9 @@
   "@dither": {
     "description": "Adding tiny noise when reducing bit depth, to avoid distortion"
   },
+  "@downmix": {
+    "description": "Combining more audio channels into fewer, for example 5.1 into stereo"
+  },
   "@embeddedLyricsArePrioritized": {
     "placeholders": {
       "setting": {
@@ -483,6 +486,9 @@
         "type": "int"
       }
     }
+  },
+  "@resample": {
+    "description": "Converting audio to a different sample rate"
   },
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
@@ -928,6 +934,7 @@
   "downloads": "Завантаження",
   "downloadsMetadataTags": "Завантажити теги метаданих",
   "downloadsMetadataTagsSubtitle": "За замовчуванням витягувати виконавця, назву та альбом з інформації про відео",
+  "downmix": "Зведення каналів",
   "dragToSeek": "Перетягуйте для перемотування",
   "duckAudio": "Приглушувати звук",
   "duplicatedItemsAdding": "Ви намагаєтеся додати елементи, що вже є в плейлисті",
@@ -1583,6 +1590,7 @@
   "reply": "Відповідь",
   "reportAnIssue": "Повідомити про проблему",
   "requiresClearingImageCacheAndReIndexing": "Необхідно очистити кеш зображень та виконати переіндексування",
+  "resample": "Передискретизація",
   "rescanVideos": "Повторне сканування відео",
   "resetBrightness": "Скидання яскравості",
   "resetToDefault": "Встановити на",
