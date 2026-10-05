@@ -112,6 +112,14 @@
       }
     }
   },
+  "@countLanguages": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countMonths": {
     "placeholders": {
       "count": {
@@ -854,6 +862,7 @@
   "countFiles": "{count, plural, one{{count} archivo} other{{count} archivos}}",
   "countFolders": "{count, plural, one{{count} carpeta} other{{count} carpetas}}",
   "countGenres": "{count, plural, one{{count} género} other{{count} géneros}}",
+  "countLanguages": "{count, plural, one{{count} idioma} other{{count} idiomas}}",
   "countMonths": "{count, plural, one{{count} mes} other{{count} meses}}",
   "countMoods": "{count, plural, one{{count} estado de ánimo} other{{count} estados de ánimo}}",
   "countPlaylists": "{count, plural, one{{count} lista de reproducción} other{{count} listas de reproducción}}",
@@ -1066,6 +1075,7 @@
   "filterArtists": "filtrar artistas",
   "filterBy": "Filtrar por",
   "filterGenres": "Filtrar géneros",
+  "filterLanguages": "Filtrar idiomas",
   "filterMoods": "Filtrar estados de ánimo",
   "filterPlaylists": "Filtrar listas de reproducción",
   "filterTags": "Filtrar etiquetas",
@@ -1205,6 +1215,7 @@
   "keepScreenAwakeWhen": "Mantener la pantalla encendida cuando",
   "killPlayerAfterDismissingApp": "Cierra el reproductor despues de cerrar la app",
   "language": "Idioma",
+  "languages": "Idiomas",
   "lastHour": "Última hora",
   "lastListen": "«Última reproducción»",
   "lastPlayed": "Reproducido recientemente",
