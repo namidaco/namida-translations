@@ -112,6 +112,14 @@
       }
     }
   },
+  "@countLanguages": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countMonths": {
     "placeholders": {
       "count": {
@@ -854,6 +862,7 @@
   "countFiles": "{count, plural, one{{count} Datei} other{{count} Dateien}}",
   "countFolders": "{count, plural, one{{count} Ordner} other{{count} Ordner}}",
   "countGenres": "{count, plural, one{{count} Genre} other{{count} Genres}}",
+  "countLanguages": "{count, plural, one{{count} Sprache} other{{count} Sprachen}}",
   "countMonths": "{count, plural, one{{count} Monat} other{{count} Monate}}",
   "countMoods": "{count, plural, one{{count} Stimmung} other{{count} Stimmungen}}",
   "countPlaylists": "{count, plural, one{{count} Wiedergabeliste} other{{count} Wiedergabelisten}}",
@@ -1065,8 +1074,10 @@
   "filterArtists": "Künstler filtern",
   "filterBy": "Filtern nach",
   "filterGenres": "Genres filtern",
+  "filterLanguages": "Sprachen filtern",
   "filterMoods": "Stimmungen filtern",
   "filterPlaylists": "Playlists filtern",
+  "filterTags": "Schlagwörter filtern",
   "filterTracks": "Titel filtern",
   "filterTracksBy": "Titel in Suchlisten filtern nach",
   "filterType": "Filter Typ",
@@ -1203,6 +1214,7 @@
   "keepScreenAwakeWhen": "Bildschirm wach halten, wenn",
   "killPlayerAfterDismissingApp": "Player nach dem Beenden der App beenden",
   "language": "Sprache",
+  "languages": "Sprachen",
   "lastHour": "Letzte Stunde",
   "lastListen": "Letzte Wiedergabe",
   "lastPlayed": "Zuletzt abgespielt",
@@ -1525,6 +1537,7 @@
   "pickFromStorage": "Vom Speicher auswählen",
   "pin": "Pin",
   "pinned": "Angepinnt",
+  "pinnedPlaylists": "Angeheftete Wiedergabelisten",
   "pitch": "Tonlage",
   "plain": "Einfach",
   "play": "Abspielen",
@@ -1744,6 +1757,7 @@
   "skip": "Überspringen",
   "skipCountTracking": "Zählschritte verfolgen",
   "skipSilence": "Stille überspringen",
+  "skipSingleSubfolders": "Ordner mit einem einzigen Unterordner überspringen",
   "skipSponsorSegmentsInVideos": "Sponsor-Segmente in Videos überspringen",
   "sleepAfter": "Danach schlafen",
   "sleepTimer": "Schlaftimer",
