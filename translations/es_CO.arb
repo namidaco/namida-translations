@@ -1,5 +1,12 @@
 {
   "@@locale": "es_CO",
+  "@acceptConnectionFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@addMoreFromToQueue": {
     "placeholders": {
       "media": {
@@ -378,6 +385,8 @@
     }
   },
   "about": "Información de la app",
+  "accept": "Aceptar",
+  "acceptConnectionFromName": "¿Aceptar conexión de {name}?",
   "active": "Activo",
   "add": "Añadir",
   "addAccount": "Añadir cuenta",
