@@ -33,6 +33,13 @@
   "@bitPerfectSubtitle": {
     "description": "Subtitle of the bit-perfect option"
   },
+  "@bitPerfectUpTo": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
@@ -98,6 +105,14 @@
     }
   },
   "@countGenres": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countLanguages": {
     "placeholders": {
       "count": {
         "format": "decimalPattern",
@@ -192,6 +207,9 @@
         "type": "int"
       }
     }
+  },
+  "@crossfade": {
+    "description": "Short name of the crossfade effect between tracks"
   },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
@@ -595,14 +613,19 @@
   "bitPerfectNoDevice": "Nije dostupno na ovom izlazu, pokušajte sa izravnim pristupom putem USB-a",
   "bitPerfectSubtitle": "Pušta zvuk bez izmjena",
   "bitPerfectUnsupportedFormat": "Ova pjesma se ne može puštati bez izmjena na ovom izlazu",
+  "bitPerfectUpTo": "Bez izmjena do {format}",
   "bitrate": "Bitrate",
   "bits": "Bitovi",
   "blacklist": "Crna lista",
   "block": "Blokiraj",
   "blockedDevices": "Blokirani uređaji",
+  "blur": "Zamućenje",
+  "bookmarks": "Oznake",
   "borderRadiusMultiplier": "Množitelj radijusa ivice",
+  "bugReport": "Izvještaj o greškama",
   "busiestDay": "Najprometniji dan",
   "cache": "Predmemorija",
+  "calculation": "Izračun",
   "cancel": "Otkaži",
   "canceled": "Otkazano",
   "changed": "Promijenjeno",
@@ -617,6 +640,8 @@
   "checkList": "Popis za provjeru",
   "choose": "Odaberi",
   "chooseWhatToClear": "Odaberi šta očistiti",
+  "chorus": "Refren",
+  "christmas": "Božić",
   "claim": "Zahtjev",
   "cleanup": "Čišćenje",
   "clear": "Očisti",
@@ -631,10 +656,12 @@
   "client": "Klijent",
   "clock": "Sat",
   "clockOnly": "Samo prikaži sat",
+  "color": "Boja",
   "colorPalette": "Paleta boja",
   "colorPaletteNote1": "Dugo pritisnite boju da je uklonite",
   "colorPaletteNote2": "Dodirnite miks da ga koristite kao zadanu boju",
   "colorPalettes": "Palete boja",
+  "colorWhenExpanded": "Boja kada se proširi",
   "comment": "Komentar",
   "comments": "Komentari",
   "completedAlbums": "Završeni albumi",
@@ -642,11 +669,13 @@
   "compress": "Kompresuj",
   "compressImages": "Kompresuj slike",
   "compressionPercentage": "Postotak kompresije",
+  "compressor": "Kompresor",
   "condition": "Stanje",
   "configure": "Konfiguriši",
   "confirm": "Potvrdi",
   "confirmRefresh": "Potvrdi osvježavanje?",
   "connect": "Poveži",
+  "connectByIp": "Poveži se putem IP adrese",
   "connectedDevices": "Povezani uređaji",
   "connectionAccepted": "Povezivanje prihvaćeno",
   "connectionBlocked": "Povezivanje blokirano",
@@ -671,6 +700,7 @@
   "countFiles": "{count, plural, one{{count} datoteka} other{{count} datoteka}}",
   "countFolders": "{count, plural, one{{count} fascikla} other{{count} fascikli}}",
   "countGenres": "{count, plural, one{{count} žanr} other{{count} žanrova}}",
+  "countLanguages": "{count, plural, one{{count} jezik} few{{count} jezika} other{{count} jezika}}",
   "countMonths": "{count, plural, one{{count} mjesec} other{{count} mjeseci}}",
   "countMoods": "{count, plural, one{{count} raspoloženje} few{{count} raspoloženja} other{{count} raspoloženja}}",
   "countPlaylists": "{count, plural, one{{count} spisak pjesama} other{{count} spiskova pjesama}}",
@@ -690,6 +720,7 @@
   "createNewSmartPlaylist": "Napravi novi pametni spisak pjesama",
   "createdBackupSuccessfully": "Rezervna kopija kreirana",
   "createdBackupSuccessfullySub": "Datoteka rezervne kopije je uspješno kreirana",
+  "crossfade": "Pretapanje",
   "crossfadeDuration": "Trajanje pretapanja",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Automatski pokreni pretapanje u posljednjoj {seconds} sekundi} other{Automatski pokreni pretapanje u posljednjih {seconds} sekundi}}",
   "crossfadeTriggerSecondsDisabled": "Ne pokreći pretapanje automatski",
