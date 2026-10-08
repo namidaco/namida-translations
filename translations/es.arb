@@ -1625,7 +1625,7 @@
   "redo": "Rehacer",
   "refresh": "Recargar",
   "refreshLibrary": "Recargar la biblioteca",
-  "refreshLibrarySubtitle": "Comprobar musica añadida o eliminada",
+  "refreshLibrarySubtitle": "Comprobar si hay música recién agregada o eliminada",
   "refreshOnStartup": "Actualizar al iniciar",
   "reject": "Rechazar",
   "relatedVideos": "Videos relacionados",
