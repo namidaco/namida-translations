@@ -1015,7 +1015,7 @@
   "enableM3uSyncNote1": "M3U Sync guarda los cambios en la lista de reproducción directamente en el archivo M3U original",
   "enableM3uSyncNote2": "En caso de errores, se creará una copia de seguridad de esta lista de reproducción. Disponible en {playlistsBackupPath}",
   "enableM3uSyncSubtitle": "Si se rechaza, todos los cambios realizados en esta lista de reproducción se perderán al reiniciar",
-  "enableMiniplayerParticles": "Activar particulas moviéndose",
+  "enableMiniplayerParticles": "Activar partículas moviéndose",
   "enableParallaxEffect": "Activar efecto parallax",
   "enablePartyMode": "Activar modo fiesta",
   "enablePartyModeSubtitle": "Aplicar un elegante efecto de respiración al borde",
