@@ -227,6 +227,9 @@
       }
     }
   },
+  "@decoder": {
+    "description": "The component that turns compressed audio (MP3, FLAC, ...) into raw samples"
+  },
   "@deleteFileCacheSubtitle": {
     "placeholders": {
       "count": {
@@ -253,12 +256,55 @@
       }
     }
   },
+  "@dither": {
+    "description": "Adding tiny noise when reducing bit depth, to avoid distortion"
+  },
+  "@downmix": {
+    "description": "Combining more audio channels into fewer, for example 5.1 into stereo"
+  },
+  "@embeddedLyricsArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
+      }
+    }
+  },
   "@enableM3uSyncNote2": {
     "placeholders": {
       "playlistsBackupPath": {
         "type": "String"
       }
     }
+  },
+  "@eps": {
+    "description": "Plural of EP (extended play), a music release longer than a single but shorter than an album"
+  },
+  "@eqAllPass": {
+    "description": "Equalizer band type that only shifts phase, the volume stays the same"
+  },
+  "@eqBandPass": {
+    "description": "Equalizer band type that keeps only a range around a frequency"
+  },
+  "@eqHighPass": {
+    "description": "Equalizer band type that removes everything below a frequency"
+  },
+  "@eqHighShelf": {
+    "description": "Equalizer band type that boosts or cuts everything above a frequency"
+  },
+  "@eqLowPass": {
+    "description": "Equalizer band type that removes everything above a frequency"
+  },
+  "@eqLowShelf": {
+    "description": "Equalizer band type that boosts or cuts everything below a frequency"
+  },
+  "@eqNotch": {
+    "description": "Equalizer band type that removes a narrow range around a frequency"
+  },
+  "@eqPeak": {
+    "description": "Equalizer band type that boosts or cuts around one frequency (bell shape)"
+  },
+  "@exclusive": {
+    "description": "Exclusive output mode, where only this app can use the audio device"
   },
   "@extractAllColorPalettesSubtitle": {
     "placeholders": {
@@ -267,6 +313,23 @@
         "type": "int"
       }
     }
+  },
+  "@fadeOnPlayPause": {
+    "description": "Short name of the volume fade when playing or pausing"
+  },
+  "@forcedOffBy": {
+    "description": "Header above options disabled by a mode, {mode} is its name like Bit-perfect or USB direct access",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "@frequency": {
+    "description": "Center frequency of an equalizer band, in Hz"
+  },
+  "@gain": {
+    "description": "How much an equalizer band boosts or cuts, in dB"
   },
   "@historyListensReplaceWarning": {
     "placeholders": {
@@ -285,6 +348,13 @@
   "@importLastFmHistoryGuide": {
     "placeholders": {
       "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importListenBrainzHistoryGuide": {
+    "placeholders": {
+      "link": {
         "type": "String"
       }
     }
@@ -663,6 +733,7 @@
   "dataIsProvidedByName": "Datos proporcionados por: {name}",
   "dataSaver": "Ahorro de datos",
   "dataSaverMode": "Modo Ahorro de Datos",
+  "dataToSendAndReceive": "Datos para enviar y recibir",
   "database": "Base de datos",
   "date": "Fecha",
   "dateAdded": "Fecha Agregada",
@@ -671,6 +742,8 @@
   "dateTimeFormat": "Formato de fecha y hora",
   "day": "Día",
   "days": "Días",
+  "decoder": "Descodificador",
+  "deepOcean": "Océano profundo",
   "defaultBackupLocation": "Ubicación de copia de seguridad predeterminada",
   "defaultColor": "Color predeterminado",
   "defaultColorSubtitle": "Establecer un color para ser utilizado por el reproductor",
@@ -686,6 +759,9 @@
   "description": "Descripción",
   "developer": "Desarrollador",
   "development": "Desarrollo",
+  "deviceName": "Nombre del dispositivo",
+  "diagnostics": "Diagnosticos",
+  "dictionary": "Diccionario",
   "didYouMean": "Quisiste decir",
   "dimIntensity": "intensidad tenue",
   "dimMiniplayerAfterSeconds": "{seconds, plural, one{Atenuar el reproductor después de {seconds} segundo de inactividad} other{Atenuar el reproductor después de {seconds} segundos de inactividad}}",
@@ -696,7 +772,12 @@
   "disableSearchCleanup": "Deshabilitar la limpieza de búsqueda",
   "discNumber": "Número de disco",
   "discNumberTotal": "Almacenamiento total",
+  "discard": "Descartar",
+  "discardChanges": "¿Descartar los cambios?",
+  "disconnect": "Desconectar",
   "discover": "Descubrir",
+  "discoveries": "Descubrimientos",
+  "discoveryFailedTryReenablingNetworkAdapter": "Error en la búsqueda, intenta volver a activar tu adaptador de red o reinicia el dispositivo",
   "dislike": "No me gusta",
   "dismissibleMiniplayer": "Minireproductor descartable",
   "displayActualPositionInsteadOfDifferenceWhileSeeking": "Mostrar la posición actual al buscar (seeking)",
@@ -712,6 +793,7 @@
   "displayThirdRowInTrackTile": "Mostrar tercera fila",
   "displayTrackNumberInAlbumPage": "Mostrar el número de pista en la página del álbum",
   "displayTrackNumberInAlbumPageSubtitle": "Mostrar un pequeño cuadro conteniendo el número de pista en la página del álbum",
+  "dither": "Dither",
   "doNothing": "No hacer nada",
   "doesNotContain": "no contiene",
   "donate": "Donar",
@@ -727,16 +809,22 @@
   "downloads": "Descargas",
   "downloadsMetadataTags": "Descargas etiquetas de metadatos",
   "downloadsMetadataTagsSubtitle": "Extrae artista, título y álbum de la información del vídeo de forma predeterminada",
+  "downmix": "Downmix",
+  "draft": "Borrador",
   "dragToSeek": "Agarra para buscar",
   "duckAudio": "Atenuación de audio",
   "duplicatedItemsAdding": "Estas tratando de añadir algo que ya existe en esta playlist",
   "duplicatedTracks": "Pistas duplicadas",
   "duration": "Duración",
+  "echo": "Eco",
   "edgeColorsSwitching": "Cambio de colores de borde",
+  "edgeLights": "Iluminación de los bordes",
   "edit": "Editar",
   "editArtwork": "Editar ilustraciones",
   "editTags": "Editar etiquetas",
   "email": "Correo electrónico",
+  "embed": "Integrado",
+  "embeddedLyricsArePrioritized": "Se usan las letras integradas en lugar de archivos de letras. Desactiva \"{setting}\" o integra letras para usarlas",
   "emptyNonMeaningfulTagFields": "tiene campos con valores vacíos/sin significado, asegúrese de que realmente desea editarlos",
   "emptyValue": "Valor vacío",
   "enableArtworkCache": "Habilitar Caché de Carátulas",
@@ -767,15 +855,31 @@
   "enableVideoPlayback": "Habilitar la reproducción de vídeo",
   "endsWith": "Finaliza con",
   "enterSymbol": "Por favor ingrese un símbolo",
+  "enterTheAddressShownOnTheOtherDevice": "Ingresa la dirección que aparece debajo de servidor en el otro dispositivo",
+  "eps": "EPs",
+  "eqAllPass": "Filtro All pass",
+  "eqBandPass": "Filtro Band pass",
+  "eqHighPass": "Filtro High pass",
+  "eqHighShelf": "Filtro High shelf",
+  "eqLowPass": "Filtro Low pass",
+  "eqLowShelf": "Filtro Low shelf",
+  "eqNotch": "Filtro Notch",
+  "eqPeak": "Filtro Peak",
   "equalizer": "Ecualizador",
+  "equalizerImportFailed": "No se encontraron filtros del ecualizador",
   "error": "Error",
   "errorFetchingVideoList": "Error al cargar la lista de vídeos",
   "errorPlayingTrack": "Error al reproducir la pista",
+  "exclude": "Excluir",
   "excludedFodlers": "Carpetas excluidas",
+  "exclusive": "Exclusivo",
+  "exclusiveMode": "Modo exclusivo",
+  "exclusiveModeSubtitle": "Toma el dispositivo solo para namida, otras apps no podrán reproducir audio en él",
   "exists": "Existe",
   "exit": "Salida",
   "exitAppSubtitle": "Toque nuevamente para salir",
   "expandedMiniplayer": "Mini reproductor Expandido",
+  "export": "Exportar",
   "exportAsM3u": "Exportar como M3U",
   "extension": "Extensión",
   "externalFiles": "Archivos externos",
@@ -788,11 +892,13 @@
   "extras": "Extras",
   "extrasSubtitle": "Configuraciones adicionales para mejorar tu experiencia",
   "extreme": "Extremo",
+  "fadeOnPlayPause": "Atenuación al reproducir o pausar",
   "failed": "Fallido",
   "failedEdits": "Ediciones fallidas",
   "favourite": "Favorito",
   "favouritedDate": "Fecha favorita",
   "favourites": "Favoritos",
+  "featureRequest": "Sugiere una función",
   "features": "Funciones",
   "fetching": "Buscando",
   "fetchingOfAllVideos": "Busqueda en todos los vídeos",
@@ -806,18 +912,25 @@
   "filler": "Relleno",
   "filterAlbums": "Filtrar álbumes",
   "filterArtists": "Filtrar artistas",
+  "filterBy": "Filtrar por",
   "filterGenres": "Filtrar géneros",
   "filterLanguages": "Filtrar idiomas",
+  "filterMoods": "Filtrar estados de ánimo",
   "filterPlaylists": "Filtrar listas de reproducción",
+  "filterTags": "Filtrar etiquetas",
   "filterTracks": "Filtrar pistas",
   "filterTracksBy": "Filtrar pistas en listas de búsqueda por",
   "filterType": "Tipo de Filtro",
   "filtered": "Filtrados",
   "filteredBySizeAndDuration": "Pistas filtradas por tamaño y duración",
+  "find": "Encontrar",
+  "findAndReplace": "Encuentra y remplaza",
   "finished": "Finalizado",
   "finishedUpdatingLibrary": "Biblioteca de actualización finalizada",
-  "firstListen": "Primera escucha",
-  "fixYtdlpBigThumbnailSize": "Arreglar el tamaño de miniatura grande de yt-dlp",
+  "fireflies": "Luciérnagas",
+  "fireworks": "Fuegos artificiales",
+  "firstListen": "Primera reproducción",
+  "fixYtdlpBigThumbnailSize": "Corregir tamaño grande de miniaturas yt-dlp",
   "floatingActionButton": "Botón de acción flotante",
   "focus": "Resaltar",
   "folder": "Carpeta",
@@ -831,8 +944,13 @@
   "forceSquaredTrackThumbnail": "Miniatura de pista de fuerza al cuadrado",
   "forceStopColorPaletteGeneration": "¿Forzar dejar de extraer paletas de colores? aún puedes continuar más tarde",
   "forceUseGlobalConfig": "Forzar a usar configuracion global",
+  "forcedOffBy": "Las opciones atenuadas están desactivadas por {mode}",
   "format": "Formato",
+  "frequency": "Frecuencia",
+  "fromClipboard": "Desde el portapapeles",
   "fullscreen": "Pantalla completa",
+  "gain": "Ganancia",
+  "galaxy": "Galaxia",
   "gaplessPlayback": "Reproducción sin pausas",
   "generate": "Generar",
   "generateFromDates": "Intervalo de tiempo",
@@ -841,6 +959,7 @@
   "genre": "Género",
   "genres": "Géneros",
   "global": "Global",
+  "glow": "Resplandor",
   "goToAlbum": "Ir al álbum",
   "goToArtist": "Ir al artista",
   "goToChannel": "ir al canal",
@@ -850,8 +969,12 @@
   "grantStoragePermission": "Conceder permiso de almacenamiento",
   "group": "Grupo",
   "groupArtworksByAlbum": "Imágenes de álbum por grupos",
+  "groupByTags": "Agrupar por etiquetas",
   "guide": "Guía",
+  "habits": "Habitos",
+  "halloween": "Halloween",
   "hapticFeedback": "Respuesta táctil",
+  "hashtag": "Hashtag",
   "heightOfAlbumTile": "Altura del mosaico del álbum",
   "heightOfTrackTile": "Altura del contenedor de la canción",
   "hideSkipButtonAfter": "Esconder botón de omitir después de",
@@ -862,14 +985,17 @@
   "historyImportMissingEntriesNote": "Estos datos no se pudieron encontrar dentro de la biblioteca. Si cree que existen, considere agregarlas manualmente",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} escuchas de {oldTrackInfo} será reemplazada por {newTrackInfo}, ¿Continuar?} other{{listensCount} escuchas {oldTrackInfo} será reemplazadas por {newTrackInfo}, ¿Continuar?}}",
   "home": "Inicio",
+  "homeScreenWidget": "Widget de pantalla de inicio",
   "hook": "Gancho",
   "host": "Host",
   "hourFormat12": "Formato de 12 horas",
   "hours": "Horas",
   "iReadAndAgree": "Leí y acepto",
   "ifNotPlaying": "Si está pausada",
+  "ignore": "Ignorar",
   "ignoreBatteryOptimizationsSubtitle": "Las descargas se pueden ralentizar cuando Namida tiene restricción de batería",
   "ignoreCommonPrefixesWhileSorting": "Ignorar prefijos comunes mientras se indexa",
+  "ignorePrefixes": "Ignorar prefijos",
   "ignores": "ignorar",
   "imageSource": "Fuente de la imagen",
   "immersiveMode": "Modo inmersivo",
@@ -878,6 +1004,8 @@
   "importAll": "Importar todo",
   "importLastFmHistory": "Importar historial de LastFm",
   "importLastFmHistoryGuide": "1. Vaya a {lastfmCsvLink}\n\n2. Escriba su nombre de usuario, busque y descargue el archivo csv.\n\n3. Elija el archivo en la siguiente pantalla.",
+  "importListenBrainzHistory": "Importar historial de ListenBrainz",
+  "importListenBrainzHistoryGuide": "1. Ve a {link}\n\n2. Solicita los datos y descarga\n\n3. Elige los archivos ZIP o JSON en la siguiente pantalla.",
   "importTimeRange": "Intervalo de tiempo de importación",
   "importYoutubeHistory": "Importar historial de Youtube",
   "importYoutubeHistoryGuide": "1. Vaya a {takeoutLink}\n\n2. Presione \"Múltiples formatos\" y al lado de \"Historial\", elija \"JSON\".\n\n3. Presione \"Todos los datos de Youtube incluidos\", deseleccione Todo y elija solo historial.\n\n4. Crear Exportar, Descargar y Descomprimir.\n\n5. Elija \"watch-history.json\" en la siguiente pantalla.",
@@ -925,7 +1053,7 @@
   "languages": "Idiomas",
   "lastListen": "Ultima reproduccion",
   "lastPlayedPosition": "Ultima posición reproducida",
-  "learnMore": "Aprender más",
+  "learnMore": "Aprende más",
   "leftAction": "Hacia la Izquierda",
   "legacyAuthentication": "Autenticación Heredada",
   "libraryTabs": "Pestañas de navegación",
