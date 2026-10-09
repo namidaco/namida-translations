@@ -105,6 +105,7 @@
   "fixYtdlpBigThumbnailSize": "Corregir tamaño grande de miniaturas yt-dlp",
   "highMatches": "Altas coincidencias",
   "hook": "Gancho",
+  "host": "Anfitrión",
   "ignores": "ignorar",
   "item": "Por cancion",
   "learnMore": "Aprende más",
