@@ -359,6 +359,13 @@
       }
     }
   },
+  "@importSpotifyHistoryGuide": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
   "@importYoutubeHistoryGuide": {
     "placeholders": {
       "takeoutLink": {
@@ -384,11 +391,21 @@
       }
     }
   },
+  "@limiter": {
+    "description": "Equalizer option that softly caps peaks so boosted audio never clips"
+  },
   "@lostMemoriesSubtitle": {
     "placeholders": {
       "number": {
         "format": "decimalPattern",
         "type": "int"
+      }
+    }
+  },
+  "@lyricsFilesArePrioritized": {
+    "placeholders": {
+      "setting": {
+        "type": "String"
       }
     }
   },
@@ -409,6 +426,9 @@
         "type": "int"
       }
     }
+  },
+  "@monoAudio": {
+    "description": "Mixes the left and right channels together, so both sides play the same sound"
   },
   "@newTracksRecommendedSubtitle": {
     "placeholders": {
@@ -591,7 +611,7 @@
   "autoSkip": "Omitir automáticamente",
   "autoSkipOnce": "Omitir automáticamente una vez",
   "autoStartRadio": "Iniciar radio automáticamente",
-  "autoStartRadioSubtitle": "Añade automáticamente una mix playlist cuando estas escuchando un track",
+  "autoStartRadioSubtitle": "Añade automáticamente un mix playlist cuando estás escuchando un track",
   "autoSyncInterval": "Intervalo de sincronización automática",
   "autoTrackNumbers": "Números de pista automáticos",
   "autoTrackNumbersSubtitle": "Numerar pistas según el orden actual, por disco",
@@ -719,7 +739,7 @@
   "create": "Crear",
   "createBackup": "Crear copia de seguridad",
   "createNewPlaylist": "Crear nueva lista de reproducción",
-  "createNewSmartPlaylist": "Crear nueva Playlist inteligente",
+  "createNewSmartPlaylist": "Crear nueva playlist inteligente",
   "createdBackupSuccessfully": "Copia de seguridad creada",
   "createdBackupSuccessfullySub": "El archivo de copia de seguridad se ha creado correctamente",
   "crossfadeDuration": "Duración del fundido cruzado",
@@ -823,8 +843,8 @@
   "editArtwork": "Editar ilustraciones",
   "editTags": "Editar etiquetas",
   "email": "Correo electrónico",
-  "embed": "Integrado",
-  "embeddedLyricsArePrioritized": "Se usan las letras integradas en lugar de archivos de letras. Desactiva \"{setting}\" o integra letras para usarlas",
+  "embed": "Incrustar",
+  "embeddedLyricsArePrioritized": "Se usan letras incrustadas en lugar de archivos de letras. Desactiva \"{setting}\" o incrusta estas letras para utilizarlas",
   "emptyNonMeaningfulTagFields": "tiene campos con valores vacíos/sin significado, asegúrese de que realmente desea editarlos",
   "emptyValue": "Valor vacío",
   "enableArtworkCache": "Habilitar Caché de Carátulas",
@@ -1005,7 +1025,10 @@
   "importLastFmHistory": "Importar historial de LastFm",
   "importLastFmHistoryGuide": "1. Vaya a {lastfmCsvLink}\n\n2. Escriba su nombre de usuario, busque y descargue el archivo csv.\n\n3. Elija el archivo en la siguiente pantalla.",
   "importListenBrainzHistory": "Importar historial de ListenBrainz",
-  "importListenBrainzHistoryGuide": "1. Ve a {link}\n\n2. Solicita los datos y descarga\n\n3. Elige los archivos ZIP o JSON en la siguiente pantalla.",
+  "importListenBrainzHistoryGuide": "1. Ve a {link}\n\n2. Solicita los datos y descarga\n\n3. Elige los archivos zip o json en la siguiente pantalla.",
+  "importPlaylist": "Importar lista de reproducción",
+  "importSpotifyHistory": "Importar historial de Spotify",
+  "importSpotifyHistoryGuide": "1. Ve a {link}\n\n2. Marca \"Historial de reproducción extendido\"\n\n3. Solicita los datos y descarga\n\n4. Elige los archivos zip o json en la siguiente pantalla.",
   "importTimeRange": "Intervalo de tiempo de importación",
   "importYoutubeHistory": "Importar historial de Youtube",
   "importYoutubeHistoryGuide": "1. Vaya a {takeoutLink}\n\n2. Presione \"Múltiples formatos\" y al lado de \"Historial\", elija \"JSON\".\n\n3. Presione \"Todos los datos de Youtube incluidos\", deseleccione Todo y elija solo historial.\n\n4. Crear Exportar, Descargar y Descomprimir.\n\n5. Elija \"watch-history.json\" en la siguiente pantalla.",
@@ -1021,6 +1044,7 @@
   "info": "Información",
   "inserted": "insertado",
   "instantlyApplies": "Se aplica instantáneamente",
+  "instrumental": "Instrumental",
   "interactionReminder": "Recordatorio de interacción",
   "intro": "Introducción",
   "invertSelection": "Invertir selección",
@@ -1051,19 +1075,29 @@
   "killPlayerAfterDismissingApp": "Matar el reproductor después de cerrar la aplicación",
   "language": "Idioma",
   "languages": "Idiomas",
-  "lastListen": "Ultima reproduccion",
+  "lastHour": "Última hora",
+  "lastListen": "Escuchada recientemente",
+  "lastPlayed": "Última reproducción",
   "lastPlayedPosition": "Ultima posición reproducida",
+  "latency": "Latencia",
+  "latestQueue": "Última cola de reproducción",
   "learnMore": "Aprende más",
+  "left": "Izquierda",
   "leftAction": "Hacia la Izquierda",
   "legacyAuthentication": "Autenticación Heredada",
+  "libraryReach": "Acceso a la biblioteca",
   "libraryTabs": "Pestañas de navegación",
   "libraryTabsReorder": "Puede reordenar las pestañas activadas.",
   "license": "Licencia",
   "licenseSubtitle": "Acuerdos y Licencias usados por Namida",
   "like": "Me gusta",
   "liked": "Favorito",
+  "limit": "Limite",
+  "limiter": "Limitador",
   "link": "Enlace",
   "listOfFolders": "Lista de carpetas",
+  "listeningClock": "Reloj de escucha",
+  "listensPerMonth": "Escuchado al mes",
   "loadAll": "Cargar todo",
   "loadingFile": "Cargando archivo",
   "local": "Local",
@@ -1071,6 +1105,8 @@
   "login": "Inicia sesión",
   "longPressAction": "Al mantener presionado",
   "longPressTheLyricsToEnterFullscreen": "Mantén presionada la letra para entrar en la pantalla completa",
+  "longestSession": "Sesión más larga",
+  "longestStreak": "Racha más larga",
   "lossless": "Lossless",
   "lostMemories": "Recuerdos perdidos",
   "lostMemoriesSubtitle": "{number, plural, one{Hace {number} año, por estas horas} other{Hace {number} años, por estas horas}}",
@@ -1078,19 +1114,30 @@
   "loudnessEnhancer": "Mejora de ganancia",
   "lyricist": "Letrista",
   "lyrics": "Letra",
+  "lyricsDeleteWithTrack": "Eliminar la letra junto con la pista",
+  "lyricsDeleteWithTrackSubtitle": "Se conservará la letra que use otra pista",
+  "lyricsFilesArePrioritized": "Se usan archivos de letras en lugar de letras incrustadas. Activa \"{setting}\" para utilizarlos",
+  "lyricsFolders": "Carpetas de letras",
+  "lyricsFoldersSubtitle": "Coincidencia por nombre de archivo de la pista",
+  "lyricsSaveLocation": "Ruta de guardado de letras",
+  "lyricsSaveLocationNotWritable": "No se pudo guardar en la ubicación de guardado de letras, se guardó en caché",
+  "lyricsSaveLocationSubtitle": "Se usa la caché si no se puede escribir en la ubicación",
   "lyricsSource": "Fuente de letras de la canción",
   "m3uPlaylist": "Lista de reproducción M3U",
   "makeYourFirstListen": "¡Haz tu primera escucha!",
   "manage": "Administrar",
+  "manageTags": "Gestionar etiquetas",
   "manageYourAccounts": "Administrar tus cuentas",
   "manualBackup": "Manual",
   "manualBackupSubtitle": "selecciona un archivo específico",
   "markAsRead": "Marcar como leido",
   "matchAllTracks": "Coincidir con todas las pistas",
   "matchAllTracksNote": "Esto puede tener un impacto en la velocidad de comparación ya que verificará todas las pistas en su biblioteca",
+  "matchCase": "Coincidir mayúsculas y minúsculas",
   "matchingType": "tipo de coincidencias",
   "maxAudioCacheSize": "Tamaño del caché de audio",
   "maxImageCacheSize": "Tamaño máximo de caché de imágenes",
+  "maxServerCacheSize": "Tamaño máximo de caché del servidor",
   "maxVideoCacheSize": "Tamaño máximo de caché de vídeo",
   "maximum": "Máximo",
   "mediaStoreIsEnabledThisWillHaveNoEffect": "Tienda multimedia está encendida, este ajuste no se aplicará",
@@ -1114,6 +1161,7 @@
   "minTrackDurationToRestoreLastPosition": "Duración mínima de la pista para restaurar la última posición reproducida",
   "minValueCantBeMoreThanMax": "El valor mínimo no puede ser mayor que el valor máximo",
   "minValueToCountTrackListen": "Contar una reproducción después de: ",
+  "miniLyricsWindow": "Miniventana de letras",
   "minimizedMiniplayer": "Mini reproductor minimizado(oculto)",
   "minimum": "Mínimo",
   "minimumOneFolderSubtitle": "Debe haber al menos 1 carpeta, agregue más carpetas si desea eliminar esta",
@@ -1122,6 +1170,7 @@
   "minimumSegmentDuration": "Duración Mínima del Segmento",
   "miniplayerCustomization": "Personalización del minireproductor",
   "minutes": "minutos",
+  "mirroredBars": "Barras espejo",
   "missing": "Faltante",
   "missingEntries": "Entradas faltantes",
   "missingTracks": "Canciones perdidas",
@@ -1129,6 +1178,7 @@
   "mixPlaylistGeneratedByYoutube": "Mezcla de playlist generada por YouTube",
   "mixes": "Mezclas",
   "mobile": "Móvil",
+  "monoAudio": "Audio Mono",
   "month": "Mes",
   "months": "Meses",
   "mood": "Ánimo",
@@ -1136,7 +1186,9 @@
   "more": "Más",
   "mostPlayed": "Más escuchado",
   "move": "Mover",
+  "movies": "Películas",
   "multipleTracksTagsEditNote": "Estás a punto de editar estas canciones.\nLos campos sin modificar permanecen intactos.",
+  "multipleValues": "Multiples valores",
   "musicOfftopic": "Música Offtopic",
   "name": "Nombre",
   "nameContainsBadCharacter": "El nombre contiene caracteres invalidos",
@@ -1151,12 +1203,14 @@
   "newTracksRatings": "Calificaciones",
   "newTracksRatingsSubtitle": "Generar pistas con una calificación específica",
   "newTracksRecommended": "Recomendado",
-  "newTracksRecommendedSubtitle": "Genera pistas que escuchas habitualmente con {currentTrack}",
+  "newTracksRecommendedSubtitle": "Genera pistas que sueles escuchar junto con {currentTrack}",
   "newTracksSimilarrReleaseDate": "Fecha de lanzamiento similar",
   "newTracksSimilarrReleaseDateSubtitle": "Genera pistas que se lanzaron aproximadamente al mismo tiempo que {currentTrack}",
   "newTracksUnknownYear": "La canción tiene un año desconocido",
+  "newVideosAtTop": "Añadir videos nuevos al inicio",
   "newest": "Mas nueva",
   "next": "Next",
+  "nextChapter": "Siguiente capítulo",
   "no": "No",
   "noChangesFound": "No se han encontrado cambios.",
   "noEnoughTracks": "No tienes muchas pistas..",
@@ -1164,6 +1218,7 @@
   "noFolderChosen": "No has elegido ninguna carpeta",
   "noMoodsAvailable": "No hay estados de ánimo disponibles",
   "noNetworkAvailableToFetchData": "No hay conexión al internet para coleccionar los datos",
+  "noResults": "Sin resultados",
   "noTracksFound": "No se encontraron pistas",
   "noTracksFoundBetweenDates": "No hay pistas dentro de este rango de tiempo.",
   "noTracksFoundInDirectory": "No se encontraron canciones en este directorio",
@@ -1178,9 +1233,11 @@
   "notSupportedForVideoFiles": "No soportado para Archivos de vídeo",
   "note": "Nota",
   "notification": "Notificación",
+  "notificationButtons": "Botones de notificación",
   "notifications": "Notificaciones",
   "number": "Numero",
   "numberOfTracks": "Número de pistas",
+  "obsession": "Obsesión",
   "ofLabel": "de",
   "offlineSearch": "Busqueda sin internet",
   "offset": "Compensar",
@@ -1277,7 +1334,7 @@
   "reactiveParticles": "Partículas reactivas",
   "recentAlbums": "Álbumes recientes",
   "recentArtists": "Artistas recientes",
-  "recentListens": "Escuchas recientes",
+  "recentListens": "Reproducido recientemente",
   "recentQueues": "Colas recientes",
   "recentlyAdded": "Recientemente añadido",
   "recordLabel": "Etiqueta de registro",
@@ -1467,8 +1524,8 @@
   "topRecentAlbums": "Mejores álbumes recientes",
   "topRecentArtists": "Artistas más recientes",
   "topRecents": "Principales recientes",
-  "totalListenTime": "Tiempo total de escucha",
-  "totalListens": "Total de escuchas",
+  "totalListenTime": "Tiempo total escuchado",
+  "totalListens": "Total de reproducciones",
   "totalTracks": "Total de pistas",
   "totalTracksDuration": "Duración total de las pistas",
   "track": "Pista",
