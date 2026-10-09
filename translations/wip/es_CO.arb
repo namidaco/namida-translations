@@ -6,6 +6,13 @@
       }
     }
   },
+  "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
   "about": "Información de la app",
   "active": "Activo",
   "add": "Añadir",
@@ -71,7 +78,7 @@
   "autoSkip": "Omitir automáticamente",
   "autoSkipOnce": "Omitir automáticamente una vez",
   "autoStartRadio": "Iniciar radio automáticamente",
-  "autoStartRadioSubtitle": "Añade automáticamente una mix playlist cuando estas escuchando un track",
+  "autoStartRadioSubtitle": "Añade automáticamente un mix playlist cuando estás escuchando un track",
   "automaticBackup": "Automático",
   "backupAndRestoreSubtitle": "Haga una copia de seguridad de sus datos y ajustes",
   "borderRadiusMultiplier": "Multiplicador de radio del borde",
@@ -101,15 +108,22 @@
   "ignores": "ignorar",
   "item": "Por cancion",
   "learnMore": "Aprende más",
+  "manualBackup": "Manual",
   "manualBackupSubtitle": "selecciona un archivo específico",
   "matchingType": "tipo de coincidencias",
   "merge": "Fusionar",
+  "month": "Mes",
+  "newTracksRecommendedSubtitle": "Genera pistas que sueles escuchar junto con {currentTrack}",
   "or": "o en",
   "others": "Otros links útiles",
   "output": "Salida",
   "playlist": "Lista de reproducción",
+  "prioritizeEmbeddedLyrics": "Priorizar letras incrustadas",
+  "recentListens": "Reproducido recientemente",
   "rename": "Renombrar",
   "returnYoutubeDislike": "Mostrar No me Gusta de YouTube",
   "themeMode": "Temas",
+  "totalListenTime": "Tiempo total escuchado",
+  "totalListens": "Total de reproducciones",
   "trackPlayMode": "Modo de Reproducción"
 }
