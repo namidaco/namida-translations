@@ -209,6 +209,9 @@
       }
     }
   },
+  "@crossfade": {
+    "description": "Short name of the crossfade effect between tracks"
+  },
   "@crossfadeTriggerSeconds": {
     "placeholders": {
       "seconds": {
@@ -457,6 +460,16 @@
         "type": "String"
       },
       "operation": {
+        "type": "String"
+      }
+    }
+  },
+  "@otherAppsSounds": {
+    "description": "Sounds of other apps and notifications, which a mode like bit-perfect keeps off the output device"
+  },
+  "@partyAddedBy": {
+    "placeholders": {
+      "name": {
         "type": "String"
       }
     }
@@ -742,11 +755,13 @@
   "createNewSmartPlaylist": "Crear nueva playlist inteligente",
   "createdBackupSuccessfully": "Copia de seguridad creada",
   "createdBackupSuccessfullySub": "El archivo de copia de seguridad se ha creado correctamente",
+  "crossfade": "Crossfade",
   "crossfadeDuration": "Duración del fundido cruzado",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Enciende el crossfade en el ultimo {seconds} segundo} other{Enciende el crossfade en los últimos {seconds} segundos}}",
   "crossfadeTriggerSecondsDisabled": "No activar el crossfade entre canciones automáticamente",
+  "crossfeed": "Crossfeed",
   "curve": "Curva",
-  "custom": "A medida",
+  "custom": "Personalizado",
   "customizations": "Personalizaciones",
   "customizationsSubtitle": "Personaliza el aspecto del reproductor, hazlo tuyo",
   "daily": "Diario",
@@ -825,6 +840,7 @@
   "dontResume": "No resumir",
   "doubleTapToToggleLyrics": "Toca dos veces para alternar letras",
   "download": "Descargar",
+  "downloadingWillBeSkipped": "Se omitira la descarga",
   "downloadingWillOverrideIt": "La descarga lo anulará",
   "downloads": "Descargas",
   "downloadsMetadataTags": "Descargas etiquetas de metadatos",
@@ -1243,6 +1259,7 @@
   "offset": "Compensar",
   "oldDirectory": "directorio antiguo",
   "oldDirectoryStillHasTracks": "El directorio antiguo todavía tiene algunas pistas, ¿confirmas?",
+  "oldestFavorite": "Favorito más antiguo",
   "oldestWatch": "Reloj más antiguo",
   "onDeviceConnect": "En Dispositivos conectados",
   "onInterruption": "En interrupciones",
@@ -1261,8 +1278,11 @@
   "operationRequiresAccount": "La operacion {name} requiere una cuenta, Inicia sesión para proceder",
   "operationRequiresMembership": "La operacion {operation} requiere al menos la membresía {name}",
   "or": "o en",
+  "otherAppsSounds": "Sonidos de otras aplicaciones",
   "others": "Otros links útiles",
+  "outline": "Describir",
   "output": "Salida",
+  "outputDevice": "Dispositivo de salida",
   "outro": "Cierre",
   "overlayEffect": "Efecfcto superpuesto",
   "overlayEffectSubtitle": "Cubre toda la aplicación",
@@ -1274,6 +1294,27 @@
   "parallelDownloads": "Descargas paralelas",
   "parsed": "analizado",
   "particles": "Partículas",
+  "partyAddedBy": "Añadido por {name}",
+  "partyBan": "Prohibición",
+  "partyBanned": "Te vetaron de la fiesta",
+  "partyBannedMembers": "Miembros vetados",
+  "partyBrowse": "Salas públicas",
+  "partyBrowseSubtitle": "Salas a las que cualquiera se puede unir",
+  "partyBrowseUnsupported": "Este servidor no lista salas públicas",
+  "partyChat": "Chat",
+  "partyChatDisabled": "El chat está deshabilitado para invitados",
+  "partyChatHint": "Mensaje",
+  "partyCloseForEveryone": "Fiesta privada",
+  "partyCloseRoom": "Cerrar",
+  "partyCloseRoomFailed": "No sé pudo cerrar la fiesta",
+  "partyClosed": "La fiesta fue cerrada",
+  "partyCode": "Codigo de la fiesta",
+  "partyCreate": "Crea una fiesta",
+  "partyCustomServer": "Servidor personalizado",
+  "partyDisplayName": "Tu nombre",
+  "partyDisplayNameSubtitle": "Cómo te verán otros en la sala",
+  "partyFull": "La fiesta está llena",
+  "partyGuestPermissions": "Permisos de invitado",
   "password": "Contraseña",
   "path": "Ruta completa del archivo",
   "pause": "Pausa",
