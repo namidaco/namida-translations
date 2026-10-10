@@ -36,7 +36,7 @@
   "added": "Añadido",
   "advanced": "Avanzado",
   "advancedSettings": "Ajustes avanzados",
-  "advancedSettingsSubtitle": "Estos ajustes avanzados pueden romper cosas ¡ten cuidado!",
+  "advancedSettingsSubtitle": "Estos ajustes avanzados pueden romper cosas. ¡Ten cuidado!",
   "alarm": "Alarma",
   "album": "Album",
   "albumArtist": "Artista del álbum",
@@ -92,6 +92,7 @@
   "custom": "Personalizado",
   "customizationsSubtitle": "Personaliza el aspecto del reproductor, hazlo tuyo",
   "dateCreated": "Fecha de Creacion",
+  "displayAlbumCardTopRightDate": "Fecha del álbum en la parte superior derecha",
   "duplicatedItemsAdding": "Estas tratando de añadir algo que ya existe en esta playlist",
   "enableClipboardMonitoringSubtitle": "Permite pegar enlaces y textos dentro de la barra de búsqueda mientras navegas",
   "enableCrossfadeEffect": "Habilitar efecto de Crossfade",
@@ -118,6 +119,7 @@
   "or": "o en",
   "others": "Otros links útiles",
   "output": "Salida",
+  "personalized": "Personalizado",
   "playlist": "Lista de reproducción",
   "prioritizeEmbeddedLyrics": "Priorizar letras incrustadas",
   "recentListens": "Reproducido recientemente",
@@ -126,5 +128,7 @@
   "themeMode": "Temas",
   "totalListenTime": "Tiempo total escuchado",
   "totalListens": "Total de reproducciones",
-  "trackPlayMode": "Modo de Reproducción"
+  "trackPlayMode": "Modo de Reproducción",
+  "videoPlaybackSourceLocalExampleSubtitle": "Alan Walker - Faded.m4a\nVideo Alan Walker - Faded (480p).mp4",
+  "youtubeMusic": "Youtube Music"
 }
