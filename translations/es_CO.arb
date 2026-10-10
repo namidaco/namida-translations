@@ -334,6 +334,14 @@
   "@gain": {
     "description": "How much an equalizer band boosts or cuts, in dB"
   },
+  "@graphicEqualizerBands": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
@@ -468,6 +476,27 @@
     "description": "Sounds of other apps and notifications, which a mode like bit-perfect keeps off the output device"
   },
   "@partyAddedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partyInviteTextListeningTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partyMembershipRequired": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@partyTransferHostConfirm": {
     "placeholders": {
       "name": {
         "type": "String"
@@ -1003,6 +1032,7 @@
   "goToTrack": "Ir a la Pista",
   "goodLooking": "Bien hermoso",
   "grantStoragePermission": "Conceder permiso de almacenamiento",
+  "graphicEqualizerBands": "Gráfico, {count} bandas",
   "group": "Grupo",
   "groupArtworksByAlbum": "Imágenes de álbum por grupos",
   "groupByTags": "Agrupar por etiquetas",
@@ -1023,7 +1053,7 @@
   "home": "Inicio",
   "homeScreenWidget": "Widget de pantalla de inicio",
   "hook": "Gancho",
-  "host": "Host",
+  "host": "Anfitrión",
   "hourFormat12": "Formato de 12 horas",
   "hours": "Horas",
   "iReadAndAgree": "Leí y acepto",
@@ -1295,8 +1325,9 @@
   "parsed": "analizado",
   "particles": "Partículas",
   "partyAddedBy": "Añadido por {name}",
-  "partyBan": "Prohibición",
-  "partyBanned": "Te vetaron de la fiesta",
+  "partyApproximateMatch": "Se vinculó con un video de YouTube, puede que no sea el correcto",
+  "partyBan": "Restringir",
+  "partyBanned": "Te vetaron de la sesión",
   "partyBannedMembers": "Miembros vetados",
   "partyBrowse": "Salas públicas",
   "partyBrowseSubtitle": "Salas a las que cualquiera se puede unir",
@@ -1304,17 +1335,59 @@
   "partyChat": "Chat",
   "partyChatDisabled": "El chat está deshabilitado para invitados",
   "partyChatHint": "Mensaje",
-  "partyCloseForEveryone": "Fiesta privada",
+  "partyCloseForEveryone": "Finalizar la sesión para todos",
   "partyCloseRoom": "Cerrar",
-  "partyCloseRoomFailed": "No sé pudo cerrar la fiesta",
-  "partyClosed": "La fiesta fue cerrada",
-  "partyCode": "Codigo de la fiesta",
-  "partyCreate": "Crea una fiesta",
+  "partyCloseRoomFailed": "No se pudo cerrar la sesión",
+  "partyClosed": "La sesión fue cerrada",
+  "partyCode": "Código de la sesión",
+  "partyCreate": "Crea una sesión",
+  "partyCreateSubtitle": "Crea una sala a la que otros puedan unirse",
   "partyCustomServer": "Servidor personalizado",
   "partyDisplayName": "Tu nombre",
   "partyDisplayNameSubtitle": "Cómo te verán otros en la sala",
-  "partyFull": "La fiesta está llena",
+  "partyFull": "La sesión está llena",
   "partyGuestPermissions": "Permisos de invitado",
+  "partyHideOwner": "Ocultar salas de este anfitrión",
+  "partyHistory": "Reproducido en esta sesión",
+  "partyHostOffline": "El anfitrión está desconectado",
+  "partyHostOnThisDevice": "Transmitir desde este dispositivo",
+  "partyHostOnThisDeviceSubtitle": "No se necesita servidor, solo estar en misma red",
+  "partyHostSettings": "Ajustes del anfitrión",
+  "partyInvalidAction": "No se pudo aplicar esta acción a la sesión",
+  "partyInvalidInvite": "Enlace o código de invitación inválido",
+  "partyInvalidServerUrl": "URL del servidor inválida",
+  "partyInviteLink": "Enlace de invitación",
+  "partyInviteLinkOrCode": "Enlace o código de invitación",
+  "partyInviteTextListeningTo": "Escuchando {name}, ¡únete!",
+  "partyJoin": "Únete a una sesión",
+  "partyJoinRejected": "El anfitrión rechazó tu solicitud para entrar",
+  "partyJoinRequests": "Solicitudes para unirse",
+  "partyKick": "Expulsar",
+  "partyKicked": "Te expulsaron de la sesión",
+  "partyLeave": "Salir",
+  "partyLeaveSubtitle": "La sesión continuará y otro miembro pasara a ser el anfitrión",
+  "partyListenOnThisDevice": "Escuchar en este dispositivo",
+  "partyListenOnThisDeviceSubtitle": "Desactívalo para usar este dispositivo como control remoto",
+  "partyListeningParty": "Sesión grupal",
+  "partyListeningPartySubtitle": "Escucha con amigos en tiempo real",
+  "partyLockRoom": "Privatizar sesión",
+  "partyLockRoomSubtitle": "Nadie más podrá unirse",
+  "partyLocked": "La sesión es privada",
+  "partyMakeAdmin": "Asignar administrador",
+  "partyMembers": "Miembros",
+  "partyMembershipRequired": "Para crear una sesión en nuestro servidor necesitas una membresía {name} o superior, unirte siempre es gratis",
+  "partyNoPermission": "No tienes permisos para hacer eso",
+  "partyNoPublicRooms": "No hay salas públicas ahora",
+  "partyNotFound": "No se encontró la sesión",
+  "partyOpenRoomsOtherDevices": "Las sesiones creadas en otro dispositivo no aparecen aquí",
+  "partyPermAdd": "Añadir a la cola",
+  "partyPermChat": "Chat",
+  "partyPermControl": "Control de reproducción",
+  "partyServerPasswordSubtitle": "Solo para servidores propios",
+  "partyStatusPendingApproval": "Esperando la aprobación del anfitrión",
+  "partyTransferHost": "Cambiar de anfitrión",
+  "partyTransferHostConfirm": "¿Hacer a {name} el anfitrión de esta sesión?",
+  "partyYouAreHostNow": "Ahora eres el anfitrión",
   "password": "Contraseña",
   "path": "Ruta completa del archivo",
   "pause": "Pausa",
