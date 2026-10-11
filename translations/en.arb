@@ -369,6 +369,13 @@
       }
     }
   },
+  "@importSourceData": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -441,6 +448,13 @@
     "description": "Mixes the left and right channels together, so both sides play the same sound"
   },
   "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarSubtitle": {
     "placeholders": {
       "currentTrack": {
         "type": "String"
@@ -620,6 +634,13 @@
       }
     }
   },
+  "@usbDirectClaiming": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
   "@usbDirectFailed": {
     "placeholders": {
       "device": {
@@ -638,6 +659,13 @@
     }
   },
   "@usbDirectUnsupportedDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectWaitingPlayback": {
     "placeholders": {
       "device": {
         "type": "String"
@@ -1043,6 +1071,7 @@
   "error": "Error",
   "errorFetchingVideoList": "Error fetching video list",
   "errorPlayingTrack": "Error playing track",
+  "exactPhrase": "Exact phrase",
   "exclude": "Exclude",
   "excludedFodlers": "Excluded Folders",
   "exclusive": "Exclusive",
@@ -1104,6 +1133,7 @@
   "fireworks": "Fireworks",
   "firstListen": "First listen",
   "fixYtdlpBigThumbnailSize": "Fix yt-dlp big thumbnail size",
+  "flipArtwork": "Flip Artwork",
   "floatingActionButton": "Floating Action Button",
   "focus": "Focus",
   "folder": "Folder",
@@ -1156,6 +1186,7 @@
   "highPerformance": "High performance",
   "highlight": "Highlight",
   "history": "History",
+  "historyImportHtmlUnreadable": "Couldn't read the HTML takeout entries, export the history as JSON instead",
   "historyImportMissingEntriesNote": "These entries couldn't be found inside library, if you believe they exist, please consider adding them manually",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} listen for {oldTrackInfo} will be replaced with {newTrackInfo}, confirm?} other{{listensCount} listens for {oldTrackInfo} will be replaced with {newTrackInfo}, confirm?}}",
   "home": "Home",
@@ -1176,18 +1207,17 @@
   "immersiveModeSubtitle": "Hide Status & Navigation bars while Miniplayer is expanded",
   "import": "Import",
   "importAll": "Import all",
-  "importLastFmHistory": "Import LastFm History",
+  "importData": "Import data",
   "importLastFmHistoryGuide": "1. Go to {lastfmCsvLink}\n\n2. Type your username, fetch and download csv file.\n\n3. Choose the file from the next screen.",
-  "importListenBrainzHistory": "Import ListenBrainz History",
   "importListenBrainzHistoryGuide": "1. Go to {link}\n\n2. Request Data & Download\n\n3. Choose zip or json files from the next screen.",
   "importPlaylist": "Import playlist",
-  "importSpotifyHistory": "Import Spotify History",
-  "importSpotifyHistoryGuide": "1. Go to {link}\n\n2. Check \"Extended streaming history\"\n\n3. Request Data & Download\n\n4. Choose zip or json files from the next screen.",
+  "importSourceData": "Import {source} data",
+  "importSpotifyHistoryGuide": "1. Go to {link}\n\n2. Check \"Account data\" and \"Extended streaming history\"\n\n3. Request Data & Download\n\n4. Choose zip or json files from the next screen.",
   "importTimeRange": "Import time range",
-  "importYoutubeHistory": "Import Youtube History",
-  "importYoutubeHistoryGuide": "1. Go to {takeoutLink}\n\n2. Press \"Multiple Formats\" and beside \"History\" choose \"JSON\".\n\n3. Press \"All Youtube data included\", Deselect All and choose history only.\n\n4. Create Export, Download & Unzip.\n\n5. Choose \"watch-history.json\" from the next screen.",
+  "importYoutubeHistoryGuide": "1. Go to {takeoutLink}\n\n2. Press \"Multiple Formats\" and beside \"History\" choose \"JSON\".\n\n3. Press \"All Youtube data included\", Deselect All and choose history and playlists.\n\n4. Create Export & Download.\n\n5. Choose the zip files or the extracted folder from the next screen.",
   "importedNChannelsSuccessfully": "{number, plural, one{Imported {number} channel successfully} other{Imported {number} channels successfully}}",
   "importedNPlaylistsSuccessfully": "{number, plural, one{Imported {numberText} playlist successfully} other{Imported {numberText} playlists successfully}}",
+  "inTitle": "In title",
   "includeVideos": "Include videos",
   "indexRefreshRequired": "Do a Refresh after changing this",
   "indexer": "Indexer",
@@ -1221,7 +1251,9 @@
   "jumpToDay": "Jump to Day",
   "jumpToFirstTrackAfterQueueFinish": "Jump to first track after finishing queue",
   "keepCachedVersions": "Keep cached versions",
+  "keepCurrentOrder": "Keep current order",
   "keepFileDates": "Keep file dates",
+  "keepQueue": "Keep queue",
   "keepScreenAwakeMiniplayerExpanded": "Miniplayer is Expanded",
   "keepScreenAwakeMiniplayerExpandedAndVideo": "Miniplayer is Expanded and a Video is Playing",
   "keepScreenAwakeNone": "Don't keep screen awake",
@@ -1285,6 +1317,7 @@
   "manualBackup": "Manual",
   "manualBackupSubtitle": "pick up a specific file",
   "markAsRead": "Mark as read",
+  "match": "Match",
   "matchAllTracks": "Match All Tracks",
   "matchAllTracksNote": "this can have an impact on the matching speed, as it will check all tracks in your library",
   "matchCase": "Match case",
@@ -1344,6 +1377,7 @@
   "multipleTracksTagsEditNote": "You are about to edit these tracks,\nUnchanged fields remain untouched.",
   "multipleValues": "Multiple values",
   "musicOfftopic": "Music Offtopic",
+  "musicalKey": "Key",
   "name": "Name",
   "nameContainsBadCharacter": "Name contains bad character",
   "never": "Never",
@@ -1358,6 +1392,8 @@
   "newTracksRatingsSubtitle": "Generate tracks that has specific rating",
   "newTracksRecommended": "Recommended",
   "newTracksRecommendedSubtitle": "Generate tracks you usually listened to with {currentTrack}",
+  "newTracksSimilar": "Similar Tracks",
+  "newTracksSimilarSubtitle": "Generate tracks similar to {currentTrack}",
   "newTracksSimilarrReleaseDate": "Similar Release Date",
   "newTracksSimilarrReleaseDateSubtitle": "Generate tracks that were released around the same time as {currentTrack}",
   "newTracksUnknownYear": "Track has unknown year",
@@ -1366,6 +1402,7 @@
   "next": "Next",
   "nextChapter": "Next chapter",
   "no": "no",
+  "noBackCoverFound": "No back cover found",
   "noChangesFound": "No changes has been found.",
   "noEnoughTracks": "You don't have much tracks..",
   "noExcludedFolders": "You Don't have any excluded folders",
@@ -1590,7 +1627,7 @@
   "previousButtonReplays": "Previous button replays",
   "previousButtonReplaysSubtitle": "if pressed while current position was more than seek duration",
   "previousChapter": "Previous chapter",
-  "prioritizeEmbeddedLyrics": "Prioritize embedded lyrics",
+  "prioritizeEmbeddedLyrics": "Prefer embedded lyrics",
   "priority": "Priority",
   "private": "Private",
   "progress": "Progress",
@@ -1655,6 +1692,7 @@
   "repeatModeOne": "Repeat Current Track",
   "repeatRate": "Repeat Rate",
   "replaceAllListensWithAnotherTrack": "Replace all listens with another track",
+  "replaceQueue": "Replace queue",
   "replaceWith": "Replace with",
   "replies": "Replies",
   "reply": "Reply",
@@ -1668,6 +1706,7 @@
   "respectNoMediaSubtitle": "Don't include folders that has .nomedia",
   "restart": "Restart",
   "restoreBackup": "Restore Backup",
+  "restoreCustomOrder": "Restore custom order",
   "restoreDefaults": "Restore Defaults",
   "restoredBackupSuccessfully": "Restored Backup",
   "restoredBackupSuccessfullySub": "Backup file has been restored successfully",
@@ -1714,6 +1753,7 @@
   "semitones": "Semitones",
   "send": "Send",
   "sendToAllDevices": "Send to All Devices",
+  "separators": "Separators",
   "separatorsBlacklistSubtitle": "These words will not get split",
   "separatorsMessage": "No need to insert spaces, unless you wanna use a letter/symbol that can be found in a whole word (like x and ft.)",
   "server": "Server",
@@ -1851,6 +1891,7 @@
   "themeModeSystem": "System",
   "themeSettings": "Theme",
   "themeSettingsSubtitle": "The overall vibe of your player",
+  "thisDeviceCouldNotProveItIsTheOneYouPairedAcceptOnlyIfYouResetIt": "This device could not prove it is the one you paired, accept only if you reset it",
   "thisMonth": "This month",
   "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "This playlist has active sorters, please disable them before reordering.",
   "thisVideoIsLikelyDeletedOrSetToPrivate": "This video is likely deleted or set to private.",
@@ -1871,6 +1912,7 @@
   "totalTracks": "Total Tracks",
   "totalTracksDuration": "Total Tracks Duration",
   "track": "Track",
+  "trackArtistsDisplaySeparator": "Artists Display Separator",
   "trackArtistsSeparator": "Artists Separators",
   "trackFolder": "Track folder",
   "trackGenresSeparator": "Genres Separators",
@@ -1917,12 +1959,14 @@
   "uploadDate": "Upload date",
   "usbDirect": "USB direct access",
   "usbDirectAwaitingPermission": "Allow access to {device}",
+  "usbDirectClaiming": "Connecting to {device}",
   "usbDirectFailed": "{device} stopped responding",
   "usbDirectHardwareVolume": "DAC volume",
   "usbDirectNoDevice": "Connect a USB DAC",
   "usbDirectPermissionDenied": "Access to {device} was denied",
   "usbDirectSubtitle": "Sends audio straight to your USB DAC, bypassing Android's audio system",
   "usbDirectUnsupportedDevice": "{device} isn't supported",
+  "usbDirectWaitingPlayback": "Stop playback in other apps to use {device}",
   "useCollapsedSettingTiles": "Use Collapsed Setting Tiles",
   "useForDevice": "Use for {device}",
   "useMediaStore": "Use Media Store",
@@ -1976,7 +2020,6 @@
   "yes": "yes",
   "youCanNowSendAndReceiveDataWithThisDevice": "You can now send and receive data with this device",
   "yourCurrentMembershipIs": "Your current membership is {name}",
-  "yourCustomOrderWillBeLost": "Your custom order will be lost, Are you sure?",
   "yourYear": "Your {year}",
   "youtube": "Youtube",
   "youtubeId": "Youtube ID",
