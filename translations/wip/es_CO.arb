@@ -121,6 +121,8 @@
   "output": "Salida",
   "personalized": "Personalizado",
   "playlist": "Lista de reproducción",
+  "playlistsImportM3uNative": "Esto importará playlists M3U para uso exclusivo de namida, úsalo si estás migrando",
+  "preview": "Vista previa",
   "prioritizeEmbeddedLyrics": "Priorizar letras incrustadas",
   "recentListens": "Reproducido recientemente",
   "rename": "Renombrar",
