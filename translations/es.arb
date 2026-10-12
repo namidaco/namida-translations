@@ -369,6 +369,13 @@
       }
     }
   },
+  "@importSourceData": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -441,6 +448,13 @@
     "description": "Mixes the left and right channels together, so both sides play the same sound"
   },
   "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarSubtitle": {
     "placeholders": {
       "currentTrack": {
         "type": "String"
@@ -620,6 +634,13 @@
       }
     }
   },
+  "@usbDirectClaiming": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
   "@usbDirectFailed": {
     "placeholders": {
       "device": {
@@ -638,6 +659,13 @@
     }
   },
   "@usbDirectUnsupportedDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectWaitingPlayback": {
     "placeholders": {
       "device": {
         "type": "String"
@@ -1043,6 +1071,7 @@
   "error": "Error",
   "errorFetchingVideoList": "Error al recuperar la lista de vídeos",
   "errorPlayingTrack": "Error al reproducir pista",
+  "exactPhrase": "Frase exacta",
   "exclude": "Excluir",
   "excludedFodlers": "Carpetas excluidas",
   "exclusive": "Excluyente",
@@ -1104,6 +1133,7 @@
   "fireworks": "Fuegos artificiales",
   "firstListen": "Primera vez que lo escuché",
   "fixYtdlpBigThumbnailSize": "Corregir el tamaño excesivo de las miniaturas en yt-dlp",
+  "flipArtwork": "Invertir la ilustración",
   "floatingActionButton": "Acción de boton flotante",
   "focus": "Énfasis",
   "folder": "Carpeta",
@@ -1156,6 +1186,7 @@
   "highPerformance": "Alto rendimiento",
   "highlight": "Resaltar",
   "history": "Historial",
+  "historyImportHtmlUnreadable": "Error al leer las entradas HTML de Takeout. Exporta el historial en formato JSON",
   "historyImportMissingEntriesNote": "Estas entradas no pudieron ser encontradas en la biblioteca, si crees que existen, porfavor considera añadirlas manualmente",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} reproducciones de {oldTrackInfo} se sustituirán por {newTrackInfo}, ¿confirmar?} other{{listensCount} reproducción de {oldTrackInfo} se sustituirá por {newTrackInfo}, ¿confirmar?}}",
   "home": "Inicio",
@@ -1176,14 +1207,17 @@
   "immersiveModeSubtitle": "Ocultar las barras de estado y navegación mientras el minirreproductor está abierto",
   "import": "Importar",
   "importAll": "Importar todo",
+  "importData": "Importar datos",
   "importLastFmHistoryGuide": "1. Ve a {lastfmCsvLink}\n\n2. Introduce tu nombre de usuario, recupera y descarga el archivo csv.\n\n3. Selecciona el archivo en la siguiente pantalla.",
   "importListenBrainzHistoryGuide": "1. Ve a {link}\n\n2. Solicitar datos y descargar\n\n3. Elige los archivos zip o json en la siguiente pantalla.",
   "importPlaylist": "Importar lista de reproducción",
-  "importSpotifyHistoryGuide": "1. Ve a {link}\n\n2. Marca \"Historial de reproducción extendido\"\n\n3. Solicita los datos y descárgalos\n\n4. Elige los archivos zip o json en la siguiente pantalla.",
+  "importSourceData": "Importar datos desde {source}",
+  "importSpotifyHistoryGuide": "1. Entra en {link}\n\n2. Marca \"Datos de la cuenta\" e \"Historial de reproducción extendido\"\n\n3. Solicita los datos y descárgalos\n\n4. Elige los archivos .zip o .json en la siguiente pantalla.",
   "importTimeRange": "Importar un rango de tiempo",
-  "importYoutubeHistoryGuide": "1. Ir a {takeoutLink}\n\n2. Presiona \"Multiples Formatos\" y al lado de \"Historial\" selecciona \"JSON\".\n\n3. Presiona \"Todos los datos de YouTube incluidos \", deselecciona todo y selecciona solo historial.\n\n4. Crea, Exporta, Descarga y Descomprime.\n\n5. Selecciona \"watch-history.json\" en la siguiente pantalla.",
+  "importYoutubeHistoryGuide": "1. Entra en {takeoutLink}\n\n2. Haz clic en \"Múltiples formatos\" y, al lado de \"Historial\", elige \"JSON\".\n\n3. Haz clic en \"Se incluyeron todos los datos de YouTube\", pulsa en \"Desmarcar todo\" y selecciona el historial y las listas de reproducción.\n\n4. Crea la exportación y descárgala.\n\n5. Elige los archivos ZIP o la carpeta extraída en la siguiente pantalla.",
   "importedNChannelsSuccessfully": "{number, plural, one{{number} canal importado correctamente} other{{number} canales importados correctamente}}",
   "importedNPlaylistsSuccessfully": "{number, plural, one{ Lista de reproducción {numberText} importada correctamente} other{ Listas de reproducción {numberText} importadas correctamente}}",
+  "inTitle": "Por título",
   "includeVideos": "Incluir videos",
   "indexRefreshRequired": "Recargar después cambiar esto",
   "indexer": "Indexador",
@@ -1217,7 +1251,9 @@
   "jumpToDay": "Saltar al día",
   "jumpToFirstTrackAfterQueueFinish": "Saltar a la primera pista después de finalizar la fila",
   "keepCachedVersions": "Mantener versiones en caché",
+  "keepCurrentOrder": "Conservar el orden actual",
   "keepFileDates": "Mantener fechas del archivo",
+  "keepQueue": "Conservar la lista",
   "keepScreenAwakeMiniplayerExpanded": "El mini reproductor está expandido",
   "keepScreenAwakeMiniplayerExpandedAndVideo": "El mini reproductor está expandido y un video se está reproduciendo",
   "keepScreenAwakeNone": "No mantener la pantalla encendida",
@@ -1281,6 +1317,7 @@
   "manualBackup": "Manual",
   "manualBackupSubtitle": "Selecciona un archivo especifico",
   "markAsRead": "Marcar como leido",
+  "match": "Coincidencia",
   "matchAllTracks": "Encontrar todas las pistas",
   "matchAllTracksNote": "esto puede tener un impacto en el tiempo de coincidencia, ya que buscara en todas las pistas de tu librería",
   "matchCase": "Distinguir mayúsculas/minúsculas",
@@ -1340,6 +1377,7 @@
   "multipleTracksTagsEditNote": "Estas apunto de editar estas pistas,\nlos campos sin cambios se mantendrán intactos.",
   "multipleValues": "Varios valores",
   "musicOfftopic": "Música: temas varios",
+  "musicalKey": "Clave",
   "name": "Nombre",
   "nameContainsBadCharacter": "El nombre contiene caracteres incorrectos",
   "never": "Nunca",
@@ -1354,6 +1392,8 @@
   "newTracksRatingsSubtitle": "Genera pistas que tienen una puntuación especifica",
   "newTracksRecommended": "Recomendado",
   "newTracksRecommendedSubtitle": "Genera pistas que usualmente escuchas con {currentTrack}",
+  "newTracksSimilar": "Canciones similares",
+  "newTracksSimilarSubtitle": "Generar canciones similares a {currentTrack}",
   "newTracksSimilarrReleaseDate": "Fecha de lanzamiento similar",
   "newTracksSimilarrReleaseDateSubtitle": "Genera pistas que fueron lanzadas alrededor de la misma época que {currentTrack}",
   "newTracksUnknownYear": "La pista tiene año desconocido",
@@ -1362,6 +1402,7 @@
   "next": "Siguiente",
   "nextChapter": "Próximo capítulo",
   "no": "no",
+  "noBackCoverFound": "Sin contraportada",
   "noChangesFound": "No se han encontrado cambios.",
   "noEnoughTracks": "No tienes muchas pistas..",
   "noExcludedFolders": "No tienes ninguna carpeta excluida",
@@ -1586,7 +1627,7 @@
   "previousButtonReplays": "Botón anterior repite",
   "previousButtonReplaysSubtitle": "Si se presiona mientras la posición actual es mas que la duración de búsqueda",
   "previousChapter": "Capítulo anterior",
-  "prioritizeEmbeddedLyrics": "Priorizar letras adjuntas",
+  "prioritizeEmbeddedLyrics": "Priorizar letras del archivo",
   "priority": "Prioridad",
   "private": "Privado",
   "progress": "Progreso",
@@ -1651,6 +1692,7 @@
   "repeatModeOne": "Repetir pista actual",
   "repeatRate": "Tasa de repetición",
   "replaceAllListensWithAnotherTrack": "Reemplazar todas las escuchas con otra pista",
+  "replaceQueue": "Sustituir la lista",
   "replaceWith": "Reemplazar con",
   "replies": "respuestas",
   "reply": "Responder",
@@ -1664,6 +1706,7 @@
   "respectNoMediaSubtitle": "No incluya carpetas que tengan .nomedia",
   "restart": "Reiniciar",
   "restoreBackup": "Restaurar respaldo",
+  "restoreCustomOrder": "Restaurar orden propio",
   "restoreDefaults": "Restaurar valores por defecto",
   "restoredBackupSuccessfully": "Restaurar copia de seguridad",
   "restoredBackupSuccessfullySub": "El archivo de respaldo se ha restaurado exitosamente",
@@ -1710,6 +1753,7 @@
   "semitones": "Semitonos",
   "send": "Enviar",
   "sendToAllDevices": "Enviar a todos los dispositivos",
+  "separators": "Delimitadores",
   "separatorsBlacklistSubtitle": "Estas palabras no se separarán",
   "separatorsMessage": "No es necesario insertar espacios, a menos que quieras usar una letra/símbolo que pueda encontrarse en una palabra completa (como x y ft.)",
   "server": "Servidor",
@@ -1847,6 +1891,7 @@
   "themeModeSystem": "Definido por el sistema",
   "themeSettings": "Tema",
   "themeSettingsSubtitle": "La vibra de todo tu reproductor",
+  "thisDeviceCouldNotProveItIsTheOneYouPairedAcceptOnlyIfYouResetIt": "No se pudo verificar el dispositivo vinculado. Restablécelo antes de aceptar",
   "thisMonth": "Este mes",
   "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "Esta lista de reproducción tiene clasificadores activos; desactívelos antes de reordenarla.",
   "thisVideoIsLikelyDeletedOrSetToPrivate": "Es probable que este vídeo haya sido eliminado o configurado como privado.",
@@ -1867,6 +1912,7 @@
   "totalTracks": "Total de pistas",
   "totalTracksDuration": "Duración total de las pistas",
   "track": "Pista",
+  "trackArtistsDisplaySeparator": "Divisor de artistas",
   "trackArtistsSeparator": "Separadores de artistas",
   "trackFolder": "Carpeta de la pista",
   "trackGenresSeparator": "Separadores de géneros",
@@ -1913,12 +1959,14 @@
   "uploadDate": "Fecha de subida",
   "usbDirect": "Acceso directo por USB",
   "usbDirectAwaitingPermission": "Permitir acceso a {device}",
+  "usbDirectClaiming": "Conectando a {device}",
   "usbDirectFailed": "{device} no responde",
   "usbDirectHardwareVolume": "Volumen de hardware",
   "usbDirectNoDevice": "Sin DAC USB conectado",
   "usbDirectPermissionDenied": "Acceso denegado a {device}",
   "usbDirectSubtitle": "Envía el audio directamente a tu DAC USB, evitando el sistema de audio de Android",
   "usbDirectUnsupportedDevice": "{device} no soportado",
+  "usbDirectWaitingPlayback": "Detén otras aplicaciones para usar {device}",
   "useCollapsedSettingTiles": "Usar ajustes agrupados",
   "useForDevice": "Usado por {device}",
   "useMediaStore": "Utilice Media Store",
