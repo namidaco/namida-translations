@@ -6,9 +6,41 @@
       }
     }
   },
+  "@importLastFmHistoryGuide": {
+    "placeholders": {
+      "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
   "@newTracksRecommendedSubtitle": {
     "placeholders": {
       "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@resumeIfWasPausedForLessThanNMin": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@seeProjectCodeOnSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "@trackPathOldNew": {
+    "placeholders": {
+      "newName": {
+        "type": "String"
+      },
+      "oldName": {
         "type": "String"
       }
     }
@@ -18,9 +50,9 @@
   "add": "Añadir",
   "addAccount": "Añadir cuenta",
   "addAll": "Añadir todo",
-  "addAllAndRemoveOldOnes": "Añadir todo y elimina lo antiguo",
+  "addAllAndRemoveOldOnes": "Añadir todo y borrar lo anterior",
   "addAsANewPlaylist": "Añadir como una nueva Playlist",
-  "addAudioToLocalLibrary": "Añade audio a la librería local",
+  "addAudioToLocalLibrary": "Añade audio a la biblioteca local",
   "addFolder": "Añade una carpeta",
   "addLanguage": "Agregar idioma",
   "addLanguageSubtitle": "Ayuda a traducir Namida a tu propio idioma",
@@ -32,19 +64,19 @@
   "addOnlyMissing": "Agrega solo lo faltante",
   "addToFavourites": "Añadir a favoritos",
   "addToPlaylist": "Añadir a la Playlist",
-  "addTracksAtTheBeginning": "Añadir pistas al principio",
+  "addTracksAtTheBeginning": "Añadir pistas al inicio",
   "added": "Añadido",
   "advanced": "Avanzado",
   "advancedSettings": "Ajustes avanzados",
   "advancedSettingsSubtitle": "Estos ajustes avanzados pueden romper cosas. ¡Ten cuidado!",
   "alarm": "Alarma",
-  "album": "Album",
+  "album": "Álbum",
   "albumArtist": "Artista del álbum",
   "albumArtists": "Artistas del album",
-  "albumIdentifiers": "Identificadores del Album",
-  "albumThumbnailSizeInList": "Tamaño de la miniatura del Album",
+  "albumIdentifiers": "Identificadores del Álbum",
+  "albumThumbnailSizeInList": "Tamaño de la miniatura del álbum",
   "albumTileCustomization": "Personaliza las casillas de álbum",
-  "albums": "Albumes",
+  "albums": "Álbumes",
   "albumsCount": "Contador de albumes",
   "all": "Todos",
   "allTime": "Todo el tiempo",
@@ -89,16 +121,19 @@
   "clearTrackItem": "Borrar canciones",
   "clock": "Reloj",
   "comment": "Comentar",
+  "couldntRenamePlaylist": "No se pudo cambiar el nombre de la playlist",
   "custom": "Personalizado",
   "customizationsSubtitle": "Personaliza el aspecto del reproductor, hazlo tuyo",
   "dateCreated": "Fecha de Creacion",
   "displayAlbumCardTopRightDate": "Fecha del álbum en la parte superior derecha",
   "duplicatedItemsAdding": "Estas tratando de añadir algo que ya existe en esta playlist",
+  "enableBlurEffect": "Habilitar desenfoque",
   "enableClipboardMonitoringSubtitle": "Permite pegar enlaces y textos dentro de la barra de búsqueda mientras navegas",
   "enableCrossfadeEffect": "Habilitar efecto de Crossfade",
   "enableFadeEffectOnPlayPause": "Habilitar efecto de desvanecimiento en play/pausa",
   "enableFoldersHierarchy": "Habilitar jerarquía de carpetas",
-  "enableSponsorblock": "Encender Bloqueador de Sponsors",
+  "enableSponsorblock": "Activar SponsorBlock",
+  "enableVideoPlayback": "Activar reproducción de video",
   "extractFeatArtist": "Extraer artistas \"feat.\" del título",
   "fetching": "Buscando",
   "fetchingOfAllVideos": "Busqueda en todos los vídeos",
@@ -108,8 +143,10 @@
   "hook": "Gancho",
   "host": "Anfitrión",
   "ignores": "ignorar",
+  "importLastFmHistoryGuide": "1. Ve a {lastfmCsvLink}\n\n2. Escribe tu nombre de usuario, busca y descarga el archivo csv.\n\n3. Elige el archivo en la siguiente pantalla.",
   "item": "Por cancion",
   "learnMore": "Aprende más",
+  "leftAction": "Deslizar a la izquierda",
   "manualBackup": "Manual",
   "manualBackupSubtitle": "selecciona un archivo específico",
   "matchingType": "tipo de coincidencias",
@@ -125,12 +162,36 @@
   "preview": "Vista previa",
   "prioritizeEmbeddedLyrics": "Priorizar letras incrustadas",
   "recentListens": "Reproducido recientemente",
+  "removeFromLibrary": "Quitar de la biblioteca",
+  "removeSourceFromHistory": "Eliminar fuente del historial",
   "rename": "Renombrar",
+  "repeatModeOne": "Repetir pista actual",
+  "replaceAllListensWithAnotherTrack": "Reemplazar lo escuchado con otra pista",
+  "reply": "Responder",
+  "restoreBackup": "Restaurar copia de seguridad",
+  "resumeIfWasPausedForLessThanNMin": "{number, plural, one{Vuelve a reproducir si se pausó hace menos de {number} minuto} other{Vuelve a reproducir si se pausó hace menos de {number} minutos}}",
   "returnYoutubeDislike": "Mostrar No me Gusta de YouTube",
+  "rightAction": "Deslizar a la derecha",
+  "seeProjectCodeOnSite": "Mira el código del proyecto en {site}",
+  "selfPromotion": "Autopromoción",
+  "size": "Tamaño",
+  "skipCountTracking": "Omitir telemetría de conteo",
+  "skipSponsorSegmentsInVideos": "Omitir segmentos de patrocinio en videos",
+  "sleepTimer": "Descansar en...",
+  "socials": "Redes sociales",
+  "sponsor": "Patrocinador",
+  "sponsorblock": "SponsorBlock",
+  "sponsorblockLeaderboard": "Estadísticas del SponsorBlock",
+  "subdirectory": "Subdirectorio",
+  "supremacy": "Supremacía",
+  "sussyBaka": "Bruh, no hay canciones",
+  "swipeActions": "Acciones al deslizar",
   "themeMode": "Temas",
   "totalListenTime": "Tiempo total escuchado",
   "totalListens": "Total de reproducciones",
+  "trackPathOldNew": "Nombre anterior: \"{oldName}\"\n\nNombre nuevo: \"{newName}\"\n\n¿Estás seguro?",
   "trackPlayMode": "Modo de Reproducción",
+  "unlock": "Desbloquear",
   "videoPlaybackSourceLocalExampleSubtitle": "Alan Walker - Faded.m4a\nVideo Alan Walker - Faded (480p).mp4",
   "youtubeMusic": "Youtube Music"
 }
