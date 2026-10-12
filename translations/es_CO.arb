@@ -33,6 +33,13 @@
   "@bitPerfectSubtitle": {
     "description": "Subtitle of the bit-perfect option"
   },
+  "@bitPerfectUpTo": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
   "@clearTrackItemMultiple": {
     "placeholders": {
       "number": {
@@ -506,12 +513,18 @@
   "@preamp": {
     "description": "Gain applied before the equalizer bands, usually negative to leave room for boosts"
   },
+  "@qFactor": {
+    "description": "Q factor of an equalizer band: how narrow it is, higher is narrower"
+  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
         "type": "int"
       }
     }
+  },
+  "@resample": {
+    "description": "Converting audio to a different sample rate"
   },
   "@resumeIfWasPausedForLessThanNMin": {
     "placeholders": {
@@ -535,6 +548,9 @@
       }
     }
   },
+  "@signalPath": {
+    "description": "Every step audio goes through, from the file to the output device"
+  },
   "@similarDiscoverDateSubtitle": {
     "placeholders": {
       "currentTrack": {
@@ -549,6 +565,22 @@
       }
     }
   },
+  "@sliders": {
+    "description": "Shows the equalizer as vertical gain sliders"
+  },
+  "@slope": {
+    "description": "Steepness of a low/high pass filter, in dB per octave"
+  },
+  "@sourcePerScope": {
+    "placeholders": {
+      "scope": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
   "@suggestionSubtitle": {
     "placeholders": {
       "site": {
@@ -556,12 +588,77 @@
       }
     }
   },
+  "@systemAudioEffects": {
+    "description": "Audio effects applied by Android or other apps system wide"
+  },
+  "@templates": {
+    "description": "Ready made equalizer layouts, like a flat 10 band graphic equalizer"
+  },
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
         "type": "String"
       },
       "oldName": {
+        "type": "String"
+      }
+    }
+  },
+  "@turnsOff": {
+    "description": "Label before a list of options that a mode (bit-perfect, USB direct) turns off"
+  },
+  "@usbDirect": {
+    "description": "Option where the app talks to a USB DAC itself instead of going through Android's audio system"
+  },
+  "@usbDirectAwaitingPermission": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectClaiming": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectFailed": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectHardwareVolume": {
+    "description": "The volume is changed by the USB DAC's own volume control"
+  },
+  "@usbDirectPermissionDenied": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectUnsupportedDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectWaitingPlayback": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@useForDevice": {
+    "description": "Applies this equalizer preset automatically whenever the given output device is used",
+    "placeholders": {
+      "device": {
         "type": "String"
       }
     }
@@ -580,9 +677,9 @@
   "add": "Añadir",
   "addAccount": "Añadir cuenta",
   "addAll": "Añadir todo",
-  "addAllAndRemoveOldOnes": "Añadir todo y elimina lo antiguo",
+  "addAllAndRemoveOldOnes": "Añadir todo y borrar lo anterior",
   "addAsANewPlaylist": "Añadir como una nueva Playlist",
-  "addAudioToLocalLibrary": "Añade audio a la librería local",
+  "addAudioToLocalLibrary": "Añade audio a la biblioteca local",
   "addBand": "Agregar banda",
   "addBookmark": "Agregar Marcador",
   "addFolder": "Añade una carpeta",
@@ -598,20 +695,20 @@
   "addRule": "Agregar reglas",
   "addToFavourites": "Añadir a favoritos",
   "addToPlaylist": "Añadir a la Playlist",
-  "addTracksAtTheBeginning": "Añadir pistas al principio",
+  "addTracksAtTheBeginning": "Añadir pistas al inicio",
   "added": "Añadido",
   "address": "Dirección",
   "advanced": "Avanzado",
   "advancedSettings": "Ajustes avanzados",
   "advancedSettingsSubtitle": "Estos ajustes avanzados pueden romper cosas. ¡Ten cuidado!",
   "alarm": "Alarma",
-  "album": "Album",
+  "album": "Álbum",
   "albumArtist": "Artista del álbum",
   "albumArtists": "Artistas del album",
-  "albumIdentifiers": "Identificadores del Album",
-  "albumThumbnailSizeInList": "Tamaño de la miniatura del Album",
+  "albumIdentifiers": "Identificadores del Álbum",
+  "albumThumbnailSizeInList": "Tamaño de la miniatura del álbum",
   "albumTileCustomization": "Personaliza las casillas de álbum",
-  "albums": "Albumes",
+  "albums": "Álbumes",
   "albumsCount": "Contador de albumes",
   "all": "Todos",
   "allListens": "Todas las reproducciones",
@@ -667,7 +764,7 @@
   "backgroundEffect": "Effecto de fondo",
   "backupAndRestore": "Copia de seguridad y Restauración",
   "backupAndRestoreSubtitle": "Haga una copia de seguridad de sus datos y ajustes",
-  "backupHistoryBeforeImporting": "Respaldar historial antes de importar",
+  "backupHistoryBeforeImporting": "Hacer copia de seguridad antes de importar",
   "balanced": "Equilibrado",
   "bars": "Barras",
   "bassEnhancer": "Potenciador de bajos",
@@ -681,6 +778,7 @@
   "bitPerfectNoDevice": "No disponible en esta salida, intenta con el acceso directo USB",
   "bitPerfectSubtitle": "Reproduce el audio sin procesamiento",
   "bitPerfectUnsupportedFormat": "Esta pista no se puede reproducir sin procesar en esta salida",
+  "bitPerfectUpTo": "Bit-perfect hasta {format}",
   "bitrate": "Tasa de bits",
   "bits": "Bits",
   "blacklist": "Lista negra",
@@ -757,7 +855,7 @@
   "couldntOpen": "No se pudo abrir :(",
   "couldntOpenYtLink": "No hay ningún enlace de Youtube disponible para esta pista",
   "couldntPlayFile": "No se pudo reproducir el archivo",
-  "couldntRenamePlaylist": "No se pudo cambiar el nombre de la lista de reproducción",
+  "couldntRenamePlaylist": "No se pudo cambiar el nombre de la playlist",
   "couldntSaveImage": "No se pudo guardar la imagen",
   "countAlbumArtists": "{count, plural, one{{count} Artista del Album} other{{count} Artistas del Album}}",
   "countAlbums": "{count, plural, one{{count} Album} other{{count} Albumes}}",
@@ -897,7 +995,7 @@
   "emptyValue": "Valor vacío",
   "enableArtworkCache": "Habilitar Caché de Carátulas",
   "enableArtworkCacheSubtitle": "Carga rápida y mejor rendimiento, pero usa más almacenamiento",
-  "enableBlurEffect": "Habilitar efecto de desenfoque",
+  "enableBlurEffect": "Habilitar desenfoque",
   "enableBottomNavBar": "Habilitar la barra de navegación inferior",
   "enableBottomNavBarSubtitle": "Los botones de navegación estarán siempre habilitados en todas las ventanas",
   "enableClipboardMonitoring": "Habilitar la supervisión del portapapeles",
@@ -919,8 +1017,8 @@
   "enableReturnYoutubeDislike": "Habilitar No me Gustas en YouTube",
   "enableSearchCleanup": "Habilitar la limpieza de búsqueda",
   "enableSearchCleanupSubtitle": "Se ignorarán los símbolos y espacios",
-  "enableSponsorblock": "Encender Bloqueador de Sponsors",
-  "enableVideoPlayback": "Habilitar la reproducción de vídeo",
+  "enableSponsorblock": "Activar SponsorBlock",
+  "enableVideoPlayback": "Activar reproducción de video",
   "endsWith": "Finaliza con",
   "enterSymbol": "Por favor ingrese un símbolo",
   "enterTheAddressShownOnTheOtherDevice": "Ingresa la dirección que aparece debajo de servidor en el otro dispositivo",
@@ -1071,7 +1169,7 @@
   "immersiveModeSubtitle": "Ocultar barras de estado y navegación mientras el minirreproductor está expandido",
   "import": "Importar",
   "importAll": "Importar todo",
-  "importLastFmHistoryGuide": "1. Vaya a {lastfmCsvLink}\n\n2. Escriba su nombre de usuario, busque y descargue el archivo csv.\n\n3. Elija el archivo en la siguiente pantalla.",
+  "importLastFmHistoryGuide": "1. Ve a {lastfmCsvLink}\n\n2. Escribe tu nombre de usuario, busca y descarga el archivo csv.\n\n3. Elige el archivo en la siguiente pantalla.",
   "importListenBrainzHistoryGuide": "1. Ve a {link}\n\n2. Solicita los datos y descarga\n\n3. Elige los archivos zip o json en la siguiente pantalla.",
   "importPlaylist": "Importar lista de reproducción",
   "importSpotifyHistoryGuide": "1. Ve a {link}\n\n2. Marca \"Historial de reproducción extendido\"\n\n3. Solicita los datos y descarga\n\n4. Elige los archivos zip o json en la siguiente pantalla.",
@@ -1128,7 +1226,7 @@
   "latestQueue": "Última cola de reproducción",
   "learnMore": "Aprende más",
   "left": "Izquierda",
-  "leftAction": "Hacia la Izquierda",
+  "leftAction": "Deslizar a la izquierda",
   "legacyAuthentication": "Autenticación Heredada",
   "libraryReach": "Acceso a la biblioteca",
   "libraryTabs": "Pestañas de navegación",
@@ -1465,8 +1563,12 @@
   "progress": "Progreso",
   "promptToChangeTrackPath": "Por lo general, esto sucede cuando elimina/mueve/cambia el nombre del archivo fuera de namida. ¿Le gustaría actualizar la ruta actual?",
   "public": "Publico",
+  "qFactor": "Q",
+  "question": "Pregunta",
   "queue": "Cola",
   "queues": "Colas",
+  "rain": "Lluvia",
+  "ramadan": "Ramadán",
   "random": "Aleatorio",
   "randomPicks": "Selecciones aleatorias",
   "rating": "Clasificación",
@@ -1474,26 +1576,40 @@
   "reIndexSubtitle": "Reconstruye tu biblioteca de música desde cero",
   "reIndexWarning": "Este proceso puede tardar un poco, dependiendo del tamaño de su biblioteca.\n\nLas carátulas no se volverán a indexar mientras ya se hayan indexado anteriormente",
   "reactiveParticles": "Partículas reactivas",
+  "readOnlyPlaylist": "Playlist no editable",
+  "reason": "Razón",
+  "receive": "Recibir",
+  "recentActions": "Actividad reciente",
   "recentAlbums": "Álbumes recientes",
   "recentArtists": "Artistas recientes",
   "recentListens": "Reproducido recientemente",
   "recentQueues": "Colas recientes",
+  "recentSearches": "Búsquedas recientes",
   "recentlyAdded": "Recientemente añadido",
+  "reconnect": "Reconectar",
   "recordLabel": "Etiqueta de registro",
+  "rediscoveries": "Redescubrimientos",
+  "redo": "Rehacer",
   "refresh": "Actualizar",
   "refreshLibrary": "Actualizar biblioteca",
   "refreshLibrarySubtitle": "Comprueba si hay música recién agregada o eliminada",
   "refreshOnStartup": "Recargar al iniciar",
+  "reject": "Rechazar",
   "relatedVideos": "Videos relacionados",
+  "releaseType": "Tipo de lanzamiento",
+  "relevance": "Relevancia",
   "rememberAudioOnlyMode": "Recordar el modo solo audio",
   "remixer": "Remezclador",
   "remove": "Eliminar",
   "removeDuplicates": "Eliminar duplicados",
+  "removeFromDownloads": "Quitar de descargas",
   "removeFromFavourites": "Quitar de favoritos",
-  "removeFromLibrary": "Quitar de libreria",
+  "removeFromLibrary": "Quitar de la biblioteca",
   "removeFromPlaylist": "Eliminar de la lista de reproducción",
   "removeQueue": "Quitar cola",
   "removeSourceFromHistory": "Eliminar fuente del historial",
+  "removeSponsorSegmentsFromDownloads": "Eliminar patrocinios de las descargas",
+  "removeSponsorSegmentsFromDownloadsSubtitle": "Recorta las categorías elegidas de los archivos descargados",
   "removeWhitespaces": "Eliminar espacios en blanco",
   "removed": "Remoto",
   "rename": "Renombrar",
@@ -1504,10 +1620,15 @@
   "repeatModeAll": "Repetir toda la cola",
   "repeatModeNone": "Deténgase en la última pista",
   "repeatModeOne": "Repetir pista actual",
-  "replaceAllListensWithAnotherTrack": "Reemplazar todas las escuchas con otra pista",
+  "repeatRate": "Tasa de repetición",
+  "replaceAllListensWithAnotherTrack": "Reemplazar lo escuchado con otra pista",
+  "replaceQueue": "Reemplazar cola",
+  "replaceWith": "Reemplazar por",
   "replies": "Respuestas",
   "reply": "Responder",
+  "reportAnIssue": "Reportar un problema",
   "requiresClearingImageCacheAndReIndexing": "Requiere borrar el caché de imágenes y volver a indexar",
+  "resample": "Remuestrear",
   "rescanVideos": "Volver a escanear vídeos",
   "resetBrightness": "Restablecer brillo",
   "resetToDefault": "Ajustado a",
@@ -1515,6 +1636,7 @@
   "respectNoMediaSubtitle": "No incluyas carpetas que tengan .nomedia",
   "restart": "Reanudar",
   "restoreBackup": "Restaurar copia de seguridad",
+  "restoreCustomOrder": "Restaurar orden personalizado",
   "restoreDefaults": "Restaurar los valores predeterminados",
   "restoredBackupSuccessfully": "Copia de seguridad restaurada",
   "restoredBackupSuccessfullySub": "El archivo de respaldo se ha restaurado exitosamente",
@@ -1522,35 +1644,53 @@
   "resumeIfWasInterrupted": "Reanudar si fue pausado por una interrupción",
   "resumeIfWasPausedByDeviceDisconnect": "Reanudar si fue pausado por desconexion de un dispositivo",
   "resumeIfWasPausedByVolume": "Reanudar si fue pausado por volumen",
-  "resumeIfWasPausedForLessThanNMin": "{number, plural, one{Vuelve a reproducir si ha sido pausado por al menos {number} minuto} other{Vuelve a reproducir si ha sido pausado por al menos{number} minutos}}",
+  "resumeIfWasPausedForLessThanNMin": "{number, plural, one{Vuelve a reproducir si se pausó hace menos de {number} minuto} other{Vuelve a reproducir si se pausó hace menos de {number} minutos}}",
   "returnYoutubeDislike": "Mostrar No me Gusta de YouTube",
   "reverseOrder": "Orden inverso",
-  "rightAction": "Hacia la derecha",
+  "right": "Derecha",
+  "rightAction": "Deslizar a la derecha",
   "ringtone": "Tono de llamada",
+  "romanization": "Romanización",
   "rule": "Regla",
   "ruleAlreadyExists": "Regla ya existente",
+  "sakura": "Sakura",
   "sameDirectoryOnly": "Solo el mismo directorio",
   "sample": "Muestra",
   "sampleRate": "Frecuencia de muestreo",
   "save": "Guardar",
+  "saveAsPreset": "Guardar como preajuste",
+  "saveFilter": "Guardar filtro",
   "saveToLibrary": "Guardar a la libreria",
   "savedIn": "Guardado en",
+  "saving": "Guardando",
   "scaleMultiplier": "Multiplicador de escala",
   "search": "Buscar",
   "searchYoutube": "Buscar YouTube",
-  "seconds": "segundos",
+  "seasonalEffectsSubtitle": "Cambia según la estación",
+  "seconds": "Segundos",
   "seeProjectCodeOnSite": "Mira el código del proyecto en {site}",
+  "seekBackward": "Retroceder",
   "seekDuration": "Duración de la búsqueda",
   "seekDurationInfo": "Toca la duración actual para buscar hacia atrás y la duración total de la canción para buscar hacia adelante",
+  "seekForward": "Avanzar",
   "seekbar": "Barra de Búsqueda",
   "selectAll": "Seleccionar todo",
   "selectFilesAlreadyInLocalLibrary": "Selecciona archivos disponibles en la biblioteca local",
+  "selectPlaylists": "Seleccionar playlist",
+  "selectedBy": "Seleccionado por",
   "selectedTracks": "Pistas seleccionadas",
-  "selfPromotion": "Promoción propia",
+  "selfPromotion": "Autopromoción",
   "semitones": "Semitonos",
+  "send": "Enviar",
+  "sendToAllDevices": "Enviar a todos los dispositivos",
+  "separators": "Separadores",
   "separatorsBlacklistSubtitle": "Estas palabras no se dividirán",
   "separatorsMessage": "No es necesario insertar espacios, a menos que quieras usar una letra/símbolo que se pueda encontrar en una palabra completa (como x y ft.)",
+  "server": "Servidor",
   "serverAddress": "Dirección del servidor",
+  "serverBlockedThisDevice": "El servidor bloqueó este dispositivo",
+  "serverCache": "Caché del servidor",
+  "serverRejectedTheConnectionRequest": "El servidor rechazó la solicitud de conexión",
   "setAs": "Usar como",
   "setAsDefault": "Establecer por defecto",
   "setFileLastModifiedAsVideoUploadDate": "Establecer archivo modificado por última vez como fecha de carga del video",
@@ -1559,6 +1699,7 @@
   "setMoodsSubtitle": "Utilice comas (,) para separarlos",
   "setRating": "Establecer calificación",
   "setTags": "Establecer etiquetas",
+  "setTagsNestedSubtitle": "Usa barras (/) para anidarlas",
   "setYoutubeLink": "Establecer enlace de Youtube",
   "settings": "Ajustes",
   "setupFirstStartup": "Configurar el primer inicio",
@@ -1574,6 +1715,7 @@
   "showFailedOnly": "Mostrar solo las descargas fallidas",
   "showHideUnknownFields": "Mostrar/ocultar campos desconocidos",
   "showInSeekbar": "Mostrar en la barra de progreso",
+  "showLess": "Mostrar menos",
   "showMixPlaylistsIn": "Mostrar mezclas en",
   "showMore": "Mostrar más",
   "showShortVideosIn": "Enseñar los cortos en",
@@ -1591,34 +1733,49 @@
   "signInYouNeedAccountToViewPage": "Necesitas una cuenta para ver esta pagina",
   "signOut": "Cerrar sesion",
   "signOutFromName": "Cerrar sesion de {name}",
+  "signalPath": "Ruta de audio",
   "signingInAllowsBasicUsage": "Iniciando sesion habilitara el uso basico",
   "signingInAllowsBasicUsageSubtitle": "Ten acceso temprano por Patreon o usando un cupón",
   "similarDiscoverDate": "Descubrimientos con fecha similar",
   "similarDiscoverDateSubtitle": "Genera pistas descubiertas en el mismo tiempo de {currentTrack}",
   "similarTimeRange": "Rango de Tiempo Similar",
   "similarTimeRangeSubtitle": "Genera canciones escuchadas en el mismo tiempo de {currentTrack}",
+  "simpleLyricsLine": "Verso sencillo",
+  "simpleLyricsLineSubtitle": "Muestra la letra actual bajo la portada",
   "single": "Sencillo",
   "singles": "Sencillos",
   "size": "Tamaño",
   "skip": "Saltar",
-  "skipCountTracking": "Omitir Telemetría de conteo",
+  "skipButtonsJumpChapters": "Saltar entre capítulos con Siguiente/Anterior",
+  "skipCountTracking": "Omitir telemetría de conteo",
   "skipSilence": "Saltar silencios",
-  "skipSponsorSegmentsInVideos": "Omitir Segmentos del Sponsor en Videos",
+  "skipSingleSubfolders": "Omitir carpetas con una sola subcarpeta",
+  "skipSponsorSegmentsInVideos": "Omitir segmentos de patrocinio en videos",
   "sleepAfter": "Descansemos después de",
   "sleepTimer": "Descansar en...",
+  "sliders": "Deslizadores",
+  "slope": "Pendiente",
+  "smart": "Inteligente",
   "smartPlaylist": "Playlist Inteligente",
-  "socials": "Redes Sociales",
+  "smartPlaylists": "Playlists inteligentes",
+  "socials": "Redes sociales",
   "socialsSubtitle": "Siguenos en nuestras plataformas para Actualizaciones, Tips, Discuciones e Ideas",
   "someWebServersRequireAuthentication": "Algunos servicios en línea requieren autenticación. Por favor actualiza tus credenciales para mantener el acceso a tu biblioteca.",
   "sortBy": "Ordenar por",
   "soundControl": "Control del sonido",
+  "soundEffects": "Efectos de sonido",
   "source": "Fuente",
+  "sourcePerScope": "{source} por {scope}",
   "speed": "Velocidad",
+  "splitByChapters": "Dividir capítulos",
+  "splitByChaptersSubtitle": "Guardar cada capítulo de YouTube como un archivo propio en una carpeta",
   "sponsor": "Patrocinador",
-  "sponsorblock": "Bloqueador de Sponsors",
-  "sponsorblockLeaderboard": "Estadísticas del Bloqueador de Sponsors",
+  "sponsorblock": "SponsorBlock",
+  "sponsorblockLeaderboard": "Estadísticas del SponsorBlock",
   "staggeredAlbumGridView": "Vista de cuadrícula de álbum escalonado",
+  "starfield": "Cielo estrellado",
   "start": "Comenzar",
+  "startServerToLetOtherDevicesConnectToThisDevice": "Inicia el servidor para permitir que otros dispositivos se conecten a este dispositivo",
   "startsWith": "Empieza con",
   "stats": "Estadísticas",
   "statsSubtitle": "Aquí tienes información sobre tu biblioteca",
@@ -1627,6 +1784,7 @@
   "stopAfterThisVideo": "Parar después de este video",
   "storagePermissionDenied": "Permiso denegado",
   "storagePermissionDeniedSubtitle": "Por favor permita el acceso para poder realizar esta acción",
+  "streak": "Racha",
   "stretchLyricsDuration": "Ampliar duración de la letra",
   "style": "Estilo",
   "styles": "Estilos",
@@ -1635,19 +1793,26 @@
   "subscribed": "Suscrito",
   "subscriber": "Subscrito",
   "subscribers": "Suscriptores",
+  "subscriptions": "Suscripciones",
   "succeeded": "Tuvo éxito",
   "suggestionSubtitle": "¿Tienes un problema o Sugerencia? Abre un Issue en {site}",
+  "sum": "Suma",
   "support": "Apoyo",
   "supremacy": "Supremacía",
   "sussyBaka": "Bruh, no hay canciones",
-  "swipeActions": "Acciones de deslizamiento",
+  "swipeActions": "Acciones al deslizar",
   "swipeToOpenDrawer": "Deslizar para abrir el cajón",
+  "sync": "Sincronización",
+  "syncAppDataBetweenYourDevices": "Sincroniza los datos de la app entre tus dispositivos",
   "synced": "Sincronizado",
   "synopsis": "Sinopsis",
+  "systemAudioEffects": "Efectos de audio del sistema",
+  "systemDefault": "Predeterminado del sistema",
   "tagFields": "Campos de etiquetas",
   "tags": "Etiquetas",
   "tapAction": "Al tocar",
   "tapToSeek": "Presiona para buscar",
+  "templates": "Plantillas",
   "text": "Texto",
   "theFollowingChangesWereDetected": "Los siguientes cambios han sido detectados",
   "themeMode": "Temas",
@@ -1656,10 +1821,16 @@
   "themeModeSystem": "Sistema",
   "themeSettings": "Tema",
   "themeSettingsSubtitle": "Tus vibras reflejadas en el reproductor",
+  "thisDeviceCouldNotProveItIsTheOneYouPairedAcceptOnlyIfYouResetIt": "Este dispositivo no pudo verificar su identidad con el que vinculaste, acéptalo solo si lo reiniciaste",
+  "thisMonth": "Este mes",
   "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "Esta playlist tiene filtros activos, desactívalos para volver a organizar.",
   "thisVideoIsLikelyDeletedOrSetToPrivate": "Este video es privado o ha sido borrado.",
+  "thisWeek": "Esta semana",
+  "thisYear": "Este año",
+  "threadsPerDownload": "Conexiones por descarga",
   "thumbnails": "Miniaturas",
   "title": "Título",
+  "today": "Hoy",
   "top": "Parte superior",
   "topComments": "Comentarios destacados",
   "topCommentsSubtitle": "Mostrar comentarios arriba en vez de la parte inferior",
@@ -1671,13 +1842,15 @@
   "totalTracks": "Total de pistas",
   "totalTracksDuration": "Duración total de las pistas",
   "track": "Pista",
+  "trackArtistsDisplaySeparator": "Separador de artistas",
   "trackArtistsSeparator": "Separadores de artistas",
+  "trackFolder": "Carpeta de pistas",
   "trackGenresSeparator": "Separadores de géneros",
   "trackInfo": "Información de seguimiento",
   "trackNotFound": "Pista no encontrada",
   "trackNumber": "Número de pista",
   "trackNumberTotal": "Seguimiento total",
-  "trackPathOldNew": "Nombre antiguo: \"{oldName}\"\n\nNuevo nombre: \"{newName}\"\n\n¿Estás seguro?",
+  "trackPathOldNew": "Nombre anterior: \"{oldName}\"\n\nNombre nuevo: \"{newName}\"\n\n¿Estás seguro?",
   "trackPlayMode": "Modo de Reproducción",
   "trackPlayModeSearchResults": "Resultados de la búsqueda",
   "trackPlayModeSelectedOnly": "Solo pista seleccionada",
@@ -1691,6 +1864,11 @@
   "tracks": "Pistas",
   "tracksExcludedByNomedia": "Pistas excluidas por .nomedia",
   "tracksInfo": "Información de pistas",
+  "translation": "Traducción",
+  "tubeWarmth": "Calidez de válvulas",
+  "turnsOff": "Apagar",
+  "type": "Tipo",
+  "unblock": "Desbloquear",
   "underrated": "Infravalorados",
   "undo": "Deshacer",
   "undoChanges": "¿Deshacer cambios?",
@@ -1701,12 +1879,26 @@
   "unlimited": "Ilimitado",
   "unlisted": "No listado",
   "unlock": "Desbloquear",
+  "unpin": "Desanclar",
   "unsubscribe": "Desuscribirse",
+  "untagged": "Sin etiqueta",
   "update": "Actualizar",
   "updateDirectoryPath": "Actualizar ruta del directorio",
   "updateMissingTracksOnly": "Actualizar solo las pistas que faltan",
   "updating": "Actualizando",
+  "uploadDate": "Fecha de subida",
+  "usbDirect": "Acceso directo USB",
+  "usbDirectAwaitingPermission": "Permitir el acceso a {device}",
+  "usbDirectClaiming": "Conectando a {device}",
+  "usbDirectFailed": "{device} dejó de responder",
+  "usbDirectHardwareVolume": "Volumen del DAC",
+  "usbDirectNoDevice": "Conecta un DAC USB",
+  "usbDirectPermissionDenied": "Se denegó el acceso a {device}",
+  "usbDirectSubtitle": "Envía el audio directo a tu DAC USB, omitiendo el sistema de audio de Android",
+  "usbDirectUnsupportedDevice": "{device} no es compatible",
+  "usbDirectWaitingPlayback": "Pausa la música en otras apps para usar {device}",
   "useCollapsedSettingTiles": "Usar mosaicos de configuración contraídos",
+  "useForDevice": "Usar para {device}",
   "useMediaStore": "Usar tienda multimedia",
   "useMediaStoreSubtitle": "✓ tiempo de indexación instantáneo\nx respeto. Nomedia se habilitará a la fuerza\nx faltarán algunas etiquetas de metadatos\nx la integración de YouTube para la biblioteca local no funcionará",
   "usePitchBlack": "Usar tono negro",
@@ -1714,6 +1906,7 @@
   "used": "Usado",
   "value": "Valor",
   "valueBetween50200": "El valor debe estar entre 50% y 200%",
+  "versionMismatchMakeSureBothAppsAreOnTheSameVersion": "Versiones distintas, asegúrate de que ambas apps tengan la misma versión",
   "vibration": "Vibración",
   "vibrationType": "Tipo de vibración",
   "video": "Video",
@@ -1735,6 +1928,9 @@
   "view": "vista",
   "viewAll": "Ver todo",
   "views": "vistas",
+  "vignette": "Viñeta",
+  "virtualSurround": "Surround virtual",
+  "visualizer": "Visualizador",
   "volume": "Volumen",
   "warning": "Advertencia",
   "waveformBarsCount": "Recuento de barras de forma de onda",
