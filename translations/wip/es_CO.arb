@@ -6,6 +6,21 @@
       }
     }
   },
+  "@clearTrackItemMultiple": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@enableM3uSyncNote2": {
+    "placeholders": {
+      "playlistsBackupPath": {
+        "type": "String"
+      }
+    }
+  },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
@@ -83,6 +98,13 @@
       }
     }
   },
+  "@signOutFromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@trackPathOldNew": {
     "placeholders": {
       "newName": {
@@ -149,7 +171,7 @@
   "audioCache": "Cache de audio",
   "audioOnly": "Solo audio",
   "auto": "Auto",
-  "autoBackupInterval": "Intervalo de copia de seguridad automática",
+  "autoBackupInterval": "Intervalo de respaldo automático",
   "autoColoring": "Colores automáticos",
   "autoColoringSubtitle": "Elige automáticamente los colores desde las carátulas",
   "autoExtractTagsFromFilename": "Auto extraer del nombre del archivo",
@@ -160,22 +182,57 @@
   "autoStartRadio": "Iniciar radio automáticamente",
   "autoStartRadioSubtitle": "Añade automáticamente un mix playlist cuando estás escuchando un track",
   "automaticBackup": "Automático",
-  "backupAndRestoreSubtitle": "Haga una copia de seguridad de sus datos y ajustes",
+  "automaticBackupSubtitle": "Aplica automáticamente el respaldo más reciente encontrado en la ubicación de respaldos",
+  "backupAndRestore": "Copias de seguridad y restauración",
+  "backupAndRestoreSubtitle": "Haga respaldo de sus datos y ajustes",
+  "balanced": "Balanceado",
+  "beta": "Beta",
+  "betweenDates": "Entre fechas",
+  "bitrate": "Tasa de bits",
+  "blacklist": "Lista negra",
   "borderRadiusMultiplier": "Multiplicador de radio del borde",
+  "cache": "Caché",
+  "cancel": "Cancelar",
+  "canceled": "Cancelado",
+  "changed": "Cambiado",
+  "changelog": "Historial de cambios",
   "changelogSubtitle": "Mira lo que se agregó/arregló dentro de Namida",
+  "channel": "Canal",
+  "channels": "Canales",
   "check": "Comprobar",
   "checkForMore": "Consulte por más",
+  "checkList": "Lista de chequeo",
+  "choose": "Elegir",
+  "chooseWhatToClear": "Elige qué limpiar",
+  "claim": "Reclamar",
+  "clear": "Limpiar",
+  "clearAudioCache": "Limpiar caché de audio",
   "clearImageCache": "Borrar caché de imagenes",
+  "clearImageCacheWarning": "Advertencia: la biblioteca quedará sin imágenes. Úsala solo para reconstruir la caché de imágenes.",
   "clearTrackItem": "Borrar canciones",
+  "clearTrackItemMultiple": "{number, plural, one{Borrar pista} other{Borrar {number} pistas}}",
+  "clearVideoCache": "Limpiar caché de video",
+  "clearVideoCacheNote": "Puedes elegir qué eliminar.",
   "clock": "Reloj",
+  "colorPalette": "Paleta de color",
+  "colorPaletteNote1": "Mantén presionado un color para eliminarlo",
+  "colorPaletteNote2": "Toca una combinación para usarla como color predeterminado",
+  "colorPalettes": "Paleta de colores",
   "comment": "Comentar",
+  "comments": "Comentarios",
+  "composer": "Compositor",
   "couldntRenamePlaylist": "No se pudo cambiar el nombre de la playlist",
+  "createBackup": "Crea un respaldo",
+  "createdBackupSuccessfully": "Respaldo creado",
+  "createdBackupSuccessfullySub": "El archivo de respaldo fue creado con éxito",
   "custom": "Personalizado",
   "customizationsSubtitle": "Personaliza el aspecto del reproductor, hazlo tuyo",
   "dataSaver": "Ahorro de datos",
   "dateCreated": "Fecha de Creacion",
+  "defaultBackupLocation": "Ubicación de respaldo predeterminada",
   "deletePlaylist": "Eliminar playlist",
   "developer": "Desarrollador",
+  "dismissibleMiniplayer": "Minireproductor descartable",
   "displayAlbumCardTopRightDate": "Fecha del álbum en la parte superior derecha",
   "duplicatedItemsAdding": "Estas tratando de añadir algo que ya existe en esta playlist",
   "enableArtworkCacheSubtitle": "Carga rápido y mejora el rendimiento, pero usa más almacenamiento",
@@ -184,8 +241,10 @@
   "enableCrossfadeEffect": "Habilitar efecto de Crossfade",
   "enableFadeEffectOnPlayPause": "Habilitar efecto de desvanecimiento en play/pausa",
   "enableFoldersHierarchy": "Habilitar jerarquía de carpetas",
+  "enableM3uSyncNote2": "Si algo sale mal, encontrarás un respaldo de esta lista de reproducción en {playlistsBackupPath}",
   "enableSponsorblock": "Activar SponsorBlock",
   "enableVideoPlayback": "Activar reproducción de video",
+  "expandedMiniplayer": "Minireproductor expandido",
   "extractFeatArtist": "Extraer artistas \"feat.\" del título",
   "extreme": "Extremo",
   "fetching": "Buscando",
@@ -194,9 +253,10 @@
   "filler": "Relleno",
   "firstListen": "Primera reproducción",
   "fixYtdlpBigThumbnailSize": "Corregir tamaño grande de miniaturas yt-dlp",
+  "forceMiniplayerFollowTrackColors": "Forzar al minireproductor a usar los colores de la carátula",
   "goToArtist": "Ir al artista",
   "groupArtworksByAlbum": "Agrupar portadas por álbum",
-  "hideSkipButtonAfter": "Ocultar botón de saltar tras",
+  "hideSkipButtonAfter": "Ocultar botón de omitir tras",
   "highMatches": "Altas coincidencias",
   "highlight": "Destacado",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} reproducción de {oldTrackInfo} se reemplazará por {newTrackInfo}, ¿confirmas?} other{{listensCount} reproducciones de {oldTrackInfo} se reemplazarán por {newTrackInfo}, ¿Continuar?}}",
@@ -205,6 +265,7 @@
   "hours": "Horas",
   "ignoreBatteryOptimizationsSubtitle": "Las descargas se pueden ralentizar si la app tiene restricciones de batería",
   "ignores": "ignorar",
+  "immersiveModeSubtitle": "Ocultar barras de estado y navegación mientras el minireproductor está expandido",
   "importLastFmHistoryGuide": "1. Ve a {lastfmCsvLink}\n\n2. Escribe tu nombre de usuario, busca y descarga el archivo csv.\n\n3. Elige el archivo en la siguiente pantalla.",
   "importedNChannelsSuccessfully": "{number, plural, one{Se importó {number} canal con éxito} other{Se importaron {number} canales con éxito}}",
   "importedNPlaylistsSuccessfully": "{number, plural, one{Se importó {numberText} playlist con éxito} other{Se importaron {numberText} playlists con éxito}}",
@@ -213,9 +274,12 @@
   "intro": "Intro",
   "issues": "Problemas",
   "item": "Por cancion",
+  "keepScreenAwakeMiniplayerExpanded": "El minireproductor está expandido",
+  "keepScreenAwakeMiniplayerExpandedAndVideo": "El minireproductor está expandido y hay un video reproduciéndose",
   "learnMore": "Aprende más",
   "leftAction": "Deslizar a la izquierda",
   "legacyAuthentication": "Autenticación heredada",
+  "like": "Me gusta",
   "lostMemoriesSubtitle": "{number, plural, one{Hace {number} año, por estas horas} other{Hace {number} años, por estas horas}}",
   "manualBackup": "Manual",
   "manualBackupSubtitle": "selecciona un archivo específico",
@@ -228,6 +292,7 @@
   "minimumOneItem": "No se pudo eliminar el elemento",
   "minimumOneItemSubtitle": "{number, plural, one{Debe de quedar al menos {number} ítem} other{Debe de quedar al menos {number} ítems }}",
   "minimumSegmentDuration": "Duración Mínima del Segmento",
+  "miniplayerCustomization": "Personalización del minireproductor",
   "mobile": "Móvil",
   "month": "Mes",
   "musicOfftopic": "Música Offtopic",
@@ -244,8 +309,11 @@
   "personalized": "Personalizado",
   "playlist": "Lista de reproducción",
   "playlistsImportM3uNative": "Esto importará playlists M3U para uso exclusivo de namida, úsalo si estás migrando",
+  "port": "Puerto",
   "preview": "Vista previa",
   "prioritizeEmbeddedLyrics": "Priorizar letras incrustadas",
+  "progress": "Progreso",
+  "random": "Aleatorio",
   "recentListens": "Reproducido recientemente",
   "remove": "Eliminar",
   "removeDuplicates": "Eliminar duplicados",
@@ -256,16 +324,25 @@
   "repeatModeOne": "Repetir pista actual",
   "replaceAllListensWithAnotherTrack": "Reemplazar lo escuchado con otra pista",
   "reply": "Responder",
-  "restoreBackup": "Restaurar copia de seguridad",
+  "restoreBackup": "Restaurar un respaldo",
+  "restoredBackupSuccessfully": "Respaldo restaurado",
+  "restoredBackupSuccessfullySub": "El archivo de respaldo se restauró con éxito",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, one{Vuelve a reproducir si se pausó hace menos de {number} minuto} other{Vuelve a reproducir si se pausó hace menos de {number} minutos}}",
   "returnYoutubeDislike": "Mostrar No me Gusta de YouTube",
   "rightAction": "Deslizar a la derecha",
   "seeProjectCodeOnSite": "Mira el código del proyecto en {site}",
   "selfPromotion": "Autopromoción",
+  "shouldPauseNote": "Se pausará la reproducción en eventos como: llamadas",
+  "showAll": "Mostrar todo",
+  "showSkipButton": "Mostrar botón de Omitir",
   "shuffle": "Aleatorio",
   "signInFailed": "El inicio de sesión ha fallado",
+  "signInToYourAccount": "Inicia sesión en tu cuenta",
+  "signOutFromName": "Cerrar sesión de {name}",
   "size": "Tamaño",
+  "skip": "Omitir",
   "skipCountTracking": "Omitir telemetría de conteo",
+  "skipSilence": "Omitir silencios",
   "skipSponsorSegmentsInVideos": "Omitir segmentos de patrocinio en videos",
   "sleepTimer": "Descansar en...",
   "socials": "Redes sociales",
