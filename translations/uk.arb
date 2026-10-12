@@ -306,6 +306,9 @@
   "@frequency": {
     "description": "Center frequency of an equalizer band, in Hz"
   },
+  "@gain": {
+    "description": "How much an equalizer band boosts or cuts, in dB"
+  },
   "@graphicEqualizerBands": {
     "placeholders": {
       "count": {
@@ -380,6 +383,9 @@
         "type": "String"
       }
     }
+  },
+  "@limiter": {
+    "description": "Equalizer option that softly caps peaks so boosted audio never clips"
   },
   "@lostMemoriesSubtitle": {
     "placeholders": {
@@ -496,6 +502,9 @@
         "type": "String"
       }
     }
+  },
+  "@preamp": {
+    "description": "Gain applied before the equalizer bands, usually negative to leave room for boosts"
   },
   "@repeatForNTimes": {
     "placeholders": {
@@ -828,6 +837,7 @@
   "compress": "Стиснути",
   "compressImages": "Стиснути зображення",
   "compressionPercentage": "Відсоток стиснення",
+  "compressor": "Компресор",
   "condition": "Умова",
   "configure": "Налаштувати",
   "confirm": "Підтвердити",
@@ -1101,6 +1111,7 @@
   "frequency": "Частота",
   "fromClipboard": "З буфера обміну",
   "fullscreen": "На весь екран",
+  "gain": "Підсилення",
   "galaxy": "Галактика",
   "gaplessPlayback": "Відтворення без пауз",
   "generate": "Згенерувати",
@@ -1134,6 +1145,7 @@
   "highPerformance": "Висока продуктивність",
   "highlight": "Рекомендована сцена",
   "history": "Історія",
+  "historyImportHtmlUnreadable": "Не вдалося прочитати записи у файлі HTML, експортуйте історію у форматі JSON",
   "historyImportMissingEntriesNote": "Не вдалося знайти такі записи в бібліотеці. Якщо Ви вважаєте, що вони існують, будь ласка, додайте їх вручну",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} прослуховування {oldTrackInfo}} few{{listensCount} прослуховування {oldTrackInfo}} other{{listensCount} прослуховувань {oldTrackInfo}}} буде змінено на {newTrackInfo}. Продовжити?",
   "home": "Головна",
@@ -1175,6 +1187,7 @@
   "info": "Інформація",
   "inserted": "Введено",
   "instantlyApplies": "Миттєво застосувати",
+  "instrumental": "Інструментальна пауза",
   "interactionReminder": "Нагадування про взаємодію",
   "intro": "Вступ",
   "invertSelection": "Інвертувати виділення",
@@ -1225,6 +1238,7 @@
   "like": "Подобається",
   "liked": "Вподобані",
   "limit": "Обмеження",
+  "limiter": "Лімітер",
   "link": "Посилання",
   "listOfFolders": "Список тек",
   "listeningClock": "Годинник прослуховування",
@@ -1262,7 +1276,8 @@
   "manualBackup": "Ручний",
   "manualBackupSubtitle": "оберіть конкретний файл",
   "markAsRead": "Позначити як прочитане",
-  "matchAllTracks": "Співставити всі треки",
+  "match": "Зіставити",
+  "matchAllTracks": "Зіставити всі треки",
   "matchAllTracksNote": "Це може вплинути на швидкість зіставлення, оскільки при цьому будуть перевірятись усі треки у Вашій бібліотеці",
   "matchCase": "Враховувати регістр",
   "matchingType": "Тип відповідності",
@@ -1399,6 +1414,7 @@
   "or": "або",
   "otherAppsSounds": "Звуки з інших додатків",
   "others": "Інші",
+  "outline": "Контур",
   "output": "Вивід",
   "outputDevice": "Пристрій виводу",
   "outro": "Завершальні титри",
@@ -1562,6 +1578,7 @@
   "pleaseEnterALinkSubtitle": "Емм... Це точно посилання на YouTube?",
   "pleaseEnterAName": "Будь ласка, введіть назву",
   "port": "Порт",
+  "preamp": "Попередній підсилювач",
   "preventDuplicatedTracks": "Запобігати дублюванню треків",
   "preventDuplicatedTracksSubtitle": "Використовує назву файлу для однозначної ідентифікації треків",
   "preview": "Передперегляд",
@@ -1830,6 +1847,7 @@
   "themeModeSystem": "Як у системі",
   "themeSettings": "Тема",
   "themeSettingsSubtitle": "Загальна атмосфера Вашого плеєра",
+  "thisDeviceCouldNotProveItIsTheOneYouPairedAcceptOnlyIfYouResetIt": "Цей пристрій не зміг підтвердити, що він саме той, до якого Ви підключалися. Приймайте з’єднання лише якщо Ви виконували скидання пристрою",
   "thisMonth": "Цього місяця",
   "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "До цього плейлиста застосовується сортування, вимкніть його перед початком впорядкування.",
   "thisVideoIsLikelyDeletedOrSetToPrivate": "Це відео, ймовірно, видалено або позначено як приватне.",
@@ -1949,7 +1967,7 @@
   "weeks": "тижнів",
   "wiredDevice": "Підключення через кабель",
   "wirelessDevice": "Бездротове з’єднання",
-  "wordByWord": "Дослівно",
+  "wordByWord": "Слово за словом",
   "year": "Рік",
   "yearInSongs": "Рік у {count, plural, one{{count} пісні} few{{count} піснях} other{{count} піснях}}",
   "years": "років",
