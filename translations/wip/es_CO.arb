@@ -45,6 +45,14 @@
       }
     }
   },
+  "@lostMemoriesSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@newTracksRecommendedSubtitle": {
     "placeholders": {
       "currentTrack": {
@@ -199,13 +207,20 @@
   "item": "Por cancion",
   "learnMore": "Aprende más",
   "leftAction": "Deslizar a la izquierda",
+  "legacyAuthentication": "Autenticación heredada",
+  "lostMemoriesSubtitle": "{number, plural, one{Hace {number} año, por estas horas} other{Hace {number} años, por estas horas}}",
   "manualBackup": "Manual",
   "manualBackupSubtitle": "selecciona un archivo específico",
   "matchingType": "tipo de coincidencias",
+  "mediaStoreIsEnabledThisWillHaveNoEffect": "El almacenamiento multimedia está activado, esto no tendrá efecto",
+  "medium": "Mediano",
+  "membershipCodeSentToEmail": "Código enviado a tu correo",
   "merge": "Fusionar",
   "minimumOneFolderSubtitle": "Debe haber al menos 1 carpeta, agregue más carpetas si desea eliminar esta",
   "minimumOneItem": "No se pudo eliminar el elemento",
   "month": "Mes",
+  "newTracksRandom": "Aleatorio",
+  "newTracksRatings": "Calificaciones",
   "newTracksRecommendedSubtitle": "Genera pistas que sueles escuchar junto con {currentTrack}",
   "next": "Siguiente",
   "or": "o en",
