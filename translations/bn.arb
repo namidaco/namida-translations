@@ -369,6 +369,13 @@
       }
     }
   },
+  "@importSourceData": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -441,6 +448,13 @@
     "description": "বাম ও ডান চ্যানেল একসাথে মেশায়, যাতে দুই দিকেই একই শব্দ বাজে"
   },
   "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarSubtitle": {
     "placeholders": {
       "currentTrack": {
         "type": "String"
@@ -620,6 +634,13 @@
       }
     }
   },
+  "@usbDirectClaiming": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
   "@usbDirectFailed": {
     "placeholders": {
       "device": {
@@ -638,6 +659,13 @@
     }
   },
   "@usbDirectUnsupportedDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectWaitingPlayback": {
     "placeholders": {
       "device": {
         "type": "String"
@@ -1043,6 +1071,7 @@
   "error": "ত্রুটি",
   "errorFetchingVideoList": "ভিডিও তালিকা আনতে সমস্যা হচ্ছে",
   "errorPlayingTrack": "ট্র্যাক চালাতে ত্রুটি",
+  "exactPhrase": "হুবহু বাক্যাংশ",
   "exclude": "বাদ দিন",
   "excludedFodlers": "বর্জিত ফোল্ডার",
   "exclusive": "এক্সক্লুসিভ",
@@ -1104,6 +1133,7 @@
   "fireworks": "আতশবাজি",
   "firstListen": "প্রথম শ্রবণ",
   "fixYtdlpBigThumbnailSize": "yt-dlp বড় থাম্বনেইল সাইজ ঠিক করুন",
+  "flipArtwork": "আর্টওয়ার্ক উল্টান",
   "floatingActionButton": "ভাসমান অ্যাকশন বাটন",
   "focus": "ফোকাস",
   "folder": "ফোল্ডার",
@@ -1156,6 +1186,7 @@
   "highPerformance": "সর্বোচ্চ কার্যক্ষমতা",
   "highlight": "হাইলাইট",
   "history": "হিস্ট্রি",
+  "historyImportHtmlUnreadable": "HTML টেকআউট এন্ট্রিগুলো পড়া যায়নি, এর পরিবর্তে হিস্ট্রি JSON হিসেবে এক্সপোর্ট করুন",
   "historyImportMissingEntriesNote": "এই এন্ট্রিগুলো লাইব্রেরিতে খুঁজে পাওয়া যায়নি। যদি নিশ্চিত হন যে এগুলো বিদ্যমান, তবে দয়া করে ম্যানুয়ালি যোগ করুন",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?} other{{listensCount} বার শ্রবণ {oldTrackInfo} এর সাথে প্রতিস্থাপিত হবে {newTrackInfo}, নিশ্চিত?}}",
   "home": "হোম",
@@ -1176,14 +1207,17 @@
   "immersiveModeSubtitle": "মিনিপ্লেয়ার প্রসারিত থাকাকালীন স্ট্যাটাস এবং নেভিগেশন বার লুকান",
   "import": "ইম্পোর্ট",
   "importAll": "সব ইম্পোর্ট করুন",
+  "importData": "ডেটা ইম্পোর্ট করুন",
   "importLastFmHistoryGuide": "1. {lastfmCsvLink} -এ যান।\n\n2. আপনার ইউজারনেম লিখুন, তথ্যগুলো সংগ্রহ করুন এবং সিএসভি (csv) ফাইলটি ডাউনলোড করুন।\n\n3. পরবর্তী স্ক্রিন থেকে ফাইলটি নির্বাচন করুন।",
   "importListenBrainzHistoryGuide": "১. {link}-এ যান\n\n২. Request Data & Download অপশনে ক্লিক করুন\n\n৩. পরবর্তী স্ক্রিন থেকে zip বা json ফাইল নির্বাচন করুন।",
   "importPlaylist": "প্লেলিস্ট ইমপোর্ট করুন",
-  "importSpotifyHistoryGuide": "১. {link}-এ যান\n\n২. \"Extended streaming history\" অপশনটি সিলেক্ট করুন\n\n৩. Request Data & Download-এ ক্লিক করুন\n\n৪. পরবর্তী স্ক্রিন থেকে zip অথবা json ফাইল বাছাই করুন।",
+  "importSourceData": "{source} ডেটা ইম্পোর্ট করুন",
+  "importSpotifyHistoryGuide": "১. {link}-এ যান\n\n২. \"Account data\" এবং \"Extended streaming history\" অপশনগুলো সিলেক্ট করুন\n\n৩. Request Data & Download-এ ক্লিক করুন\n\n৪. পরবর্তী স্ক্রিন থেকে zip অথবা json ফাইল বাছাই করুন।",
   "importTimeRange": "সময়সীমা ইমপোর্ট করুন",
-  "importYoutubeHistoryGuide": "1. {takeoutLink} -এ যান।\n\n2. \"Multiple Formats\" -এ ক্লিক করুন এবং \"History\"-এর পাশে \"JSON\" অপশনটি বেছে নিন।\n\n3. \"All Youtube data included\" -এ ক্লিক করে সব ডি-সিলেক্ট (Deselect) করুন এবং শুধু \"history\" সিলেক্ট করুন।\n\n4. এক্সপোর্ট তৈরি করে ফাইলটি ডাউনলোড এবং আনজিপ (Unzip) করুন।\n\n5. পরবর্তী স্ক্রিন থেকে \"watch-history.json\" ফাইলটি বেছে নিন।",
+  "importYoutubeHistoryGuide": "১. {takeoutLink} -এ যান।\n\n2. \"Multiple Formats\" -এ ক্লিক করুন এবং \"History\"-এর পাশে \"JSON\" অপশনটি বেছে নিন।\n\n৩. \"All Youtube data included\"-এ ক্লিক করুন, Deselect All বেছে নিন এবং \"History\" ও \"Playlists\" নির্বাচন করুন।\n\n৪. এক্সপোর্ট তৈরি করে ডাউনলোড করুন।\n\n৫. পরবর্তী স্ক্রিন থেকে zip ফাইলগুলো অথবা আনজিপ করা ফোল্ডারটি বেছে নিন।",
   "importedNChannelsSuccessfully": "{number, plural, one{{number}টি চ্যানেল সফলভাবে ইম্পোর্ট করা হয়েছে} other{{number}টি চ্যানেল সফলভাবে ইম্পোর্ট করা হয়েছে}}",
   "importedNPlaylistsSuccessfully": "{number, plural, one{সফলভাবে {numberText}টি প্লেলিস্ট ইম্পোর্ট করা হয়েছে} other{সফলভাবে {numberText}টি প্লেলিস্ট ইম্পোর্ট করা হয়েছে}}",
+  "inTitle": "শিরোনামে",
   "includeVideos": "ভিডিও অন্তর্ভুক্ত করুন",
   "indexRefreshRequired": "পরিবর্তনের পর একবার রিফ্রেশ করুন",
   "indexer": "ইনডেক্সার",
@@ -1217,7 +1251,9 @@
   "jumpToDay": "দিনে যান",
   "jumpToFirstTrackAfterQueueFinish": "কিউ শেষ হওয়ার পর প্রথম ট্র্যাকে চলে যান",
   "keepCachedVersions": "ক্যাশ সংস্করণ রাখুন",
+  "keepCurrentOrder": "বর্তমান ক্রম বজায় রাখুন",
   "keepFileDates": "ফাইলের তারিখ রাখুন",
+  "keepQueue": "কিউ বজায় রাখুন",
   "keepScreenAwakeMiniplayerExpanded": "যখন মিনিপ্লেয়ার প্রসারিত থাকবে",
   "keepScreenAwakeMiniplayerExpandedAndVideo": "যখন মিনিপ্লেয়ার প্রসারিত থাকবে এবং ভিডিও চলবে",
   "keepScreenAwakeNone": "স্ক্রিন চালু রাখবেন না",
@@ -1281,6 +1317,7 @@
   "manualBackup": "ম্যানুয়াল",
   "manualBackupSubtitle": "একটি নির্দিষ্ট ফাইল নির্বাচন করুন",
   "markAsRead": "পড়া হয়েছে হিসেবে চিহ্নিত করুন",
+  "match": "মিল",
   "matchAllTracks": "সবগুলো ট্র্যাক ম্যাচ করুন",
   "matchAllTracksNote": "এটি ম্যাচিং গতিতে প্রভাব ফেলতে পারে, কারণ এটি আপনার লাইব্রেরির সব ট্র্যাক চেক করবে",
   "matchCase": "কেস মিলান",
@@ -1340,6 +1377,7 @@
   "multipleTracksTagsEditNote": "আপনি এই ট্র্যাকগুলো সম্পাদনা করতে চলেছেন, \nঅপরিবর্তিত ক্ষেত্রগুলো একই থাকবে।",
   "multipleValues": "একাধিক মান",
   "musicOfftopic": "মিউজিক অফটপিক",
+  "musicalKey": "কি",
   "name": "নাম",
   "nameContainsBadCharacter": "নামে অগ্রহণযোগ্য অক্ষর রয়েছে",
   "never": "কখনো না",
@@ -1354,6 +1392,8 @@
   "newTracksRatingsSubtitle": "নির্দিষ্ট রেটিংয়ের ট্র্যাক যোগ করুন",
   "newTracksRecommended": "সুপারিশকৃত",
   "newTracksRecommendedSubtitle": "{currentTrack} এর সাথে সম্পর্কিত ট্র্যাকগুলো যোগ করুন",
+  "newTracksSimilar": "একই ধরণের ট্র্যাক",
+  "newTracksSimilarSubtitle": "{currentTrack}-এর মতো একই ধরণের ট্র্যাক তৈরি করুন",
   "newTracksSimilarrReleaseDate": "সমসাময়িক",
   "newTracksSimilarrReleaseDateSubtitle": "{currentTrack} এর কাছাকাছি সময়ে মুক্তিপ্রাপ্ত ট্র্যাকগুলো যোগ করুন",
   "newTracksUnknownYear": "ট্র্যাকের বছর অজানা",
@@ -1362,6 +1402,7 @@
   "next": "পরবর্তী",
   "nextChapter": "পরবর্তী অধ্যায়",
   "no": "না",
+  "noBackCoverFound": "কোনো ব্যাক কভার পাওয়া যায়নি",
   "noChangesFound": "কোনো পরিবর্তন পাওয়া যায়নি।",
   "noEnoughTracks": "আপনার কাছে যথেষ্ট ট্র্যাক নেই..",
   "noExcludedFolders": "আপনার কাছে কোন বর্জিত ফোল্ডার নেই",
@@ -1651,6 +1692,7 @@
   "repeatModeOne": "বর্তমান ট্র্যাক পুনরাবৃত্তি করুন",
   "repeatRate": "পুনরাবৃত্তির হার",
   "replaceAllListensWithAnotherTrack": "সব প্লে-হিস্ট্রি অন্য ট্র্যাক দিয়ে বদলে ফেলুন",
+  "replaceQueue": "কিউ প্রতিস্থাপন করুন",
   "replaceWith": "দিয়ে প্রতিস্থাপন করুন",
   "replies": "রিপ্লাই",
   "reply": "রিপ্লাই",
@@ -1664,6 +1706,7 @@
   "respectNoMediaSubtitle": ".nomedia আছে এমন ফোল্ডার অন্তর্ভুক্ত করবে না",
   "restart": "পুনরায় শুরু করুন",
   "restoreBackup": "ব্যাকআপ পুনরুদ্ধার করুন",
+  "restoreCustomOrder": "কাস্টম ক্রম পূর্বাবস্থায় ফিরিয়ে আনুন",
   "restoreDefaults": "ডিফল্ট পুনরুদ্ধার করুন",
   "restoredBackupSuccessfully": "ব্যাকআপ পুনরুদ্ধার করা হয়েছে",
   "restoredBackupSuccessfullySub": "ব্যাকআপ ফাইল সফলভাবে পুনরুদ্ধার করা হয়েছে",
@@ -1710,6 +1753,7 @@
   "semitones": "সেমিটোন",
   "send": "পাঠান",
   "sendToAllDevices": "সব ডিভাইসে পাঠান",
+  "separators": "পৃথককারী",
   "separatorsBlacklistSubtitle": "এই শব্দগুলো বিভক্ত হবে না",
   "separatorsMessage": "স্পেস দেওয়ার প্রয়োজন নেই, যদি না চিহ্নটি কোনো শব্দের অংশ হয় (যেমন: x এবং ft.)",
   "server": "সার্ভার",
@@ -1847,6 +1891,7 @@
   "themeModeSystem": "সিস্টেম",
   "themeSettings": "থিম",
   "themeSettingsSubtitle": "আপনার প্লেয়ারের সামগ্রিক আবহ",
+  "thisDeviceCouldNotProveItIsTheOneYouPairedAcceptOnlyIfYouResetIt": "এই ডিভাইসটি প্রমাণ করতে পারেনি যে এটি আপনার পেয়ার করা ডিভাইস, ডিভাইসটি রিসেট করলেই কেবল এটি গ্রহণ করুন",
   "thisMonth": "এই মাসে",
   "thisPlaylistHasActiveSortersDisableThemBeforeReordering": "এই প্লেলিস্টে সক্রিয় সর্টার রয়েছে, পুনর্বিন্যাস করার আগে দয়া করে সেগুলো নিষ্ক্রিয় করুন।",
   "thisVideoIsLikelyDeletedOrSetToPrivate": "এই ভিডিওটি সম্ভবত ডিলিট করা হয়েছে বা ব্যক্তিগত হিসেবে সেট করা হয়েছে।",
@@ -1867,6 +1912,7 @@
   "totalTracks": "মোট ট্র্যাক",
   "totalTracksDuration": "মোট ট্র্যাকের সময়কাল",
   "track": "ট্র্যাক",
+  "trackArtistsDisplaySeparator": "শিল্পীদের নাম প্রদর্শনের সেপারেটর",
   "trackArtistsSeparator": "শিল্পী বিভাজক",
   "trackFolder": "ট্র্যাক ফোল্ডার",
   "trackGenresSeparator": "জনরা বিভাজক",
@@ -1913,12 +1959,14 @@
   "uploadDate": "আপলোডের তারিখ",
   "usbDirect": "USB ডিরেক্ট অ্যাক্সেস",
   "usbDirectAwaitingPermission": "{device}-এ অ্যাক্সেসের অনুমতি দিন",
+  "usbDirectClaiming": "{device}-এর সাথে সংযোগ করা হচ্ছে",
   "usbDirectFailed": "{device} সাড়া দেওয়া বন্ধ করেছে",
   "usbDirectHardwareVolume": "DAC ভলিউম",
   "usbDirectNoDevice": "একটি USB DAC সংযুক্ত করুন",
   "usbDirectPermissionDenied": "{device}-এ অ্যাক্সেস প্রত্যাখ্যান করা হয়েছে",
   "usbDirectSubtitle": "অ্যান্ড্রয়েডের অডিও সিস্টেম বাইপাস করে সরাসরি আপনার USB DAC-এ অডিও পাঠায়",
   "usbDirectUnsupportedDevice": "{device} সমর্থিত নয়",
+  "usbDirectWaitingPlayback": "{device} ব্যবহার করতে অন্য অ্যাপে প্লেব্যাক বন্ধ করুন",
   "useCollapsedSettingTiles": "সংকুচিত সেটিংস টাইল ব্যবহার করুন",
   "useForDevice": "{device}-এর জন্য ব্যবহার করুন",
   "useMediaStore": "মিডিয়া স্টোর ব্যবহার করুন",
