@@ -53,6 +53,14 @@
       }
     }
   },
+  "@minimumOneItemSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@newTracksRecommendedSubtitle": {
     "placeholders": {
       "currentTrack": {
@@ -218,14 +226,21 @@
   "merge": "Fusionar",
   "minimumOneFolderSubtitle": "Debe haber al menos 1 carpeta, agregue más carpetas si desea eliminar esta",
   "minimumOneItem": "No se pudo eliminar el elemento",
+  "minimumOneItemSubtitle": "{number, plural, one{Debe de quedar al menos {number} ítem} other{Debe de quedar al menos {number} ítems }}",
+  "minimumSegmentDuration": "Duración Mínima del Segmento",
+  "mobile": "Móvil",
   "month": "Mes",
+  "musicOfftopic": "Música Offtopic",
   "newTracksRandom": "Aleatorio",
   "newTracksRatings": "Calificaciones",
   "newTracksRecommendedSubtitle": "Genera pistas que sueles escuchar junto con {currentTrack}",
   "next": "Siguiente",
+  "notSupportedForNetworkFiles": "No Soportado para Archivos en Red",
+  "offlineSearch": "Búsqueda sin conexión",
   "or": "o en",
   "others": "Otros links útiles",
   "output": "Salida",
+  "palette": "Paleta",
   "personalized": "Personalizado",
   "playlist": "Lista de reproducción",
   "playlistsImportM3uNative": "Esto importará playlists M3U para uso exclusivo de namida, úsalo si estás migrando",
@@ -248,6 +263,7 @@
   "seeProjectCodeOnSite": "Mira el código del proyecto en {site}",
   "selfPromotion": "Autopromoción",
   "shuffle": "Aleatorio",
+  "signInFailed": "El inicio de sesión ha fallado",
   "size": "Tamaño",
   "skipCountTracking": "Omitir telemetría de conteo",
   "skipSponsorSegmentsInVideos": "Omitir segmentos de patrocinio en videos",
