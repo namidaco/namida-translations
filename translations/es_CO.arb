@@ -377,6 +377,13 @@
       }
     }
   },
+  "@importSourceData": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -663,9 +670,27 @@
       }
     }
   },
+  "@volumeKeys": {
+    "description": "The device's physical volume buttons"
+  },
+  "@yearInSongs": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@yourCurrentMembershipIs": {
     "placeholders": {
       "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourYear": {
+    "placeholders": {
+      "year": {
         "type": "String"
       }
     }
@@ -918,7 +943,7 @@
   "delete": "Borrar",
   "deleteFileCacheSubtitle": "{count, plural, one{Eliminar {count} archivo liberará {totalSizeText} ¿Borrar?} other{Eliminar {count} archivos liberará {totalSizeText} ¿Borrar?}}",
   "deleteNTracksFromStorage": "Eliminar permanentemente {numberText} de tu almacenamiento",
-  "deletePlaylist": "Eliminar lista de reproducción",
+  "deletePlaylist": "Eliminar playlist",
   "deleteTempFiles": "Borrar archivos temporales",
   "deleted": "Eliminados",
   "description": "Descripción",
@@ -994,7 +1019,7 @@
   "emptyNonMeaningfulTagFields": "tiene campos con valores vacíos/sin significado, asegúrese de que realmente desea editarlos",
   "emptyValue": "Valor vacío",
   "enableArtworkCache": "Habilitar Caché de Carátulas",
-  "enableArtworkCacheSubtitle": "Carga rápida y mejor rendimiento, pero usa más almacenamiento",
+  "enableArtworkCacheSubtitle": "Carga rápido y mejora el rendimiento, pero usa más almacenamiento",
   "enableBlurEffect": "Habilitar desenfoque",
   "enableBottomNavBar": "Habilitar la barra de navegación inferior",
   "enableBottomNavBarSubtitle": "Los botones de navegación estarán siempre habilitados en todas las ventanas",
@@ -1036,6 +1061,7 @@
   "error": "Error",
   "errorFetchingVideoList": "Error al cargar la lista de vídeos",
   "errorPlayingTrack": "Error al reproducir la pista",
+  "exactPhrase": "Frase exacta",
   "exclude": "Excluir",
   "excludedFodlers": "Carpetas excluidas",
   "exclusive": "Exclusivo",
@@ -1070,7 +1096,7 @@
   "fetchingOfAllVideos": "Busqueda en todos los vídeos",
   "file": "Archivo",
   "fileAlreadyExists": "El archivo ya existe",
-  "fileBasedServerWarning": "Los archivos se descargarán temporalmente para indexar. Asegurate de tener una red estable.\nUsa redes Wi-Fi para evitar un alto uso de datos móviles.",
+  "fileBasedServerWarning": "Se descargarán archivos temporalmente para su indexación. Asegúrate de tener una red estable.\nSe recomienda Wi‑Fi para evitar un uso elevado de datos.",
   "fileName": "Nombre del archivo",
   "fileNameWoExt": "Nombre de archivo sin extensión",
   "filenameShouldntStartWith": "El nombre del archivo no debería comenzar con",
@@ -1097,6 +1123,7 @@
   "fireworks": "Fuegos artificiales",
   "firstListen": "Primera reproducción",
   "fixYtdlpBigThumbnailSize": "Corregir tamaño grande de miniaturas yt-dlp",
+  "flipArtwork": "Invertir portada",
   "floatingActionButton": "Botón de acción flotante",
   "focus": "Resaltar",
   "folder": "Carpeta",
@@ -1135,7 +1162,7 @@
   "grantStoragePermission": "Conceder permiso de almacenamiento",
   "graphicEqualizerBands": "Gráfico, {count} bandas",
   "group": "Grupo",
-  "groupArtworksByAlbum": "Imágenes de álbum por grupos",
+  "groupArtworksByAlbum": "Agrupar portadas por álbum",
   "groupByTags": "Agrupar por etiquetas",
   "guide": "Guía",
   "habits": "Habitos",
@@ -1144,13 +1171,14 @@
   "hashtag": "Hashtag",
   "heightOfAlbumTile": "Altura del mosaico del álbum",
   "heightOfTrackTile": "Altura del contenedor de la canción",
-  "hideSkipButtonAfter": "Esconder botón de omitir después de",
+  "hideSkipButtonAfter": "Ocultar botón de saltar tras",
   "highMatches": "Altas coincidencias",
   "highPerformance": "Alto rendimiento",
   "highlight": "Destacado",
   "history": "Historial",
+  "historyImportHtmlUnreadable": "No se pudieron leer las entradas HTML de la exportación, exporta el historial como JSON",
   "historyImportMissingEntriesNote": "Estos datos no se pudieron encontrar dentro de la biblioteca. Si cree que existen, considere agregarlas manualmente",
-  "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} escuchas de {oldTrackInfo} será reemplazada por {newTrackInfo}, ¿Continuar?} other{{listensCount} escuchas {oldTrackInfo} será reemplazadas por {newTrackInfo}, ¿Continuar?}}",
+  "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} reproducción de {oldTrackInfo} se reemplazará por {newTrackInfo}, ¿confirmas?} other{{listensCount} reproducciones de {oldTrackInfo} se reemplazarán por {newTrackInfo}, ¿Continuar?}}",
   "home": "Inicio",
   "homeScreenWidget": "Widget de pantalla de inicio",
   "hook": "Gancho",
@@ -1160,7 +1188,7 @@
   "iReadAndAgree": "Leí y acepto",
   "ifNotPlaying": "Si está pausada",
   "ignore": "Ignorar",
-  "ignoreBatteryOptimizationsSubtitle": "Las descargas se pueden ralentizar cuando Namida tiene restricción de batería",
+  "ignoreBatteryOptimizationsSubtitle": "Las descargas se pueden ralentizar si la app tiene restricciones de batería",
   "ignoreCommonPrefixesWhileSorting": "Ignorar prefijos comunes mientras se indexa",
   "ignorePrefixes": "Ignorar prefijos",
   "ignores": "ignorar",
@@ -1169,15 +1197,18 @@
   "immersiveModeSubtitle": "Ocultar barras de estado y navegación mientras el minirreproductor está expandido",
   "import": "Importar",
   "importAll": "Importar todo",
+  "importData": "Importar datos",
   "importLastFmHistoryGuide": "1. Ve a {lastfmCsvLink}\n\n2. Escribe tu nombre de usuario, busca y descarga el archivo csv.\n\n3. Elige el archivo en la siguiente pantalla.",
   "importListenBrainzHistoryGuide": "1. Ve a {link}\n\n2. Solicita los datos y descarga\n\n3. Elige los archivos zip o json en la siguiente pantalla.",
   "importPlaylist": "Importar lista de reproducción",
-  "importSpotifyHistoryGuide": "1. Ve a {link}\n\n2. Marca \"Historial de reproducción extendido\"\n\n3. Solicita los datos y descarga\n\n4. Elige los archivos zip o json en la siguiente pantalla.",
+  "importSourceData": "Importar datos de {source}",
+  "importSpotifyHistoryGuide": "1. Ve a {link}\n\n2. Selecciona \"Datos de la cuenta\" y \"Historial de reproducción extendido\"\n\n3. Solicita los datos y descarga\n\n4. Elige los archivos zip o json en la siguiente pantalla.",
   "importTimeRange": "Intervalo de tiempo de importación",
-  "importYoutubeHistoryGuide": "1. Vaya a {takeoutLink}\n\n2. Presione \"Múltiples formatos\" y al lado de \"Historial\", elija \"JSON\".\n\n3. Presione \"Todos los datos de Youtube incluidos\", deseleccione Todo y elija solo historial.\n\n4. Crear Exportar, Descargar y Descomprimir.\n\n5. Elija \"watch-history.json\" en la siguiente pantalla.",
-  "importedNChannelsSuccessfully": "{number, plural, one{{number} canal importado correctamente} other{{number} canales importados correctamente}}",
-  "importedNPlaylistsSuccessfully": "{number, plural, one{{numberText} playlist importada correctamente} other{{numberText} playlists importadas correctamente}}",
-  "includeVideos": "Incluye videos",
+  "importYoutubeHistoryGuide": "1. Vaya a {takeoutLink}\n\n2. Presione \"Múltiples formatos\" y al lado de \"Historial\" elija \"JSON\".\n\n3. Presione \"Todos los datos de Youtube incluidos\", deseleccione todo y elija historial y listas de reproducción.\n\n4. Cree la exportación y descargue .\n\n5. Elija los archivos zip o la carpeta extraída en la siguiente pantalla.",
+  "importedNChannelsSuccessfully": "{number, plural, one{Se importó {number} canal con éxito} other{Se importaron {number} canales con éxito}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, one{Se importó {numberText} playlist con éxito} other{Se importaron {numberText} playlists con éxito}}",
+  "inTitle": "En el título",
+  "includeVideos": "Incluir videos",
   "indexRefreshRequired": "Hace una actualización después de cambiarlo",
   "indexer": "Indexador",
   "indexerNote": "Nota: El número incompleto de caratulas refiere a las carátulas duplicadas y no encontradas",
@@ -1189,7 +1220,7 @@
   "instantlyApplies": "Se aplica instantáneamente",
   "instrumental": "Instrumental",
   "interactionReminder": "Recordatorio de interacción",
-  "intro": "Introducción",
+  "intro": "Intro",
   "invertSelection": "Invertir selección",
   "isAfter": "es después de",
   "isBefore": "es antes de",
@@ -1210,6 +1241,7 @@
   "jumpToDay": "Saltar al día",
   "jumpToFirstTrackAfterQueueFinish": "Saltar a la primera pista después de terminar la cola",
   "keepCachedVersions": "Mantener versiones en caché",
+  "keepCurrentOrder": "Mantener orden actual",
   "keepFileDates": "Mantener las fechas del archivo",
   "keepScreenAwakeMiniplayerExpanded": "Minireproductor ampliado",
   "keepScreenAwakeMiniplayerExpandedAndVideo": "El minirreproductor está ampliado y se está reproduciendo un vídeo",
@@ -1352,7 +1384,7 @@
   "newTracksUnknownYear": "La canción tiene un año desconocido",
   "newVideosAtTop": "Añadir videos nuevos al inicio",
   "newest": "Mas nueva",
-  "next": "Next",
+  "next": "Siguiente",
   "nextChapter": "Siguiente capítulo",
   "no": "No",
   "noChangesFound": "No se han encontrado cambios.",
@@ -1722,7 +1754,7 @@
   "showSkipButton": "Mostrar botón de Saltar",
   "showVideoEndcards": "Enseñar las cartas del final del video",
   "showWebm": "Mostrar webm",
-  "shuffle": "Barajar",
+  "shuffle": "Aleatorio",
   "shuffleAll": "Baraja todos",
   "shuffleNext": "Mezclar siguiente",
   "signIn": "Inicia sesion",
@@ -1932,6 +1964,9 @@
   "virtualSurround": "Surround virtual",
   "visualizer": "Visualizador",
   "volume": "Volumen",
+  "volumeKeys": "Botones de volumen",
+  "waitingForTheOtherDeviceToAccept": "Esperando que el otro dispositivo acepte",
+  "wallpaper": "Fondo de pantalla",
   "warning": "Advertencia",
   "waveformBarsCount": "Recuento de barras de forma de onda",
   "waves": "Ondas",
@@ -1940,10 +1975,14 @@
   "weeks": "Semanas",
   "wiredDevice": "Dispositivo Conectado",
   "wirelessDevice": "Dispositivo Inalámbrico",
+  "wordByWord": "Palabra a palabra",
   "year": "Año",
+  "yearInSongs": "{count, plural, one{Año en {count} canción} other{Año en {count} canciones}}",
   "years": "Años",
   "yes": "si",
+  "youCanNowSendAndReceiveDataWithThisDevice": "Ahora puedes enviar y recibir datos con este dispositivo",
   "yourCurrentMembershipIs": "Tu membresía actual es {name}",
+  "yourYear": "Tu {year}",
   "youtube": "YouTube",
   "youtubeId": "ID de YouTube",
   "youtubeLink": "Link de Youtube",
@@ -1951,5 +1990,6 @@
   "youtubeSettingsSubtitle": "Personaliza la experiencia de Youtube",
   "youtubeStyleMiniplayer": "Minireproductor al estilo de Youtube",
   "ytPreferNewComments": "Preferir nuevos comentarios cuando sea posible",
-  "ytPreferNewCommentsSubtitle": "La versión en caché solo se usará cuando no haya conexión"
+  "ytPreferNewCommentsSubtitle": "La versión en caché solo se usará cuando no haya conexión",
+  "zoom": "Zoom"
 }
