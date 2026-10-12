@@ -342,6 +342,13 @@
       }
     }
   },
+  "@importSourceData": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -411,6 +418,13 @@
     "description": "Mixes the left and right channels together, so both sides play the same sound"
   },
   "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarSubtitle": {
     "placeholders": {
       "currentTrack": {
         "type": "String"
@@ -581,6 +595,13 @@
       }
     }
   },
+  "@usbDirectClaiming": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
   "@usbDirectFailed": {
     "placeholders": {
       "device": {
@@ -599,6 +620,13 @@
     }
   },
   "@usbDirectUnsupportedDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectWaitingPlayback": {
     "placeholders": {
       "device": {
         "type": "String"
@@ -771,6 +799,7 @@
   "checkList": "Контрольний список",
   "choose": "Обрати",
   "chooseWhatToClear": "Обрати, що очистити",
+  "chorus": "Приспів",
   "christmas": "Різдво",
   "claim": "Подати заявку",
   "cleanup": "Очистка",
@@ -991,6 +1020,7 @@
   "error": "Помилка",
   "errorFetchingVideoList": "Помилка при отриманні списку відео",
   "errorPlayingTrack": "Помилка відтворення треку",
+  "exactPhrase": "Точна фраза",
   "exclude": "Виключити",
   "excludedFodlers": "Виключені теки",
   "exclusive": "Ексклюзивний",
@@ -1052,6 +1082,7 @@
   "fireworks": "Феєрверк",
   "firstListen": "Перше прослуховування",
   "fixYtdlpBigThumbnailSize": "Виправити великий розмір мініатюри yt-dlp",
+  "flipArtwork": "Перевернути обкладинку",
   "floatingActionButton": "Плаваюча кнопка дії",
   "focus": "Фокус",
   "folder": "Тека",
@@ -1123,14 +1154,17 @@
   "immersiveModeSubtitle": "Приховує статусну та навігаційну панелі при розгорнутому мініплеєрі",
   "import": "Імпорт",
   "importAll": "Імпортувати все",
+  "importData": "Імпортувати дані",
   "importLastFmHistoryGuide": "1. Перейдіть на сторінку {lastfmCsvLink}\n\n2. Уведіть своє ім’я користувача, отримайте та завантажте файл CSV.\n\n3. Оберіть файл на наступному екрані.",
   "importListenBrainzHistoryGuide": "1. Перейдіть за посиланням {link}\n\n2. Запитайте дані та завантажте їх.\n\n3. На наступному екрані виберіть формат файлів ZIP або JSON.",
   "importPlaylist": "Імпортувати плейлист",
-  "importSpotifyHistoryGuide": "1. Перейдіть за посиланням {link}\n\n2. Поставте позначку «Розширена історія потокового передавання».\n\n3. Запитайте дані та завантажте їх.\n\n4. На наступному екрані виберіть формат файлів ZIP або JSON.",
+  "importSourceData": "Імпортувати дані {source}",
+  "importSpotifyHistoryGuide": "1. Перейдіть за посиланням {link}\n\n2. Поставте позначки «Дані облікового запису» і «Розширена історія потокового передавання».\n\n3. Запитайте дані та завантажте їх.\n\n4. На наступному екрані виберіть формат файлів ZIP або JSON.",
   "importTimeRange": "Імпортувати діапазон часу",
-  "importYoutubeHistoryGuide": "1. Перейдіть за посиланням {takeoutLink}\n\n2. Натисніть «Декілька форматів» та навпроти «Історія» оберіть «JSON».\n\n3. Натисніть кнопку «Обрані всі дані YouTube», натисніть на «Скасувати вибір» та оберіть «Тільки історію».\n\n4. Створіть Експорт, завантажте та розархівуйте.\n\n5. На наступному екрані оберіть «watch-history.json».",
+  "importYoutubeHistoryGuide": "1. Перейдіть за посиланням {takeoutLink}\n\n2. Натисніть «Декілька форматів» та навпроти «Історія» оберіть «JSON».\n\n3. Натисніть кнопку «Обрані всі дані YouTube», натисніть на «Скасувати вибір» та оберіть «Історія і плейлисти».\n\n4. Створіть Експорт і завантажте.\n\n5. На наступному екрані оберіть ZIP-архіви або розпаковану теку.",
   "importedNChannelsSuccessfully": "{number, plural, one{{number} канал} few{{number} канали} other{{number} каналів}} імпортовано успішно",
   "importedNPlaylistsSuccessfully": "{number, plural, one{{numberText} плейлист} few{{numberText} плейлисти} other{{numberText} плейлистів}} імпортовано успішно",
+  "inTitle": "У назві",
   "includeVideos": "Включити відео",
   "indexRefreshRequired": "Виконайте оновлення після зміни цього параметра",
   "indexer": "Індексатор",
@@ -1163,7 +1197,9 @@
   "jumpToDay": "Перейти до дня",
   "jumpToFirstTrackAfterQueueFinish": "Перейти до першого треку після завершення черги",
   "keepCachedVersions": "Зберігати кешовані версії",
+  "keepCurrentOrder": "Зберегти поточний порядок",
   "keepFileDates": "Зберігати дати файлів",
+  "keepQueue": "Зберегти чергу",
   "keepScreenAwakeMiniplayerExpanded": "Мініплеєр розгорнутий",
   "keepScreenAwakeMiniplayerExpandedAndVideo": "Мініплеєр розгорнутий та відворюється відео",
   "keepScreenAwakeNone": "Не тримати екран увімкненим",
@@ -1285,6 +1321,7 @@
   "multipleTracksTagsEditNote": "Ви збираєтеся редагувати ці треки,\nНезмінені поля не оброблятимуться.",
   "multipleValues": "Кілька значень",
   "musicOfftopic": "Музичний офтопік",
+  "musicalKey": "Тональність",
   "name": "Назва",
   "nameContainsBadCharacter": "Назва містить недопустимий символ",
   "never": "Ніколи",
@@ -1299,6 +1336,8 @@
   "newTracksRatingsSubtitle": "Згенерувати треки з певним рейтингом",
   "newTracksRecommended": "Рекомендовані",
   "newTracksRecommendedSubtitle": "Згенерувати треки, котрі Ви зазвичай слухаєте з {currentTrack}",
+  "newTracksSimilar": "Схожі треки",
+  "newTracksSimilarSubtitle": "Згенерувати треки, схожі на {currentTrack}",
   "newTracksSimilarrReleaseDate": "Схожа дата виходу",
   "newTracksSimilarrReleaseDateSubtitle": "Згенерувати треки, котрі були випущені приблизно в той же час, що й {currentTrack}",
   "newTracksUnknownYear": "Рік випуску треку невідомий",
@@ -1307,6 +1346,7 @@
   "next": "Далі",
   "nextChapter": "Наступний розділ",
   "no": "ні",
+  "noBackCoverFound": "Зворотної обкладинки не знайдено",
   "noChangesFound": "Змін не знайдено.",
   "noEnoughTracks": "У Вас не так багато треків.",
   "noExcludedFolders": "У Вас немає виключених тек",
@@ -1529,7 +1569,7 @@
   "previousButtonReplays": "Перезавантажувати трек при виборі попереднього треку",
   "previousButtonReplaysSubtitle": "Якщо натиснуто, коли поточна позиція більше довжини перемотки",
   "previousChapter": "Попередній розділ",
-  "prioritizeEmbeddedLyrics": "Пріоритезувати вбудований текст пісні",
+  "prioritizeEmbeddedLyrics": "Віддавати перевагу вбудованому тексту",
   "priority": "Пріоритет",
   "private": "Приватний",
   "progress": "Прогрес",
@@ -1593,6 +1633,7 @@
   "repeatModeOne": "Повторити поточний трек",
   "repeatRate": "Частота повторень",
   "replaceAllListensWithAnotherTrack": "Замінити всі прослухані іншим треком",
+  "replaceQueue": "Замінити чергу",
   "replaceWith": "Замінити на",
   "replies": "Відповіді",
   "reply": "Відповідь",
@@ -1606,6 +1647,7 @@
   "respectNoMediaSubtitle": "Виключає теки, що містять .nomedia",
   "restart": "Перезавантажити",
   "restoreBackup": "Відновити резервну копію",
+  "restoreCustomOrder": "Відновити власний порядок",
   "restoreDefaults": "Відновити значення за замовчуванням",
   "restoredBackupSuccessfully": "Резервну копію відновлено",
   "restoredBackupSuccessfullySub": "Файл резервної копії успішно відновлено",
@@ -1652,6 +1694,7 @@
   "semitones": "Напівтони",
   "send": "Надіслати",
   "sendToAllDevices": "Надіслати на всі пристрої",
+  "separators": "Роздільники",
   "separatorsBlacklistSubtitle": "Ці слова не будуть розділені",
   "separatorsMessage": "Пробіли вставляти не потрібно, якщо тільки Ви не хочете використовувати літеру/символ, котрий зустрічається в цілому слові (наприклад, x та ft.)",
   "server": "Сервер",
@@ -1807,6 +1850,7 @@
   "totalTracks": "Усього треків",
   "totalTracksDuration": "Загальна тривалість треків",
   "track": "Трек",
+  "trackArtistsDisplaySeparator": "Роздільник відображення виконавців",
   "trackArtistsSeparator": "Роздільник виконавців",
   "trackFolder": "Тека треку",
   "trackGenresSeparator": "Роздільник жанрів",
@@ -1852,12 +1896,14 @@
   "uploadDate": "Дата завантаження",
   "usbDirect": "Прямий доступ через USB",
   "usbDirectAwaitingPermission": "Надати доступ до {device}",
+  "usbDirectClaiming": "Підключення до {device}",
   "usbDirectFailed": "{device} не відповідає",
   "usbDirectHardwareVolume": "Гучність DAC",
   "usbDirectNoDevice": "Підключити USB DAC",
   "usbDirectPermissionDenied": "Доступ до {device} відхилено",
   "usbDirectSubtitle": "Передає аудіосигнал безпосередньо на USB DAC, оминаючи аудіосистему Android",
   "usbDirectUnsupportedDevice": "{device} не підтримується",
+  "usbDirectWaitingPlayback": "Зупиніть відтворення в інших додатках, щоб скористатися {device}",
   "useCollapsedSettingTiles": "Використовувати згорнуті плитки налаштувань",
   "useForDevice": "Використовувати для {device}",
   "useMediaStore": "Використовувати сховище медіафайлів",
