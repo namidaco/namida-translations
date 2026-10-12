@@ -14,6 +14,30 @@
       }
     }
   },
+  "@countAlbumArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countSubscribersShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
   "@enableM3uSyncNote2": {
     "placeholders": {
       "playlistsBackupPath": {
@@ -221,7 +245,23 @@
   "comment": "Comentar",
   "comments": "Comentarios",
   "composer": "Compositor",
+  "compress": "Comprimir",
+  "compressImages": "Comprimir imagenes",
+  "compressionPercentage": "Porcentaje de compresión",
+  "configure": "Configurar",
+  "confirm": "Confirmar",
+  "copiedArtwork": "Carátula copiada",
+  "copiedToClipboard": "Copiado al portapapeles",
+  "copy": "Copiar",
+  "corruptedFile": "No se pudo procesar el archivo, tal vez esté dañado",
+  "couldntOpen": "No se pudo abrir :(",
+  "couldntOpenYtLink": "No hay enlace de YouTube disponible para esta canción",
+  "couldntPlayFile": "No se pudo reproducir el archivo",
   "couldntRenamePlaylist": "No se pudo cambiar el nombre de la playlist",
+  "couldntSaveImage": "No se pudo guardar imagen",
+  "countAlbumArtists": "{count, plural, one{{count} artista del álbum} other{{count} artistas del álbum}}",
+  "countSubscribers": "{count, plural, one{{count} suscriptor} other{{count} suscriptores}}",
+  "countSubscribersShort": "{count, plural, one{{count} suscriptor} other{{count} suscriptores}}",
   "createBackup": "Crea un respaldo",
   "createdBackupSuccessfully": "Respaldo creado",
   "createdBackupSuccessfullySub": "El archivo de respaldo fue creado con éxito",
