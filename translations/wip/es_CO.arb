@@ -6,9 +6,41 @@
       }
     }
   },
+  "@historyListensReplaceWarning": {
+    "placeholders": {
+      "listensCount": {
+        "format": "decimalPattern",
+        "type": "int"
+      },
+      "newTrackInfo": {
+        "type": "String"
+      },
+      "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
   "@importLastFmHistoryGuide": {
     "placeholders": {
       "lastfmCsvLink": {
+        "type": "String"
+      }
+    }
+  },
+  "@importedNChannelsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@importedNPlaylistsSuccessfully": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "numberText": {
         "type": "String"
       }
     }
@@ -124,9 +156,13 @@
   "couldntRenamePlaylist": "No se pudo cambiar el nombre de la playlist",
   "custom": "Personalizado",
   "customizationsSubtitle": "Personaliza el aspecto del reproductor, hazlo tuyo",
+  "dataSaver": "Ahorro de datos",
   "dateCreated": "Fecha de Creacion",
+  "deletePlaylist": "Eliminar playlist",
+  "developer": "Desarrollador",
   "displayAlbumCardTopRightDate": "Fecha del álbum en la parte superior derecha",
   "duplicatedItemsAdding": "Estas tratando de añadir algo que ya existe en esta playlist",
+  "enableArtworkCacheSubtitle": "Carga rápido y mejora el rendimiento, pero usa más almacenamiento",
   "enableBlurEffect": "Habilitar desenfoque",
   "enableClipboardMonitoringSubtitle": "Permite pegar enlaces y textos dentro de la barra de búsqueda mientras navegas",
   "enableCrossfadeEffect": "Habilitar efecto de Crossfade",
@@ -135,15 +171,31 @@
   "enableSponsorblock": "Activar SponsorBlock",
   "enableVideoPlayback": "Activar reproducción de video",
   "extractFeatArtist": "Extraer artistas \"feat.\" del título",
+  "extreme": "Extremo",
   "fetching": "Buscando",
   "fetchingOfAllVideos": "Busqueda en todos los vídeos",
+  "fileBasedServerWarning": "Se descargarán archivos temporalmente para su indexación. Asegúrate de tener una red estable.\nSe recomienda Wi‑Fi para evitar un uso elevado de datos.",
+  "filler": "Relleno",
   "firstListen": "Primera reproducción",
   "fixYtdlpBigThumbnailSize": "Corregir tamaño grande de miniaturas yt-dlp",
+  "goToArtist": "Ir al artista",
+  "groupArtworksByAlbum": "Agrupar portadas por álbum",
+  "hideSkipButtonAfter": "Ocultar botón de saltar tras",
   "highMatches": "Altas coincidencias",
+  "highlight": "Destacado",
+  "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} reproducción de {oldTrackInfo} se reemplazará por {newTrackInfo}, ¿confirmas?} other{{listensCount} reproducciones de {oldTrackInfo} se reemplazarán por {newTrackInfo}, ¿Continuar?}}",
   "hook": "Gancho",
   "host": "Anfitrión",
+  "hours": "Horas",
+  "ignoreBatteryOptimizationsSubtitle": "Las descargas se pueden ralentizar si la app tiene restricciones de batería",
   "ignores": "ignorar",
   "importLastFmHistoryGuide": "1. Ve a {lastfmCsvLink}\n\n2. Escribe tu nombre de usuario, busca y descarga el archivo csv.\n\n3. Elige el archivo en la siguiente pantalla.",
+  "importedNChannelsSuccessfully": "{number, plural, one{Se importó {number} canal con éxito} other{Se importaron {number} canales con éxito}}",
+  "importedNPlaylistsSuccessfully": "{number, plural, one{Se importó {numberText} playlist con éxito} other{Se importaron {numberText} playlists con éxito}}",
+  "includeVideos": "Incluir videos",
+  "interactionReminder": "Recordatorio de interacción",
+  "intro": "Intro",
+  "issues": "Problemas",
   "item": "Por cancion",
   "learnMore": "Aprende más",
   "leftAction": "Deslizar a la izquierda",
@@ -151,8 +203,11 @@
   "manualBackupSubtitle": "selecciona un archivo específico",
   "matchingType": "tipo de coincidencias",
   "merge": "Fusionar",
+  "minimumOneFolderSubtitle": "Debe haber al menos 1 carpeta, agregue más carpetas si desea eliminar esta",
+  "minimumOneItem": "No se pudo eliminar el elemento",
   "month": "Mes",
   "newTracksRecommendedSubtitle": "Genera pistas que sueles escuchar junto con {currentTrack}",
+  "next": "Siguiente",
   "or": "o en",
   "others": "Otros links útiles",
   "output": "Salida",
@@ -162,7 +217,10 @@
   "preview": "Vista previa",
   "prioritizeEmbeddedLyrics": "Priorizar letras incrustadas",
   "recentListens": "Reproducido recientemente",
+  "remove": "Eliminar",
+  "removeDuplicates": "Eliminar duplicados",
   "removeFromLibrary": "Quitar de la biblioteca",
+  "removeFromPlaylist": "Eliminar de la lista de reproducción",
   "removeSourceFromHistory": "Eliminar fuente del historial",
   "rename": "Renombrar",
   "repeatModeOne": "Repetir pista actual",
@@ -174,6 +232,7 @@
   "rightAction": "Deslizar a la derecha",
   "seeProjectCodeOnSite": "Mira el código del proyecto en {site}",
   "selfPromotion": "Autopromoción",
+  "shuffle": "Aleatorio",
   "size": "Tamaño",
   "skipCountTracking": "Omitir telemetría de conteo",
   "skipSponsorSegmentsInVideos": "Omitir segmentos de patrocinio en videos",
