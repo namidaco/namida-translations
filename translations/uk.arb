@@ -281,6 +281,24 @@
   "@eps": {
     "description": "Plural of EP (extended play), a music release longer than a single but shorter than an album"
   },
+  "@eqAllPass": {
+    "description": "Equalizer band type that only shifts phase, the volume stays the same"
+  },
+  "@eqBandPass": {
+    "description": "Equalizer band type that keeps only a range around a frequency"
+  },
+  "@eqHighPass": {
+    "description": "Equalizer band type that removes everything below a frequency"
+  },
+  "@eqLowPass": {
+    "description": "Equalizer band type that removes everything above a frequency"
+  },
+  "@eqNotch": {
+    "description": "Equalizer band type that removes a narrow range around a frequency"
+  },
+  "@eqPeak": {
+    "description": "Equalizer band type that boosts or cuts around one frequency (bell shape)"
+  },
   "@exclusive": {
     "description": "Exclusive output mode, where only this app can use the audio device"
   },
@@ -772,6 +790,8 @@
   "backupHistoryBeforeImporting": "Створювати резервну копію історії перед імпортом",
   "balanced": "Збалансований",
   "bars": "Смуги",
+  "bassEnhancer": "Підсилювач низьких частот",
+  "beatMatching": "Узгодження ритму",
   "beatRings": "Ритми",
   "beta": "Бета",
   "betweenDates": "Між датами",
@@ -1025,6 +1045,12 @@
   "enterSymbol": "Будь ласка, введіть символ",
   "enterTheAddressShownOnTheOtherDevice": "Уведіть адресу, вказану в полі «Сервер» на іншому пристрої",
   "eps": "Мініальбоми",
+  "eqAllPass": "Фазовий фільтр",
+  "eqBandPass": "Смуговий фільтр",
+  "eqHighPass": "Фільтр високих частот",
+  "eqLowPass": "Фільтр низьких частот",
+  "eqNotch": "Вирізний фільтр",
+  "eqPeak": "Піковий фільтр",
   "equalizer": "Еквалайзер",
   "equalizerImportFailed": "Фільтри еквалайзера не знайдено",
   "error": "Помилка",
