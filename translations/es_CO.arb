@@ -462,6 +462,13 @@
       }
     }
   },
+  "@newTracksSimilarSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
   "@newTracksSimilarrReleaseDateSubtitle": {
     "placeholders": {
       "currentTrack": {
@@ -1343,10 +1350,10 @@
   "minimum": "Mínimo",
   "minimumOneFolderSubtitle": "Debe haber al menos 1 carpeta, agregue más carpetas si desea eliminar esta",
   "minimumOneItem": "No se pudo eliminar el elemento",
-  "minimumOneItemSubtitle": "{number, plural, one{Debe de quedar al menos {number} item} other{Debe de quedar al menos {number} items }}",
+  "minimumOneItemSubtitle": "{number, plural, one{Debe de quedar al menos {number} ítem} other{Debe de quedar al menos {number} ítems }}",
   "minimumSegmentDuration": "Duración Mínima del Segmento",
   "miniplayerCustomization": "Personalización del minireproductor",
-  "minutes": "minutos",
+  "minutes": "Minutos",
   "mirroredBars": "Barras espejo",
   "missing": "Faltante",
   "missingEntries": "Entradas faltantes",
@@ -1382,6 +1389,8 @@
   "newTracksRatingsSubtitle": "Generar pistas con una calificación específica",
   "newTracksRecommended": "Recomendado",
   "newTracksRecommendedSubtitle": "Genera pistas que sueles escuchar junto con {currentTrack}",
+  "newTracksSimilar": "Pistas similares",
+  "newTracksSimilarSubtitle": "Generar pistas similares a {currentTrack}",
   "newTracksSimilarrReleaseDate": "Fecha de lanzamiento similar",
   "newTracksSimilarrReleaseDateSubtitle": "Genera pistas que se lanzaron aproximadamente al mismo tiempo que {currentTrack}",
   "newTracksUnknownYear": "La canción tiene un año desconocido",
@@ -1390,6 +1399,7 @@
   "next": "Siguiente",
   "nextChapter": "Siguiente capítulo",
   "no": "No",
+  "noBackCoverFound": "Contraportada no encontrada",
   "noChangesFound": "No se han encontrado cambios.",
   "noEnoughTracks": "No tienes muchas pistas..",
   "noExcludedFolders": "No tienes ninguna carpeta excluida",
@@ -1417,7 +1427,7 @@
   "numberOfTracks": "Número de pistas",
   "obsession": "Obsesión",
   "ofLabel": "de",
-  "offlineSearch": "Busqueda sin internet",
+  "offlineSearch": "Búsqueda sin conexión",
   "offset": "Compensar",
   "oldDirectory": "directorio antiguo",
   "oldDirectoryStillHasTracks": "El directorio antiguo todavía tiene algunas pistas, ¿confirmas?",
@@ -1428,7 +1438,7 @@
   "onNotificationTap": "Al tocar en notificaciones",
   "onOpeningYoutubeLink": "Al abrir el enlace de youtube",
   "onSwiping": "Al deslizar",
-  "onVolumeZero": "En el volumen 0",
+  "onVolumeZero": "En volumen 0",
   "ongoing": "En curso",
   "open": "Abierto",
   "openApp": "Abrir la app",
@@ -1458,7 +1468,7 @@
   "particles": "Partículas",
   "partyAddedBy": "Añadido por {name}",
   "partyApproximateMatch": "Se vinculó con un video de YouTube, puede que no sea el correcto",
-  "partyBan": "Restringir",
+  "partyBan": "Banear",
   "partyBanned": "Te vetaron de la sesión",
   "partyBannedMembers": "Miembros vetados",
   "partyBrowse": "Salas públicas",
@@ -1520,8 +1530,19 @@
   "partyPublicRoom": "Sala pública",
   "partyPublicRoomSubtitle": "Cualquiera puede encontrarlo y unirse al navegar",
   "partyQueueEmpty": "No hay nada para reproducir.\n¡Añade algo!",
+  "partyQueueFull": "La cola de la sala está llena",
+  "partyReactions": "Reacciones",
+  "partyRejoin": "Volver a unirte",
+  "partyRemoteControl": "Control remoto",
+  "partyRemoveAdmin": "Quitar administrador",
   "partyRemovePassword": "Quitar contraseña",
   "partyRequireApproval": "Aprobación para unirse",
+  "partyRoleAdmin": "Admin",
+  "partyRoleGuest": "Invitado",
+  "partyRoomName": "Nombre de la sala",
+  "partyRoomPassword": "Contraseña de la sala",
+  "partyRoomsLimit": "Llegaste al límite de salas abiertas",
+  "partySaveAsPlaylist": "Guardar como playlist",
   "partyServerPasswordSubtitle": "Solo para servidores propios",
   "partySetPassword": "Establecer contraseña",
   "partySharePlaying": "Comparte lo que está sonando",
@@ -1545,7 +1566,7 @@
   "partyWrongPassword": "Contraseña de la sesión incorrecta",
   "partyYou": "Tú",
   "partyYouAreHostNow": "Ahora eres el anfitrión",
-  "partyYourOpenRooms": "Tus sesiones activas",
+  "partyYourOpenRooms": "Tus sesiones grupales activas",
   "password": "Contraseña",
   "path": "Ruta completa del archivo",
   "pause": "Pausa",
@@ -1769,7 +1790,7 @@
   "shuffleNext": "Mezclar siguiente",
   "signIn": "Inicia sesion",
   "signInCanceled": "El inicio de sesion fue cancelado",
-  "signInFailed": "El Inicio de sesion ha fallado",
+  "signInFailed": "El inicio de sesión ha fallado",
   "signInToYourAccount": "Inicia sesion a tu cuenta",
   "signInYouDontHaveAccount": "No has iniciado sesión en alguna cuenta",
   "signInYouNeedAccountToViewPage": "Necesitas una cuenta para ver esta pagina",
