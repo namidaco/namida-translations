@@ -22,6 +22,78 @@
       }
     }
   },
+  "@countAlbums": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countArtists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countComposers": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countDays": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFiles": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countFolders": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countGenres": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countMonths": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countPlaylists": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@countSubscribers": {
     "placeholders": {
       "count": {
@@ -35,6 +107,53 @@
       "count": {
         "format": "compact",
         "type": "int"
+      }
+    }
+  },
+  "@countTracks": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countVideos": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViews": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@countViewsShort": {
+    "placeholders": {
+      "count": {
+        "format": "compact",
+        "type": "int"
+      }
+    }
+  },
+  "@crossfadeTriggerSeconds": {
+    "placeholders": {
+      "seconds": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
+  "@dataIsProvidedByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
       }
     }
   },
@@ -260,15 +379,43 @@
   "couldntRenamePlaylist": "No se pudo cambiar el nombre de la playlist",
   "couldntSaveImage": "No se pudo guardar imagen",
   "countAlbumArtists": "{count, plural, one{{count} artista del álbum} other{{count} artistas del álbum}}",
+  "countAlbums": "{count, plural, one{{count} Album} other{{count} Álbumes}}",
+  "countArtists": "{count, plural, one{{count} Artista} other{{count} Artistas}}",
+  "countComposers": "{count, plural, one{{count} Compositor} other{{count} Compositores}}",
+  "countDays": "{count, plural, one{{count} Día} other{{count} Días}}",
+  "countFiles": "{count, plural, one{{count} Archivo} other{{count} Archivos}}",
+  "countFolders": "{count, plural, one{{count} Carpeta} other{{count} Carpetas}}",
+  "countGenres": "{count, plural, one{{count} Genero} other{{count} generos}}",
+  "countMonths": "{count, plural, one{{count} Mes} other{{count} Meses}}",
+  "countPlaylists": "{count, plural, one{{count} Playlist} other{{count} Playlists}}",
   "countSubscribers": "{count, plural, one{{count} suscriptor} other{{count} suscriptores}}",
   "countSubscribersShort": "{count, plural, one{{count} suscriptor} other{{count} suscriptores}}",
+  "countTracks": "{count, plural, one{{count} Pista} other{{count} Pistas}}",
+  "countVideos": "{count, plural, one{{count} Vídeo} other{{count} Vídeos}}",
+  "countViews": "{count, plural, one{{count} Vista} other{{count} Vistas}}",
+  "countViewsShort": "{count, plural, one{{count} Vista} other{{count} Vistas}}",
+  "country": "País",
+  "coupon": "Cupón",
+  "create": "Crear",
   "createBackup": "Crea un respaldo",
+  "createNewPlaylist": "Crear nueva playlist",
   "createdBackupSuccessfully": "Respaldo creado",
   "createdBackupSuccessfullySub": "El archivo de respaldo fue creado con éxito",
+  "crossPlatformSync": "Sincronización multiplataforma",
+  "crossfadeDuration": "Duración del Crossfade",
+  "crossfadeTriggerSeconds": "{seconds, plural, one{Activa el crossfade en el último {seconds} segundo} other{Activa el crossfade en los últimos {seconds} segundos}}",
+  "crossfadeTriggerSecondsDisabled": "No activar el crossfade automáticamente",
   "custom": "Personalizado",
+  "customizations": "Personalizaciones",
   "customizationsSubtitle": "Personaliza el aspecto del reproductor, hazlo tuyo",
+  "dataIsProvidedByName": "Datos proporcionados por: {name}",
   "dataSaver": "Ahorro de datos",
+  "dataSaverMode": "Modo ahorro de datos",
+  "database": "Base de datos",
+  "date": "Fecha",
+  "dateAdded": "Fecha de añadido",
   "dateCreated": "Fecha de Creacion",
+  "dateModified": "Fecha de modificación",
   "defaultBackupLocation": "Ubicación de respaldo predeterminada",
   "deletePlaylist": "Eliminar playlist",
   "developer": "Desarrollador",
