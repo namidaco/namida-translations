@@ -1716,6 +1716,7 @@
   "resumeIfWasPausedByVolume": "Resume if was paused by volume",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, one{Resume if was paused for less than {number} minute} other{Resume if was paused for less than {number} minutes}}",
   "returnYoutubeDislike": "Return Youtube Dislike",
+  "reverb": "Reverb",
   "reverseOrder": "Reverse Order",
   "right": "Right",
   "rightAction": "Right Action",
