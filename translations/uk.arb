@@ -876,7 +876,7 @@
   "copy": "Скопіювати",
   "corruptedFile": "Не вдалося прочитати файл. Можливо, він пошкоджений",
   "couldntOpen": "Не вдалося відкрити :(",
-  "couldntOpenYtLink": "Для цього треку не встановлено YouTube-посилання",
+  "couldntOpenYtLink": "Для цього треку не встановлено посилання YouTube",
   "couldntPlayFile": "Не вдалося відтворити файл",
   "couldntRenamePlaylist": "Не вдалося перейменувати плейлист",
   "couldntSaveImage": "Не вдалося зберегти зображення",
