@@ -1700,6 +1700,7 @@
   "resumeIfWasPausedByVolume": "Продовжити відтворення, якщо було призупинено через гучність",
   "resumeIfWasPausedForLessThanNMin": "Продовжити відтворення, якщо пауза тривала менше {number, plural, one{{number} хвилини} few{{number} хвилин} other{{number} хвилин}}",
   "returnYoutubeDislike": "Кнопка «Не подобається» на YouTube",
+  "reverb": "Реверберація",
   "reverseOrder": "Зворотний порядок",
   "right": "Правий",
   "rightAction": "Провести праворуч",
