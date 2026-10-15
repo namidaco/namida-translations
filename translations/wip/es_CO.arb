@@ -164,6 +164,14 @@
       }
     }
   },
+  "@extractAllColorPalettesSubtitle": {
+    "placeholders": {
+      "number": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
@@ -477,7 +485,14 @@
   "excludedFodlers": "Carpetas excluidas",
   "exit": "Salir",
   "expandedMiniplayer": "Minireproductor expandido",
+  "exportAsM3u": "Exportar como M3U",
+  "extension": "Extensión",
+  "externalFiles": "Archivos externos",
+  "extract": "Extraer",
+  "extractAllColorPalettes": "Extrae todas las paletas de colores",
+  "extractAllColorPalettesSubtitle": "{number, plural, one{¿Extraer {number} restante?} other{¿Extraer las {number} restantes?}}",
   "extractFeatArtist": "Extraer artistas \"feat.\" del título",
+  "extractFeatArtistSubtitle": "Extrae los artistas en (feat. X) y (ft. X) como una nueva entrada de artista.",
   "extreme": "Extremo",
   "fetching": "Buscando",
   "fetchingOfAllVideos": "Busqueda en todos los vídeos",
