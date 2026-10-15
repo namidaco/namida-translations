@@ -1716,6 +1716,7 @@
   "resumeIfWasPausedByVolume": "পুনরায় শুরু করুন যদি ভলিউম দ্বারা থামানো হয়ে থাকে",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, one{পুনরায় শুরু করুন যদি {number} মিনিটের কম সময়ের জন্য থামানো হয়ে থাকে} other{পুনরায় শুরু করুন যদি {number} মিনিটের কম সময়ের জন্য থামানো হয়ে থাকে}}",
   "returnYoutubeDislike": "রিটার্ন ইউটিউব ডিসলাইক",
+  "reverb": "রিভার্ব",
   "reverseOrder": "উল্টো ক্রম",
   "right": "ডান",
   "rightAction": "ডান দিকের অ্যাকশন",
