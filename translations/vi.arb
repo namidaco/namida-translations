@@ -311,6 +311,28 @@
   "@fadeOnPlayPause": {
     "description": "Short name of the volume fade when playing or pausing"
   },
+  "@forcedOffBy": {
+    "description": "Header above options disabled by a mode, {mode} is its name like Bit-perfect or USB direct access",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "@frequency": {
+    "description": "Center frequency of an equalizer band, in Hz"
+  },
+  "@gain": {
+    "description": "How much an equalizer band boosts or cuts, in dB"
+  },
+  "@graphicEqualizerBands": {
+    "placeholders": {
+      "count": {
+        "format": "decimalPattern",
+        "type": "int"
+      }
+    }
+  },
   "@historyListensReplaceWarning": {
     "placeholders": {
       "listensCount": {
@@ -335,6 +357,13 @@
   "@importListenBrainzHistoryGuide": {
     "placeholders": {
       "link": {
+        "type": "String"
+      }
+    }
+  },
+  "@importSourceData": {
+    "placeholders": {
+      "source": {
         "type": "String"
       }
     }
@@ -608,7 +637,7 @@
   "bits": "Bit",
   "blacklist": "Danh sách đen",
   "block": "Chặn",
-  "blockedDevices": "Các thiết bị đã bị chặn",
+  "blockedDevices": "Thiết bị đã bị chặn",
   "blur": "Làm mờ",
   "bookmarks": "Dấu trang",
   "borderRadiusMultiplier": "Bán kính đường viền",
@@ -623,6 +652,7 @@
   "changelogSubtitle": "Xem những gì đã được thêm và sửa lại trong Namida",
   "channel": "Kênh",
   "channels": "Kênh",
+  "chapters": "Phân đoạn",
   "charts": "Các biểu đồ",
   "check": "Kiểm tra",
   "checkForMore": "Kiểm tra thêm",
@@ -677,7 +707,7 @@
   "copy": "Sao chép",
   "corruptedFile": "Không thể phân tích tập tin, có thể tệp bị hỏng",
   "couldntOpen": "Không thể mở (╥﹏╥)",
-  "couldntOpenYtLink": "Không có sẵn liên kết Youtube cho bài hát này",
+  "couldntOpenYtLink": "Không có sẵn link Youtube cho bài hát này",
   "couldntPlayFile": "Không thể phát tập tin",
   "couldntRenamePlaylist": "Không thể đổi tên danh sách phát",
   "couldntSaveImage": "Không thể lưu hình ảnh",
@@ -912,10 +942,14 @@
   "filtered": "Đã lọc",
   "filteredBySizeAndDuration": "Bài hát được lọc theo kích thước và thời lượng",
   "find": "Tìm",
+  "findAndReplace": "Tìm & thay thế",
   "finished": "Đã hoàn thành",
   "finishedUpdatingLibrary": "Đã cập nhật xong thư viện",
+  "fireflies": "Đom đóm",
+  "fireworks": "Pháo hoa",
   "firstListen": "Nghe đầu tiên",
   "fixYtdlpBigThumbnailSize": "Sửa kích thước hình thu nhỏ lớn của yt-dlp",
+  "flipArtwork": "Lật ảnh bìa",
   "floatingActionButton": "Nút hành động nổi",
   "focus": "Tập trung",
   "folder": "Thư mục",
@@ -929,8 +963,13 @@
   "forceSquaredTrackThumbnail": "Buộc hình thu nhỏ của bài hát phải vuông góc",
   "forceStopColorPaletteGeneration": "Buộc ngừng trích xuất bảng màu ? bạn vẫn có thể tiếp tục nó sau",
   "forceUseGlobalConfig": "Buộc sử dụng cấu hình chung",
+  "forcedOffBy": "Các tùy chọn bị làm mờ đã bị tắt bởi {mode}",
   "format": "Định dạng",
+  "frequency": "Tần số",
+  "fromClipboard": "Từ bộ nhớ tạm",
   "fullscreen": "Toàn màn hình",
+  "gain": "Độ khuếch đại",
+  "galaxy": "Ngân hà",
   "gaplessPlayback": "Phát lại không khoảng cách",
   "generate": "Tạo ra",
   "generateFromDates": "Phạm vi thời gian",
@@ -939,6 +978,7 @@
   "genre": "Thể loại",
   "genres": "Thể loại",
   "global": "Toàn cầu",
+  "glow": "Phát sáng",
   "goToAlbum": "Đi tới Album",
   "goToArtist": "Đi tới Nghệ sĩ",
   "goToChannel": "Đi tới Kênh",
@@ -946,10 +986,13 @@
   "goToTrack": "Đi đến bài",
   "goodLooking": "Có vẻ tốt",
   "grantStoragePermission": "Cấp quyền lưu trữ",
+  "graphicEqualizerBands": "Đồ họa, {count} dải tần",
   "group": "Nhóm",
   "groupArtworksByAlbum": "Nhóm bìa theo Album",
+  "groupByTags": "Nhóm theo thẻ",
   "guide": "Hướng dẫn",
   "habits": "Các thói quen",
+  "halloween": "",
   "hapticFeedback": "Rung",
   "hashtag": "Thẻ hashtag",
   "heightOfAlbumTile": "Chiều cao của ô Album",
@@ -959,6 +1002,7 @@
   "highPerformance": "Hiệu suất cao",
   "highlight": "Nổi bật",
   "history": "Lịch sử",
+  "historyImportHtmlUnreadable": "Không thể đọc các mục trong bản xuất HTML. Hãy xuất lịch sử dưới dạng JSON",
   "historyImportMissingEntriesNote": "Những mục này không thể tìm thấy trong thư viện, nếu bạn cho rằng chúng tồn tại, vui lòng cân nhắc việc thêm chúng theo cách thủ công",
   "historyListensReplaceWarning": "{listensCount, plural, other{{listensCount} lắng nghe {oldTrackInfo} sẽ được thay thế {newTrackInfo}, xác nhận ?}}",
   "home": "Trang chính",
@@ -969,18 +1013,22 @@
   "hours": "Giờ",
   "iReadAndAgree": "Tôi đã đọc và đồng ý",
   "ifNotPlaying": "Nếu không phát",
+  "ignore": "Bỏ qua",
   "ignoreBatteryOptimizationsSubtitle": "Tải xuống có thể sẽ bị vấn đề nếu ứng dụng bị hạn chế về Pin",
   "ignoreCommonPrefixesWhileSorting": "Bỏ qua tiền tố thông dụng khi sắp xếp",
+  "ignorePrefixes": "Bỏ qua tiền tố",
   "ignores": "Bỏ qua",
   "imageSource": "Nguồn",
   "immersiveMode": "Chế độ Immersive",
   "immersiveModeSubtitle": "Ẩn thanh Trạng thái và Điều hướng trong khi Trình phát thu nhỏ được mở rộng",
   "import": "Nhập vào",
   "importAll": "Nhập tất cả",
+  "importData": "Nhập dữ liệu",
   "importLastFmHistoryGuide": "1. Đi tới {lastfmCsvLink}\n\n2. Nhập tên tài khoản, tìm nạp và tải xuống tệp csv.\n\n3. Chọn tệp tin từ màn hình tiếp theo.",
   "importListenBrainzHistoryGuide": "1. Đi đến {link}\n\n2. yêu cầu lấy dữ liệu rồi tải xuống\n\n3. Chọn tệp tin nén (zip) hoặc tệp tin định dạng .json ở màn hình kế tiếp.",
   "importPlaylist": "Nhập danh sách phát",
-  "importSpotifyHistoryGuide": "1. Truy cập {link}\n\n2. Chọn \"Lịch sử phát trực tuyến mở rộng\"\n\n3. Yêu cầu dữ liệu & Tải xuống\n\n4. Chọn tệp zip hoặc json từ màn hình tiếp theo.",
+  "importSourceData": "Nhập {source} dữ liệu",
+  "importSpotifyHistoryGuide": "1. Truy cập {link}\n\n2. Chọn \"Account data\" và \"Extended streaming history\"\n\n3. Chọn Request Data & Download\n\n4. Chọn tệp zip hoặc json ở màn hình tiếp theo.",
   "importTimeRange": "Nhập phạm vi thời gian",
   "importYoutubeHistoryGuide": "1. Đi tới {takeoutLink}\n\n2. Nhấn \"Nhiều định dạng\" và bên cạnh \"Lịch sử\" chọn \"JSON\".\n\n3. nhấn \"Bao gồm tất cả dữ liệu trên Youtube\", Bỏ chọn Tất cả và chỉ chọn lịch sử.\n\n4. Tạo bản xuất, Tải xuống và giải nén.\n\n5. Chọn \"watch-history.json\" từ màn hình tiếp theo.",
   "importedNChannelsSuccessfully": "{number, plural, other{Đã nhập {number} kênh thành công}}",
