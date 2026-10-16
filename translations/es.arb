@@ -1715,7 +1715,7 @@
   "resumeIfWasPausedByDeviceDisconnect": "Resumir si se pausó por desconexión de dispositivo",
   "resumeIfWasPausedByVolume": "Reanudar si se pausó por volumen",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, one{Reanudar si se pausó durante menos de {number} minuto} other{Reanudar si se pausó durante menos de {number} minutos}}",
-  "returnYoutubeDislike": "Recuperar los «No me gusta» de YouTube",
+  "returnYoutubeDislike": "Recuperar los «No me gusta» en YouTube",
   "reverb": "Reverberación",
   "reverseOrder": "Orden inverso",
   "right": "Derecha",
