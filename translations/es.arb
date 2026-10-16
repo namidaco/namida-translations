@@ -48,13 +48,6 @@
       }
     }
   },
-  "@couldNotConnectToName": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "@countAlbumArtists": {
     "placeholders": {
       "count": {
@@ -894,7 +887,6 @@
   "copiedToClipboard": "Copiado al portapapeles",
   "copy": "Copiar",
   "corruptedFile": "No se pudo analizar el archivo, puede que esté dañado",
-  "couldNotConnectToName": "No se pudo conectar con {name}",
   "couldntOpen": "No se pudo abrir :(",
   "couldntOpenYtLink": "Sin enlace de YouTube disponible para esta pista",
   "couldntPlayFile": "No se pudo reproducir el archivo",
@@ -983,7 +975,6 @@
   "discard": "Descartar",
   "discardChanges": "¿Descartar los cambios?",
   "disconnect": "Desconectar",
-  "discordRichPresence": "Discord Rich Presence",
   "discover": "Descubrir",
   "discoveries": "Descubrimientos",
   "discoveryFailedTryReenablingNetworkAdapter": "Error en la detección. Prueba a reactivar el adaptador de red o a reiniciar el dispositivo",
@@ -1090,7 +1081,6 @@
   "exit": "Salir",
   "exitAppSubtitle": "Toca de nuevo para salir",
   "expandedMiniplayer": "Minirreproductor expandido",
-  "explore": "Explorar",
   "export": "Exportar",
   "exportAsM3u": "Exportar como M3U",
   "extension": "Extensión",
@@ -1239,7 +1229,6 @@
   "inserted": "Insertado",
   "instantlyApplies": "Se aplica al instante",
   "instrumental": "Instrumental",
-  "integrations": "Integraciones",
   "interactionReminder": "Recordatorio de interacción",
   "intro": "Introducción",
   "invertSelection": "Invertir selección",
@@ -1387,7 +1376,6 @@
   "movies": "Películas",
   "multipleTracksTagsEditNote": "Estás a punto de editar estas pistas,\nlos campos sin cambios se mantendrán intactos.",
   "multipleValues": "Varios valores",
-  "music": "Música",
   "musicOfftopic": "Música: temas varios",
   "musicalKey": "Tonalidad",
   "name": "Nombre",
@@ -1395,7 +1383,6 @@
   "never": "Nunca",
   "newDirectory": "Nueva carpeta",
   "newLabel": "Nuevo",
-  "newReleases": "Novedades",
   "newTracksAdd": "Añadir pistas",
   "newTracksMoods": "Estado de ánimo",
   "newTracksMoodsSubtitle": "Genera pistas basadas en los estados de ánimo disponibles",
