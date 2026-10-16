@@ -1,0 +1,1173 @@
+{
+ "root": "../../namida-assets/screenshots/docs",
+ "theme": "dark",
+ "stats": {
+  "keys_total": 1332,
+  "keys_covered": 471,
+  "keys_only_on_oversized": 90,
+  "screens_considered": 199,
+  "screens_uploaded": 150,
+  "screens_without_keys": [
+   "albums",
+   "artist_page",
+   "artists",
+   "artists_composers",
+   "bookmarks",
+   "current_queue",
+   "effect_overlay_fireflies",
+   "favourites",
+   "folders",
+   "genres",
+   "history",
+   "home_mix_dialog",
+   "language_page",
+   "languages",
+   "lyrics_fullscreen",
+   "missing_tracks",
+   "mood_page",
+   "moods",
+   "most_played",
+   "player",
+   "player_background_artwork",
+   "player_lyrics",
+   "player_playing",
+   "player_queue",
+   "playlist_page",
+   "portrait_lyrics",
+   "queue_page",
+   "rating_page",
+   "ratings",
+   "readme_player_dark",
+   "search_albums_all",
+   "search_artists_all",
+   "selection_expanded",
+   "settings_advanced_flags",
+   "settings_theme_color_picker",
+   "tag_page",
+   "tags",
+   "video_fullscreen",
+   "visualizer_bars",
+   "visualizer_beat_rings",
+   "visualizer_particles",
+   "visualizer_waves",
+   "wide_artist",
+   "wide_lyrics_editor",
+   "wide_player",
+   "wide_playlists",
+   "wide_stats",
+   "wide_tracks",
+   "yt_home_feed",
+   "yt_user_channels"
+  ],
+  "windows_fallback_screens": [
+   "windows/dark/about_report_issue.webp",
+   "windows/dark/add_tracks.webp",
+   "windows/dark/audio_path.webp",
+   "windows/dark/drawer.webp",
+   "windows/dark/home_configure.webp",
+   "windows/dark/home_scrolled.webp",
+   "windows/dark/search_results_menu.webp",
+   "windows/dark/settings.webp",
+   "windows/dark/settings_advanced.webp",
+   "windows/dark/settings_advanced_performance.webp",
+   "windows/dark/settings_backup_restore.webp",
+   "windows/dark/settings_extras_default_tab.webp",
+   "windows/dark/settings_playback_crossfade.webp",
+   "windows/dark/settings_youtube_sponsorblock.webp",
+   "windows/dark/sound_control.webp",
+   "windows/dark/sound_control_item.webp",
+   "windows/dark/sound_control_templates.webp",
+   "windows/dark/sound_equalizer.webp",
+   "windows/dark/tag_editor_more_fields.webp",
+   "windows/dark/tag_editor_multi.webp"
+  ],
+  "associations": 768,
+  "methods": {
+   "ocr": 363,
+   "ocr+code": 341,
+   "tile": 64
+  }
+ },
+ "skipped": {
+  "android/dark/settings_customization.webp": "720x5867, over the 2000px weblate limit",
+  "android/dark/settings_extras.webp": "720x2550, over the 2000px weblate limit",
+  "android/dark/settings_indexer.webp": "720x3012, over the 2000px weblate limit",
+  "android/dark/settings_playback.webp": "720x3541, over the 2000px weblate limit",
+  "android/dark/settings_youtube.webp": "720x2737, over the 2000px weblate limit",
+  "windows/dark/settings_customization.webp": "720x5371, over the 2000px weblate limit",
+  "windows/dark/settings_extras.webp": "720x2225, over the 2000px weblate limit",
+  "windows/dark/settings_indexer.webp": "720x2935, over the 2000px weblate limit",
+  "windows/dark/settings_playback.webp": "720x2965, over the 2000px weblate limit",
+  "windows/dark/settings_youtube.webp": "720x2756, over the 2000px weblate limit"
+ },
+ "screens": {
+  "android/dark/about.webp": {
+   "developer": "ocr+code",
+   "socials": "ocr+code",
+   "stats": "ocr+code",
+   "statsSubtitle": "ocr"
+  },
+  "android/dark/about_report_issue.webp": {
+   "bugReport": "ocr",
+   "featureRequest": "ocr",
+   "question": "ocr+code"
+  },
+  "android/dark/add_to_playlist.webp": {
+   "addToPlaylist": "ocr",
+   "addTracksAtTheBeginning": "ocr",
+   "countPlaylists": "ocr+code",
+   "create": "ocr+code"
+  },
+  "android/dark/add_tracks.webp": {
+   "all": "ocr+code",
+   "generateFromDates": "ocr",
+   "newTracksAdd": "ocr",
+   "newTracksMoods": "ocr+code",
+   "newTracksRandom": "ocr+code",
+   "newTracksRatings": "ocr+code",
+   "newTracksRatingsSubtitle": "ocr",
+   "newTracksRecommended": "ocr+code",
+   "newTracksRecommendedSubtitle": "ocr",
+   "newTracksSimilar": "ocr"
+  },
+  "android/dark/advanced_play.webp": {
+   "filterBy": "ocr",
+   "none": "ocr+code",
+   "numberOfTracks": "ocr",
+   "play": "ocr+code",
+   "shuffle": "ocr+code",
+   "sortBy": "ocr",
+   "unlimited": "ocr+code"
+  },
+  "android/dark/album_dialog.webp": {
+   "addMoreFromToQueue": "ocr",
+   "goToFolder": "ocr"
+  },
+  "android/dark/album_page.webp": {
+   "discNumber": "ocr"
+  },
+  "android/dark/albums_sort.webp": {
+   "album": "ocr+code",
+   "albumArtist": "ocr",
+   "duration": "ocr+code",
+   "ignorePrefixes": "ocr",
+   "lastPlayed": "ocr",
+   "numberOfTracks": "ocr",
+   "reverseOrder": "ocr",
+   "year": "ocr+code"
+  },
+  "android/dark/albums_sort_menu.webp": {
+   "artist": "ocr+code",
+   "countTracks": "ocr+code",
+   "dateAdded": "ocr",
+   "duration": "ocr+code",
+   "firstListen": "ocr",
+   "lastPlayed": "ocr",
+   "numberOfTracks": "ocr",
+   "totalListens": "ocr"
+  },
+  "android/dark/albums_type_menu.webp": {
+   "eps": "ocr+code",
+   "singles": "ocr+code"
+  },
+  "android/dark/artist_dialog.webp": {
+   "addMoreFromToQueue": "ocr",
+   "addToPlaylist": "ocr",
+   "playAll": "ocr"
+  },
+  "android/dark/artists_map.webp": {
+   "artistsMap": "ocr",
+   "countArtists": "ocr+code"
+  },
+  "android/dark/artists_type_menu.webp": {
+   "albumArtist": "ocr",
+   "artist": "ocr+code",
+   "composer": "ocr+code"
+  },
+  "android/dark/ask_before_replacing.webp": {
+   "defaultLabel": "ocr+code",
+   "more": "ocr+code",
+   "playLast": "ocr",
+   "playNext": "ocr",
+   "queue": "ocr+code"
+  },
+  "android/dark/audio_path.webp": {
+   "androidMixer": "ocr",
+   "signalPath": "ocr",
+   "source": "ocr+code",
+   "volume": "ocr+code"
+  },
+  "android/dark/data_saver.webp": {
+   "dataSaver": "ocr",
+   "dataSaverMode": "ocr",
+   "disable": "ocr+code",
+   "done": "ocr+code",
+   "medium": "ocr+code",
+   "mobile": "ocr+code"
+  },
+  "android/dark/discover.webp": {
+   "countArtists": "ocr+code",
+   "discover": "ocr+code"
+  },
+  "android/dark/drawer.webp": {
+   "albums": "ocr+code",
+   "artists": "ocr+code",
+   "countDays": "ocr+code",
+   "favourites": "ocr+code",
+   "folders": "ocr+code",
+   "genres": "ocr+code",
+   "history": "ocr+code",
+   "home": "ocr+code",
+   "mixes": "ocr+code",
+   "newTracksRecommended": "ocr+code",
+   "playlists": "ocr+code",
+   "queue": "ocr+code",
+   "queues": "ocr+code",
+   "recentListens": "ocr",
+   "sleepTimer": "ocr",
+   "smartPlaylists": "ocr",
+   "topRecents": "ocr",
+   "youtube": "ocr+code"
+  },
+  "android/dark/file_browser.webp": {
+   "addFolder": "ocr",
+   "countFiles": "ocr+code",
+   "countFolders": "ocr+code"
+  },
+  "android/dark/folders_sort.webp": {
+   "albumArtist": "ocr",
+   "artists": "ocr+code",
+   "defaultLabel": "ocr+code",
+   "fileName": "ocr",
+   "ignorePrefixes": "ocr",
+   "reverseOrder": "ocr",
+   "title": "ocr+code",
+   "year": "ocr+code"
+  },
+  "android/dark/genre_page.webp": {
+   "genres": "ocr+code",
+   "year": "ocr+code"
+  },
+  "android/dark/genres_type_menu.webp": {
+   "genre": "ocr+code",
+   "genres": "ocr+code",
+   "style": "ocr+code"
+  },
+  "android/dark/history_jump_to_day.webp": {
+   "jump": "ocr+code",
+   "jumpToDay": "ocr"
+  },
+  "android/dark/home.webp": {
+   "countDays": "ocr+code",
+   "mixes": "ocr+code",
+   "newTracksRecommended": "ocr+code",
+   "recentListens": "ocr",
+   "topRecents": "ocr"
+  },
+  "android/dark/home_configure.webp": {
+   "lostMemories": "ocr",
+   "mixes": "ocr+code",
+   "recentAlbums": "ocr",
+   "recentArtists": "ocr",
+   "recentQueues": "ocr",
+   "recentlyAdded": "ocr",
+   "topRecentAlbums": "ocr",
+   "topRecents": "ocr"
+  },
+  "android/dark/home_scrolled.webp": {
+   "folder": "ocr+code",
+   "lostMemories": "ocr",
+   "playlist": "ocr+code",
+   "recentQueues": "ocr",
+   "recentlyAdded": "ocr"
+  },
+  "android/dark/lyrics_editor.webp": {
+   "sync": "ocr+code"
+  },
+  "android/dark/lyrics_editor_line_menu.webp": {
+   "edit": "ocr+code",
+   "play": "ocr+code"
+  },
+  "android/dark/lyrics_picker.webp": {
+   "add": "ocr+code",
+   "addLrcFile": "ocr",
+   "lyrics": "ocr+code"
+  },
+  "android/dark/membership.webp": {
+   "coupon": "ocr+code",
+   "email": "ocr+code",
+   "features": "ocr+code",
+   "learnMore": "ocr",
+   "membershipCode": "ocr+code",
+   "membershipCodeSentToEmail": "ocr"
+  },
+  "android/dark/most_played_range_menu.webp": {
+   "allTime": "ocr",
+   "countMonths": "ocr+code",
+   "day": "ocr+code",
+   "month": "ocr+code",
+   "mostPlayed": "ocr",
+   "week": "ocr+code"
+  },
+  "android/dark/party_room.webp": {
+   "partyChat": "ocr+code",
+   "partyCode": "ocr",
+   "partyLeave": "ocr+code",
+   "partyListenOnThisDevice": "ocr",
+   "partyListenOnThisDeviceSubtitle": "ocr",
+   "partyListeningParty": "ocr",
+   "partyTabParty": "ocr+code",
+   "queue": "ocr+code",
+   "share": "ocr+code"
+  },
+  "android/dark/party_room_chat.webp": {
+   "partyChat": "ocr+code",
+   "partyListeningParty": "ocr",
+   "partyTabParty": "ocr+code"
+  },
+  "android/dark/party_room_queue.webp": {
+   "partyAddedBy": "ocr",
+   "partyChat": "ocr+code",
+   "partyTabParty": "ocr+code"
+  },
+  "android/dark/player_menu.webp": {
+   "advanced": "ocr+code",
+   "editTags": "ocr",
+   "goToAlbum": "ocr",
+   "goToArtist": "ocr",
+   "goToFolder": "ocr",
+   "openInYoutubeView": "ocr",
+   "playLast": "ocr",
+   "playNext": "ocr",
+   "repeatForNTimes": "ocr"
+  },
+  "android/dark/player_queue_clear_menu.webp": {
+   "all": "ocr+code",
+   "duplicatedTracks": "ocr",
+   "next": "ocr+code",
+   "previous": "ocr+code"
+  },
+  "android/dark/player_queue_shuffle_menu.webp": {
+   "shuffle": "ocr+code",
+   "shuffleAll": "ocr",
+   "shuffleNext": "ocr"
+  },
+  "android/dark/player_video_menu.webp": {
+   "checkForMore": "ocr",
+   "dataSaver": "ocr",
+   "playbackSetting": "ocr+code",
+   "signalPath": "ocr",
+   "video": "ocr+code"
+  },
+  "android/dark/playlist_menu.webp": {
+   "playAll": "ocr"
+  },
+  "android/dark/playlist_tags.webp": {
+   "manageTags": "ocr"
+  },
+  "android/dark/playlists.webp": {
+   "add": "ocr+code",
+   "countPlaylists": "ocr+code",
+   "countTracks": "ocr+code",
+   "dateModified": "ocr",
+   "favourites": "ocr+code",
+   "history": "ocr+code",
+   "mostPlayed": "ocr",
+   "playlists": "ocr+code",
+   "queues": "ocr+code"
+  },
+  "android/dark/playlists_add_menu.webp": {
+   "choose": "ocr+code",
+   "create": "ocr+code",
+   "createNewPlaylist": "ocr",
+   "createNewSmartPlaylist": "ocr",
+   "generateRandomPlaylist": "ocr",
+   "import": "ocr+code",
+   "random": "ocr+code"
+  },
+  "android/dark/playlists_grouped.webp": {
+   "add": "ocr+code",
+   "countPlaylists": "ocr+code",
+   "countTracks": "ocr+code",
+   "history": "ocr+code",
+   "mostPlayed": "ocr"
+  },
+  "android/dark/queue_dialog.webp": {
+   "addToPlaylist": "ocr",
+   "advanced": "ocr+code",
+   "editTags": "ocr",
+   "goToAlbum": "ocr",
+   "goToArtist": "ocr",
+   "openInYoutubeView": "ocr",
+   "playAll": "ocr",
+   "removeQueue": "ocr",
+   "shuffle": "ocr+code",
+   "stats": "ocr+code"
+  },
+  "android/dark/queue_insertion.webp": {
+   "addMoreFromThisAlbum": "ocr",
+   "cancel": "ocr+code",
+   "filterBy": "ocr",
+   "sortBy": "ocr"
+  },
+  "android/dark/queues.webp": {
+   "album": "ocr+code",
+   "favourites": "ocr+code",
+   "genre": "ocr+code",
+   "home": "ocr+code",
+   "playlist": "ocr+code",
+   "queues": "ocr+code",
+   "recentListens": "ocr",
+   "tracks": "ocr+code"
+  },
+  "android/dark/queues_clear.webp": {
+   "album": "ocr+code",
+   "cancel": "ocr+code",
+   "clear": "ocr+code",
+   "delete": "ocr+code",
+   "genre": "ocr+code",
+   "nonFavourites": "ocr",
+   "playlist": "ocr+code"
+  },
+  "android/dark/readme_equalizer.webp": {
+   "equalizer": "ocr+code",
+   "export": "ocr+code",
+   "import": "ocr+code",
+   "limiter": "ocr+code",
+   "monoAudio": "ocr",
+   "saveAsPreset": "ocr",
+   "soundEffects": "ocr",
+   "templates": "ocr+code"
+  },
+  "android/dark/readme_search_cleanup.webp": {
+   "trackPlayModeSearchResults": "ocr"
+  },
+  "android/dark/recently_added.webp": {
+   "home": "ocr+code",
+   "recentlyAdded": "ocr"
+  },
+  "android/dark/search.webp": {
+   "albums": "ocr+code",
+   "artists": "ocr+code",
+   "auto": "ocr+code",
+   "local": "ocr+code",
+   "playlists": "ocr+code",
+   "trackPlayModeSearchResults": "ocr",
+   "tracks": "ocr+code",
+   "youtube": "ocr+code"
+  },
+  "android/dark/search_results_menu.webp": {
+   "albums": "ocr+code",
+   "auto": "ocr+code",
+   "local": "ocr+code",
+   "trackPlayModeSearchResults": "ocr",
+   "trackPlayModeSelectedOnly": "ocr",
+   "trackPlayModeTrackAlbum": "ocr",
+   "trackPlayModeTrackArtist": "ocr",
+   "trackPlayModeTrackGenre": "ocr",
+   "trackPlayModeTrackStyle": "ocr"
+  },
+  "android/dark/selection.webp": {
+   "dateModified": "ocr"
+  },
+  "android/dark/settings.webp": {
+   "addFolder": "ocr",
+   "advancedSettings": "ocr+code",
+   "advancedSettingsSubtitle": "ocr",
+   "backupAndRestore": "ocr",
+   "backupAndRestoreSubtitle": "ocr",
+   "customizations": "ocr+code",
+   "customizationsSubtitle": "ocr",
+   "extras": "ocr+code",
+   "extrasSubtitle": "ocr",
+   "indexer": "ocr+code",
+   "indexerSubtitle": "ocr",
+   "partyListeningParty": "ocr",
+   "playbackSetting": "ocr+code",
+   "playbackSettingSubtitle": "ocr",
+   "search": "ocr+code",
+   "settings": "ocr+code",
+   "themeSettings": "ocr+code",
+   "themeSettingsSubtitle": "ocr",
+   "youtube": "ocr+code",
+   "youtubeSettingsSubtitle": "ocr"
+  },
+  "android/dark/settings_add_folder.webp": {
+   "choose": "ocr+code",
+   "local": "ocr+code",
+   "pickFromStorage": "ocr"
+  },
+  "android/dark/settings_advanced.webp": {
+   "advancedSettings": "ocr+code",
+   "advancedSettingsSubtitle": "ocr",
+   "clearAudioCache": "tile",
+   "clearImageCache": "tile",
+   "clearServerCache": "tile",
+   "clearVideoCache": "tile",
+   "compressImages": "tile",
+   "fixYtdlpBigThumbnailSize": "tile",
+   "performanceMode": "tile",
+   "removeSourceFromHistory": "tile",
+   "updateDirectoryPath": "tile",
+   "used": "ocr+code"
+  },
+  "android/dark/settings_advanced_performance.webp": {
+   "autoColoring": "tile",
+   "backgroundEffect": "ocr",
+   "configure": "ocr+code",
+   "enableBlurEffect": "ocr",
+   "enableGlowEffect": "ocr",
+   "enableParallaxEffect": "ocr",
+   "overlayEffect": "ocr",
+   "overlayEffectSubtitle": "ocr",
+   "particles": "ocr+code",
+   "performanceMode": "ocr",
+   "performanceNote": "ocr",
+   "playerBackground": "ocr",
+   "seasonalEffectsSubtitle": "ocr",
+   "visualizer": "ocr+code"
+  },
+  "android/dark/settings_advanced_update_path.webp": {
+   "newDirectory": "ocr",
+   "oldDirectory": "ocr",
+   "update": "ocr+code",
+   "updateDirectoryPath": "ocr",
+   "updateMissingTracksOnly": "ocr"
+  },
+  "android/dark/settings_backup.webp": {
+   "autoBackupInterval": "tile",
+   "backupAndRestore": "ocr",
+   "backupAndRestoreSubtitle": "ocr",
+   "createBackup": "tile",
+   "defaultBackupLocation": "tile",
+   "importData": "tile",
+   "restoreBackup": "tile",
+   "sync": "tile",
+   "syncAppDataBetweenYourDevices": "ocr"
+  },
+  "android/dark/settings_backup_create.webp": {
+   "audioCache": "ocr",
+   "colorPalettes": "ocr",
+   "createBackup": "ocr",
+   "database": "ocr+code",
+   "settings": "ocr+code",
+   "videoCache": "ocr"
+  },
+  "android/dark/settings_backup_import.webp": {
+   "confirm": "ocr+code",
+   "folder": "ocr+code"
+  },
+  "android/dark/settings_backup_restore.webp": {
+   "automaticBackup": "ocr+code",
+   "manualBackup": "ocr+code",
+   "manualBackupSubtitle": "ocr",
+   "restoreBackup": "ocr"
+  },
+  "android/dark/settings_changed.webp": {
+   "backgroundEffect": "ocr",
+   "borderRadiusMultiplier": "ocr",
+   "customizations": "ocr+code",
+   "fontScale": "ocr",
+   "forceSquaredAlbumThumbnail": "ocr",
+   "killPlayerAfterDismissingApp": "ocr",
+   "pausePlayback": "ocr",
+   "seasonalEffectsSubtitle": "ocr",
+   "themeSettings": "ocr+code",
+   "videoQuality": "ocr"
+  },
+  "android/dark/settings_customization_background_effect.webp": {
+   "aurora": "ocr+code",
+   "christmas": "ocr+code",
+   "deepOcean": "ocr",
+   "enableGlowEffect": "ocr",
+   "enableParallaxEffect": "ocr",
+   "fireflies": "ocr+code",
+   "fireworks": "ocr+code",
+   "galaxy": "ocr+code",
+   "halloween": "ocr+code",
+   "rain": "ocr+code",
+   "ramadan": "ocr+code",
+   "sakura": "ocr+code",
+   "seasonalEffectsSubtitle": "ocr",
+   "starfield": "ocr+code"
+  },
+  "android/dark/settings_customization_date_format.webp": {
+   "dateTimeFormat": "ocr"
+  },
+  "android/dark/settings_customization_font_scale.webp": {
+   "fontScale": "ocr",
+   "save": "ocr+code",
+   "value": "ocr+code"
+  },
+  "android/dark/settings_customization_miniplayer.webp": {
+   "animatingThumbnailIntensity": "tile",
+   "animatingThumbnailInversed": "tile",
+   "animatingThumbnailInversedSubtitle": "ocr",
+   "artworkGestures": "ocr",
+   "customizations": "ocr+code",
+   "enablePartyMode": "tile",
+   "enablePartyModeSubtitle": "ocr",
+   "expandedMiniplayer": "tile",
+   "lyrics": "tile",
+   "minimizedMiniplayer": "tile",
+   "miniplayerCustomization": "tile",
+   "particles": "ocr+code",
+   "playerBackground": "tile",
+   "scaleMultiplier": "tile",
+   "visualizer": "tile"
+  },
+  "android/dark/settings_customization_player_background.webp": {
+   "artwork": "ocr+code",
+   "colorWhenExpanded": "ocr",
+   "none": "ocr+code",
+   "playerBackground": "ocr"
+  },
+  "android/dark/settings_customization_visualizer.webp": {
+   "bars": "ocr+code",
+   "beatRings": "ocr",
+   "colorPalette": "ocr",
+   "disableAll": "ocr",
+   "edgeLights": "ocr",
+   "enablePartyMode": "ocr",
+   "enablePartyModeSubtitle": "ocr",
+   "glow": "ocr+code",
+   "longPressAction": "ocr",
+   "miniplayerCustomization": "ocr",
+   "outline": "ocr+code",
+   "particles": "ocr+code",
+   "play": "ocr+code",
+   "reactiveParticles": "ocr",
+   "tapAction": "ocr",
+   "visualizer": "ocr+code",
+   "waves": "ocr+code"
+  },
+  "android/dark/settings_extras_default_tab.webp": {
+   "defaultLibraryTab": "ocr",
+   "enablePictureInPicture": "ocr",
+   "extras": "ocr+code",
+   "floatingActionButton": "ocr",
+   "folders": "ocr+code",
+   "immersiveMode": "ocr",
+   "immersiveModeSubtitle": "ocr",
+   "swipeToOpenDrawer": "ocr"
+  },
+  "android/dark/settings_extras_filter_search.webp": {
+   "comment": "ocr+code",
+   "description": "ocr+code",
+   "fileName": "ocr",
+   "filterTracksBy": "ocr",
+   "folder": "ocr+code",
+   "language": "ocr+code",
+   "performanceNote": "ocr",
+   "style": "ocr+code"
+  },
+  "android/dark/settings_extras_flags.webp": {
+   "configure": "ocr+code",
+   "done": "ocr+code",
+   "performanceNote": "ocr"
+  },
+  "android/dark/settings_extras_library_tabs.webp": {
+   "folders": "ocr+code"
+  },
+  "android/dark/settings_extras_lyrics_save_location.webp": {
+   "cache": "ocr+code",
+   "lyricsFolders": "ocr",
+   "lyricsSaveLocation": "ocr",
+   "trackFolder": "ocr"
+  },
+  "android/dark/settings_extras_romanization.webp": {
+   "dictionary": "ocr+code",
+   "download": "ocr+code"
+  },
+  "android/dark/settings_indexer_album_identifiers.webp": {
+   "albumIdentifiers": "ocr",
+   "name": "ocr+code",
+   "save": "ocr+code"
+  },
+  "android/dark/settings_indexer_separators.webp": {
+   "albumIdentifiers": "tile",
+   "enableArtworkCache": "ocr",
+   "extractFeatArtist": "tile",
+   "groupArtworksByAlbum": "ocr",
+   "includeVideos": "tile",
+   "indexRefreshRequired": "ocr",
+   "indexer": "ocr+code",
+   "instantlyApplies": "ocr",
+   "minFileDuration": "tile",
+   "minFileSize": "tile",
+   "missingTracks": "tile",
+   "preventDuplicatedTracks": "tile",
+   "respectNoMedia": "tile",
+   "separators": "tile",
+   "videos": "ocr+code"
+  },
+  "android/dark/settings_indexer_separators_dialog.webp": {
+   "separators": "ocr+code"
+  },
+  "android/dark/settings_playback_crossfade.webp": {
+   "enableCrossfadeEffect": "tile",
+   "enableFadeEffectOnPlayPause": "tile",
+   "infinityQueueOnNextPrev": "tile",
+   "jumpToFirstTrackAfterQueueFinish": "tile",
+   "longPressAction": "tile",
+   "onDeviceConnect": "tile",
+   "onInterruption": "tile",
+   "onVolumeZero": "tile",
+   "pauseFadeDuration": "tile",
+   "playAfterNextPrev": "tile",
+   "playFadeDuration": "tile",
+   "skipSilence": "tile"
+  },
+  "android/dark/settings_playback_local_video_matching.webp": {
+   "localVideoMatching": "ocr",
+   "matchingType": "ocr",
+   "sameDirectoryOnly": "ocr"
+  },
+  "android/dark/settings_playback_video_quality.webp": {
+   "done": "ocr+code",
+   "videoQuality": "ocr",
+   "videoQualitySubtitle": "ocr"
+  },
+  "android/dark/settings_playback_video_source.webp": {
+   "auto": "ocr+code",
+   "videoPlaybackSource": "ocr",
+   "videoPlaybackSourceAutoSubtitle": "ocr",
+   "videoPlaybackSourceLocal": "ocr",
+   "videoPlaybackSourceLocalSubtitle": "ocr",
+   "videoPlaybackSourceYoutube": "ocr",
+   "videoPlaybackSourceYoutubeSubtitle": "ocr"
+  },
+  "android/dark/settings_search.webp": {
+   "crossfadeDuration": "ocr",
+   "crossfadeTriggerSeconds": "ocr",
+   "enableCrossfadeEffect": "ocr",
+   "playbackSetting": "ocr+code"
+  },
+  "android/dark/settings_theme.webp": {
+   "autoColoring": "tile",
+   "defaultColor": "tile",
+   "defaultColorSubtitle": "ocr",
+   "forceMiniplayerFollowTrackColors": "tile",
+   "language": "tile",
+   "pickColorsFromDeviceWallpaper": "tile",
+   "search": "ocr+code",
+   "themeMode": "tile",
+   "themeSettings": "ocr+code",
+   "themeSettingsSubtitle": "ocr",
+   "usePitchBlack": "tile",
+   "usePitchBlackSubtitle": "ocr"
+  },
+  "android/dark/settings_theme_language.webp": {
+   "confirm": "ocr+code",
+   "language": "ocr+code"
+  },
+  "android/dark/settings_youtube_flags.webp": {
+   "configure": "ocr+code"
+  },
+  "android/dark/settings_youtube_ryd.webp": {
+   "about": "ocr+code",
+   "dataIsProvidedByName": "ocr",
+   "enableReturnYoutubeDislike": "ocr",
+   "returnYoutubeDislike": "ocr"
+  },
+  "android/dark/settings_youtube_sponsorblock.webp": {
+   "enableSponsorblock": "ocr",
+   "hideSkipButtonAfter": "ocr",
+   "highlight": "ocr+code",
+   "interactionReminder": "ocr",
+   "intro": "ocr+code",
+   "minimumSegmentDuration": "ocr",
+   "outro": "ocr+code",
+   "preview": "ocr+code",
+   "removeFromDownloads": "ocr",
+   "removeSponsorSegmentsFromDownloads": "ocr",
+   "removeSponsorSegmentsFromDownloadsSubtitle": "ocr",
+   "selfPromotion": "ocr",
+   "showSkipButton": "ocr",
+   "skipSponsorSegmentsInVideos": "ocr",
+   "sponsor": "ocr+code"
+  },
+  "android/dark/sleep_timer.webp": {
+   "minutes": "ocr+code",
+   "or": "ocr+code",
+   "sleepAfter": "ocr",
+   "start": "ocr+code"
+  },
+  "android/dark/smart_playlist_dialog.webp": {
+   "smartPlaylists": "ocr"
+  },
+  "android/dark/smart_playlist_editor.webp": {
+   "addGroup": "ocr",
+   "addRule": "ocr",
+   "create": "ocr+code",
+   "limit": "ocr+code",
+   "name": "ocr+code",
+   "none": "ocr+code",
+   "smartPlaylist": "ocr"
+  },
+  "android/dark/smart_playlist_editor_filled.webp": {
+   "addGroup": "ocr",
+   "addRule": "ocr",
+   "limit": "ocr+code",
+   "name": "ocr+code",
+   "smartPlaylist": "ocr"
+  },
+  "android/dark/smart_playlist_limit.webp": {
+   "addGroup": "ocr",
+   "addRule": "ocr",
+   "hours": "ocr+code",
+   "limit": "ocr+code",
+   "minutes": "ocr+code",
+   "selectedBy": "ocr",
+   "smartPlaylist": "ocr"
+  },
+  "android/dark/smart_playlist_rule.webp": {
+   "allListens": "ocr",
+   "anyListen": "ocr",
+   "date": "ocr+code",
+   "duration": "ocr+code",
+   "favouritedDate": "ocr",
+   "firstListen": "ocr",
+   "lastListen": "ocr",
+   "lastPlayedPosition": "ocr",
+   "number": "ocr+code",
+   "playedPercentage": "ocr"
+  },
+  "android/dark/smart_playlists.webp": {
+   "smartPlaylists": "ocr"
+  },
+  "android/dark/sound_control.webp": {
+   "bitPerfect": "ocr",
+   "bitPerfectSubtitle": "ocr",
+   "forceUseGlobalConfig": "ocr",
+   "global": "ocr+code",
+   "item": "ocr+code",
+   "loudnessEnhancer": "ocr",
+   "normalizeAudio": "ocr",
+   "outputDevice": "ocr",
+   "percentage": "ocr+code",
+   "pitch": "ocr+code",
+   "skipSilence": "ocr",
+   "systemDefault": "ocr",
+   "volume": "ocr+code"
+  },
+  "android/dark/sound_control_item.webp": {
+   "bitPerfect": "ocr",
+   "bitPerfectSubtitle": "ocr",
+   "forceUseGlobalConfig": "ocr",
+   "global": "ocr+code",
+   "item": "ocr+code",
+   "normalizeAudio": "ocr",
+   "outputDevice": "ocr",
+   "percentage": "ocr+code",
+   "skipSilence": "ocr",
+   "systemDefault": "ocr"
+  },
+  "android/dark/sound_control_output.webp": {
+   "outputDevice": "ocr",
+   "systemDefault": "ocr"
+  },
+  "android/dark/sound_control_templates.webp": {
+   "equalizer": "ocr+code",
+   "export": "ocr+code",
+   "limiter": "ocr+code",
+   "loudnessEnhancer": "ocr",
+   "pitch": "ocr+code",
+   "restoreDefaults": "ocr",
+   "volume": "ocr+code"
+  },
+  "android/dark/sound_equalizer.webp": {
+   "equalizer": "ocr+code",
+   "export": "ocr+code",
+   "import": "ocr+code",
+   "limiter": "ocr+code",
+   "loudnessEnhancer": "ocr",
+   "monoAudio": "ocr",
+   "pitch": "ocr+code",
+   "saveAsPreset": "ocr",
+   "soundEffects": "ocr",
+   "templates": "ocr+code"
+  },
+  "android/dark/stats.webp": {
+   "allTime": "ocr",
+   "charts": "ocr+code",
+   "countGenres": "ocr+code",
+   "countMonths": "ocr+code",
+   "month": "ocr+code",
+   "months": "ocr+code",
+   "stats": "ocr+code",
+   "statsSubtitle": "ocr",
+   "totalListens": "ocr",
+   "week": "ocr+code",
+   "yourYear": "ocr+code"
+  },
+  "android/dark/stats_year.webp": {
+   "countGenres": "ocr+code",
+   "countMonths": "ocr+code",
+   "month": "ocr+code",
+   "statsSubtitle": "ocr",
+   "week": "ocr+code",
+   "yourYear": "ocr+code"
+  },
+  "android/dark/sync_manager.webp": {
+   "advancedSettings": "ocr+code",
+   "autoSyncInterval": "ocr",
+   "availableDevices": "ocr",
+   "connectedDevices": "ocr",
+   "dataToSendAndReceive": "ocr",
+   "database": "ocr+code",
+   "manualBackup": "ocr+code",
+   "server": "ocr+code",
+   "settings": "ocr+code",
+   "startServerToLetOtherDevicesConnectToThisDevice": "ocr",
+   "stop": "ocr+code",
+   "sync": "ocr+code",
+   "syncAppDataBetweenYourDevices": "ocr"
+  },
+  "android/dark/tag_editor.webp": {
+   "artist": "ocr+code",
+   "comment": "ocr+code",
+   "composer": "ocr+code",
+   "trackNumber": "ocr"
+  },
+  "android/dark/tag_editor_more_fields.webp": {
+   "country": "ocr+code",
+   "discNumberTotal": "ocr",
+   "lyricist": "ocr+code",
+   "more": "ocr+code",
+   "recordLabel": "ocr",
+   "releaseType": "ocr",
+   "trackNumberTotal": "ocr"
+  },
+  "android/dark/tag_editor_multi.webp": {
+   "comment": "ocr+code",
+   "description": "ocr+code",
+   "editArtwork": "ocr"
+  },
+  "android/dark/track_advanced.webp": {
+   "artwork": "ocr+code",
+   "chooseWhatToClear": "ocr",
+   "clear": "ocr+code",
+   "colorPalette": "ocr",
+   "copy": "ocr+code",
+   "delete": "ocr+code",
+   "deleteNTracksFromStorage": "ocr",
+   "move": "ocr+code",
+   "reIndex": "ocr",
+   "setAs": "ocr",
+   "share": "ocr+code"
+  },
+  "android/dark/track_clear.webp": {
+   "artwork": "ocr+code",
+   "artworks": "ocr+code",
+   "audioCache": "ocr",
+   "cancel": "ocr+code",
+   "clear": "ocr+code",
+   "delete": "ocr+code",
+   "lyrics": "ocr+code",
+   "thumbnails": "ocr+code",
+   "videoCache": "ocr"
+  },
+  "android/dark/track_color_palette.webp": {
+   "colorPalette": "ocr",
+   "colorPaletteNote1": "ocr",
+   "colorPaletteNote2": "ocr",
+   "confirm": "ocr+code",
+   "palette": "ocr+code",
+   "used": "ocr+code"
+  },
+  "android/dark/track_info.webp": {
+   "trackInfo": "ocr"
+  },
+  "android/dark/track_menu.webp": {
+   "advanced": "ocr+code",
+   "editTags": "ocr",
+   "goToAlbum": "ocr",
+   "goToArtist": "ocr",
+   "goToFolder": "ocr",
+   "openInYoutubeView": "ocr",
+   "playLast": "ocr",
+   "playNext": "ocr"
+  },
+  "android/dark/track_stats.webp": {
+   "setMoods": "ocr",
+   "setRating": "ocr",
+   "setTags": "ocr"
+  },
+  "android/dark/tracks.webp": {
+   "dateModified": "ocr",
+   "tracks": "ocr+code"
+  },
+  "android/dark/tracks_sort.webp": {
+   "dateAdded": "ocr",
+   "defaultLabel": "ocr+code",
+   "ignorePrefixes": "ocr",
+   "reverseOrder": "ocr",
+   "title": "ocr+code"
+  },
+  "android/dark/tracks_sort_menu.webp": {
+   "all": "ocr+code",
+   "bitrate": "ocr+code",
+   "composer": "ocr+code",
+   "dateAdded": "ocr",
+   "discNumber": "ocr",
+   "fileName": "ocr",
+   "path": "ocr",
+   "title": "ocr+code",
+   "trackNumber": "ocr"
+  },
+  "android/dark/your_year.webp": {
+   "countDays": "ocr+code",
+   "days": "ocr+code",
+   "totalListenTime": "ocr",
+   "totalListens": "ocr",
+   "yourYear": "ocr+code"
+  },
+  "android/dark/yt_link.webp": {
+   "link": "ocr+code",
+   "save": "ocr+code",
+   "search": "ocr+code",
+   "setYoutubeLink": "ocr"
+  },
+  "android/dark/yt_manage_accounts.webp": {
+   "addAccount": "ocr",
+   "manageYourAccounts": "ocr",
+   "membershipManage": "ocr"
+  },
+  "windows/dark/about_report_issue.webp": {
+   "reportAnIssue": "ocr"
+  },
+  "windows/dark/add_tracks.webp": {
+   "generateFromDatesSubtitle": "ocr",
+   "newTracksMoodsSubtitle": "ocr",
+   "newTracksRandomSubtitle": "ocr",
+   "newTracksSimilarSubtitle": "ocr"
+  },
+  "windows/dark/audio_path.webp": {
+   "decoder": "ocr+code",
+   "resample": "ocr+code"
+  },
+  "windows/dark/drawer.webp": {
+   "moods": "ocr+code"
+  },
+  "windows/dark/home_configure.webp": {
+   "topRecentArtists": "ocr"
+  },
+  "windows/dark/home_scrolled.webp": {
+   "lostMemoriesSubtitle": "ocr"
+  },
+  "windows/dark/party_lobby.webp": {
+   "partyCreate": "ocr",
+   "partyCreateSubtitle": "ocr",
+   "partyInviteLinkOrCode": "ocr",
+   "partyJoin": "ocr",
+   "partyListenOnThisDevice": "ocr",
+   "partyListenOnThisDeviceSubtitle": "ocr",
+   "partyRoomName": "ocr",
+   "partyRoomPassword": "ocr",
+   "password": "ocr+code"
+  },
+  "windows/dark/search_results_menu.webp": {
+   "track": "ocr+code"
+  },
+  "windows/dark/settings.webp": {
+   "partyListeningPartySubtitle": "ocr"
+  },
+  "windows/dark/settings_advanced.webp": {
+   "goodLooking": "ocr"
+  },
+  "windows/dark/settings_advanced_performance.webp": {
+   "goodLooking": "ocr"
+  },
+  "windows/dark/settings_backup_restore.webp": {
+   "automaticBackupSubtitle": "ocr"
+  },
+  "windows/dark/settings_extras_default_tab.webp": {
+   "alwaysExpandedSearchbar": "ocr",
+   "enableBottomNavBarSubtitle": "ocr",
+   "enableClipboardMonitoring": "ocr",
+   "imageSource": "ocr"
+  },
+  "windows/dark/settings_playback_crossfade.webp": {
+   "normalizeAudioSubtitle": "ocr",
+   "previousButtonReplays": "tile"
+  },
+  "windows/dark/settings_youtube_sponsorblock.webp": {
+   "sponsorblock": "ocr+code"
+  },
+  "windows/dark/shortcuts.webp": {
+   "addBookmark": "ocr",
+   "openMiniplayer": "ocr",
+   "openQueue": "ocr",
+   "refreshLibrary": "ocr",
+   "shortcuts": "ocr+code"
+  },
+  "windows/dark/sound_control.webp": {
+   "exclusiveMode": "ocr",
+   "normalizeAudioSubtitle": "ocr"
+  },
+  "windows/dark/sound_control_item.webp": {
+   "exclusiveMode": "ocr",
+   "normalizeAudioSubtitle": "ocr"
+  },
+  "windows/dark/sound_control_templates.webp": {
+   "custom": "ocr+code",
+   "graphicEqualizerBands": "ocr",
+   "speed": "ocr+code"
+  },
+  "windows/dark/sound_equalizer.webp": {
+   "speed": "ocr+code"
+  },
+  "windows/dark/tag_editor_more_fields.webp": {
+   "remixer": "ocr+code"
+  },
+  "windows/dark/tag_editor_multi.webp": {
+   "multipleValues": "ocr"
+  },
+  "windows/dark/wide_album.webp": {
+   "discNumber": "ocr"
+  },
+  "windows/dark/wide_settings.webp": {
+   "backgroundEffect": "tile",
+   "borderRadiusMultiplier": "tile",
+   "dateTimeFormat": "tile",
+   "enableBlurEffect": "tile",
+   "enableGlowEffect": "tile",
+   "enableParallaxEffect": "tile",
+   "fontScale": "tile",
+   "hourFormat12": "tile",
+   "overlayEffect": "tile"
+  },
+  "windows/dark/wide_settings_main.webp": {
+   "addFolder": "ocr"
+  },
+  "windows/dark/yt_channel_page.webp": {
+   "videos": "ocr+code"
+  },
+  "windows/dark/yt_channels.webp": {
+   "channels": "ocr+code"
+  },
+  "windows/dark/yt_downloads.webp": {
+   "downloads": "ocr+code"
+  },
+  "windows/dark/yt_hosted_playlist.webp": {
+   "sortBy": "ocr"
+  },
+  "windows/dark/yt_notifications.webp": {
+   "notifications": "ocr+code"
+  },
+  "windows/dark/yt_player.webp": {
+   "comments": "ocr+code",
+   "dislike": "ocr+code",
+   "download": "ocr+code",
+   "refresh": "ocr+code",
+   "replies": "ocr+code",
+   "share": "ocr+code",
+   "subscribed": "ocr+code",
+   "subscribers": "ocr+code"
+  },
+  "windows/dark/yt_playlists.webp": {
+   "allTime": "ocr"
+  }
+ }
+}
