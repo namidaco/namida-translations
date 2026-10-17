@@ -531,6 +531,9 @@
   "@preamp": {
     "description": "Gain applied before the equalizer bands, usually negative to leave room for boosts"
   },
+  "@qFactor": {
+    "description": "Q factor of an equalizer band: how narrow it is, higher is narrower"
+  },
   "@repeatForNTimes": {
     "placeholders": {
       "number": {
@@ -1633,6 +1636,7 @@
   "progress": "Прогрес",
   "promptToChangeTrackPath": "Зазвичай це відбувається, коли Ви видаляєте / переміщуєте / перейменовуєте файл поза Namida. Хочете оновити поточний шлях?",
   "public": "Публічний",
+  "qFactor": "Q",
   "question": "Запитання",
   "queue": "Черга",
   "queues": "Черги",
