@@ -48,6 +48,13 @@
       }
     }
   },
+  "@couldNotConnectToName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@countAlbumArtists": {
     "placeholders": {
       "count": {
@@ -887,6 +894,7 @@
   "copiedToClipboard": "Copied to Clipboard",
   "copy": "Copy",
   "corruptedFile": "Couldn't parse file, it might be corrupted",
+  "couldNotConnectToName": "Couldn't connect to {name}",
   "couldntOpen": "Couldn't open :(",
   "couldntOpenYtLink": "No YouTube Link Available for this track",
   "couldntPlayFile": "Couldn't play file",
@@ -975,6 +983,7 @@
   "discard": "Discard",
   "discardChanges": "Discard changes?",
   "disconnect": "Disconnect",
+  "discordRichPresence": "Discord Rich Presence",
   "discover": "Discover",
   "discoveries": "Discoveries",
   "discoveryFailedTryReenablingNetworkAdapter": "Discovery failed, try re-enabling your network adapter or restarting the device",
@@ -1081,6 +1090,7 @@
   "exit": "Exit",
   "exitAppSubtitle": "Tap again to exit",
   "expandedMiniplayer": "Expanded Miniplayer",
+  "explore": "Explore",
   "export": "Export",
   "exportAsM3u": "Export as M3U",
   "extension": "Extension",
@@ -1229,6 +1239,7 @@
   "inserted": "inserted",
   "instantlyApplies": "Instantly Applies",
   "instrumental": "Instrumental",
+  "integrations": "Integrations",
   "interactionReminder": "Interaction Reminder",
   "intro": "Intro",
   "invertSelection": "Invert Selection",
@@ -1376,6 +1387,7 @@
   "movies": "Movies",
   "multipleTracksTagsEditNote": "You are about to edit these tracks,\nUnchanged fields remain untouched.",
   "multipleValues": "Multiple values",
+  "music": "Music",
   "musicOfftopic": "Music Offtopic",
   "musicalKey": "Key",
   "name": "Name",
@@ -1383,6 +1395,7 @@
   "never": "Never",
   "newDirectory": "New directory",
   "newLabel": "New",
+  "newReleases": "New releases",
   "newTracksAdd": "Add Tracks",
   "newTracksMoods": "Mood",
   "newTracksMoodsSubtitle": "Generate tracks based on available moods",
