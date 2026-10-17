@@ -48,6 +48,13 @@
       }
     }
   },
+  "@couldNotConnectToName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@countAlbumArtists": {
     "placeholders": {
       "count": {
@@ -576,6 +583,9 @@
   "@sliders": {
     "description": "Shows the equalizer as vertical gain sliders"
   },
+  "@slope": {
+    "description": "Steepness of a low/high pass filter, in dB per octave"
+  },
   "@sourcePerScope": {
     "placeholders": {
       "scope": {
@@ -875,6 +885,7 @@
   "copiedToClipboard": "Скопіювати в буфер обміну",
   "copy": "Скопіювати",
   "corruptedFile": "Не вдалося прочитати файл. Можливо, він пошкоджений",
+  "couldNotConnectToName": "Не вдалося підключитися до {name}",
   "couldntOpen": "Не вдалося відкрити :(",
   "couldntOpenYtLink": "Для цього треку не встановлено посилання YouTube",
   "couldntPlayFile": "Не вдалося відтворити файл",
@@ -1066,6 +1077,7 @@
   "exit": "Вихід",
   "exitAppSubtitle": "Натисніть ще раз, щоб вийти",
   "expandedMiniplayer": "Розгорнутий мініплеєр",
+  "explore": "Огляд",
   "export": "Експортувати",
   "exportAsM3u": "Експорт у форматі M3U",
   "extension": "Розширення",
@@ -1214,6 +1226,7 @@
   "inserted": "Введено",
   "instantlyApplies": "Миттєво застосувати",
   "instrumental": "Інструментальна пауза",
+  "integrations": "Інтеграції",
   "interactionReminder": "Нагадування про взаємодію",
   "intro": "Вступ",
   "invertSelection": "Інвертувати виділення",
@@ -1361,6 +1374,7 @@
   "movies": "Фільми",
   "multipleTracksTagsEditNote": "Ви збираєтеся редагувати ці треки,\nНезмінені поля не оброблятимуться.",
   "multipleValues": "Кілька значень",
+  "music": "Музика",
   "musicOfftopic": "Музичний офтопік",
   "musicalKey": "Тональність",
   "name": "Назва",
@@ -1368,6 +1382,7 @@
   "never": "Ніколи",
   "newDirectory": "Новий каталог",
   "newLabel": "Нові",
+  "newReleases": "Нові випуски",
   "newTracksAdd": "Додати треки",
   "newTracksMoods": "Настрій",
   "newTracksMoodsSubtitle": "Згенерувати треки на основі настроїв",
@@ -1809,6 +1824,8 @@
   "sleepAfter": "Заснути через",
   "sleepTimer": "Таймер сну",
   "sliders": "Повзунки",
+  "slope": "Крутизна",
+  "smart": "Розумний",
   "smartPlaylist": "Смарт-плейлист",
   "smartPlaylists": "Смарт-плейлисти",
   "socials": "Соцмережі",
