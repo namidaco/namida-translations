@@ -278,6 +278,9 @@
       }
     }
   },
+  "@eps": {
+    "description": "Plural of EP (extended play), a music release longer than a single but shorter than an album"
+  },
   "@eqAllPass": {
     "description": "Equalizer band type that only shifts phase, the volume stays the same"
   },
@@ -366,6 +369,13 @@
       }
     }
   },
+  "@importSourceData": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
   "@importSpotifyHistoryGuide": {
     "placeholders": {
       "link": {
@@ -438,6 +448,13 @@
     "description": "Mixes the left and right channels together, so both sides play the same sound"
   },
   "@newTracksRecommendedSubtitle": {
+    "placeholders": {
+      "currentTrack": {
+        "type": "String"
+      }
+    }
+  },
+  "@newTracksSimilarSubtitle": {
     "placeholders": {
       "currentTrack": {
         "type": "String"
@@ -635,6 +652,13 @@
     }
   },
   "@usbDirectUnsupportedDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@usbDirectWaitingPlayback": {
     "placeholders": {
       "device": {
         "type": "String"
@@ -975,14 +999,16 @@
   "downloadingWillBeSkipped": "Herunterladen wird übersprungen",
   "downloadingWillOverrideIt": "Herunterladen wird es überschreiben",
   "downloads": "Downloads",
-  "downloadsMetadataTags": "Downloads Metadaten Tags",
-  "downloadsMetadataTagsSubtitle": "Extrahiert standardmäßig Künstler, Titel und Album aus den Videoinformationen",
+  "downloadsMetadataTags": "Lädt Metadaten-Merkmale herunter",
+  "downloadsMetadataTagsSubtitle": "Künstler, Titel und Album aus den Videoinformationen standardmäßig extrahieren",
   "downmix": "Kanal-Mischung",
+  "draft": "Entwurf",
   "dragToSeek": "Ziehen zum Suchen",
   "duckAudio": "Senkaudio",
   "duplicatedItemsAdding": "Du versuchst, einige Elemente hinzuzufügen, die bereits in dieser Playlist existieren",
   "duplicatedTracks": "Duplizierte Titel",
   "duration": "Dauer",
+  "echo": "Echo",
   "edgeColorsSwitching": "Umschalten der Randfarben",
   "edgeLights": "Kantenbeleuchtung",
   "edit": "Bearbeiten",
@@ -1022,6 +1048,7 @@
   "endsWith": "Endet mit",
   "enterSymbol": "Bitte gebe ein Symbol ein",
   "enterTheAddressShownOnTheOtherDevice": "Gebe die angezeigte Adresse unter „Server“ auf dem anderen Gerät ein",
+  "eps": "EPs",
   "eqAllPass": "Allpass",
   "eqBandPass": "Band Pass",
   "eqHighPass": "Hochpass",
@@ -1035,6 +1062,7 @@
   "error": "Fehler",
   "errorFetchingVideoList": "Fehler beim Abrufen der Videoliste",
   "errorPlayingTrack": "Fehler beim Abspielen eines Tracks",
+  "exactPhrase": "Genaue Phrase",
   "exclude": "Ausschließen",
   "excludedFodlers": "Ausgeschlossene Ordner",
   "exclusive": "Exklusiv",
@@ -1043,6 +1071,7 @@
   "exit": "Verlassen",
   "exitAppSubtitle": "Erneut tippen um zu beenden",
   "expandedMiniplayer": "Erweiterter Miniplayer",
+  "explore": "Erkunden",
   "export": "Exportieren",
   "exportAsM3u": "Als M3U exportieren",
   "extension": "Erweiterung",
@@ -1167,14 +1196,17 @@
   "immersiveModeSubtitle": "Status- und Navigationsleisten ausblenden, wenn der Miniplayer erweitert ist",
   "import": "Importieren",
   "importAll": "Alle importieren",
+  "importData": "Daten importieren",
   "importLastFmHistoryGuide": "1. Gehe zu {lastfmCsvLink}\n\n2. Gebe deinen Benutzernamen ein, rufe die csv-Datei ab und lade sie herunter.\n\n3. Wähle die Datei auf dem nächsten Bildschirm aus.",
   "importListenBrainzHistoryGuide": "1. Rufe {link} auf\n\n2. Daten anfordern und herunterladen\n\n3. Auf dem nächsten Bildschirm zwischen ZIP- und JSON-Dateien auswählen.",
   "importPlaylist": "Wiedergabeliste importieren",
+  "importSourceData": "Daten aus {source} importieren",
   "importSpotifyHistoryGuide": "1. Rufe den {link} auf\n\n2. Aktiviere „Erweiterter Streaming-Verlauf“\n\n3. Daten anfordern und herunterladen\n\n4. Auf dem nächsten Bildschirm zwischen ZIP- und JSON-Dateien auswählen.",
   "importTimeRange": "Zeitspanne importieren",
   "importYoutubeHistoryGuide": "1. Gehe zu {takeoutLink}\n\n2. Drücke auf \"Mehrere Formate\" und wähle neben \"Verlauf\" die Option \"JSON\".\n\n3. Drücke auf \"Alle Youtube Daten inbegriffen\", hebe die Auswahl von \"Alle\" auf und wähle \"History only\".\n\n4. Exportieren, Herunterladen & Entpacken erstellen.\n\n5. Wähle auf dem nächsten Bildschirm \"watch-history.json\".",
   "importedNChannelsSuccessfully": "{number, plural, one{{number} Kanäle erfolgreich importiert} other{Imported {number} Kanäle erfolgreich importiert}}",
   "importedNPlaylistsSuccessfully": "{number, plural, other{{numberText} Playlists erfolgreich importiert}}",
+  "inTitle": "Im Titel",
   "includeVideos": "Videos einbeziehen",
   "indexRefreshRequired": "Nach der Änderung eine Aktualisierung durchführen",
   "indexer": "Indexer",
@@ -1185,6 +1217,7 @@
   "info": "Info",
   "inserted": "eingefügt",
   "instantlyApplies": "Sofort anwendbar",
+  "instrumental": "Instrumental",
   "integrations": "Integrationen",
   "interactionReminder": "Interaktionserinnerung",
   "intro": "Intro",
@@ -1208,7 +1241,9 @@
   "jumpToDay": "Zu Tag springen",
   "jumpToFirstTrackAfterQueueFinish": "Zum ersten Titel springen nachdem Warteschlange abgeschlossen wurde",
   "keepCachedVersions": "Cachede Versionen behalten",
+  "keepCurrentOrder": "Aktuellen Ordner beibehalten",
   "keepFileDates": "Datum von Dateien behalten",
+  "keepQueue": "Warteschlange beibehalten",
   "keepScreenAwakeMiniplayerExpanded": "Miniplayer erweitert wird",
   "keepScreenAwakeMiniplayerExpandedAndVideo": "Miniplayer erweitert und ein Video abgespielt wird",
   "keepScreenAwakeNone": "Bildschirm nicht wach halten",
@@ -1220,6 +1255,7 @@
   "lastListen": "Letzte Wiedergabe",
   "lastPlayed": "Zuletzt abgespielt",
   "lastPlayedPosition": "Letzte gespielte Position",
+  "latency": "Latenz",
   "latestQueue": "Aktuelle Warteschlange",
   "learnMore": "Mehr erfahren",
   "left": "Links",
@@ -1235,7 +1271,7 @@
   "limit": "Limit",
   "limiter": "Limiter",
   "link": "Link",
-  "listOfFolders": "Liste von Ordnern",
+  "listOfFolders": "Ordnerliste",
   "listeningClock": "Höruhr",
   "listensPerMonth": "Pro Monat angehört",
   "loadAll": "Alle laden",
@@ -1271,6 +1307,7 @@
   "manualBackup": "Manuell",
   "manualBackupSubtitle": "Bestimmte Datei abrufen",
   "markAsRead": "Als gelesen markieren",
+  "match": "Abgleichen",
   "matchAllTracks": "Alle Titel abgleichen",
   "matchAllTracksNote": "Dies kann sich auf die Abgleichsgeschwindigkeit auswirken, da alle Titel in deiner Bibliothek überprüft werden",
   "matchCase": "Match Fall",
@@ -1331,11 +1368,13 @@
   "multipleValues": "Mehrere Werte",
   "music": "Musik",
   "musicOfftopic": "Musik Abseits des Themas",
+  "musicalKey": "Schlüssel",
   "name": "Name",
   "nameContainsBadCharacter": "Name enthält schlechtes Zeichen",
   "never": "Nie",
   "newDirectory": "Neues Verzeichnis",
   "newLabel": "Neu",
+  "newReleases": "Neuerscheinungen",
   "newTracksAdd": "Titel hinzufügen",
   "newTracksMoods": "Stimmung",
   "newTracksMoodsSubtitle": "Titel basierend auf verfügbaren Stimmungen generieren",
@@ -1345,12 +1384,15 @@
   "newTracksRatingsSubtitle": "Titel mit einer bestimmten Bewertung generieren",
   "newTracksRecommended": "Empfohlen",
   "newTracksRecommendedSubtitle": "Die {currentTrack} Titel, die du gewöhnlich gehört hast, generieren",
+  "newTracksSimilar": "Ähnliche Titel",
+  "newTracksSimilarSubtitle": "Titel generieren, die {currentTrack} ähneln",
   "newTracksSimilarrReleaseDate": "Ähnliches Erscheinungsdatum",
   "newTracksSimilarrReleaseDateSubtitle": "Titel, die etwa zur gleichen Zeit wie {currentTrack} veröffentlicht wurden, generieren",
   "newTracksUnknownYear": "Track hat unbekanntes Jahr",
   "newVideosAtTop": "Neue Videos oben hinzufügen",
   "newest": "Neueste",
   "next": "Nächstes",
+  "nextChapter": "Nächstes Kapitel",
   "no": "nein",
   "noChangesFound": "Keine Änderungen wurden gefunden.",
   "noEnoughTracks": "Du hast nicht viele Titel...",
@@ -1373,6 +1415,7 @@
   "notSupportedForVideoFiles": "Nicht für Videodateien unterstützt",
   "note": "Notiz",
   "notification": "Benachrichtigung",
+  "notificationButtons": "Benachrichtigungsschaltflächen",
   "notifications": "Benachrichtigungen",
   "number": "Zahl",
   "numberOfTracks": "Anzahl der Titel",
@@ -1387,7 +1430,7 @@
   "onDeviceConnect": "Geräteverbindung",
   "onInterruption": "Bei Unterbrechung",
   "onNotificationTap": "Auf Benachrichtigung tippen",
-  "onOpeningYoutubeLink": "Beim Öffnen des Youtube-Links",
+  "onOpeningYoutubeLink": "Beim Öffnen des YouTube-Links",
   "onSwiping": "Über Swiping",
   "onVolumeZero": "Bei autstärke 0",
   "ongoing": "Laufend",
@@ -1607,6 +1650,7 @@
   "reconnect": "Erneut verbinden",
   "recordLabel": "Plattenlabel",
   "rediscoveries": "Neuentdeckungen",
+  "redo": "Wiederherstellen",
   "refresh": "Aktualisieren",
   "refreshLibrary": "Aktualisierungsbücherei",
   "refreshLibrarySubtitle": "Überprüfe neu hinzugefügte oder gelöschte Musik",
@@ -1639,6 +1683,7 @@
   "repeatModeOne": "Aktuellen Track wiederholen",
   "repeatRate": "Rate wiederholen",
   "replaceAllListensWithAnotherTrack": "Alles Angehörte durch einen anderen Track ersetzen",
+  "replaceQueue": "Warteschlange ersetzen",
   "replaceWith": "Ersetzen mit",
   "replies": "Antworten",
   "reply": "Antwort",
@@ -1652,6 +1697,7 @@
   "respectNoMediaSubtitle": "Ordner mit .nomedia nicht einbeziehen",
   "restart": "Neustart",
   "restoreBackup": "Sicherung wiederherstellen",
+  "restoreCustomOrder": "Benutzerdefinierte Reihenfolge wiederherstellen",
   "restoreDefaults": "Standardeinstellungen wiederherstellen",
   "restoredBackupSuccessfully": "Wiederhergestellte Sicherung",
   "restoredBackupSuccessfullySub": "Sicherungsdatei wurde erfolgreich wiederhergestellt",
@@ -1661,6 +1707,7 @@
   "resumeIfWasPausedByVolume": "Fortsetzen, wenn durch Lautstärke angehalten wurde",
   "resumeIfWasPausedForLessThanNMin": "{number, plural, one{Fortsetzen, wenn Pause weniger als {number} Minuten gedauert hat} other{Fortsetzen, wenn Pause weniger als {number} Minuten gedauert hat}}",
   "returnYoutubeDislike": "Dislike auf YouTube anzeigen",
+  "reverb": "Hall",
   "reverseOrder": "Umgekehrte Reihenfolge",
   "right": "Rechts",
   "rightAction": "Rechte Aktion",
@@ -1684,18 +1731,21 @@
   "seasonalEffectsSubtitle": "Folgt automatisch der Jahreszeit",
   "seconds": "Sekunden",
   "seeProjectCodeOnSite": "Siehe Projektcode auf {site}",
+  "seekBackward": "Rückwärts suchen",
   "seekDuration": "Dauer suchen",
   "seekDurationInfo": "Du kannst auf die aktuelle Dauer tippen, um rückwärts zu suchen & auf die Gesamtdauer, um vorwärts zu suchen",
+  "seekForward": "Vorwärts suchen",
   "seekbar": "Suchleiste",
   "selectAll": "Alles auswählen",
   "selectFilesAlreadyInLocalLibrary": "Wähle Dateien aus, die sich bereits in der lokalen Bibliothek befinden",
-  "selectPlaylists": "Playlists auswählen",
+  "selectPlaylists": "Wiedergabelisten auswählen",
   "selectedBy": "Ausgewählt nach",
   "selectedTracks": "Ausgewählte Titel",
   "selfPromotion": "Selbstvermarktung",
   "semitones": "Halbtöne",
   "send": "Senden",
   "sendToAllDevices": "An alle Geräte senden",
+  "separators": "Trennzeichen",
   "separatorsBlacklistSubtitle": "Diese Wörter werden nicht aufgeteilt",
   "separatorsMessage": "Leerzeichen sind nicht erforderlich, es sei denn, du möchtest einen Buchstaben/Symbol verwenden, der in einem ganzen Wort vorkommt (wie x und ft.)",
   "server": "Server",
@@ -1712,7 +1762,7 @@
   "setRating": "Bewertung setzen",
   "setTags": "Tags setzen",
   "setTagsNestedSubtitle": "Schrägstriche verwenden (/), um sie zu verschachteln",
-  "setYoutubeLink": "Youtube Link setzen",
+  "setYoutubeLink": "YouTube-Link festlegen",
   "settings": "Einstellungen",
   "setupFirstStartup": "Richte den ersten Anlauf ein",
   "share": "Teilen",
@@ -1758,6 +1808,7 @@
   "singles": "Singles",
   "size": "Größe",
   "skip": "Überspringen",
+  "skipButtonsJumpChapters": "Nächster/Vorheriger Sprung zwischen den Kapiteln",
   "skipCountTracking": "Zählschritte verfolgen",
   "skipSilence": "Stille überspringen",
   "skipSingleSubfolders": "Ordner mit einem einzigen Unterordner überspringen",
@@ -1766,6 +1817,7 @@
   "sleepTimer": "Schlaftimer",
   "sliders": "Schieberegler",
   "slope": "Steigung",
+  "smart": "Intelligent",
   "smartPlaylist": "Smarte Wiedergabeliste",
   "smartPlaylists": "Intelligente Wiedergabelisten",
   "socials": "Sozialen",
@@ -1773,6 +1825,7 @@
   "someWebServersRequireAuthentication": "Manche Webserver erfordern eine Authentifizierung. Bitte aktualisiere deine Zugangsdaten, um weiterhin Zugriff auf deine Bibliothek zu haben.",
   "sortBy": "Sortieren nach",
   "soundControl": "Sound Kontrolle",
+  "soundEffects": "Klangeffekte",
   "source": "Quelle",
   "sourcePerScope": "{source} pro {scope}",
   "speed": "Geschwindigkeit",
@@ -1872,13 +1925,14 @@
   "tracksExcludedByNomedia": "Titel ausgeschlossen von .nomedia",
   "tracksInfo": "Titelinfo",
   "translation": "Übersetzung",
+  "tubeWarmth": "Röhrenwärme",
   "turnsOff": "Schaltet aus",
   "type": "Typ",
   "unblock": "Entblocken",
   "underrated": "Unterbewertet",
   "undo": "Rückgängig",
   "undoChanges": "Änderungen rückgängig machen?",
-  "undoChangesDeletedPlaylist": "Gelöschte Playlist rückgängig machen",
+  "undoChangesDeletedPlaylist": "Gelöschte Wiedergabeliste rückgängig machen",
   "undoChangesDeletedQueue": "Gelöschte Warteschlange rückgängig machen",
   "undoChangesDeletedTrack": "Gelöschter Track rückgängig machen",
   "uniqueArtworkHash": "Einzigartiges Kunstwerk Hash",
@@ -1901,6 +1955,7 @@
   "usbDirectPermissionDenied": "Zugriff auf {device} wurde abgelehnt",
   "usbDirectSubtitle": "Leitet den Ton direkt an deinen USB-DAC weiter und umgeht dabei das Audiosystem von Android",
   "usbDirectUnsupportedDevice": "{device} wird nicht unterstützt",
+  "usbDirectWaitingPlayback": "Wiedergabe in anderen Apps stoppen, um {device} zu verwenden",
   "useCollapsedSettingTiles": "Zusammengeklappte Einstellungskacheln verwenden",
   "useForDevice": "Für {device} verwenden",
   "useMediaStore": "Medienspeicher verwenden",
@@ -1923,7 +1978,7 @@
   "videoPlaybackSourceLocal": "Lokale Videos",
   "videoPlaybackSourceLocalExampleSubtitle": "Alan Walker - Faded.m4a\nVideo Alan Walker - Faded (480p).mp4",
   "videoPlaybackSourceLocalSubtitle": "Überprüft, ob eine Videodatei (die in der gewählten Ordnerliste gefunden wurde) einen Dateinamen hat, der den Dateinamen des Tracks enthält",
-  "videoPlaybackSourceYoutube": "Von Youtube",
+  "videoPlaybackSourceYoutube": "Von YouTube",
   "videoPlaybackSourceYoutubeSubtitle": "Überprüft Dateinamen & Kommentar des Tracks auf einen passenden Youtube-Link, Videos werden für die spätere Verwendung gecached.",
   "videoQuality": "Videoqualität",
   "videoQualitySubtitle": "Die beste verfügbare Qualität wird ausgewählt.",
@@ -1933,6 +1988,7 @@
   "viewAll": "Alle anzeigen",
   "views": "Aufrufe",
   "vignette": "Vignette",
+  "virtualSurround": "Virtueller Raumklang",
   "visualizer": "Visualisierer",
   "volume": "Lautstärke",
   "volumeKeys": "Lautstärketasten",
@@ -1954,10 +2010,10 @@
   "youCanNowSendAndReceiveDataWithThisDevice": "Mit diesem Gerät kannst du nun Daten senden und empfangen",
   "yourCurrentMembershipIs": "Deine derzeitige Mitgliedschaft lautet {name}",
   "yourYear": "Dein {year}",
-  "youtube": "Youtube",
-  "youtubeId": "Youtube ID",
-  "youtubeLink": "Youtube Link",
-  "youtubeMusic": "Youtube Musik",
+  "youtube": "YouTube",
+  "youtubeId": "YouTube ID",
+  "youtubeLink": "YouTube-Link",
+  "youtubeMusic": "YouTube Musik",
   "youtubeSettingsSubtitle": "Passe deine Youtube Erfahrung an",
   "youtubeStyleMiniplayer": "Youtube Style Miniplayer",
   "ytPreferNewComments": "Neue Kommentare bevorzugen, wenn möglich",
