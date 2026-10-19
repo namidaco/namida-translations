@@ -1195,7 +1195,7 @@
   "highlight": "Destacado",
   "history": "Historial",
   "historyImportHtmlUnreadable": "No se pudieron leer las entradas HTML de la exportación, exporta el historial como JSON",
-  "historyImportMissingEntriesNote": "Estos datos no se pudieron encontrar dentro de la biblioteca. Si cree que existen, considere agregarlas manualmente",
+  "historyImportMissingEntriesNote": "No se encontraron estos elementos en la biblioteca. Si crees que existen, intenta agregarlos manualmente",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} reproducción de {oldTrackInfo} se reemplazará por {newTrackInfo}, ¿confirmas?} other{{listensCount} reproducciones de {oldTrackInfo} se reemplazarán por {newTrackInfo}, ¿Continuar?}}",
   "home": "Inicio",
   "homeScreenWidget": "Widget de pantalla de inicio",
