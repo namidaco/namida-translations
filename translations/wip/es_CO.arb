@@ -558,6 +558,8 @@
   "hideSkipButtonAfter": "Ocultar botón de omitir tras",
   "highMatches": "Altas coincidencias",
   "highlight": "Destacado",
+  "history": "Historial",
+  "historyImportMissingEntriesNote": "No se encontraron estos elementos en la biblioteca. Si crees que existen, intenta agregarlos manualmente",
   "historyListensReplaceWarning": "{listensCount, plural, one{{listensCount} reproducción de {oldTrackInfo} se reemplazará por {newTrackInfo}, ¿confirmas?} other{{listensCount} reproducciones de {oldTrackInfo} se reemplazarán por {newTrackInfo}, ¿Continuar?}}",
   "hook": "Gancho",
   "host": "Anfitrión",
