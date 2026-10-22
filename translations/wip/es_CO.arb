@@ -454,6 +454,7 @@
   "dontResume": "No reanudar",
   "duplicatedItemsAdding": "Estas tratando de añadir algo que ya existe en esta playlist",
   "editArtwork": "Editar portada",
+  "editTags": "Editar etiquetas",
   "emptyValue": "Campo vacío",
   "enableArtworkCache": "Activar la caché de portadas",
   "enableArtworkCacheSubtitle": "Carga rápido y mejora el rendimiento, pero usa más almacenamiento",
