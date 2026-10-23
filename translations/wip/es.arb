@@ -1,1 +1,37 @@
-{}
+{
+  "@addMoreFromToQueue": {
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "about": "Acerca de",
+  "add": "Añadir",
+  "addAccount": "Añadir cuenta",
+  "addFolder": "Añadir carpeta",
+  "addLanguage": "Añadir idioma",
+  "addLanguageSubtitle": "Ayuda a traducir Namida",
+  "addLrcFile": "Añadir un archivo LRC",
+  "addMoreFromThisAlbum": "Añadir más de este álbum a la cola",
+  "addMoreFromThisArtist": "Añadir más de este artista a la cola",
+  "addMoreFromThisFolder": "Añadir más de esta caperta a la cola",
+  "addMoreFromToQueue": "Añadir más de {media} a la cola",
+  "addToFavourites": "Añadir a favoritos",
+  "addToPlaylist": "Añadir a la lista de reproducción",
+  "advanced": "Avanzado",
+  "advancedSettingsSubtitle": "Ajustes avanzados, no tocar",
+  "alarm": "Alarma",
+  "album": "Álbum",
+  "albumArtist": "Artista del álbum",
+  "albumArtists": "Artistas del album",
+  "albumThumbnailSizeInList": "Tamaño de la miniatura del álbum",
+  "albums": "Álbumes",
+  "allTime": "Todo el tiempo",
+  "alreadyExists": "Ya existe",
+  "always": "Siempre",
+  "alwaysAsk": "Preguntar siempre",
+  "alwaysRestore": "Restaurar siempre",
+  "animatingThumbnailIntensity": "Intensidad de animación de miniaturas",
+  "animatingThumbnailInversedSubtitle": "Los picos de volumen harán que la miniatura sean más pequeña"
+}
