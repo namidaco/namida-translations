@@ -1165,7 +1165,7 @@
   "trackInfo": "Información de la pista",
   "trackNotFound": "Pista no encontrada",
   "trackNumber": "Número de pista",
-  "trackNumberTotal": "Total de pistas",
+  "trackNumberTotal": "Pistas totales",
   "trackPathOldNew": "Nombre antiguo: \"{oldName}\"\n\nNombre nuevo: \"{newName}\"\n\n¿Estás seguro?",
   "trackPlayMode": "Modo de reproducción",
   "trackPlayModeSearchResults": "Resultados de búsqueda",
