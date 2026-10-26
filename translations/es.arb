@@ -933,7 +933,7 @@
   "crossfade": "Fundido cruzado entre pistas",
   "crossfadeDuration": "Duración del fundido cruzado",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Activar automáticamente el fundido cruzado entre pistas en el último {seconds} segundo} other{Activar automáticamente el fundido cruzado entre pistas en los últimos {seconds} segundos}}",
-  "crossfadeTriggerSecondsDisabled": "No activar automáticamente el fundido cruzado entre pistas",
+  "crossfadeTriggerSecondsDisabled": "No aplicar automáticamente el fundido cruzado",
   "crossfeed": "Mezcla de canales",
   "curve": "Curva",
   "custom": "Personalizado",
