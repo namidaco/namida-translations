@@ -1725,6 +1725,7 @@
   "requiresClearingImageCacheAndReIndexing": "Requires clearing image cache and re indexing",
   "resample": "Resample",
   "rescanVideos": "Re-scan Videos",
+  "reset": "Reset",
   "resetBrightness": "Reset brightness",
   "resetToDefault": "Set to",
   "respectNoMedia": "Respect .nomedia",
