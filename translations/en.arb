@@ -992,6 +992,7 @@
   "discover": "Discover",
   "discoverPage": "Discover",
   "discoveries": "Discoveries",
+  "discoveryFailedAllowLocalNetworkAccess": "Discovery failed, allow Namida in Privacy & Security > Local Network settings (turn it off and on again if it's already allowed)",
   "discoveryFailedTryReenablingNetworkAdapter": "Discovery failed, try re-enabling your network adapter or restarting the device",
   "dislike": "Dislike",
   "dismissibleMiniplayer": "Dismissible Miniplayer",
