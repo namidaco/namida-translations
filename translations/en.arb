@@ -265,6 +265,9 @@
       }
     }
   },
+  "@discoverPage": {
+    "description": "Title of the Discover page, also used in menus that open it"
+  },
   "@dither": {
     "description": "Adding tiny noise when reducing bit depth, to avoid distortion"
   },
@@ -987,6 +990,7 @@
   "disconnect": "Disconnect",
   "discordRichPresence": "Discord Rich Presence",
   "discover": "Discover",
+  "discoverPage": "Discover",
   "discoveries": "Discoveries",
   "discoveryFailedTryReenablingNetworkAdapter": "Discovery failed, try re-enabling your network adapter or restarting the device",
   "dislike": "Dislike",
