@@ -1715,6 +1715,7 @@
   "requiresClearingImageCacheAndReIndexing": "Необхідно очистити кеш зображень та виконати переіндексування",
   "resample": "Передискретизація",
   "rescanVideos": "Повторне сканування відео",
+  "reset": "Скинути",
   "resetBrightness": "Скидання яскравості",
   "resetToDefault": "Встановити на",
   "respectNoMedia": "Дотримуватися .nomedia",
