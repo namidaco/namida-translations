@@ -265,6 +265,9 @@
       }
     }
   },
+  "@discoverPage": {
+    "description": "Title of the Discover page, also used in menus that open it"
+  },
   "@dither": {
     "description": "Adding tiny noise when reducing bit depth, to avoid distortion"
   },
@@ -749,7 +752,7 @@
   "albumArtists": "Artistas del álbum",
   "albumIdentifiers": "Identificadores del álbum",
   "albumThumbnailSizeInList": "Tamaño de la miniatura del álbum",
-  "albumTileCustomization": "Personalización de vista del álbum",
+  "albumTileCustomization": "Personalización del mosaico de álbumes",
   "albums": "Álbumes",
   "albumsCount": "Número de álbumes",
   "all": "Todo",
@@ -986,7 +989,8 @@
   "discardChanges": "¿Descartar los cambios?",
   "disconnect": "Desconectar",
   "discordRichPresence": "Estado de actividad de Discord",
-  "discover": "Descubrir",
+  "discover": "Descubre",
+  "discoverPage": "Descubrir",
   "discoveries": "Descubrimientos",
   "discoveryFailedTryReenablingNetworkAdapter": "Fallo de detección. Reinicia tu adaptador de red o el dispositivo",
   "dislike": "No me gusta",
@@ -1725,6 +1729,7 @@
   "requiresClearingImageCacheAndReIndexing": "Requiere borrar la caché de imágenes y reindexar",
   "resample": "Remuestrear",
   "rescanVideos": "Volver a escanear vídeos",
+  "reset": "Restablecer",
   "resetBrightness": "Restablecer brillo",
   "resetToDefault": "Establecer en",
   "respectNoMedia": "Respetar .nomedia",
