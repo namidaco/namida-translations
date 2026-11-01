@@ -265,6 +265,9 @@
       }
     }
   },
+  "@discoverPage": {
+    "description": "Title of the Discover page, also used in menus that open it"
+  },
   "@dither": {
     "description": "Adding tiny noise when reducing bit depth, to avoid distortion"
   },
@@ -980,8 +983,10 @@
   "discardChanges": "Відхилити зміни?",
   "disconnect": "Відключити",
   "discordRichPresence": "Розширена активність Discord",
-  "discover": "Огляд",
+  "discover": "Відкриття",
+  "discoverPage": "Огляд",
   "discoveries": "Відкриття",
+  "discoveryFailedAllowLocalNetworkAccess": "Виявлення не вдалося; дозвольте Namida доступ у розділі «Приватність і безпека» > «Локальна мережа» (якщо дозвіл уже надано, вимкніть і знову ввімкніть його)",
   "discoveryFailedTryReenablingNetworkAdapter": "Виявлення не вдалося. Спробуйте ще раз увімкнути мережевий адаптер або перезавантажити пристрій",
   "dislike": "Не подобається",
   "dismissibleMiniplayer": "Мініплеєр, який можна закрити",
@@ -1290,6 +1295,7 @@
   "link": "Посилання",
   "listOfFolders": "Список тек",
   "listeningClock": "Годинник прослуховування",
+  "listensCountBoost": "Збільшення кількості прослуховувань",
   "listensPerMonth": "Прослуховувань за місяць",
   "loadAll": "Завантажити все",
   "loadingFile": "Завантаження файлу",
@@ -1303,7 +1309,7 @@
   "lossless": "Без втрат",
   "lostMemories": "Давно прослухане",
   "lostMemoriesSubtitle": "Приблизно в цей час, {number, plural, one{{number} рік} few{{number} роки} other{{number} років}} тому",
-  "lostPartners": "Lost Partners",
+  "lostPartners": "Забуті",
   "loudnessEnhancer": "Підсилення гучності",
   "lyricist": "Автор тексту",
   "lyrics": "Текст пісні",
@@ -1504,7 +1510,7 @@
   "partyFull": "Вечірка заповнена",
   "partyGuestPermissions": "Дозволи для гостей",
   "partyHideOwner": "Приховати кімнати цього організатора",
-  "partyHistory": "Грає у цій вечірці",
+  "partyHistory": "Відтворене у цій вечірці",
   "partyHostOffline": "Організатор вечірки поза мережею",
   "partyHostOnThisDevice": "Хостинг на цьому пристрої",
   "partyHostOnThisDeviceSubtitle": "Сервер не потрібен; тільки для учасників у тій самій мережі",
@@ -1959,7 +1965,7 @@
   "turnsOff": "Вимикає",
   "type": "Тип",
   "unblock": "Розблокувати",
-  "underrated": "Недооцінене",
+  "underrated": "Недооцінені",
   "undo": "Скасувати",
   "undoChanges": "Скасувати зміни?",
   "undoChangesDeletedPlaylist": "Скасувати видалення плейлиста",
