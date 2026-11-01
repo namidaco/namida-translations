@@ -265,6 +265,9 @@
       }
     }
   },
+  "@discoverPage": {
+    "description": "Title of the Discover page, also used in menus that open it"
+  },
   "@dither": {
     "description": "Adding tiny noise when reducing bit depth, to avoid distortion"
   },
@@ -987,6 +990,7 @@
   "disconnect": "Trennen",
   "discordRichPresence": "Discord Reiche Präsenz",
   "discover": "Entdecken",
+  "discoverPage": "Entdecken",
   "discoveries": "Entdeckungen",
   "discoveryFailedTryReenablingNetworkAdapter": "Erkennung fehlgeschlagen. Versuche, den Netzwerkadapter zu reaktivieren oder das Gerät neu zu starten",
   "dislike": "Mag ich nicht",
@@ -1724,6 +1728,7 @@
   "requiresClearingImageCacheAndReIndexing": "Erfordert das Löschen des Bild-Caches und die Neuindizierung",
   "resample": "Neustichprobe",
   "rescanVideos": "Videos erneut scannen",
+  "reset": "Zurücksetzen",
   "resetBrightness": "Helligkeit zurücksetzen",
   "resetToDefault": "Einstellen auf",
   "respectNoMedia": ".nomedia respektieren",
