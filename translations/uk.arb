@@ -1641,7 +1641,6 @@
   "presetOnlyAppliesToSearchPage": "Цей шаблон застосовується лише до сторінки пошуку",
   "presets": "Шаблони",
   "preventDuplicatedTracks": "Запобігати дублюванню треків",
-  "preventDuplicatedTracksSubtitle": "Використовує назву файлу для однозначної ідентифікації треків",
   "preview": "Передперегляд",
   "previous": "Попередній",
   "previousButtonReplays": "Перезавантажувати трек при виборі попереднього треку",

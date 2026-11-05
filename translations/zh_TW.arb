@@ -694,7 +694,6 @@
   "pleaseEnterALinkSubtitle": "嗯..這是一個 youtube 連結嗎?",
   "pleaseEnterAName": "請輸入姓名",
   "preventDuplicatedTracks": "防止重複曲目",
-  "preventDuplicatedTracksSubtitle": "使用檔案名稱來唯一識別曲目",
   "preview": "預覽",
   "previousButtonReplays": "Previous button replays",
   "previousButtonReplaysSubtitle": "if pressed while current position was more than seek duration",

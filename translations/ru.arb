@@ -1174,7 +1174,6 @@
   "pleaseEnterAName": "Пожалуйста, введите название",
   "port": "Порт",
   "preventDuplicatedTracks": "Предотвращать дублирование треков",
-  "preventDuplicatedTracksSubtitle": "Использует имя файла для однозначной идентификации треков",
   "preview": "Предпросмотр",
   "previous": "Предыдущий",
   "previousButtonReplays": "Перезапускать трек при выборе предыдущего трека",

@@ -674,7 +674,6 @@
   "pleaseEnterALinkSubtitle": "آم... این لینک یوتیوب است؟",
   "pleaseEnterAName": "لطفاً نام را وارد کنید",
   "preventDuplicatedTracks": "جلوگیری از آهنگ های یکسان",
-  "preventDuplicatedTracksSubtitle": "از نام آهنگ جهت تشخیص منحصر به فرد آهنگ ها استفاده میکند",
   "preview": "پیش نمایش",
   "previousButtonReplays": "Previous button replays",
   "previousButtonReplaysSubtitle": "if pressed while current position was more than seek duration",

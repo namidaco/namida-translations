@@ -839,7 +839,6 @@
   "pleaseEnterAName": "名前を入力してください",
   "port": "ポート",
   "preventDuplicatedTracks": "トラックの重複防止",
-  "preventDuplicatedTracksSubtitle": "ファイル名を使用してトラックを一意に識別します",
   "preview": "プレビュー",
   "previous": "前",
   "previousButtonReplays": "プレビューボタンでリプレイ",
