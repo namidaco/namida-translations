@@ -359,6 +359,13 @@
       }
     }
   },
+  "@importAppleMusicHistoryGuide": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
   "@importLastFmHistoryGuide": {
     "placeholders": {
       "lastfmCsvLink": {
@@ -930,6 +937,7 @@
   "createNewSmartPlaylist": "Створити новий смарт-плейлист",
   "createdBackupSuccessfully": "Резервну копію створено",
   "createdBackupSuccessfullySub": "Резервну копію успішно створено",
+  "crop": "Обрізати",
   "crossfade": "Згасаючий перехід",
   "crossfadeDuration": "Тривалість згасаючого переходу",
   "crossfadeTriggerSeconds": "Автоматично вмикати згасаючий перехід за {seconds, plural, one{{seconds} останню секунду} few{{seconds} останні секунди} other{{seconds} останні секунд}}",
@@ -1223,6 +1231,7 @@
   "immersiveModeSubtitle": "Приховує статусну та навігаційну панелі при розгорнутому мініплеєрі",
   "import": "Імпорт",
   "importAll": "Імпортувати все",
+  "importAppleMusicHistoryGuide": "1. Перейдіть за посиланням {link}\n\n2. Замовте копію своїх даних і поставте позначку «Інформація про Apple Media Services»\n\n3. Завантажте ZIP-архіви, коли вони будуть готові\n\n4. На наступному екрані виберіть ZIP-архіви або розпаковану папку.",
   "importData": "Імпортувати дані",
   "importLastFmHistoryGuide": "1. Перейдіть на сторінку {lastfmCsvLink}\n\n2. Уведіть своє ім’я користувача, отримайте та завантажте файл CSV.\n\n3. Оберіть файл на наступному екрані.",
   "importListenBrainzHistoryGuide": "1. Перейдіть за посиланням {link}\n\n2. Запитайте дані та завантажте їх.\n\n3. На наступному екрані виберіть формат файлів ZIP або JSON.",
@@ -1444,6 +1453,7 @@
   "notSupportedForNetworkFiles": "Не підтримується для мережевих файлів",
   "notSupportedForVideoFiles": "Не підтримується для відеофайлів",
   "note": "Примітка",
+  "nothingIsCached": "Нічого не зберігається у кеші",
   "notification": "Сповіщення",
   "notificationButtons": "Кнопки сповіщень",
   "notifications": "Сповіщення",
@@ -1895,6 +1905,7 @@
   "subscriber": "Підписник",
   "subscribers": "Підписники",
   "subscriptions": "Підписки",
+  "subtitles": "Субтитри",
   "succeeded": "Успішно",
   "suggestionSubtitle": "Маєте пропозицію чи зіткнулися з проблемою? Відкрийте задачу на {site}",
   "sum": "Сума",
@@ -2039,6 +2050,7 @@
   "waitingForTheOtherDeviceToAccept": "Очікування підтвердження від іншого пристрою",
   "wallpaper": "Шпалери",
   "warning": "Попередження",
+  "waveform": "Форма хвилі",
   "waveformBarsCount": "Кількість смуг хвиль гучності",
   "waves": "Хвилі",
   "webmNoEditTagsSupport": "Формат WEBM не підтримує редагування тегів",
