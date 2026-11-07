@@ -365,6 +365,13 @@
       }
     }
   },
+  "@importAppleMusicHistoryGuide": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
   "@importLastFmHistoryGuide": {
     "placeholders": {
       "lastfmCsvLink": {
@@ -477,6 +484,9 @@
         "type": "String"
       }
     }
+  },
+  "@nowAgo": {
+    "description": "Name of a home mix with the tracks you usually played at this same hour on past days. A playful name, a free translation is fine"
   },
   "@operationRequiresAccount": {
     "placeholders": {
@@ -936,6 +946,7 @@
   "createNewSmartPlaylist": "Create new Smart Playlist",
   "createdBackupSuccessfully": "Created Backup",
   "createdBackupSuccessfullySub": "Backup file has been created successfully",
+  "crop": "Crop",
   "crossfade": "Crossfade",
   "crossfadeDuration": "Crossfade duration",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Trigger Crossfade automatically in the last {seconds} second} other{Trigger Crossfade automatically in the last {seconds} seconds}}",
@@ -1231,6 +1242,7 @@
   "immersiveModeSubtitle": "Hide Status & Navigation bars while Miniplayer is expanded",
   "import": "Import",
   "importAll": "Import all",
+  "importAppleMusicHistoryGuide": "1. Go to {link}\n\n2. Request a copy of your data and check \"Apple Media Services information\"\n\n3. Download the zip files when they are ready\n\n4. Choose the zip files or the extracted folder from the next screen.",
   "importData": "Import data",
   "importLastFmHistoryGuide": "1. Go to {lastfmCsvLink}\n\n2. Type your username, fetch and download csv file.\n\n3. Choose the file from the next screen.",
   "importListenBrainzHistoryGuide": "1. Go to {link}\n\n2. Request Data & Download\n\n3. Choose zip or json files from the next screen.",
@@ -1452,10 +1464,12 @@
   "notSupportedForNetworkFiles": "Not Supported for Network Files",
   "notSupportedForVideoFiles": "Not Supported for Video Files",
   "note": "Note",
+  "nothingIsCached": "Nothing is cached",
   "notification": "Notification",
   "notificationButtons": "Notification buttons",
   "notifications": "Notifications",
   "now": "Now",
+  "nowAgo": "Now Ago",
   "number": "Number",
   "numberOfTracks": "Number of Tracks",
   "obsession": "Obsession",
@@ -1624,7 +1638,6 @@
   "pickFromStorage": "Pick from storage",
   "pin": "Pin",
   "pinned": "Pinned",
-  "pinnedPlaylists": "Pinned Playlists",
   "pitch": "Pitch",
   "plain": "Plain",
   "play": "Play",
@@ -1904,6 +1917,7 @@
   "subscriber": "Subscriber",
   "subscribers": "Subscribers",
   "subscriptions": "Subscriptions",
+  "subtitles": "Subtitles",
   "succeeded": "Succeeded",
   "suggestionSubtitle": "Have an Issue or Suggestion? Open an issue on {site}",
   "sum": "Sum",
@@ -2048,6 +2062,7 @@
   "waitingForTheOtherDeviceToAccept": "Waiting for the other device to accept",
   "wallpaper": "Wallpaper",
   "warning": "Warning",
+  "waveform": "Waveform",
   "waveformBarsCount": "Waveform Bars Count",
   "waves": "Waves",
   "webmNoEditTagsSupport": "WEBM format doesn't support tag editing",
