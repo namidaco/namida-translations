@@ -365,6 +365,13 @@
       }
     }
   },
+  "@importAppleMusicHistoryGuide": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
   "@importLastFmHistoryGuide": {
     "placeholders": {
       "lastfmCsvLink": {
@@ -477,6 +484,9 @@
         "type": "String"
       }
     }
+  },
+  "@nowAgo": {
+    "description": "Name of a home mix with the tracks you usually played at this same hour on past days. A playful name, a free translation is fine"
   },
   "@operationRequiresAccount": {
     "placeholders": {
@@ -936,6 +946,7 @@
   "createNewSmartPlaylist": "Nueva lista de reproducción inteligente",
   "createdBackupSuccessfully": "Copia de seguridad creada",
   "createdBackupSuccessfullySub": "La copia de seguridad se creó correctamente",
+  "crop": "Recortar",
   "crossfade": "Fundido cruzado entre pistas",
   "crossfadeDuration": "Duración del fundido cruzado",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Activar automáticamente el fundido cruzado entre pistas en el último {seconds} segundo} other{Activar automáticamente el fundido cruzado entre pistas en los últimos {seconds} segundos}}",
@@ -1231,14 +1242,15 @@
   "immersiveModeSubtitle": "Ocultar las barras de estado y navegación mientras el minirreproductor está abierto",
   "import": "Importar",
   "importAll": "Importar todo",
+  "importAppleMusicHistoryGuide": "1. Entra en {link}\n\n2. Solicita una copia de tus datos y incluyendo \"Información de Servicios multimedia de Apple\"\n\n3. Descarga los archivos .zip cuando estén listos\n\n4. Elige los archivos .zip o la carpeta extraída en la siguiente pantalla.",
   "importData": "Importar datos",
   "importLastFmHistoryGuide": "1. Ve a {lastfmCsvLink}\n\n2. Introduce tu nombre de usuario, recupera y descarga el archivo csv.\n\n3. Selecciona el archivo en la siguiente pantalla.",
-  "importListenBrainzHistoryGuide": "1. Ve a {link}\n\n2. Solicita los datos y descárgalos\n\n3. Elige los archivos zip o json en la siguiente pantalla.",
+  "importListenBrainzHistoryGuide": "1. Entra en {link}\n\n2. Solicita los datos y descárgalos\n\n3. Elige los archivos .zip o .json en la siguiente pantalla.",
   "importPlaylist": "Importar lista de reproducción",
   "importSourceData": "Importar datos desde {source}",
   "importSpotifyHistoryGuide": "1. Entra en {link}\n\n2. Marca \"Datos de la cuenta\" e \"Historial de reproducción extendido\"\n\n3. Solicita los datos y descárgalos\n\n4. Elige los archivos .zip o .json en la siguiente pantalla.",
   "importTimeRange": "Importar un rango de tiempo",
-  "importYoutubeHistoryGuide": "1. Entra en {takeoutLink}\n\n2. Haz clic en \"Múltiples formatos\" y, al lado de \"Historial\", elige \"JSON\".\n\n3. Haz clic en \"Se incluyeron todos los datos de YouTube\", pulsa en \"Desmarcar todo\" y selecciona el historial y las listas de reproducción.\n\n4. Crea la exportación y descárgala.\n\n5. Elige los archivos ZIP o la carpeta extraída en la siguiente pantalla.",
+  "importYoutubeHistoryGuide": "1. Entra en {takeoutLink}\n\n2. Haz clic en \"Múltiples formatos\" y, al lado de \"Historial\", elige \"JSON\".\n\n3. Haz clic en \"Se incluyeron todos los datos de YouTube\", pulsa en \"Desmarcar todo\" y selecciona el historial y las listas de reproducción.\n\n4. Crea la exportación y descárgala.\n\n5. Elige los archivos .zip o la carpeta extraída en la siguiente pantalla.",
   "importedNChannelsSuccessfully": "{number, plural, one{{number} canal importado correctamente} other{{number} canales importados correctamente}}",
   "importedNPlaylistsSuccessfully": "{number, plural, one{{numberText} lista de reproducción importada correctamente} other{{numberText} listas de reproducción importadas correctamente}}",
   "inTitle": "Por título",
@@ -1433,11 +1445,11 @@
   "no": "no",
   "noBackCoverFound": "Sin contraportada",
   "noChangesFound": "No se han encontrado cambios.",
-  "noEnoughTracks": "No tienes muchas pistas...",
+  "noEnoughTracks": "No tienes suficientes pistas...",
   "noExcludedFolders": "No tienes ninguna carpeta excluida",
-  "noFolderChosen": "No has elegido ninguna carpeta",
-  "noMoodsAvailable": "No hay estados de ánimo disponibles",
-  "noNetworkAvailableToFetchData": "No hay red disponible para obtener datos",
+  "noFolderChosen": "No has seleccionado ninguna carpeta",
+  "noMoodsAvailable": "Sin estados de ánimo disponibles",
+  "noNetworkAvailableToFetchData": "Sin red disponible para descargar datos",
   "noResults": "Sin resultados",
   "noTracksFound": "No se encontraron pistas",
   "noTracksFoundBetweenDates": "Este intervalo de tiempo no contiene ninguna pista.",
@@ -1452,10 +1464,12 @@
   "notSupportedForNetworkFiles": "No compatible con archivos de red",
   "notSupportedForVideoFiles": "No compatible con archivos de vídeo",
   "note": "Nota",
+  "nothingIsCached": "La caché está vacía",
   "notification": "Notificación",
   "notificationButtons": "Botones de notificación",
   "notifications": "Notificaciones",
   "now": "Ahora",
+  "nowAgo": "Ahora sueles escuchar...",
   "number": "Número",
   "numberOfTracks": "Número de pistas",
   "obsession": "Obsesión",
@@ -1903,6 +1917,7 @@
   "subscriber": "Suscriptor",
   "subscribers": "Suscriptores",
   "subscriptions": "Suscripciones",
+  "subtitles": "Subtítulos",
   "succeeded": "Exitoso",
   "suggestionSubtitle": "¿Tienes un problema o una sugerencia? Abre una incidencia en {site}",
   "sum": "Suma",
@@ -2047,6 +2062,7 @@
   "waitingForTheOtherDeviceToAccept": "Esperando a que el otro dispositivo acepte",
   "wallpaper": "Fondo de pantalla",
   "warning": "Advertencia",
+  "waveform": "Forma de onda",
   "waveformBarsCount": "Número de barras de forma de onda",
   "waves": "Ondas",
   "webmNoEditTagsSupport": "El formato WEBM no permite editar etiquetas",
