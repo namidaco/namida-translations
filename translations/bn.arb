@@ -265,6 +265,9 @@
       }
     }
   },
+  "@discoverPage": {
+    "description": "Title of the Discover page, also used in menus that open it"
+  },
   "@dither": {
     "description": "বিট ডেপথ কমানোর সময় সামান্য নয়েজ যোগ করা, বিকৃতি এড়াতে"
   },
@@ -358,6 +361,13 @@
         "type": "String"
       },
       "oldTrackInfo": {
+        "type": "String"
+      }
+    }
+  },
+  "@importAppleMusicHistoryGuide": {
+    "placeholders": {
+      "link": {
         "type": "String"
       }
     }
@@ -474,6 +484,9 @@
         "type": "String"
       }
     }
+  },
+  "@nowAgo": {
+    "description": "Name of a home mix with the tracks you usually played at this same hour on past days. A playful name, a free translation is fine"
   },
   "@operationRequiresAccount": {
     "placeholders": {
@@ -755,6 +768,7 @@
   "all": "সব",
   "allListens": "সর্বমোট শ্রবণ",
   "allTime": "সবসময়",
+  "allowThroughFirewall": "ফায়ারওয়ালের মাধ্যমে অনুমতি দিন",
   "alreadyExists": "ইতিমধ্যেই বিদ্যমান",
   "always": "সর্বদা",
   "alwaysAsk": "সর্বদা জিজ্ঞাসা করুন",
@@ -774,6 +788,7 @@
   "appIcon": "অ্যাপ আইকন",
   "appVersion": "অ্যাপ সংস্করণ",
   "appearsOn": "অন্যান্য অ্যালবাম",
+  "applyTo": "প্রয়োগ করুন",
   "artist": "শিল্পী",
   "artists": "শিল্পী",
   "artistsMap": "আর্টিস্ট ম্যাপ",
@@ -873,6 +888,7 @@
   "colorWhenExpanded": "প্রসারিত অবস্থায় রঙ",
   "comment": "কমেন্ট",
   "comments": "কমেন্ট",
+  "compareBy": "তুলনা করুন",
   "completedAlbums": "সম্পূর্ণ অ্যালবামসমূহ",
   "composer": "সুরকার",
   "compress": "কমপ্রেস করুন",
@@ -930,6 +946,7 @@
   "createNewSmartPlaylist": "নতুন স্মার্ট প্লেলিস্ট তৈরি করুন",
   "createdBackupSuccessfully": "ব্যাকআপ তৈরি করা হয়েছে",
   "createdBackupSuccessfullySub": "ব্যাকআপ ফাইল সফলভাবে তৈরি করা হয়েছে",
+  "crop": "ক্রপ করুন",
   "crossfade": "ক্রসফেড",
   "crossfadeDuration": "ক্রসফেড সময়কাল",
   "crossfadeTriggerSeconds": "{seconds, plural, one{শেষ {seconds} সেকেন্ডে স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করুন} other{শেষ {seconds} সেকেন্ডে স্বয়ংক্রিয়ভাবে ক্রসফেড ট্রিগার করুন}}",
@@ -987,7 +1004,9 @@
   "disconnect": "ডিসকানেক্ট করুন",
   "discordRichPresence": "ডিসকর্ড রিচ প্রেজেন্স",
   "discover": "ডিসকভার",
+  "discoverPage": "ডিসকভার",
   "discoveries": "ডিসকভার সমূহ",
+  "discoveryFailedAllowLocalNetworkAccess": "অনুসন্ধান ব্যর্থ হয়েছে, 'Privacy & Security > Local Network' সেটিংসে গিয়ে Namida-কে অনুমতি দিন (যদি ইতিমধ্যে অনুমতি দেওয়া থাকে, তবে একবার বন্ধ করে আবার চালু করুন)",
   "discoveryFailedTryReenablingNetworkAdapter": "ডিসকভারি ব্যর্থ হয়েছে, আপনার নেটওয়ার্ক অ্যাডাপ্টার পুনরায় চালু করুন বা ডিভাইস রিস্টার্ট করুন",
   "dislike": "ডিসলাইক",
   "dismissibleMiniplayer": "খারিজযোগ্য মিনিপ্লেয়ার",
@@ -1101,7 +1120,7 @@
   "extractAllColorPalettes": "সব কালার প্যালেট এক্সট্র্যাক্ট করুন",
   "extractAllColorPalettesSubtitle": "{number, plural, one{{number}টি প্যালেট বাকি আছে, এক্সট্র্যাক্ট করবেন?} other{{number}টি প্যালেট বাকি আছে, এক্সট্র্যাক্ট করবেন?}}",
   "extractFeatArtist": "শিরোনাম থেকে ফিচারিং শিল্পী বের করুন",
-  "extractFeatArtistSubtitle": "(feat. X) এবং (ft. X) শিল্পীগুলোকে একটি নতুন শিল্পী এন্ট্রি হিসেবে বের করে।",
+  "extractFeatArtistSubtitle": "(feat. X) এবং (ft. X) শিল্পীদের প্রত্যেককে আলাদা শিল্পী এন্ট্রি হিসেবে বের করে।",
   "extractingInfo": "তথ্য এক্সট্র্যাক্ট করা হচ্ছে",
   "extras": "অতিরিক্ত",
   "extrasSubtitle": "আপনার অভিজ্ঞতা ঠিক করতে অতিরিক্ত সেটিংস",
@@ -1143,6 +1162,7 @@
   "finished": "সম্পন্ন হয়েছে",
   "finishedUpdatingLibrary": "লাইব্রেরি আপডেট সম্পন্ন হয়েছে",
   "fireflies": "ফায়ারফ্লাই",
+  "firewallBlocksOtherDevicesFromConnecting": "ফায়ারওয়াল অন্যান্য ডিভাইসকে এই সার্ভারের সাথে সংযুক্ত হতে বাধা দিচ্ছে",
   "fireworks": "আতশবাজি",
   "firstListen": "প্রথম শ্রবণ",
   "fixYtdlpBigThumbnailSize": "yt-dlp বড় থাম্বনেইল সাইজ ঠিক করুন",
@@ -1222,6 +1242,7 @@
   "immersiveModeSubtitle": "মিনিপ্লেয়ার প্রসারিত থাকাকালীন স্ট্যাটাস এবং নেভিগেশন বার লুকান",
   "import": "ইম্পোর্ট",
   "importAll": "সব ইম্পোর্ট করুন",
+  "importAppleMusicHistoryGuide": "১. {link}-এ যান\n\n২. আপনার ডাটার একটি কপির জন্য অনুরোধ করুন এবং \"Apple Media Services information\" অপশনটি টিক দিন\n\n৩. zip ফাইলগুলো প্রস্তুত হলে ডাউনলোড করুন।\n\n৪. পরবর্তী স্ক্রিন থেকে zip ফাইলগুলো অথবা আনজিপ করা ফোল্ডারটি বেছে নিন।",
   "importData": "ডেটা ইম্পোর্ট করুন",
   "importLastFmHistoryGuide": "১. {lastfmCsvLink} -এ যান।\n\n২. আপনার ইউজারনেম লিখুন, তথ্যগুলো সংগ্রহ করুন এবং csv ফাইলটি ডাউনলোড করুন।\n\n৩. পরবর্তী স্ক্রিন থেকে ফাইলটি নির্বাচন করুন।",
   "importListenBrainzHistoryGuide": "১. {link}-এ যান\n\n২. Request Data & Download অপশনে ক্লিক করুন\n\n৩. পরবর্তী স্ক্রিন থেকে zip বা json ফাইল নির্বাচন করুন।",
@@ -1299,6 +1320,7 @@
   "link": "লিঙ্ক",
   "listOfFolders": "নির্বাচিত ফোল্ডার",
   "listeningClock": "লিসেনিং ক্লক",
+  "listensCountBoost": "গান শোনার সংখ্যা বৃদ্ধি",
   "listensPerMonth": "মাসিক শ্রবণ",
   "loadAll": "সব লোড করুন",
   "loadingFile": "ফাইল লোড হচ্ছে",
@@ -1442,9 +1464,12 @@
   "notSupportedForNetworkFiles": "নেটওয়ার্ক ফাইলের জন্য সমর্থিত নয়",
   "notSupportedForVideoFiles": "ভিডিও ফাইলের জন্য সমর্থিত নয়",
   "note": "দ্রষ্টব্য",
+  "nothingIsCached": "কোনো কিছুই ক্যাশ করা নেই",
   "notification": "নোটিফিকেশন",
   "notificationButtons": "নোটিফিকেশন বোতাম",
   "notifications": "নোটিফিকেশন",
+  "now": "এখন",
+  "nowAgo": "এইমাত্র",
   "number": "সংখ্যা",
   "numberOfTracks": "ট্র্যাকের সংখ্যা",
   "obsession": "প্রবল পছন্দ",
@@ -1473,6 +1498,7 @@
   "operationRequiresMembership": "অপারেশন {operation} এর জন্য কমপক্ষে {name} সদস্যপদ প্রয়োজন",
   "or": "বা",
   "otherAppsSounds": "অন্য অ্যাপের শব্দ",
+  "otherDeviceDidNotAnswerItsFirewallMightBeBlockingNamida": "অন্য ডিভাইসটি সাড়া দেয়নি। সেটির ফায়ারওয়াল হয়তো Namida-কে বাধা দিচ্ছে।",
   "others": "অন্যান্য",
   "outline": "আউটলাইন",
   "output": "আউটপুট",
@@ -1643,6 +1669,7 @@
   "presetOnlyAppliesToSearchPage": "এই প্রিসেটটি কেবল সার্চ পেজের জন্য প্রযোজ্য",
   "presets": "প্রিসেট",
   "preventDuplicatedTracks": "ডুপ্লিকেট ট্র্যাক প্রতিরোধ করুন",
+  "preventDuplicatedTracksSubtitle": "একই শিরোনাম, শিল্পী এবং দৈর্ঘ্যের ডুপ্লিকেট গানগুলো বাদ দেয়",
   "preview": "প্রিভিউ",
   "previous": "পূর্ববর্তী",
   "previousButtonReplays": "‘পূর্ববর্তী’ বাটন দ্বারা পুনঃচালনা করুন",
@@ -1722,6 +1749,7 @@
   "requiresClearingImageCacheAndReIndexing": "ছবির ক্যাশ সাফ করা এবং পুনরায় ইনডেক্সিং করা প্রয়োজন",
   "resample": "রিস্যাম্পল",
   "rescanVideos": "ভিডিও স্ক্যান করুন",
+  "reset": "রিসেট",
   "resetBrightness": "উজ্জ্বলতা রিসেট করুন",
   "resetToDefault": "ডিফল্ট মান পুনরুদ্ধার করা হয়েছে",
   "respectNoMedia": ".nomedia মেনে চলুন",
@@ -1786,7 +1814,7 @@
   "serverRejectedTheConnectionRequest": "সার্ভার কানেকশনের অনুরোধটি প্রত্যাখ্যান করেছে",
   "setAs": "হিসেবে সেট করুন",
   "setAsDefault": "ডিফল্ট হিসেবে সেট করুন",
-  "setFileLastModifiedAsVideoUploadDate": "ফাইলের সর্বশেষ পরিবর্তনকে ভিডিও আপলোডের তারিখ হিসেবে সেট করুন",
+  "setFileLastModifiedAsVideoUploadDate": "ফাইলের সর্বশেষ পরিবর্তনের তারিখ ভিডিও আপলোডের তারিখ হিসেবে সেট করুন",
   "setMonoAudio": "মোনো অডিও সেট করুন",
   "setMoods": "মুড সেট করুন",
   "setMoodsSubtitle": "আলাদা করতে কমা (,) ব্যবহার করুন",
@@ -1889,6 +1917,7 @@
   "subscriber": "সাবস্ক্রাইবার",
   "subscribers": "সাবস্ক্রাইবার",
   "subscriptions": "সাবস্ক্রিপশন",
+  "subtitles": "সাবটাইটেল",
   "succeeded": "সফল হয়েছে",
   "suggestionSubtitle": "কোনো সমস্যা বা পরামর্শ থাকলে {site}-এ আমাদের জানাতে পারেন",
   "sum": "যোগফল",
@@ -1897,6 +1926,7 @@
   "sussyBaka": "কিছুই পাওয়া যায়নি",
   "swipeActions": "সোয়াইপ অ্যাকশন",
   "swipeToOpenDrawer": "ড্রয়ার খুলতে সোয়াইপ করুন",
+  "symbols": "প্রতীক",
   "sync": "সিঙ্ক করুন",
   "syncAppDataBetweenYourDevices": "আপনার ডিভাইসগুলোর মধ্যে অ্যাপের ডাটা সিঙ্ক করুন",
   "synced": "সিঙ্ক করা হয়েছে",
@@ -2032,10 +2062,12 @@
   "waitingForTheOtherDeviceToAccept": "অন্য ডিভাইস গ্রহণ করার অপেক্ষায়",
   "wallpaper": "ওয়ালপেপার",
   "warning": "সতর্কতা",
+  "waveform": "ওয়েভফর্ম",
   "waveformBarsCount": "ওয়েভফর্ম বার সংখ্যা",
   "waves": "তরঙ্গ",
   "webmNoEditTagsSupport": "WEBM ফরম্যাট ট্যাগ সম্পাদনা সমর্থন করে না",
   "week": "সপ্তাহ",
+  "weekday": "কর্মদিবস",
   "weeks": "সপ্তাহ",
   "wiredDevice": "তারযুক্ত ডিভাইস",
   "wirelessDevice": "তারবিহীন ডিভাইস",
