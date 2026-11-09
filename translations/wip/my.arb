@@ -30,5 +30,13 @@
   "albumIdentifiers": "အယ်လ်ဘမ်များကိုခွဲခြားပေးသောအရာများ",
   "albumThumbnailSizeInList": "အယ်လ်ဘမ်ရုပ်ပုံ၏အရွယ်အစား",
   "albums": "အယ်လ်ဘမ်များ",
-  "albumsCount": "အယ်လ်ဘမ်အရေအတွက်"
+  "albumsCount": "အယ်လ်ဘမ်အရေအတွက်",
+  "all": "အကုန်",
+  "allTime": "အတစ်ချိန်လုံး",
+  "always": "အမြဲတမ်း",
+  "alwaysAsk": "အမြဲ မေးပါ",
+  "alwaysDim": "အမြဲ မှိန်ပါ",
+  "alwaysExpandedSearchbar": "SearchBarကို အမြဲဖြန့်ပါ",
+  "alwaysRestore": "အမြဲတမ်း သိမ်းပါ",
+  "anotherProcessIsRunning": "တခြား လုပ်ဆောင်ချက် ရှိနေပါတယ်။"
 }
