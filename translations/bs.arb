@@ -48,6 +48,13 @@
       }
     }
   },
+  "@couldNotConnectToName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "@countAlbumArtists": {
     "placeholders": {
       "count": {
@@ -548,12 +555,14 @@
   "all": "Sve",
   "allListens": "Sva preslušavanja",
   "allTime": "Sveukupno vrijeme",
+  "allowThroughFirewall": "Dopusti kroz vatrozid",
   "alreadyExists": "Već postoji",
   "always": "Uvijek",
   "alwaysAsk": "Uvijek pitaj",
   "alwaysDim": "Uvijek zatamni",
   "alwaysExpandedSearchbar": "Uvijek proširi traku za pretraživanje",
   "alwaysRestore": "Uvijek vrati na zadano",
+  "ambientLights": "Ukrasna rasvjeta",
   "and": "i",
   "androidMixer": "Androidov vlastiti audio mikser koji miksa sve aplikacije i primjenjuje jačinu zvuka i efekte sistema",
   "animated": "Animirano",
@@ -566,6 +575,7 @@
   "appIcon": "Sličica aplikacije",
   "appVersion": "Izdanje aplikacije",
   "appearsOn": "Pojavljuje se na",
+  "applyTo": "Primijeni na",
   "artist": "Izvođač",
   "artists": "Izvođači",
   "artistsMap": "Mapa izvođača",
@@ -620,6 +630,7 @@
   "block": "Blokiraj",
   "blockedDevices": "Blokirani uređaji",
   "blur": "Zamućenje",
+  "bokeh": "Bokeh",
   "bookmarks": "Oznake",
   "borderRadiusMultiplier": "Množitelj radijusa ivice",
   "bugReport": "Izvještaj o greškama",
@@ -643,6 +654,7 @@
   "chorus": "Refren",
   "christmas": "Božić",
   "claim": "Zahtjev",
+  "clean": "Očisti",
   "cleanup": "Čišćenje",
   "clear": "Očisti",
   "clearAudioCache": "Očisti predmemoriju zvuka",
@@ -664,6 +676,7 @@
   "colorWhenExpanded": "Boja kada se proširi",
   "comment": "Komentar",
   "comments": "Komentari",
+  "compareBy": "Usporedi prema",
   "completedAlbums": "Završeni albumi",
   "composer": "Kompozitor",
   "compress": "Kompresuj",
@@ -687,6 +700,7 @@
   "copiedToClipboard": "Kopirano u međuspremnik",
   "copy": "Kopiraj",
   "corruptedFile": "Nije moguće obraditi datoteku, možda je oštećena",
+  "couldNotConnectToName": "Nije se moguće povezati sa {name}",
   "couldntOpen": "Nije moguće otvoriti :(",
   "couldntOpenYtLink": "Nema YouTube poveznice za ovu pjesmu",
   "couldntPlayFile": "Nije moguće reproducirati datoteku",
@@ -720,6 +734,7 @@
   "createNewSmartPlaylist": "Napravi novi pametni spisak pjesama",
   "createdBackupSuccessfully": "Rezervna kopija kreirana",
   "createdBackupSuccessfullySub": "Datoteka rezervne kopije je uspješno kreirana",
+  "crop": "Isjeci",
   "crossfade": "Pretapanje",
   "crossfadeDuration": "Trajanje pretapanja",
   "crossfadeTriggerSeconds": "{seconds, plural, one{Automatski pokreni pretapanje u posljednjoj {seconds} sekundi} other{Automatski pokreni pretapanje u posljednjih {seconds} sekundi}}",
