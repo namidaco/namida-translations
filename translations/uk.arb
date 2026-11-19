@@ -479,6 +479,9 @@
       }
     }
   },
+  "@nowAgo": {
+    "description": "Name of a home mix with the tracks you usually played at this same hour on past days. A playful name, a free translation is fine"
+  },
   "@operationRequiresAccount": {
     "placeholders": {
       "name": {
@@ -858,6 +861,7 @@
   "chorus": "Приспів",
   "christmas": "Різдво",
   "claim": "Подати заявку",
+  "clean": "Чистий",
   "cleanup": "Очистка",
   "clear": "Очистити",
   "clearAudioCache": "Очистити кеш аудіо",
@@ -1100,6 +1104,7 @@
   "exit": "Вихід",
   "exitAppSubtitle": "Натисніть ще раз, щоб вийти",
   "expandedMiniplayer": "Розгорнутий мініплеєр",
+  "explicit": "Із віковими обмеженнями",
   "explore": "Огляд",
   "export": "Експортувати",
   "exportAsM3u": "Експорт у форматі M3U",
@@ -1458,6 +1463,7 @@
   "notificationButtons": "Кнопки сповіщень",
   "notifications": "Сповіщення",
   "now": "Щойно",
+  "nowAgo": "Це ж було вже",
   "number": "Номер",
   "numberOfTracks": "Кількість треків",
   "obsession": "Захоплення",
@@ -1858,9 +1864,11 @@
   "skip": "Пропустити",
   "skipButtonsJumpChapters": "«Наступний/Попередній» перехід між розділами",
   "skipCountTracking": "Підрахунок пропусків",
-  "skipSilence": "Пропустити тишу",
+  "skipExplicitTracks": "Пропускати треки з віковими обмеженнями",
+  "skipSilence": "Пропускати тишу",
   "skipSingleSubfolders": "Пропускати теки з однією вкладеною текою",
   "skipSponsorSegmentsInVideos": "Пропускати спонсорські вставки в відео",
+  "skippedExplicitTracks": "Пропущені треки з віковими обмеженнями",
   "sleepAfter": "Заснути через",
   "sleepTimer": "Таймер сну",
   "sliders": "Повзунки",
